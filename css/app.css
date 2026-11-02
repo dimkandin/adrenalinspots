@@ -352,21 +352,83 @@ a:hover { color: var(--sea-2); }
 
 /* ------------------------------------------------------------- narrow screens */
 @media (max-width: 1280px) { :root { --panel: 420px; --side: 276px; } }
-@media (max-width: 900px) {
-  .app { --li: 0px; --ri: 0px; }
-  .side { top: auto; height: 42vh; left: 8px; right: 8px; bottom: 8px; width: auto; }
-  .app.side-collapsed .side { transform: translateY(calc(100% + 24px)); }
-  .app.side-collapsed .side-open { top: auto; bottom: 12px; }
-  .timeline { bottom: calc(42vh + 16px); left: 50%; max-width: calc(100% - 16px); }
-  .app.side-collapsed .timeline { bottom: 60px; }
-  .month-head { top: 12px; left: 14px; }
-  .app.side-collapsed .month-head { top: 12px; }
-  .basemaps { right: 8px; top: 8px; }
-  .panel { top: auto; left: 8px; right: 8px; bottom: 8px; height: 80vh; width: auto; transform: translateY(calc(100% + 24px)); }
+/* ------------------------------------------------------------ phones and small tablets
+   Map first. At the bottom: the month strip and a bar that opens the list as a bottom sheet;
+   filters fold away inside the sheet; the spot card is a tall sheet over everything. */
+.so-sum, .so-label-phone, .filters-toggle { display: none; }
+@media (max-width: 900px) and (orientation: portrait), (max-width: 560px) {
+  .app { --li: 0px; --ri: 0px; --peek: 50px; --sheet: min(70dvh, 640px); --safe-b: env(safe-area-inset-bottom, 0px); --safe-t: env(safe-area-inset-top, 0px); }
+
+  .month-head, .app.side-collapsed .month-head { top: calc(10px + var(--safe-t)); left: 14px; right: 60px; }
+  .month-title { font-size: 30px; }
+  .month-sub { margin-top: 4px; font-size: 13px; }
+
+  .basemaps { top: calc(8px + var(--safe-t)); right: 8px; }
+  .bm-toggle { width: 42px; height: 42px; padding: 0; justify-content: center; gap: 0; font-size: 0; }
+  .bm-toggle .bm-swatch { display: none; }
+  .bm-toggle::before { content: ''; width: 22px; height: 22px; background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2312303f' stroke-width='1.8' stroke-linejoin='round'%3E%3Cpath d='M12 3 2.5 8 12 13l9.5-5z'/%3E%3Cpath d='m2.5 12 9.5 5 9.5-5'/%3E%3Cpath d='m2.5 16 9.5 5 9.5-5'/%3E%3C/svg%3E"); }
+  .bm-toggle .caret { display: none; }
+  .bm-menu { position: fixed; top: auto; left: 8px; right: 8px; bottom: calc(8px + var(--safe-b)); width: auto; max-height: 70dvh; overflow-y: auto; z-index: 20; }
+
+  /* month strip: full width, scrolls sideways, sits above the bar (or above the open sheet) */
+  .timeline { left: 8px; right: 8px; transform: none; max-width: none; padding: 4px; bottom: calc(var(--peek) + 16px + var(--safe-b)); transition: bottom 0.28s cubic-bezier(.2, .8, .2, 1); }
+  .app:not(.side-collapsed) .timeline { bottom: calc(var(--sheet) + 8px + var(--safe-b)); }
+  .tl-btn, .app.has-panel .tl-btn { display: none; }
+  .months { display: flex; width: 100%; gap: 2px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .months::-webkit-scrollbar { display: none; }
+  .m { flex: 1 0 46px; scroll-snap-align: center; padding: 5px 0 4px; }
+  .m-bars { height: 22px; }
+  .m-name { font-size: 12.5px; }
+
+  /* the bar that opens the sheet */
+  .side-open, .app.side-collapsed .side-open { display: none; }
+  .app.side-collapsed .side-open { display: flex; top: auto; left: 8px; right: 8px; bottom: calc(8px + var(--safe-b)); height: var(--peek);
+    align-items: center; justify-content: space-between; gap: 10px; padding: 0 16px; font-size: 14px; }
+  .side-open .so-label { display: none; }
+  .side-open .so-sum { display: block; font-weight: 600; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .side-open .so-label-phone { display: block; flex: none; color: var(--sea); font-weight: 600; }
+  .side-open .so-label-phone::after { content: ' ▴'; }
+
+  /* bottom sheet with the list */
+  .side { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: calc(var(--sheet) + var(--safe-b)); padding-bottom: var(--safe-b); border-radius: 18px 18px 0 0; }
+  .app.side-collapsed .side { transform: translateY(calc(100% + 16px)); opacity: 1; }
+  .brand { position: relative; padding: 14px 6px 4px 16px; }
+  .brand::before { content: ''; position: absolute; top: 6px; left: 50%; width: 36px; height: 4px; margin-left: -18px; border-radius: 2px; background: var(--line); }
+  .side-toggle { width: 42px; height: 42px; font-size: 22px; transform: rotate(-90deg); }
+  .seasons { display: flex; gap: 6px; padding: 4px 12px 6px; overflow-x: auto; scrollbar-width: none; }
+  .seasons::-webkit-scrollbar { display: none; }
+  .sc { flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13.5px; }
+  .filters { display: none; padding: 2px 12px 10px; gap: 6px; }
+  .side.filters-open .filters { display: flex; }
+  .filters-toggle { display: inline-flex; align-items: center; height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: none; font-size: 13.5px; font-weight: 500; white-space: nowrap; color: var(--ink); }
+  .filters-toggle[aria-expanded='true'] { background: var(--sea-wash); border-color: #a9cad7; color: var(--sea-2); }
+  .qf, .dd-btn { padding: 8px 12px; font-size: 13.5px; }
+  .dd-menu, .dd-host .dd-menu { position: fixed; left: 8px; right: 8px; top: auto; bottom: calc(8px + var(--safe-b)); min-width: 0; max-height: 70dvh; overflow-y: auto; z-index: 20; }
+  .dd-opt { padding: 12px; font-size: 15px; white-space: normal; }
+  .search-row { padding: 6px 12px 4px; }
+  .search input { height: 40px; font-size: 16px; }   /* 16px: iOS does not zoom into the field */
+  .reset { padding: 8px 4px; font-size: 13.5px; }
+  .list-head { margin: 8px 16px 2px; }
+  .row { padding: 10px 8px; }
+  .row-name { font-size: 15px; }
+  .row-place { font-size: 12.5px; }
+  .side-foot { padding: 8px 12px; }
+  .lang select { padding: 8px 10px; font-size: 14px; }
+  .unit button { padding: 7px 12px; font-size: 13px; }
+
+  /* spot card: a tall sheet over everything, a strip of map stays visible on top */
+  .panel { top: calc(44px + var(--safe-t)); left: 0; right: 0; bottom: 0; width: auto; max-width: none; border-radius: 18px 18px 0 0; transform: translateY(calc(100% + 24px)); z-index: 6; }
+  .panel-body { padding-bottom: calc(40px + var(--safe-b)); }
+  .panel-close { width: 42px; height: 42px; }
+  .gallery figure { flex-basis: min(86%, 420px); max-height: 34dvh; aspect-ratio: auto; height: min(57vw, 34dvh); }
+  .panel-body > :not(.gallery-host) { max-width: 720px; }
+
   .maplibregl-ctrl-bottom-right { display: none; }
+  .maplibregl-ctrl-bottom-left { left: 0; bottom: calc(var(--peek) + 92px + var(--safe-b)); }
   .rose-host { grid-template-columns: 1fr; }
   .fact { grid-template-columns: 120px 1fr; }
   .fc-row { grid-template-columns: 48px 16px 1fr 120px; }
+}
 }
 .tip-off { background: var(--bad-bg); color: var(--bad); }
 .tip-vibe { padding: 1px 7px; border-radius: 999px; font-size: 12px; background: var(--mist); color: var(--ink-2); }
@@ -409,3 +471,27 @@ a:hover { color: var(--sea-2); }
 .toast { position: fixed; left: 50%; top: 16px; transform: translateX(-50%); z-index: 60; padding: 10px 14px; border-radius: 12px; background: var(--ink); color: #fff; box-shadow: var(--shadow); font-size: 13px; }
 /* the ‹ › month buttons hide with a card open only when space is tight */
 @media (min-width: 1600px) { .app.has-panel .tl-btn { display: block; } }
+
+/* phones held sideways: keep the laptop layout, just tighter */
+@media (max-height: 520px) and (orientation: landscape) {
+  :root { --side: 268px; --panel: min(420px, 54vw); }
+  .side { top: 8px; bottom: 8px; left: 8px; }
+  .panel { top: 8px; bottom: 8px; right: 8px; }
+  .brand { padding: 8px 8px 4px 12px; }
+  .seasons { padding: 0 6px 4px; }
+  .sc { padding: 3px 8px; }
+  .filters { display: none; padding: 2px 10px 6px; }
+  .side.filters-open .filters { display: flex; }
+  .filters-toggle { display: inline-flex; align-items: center; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: none; font-size: 12.5px; font-weight: 500; white-space: nowrap; }
+  .filters-toggle[aria-expanded='true'] { background: var(--sea-wash); border-color: #a9cad7; color: var(--sea-2); }
+  .search-row { padding: 6px 10px 2px; }
+  .foot-label { display: none; }
+  .month-head { top: 10px; }
+  .app.side-collapsed .month-head { top: 50px; }
+  .month-title { font-size: 28px; }
+  .month-sub { margin-top: 3px; font-size: 12.5px; }
+  .timeline { bottom: 8px; padding: 3px; }
+  .m { padding: 3px 0; gap: 2px; }
+  .m-bars { height: 18px; }
+  .maplibregl-ctrl-bottom-right { display: none; }
+}

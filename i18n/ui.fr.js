@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Replier le panneau',
   'side.open': '☰ Spots',
   'side.open_aria': 'Afficher les filtres et la liste',
+  'side.open_phone': 'Liste et filtres',
+  'filters.toggle': 'Filtres',
   'seasons.aria': 'Saison : cliquez pour la masquer ou l’afficher sur la carte',
   'qf.novisa': 'Visa facile',
   'qf.novisa_title': 'Sans visa, visa à l’arrivée ou e-visa',

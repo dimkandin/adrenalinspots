@@ -1,7 +1,7 @@
 // Map: basemap styles, flag markers, hover tooltip, selection.
 import { BASEMAPS, DEFAULT_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
-import { MONTHS_IN, SEASON, VISA, esc, flagEmoji, rating, windText, vibeLabel } from './util.js';
+import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, rating, windText, vibeLabel } from './util.js';
 import { isRu, lang, t } from './i18n.js';
 
 const INK = '#12303f';
@@ -147,9 +147,12 @@ export function setSelected(id, fly = true) {
 
 // Map padding = the part of the screen covered by floating panels, so centring happens in the free area.
 function viewPadding() {
-  if (window.innerWidth <= 900) {
-    const open = document.querySelector('.app').classList.contains('has-panel');
-    return { left: 0, right: 0, top: 60, bottom: open ? Math.round(window.innerHeight * 0.6) : 90 };
+  if (window.matchMedia(PHONE_QUERY).matches) {
+    const app = document.querySelector('.app');
+    const h = window.innerHeight;
+    if (app.classList.contains('has-panel')) return { left: 0, right: 0, top: 10, bottom: Math.round(h * 0.82) };
+    const sheet = app.classList.contains('side-collapsed') ? 0 : document.querySelector('.side').offsetHeight;
+    return { left: 0, right: 0, top: 70, bottom: Math.min(Math.round(h * 0.8), sheet + 150) };
   }
   const app = document.querySelector('.app');
   const side = document.querySelector('.side');

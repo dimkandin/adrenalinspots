@@ -13,6 +13,8 @@ export default {
   'side.collapse': 'Свернуть панель',
   'side.open': '☰ Споты',
   'side.open_aria': 'Показать фильтры и список',
+  'side.open_phone': 'Список и фильтры',
+  'filters.toggle': 'Фильтры',
   'seasons.aria': 'Сезон: нажми, чтобы скрыть или показать на карте',
   'qf.novisa': 'Легко с визой',
   'qf.novisa_title': 'Без визы, виза по прилёту или электронная',

@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Recolher painel',
   'side.open': '☰ Spots',
   'side.open_aria': 'Mostrar filtros e lista',
+  'side.open_phone': 'Lista e filtros',
+  'filters.toggle': 'Filtros',
   'seasons.aria': 'Temporada: clique para ocultar ou mostrar no mapa',
   'qf.novisa': 'Visto fácil',
   'qf.novisa_title': 'Sem visto, visto na chegada ou visto eletrônico',

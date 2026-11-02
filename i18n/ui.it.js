@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Comprimi il pannello',
   'side.open': '☰ Spot',
   'side.open_aria': 'Mostra filtri ed elenco',
+  'side.open_phone': 'Elenco e filtri',
+  'filters.toggle': 'Filtri',
   'seasons.aria': 'Stagione: clicca per nasconderla o mostrarla sulla mappa',
   'qf.novisa': 'Visto facile',
   'qf.novisa_title': 'Senza visto, visto all’arrivo o e-visa',

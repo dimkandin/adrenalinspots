@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Contraer panel',
   'side.open': '☰ Spots',
   'side.open_aria': 'Mostrar filtros y lista',
+  'side.open_phone': 'Lista y filtros',
+  'filters.toggle': 'Filtros',
   'seasons.aria': 'Temporada: haz clic para ocultarla o mostrarla en el mapa',
   'qf.novisa': 'Visado fácil',
   'qf.novisa_title': 'Sin visado, visado a la llegada o e-visa',

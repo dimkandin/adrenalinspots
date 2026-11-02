@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Collapse panel',
   'side.open': '☰ Spots',
   'side.open_aria': 'Show filters and list',
+  'side.open_phone': 'List & filters',
+  'filters.toggle': 'Filters',
   'seasons.aria': 'Season: click to hide or show on the map',
   'qf.novisa': 'Easy visa',
   'qf.novisa_title': 'Visa-free, visa on arrival or e-visa',

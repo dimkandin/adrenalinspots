@@ -107,6 +107,7 @@ export async function loadSpotTexts() {
 /** Show a spot (list item or full card) in the interface language. Mutates and returns it. */
 export function localizeSpot(s) {
   if (!s || isRu) return s;
+  s.alt_names = `${s.name_ru || ''} ${s.country || ''} ${s.region || ''}`;   // Russian names stay searchable
   s.name_ru = s.name || s.name_ru;
   s.country = countryName(s.cc, s.country_en || s.country);
   const tr = (pack && pack[s.id]) || (packEn && packEn[s.id]);

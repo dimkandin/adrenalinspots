@@ -12,6 +12,8 @@ export default {
   'side.collapse': 'Panel einklappen',
   'side.open': '☰ Spots',
   'side.open_aria': 'Filter und Liste anzeigen',
+  'side.open_phone': 'Liste & Filter',
+  'filters.toggle': 'Filter',
   'seasons.aria': 'Saison: klicken, um sie auf der Karte aus- oder einzublenden',
   'qf.novisa': 'Einfaches Visum',
   'qf.novisa_title': 'Visafrei, Visum bei Ankunft oder E-Visum',

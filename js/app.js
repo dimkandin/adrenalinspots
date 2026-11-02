@@ -5,7 +5,7 @@ import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, 
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, num, setLang, t, tn } from './i18n.js';
 import {
-  MONTHS, MONTHS_IN, MONTHS_SHORT, SEASON, VISA, esc, flagEmoji, getUnit, h, rating, setUnit, spots as spotsText, windText,
+  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, getUnit, h, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
 
 const state = {
@@ -75,7 +75,7 @@ function passesFilters(s, m = state.month) {
     if (f.vibe === 'party' && v < 4) return false;
   }
   if (state.query) {
-    const hay = normText(`${s.name} ${s.name_ru} ${s.country || ''} ${s.country_en || ''} ${s.region || ''}`);
+    const hay = normText(`${s.name} ${s.name_ru} ${s.country || ''} ${s.country_en || ''} ${s.region || ''} ${s.alt_names || ''}`);
     if (!hay.includes(normText(state.query))) return false;
   }
   return true;
@@ -106,12 +106,14 @@ function features() {
 }
 
 // ---------- rendering ---------------------------------------------------------------
+let shortSummary = null;   // «93 spots in season» for the phone bar
 function renderMonthHeading() {
   document.querySelector('.month-title').textContent = MONTHS[state.month - 1];
   const sub = document.querySelector('.month-sub');
   if (state.loadError) { sub.textContent = t('heading.error'); return; }
   if (!state.spots.length) { sub.textContent = t('heading.loading'); return; }
   const visible = state.spots.filter((s) => inSeason(s) && passesFilters(s) && (state.seasons[seasonOf(s)] || state.query));
+  shortSummary = visible.length ? t('heading.in_season', { spots: spotsText(visible.length) }) : null;
   const peak = visible.filter((s) => seasonOf(s) === 'peak').length;
   const offShown = (state.seasons.off || state.query) ? state.spots.filter((s) => !inSeason(s) && passesFilters(s)).length : 0;
   if (visible.length) {
@@ -121,6 +123,23 @@ function renderMonthHeading() {
   } else {
     sub.textContent = t('heading.none');
   }
+}
+
+// phones and small tablets: bottom-sheet layout (see the matching @media block in app.css)
+const PHONE = window.matchMedia(PHONE_QUERY);
+const isPhone = () => PHONE.matches;
+
+function centreCurrentMonth() {
+  const strip = document.querySelector('.months');
+  const cur = strip && strip.querySelector('.is-current');
+  if (!cur || strip.scrollWidth <= strip.clientWidth) return;
+  strip.scrollLeft = cur.offsetLeft - (strip.clientWidth - cur.offsetWidth) / 2;
+}
+
+function activeFilterCount() {
+  const f = state.filters;
+  const seasonsChanged = !state.seasons.peak || !state.seasons.shoulder || !state.seasons.snow || state.seasons.off;
+  return [seasonsChanged, f.novisa, f.ru, f.flat, f.minRating != null, f.minAir != null, f.minWater != null, !!f.vibe, !!f.pop].filter(Boolean).length;
 }
 
 function renderStrip() {
@@ -221,6 +240,11 @@ function refresh({ fit = false } = {}) {
   renderDropdownLabels();
   renderList();
   document.querySelector('.reset').hidden = !anyFilter();
+  // phone: summary on the bar that opens the sheet, filter count on the «Filters» button
+  document.querySelector('.so-sum').textContent = shortSummary || document.querySelector('.month-sub').textContent;
+  const n = activeFilterCount();
+  document.querySelector('.filters-toggle').textContent = n ? `${t('filters.toggle')} · ${n}` : t('filters.toggle');
+  if (isPhone()) centreCurrentMonth();
   const vibeBtn = document.querySelector('.dd[data-key="vibe"] .dd-btn');
   if (vibeBtn) {
     const hasVibe = state.spots.some((s) => s.vibe);
@@ -433,7 +457,13 @@ function initControls() {
   document.querySelector('.panel-close').addEventListener('click', () => select(null));
   document.querySelector('.side-toggle').addEventListener('click', () => { state.sideAuto = false; setSide(false, { moveFocus: true, persist: true }); });
   document.querySelector('.side-open').addEventListener('click', () => { state.sideAuto = false; setSide(true, { moveFocus: true, persist: true }); });
-  try { if (localStorage.getItem('side') === 'closed') setSide(false); } catch { /* ignore */ }
+  if (isPhone()) setSide(false);   // phones start with the map; the bar at the bottom opens the list
+  else { try { if (localStorage.getItem('side') === 'closed') setSide(false); } catch { /* ignore */ } }
+  const ft = document.querySelector('.filters-toggle');
+  ft.addEventListener('click', () => {
+    const open = document.querySelector('.side').classList.toggle('filters-open');
+    ft.setAttribute('aria-expanded', String(open));
+  });
   for (const a of document.querySelectorAll('.skip')) {
     a.addEventListener('click', (e) => {
       e.preventDefault();

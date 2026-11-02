@@ -24,6 +24,9 @@ export const WIND_TYPE = dictOf('wind_type', ['thermal', 'trade', 'monsoon', 'fr
 export const SPOT_TYPE = dictOf('spot_type', ['lagoon', 'beach', 'bay', 'lake', 'reservoir', 'river', 'sandbank', 'snow_plateau', 'frozen_lake']);
 export const vibeLabel = (score) => t(`vibe.${score}`);
 
+// phones and portrait tablets get the bottom-sheet layout (same query as the @media block in app.css)
+export const PHONE_QUERY = '(max-width: 900px) and (orientation: portrait), (max-width: 560px)';
+
 // --- units -----------------------------------------------------------------
 let unit = 'kn';
 try { unit = localStorage.getItem('unit') || 'kn'; } catch { /* storage unavailable */ }
