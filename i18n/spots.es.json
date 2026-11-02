@@ -473,6 +473,2138 @@
    ],
    "wind_dir": "NE, cross-onshore desde la izquierda (Kite Beach); offshore en Ponta Preta",
    "airport": "SID — Sal (Amílcar Cabral), ~15–20 min"
+  },
+  "cyprus-larnaca-kiti-softades": {
+   "h": "83cb89c291",
+   "description": "La costa poco profunda al suroeste de Lárnaca, desde el faro de Kiti (Faros) hasta Softades y Mazotos, es la principal zona de kite de Chipre. En verano sopla un viento diurno constante de 12–20 nudos, y el agua, poco profunda y cálida, es buena para aprender y hacer freeride. Es popular el downwind Softades → Faros. El aeropuerto de Lárnaca está a 15–20 minutos.",
+   "rating_basis": "Kitejungle: viento estable de 12–20 nudos, temporada de abril a octubre, mejores meses de mayo a septiembre, agua poco profunda; los grandes rankings mundiales apenas mencionan Chipre",
+   "waves_note": "Bahía larga (más de 10 km) y poco profunda al suroeste de Lárnaca: sobre todo agua plana y chop, casi sin olas",
+   "hazards": "Las fuentes no señalan peligros especiales; en el downwind hace falta apoyo organizado",
+   "gustiness_note": "Viento diurno constante que dura hasta la puesta de sol; de intensidad moderada: hacen falta kites medianos y grandes",
+   "crowd_note": "La bahía es larga y hay mucho espacio; existe un downwind safari Softades → Faros (~5 km) «lejos de la multitud»",
+   "region": "Lárnaca, costa sureste de Chipre",
+   "pros": [
+    "Muy cerca del aeropuerto de Lárnaca",
+    "Agua cálida y poco profunda, bahía larga",
+    "Temporada de abril a octubre",
+    "Gran comunidad rusohablante en Chipre"
+   ],
+   "cons": [
+    "Viento moderado, rara vez fuerte",
+    "Fuera del verano el viento es irregular"
+   ],
+   "wind_dir": "W–NW (brisa diurna / meltemi), side / side-onshore",
+   "airport": "LCA — Lárnaca, ~15–20 min"
+  },
+  "fehmarn": {
+   "h": "c589ef4ac7",
+   "description": "Fehmarn es una isla del Báltico entre Kiel y Dinamarca, unida al continente por un puente sobre el Fehmarnsund. Con más de diez spots en distintas costas, aquí se puede navegar con casi cualquier dirección de viento: Orth con viento del oeste, Grüner Brink con el del noreste, Wulfener Hals y Gold en la costa sur. En muchos sitios el agua poco profunda es cómoda para aprender; la temporada para viajeros va de mayo a octubre.",
+   "rating_basis": "La principal isla de kite de Alemania: más de diez spots para distintos vientos; aquí se celebra el campeonato alemán de kite (Kitesurf-Masters) y se celebraba el Surf-Festival (de/en.wikipedia)",
+   "waves_note": "Báltico: desde agua plana en los bajíos (Orth con W, bahías interiores) hasta chop y pequeña ola de viento en las playas abiertas (Grüner Brink con NE)",
+   "hazards": "Agua fría; piedras en algunas orillas; zonas de protección de aves y de baño: kite solo en los lugares autorizados; tráfico de barcos en el Fehmarnsund",
+   "gustiness_note": "Viento frontal del Báltico, constante sobre el agua; junto a las orillas con edificios y colinas, más racheado",
+   "crowd_note": "En verano (julio–septiembre) y los fines de semana con viento hay muchísimos kiters de toda Alemania",
+   "region": "Schleswig-Holstein, isla de Fehmarn, mar Báltico",
+   "pros": [
+    "Un spot para cada dirección de viento",
+    "Agua poco profunda para aprender, muchas escuelas",
+    "Fácil llegar en coche (Hamburgo, ~1 h 45 min)",
+    "Buena infraestructura de kite y campings"
+   ],
+   "cons": [
+    "Agua fría (hasta ~19 °C en verano): casi siempre neopreno",
+    "Tiempo y viento cambiantes; en verano el viento es más flojo",
+    "Mucha gente en verano"
+   ],
+   "wind_dir": "Casi cualquiera: W — Orth, NE — Grüner Brink, S–SW — Wulfen/Gold; el spot se elige según la dirección",
+   "airport": "HAM — Hamburgo, ~1 h 45 min (~150 km); LBC — Lübeck, ~1 h 15 min"
+  },
+  "sankt-peter-ording": {
+   "h": "cd8065add2",
+   "description": "Sankt Peter-Ording es un balneario de la península de Eiderstedt con una de las playas más grandes de Europa: 12 km de largo y hasta 2 km de ancho en bajamar. Los kiters navegan en una zona de deportes acuáticos delimitada en la playa de Ording; con la marea baja se forman lagunas de marea poco profundas con agua plana. El viento del mar del Norte sopla a menudo, pero el agua es fría y todo depende mucho de las mareas (hasta 3 m).",
+   "rating_basis": "Spot alemán legendario: de 2006 a 2015 acogió cada año la Kitesurf World Cup, el mayor evento de kite del mundo (más de 130 000 espectadores, de.wikipedia); playa enorme de 12 km y hasta 2 km de ancho en bajamar",
+   "waves_note": "En bajamar, agua plana en los bajíos y las charcas de marea; con marea alta y vientos del oeste, chop y pequeña ola del mar del Norte",
+   "hazards": "Corrientes de marea en los canales (Priele) y agua que sube rápido; agua fría; kite solo en la zona asignada, junto a zonas de baño y de carros a vela; el mar de Frisia es parque nacional",
+   "gustiness_note": "Mar abierto y costa llana: viento constante; al paso de los frentes, turbonadas",
+   "crowd_note": "La playa es enorme y la zona de kite está en la playa de Ording; los fines de semana de verano con viento hay muchos kiters, pero sobra espacio",
+   "region": "Schleswig-Holstein, península de Eiderstedt, mar del Norte (mar de Frisia)",
+   "pros": [
+    "Playa enorme, mucho espacio para despegar",
+    "Agua poco profunda y plana en bajamar: cómoda para aprender",
+    "Viento marino frecuente y constante",
+    "Se puede entrar en coche hasta la playa (de pago)"
+   ],
+   "cons": [
+    "Fuerte dependencia de las mareas (hasta 3 m de diferencia)",
+    "Agua fría y clima fresco",
+    "En bajamar hay que caminar mucho hasta el agua"
+   ],
+   "airport": "HAM — Hamburgo, ~1 h 45 min (~150 km)"
+  },
+  "hvide-sande-ringkobing-fjord": {
+   "h": "c211f145ff",
+   "description": "Hvide Sande es un pueblo pesquero en una estrecha franja de arena entre el mar del Norte y el fiordo de Ringkøbing, una laguna salobre y poco profunda de casi 300 km². Con vientos del oeste, en el fiordo hay agua plana y poco profunda para aprender, hacer freestyle y foil, y en el lado del mar, olas. Hay viento casi todo el año, pero el agua es fría; la temporada para viajar va de mayo a octubre.",
+   "rating_basis": "Una de las principales zonas de kite del norte de Europa: una enorme laguna poco profunda (~300 km², 2–3 m de profundidad) con agua plana junto a las olas del mar del Norte; popular entre kiters alemanes, daneses y neerlandeses",
+   "waves_note": "En el fiordo (laguna de 2–3 m de profundidad, menos junto a la orilla), agua plana y chop; en las playas del mar del Norte, al otro lado de la franja de arena, olas",
+   "hazards": "Agua fría; en el fiordo, con viento del oeste, el viento empuja hacia el centro de la laguna; corrientes junto a la esclusa y el canal de Hvide Sande; en el mar, resaca y espigones; zonas protegidas de aves en el sur del fiordo",
+   "gustiness_note": "Los vientos del oeste del mar del Norte son constantes; en el fiordo el viento pasa por encima de las dunas, y junto a la orilla es algo racheado",
+   "crowd_note": "El fiordo es enorme; solo se llena en los accesos principales los fines de semana",
+   "region": "Jutlandia Occidental, franja de Holmsland Klit entre el mar del Norte y el fiordo de Ringkøbing",
+   "pros": [
+    "Enorme laguna poco profunda con agua plana",
+    "Olas del mar del Norte al lado: dos spots a 5 minutos",
+    "Viento fuerte frecuente",
+    "Poca gente en el agua"
+   ],
+   "cons": [
+    "Agua fría (hasta ~18 °C en verano): siempre neopreno",
+    "Tiempo cambiante, lluvias",
+    "Lejos de los grandes aeropuertos"
+   ],
+   "wind_dir": "W–SW–NW: en el fiordo, side-offshore/side-shore (agua plana); en el mar, side-onshore",
+   "airport": "BLL — Billund, ~1 h 15 min (~100 km); EBJ — Esbjerg, ~1 h"
+  },
+  "cabarete-kite-beach": {
+   "h": "4915396d48",
+   "description": "Pueblo cosmopolita de la costa norte de la República Dominicana y una de las capitales del kite del Caribe. Kite Beach está protegida por un arrecife: dentro hay chop para aprender y hacer freestyle; fuera, olas, sobre todo potentes en invierno. Cerca están la laguna de La Boca, con agua plana, el spot de olas de Encuentro y la bahía de Cabarete; alrededor, decenas de escuelas, kite camps (entre ellos el de Kevin Langeree) y una vida nocturna animadísima.",
+   "rating_basis": "IKSURFMAG — 4,5/5: viento todo el año, «muy por encima de 250 días navegables» en una buena temporada; clásico destino de kite del Caribe con agua plana y olas para todos los niveles",
+   "waves_note": "Dentro del arrecife, chop de viento y pequeña ola rodante; en el arrecife, olas, con swells potentes en invierno (dic–marzo); agua plana en la laguna de La Boca (desembocadura del río); derechas de arrecife en Encuentro",
+   "hazards": "Arrecife y placas de roca en la salida en algunos puntos, potente swell invernal, placa de roca junto a la orilla en Encuentro; temporada de huracanes de junio a noviembre; tráfico caótico en las carreteras",
+   "gustiness_note": "Alisio reforzado por el térmico durante el día; por la mañana suele ser flojo, las mejores horas son después del mediodía",
+   "crowd_note": "Kite Beach es el spot más popular: con más de 15 nudos se llena muchísimo (hasta 50 kites en poco espacio); hay más sitio a mediodía y al final de la tarde, o en la bahía de Cabarete",
+   "region": "Puerto Plata, costa norte",
+   "vibe_note": "Bares, restaurantes y discotecas están en la misma playa de Cabarete; por las noches hay mucha gente.",
+   "pros": [
+    "Viento casi todo el año, mejor de junio a agosto",
+    "Hay de todo: chop, olas en el arrecife, laguna plana",
+    "Infraestructura enorme: escuelas, tiendas, reparaciones",
+    "Aeropuerto de Puerto Plata cerca"
+   ],
+   "cons": [
+    "Kite Beach, muy abarrotada",
+    "Por la mañana a menudo no hay viento",
+    "De septiembre a noviembre, viento más flojo, más lluvias y temporada de huracanes"
+   ],
+   "wind_dir": "E–ENE, cross-onshore desde la derecha",
+   "airport": "POP — Puerto Plata, ~45 min; STI — Santiago, ~1,5 h"
+  },
+  "dahab-lagoon": {
+   "h": "fc97cec43b",
+   "description": "Antigua aldea beduina con ambiente relajado, buceo y una gran comunidad rusohablante. La laguna de kite junto a las escuelas es poco profunda, hasta la cintura, con agua plana y viento side-offshore; los avanzados navegan más a sotavento y en Assala. El golfo de Áqaba refuerza el viento, por eso Dahab tiene más viento que Hurghada.",
+   "rating_basis": "IKSURFMAG: el spot con más viento de Egipto gracias al efecto del golfo de Áqaba, laguna poco profunda para principiantes y variedad de spots para avanzados; en las opiniones de turistas en tonkosti.ru, 10/10 por el agua poco profunda y la seguridad para aprender; valoración de IKSURFMAG: 4,0",
+   "waves_note": "La laguna de kite es plana, sin shorebreak; más a sotavento, chop; junto a los arrecifes (Assala, Napoleon Reef), olas para avanzados",
+   "hazards": "Viento offshore, corales y piedras en Assala (hace falta calzado), rachas que bajan de las montañas",
+   "gustiness_note": "El golfo de Áqaba funciona como un túnel de viento: sopla más fuerte que en otros spots de Egipto; desde las montañas llega a rachas, y junto a la orilla tiene huecos en algunos puntos",
+   "crowd_note": "La laguna de kite está pegada a las escuelas: en temporada hay mucha gente junto a la orilla; el kite en la zona de windsurf (Area 4) está prohibido de 9 a 15 h",
+   "region": "Sinaí, golfo de Áqaba (mar Rojo)",
+   "pros": [
+    "Viento fuerte y frecuente (efecto del golfo de Áqaba)",
+    "Laguna plana y poco profunda para aprender",
+    "Alojamiento y comida baratos, ambiente «hippie»",
+    "Buceo y apnea de nivel mundial"
+   ],
+   "cons": [
+    "En invierno el viento va «3 días sí / 3 días no» y en el agua hace fresco",
+    "Zonas de kite restringidas",
+    "Viento de tierra: hace falta servicio de rescate",
+    "Poco alcohol en los restaurantes"
+   ],
+   "wind_dir": "N–NNE, side-offshore desde la izquierda / side-shore",
+   "airport": "SSH — Sharm el-Sheij, ~1 h"
+  },
+  "el-gouna": {
+   "h": "18a57cf2a8",
+   "description": "Pueblo turístico junto a Hurghada con varias playas de kite; la principal es Mangroovy / Buzzha Beach, en el norte, con una laguna poco profunda de varios km² y agua hasta la cintura. El viento del norte sopla de lado desde la izquierda y aumenta hacia el mediodía; detrás del arrecife hay espacio para freestyle y wingfoil. Buena infraestructura: hoteles, bares, fiestas.",
+   "rating_basis": "Uno de los destinos de kite más conocidos de Egipto: grandes lagunas poco profundas «hasta la cintura», viento casi todo el año, muchas escuelas con hoteles; las guías (Sportif, surf-magazin, KBC) destacan el viento lateral constante; valoración de IKSURFMAG: 3,5",
+   "waves_note": "En la laguna, plano o chop ligero; detrás del arrecife (≈200 m), chop y a veces ola pequeña",
+   "hazards": "Corales, conchas afiladas y bloques de coral muerto: hace falta calzado; arrecife en los bordes de la laguna; prohibido el kite después de las 17:00 (guardacostas)",
+   "gustiness_note": "Viento del norte constante, reforzado por las montañas; en invierno es menos estable: hay días fuertes y días flojos",
+   "crowd_note": "En Mangroovy hay mucha gente en temporada, pero las escuelas dividen el agua en zonas (aprendizaje / navegación libre / detrás del arrecife)",
+   "region": "Mar Rojo, 25 km al norte de Hurghada",
+   "vibe_note": "Marina y centro de El Gouna: bares, restaurantes y discotecas a 10–15 minutos del spot.",
+   "pros": [
+    "Enorme laguna poco profunda: ideal para aprender",
+    "Viento casi todo el año",
+    "Buena infraestructura y muchas escuelas",
+    "A 30 min del aeropuerto de Hurghada"
+   ],
+   "cons": [
+    "Mareas: en verano, con luna llena, la laguna puede quedarse seca durante unas horas",
+    "La entrada a las playas de kite es de pago o a través de las escuelas",
+    "Mucha gente en temporada",
+    "Mucho calor en verano"
+   ],
+   "wind_dir": "N–NNW, side-shore / side-onshore desde la izquierda",
+   "airport": "HRG — Hurghada, ~30 min"
+  },
+  "hamata": {
+   "h": "36c2a18895",
+   "description": "Amplia playa de arena con una escuela de kite en el sur de la costa egipcia del mar Rojo, a unas 2,5 h de Marsa Alam. La zona poco profunda, hasta la cintura, y el viento side-onshore del norte son buenos para aprender, y más allá, hacia las islas, hay espacio para el freestyle. Cerca están el campamento Kite Village y hoteles con traslado.",
+   "rating_basis": "IKSURFMAG: playa de arena muy amplia, gran zona hasta la cintura para principiantes, viento todo el año; el spot se describe como popular entre los kiters",
+   "waves_note": "Plano o chop ligero, aún más plano en bajamar; sin olas ni shorebreak",
+   "hazards": "Arrecifes alrededor de las tres islas, más lejos de la orilla; sol y calor en verano",
+   "gustiness_note": "El viento suele ser algo más fuerte por la mañana y baja unos nudos después de comer",
+   "crowd_note": "Spot popular, pero la playa es muy amplia y hay sitio de sobra",
+   "region": "Sur del mar Rojo (zona de Wadi Lahami)",
+   "pros": [
+    "Viento casi todo el año",
+    "Gran zona poco profunda para principiantes",
+    "Sin olas ni shorebreak, sin erizos de mar",
+    "Agua cristalina"
+   ],
+   "cons": [
+    "Aislado: ~2,5 h desde el aeropuerto",
+    "Mucho calor en verano",
+    "Poca infraestructura fuera del campamento y los hoteles"
+   ],
+   "wind_dir": "N–NNW, cross-onshore desde la izquierda",
+   "airport": "RMF — Marsa Alam, ~2,5 h"
+  },
+  "hurghada-el-ahyaa": {
+   "h": "bcbdfe091d",
+   "description": "Las afueras del norte de Hurghada (zona de El Ahyaa), con varias lagunas poco profundas donde tienen su base las escuelas de kite rusohablantes. Profundidad de 0,5–1 m, fondo de arena sin corales ni erizos, agua casi plana. Práctico para quien se aloja en hoteles de Hurghada: las escuelas recogen en el hotel, y El Gouna está a 10–15 min.",
+   "rating_basis": "Como spot en sí, Hurghada queda por detrás de El Gouna y Soma Bay (según las guías extranjeras), pero la zona de El Ahyaa es la principal base de las escuelas rusohablantes: lagunas cerradas y poco profundas con fondo de arena, cómodas para aprender",
+   "waves_note": "Lagunas protegidas y poco profundas: casi sin olas; con viento fuerte, chop ligero",
+   "hazards": "Poca profundidad (caídas contra el fondo), corales fuera de las lagunas, sol fuerte; prohibido el kite después de las 17:00",
+   "gustiness_note": "El mismo viento constante del norte que en El Gouna; en invierno, más flojo y menos estable",
+   "crowd_note": "Las lagunas están repartidas entre las escuelas; algunos spots son solo para sus propios alumnos",
+   "region": "Mar Rojo, norte de Hurghada (entre Hurghada y El Gouna)",
+   "pros": [
+    "Muchos instructores rusohablantes",
+    "Laguna poco profunda con fondo de arena: te pones de pie en la tabla rápido",
+    "Cerca de los hoteles de Hurghada y del aeropuerto",
+    "Viento casi todo el año"
+   ],
+   "cons": [
+    "Lagunas pequeñas: los avanzados van apretados",
+    "Infraestructura más sencilla que en El Gouna",
+    "Calor en verano; en invierno hace falta neopreno de 3–5 mm"
+   ],
+   "airport": "HRG — Hurghada, ~20–25 min"
+  },
+  "ras-sudr": {
+   "h": "4d00e29884",
+   "description": "Costa del golfo de Suez en el oeste del Sinaí, a 2–2,5 h de El Cairo: varios kite camps y escuelas a lo largo de 40 km de playas. El viento se acelera en el golfo y sopla casi a diario; en bajamar aparecen lagunas planas y bajíos hasta la cintura. Ambiente relajado, pero fuera de las escuelas hay poca infraestructura.",
+   "rating_basis": "IKSURFMAG: viento de 16–25 nudos casi a diario de marzo a noviembre, enormes bajíos en bajamar, apto para todos los niveles y sin aglomeraciones; las guías de kite extranjeras lo consideran sobre todo un spot «de fin de semana» para la gente de El Cairo; valoración de IKSURFMAG: 4,0",
+   "waves_note": "En bajamar, lagunas planas y bajíos hasta la cintura de hasta ~2 km; con marea alta, chop y kickers, y en algunos puntos ola junto al arrecife",
+   "hazards": "Arrecifes y chop más allá de los bajíos con marea alta, rachas fuertes a finales del verano; sol",
+   "gustiness_note": "El viento del golfo de Suez sopla como en un túnel, normalmente constante; a finales de agosto–septiembre, rachas de más de 30 nudos",
+   "crowd_note": "Las escuelas están repartidas a lo largo de 40 km de costa: hay mucho espacio, y solo se llena Kite Beach en los días punta",
+   "region": "Sinaí, golfo de Suez",
+   "pros": [
+    "Mucho viento de marzo a noviembre",
+    "Enormes bajíos en bajamar: cómodo para aprender",
+    "Poca gente en el agua",
+    "Delfines en los días sin viento"
+   ],
+   "cons": [
+    "Lejos de los aeropuertos (El Cairo ~2,5 h, Sharm ~3 h)",
+    "Hace falta coche: las escuelas están lejos unas de otras",
+    "En invierno muchas escuelas cierran",
+    "Internet lento"
+   ],
+   "wind_dir": "N–NNW, side-shore / side-onshore (según la escuela)",
+   "airport": "CAI — El Cairo, ~2,5 h; SSH — Sharm el-Sheij, ~3 h"
+  },
+  "safaga-shams": {
+   "h": "e5a7570728",
+   "description": "Pueblo tranquilo al sur de Soma Bay con una escuela de kite y windsurf en los hoteles Shams. Por la mañana el viento sopla ligeramente de tierra y después de comer gira paralelo a la costa; hay una zona plana de aprendizaje y bajíos para despegar. Alternativa económica a la vecina Soma Bay.",
+   "rating_basis": "Sportif y surf-magazin: apto para todos los niveles, agua plana y zona poco profunda para despegar, uno de los spots de kite/windsurf más baratos del mar Rojo; el viento es algo más flojo que en Soma Bay, y Safaga ha sido históricamente más un destino de windsurf",
+   "waves_note": "Agua plana con chop de viento, hay una zona plana de aprendizaje; sin shorebreak o muy débil",
+   "hazards": "Algunas cabezas de coral en la zona de salida, viento offshore por la mañana; prohibido el kite después de las 17:00",
+   "gustiness_note": "El viento térmico es más fuerte en verano; suele ser 0,5–1 grados Beaufort más flojo que en la vecina Soma Bay",
+   "crowd_note": "Más tranquilo que El Gouna y Soma Bay; muchos clientes habituales",
+   "region": "Mar Rojo, 55 km al sur de Hurghada",
+   "pros": [
+    "Barato para lo que es el mar Rojo",
+    "Agua plana y zona de salida poco profunda",
+    "Menos gente que en El Gouna"
+   ],
+   "cons": [
+    "Viento más flojo que en Soma Bay",
+    "Viento offshore por la mañana",
+    "Poca infraestructura fuera de los hoteles"
+   ],
+   "wind_dir": "N–NW: por la mañana, side-offshore desde la izquierda; a partir de ~11:00, side-shore desde la izquierda",
+   "airport": "HRG — Hurghada, ~50–60 min"
+  },
+  "sharm-nabq": {
+   "h": "ce31f22575",
+   "description": "La bahía de Nabq, a 10–15 min del aeropuerto de Sharm el-Sheij, el destino del Sinaí más popular entre los rusos. Las escuelas de kite trabajan en las playas de los hoteles, y se navega sobre una meseta de arrecife poco profunda con viento del norte paralelo a la costa. Práctico para probar el kite durante unas vacaciones de playa; para viento más fuerte se va a Dahab (~1 h).",
+   "rating_basis": "Pequeñas escuelas en los hoteles de la bahía de Nabq; en las opiniones de Yandex Maps (EasyKite, 5,0 con 16 valoraciones) destacan el buen viento en la zona de Nabq; como destino de kite queda por detrás de Dahab y El Gouna, pero es cómodo para quien está de vacaciones en Sharm",
+   "waves_note": "Sobre la meseta de arrecife poco profunda frente a los hoteles, plano o chop ligero; sin olas",
+   "hazards": "Corales y meseta de arrecife poco profunda (hace falta calzado; cuidado en bajamar), erizos de mar, sol fuerte",
+   "gustiness_note": "El mismo viento del norte del golfo de Áqaba que en Dahab, pero algo más flojo y menos regular en invierno",
+   "crowd_note": "Unas pocas escuelas en las playas de los hoteles, poca gente en el agua",
+   "region": "Sinaí, mar Rojo (golfo de Áqaba, norte de Sharm)",
+   "pros": [
+    "A 10–15 min del aeropuerto, muchos hoteles",
+    "Hay escuelas con atención en ruso",
+    "Agua cálida todo el año",
+    "Agua poco profunda para aprender"
+   ],
+   "cons": [
+    "Viento más flojo y menos estable que en Dahab",
+    "Meseta de coral poco profunda: navegar depende de la marea",
+    "Escuelas pequeñas en los hoteles, poco espacio para avanzados"
+   ],
+   "airport": "SSH — Sharm el-Sheij, ~10–15 min"
+  },
+  "soma-bay": {
+   "h": "0a6a768f71",
+   "description": "Península turística privada a 45 km al sur de Hurghada con cinco hoteles, golf y escuelas de kite. El viento del noroeste sopla offshore/paralelo a la costa sobre una gran bahía de agua plana; en bajamar los bajíos se quedan secos, así que gran parte de las clases se dan desde barcos. Son populares los downwinds hasta la isla de Tobia.",
+   "rating_basis": "IKSURFMAG y TheKiteSpot: agua plana turquesa para freestyle y aprendizaje, uno de los spots con más viento de Egipto (80–90 % de días con viento en temporada), escuelas potentes (7Bft, KBC); en contra, el viento offshore y el servicio de rescate obligatorio; valoración de IKSURFMAG: 3,5",
+   "waves_note": "Viento de tierra: prácticamente sin olas ni shorebreak, agua plana; detrás del arrecife, chop ligero",
+   "hazards": "Viento offshore (te arrastra mar adentro), corales poco profundos, sol fuerte; prohibido el kite después de las 17:00",
+   "gustiness_note": "El viento offshore pasa por encima de la península: junto a la orilla es algo más racheado; suele soplar 2–4 nudos por encima de la previsión",
+   "crowd_note": "Península turística con varios hoteles; en plena temporada hay bastante gente en el agua junto a las escuelas, pero la bahía es grande",
+   "region": "Mar Rojo, entre Hurghada y Safaga",
+   "pros": [
+    "Uno de los vientos más estables y fuertes de Egipto",
+    "Agua plana sin shorebreak: freestyle y aprendizaje",
+    "Lanchas de rescate en el agua",
+    "Buenos hoteles, buceo y snorkel"
+   ],
+   "cons": [
+    "Viento offshore: servicio de rescate obligatorio (de pago)",
+    "Los bajíos junto a la orilla se secan en bajamar",
+    "Complejo aislado, poca vida fuera de los hoteles"
+   ],
+   "wind_dir": "N–NW, side-offshore en la playa principal, side-shore en la curva de la bahía",
+   "airport": "HRG — Hurghada, ~45–50 min"
+  },
+  "fuerteventura-flag-beach": {
+   "h": "eb795d419a",
+   "description": "Flag Beach es una amplia playa de arena en el extremo sur de Corralejo, al borde del parque natural de las dunas y frente a la isla de Lobos. El alisio del norte sopla aquí paralelo a la costa y más constante que en el sur de la isla; en verano es un buen lugar para aprender y hacer freeride, y en invierno, con swell del noroeste, aparecen olas para riders más avanzados.",
+   "rating_basis": "La principal playa de kite del norte de Fuerteventura: entrada fácil, arena, vistas a la isla de Lobos; viento más constante que en Sotavento, pero más flojo. Según las guías (Hello Canary Islands, Fuerteventura Playas), un buen spot para todos los niveles en verano",
+   "waves_note": "En verano, chop y ola pequeña junto a la orilla, apta para principiantes; en invierno, el swell del noroeste trae shorebreak y olas a lo largo de la costa",
+   "hazards": "Piedras volcánicas y arrecife que quedan al descubierto en bajamar; shorebreak en invierno; espacio natural protegido: respeta las normas del parque",
+   "gustiness_note": "En el norte de la isla el alisio es más constante y más flojo que en el sur; si rola al NE, puede caer de golpe",
+   "crowd_note": "En verano hay mucha gente junto a las escuelas, pero la playa es larga: se puede ir más al sur a lo largo de las dunas",
+   "region": "Islas Canarias, norte de Fuerteventura (Corralejo, Parque Natural de las Dunas de Corralejo)",
+   "pros": [
+    "Entrada fácil, fondo de arena, side-shore",
+    "Viento más constante que en el sur de la isla",
+    "Corralejo al lado: alojamiento, cafés, escuelas",
+    "Cerca del aeropuerto"
+   ],
+   "cons": [
+    "Viento más flojo que en Sotavento; con NE cae",
+    "En bajamar asoman piedras volcánicas",
+    "En invierno el shorebreak complica la entrada al agua"
+   ],
+   "wind_dir": "N–NE (alisio) y NW, side-shore / side-onshore",
+   "airport": "FUE — Puerto del Rosario, ~30 min (~35 km)"
+  },
+  "fuerteventura-sotavento": {
+   "h": "8ad5d54882",
+   "description": "Sotavento es una playa blanca de 9 km en el sureste de Fuerteventura con una enorme laguna de marea poco profunda junto a Risco del Paso. El alisio de verano, reforzado por el relieve del istmo de Jandía, sopla fuerte y casi a diario; desde hace décadas aquí se celebran pruebas de los campeonatos del mundo de windsurf y kite. En la laguna hay agua plana para aprender y hacer freestyle; fuera, mar abierto con chop.",
+   "rating_basis": "Prueba de la PWA/GKA World Cup durante muchos años, Wannakitesurf: «Great»; de mayo a septiembre, 75–95 % de días con viento (TheKiteSpot); Kitejungle: 314 días de viento al año, «awesome» en julio–agosto. En contra: viento side-offshore racheado y una laguna que depende de las mareas",
+   "waves_note": "En la laguna, plano y poco profundo (según la marea); fuera, detrás de la barra de arena, chop y ola pequeña de hasta ~1 m",
+   "hazards": "Viento offshore: te arrastra a mar abierto; usa el servicio de rescate (~50 € por salida / ~90 € a la semana); en bajamar, bajíos y bancos de arena; corrientes de marea en los pasos de la laguna",
+   "gustiness_note": "El viento llega a través del istmo de Jandía, side-offshore y racheado; en julio–agosto puede llegar a 35–40 nudos",
+   "crowd_note": "La playa es enorme (~9 km) y hay sitio de sobra; en la laguna, junto a las escuelas, puede haber mucha gente en las semanas punta",
+   "region": "Islas Canarias, sur de Fuerteventura (Costa Calma / Risco del Paso)",
+   "pros": [
+    "En verano, viento casi a diario, a menudo de 20–30 nudos",
+    "Enorme laguna poco profunda con agua plana",
+    "Clima cálido todo el año, arena blanca",
+    "Mucho espacio en el agua"
+   ],
+   "cons": [
+    "Viento side-offshore y racheado: hace falta apoyo de rescate",
+    "La laguna depende de las mareas: con bajamar fuerte casi se seca",
+    "En verano el viento puede ser demasiado fuerte y levanta arena",
+    "Agua fresca para la latitud (18–23 °C)"
+   ],
+   "wind_dir": "N–NE (alisio), side-offshore",
+   "airport": "FUE — Puerto del Rosario, ~1 h (~75 km)"
+  },
+  "gran-canaria-vargas": {
+   "h": "2dd1a4c159",
+   "description": "Vargas es una playa de piedras y arena en la ventosa costa este de Gran Canaria, junto al aeropuerto y a 10 km al norte de Pozo Izquierdo, la capital mundial del windsurf. El alisio de verano es aquí uno de los más fuertes y estables de Europa, y casi siempre hay olas. Las escuelas trabajan sobre todo en invierno, cuando el viento es más flojo.",
+   "rating_basis": "Uno de los spots con más viento de Europa: en julio–agosto, viento casi a diario, con una media de 22–24 nudos (Kitejungle); al lado, Pozo Izquierdo, legendaria prueba de la PWA. En contra: piedras, rachas y olas; es más bien un spot para experimentados",
+   "waves_note": "Casi siempre hay olas: desde chop hasta 1–3 m, rompientes a izquierda y derecha, a veces tubos; mejor en bajamar: con marea alta la ola es más fuerte y hay más piedras en la entrada",
+   "hazards": "Grandes piedras volcánicas en la playa y en el agua; corrientes fuertes; olas y marea; a sotavento la playa termina en acantilados: los principiantes no deben irse a sotavento; espacio natural protegido",
+   "gustiness_note": "En verano el alisio es muy fuerte y racheado, sobre todo bajo las nubes; efecto de aceleración entre las islas",
+   "crowd_note": "Normalmente hay sitio; la mitad de la bahía está reservada a los windsurfistas",
+   "region": "Islas Canarias, costa este de Gran Canaria (Agüimes / Ingenio)",
+   "pros": [
+    "En verano, viento fuerte prácticamente todos los días",
+    "Wave riding y big air",
+    "Calor todo el año, aeropuerto al lado",
+    "Poca gente en el agua"
+   ],
+   "cons": [
+    "Piedras en la playa y en la entrada: hace falta calzado",
+    "Viento racheado y muy fuerte en verano",
+    "No es para principiantes sin instructor",
+    "Poca infraestructura en la propia playa (camping)"
+   ],
+   "wind_dir": "NNE–NE (alisio), side-shore / side-onshore",
+   "airport": "LPA — Gran Canaria, ~10 min"
+  },
+  "lanzarote-famara": {
+   "h": "f5e442450d",
+   "description": "Famara es una playa de arena de 6 km en el noroeste de Lanzarote, al pie de los acantilados del Risco de Famara, junto al pueblo pesquero de Caleta de Famara (escuelas, reparaciones, tiendas de kite). El alisio del NE sopla side-onshore y el swell oceánico trae beach break casi todo el año. Es un spot de kite sobre todo para olas y freeride.",
+   "rating_basis": "El principal spot de kite con olas de Lanzarote: una enorme bahía de arena bajo los acantilados del Risco de Famara, viento más estable de mayo a septiembre (Hello Canary Islands); Kitejungle: «awesome» en julio–agosto. Sobre todo para navegar en olas",
+   "waves_note": "Largo beach break con varios picos; olas de pequeñas a grandes en invierno con swell del noroeste; rompen sobre bancos de arena",
+   "hazards": "Corriente y resaca bastante fuertes; piedras en algunos puntos; picos de ola potentes en aguas profundas; con marea alta queda menos playa",
+   "gustiness_note": "Viento del océano, constante pero bastante más flojo que en la costa este de las islas",
+   "crowd_note": "Mucho espacio (playa de ~6 km); solo hay gente junto a Caleta de Famara por los surfistas",
+   "region": "Islas Canarias, noroeste de Lanzarote (Caleta de Famara, Teguise)",
+   "pros": [
+    "Olas casi todo el año",
+    "Playa enorme, poca gente",
+    "Viento side-onshore: más seguro que el offshore",
+    "Paisajes preciosos"
+   ],
+   "cons": [
+    "Viento más flojo que en la costa este de las islas",
+    "Corriente fuerte y rompiente: no es para principiantes sin escuela",
+    "Agua fresca (18–22 °C)"
+   ],
+   "wind_dir": "NE–N (alisio), side-onshore",
+   "airport": "ACE — Arrecife (Lanzarote), ~25 min (~25 km)"
+  },
+  "tarifa-valdevaqueros": {
+   "h": "8f46ea8f98",
+   "description": "Tarifa es el punto más al sur de la Europa continental y el principal destino de kite de España: el efecto Venturi del estrecho de Gibraltar acelera el levante del este y el poniente del oeste. Los spots principales son la playa de Valdevaqueros, de 4 km (con la duna y Punta Paloma), y la larga playa de Los Lances junto al pueblo. Decenas de escuelas, alquileres y tiendas, y mucho ambiente.",
+   "rating_basis": "La capital del viento de Europa: más de ~180 días de viento al año (Kitejungle), siempre en los rankings de los mejores spots de Europa; en contra: aglomeraciones en verano y un levante caprichoso y racheado",
+   "waves_note": "Sobre todo chop y ola pequeña de hasta ~1 m; con swell atlántico en invierno, olas en Los Lances y Dos Mares",
+   "hazards": "Levante offshore en Los Lances y el Balneario (te arrastra al estrecho, corriente fuerte); piedras en Valdevaqueros en bajamar y junto al Balneario; mareas; bañistas en verano. En verano, con levante, funciona una lancha de rescate (se recomienda comprar antes la rescue card)",
+   "gustiness_note": "El levante es fuerte (20–50 nudos) y racheado, y sopla de día y de noche; el poniente es más suave (10–25 nudos), más constante y aumenta hacia el mediodía",
+   "crowd_note": "En verano se llena muchísimo: del 15 de junio al 15 de septiembre el kite solo está permitido en las zonas de Los Lances Norte, Valdevaqueros y Punta Paloma, y las playas están llenas de bañistas",
+   "region": "Andalucía, Costa de la Luz (estrecho de Gibraltar)",
+   "vibe_note": "El spot está a pocos kilómetros de Tarifa: en el pueblo hay bares, discotecas y restaurantes, y en verano hay muchísima vida. En la propia playa, chiringuitos.",
+   "pros": [
+    "Viento casi todo el año, dos regímenes de viento (levante y poniente)",
+    "Infraestructura enorme: escuelas, alquiler, tiendas, cafés",
+    "Largas playas de arena, spots para cualquier dirección",
+    "Fácil de llegar desde Málaga, Sevilla, Jerez y Gibraltar"
+   ],
+   "cons": [
+    "En verano hay mucha gente y zonas restringidas",
+    "El levante es racheado y puede ser demasiado fuerte (30–50 nudos)",
+    "Agua fresca (16–22 °C): hace falta neopreno la mayor parte del año",
+    "En Los Lances, con levante, el viento es offshore"
+   ],
+   "wind_dir": "E (levante): side-offshore/offshore en Los Lances, side-shore en Valdevaqueros; W (poniente): side-onshore",
+   "airport": "XRY — Jerez ~1 h 30 min; AGP — Málaga ~2 h; GIB — Gibraltar ~45 min; SVQ — Sevilla ~2 h"
+  },
+  "tenerife-el-medano": {
+   "h": "aa73c6cc34",
+   "description": "El Médano es un pueblo ventoso del sureste de Tenerife, junto al volcán Montaña Roja, y el spot de kite más conocido de la isla. El alisio del noreste sopla casi todo el año, con más fuerza en julio–agosto; la playa principal es una bahía de arena con zona de salida delimitada, y cerca están los spots de olas de El Cabezo y el espigón. Clima cálido y el aeropuerto TFS a 15 minutos.",
+   "rating_basis": "El principal spot de kite y windsurf de Tenerife, con pruebas de competiciones nacionales e internacionales; ~300 días de viento al año (Web Tenerife). Kitejungle: viento «great» en julio–agosto y en invierno, gente moderada",
+   "waves_note": "En la bahía, chop y ola pequeña; junto al espigón (Harbour Wall) y en El Cabezo, spots de olas para avanzados",
+   "hazards": "Piedras en parte del spot (se recomienda calzado); la bahía Pigs Bay está prohibida/es peligrosa; zona de bañistas balizada; en los spots de olas, rocas y el espigón",
+   "gustiness_note": "El alisio se refuerza por el efecto cabo, pero los edificios de la costa y Montaña Roja crean remolinos más cerca del pueblo",
+   "crowd_note": "En verano hay mucha gente junto a las escuelas y en la zona de salida; la playa tiene zonas para distintos niveles y para bañarse",
+   "region": "Islas Canarias, sureste de Tenerife (Granadilla de Abona)",
+   "pros": [
+    "Viento casi todo el año, calor incluso en invierno",
+    "Aeropuerto de Tenerife Sur a 10–15 minutos",
+    "Playa de arena con zona de kite delimitada y socorristas",
+    "Spots de olas cerca para avanzados"
+   ],
+   "cons": [
+    "Viento más flojo que antes por los edificios; junto a la orilla puede ir a parches",
+    "Mucha gente en verano",
+    "Piedras en algunos puntos; en El Cabezo, onshore y rocas"
+   ],
+   "wind_dir": "NE–E (alisio), side-shore / side-onshore",
+   "airport": "TFS — Tenerife Sur, ~15 min (~10 km)"
+  },
+  "col-du-lautaret": {
+   "h": "185dc9d4d6",
+   "description": "El Col du Lautaret (2058 m), en la carretera Grenoble–Briançon, es uno de los spots de snowkite más conocidos de Europa. Las laderas suaves y lomas sin árboles alrededor del puerto sirven tanto para aprender como para freeride de montaña; hay escuelas en el lugar. Es el segundo puerto más alto de Francia abierto al tráfico en invierno, pero con ventisca lo cierran temporalmente.",
+   "rating_basis": "Spot clásico de snowkite de Francia y de los Alpes: aquí se han celebrado competiciones (equipo Semnoz) y hay escuelas; en contra: zonas de navegación reguladas y cierres de la carretera con mal tiempo",
+   "waves_note": "Laderas suaves sin árboles y lomas alrededor del puerto: sirven tanto para navegar en llano como para snowkite «de montaña» con saltos aprovechando el relieve",
+   "hazards": "Aludes en las laderas de alrededor, piedras con poca nieve, cambios bruscos de tiempo; respeta las zonas de navegación autorizadas",
+   "gustiness_note": "El puerto canaliza y refuerza el viento; junto a las laderas y con temporal, racheado",
+   "crowd_note": "Los fines de semana con viento hay muchos kites junto al puerto; las zonas de navegación son limitadas",
+   "region": "Altos Alpes, entre Grenoble y Briançon, 2058 m",
+   "pros": [
+    "2058 m de altitud: nieve fiable de diciembre a abril",
+    "Se llega en coche hasta el mismo spot",
+    "Relieve para cualquier nivel",
+    "La estación de Serre Chevalier al lado"
+   ],
+   "cons": [
+    "Navegación regulada (Parque Nacional de los Écrins, zonas de fauna)",
+    "Mucha gente los fines de semana",
+    "La carretera se cierra con ventisca y riesgo de aludes",
+    "Rachas junto a las laderas"
+   ],
+   "wind_dir": "W y E a lo largo del corredor del puerto (valles de la Romanche y la Guisane), también N",
+   "airport": "GNB — Grenoble ~2 h; TRN — Turín ~2 h; LYS — Lyon ~3 h"
+  },
+  "hyeres-almanarre": {
+   "h": "fea3bc7a72",
+   "description": "L'Almanarre es una larga playa de arena en el lado oeste del tómbolo de la península de Giens, junto a Hyères, en la Costa Azul. El viento principal es el mistral del oeste–noroeste, que aquí sopla lateral y se acelera entre las islas; con viento del este aparecen olas. Un spot mediterráneo clásico para viajar en primavera y otoño.",
+   "rating_basis": "Spot de culto del sur de Francia para windsurf y kite con mistral, sede de competiciones; pero hay pocos días de viento (Kitejungle: ~90 al año sin contar el térmico) y en verano hay restricciones en la playa",
+   "waves_note": "Con mistral (W–NW), chop y ola pequeña junto a la orilla; con viento del este, olas de hasta 1–1,5 m; al otro lado del tómbolo (La Capte), agua plana",
+   "hazards": "Rachas de mistral; posidonia junto a la orilla; en verano, bañistas y zonas prohibidas",
+   "gustiness_note": "El mistral es fuerte y frío, a veces racheado; la brisa térmica de verano es más floja y constante",
+   "crowd_note": "Con mistral los fines de semana hay muchos kiters y windsurfistas; en verano la playa está llena de bañistas",
+   "region": "Provenza-Alpes-Costa Azul, Var (tómbolo de la península de Giens)",
+   "pros": [
+    "Mistral fuerte, side-shore",
+    "Playa de arena y agua poco profunda junto a la orilla",
+    "Lugar precioso, cerca de Hyères y de las islas de Porquerolles",
+    "Aeropuerto de Toulon-Hyères a 5 minutos"
+   ],
+   "cons": [
+    "Viento irregular: solo con mistral o viento del este",
+    "En verano hay mucha gente y restricciones para el kite: consulta las normas de Hyères",
+    "Agua fría en primavera (14–15 °C)"
+   ],
+   "wind_dir": "W–NW (mistral): side-shore / side-onshore; E (viento del este): side-shore; en verano, brisa del SW",
+   "airport": "TLN — Toulon-Hyères, ~10 min; MRS — Marsella, ~1 h 15 min; NCE — Niza, ~1 h 45 min"
+  },
+  "leucate-la-franqui": {
+   "h": "e57a249782",
+   "description": "La Franqui es un núcleo turístico del municipio de Leucate, en la costa mediterránea entre Perpiñán y Narbona, y una de las «capitales del viento» de Francia. La tramontana del noroeste sopla aquí muy a menudo y con fuerza, sobre todo de otoño a primavera; en verano funciona el térmico marino. Cada año se celebra el festival Mondial du Vent; al lado está el Étang de Leucate, con agua plana.",
+   "rating_basis": "Uno de los spots con más viento de Francia: ~250 días de viento al año (Kitejungle), festival anual Mondial du Vent; pero la tramontana es fuerte, racheada y offshore: un spot para riders seguros",
+   "waves_note": "Con tramontana, junto a la orilla del mar, de plano a chop (viento de tierra); con viento marino del este/sureste, olas; en el Étang de Leucate, agua plana",
+   "hazards": "La tramontana offshore te arrastra a mar abierto: navega solo con apoyo o en la laguna; rachas fuertes junto a la orilla; en verano, bañistas y zonas prohibidas",
+   "gustiness_note": "La tramontana baja de las montañas, fuerte (a menudo 25–40 nudos) y racheada, sobre todo junto a la orilla; el térmico marino de verano es más flojo pero más constante",
+   "crowd_note": "Durante el Mondial du Vent (primavera) y en verano hay mucha gente; en verano rigen zonas de playa y canales de salida",
+   "region": "Occitania, Aude, golfo de León (Étang de Leucate)",
+   "pros": [
+    "Muchísimos días de viento al año",
+    "A elegir: mar (olas/chop) o laguna (agua plana)",
+    "Gran ambiente de kite y el festival Mondial du Vent",
+    "Fácil de llegar en coche desde España y Francia"
+   ],
+   "cons": [
+    "Tramontana offshore y racheada: peligrosa sin experiencia",
+    "Agua fría en invierno y primavera (12–14 °C)",
+    "En verano el viento es más flojo y hay restricciones en las playas"
+   ],
+   "wind_dir": "NW (tramontana): side-offshore en el mar; E–SE (marin, térmico de verano): onshore",
+   "airport": "PGF — Perpiñán, ~30 min (~35 km); BZR — Béziers, ~1 h"
+  },
+  "gudauri-jvari-pass": {
+   "h": "66e2b631d9",
+   "description": "Gudauri es la mayor estación de esquí de Georgia, en la Carretera Militar Georgiana, a 2 horas de Tiflis. Por encima de la estación, junto al paso de Jvari (2379 m), hay amplias laderas y mesetas sin árboles donde navegan los snowkiters; en invierno la capa de nieve llega a 1,5 m. La temporada va de diciembre a abril, y muchos instructores hablan ruso.",
+   "rating_basis": "El principal spot de snowkite del Cáucaso, junto a una estación de esquí popular: temporada de nieve larga de diciembre a abril, grandes laderas abiertas; en contra: riesgo de aludes y viento de montaña racheado",
+   "waves_note": "Amplias laderas y mesetas sin árboles por encima de Gudauri, junto al paso de Jvari: desde campos suaves hasta freeride por el relieve",
+   "hazards": "Aludes, whiteout, rachas fuertes en el paso; mantente lejos de los remontes y las pistas",
+   "gustiness_note": "Viento de montaña que se refuerza en el paso; junto a las crestas y con foehn, racheado",
+   "crowd_note": "Pocos kiters en comparación con los esquiadores; los días de viento, en la meseta hay de unos pocos a unas decenas",
+   "region": "Mtskheta-Mtianeti, municipio de Kazbegi, Carretera Militar Georgiana, 2200–2400 m",
+   "pros": [
+    "Nieve fiable de diciembre a abril",
+    "Se combina con esquí y freeride",
+    "Ambiente rusohablante, Georgia es barata",
+    "A 2 h de Tiflis"
+   ],
+   "cons": [
+    "Laderas con riesgo de aludes",
+    "Viento de montaña racheado",
+    "La Carretera Militar Georgiana se cierra cuando nieva",
+    "Pocas escuelas especializadas en snowkite"
+   ],
+   "wind_dir": "N–NE desde Kazbegi y S (foehn) a través del paso",
+   "airport": "TBS — Tiflis, ~2–2,5 h (≈120 km)"
+  },
+  "karpathos-agrilaopotamos": {
+   "h": "7baff643bf",
+   "description": "La playa de barlovento de Agrilaopotamos, en el cabo suroeste de Kárpatos, a ~3 km de Afiartis, es el único lugar del sur de la isla donde se permite el kite (en el lado de sotavento, en las famosas bahías de windsurf Devil's/Paradise Bay, Gun Bay y Chicken Bay, el kite está prohibido). En verano el meltemi sopla día y noche, con picos de 18–35 nudos. Dentro del arrecife, agua plana; fuera, mar de fondo.",
+   "rating_basis": "Kárpatos es «uno de los lugares con más viento de Europa», con ~90 % de probabilidad de viento en julio–agosto (surf-magazin, windsurf.co.uk); para el kite solo es accesible el lado de barlovento, y es más conocido entre los windsurfistas",
+   "waves_note": "Dentro del arrecife, sobre todo agua plana o chop ligero; fuera del arrecife, mar de fondo, y tras varios días de meltemi fuerte, olas de hasta ~1,5 m",
+   "hazards": "Arrecife afilado con erizos de mar (dos pasos seguros), rachas junto a la orilla, meltemi muy fuerte (a veces más de 40 nudos)",
+   "gustiness_note": "Lado de barlovento: el viento es 3–8 nudos más flojo que en las bahías de sotavento (Devil's Bay, Gun Bay); los primeros ~150 m desde la orilla son racheados",
+   "crowd_note": "Bastantes menos kiters que windsurfistas en las bahías vecinas",
+   "region": "Isla de Kárpatos, Dodecaneso",
+   "pros": [
+    "Uno de los spots de verano con más viento de Europa",
+    "Agua plana dentro del arrecife y olas fuera",
+    "Aeropuerto a 10 minutos",
+    "Poca gente"
+   ],
+   "cons": [
+    "Arrecife afilado con erizos de mar: entra solo por los pasos",
+    "Racheado junto a la orilla",
+    "Kite prohibido en las bahías de sotavento",
+    "Pocas escuelas; los cursos son sobre todo para nivel intermedio"
+   ],
+   "wind_dir": "NW (meltemi), side-shore; térmico del WNW, side-onshore desde la derecha",
+   "airport": "AOK — Kárpatos, ~10 min"
+  },
+  "kos-marmari": {
+   "h": "eccd692f50",
+   "description": "Larga playa de arena en la costa norte de Kos. El meltemi de verano sopla del N–NW y se acelera entre las islas de Kálimnos y Psérimos. El bajío junto a la orilla es cómodo para aprender, y más allá hay chop para navegar. La vecina bahía de Mastichari (~20 min) es la escuela principal de KiteWorldWide y la alternativa cuando sopla el térmico del oeste.",
+   "rating_basis": "Spot familiar y fiable con un bajío para aprender (Sportif, KiteWorldWide); en los rankings queda por detrás de Rodas y Naxos",
+   "waves_note": "Junto a la orilla, un bajío de ~50 m con agua poco profunda y protegida; más allá, chop y bump-and-jump, y con meltemi fuerte, ola pequeña",
+   "hazards": "Bañistas frente a los hoteles, windsurfistas; al alejarse de la orilla la profundidad aumenta rápido",
+   "gustiness_note": "Por la mañana 2–4 Bft, hacia mediodía 3–5 Bft; el meltemi se acelera por efecto Venturi entre Kálimnos y Psérimos, y en pleno verano llega a 6–7 Bft",
+   "crowd_note": "Hay grandes hoteles al lado y en temporada alta la playa está llena; las escuelas aconsejan reservar con antelación",
+   "region": "Isla de Kos, Dodecaneso, mar Egeo",
+   "pros": [
+    "Bajío de arena poco profundo: bueno para principiantes",
+    "Meltemi regular en verano",
+    "Aeropuerto cerca, muchos hoteles"
+   ],
+   "cons": [
+    "Mucha gente en la playa en julio–agosto",
+    "Por la mañana el viento es más flojo; se navega sobre todo después de comer",
+    "Fuera del verano el viento es inestable"
+   ],
+   "wind_dir": "N–NW (meltemi), cross-onshore; durante el día, térmico del W",
+   "airport": "KGS — Kos, ~15–20 min"
+  },
+  "lefkada-agios-ioannis": {
+   "h": "7dff60bf29",
+   "description": "Larga playa de guijarros y arena junto a los molinos de viento, al oeste de la ciudad de Lefkada, en el extremo norte de la isla. En verano, cada tarde sopla del noroeste el térmico maistro, uno de los térmicos más fiables del Mediterráneo. Viento cross-onshore, agua con chop y ola pequeña; el aeropuerto de Préveza está a unos 20 minutos. No hay que confundirlo con Vasiliki, en el sur de la isla, donde solo se hace windsurf.",
+   "rating_basis": "IKSURFMAG: spot «casi 100 % fiable», con viento desde mediados de mayo (~75 %) y ~95 % de los días de junio a mediados de septiembre; mucho espacio incluso en los días punta",
+   "waves_note": "Chop medio y ola pequeña, rara vez de más de 0,5 m; tras varios días de viento de más de 20 nudos, shorebreak (normalmente no más de 2 días)",
+   "hazards": "Shorebreak tras varios días de viento fuerte; bañistas en verano",
+   "gustiness_note": "El térmico es casi 100 % fiable de junio a mediados de septiembre y sopla por la tarde; viento constante, y la dirección onshore suaviza las rachas",
+   "crowd_note": "Playa larga: hay sitio incluso en los días más concurridos (IKSURFMAG)",
+   "region": "Isla de Lefkada, mar Jónico",
+   "pros": [
+    "Térmico diario muy fiable en verano",
+    "Dirección onshore segura",
+    "Mucho espacio en el agua",
+    "La ciudad y el aeropuerto de Préveza cerca"
+   ],
+   "cons": [
+    "Viento solo por la tarde y rara vez de más de 20 nudos",
+    "Chop y shorebreak, poca agua plana",
+    "Fuera de junio–septiembre hay poco viento"
+   ],
+   "wind_dir": "NW–W (térmico maistro), cross-onshore / onshore desde la derecha",
+   "airport": "PVK — Préveza (Aktion), ~20 min"
+  },
+  "limnos-keros": {
+   "h": "3de64e4f79",
+   "description": "Bahía de arena de 3–4 km en el este de Lemnos, dentro de una reserva natural con dunas y lagunas (a veces hay flamencos). En toda la bahía el agua llega a la cintura hasta 150 m de la orilla: uno de los mejores spots de Grecia para aprender. El norte de la bahía es plano, el centro tiene chop para los primeros saltos y el sur, ola pequeña.",
+   "rating_basis": "TheKiteMag: agua plana 5/5, principiantes 5/5, olas 3/5; IKSURFMAG y windsurf.co.uk elogian el agua poco profunda y la variedad de condiciones en una sola bahía",
+   "waves_note": "«Tres spots en uno»: en el norte de la bahía, agua plana; en el centro, chop pequeño; en el sur, olas pequeñas (rara vez de más de 1 m)",
+   "hazards": "Viento offshore en la parte alta de la bahía y por la tarde; por la mañana, antes de que abran las escuelas, no hay lancha de rescate",
+   "gustiness_note": "Spot de mañana: el mejor viento, aproximadamente de 9:00 a 15:00; hacia la tarde amaina y rola a offshore; en la parte alta de la bahía puede ser racheado",
+   "crowd_note": "Kitejungle: «moderado»; en el centro de la bahía, junto a la escuela, a veces hay bastante gente; la parte sur está más libre",
+   "region": "Isla de Lemnos (Limnos), Egeo Septentrional",
+   "pros": [
+    "Se hace pie lejos de la orilla",
+    "Agua plana, chop y olas en una misma bahía",
+    "Naturaleza salvaje, poca construcción",
+    "Aeropuerto a 15 minutos"
+   ],
+   "cons": [
+    "Isla alejada de las rutas principales, pocos vuelos",
+    "Por la tarde el viento amaina y rola a offshore",
+    "Poca infraestructura aparte del camping y las escuelas"
+   ],
+   "wind_dir": "N–NE (meltemi), side / cross-shore; en la parte alta de la bahía, ligeramente cross-off",
+   "airport": "LXS — Lemnos, ~15 min"
+  },
+  "naxos-mikri-vigla": {
+   "h": "9584d782d3",
+   "description": "La playa de arena (Parthena) junto al cabo de Mikri Vigla, en el suroeste de Naxos, es el principal spot de kite de la isla y uno de los mejores de las Cícladas. El meltemi de verano del norte se refuerza con el térmico y el efecto Venturi entre Naxos y Paros, y suele soplar desde mediodía hasta la puesta de sol. En ambos extremos de la bahía hay centros de kite con alquiler y rescate.",
+   "rating_basis": "Kitejungle: 325 días de viento (≥12 nudos) al año; Generationvoyage/Argophilia sitúan Naxos en el 1.er puesto de los destinos de kite de Grecia en 2025; thekitespot: «20–25 nudos estables»; kite-and-windsurfing-guide advierte de que el lugar es más difícil de lo que parece",
+   "waves_note": "Junto a la orilla, de agua plana a chop ligero; más lejos, ola pequeña de hasta ~1 m; con el raro viento del sur se navega al otro lado del cabo",
+   "hazards": "Cabo rocoso al final de la bahía, piedras en el fondo en algunos puntos (hacen falta escarpines), bañistas, rachas fuertes de meltemi",
+   "gustiness_note": "El meltemi viene «reforzado» por el térmico y se acelera entre Naxos y Paros: a menudo sopla 5–10 nudos por encima de la previsión, con rachas junto al cabo",
+   "crowd_note": "En general hay más sitio que en los spots top, pero la playa estrecha está llena de material; en agosto hay mucha gente",
+   "region": "Isla de Naxos, Cícladas, mar Egeo",
+   "pros": [
+    "Meltemi de verano muy estable y fuerte",
+    "Apto para todos los niveles, hay escuelas con lancha de rescate",
+    "Bonita playa de arena, agua cristalina",
+    "Aeropuerto cerca y ferris desde el Pireo"
+   ],
+   "cons": [
+    "El viento suele superar la previsión: hacen falta kites pequeños (7–9 m)",
+    "Playa estrecha, poco sitio con tanto material",
+    "Bañistas y piedras junto al cabo"
+   ],
+   "wind_dir": "N–NW (meltemi), side / cross-onshore",
+   "airport": "JNX — Naxos, ~20 min; o ferri desde el Pireo/Rafina"
+  },
+  "paros-pounda": {
+   "h": "d8ba497eff",
+   "description": "La playa de arena de Pounda, en el suroeste de Paros, frente a Antiparos. El meltemi del norte se acelera en el estrecho y sopla paralelo a la costa: el agua plana y el viento estable lo convierten en uno de los mejores spots de Grecia para freestyle y para aprender. En la playa hay un gran centro de kite con alquiler, rescate y bar.",
+   "rating_basis": "Kitejungle: «una de las playas de kite más populares de Grecia», 242 días de viento al año; spot clásico de freestyle que ha acogido pruebas del circuito mundial",
+   "waves_note": "Estrecho entre Paros y Antiparos: agua plana junto a la orilla y chop más lejos; sin olas",
+   "hazards": "Muchos kiters en el agua; la línea de ferri Paros–Antiparos pasa cerca; respeta las normas de la playa",
+   "gustiness_note": "Viento side-shore muy estable, acelerado por el efecto Venturi del estrecho; en pleno meltemi puede llegar a 25–30 nudos o más",
+   "crowd_note": "Según kitejungle, de moderado a lleno; en julio–agosto se va apretado en el agua",
+   "region": "Isla de Paros, Cícladas, mar Egeo",
+   "pros": [
+    "Viento side-shore estable, agua plana",
+    "Sirve tanto para principiantes como para freestylers",
+    "Infraestructura completa en la playa"
+   ],
+   "cons": [
+    "Mucha gente en plena temporada",
+    "Con meltemi fuerte puede pasar de 30 nudos",
+    "Agua y aire frescos fuera del verano"
+   ],
+   "wind_dir": "N–NNW (meltemi), side-shore",
+   "airport": "PAS — Paros, ~15 min; o ferri desde el Pireo/Rafina hasta Parikia (~20 min en coche)"
+  },
+  "rhodes-kremasti": {
+   "h": "7ba264a4fb",
+   "description": "Playa de kite junto al pueblo de Kremasti, en la costa noroeste de Rodas, a 10 minutos del aeropuerto. El meltemi de verano se acelera en el estrecho entre Rodas y Turquía y sopla paralelo a la costa, reforzado por el térmico durante el día: los días de calma en julio–agosto son raros. El agua cubre enseguida, pero es muy buena para freestyle y wakestyle; la escuela tiene rescate en moto de agua.",
+   "rating_basis": "IKSURFMAG (Anja Fuchs): «destino de verano ideal», los días sin viento en julio–agosto son «muy raros»; aprender es más difícil que en Egipto por la profundidad",
+   "waves_note": "Al empezar el meltemi, agua plana; al reforzarse, chop, y más lejos de la orilla, mar de viento; en los días onshore y con la tramontana de primavera y otoño, olas grandes y shorebreak",
+   "hazards": "El agua cubre nada más entrar, shorebreak con tramontana del norte, olas grandes en los días onshore",
+   "gustiness_note": "El meltemi se acelera por efecto tobera entre Rodas y Turquía, y por la tarde se suma el térmico: 5–7 Bft durante el día, 3–5 Bft por la mañana",
+   "crowd_note": "Frente a la escuela hay mucha gente en las horas punta, pero a barlovento y lejos de la orilla sobra espacio; mucho más libre que Prasonisi",
+   "region": "Costa noroeste de Rodas, Dodecaneso",
+   "pros": [
+    "Aeropuerto a 10 minutos, la ciudad de Rodas al lado",
+    "Viento muy fiable de junio a septiembre",
+    "Agua cálida (hasta 28 °C en verano)",
+    "Rescate en moto de agua"
+   ],
+   "cons": [
+    "Franja estrecha donde se hace pie: más difícil para principiantes",
+    "Shorebreak con tramontana en primavera y otoño",
+    "Mucha gente junto a la escuela en las horas punta"
+   ],
+   "wind_dir": "W–NW (meltemi, que gira en el estrecho), side-shore ligeramente desde la izquierda, a veces side-onshore",
+   "airport": "RHO — Rodas (Diagoras), ~10 min"
+  },
+  "rhodes-prasonisi": {
+   "h": "6444a4cd48",
+   "description": "Istmo de arena en el extremo sur de Rodas que une la isla con el islote de Prasonisi: a un lado, el mar Egeo; al otro, el Mediterráneo. El relieve refuerza aquí el meltemi de verano, así que el viento es más estable y fuerte que en el resto de la isla. El lado plano está cerrado al kite y reservado al windsurf; los kiters navegan en el lado oeste, con olas.",
+   "rating_basis": "Uno de los spots más conocidos de Grecia: «una de las mejores estadísticas de viento de Europa» (windsurf.co.uk); IKSURFMAG: «no es para todo el mundo», difícil para principiantes y abarrotado",
+   "waves_note": "Istmo de arena entre dos mares: en el lado oeste (Egeo), viento onshore y olas, desde la rodilla hasta más de 2 m con meltemi fuerte; el lado este es plano, pero ahora está reservado al windsurf",
+   "hazards": "Meltemi fuerte y racheado, olas y entrada complicada en el lado onshore; windsurfistas; si cambia la dirección, el viento puede volverse offshore",
+   "gustiness_note": "El relieve del cabo refuerza el meltemi: normalmente hay más viento que en el resto de Rodas; a veces sopla muy fuerte",
+   "crowd_note": "En verano llegan kiters y windsurfistas de toda Europa; IKSURFMAG lo califica de «super crowded»",
+   "region": "Isla de Rodas, Dodecaneso, mar Egeo",
+   "pros": [
+    "Meltemi de verano muy estable, alto porcentaje de días con viento",
+    "Olas para wave y freestyle",
+    "Naturaleza espectacular, agua cálida en verano"
+   ],
+   "cons": [
+    "No es para principiantes: el lado plano está cerrado al kite",
+    "Mucha gente en temporada",
+    "Lejos de la ciudad (~90 km de Rodas), poca infraestructura",
+    "A veces el viento es demasiado fuerte"
+   ],
+   "wind_dir": "NW–W (meltemi); en el lado del kite, cross-onshore",
+   "airport": "RHO — Rodas (Diagoras), ~1 h 15 min en coche"
+  },
+  "bol-zlatni-rat": {
+   "h": "f15a5ee5d3",
+   "description": "La famosa lengua de arena y guijarros de Zlatni Rat («Cuerno de Oro»), junto al pueblo de Bol, en el sur de la isla de Brač. En verano sopla el maestral térmico, acelerado en el canal entre Brač y Hvar. En plena temporada no se puede despegar desde el propio Zlatni Rat: la salida está a unos 2 km, junto al centro de windsurf, y hay que navegar a no menos de 30 m de la playa.",
+   "rating_basis": "Más conocido como spot de windsurf; la oficina de turismo de Bol describe el kite en Zlatni Rat con maestral de 15–25 nudos, pero en temporada está prohibido despegar desde la propia playa y no es un spot para principiantes",
+   "waves_note": "Chop en el canal Brač–Hvar, prácticamente sin olas",
+   "hazards": "Bañistas (distancia obligatoria de 30 m a la playa), windsurfistas, lanchas y ferris en el canal; el viento te lleva a mar abierto; agua profunda y guijarros",
+   "gustiness_note": "El maestral térmico se refuerza por efecto Venturi en el canal; durante el día, normalmente por la tarde",
+   "crowd_note": "Una de las playas más populares de Croacia: en verano hay muchos bañistas y windsurfistas; los kiters deben mantenerse a 30 m de la playa",
+   "region": "Isla de Brač, Dalmacia",
+   "pros": [
+    "Paisaje precioso y agua cálida en verano",
+    "Maestral diurno regular en julio–agosto",
+    "Hay servicio de rescate y escuelas"
+   ],
+   "cons": [
+    "En verano está prohibido despegar desde Zlatni Rat; la salida está a ~2 km",
+    "Muchos bañistas y windsurfistas",
+    "No es para principiantes: el viento sopla paralelo a la costa hacia mar abierto",
+    "Fuera del verano el viento es irregular (bura/jugo)"
+   ],
+   "wind_dir": "W–WNW (maestral), side-shore paralelo a la costa hacia mar abierto",
+   "airport": "BWK — Brač, ~15 min; SPU — Split + ferri/catamarán hasta Bol, ~1–1,5 h"
+  },
+  "nin-zdrijac": {
+   "h": "043b147d76",
+   "description": "El antiguo pueblo de Nin, a 15 km de Zadar, está rodeado de playas de arena poco profundas y una laguna: es la principal zona de Croacia para aprender kite. En verano, por la tarde, sopla el maestral del noroeste, y el agua llega a la cintura hasta lejos de la orilla. Cerca hay una decena de spots más (Sabunike, Privlaka, Vir, Šimuni en Pag) para distintas direcciones de viento.",
+   "rating_basis": "La zona de kite más popular de Dalmacia del Norte: agua poco profunda y playas de arena alrededor de Nin, varias escuelas (kitejungle enumera decenas de spots en la zona Nin–Pag–Privlaka)",
+   "waves_note": "Bahía de arena poco profunda junto a Nin: agua plana y chop ligero con maestral; olas solo con jugo fuerte",
+   "hazards": "Bañistas y zonas de baño en verano; con bura el viento es offshore y muy racheado",
+   "gustiness_note": "El maestral de verano es un térmico diurno constante; la bura de invierno es muy racheada y offshore",
+   "crowd_note": "En verano hay muchos alumnos y bañistas en las playas alrededor de Nin",
+   "region": "Nin, alrededores de Zadar, Dalmacia del Norte",
+   "pros": [
+    "Agua poco profunda: excelente para principiantes",
+    "Aeropuerto de Zadar cerca y mucho alojamiento",
+    "Muchos spots alternativos en los alrededores"
+   ],
+   "cons": [
+    "El viento de verano es moderado y no sopla todos los días",
+    "Mucha gente en julio–agosto",
+    "La bura de invierno es offshore y peligrosa"
+   ],
+   "wind_dir": "NW (maestral), side-onshore; en invierno, bura (NE) y jugo (SE)",
+   "airport": "ZAD — Zadar, ~25 min"
+  },
+  "viganj-peljesac": {
+   "h": "ddfcaeeae7",
+   "description": "Pequeño pueblo en la costa sur de la península de Pelješac, frente a Korčula, y spot de viento clásico de Croacia. El maestral de verano se acelera en el estrecho canal y sopla paralelo a la costa por la tarde. Hay una playa de kite propia, campings y escuelas; el agua es profunda y con chop, así que es más bien un spot para riders seguros.",
+   "rating_basis": "Kite-and-windsurfing-guide sitúa Viganj al nivel de Bol y Perna como spots térmicos con viento de hasta 5 Bft en el canal; lugar de windsurf conocido desde hace tiempo, con playa de kite propia y campings",
+   "waves_note": "Canal entre Pelješac y Korčula: chop, prácticamente sin olas",
+   "hazards": "Windsurfistas y barcos en el canal, la línea de ferri Orebić–Korčula cerca; agua profunda",
+   "gustiness_note": "El térmico de verano se acelera por efecto Venturi en el canal Pelješac–Korčula, de 1,5 km, hasta ~5 Bft; sopla en la segunda mitad del día",
+   "crowd_note": "En verano hay muchos windsurfistas y kiters en el estrecho canal, pero menos que en Bol",
+   "region": "Península de Pelješac, Dalmacia del Sur",
+   "pros": [
+    "Maestral diurno regular en verano",
+    "Ambiente de camping de viento, paisaje precioso",
+    "Korčula y Dubrovnik cerca"
+   ],
+   "cons": [
+    "Agua profunda: no es el mejor lugar para las primeras clases",
+    "Viento solo en la segunda mitad del día y moderado",
+    "Se tarda en llegar (ferri o carretera por Pelješac)"
+   ],
+   "wind_dir": "W–NW (maestral térmico), side-shore a lo largo del canal",
+   "airport": "DBV — Dubrovnik, ~2 h; SPU — Split, ~3 h"
+  },
+  "bali-sanur": {
+   "h": "e81ea1c6fa",
+   "description": "Sanur es un destino tranquilo en el sureste de Bali donde de junio a septiembre sopla el alisio del sureste. La barrera de coral forma una laguna de agua plana, cómoda para aprender, y en el arrecife exterior a veces hay olas. Navegar depende de la marea: en bajamar la laguna es demasiado poco profunda.",
+   "rating_basis": "El principal spot de kite de Bali: alisio regular en la estación seca y laguna tras el arrecife, pero navegar depende mucho de la marea y el viento es moderado; es más un lugar cómodo para aprender y descansar que un destino top",
+   "waves_note": "Entre la playa y la barrera de coral (~0,5–1 km), laguna de agua plana con chop en marea alta; en el arrecife exterior, olas para wave riders experimentados",
+   "hazards": "Arrecife y corales poco profundos en bajamar (hace falta calzado), erizos de mar, corrientes en los pasos del arrecife, lanchas rápidas a Nusa Penida y Lembongan, olas en el arrecife exterior",
+   "gustiness_note": "Estación seca, alisio de junio a septiembre, viento bastante constante que aumenta hacia el mediodía; se navega sobre todo con marea media y alta",
+   "crowd_note": "En julio–agosto hay mucha gente en la laguna: escuelas, SUP, barcos a Nusa Penida",
+   "region": "Bali, costa sureste (Denpasar)",
+   "pros": [
+    "Alisio de junio a septiembre, cuando en Tailandia y Vietnam es temporada floja",
+    "Laguna plana tras el arrecife",
+    "Toda la infraestructura de Bali; fácil combinar con surf y vacaciones",
+    "Agua cálida todo el año"
+   ],
+   "cons": [
+    "Solo se navega con marea media/alta",
+    "Viento moderado, a veces falta potencia",
+    "De noviembre a marzo, temporada de lluvias y casi sin viento",
+    "Tráfico de barcos"
+   ],
+   "wind_dir": "SE–ESE (alisio del sureste), side-onshore",
+   "airport": "DPS — Denpasar (Ngurah Rai), ~25–30 min"
+  },
+  "sulawesi-jeneponto-mallasoro": {
+   "h": "a259b2dfee",
+   "description": "Mallasoro, en el sur de Célebes (Sulawesi), es una laguna indonesia poco conocida pero con muchísimo viento: de abril a octubre el alisio del sureste sopla casi a diario, de la mañana a la puesta de sol. La laguna de arena, poco profunda y de más de 2 km de largo, con agua plana y transparente, sirve tanto para aprender como para freestyle. Una alternativa a Bali en la misma temporada, pero con un viento mucho más fuerte y estable.",
+   "rating_basis": "IKSURFMAG: viento el 80–100 % del tiempo de abril a octubre, laguna plana y poco profunda de 2 km para cualquier nivel y para big air, lejos de las multitudes; en contra: un solo alojamiento e infraestructura sencilla",
+   "waves_note": "Laguna de arena de más de 2 km: agua plana, poco profunda y transparente; con marea alta, pequeños kickers; en bajamar, un espejo; ni olas ni shorebreak",
+   "hazards": "Lejos de atención médica, sol fuerte, poca profundidad en bajamar; la guía no menciona peligros específicos",
+   "gustiness_note": "En temporada el viento sopla de la mañana a la tarde, según IKSURFMAG el 80–100 % del tiempo, con picos de 20–35 nudos",
+   "crowd_note": "Prácticamente vacío: en el spot hay un solo alojamiento y navegan sobre todo sus huéspedes",
+   "region": "Célebes Meridional (Sulawesi del Sur), regencia de Jeneponto, pueblo de Mallasoro, a ~80 km de Makassar",
+   "pros": [
+    "Alisio fuerte y muy estable de abril a octubre",
+    "Enorme laguna poco profunda con agua plana",
+    "Ninguna aglomeración",
+    "Barato: comida a 3–4 $, alojamiento en el spot ~60 $/noche"
+   ],
+   "cons": [
+    "Un solo alojamiento en el spot, poco entretenimiento",
+    "Internet lento (3G)",
+    "Hay que volar a Makassar y luego 1,5–2 h por carretera",
+    "De noviembre a marzo, temporada de lluvias sin viento"
+   ],
+   "wind_dir": "E–SE (alisio del sureste), side / side-onshore",
+   "airport": "UPG — Makassar, ~1,5–2 h en coche"
+  },
+  "rameswaram-dhanushkodi": {
+   "h": "e1d4a13780",
+   "description": "La isla de Pamban, entre la India y Sri Lanka, es la principal zona de kite de la India. La larga lengua de tierra que lleva a la ciudad abandonada de Dhanushkodi está bañada por un lado por la bahía de Palk y por el otro por el golfo de Mannar, así que con casi cualquier viento se encuentra una laguna plana o una ola de arrecife. La temporada del monzón del suroeste va de abril a septiembre, y la del viento del norte, de diciembre a marzo.",
+   "rating_basis": "IKSURFMAG llama a Rameswaram un «paraíso» para principiantes y avanzados: dos temporadas de viento, lagunas planas y olas de arrecife, apenas un puñado de kiters en el agua; en contra: lejanía y necesidad de permisos",
+   "waves_note": "Bahías y lagunas protegidas con agua plana (las islas hacen de rompeolas); en los arrecifes, olas, sobre todo antes y después del monzón",
+   "hazards": "Arrecifes, lejanía (el rescate depende solo de la escuela), zona fronteriza y prohibición de navegar sin permiso; temporada de lluvias y ciclones de octubre a diciembre",
+   "gustiness_note": "Dos temporadas de 4–5 meses: monzón del suroeste de 18–25 nudos, viento invernal del norte de 15–20 nudos; viento oceánico constante",
+   "crowd_note": "Apenas un puñado de kiters; en el spot principal casi nunca hay turistas ni pescadores",
+   "region": "Tamil Nadu, isla de Pamban (Rameswaram), lengua de Dhanushkodi",
+   "pros": [
+    "Dos temporadas de viento: casi todo el año salvo octubre–noviembre",
+    "Lagunas planas y olas de arrecife cerca",
+    "Casi nadie en el agua",
+    "Exotismo: los templos de Rameswaram, Dhanushkodi"
+   ],
+   "cons": [
+    "Para navegar hacen falta permisos, en la práctica solo a través de una escuela local",
+    "Pocas escuelas y alquileres, alojamiento sencillo",
+    "Lejos: ~2 h desde el aeropuerto de Madurai",
+    "Muchísimo calor en mayo–junio"
+   ],
+   "wind_dir": "SW (abril–septiembre), N–NE (diciembre–marzo); la isla permite elegir costa para cualquier dirección; en el spot principal, cross-shore",
+   "airport": "IXM — Madurai, ~2–3 h; TRZ — Tiruchirappalli, ~3 h"
+  },
+  "lake-garda-campione-malcesine": {
+   "h": "27b2aba26c",
+   "description": "El Garda es el mayor lago de Italia, en un estrecho valle alpino donde los vientos térmicos soplan con horario fijo: por la mañana, el Pelèr del norte; por la tarde, la Ora del sur. El kite en el lago está muy restringido: en la parte norte (trentina), junto a Riva y Torbole, según las escuelas está prohibido; se puede navegar en zonas asignadas, junto a Campione del Garda y Malcesine (allí se suele salir desde la lancha de la escuela). Agua dulce fresca, paisaje de montaña, excelente infraestructura.",
+   "rating_basis": "Una de las zonas con más viento de Europa, con los térmicos Ora y Pelèr para sesiones de mañana y de tarde (Kitejungle); Riva, Torbole y Campione son conocidos como centros de vela, windsurf y kite (Wikipedia). Para el kite hay fuertes restricciones de zona: la valoración es más baja que para el windsurf",
+   "waves_note": "Agua dulce, sin olas: chop corto de lago cuando la Ora sopla fuerte",
+   "hazards": "Lago profundo sin bajíos: si cae el viento hace falta servicio de rescate; orillas rocosas; mucho tráfico de veleros, ferris y windsurfistas; prohibido el kite fuera de las zonas autorizadas (multas): consulta las normas vigentes en el lugar",
+   "gustiness_note": "Los térmicos soplan con horario fijo a lo largo del lago, pero junto a las orillas y bajo las montañas hay huecos y rachas; el Pelèr de la mañana es más fuerte y racheado",
+   "crowd_note": "En verano el lago está lleno de windsurfistas, veleros y wingfoilers; las zonas de kite son pequeñas",
+   "region": "Norte de Italia, lago de Garda (Lombardía / Véneto)",
+   "pros": [
+    "Viento con horario fijo casi todos los días de verano",
+    "Paisajes de montaña impresionantes",
+    "Agua dulce, sin olas ni sal",
+    "Fácil llegar en coche desde Europa Central"
+   ],
+   "cons": [
+    "Restricciones estrictas para el kite: solo algunas zonas y a menudo salida desde lancha",
+    "Profundo: si cae el viento, largo camino hasta la orilla (hace falta lancha de apoyo)",
+    "Agua fría fuera del verano",
+    "Muchísimos windsurfistas y veleros"
+   ],
+   "wind_dir": "S (Ora, por la tarde) y N (Pelèr, por la mañana), a lo largo del lago, side-shore",
+   "airport": "VRN — Verona, ~1 h; BGY — Bérgamo, ~1 h 40 min; VCE — Venecia, ~2 h"
+  },
+  "lo-stagnone-marsala": {
+   "h": "9640989251",
+   "description": "Lo Stagnone es la mayor laguna de Sicilia, entre Marsala y Trapani, una reserva natural con las islas de Isola Lunga y Mozia y antiguos molinos de sal. El agua es plana y poco profunda en una superficie enorme, por eso es uno de los mejores lugares de Europa para aprender, hacer freestyle y foil. En verano funciona la brisa térmica; en primavera y otoño, el mistral y el siroco, más fuertes.",
+   "rating_basis": "Una de las lagunas de kite más populares de Europa (Kitejungle): enorme superficie de agua plana y poco profunda para aprender, freestyle y foil; kite trips de marzo a noviembre. En contra: en verano el térmico suele ser moderado",
+   "waves_note": "Sin olas: agua plana de la rodilla a la cintura en casi toda la laguna (0,5–2 m de profundidad)",
+   "hazards": "Muy poca profundidad: lesiones en las caídas, conchas/piedras afiladas (hace falta calzado); zona protegida: respeta los canales y no te acerques a las islas ni a los barcos; algas",
+   "gustiness_note": "Sobre la laguna abierta y poco profunda el viento es constante; en primavera y otoño, vientos frontales de hasta ~33 nudos",
+   "crowd_note": "En plena temporada (mayo–septiembre) hay muchos alumnos y kiters junto a las escuelas, pero la laguna es grande",
+   "region": "Sicilia occidental, Trapani, laguna del Stagnone junto a Marsala",
+   "pros": [
+    "Enorme laguna poco profunda con agua perfectamente plana",
+    "Ideal para aprender y hacer freestyle",
+    "Agua cálida en verano, bonitas puestas de sol y molinos de sal",
+    "Muchas escuelas y kite camps, aeropuerto de Trapani al lado"
+   ],
+   "cons": [
+    "En verano el viento suele ser moderado (hacen falta kites grandes/foil)",
+    "Mucha gente junto a las escuelas en plena temporada",
+    "Poca profundidad: caer contra el fondo al saltar es peligroso; algas y lodo"
+   ],
+   "wind_dir": "En verano, brisa térmica del SW–W; en primavera/otoño, N–NW (mistral) y SE (siroco); side-shore / side-onshore",
+   "airport": "TPS — Trapani-Birgi, ~10 min; PMO — Palermo, ~1 h 30 min"
+  },
+  "porto-botte": {
+   "h": "1856fd8acc",
+   "description": "Bahía amplia (~2 km) y poco profunda en el suroeste de Cerdeña, con fondo de arena y una playa de unos 2 km. Funciona mejor con el mistral del noroeste, que aquí sopla side-onshore y se refuerza por el relieve. Tres zonas: Il Fortino al norte, el centro e Is Solinas al sur; cerca, Punta Trettu para principiantes.",
+   "rating_basis": "Wannakitesurf califica el spot de «Great» para todos los niveles; las escuelas locales consideran la bahía uno de los mejores lugares del suroeste de Cerdeña con mistral",
+   "waves_note": "Junto a la orilla, plano y poco profundo durante ~300 m; más lejos, chop con mistral; sin olas",
+   "hazards": "Fondo fangoso en la zona norte de Il Fortino; humedales protegidos (aves): respeta las zonas; chop en la parte exterior de la bahía con mistral fuerte",
+   "gustiness_note": "El mistral se refuerza por efecto Venturi y sopla constante; con SE flojo, a parches",
+   "crowd_note": "En verano la zona de Is Solinas puede llenarse; el municipio de Giba a veces habilita un canal de kite",
+   "region": "Suroeste de Cerdeña (Giba / San Giovanni Suergiu)",
+   "pros": [
+    "Agua plana y poco profunda junto a la orilla",
+    "Mucho espacio para despegar y aterrizar",
+    "Con mistral sopla fuerte y estable",
+    "Alternativas cerca: Punta Trettu, Sant'Antioco"
+   ],
+   "cons": [
+    "Agua fría en invierno (~14–15 °C)",
+    "Con vientos que no sean NW/W/SE fuerte, mal",
+    "Fondo fangoso en la zona de Il Fortino"
+   ],
+   "wind_dir": "NW (mistral), side-onshore; también W y SE fuerte (siroco)",
+   "airport": "CAG — Cagliari, ~1 h 15 min (~90 km)"
+  },
+  "porto-pollo-sardinia": {
+   "h": "cf2de9bab2",
+   "description": "Porto Pollo son dos bahías en el norte de Cerdeña, junto a Palau, separadas por un istmo con el islote de Isola dei Gabbiani. El viento del estrecho de Bonifacio se refuerza por efecto Venturi, así que aquí sopla más a menudo que en el resto de la costa; los kiters navegan en el lado oeste, junto a la desembocadura del río (side-onshore). Un spot de verano europeo clásico, con competiciones y camping junto al agua.",
+   "rating_basis": "El spot de kite más conocido de Cerdeña: final del campeonato del mundo de kite de 2016, pruebas del campeonato italiano; Robby Naish lo llamó «el gimnasio natural perfecto» (it.wikipedia). Kitejungle: temporada de marzo a octubre, mucha gente en verano",
+   "waves_note": "En el lado oeste del istmo (Porto Liscia, desembocadura del río), chop y ola pequeña; la bahía este, Porto Puddu, es plana, pero en verano está reservada a los windsurfistas",
+   "hazards": "Barcos, bañistas y windsurfistas; piedras junto a los cabos; con viento del este, offshore en el lado este",
+   "gustiness_note": "El viento se acelera por efecto Venturi en el estrecho de Bonifacio, entre Cerdeña y Córcega; el maestrale puede ser fuerte y racheado",
+   "crowd_note": "En julio–agosto y cualquier día de viento se llena muchísimo; en temporada alta el lado este es solo para windsurfistas",
+   "region": "Noreste de Cerdeña, Palau, estrecho de Bonifacio",
+   "pros": [
+    "Viento más frecuente y más fuerte que en las playas vecinas (efecto Venturi)",
+    "Dos bahías para distintas direcciones",
+    "Agua cálida en verano, la bonita naturaleza de la Gallura",
+    "Camping y escuelas junto al spot"
+   ],
+   "cons": [
+    "Mucha gente en verano, zona de kite limitada",
+    "La bahía este está cerrada al kite en verano",
+    "El maestrale puede ser demasiado fuerte y racheado"
+   ],
+   "wind_dir": "W–NW (maestrale / ponente): side-onshore en el lado oeste; E (levante): side-offshore en el lado este",
+   "airport": "OLB — Olbia, ~45 min (~40 km)"
+  },
+  "reschensee-lago-di-resia": {
+   "h": "890a23b6cf",
+   "description": "El embalse de Reschensee (Lago di Resia), de unos 6 km de largo y a ~1500 m de altitud, con el campanario sumergido de Graun, es el principal spot de kite del Tirol del Sur. En verano (mayo–octubre) sopla un fiable viento de valle del sur; hay agua poco profunda para aprender y aguas abiertas para freestyle. En invierno el lago se congela y se convierte en una pista de snowkite y ice surfing, donde se celebran campeonatos de snowkite.",
+   "rating_basis": "Uno de los mejores lagos de kite de alta montaña de los Alpes: térmico de verano fiable y, desde 2008, campeonatos alemanes de snowkite sobre hielo; en contra: agua fría y poco espacio en el agua en plena temporada",
+   "waves_note": "En verano, agua plana y chop pequeño, con bajíos para principiantes; en invierno se navega sobre el lago helado y nevado",
+   "hazards": "Agua helada; en invierno, grietas y variaciones del nivel del embalse bajo el hielo: sal solo sobre hielo confirmado",
+   "gustiness_note": "El viento de valle sopla a lo largo del lago de 6 km, constante y fiable en la segunda mitad del día",
+   "crowd_note": "En verano, los días de viento hay muchos kiters y windsurfistas en el lago; en invierno, más sitio",
+   "region": "Tirol del Sur, paso de Resia (~1500 m), junto a la frontera con Austria y Suiza",
+   "pros": [
+    "Dos temporadas: térmico de verano y snowkite sobre hielo",
+    "Viento fiable a lo largo del lago",
+    "Paisajes alpinos y el campanario en el lago",
+    "Escuelas en ambas orillas"
+   ],
+   "cons": [
+    "Agua fría de montaña: hace falta un neopreno grueso",
+    "Poco espacio los días de viento en verano",
+    "Alta montaña: fresco incluso en verano",
+    "El estado del hielo depende del invierno"
+   ],
+   "wind_dir": "S (térmico de verano a lo largo del valle), side-shore a lo largo del lago; en invierno, también N",
+   "airport": "INN — Innsbruck ~1,5–2 h; BZO — Bolzano ~2 h; MUC / VRN ~3,5–4 h"
+  },
+  "diani-beach": {
+   "h": "d43008c5ce",
+   "description": "Larga playa blanca al sur de Mombasa con una laguna cerrada por un arrecife. Dos temporadas de monzón: el cálido Kaskazi del norte, con agua más plana, y el fuerte Kusi del sur, con olas en el arrecife. Arena fina, agua poco profunda y cálida todo el año; cerca, safaris y snorkel.",
+   "rating_basis": "IKSURFMAG — 4,3: viento lateral fiable en dos temporadas, laguna amplia y transparente y arrecife con olas, comunidad de kite asentada desde hace tiempo; se elige Diani como el destino de kite más desarrollado de Kenia (Watamu es la alternativa, con la misma valoración)",
+   "waves_note": "En la laguna tras el arrecife, agua plana (sobre todo por la mañana en bajamar); con la marea entrante, chop; en el arrecife y en el paso de Mlango, olas, más grandes en la temporada del Kusi",
+   "hazards": "Arrecife poco profundo con bajamares fuertes (sobre todo Mlango), chop con marea alta, barcos fondeados y bañistas junto a los bajíos; erizos de mar",
+   "gustiness_note": "Ambos monzones soplan constantes paralelos a la costa; el Kaskazi es más cálido y estable (~20 nudos), el Kusi más fuerte (más de 25 nudos)",
+   "crowd_note": "En el spot principal, junto a Kenyaways, hasta ~30 kites en hora punta; los bajíos de Neptune y Baobab casi siempre están vacíos",
+   "region": "Costa sur de Kenia, 35 km al sur de Mombasa, océano Índico",
+   "pros": [
+    "Viento lateral constante en dos temporadas",
+    "Agua cálida todo el año (≥22 °C)",
+    "Gran laguna con poca gente + olas en el arrecife",
+    "Safaris y snorkel en los días sin viento"
+   ],
+   "cons": [
+    "Temporada de lluvias de abril a junio",
+    "Arrecife poco profundo con las bajamares vivas",
+    "Vendedores insistentes en la playa",
+    "Vuelo con escalas"
+   ],
+   "wind_dir": "Kaskazi: NE (dic–mar); Kusi: S–SE (jun–sep); side-shore",
+   "airport": "MBA — Mombasa, ~1–1,5 h (con el ferri de Likoni); UKA — Ukunda, ~10 min"
+  },
+  "jeju-iho-tewoo": {
+   "h": "edab1fd67f",
+   "description": "La playa de Iho Tewoo, junto al aeropuerto de Jeju, es el principal spot de kite de la isla, con una escuela local. Hay viento gran parte del año: más fuerte en invierno (monzón frío del noroeste), y los mejores meses por la combinación de viento y calor son abril–mayo y septiembre–octubre. La salida es una playa estrecha de unos 50 m entre rompeolas.",
+   "rating_basis": "kitejungle: Jeju es el lugar con más viento de Corea (~263 días de viento), pero la salida es estrecha y el spot es para experimentados; lo conocen sobre todo los riders locales",
+   "waves_note": "De chop a ola pequeña",
+   "hazards": "Rompeolas y muros de hormigón a los lados de la salida, salidas rocosas en las playas vecinas, windsurfistas, cercanía al aeropuerto (a ~1 km del extremo de la pista)",
+   "gustiness_note": "En primavera y otoño, 15–30 nudos; en verano, 10–20; el viento suele ser algo racheado",
+   "crowd_note": "Moderado; en el agua también hay windsurfistas",
+   "region": "Isla de Jeju, ciudad de Jeju",
+   "pros": [
+    "El lugar con más viento de Corea",
+    "Aeropuerto y ciudad al lado",
+    "Hay escuela y alquiler"
+   ],
+   "cons": [
+    "Salida estrecha (~50 m) entre rompeolas",
+    "Mucho frío en invierno",
+    "Poco espacio a los lados para aterrizar"
+   ],
+   "wind_dir": "NW–N en invierno y otoño (monzón), S en verano",
+   "airport": "CJU — Jeju, ~10 min"
+  },
+  "kapchagay-reservoir": {
+   "h": "4731ecca15",
+   "description": "El embalse de Kapchagay, a 70 km de Almaty, es el principal lugar de navegación de los kiters de Almaty. Se navega junto a las estaciones de bombeo 5 y 6, donde sopla de forma estable el viento del este «Chilik», y pasado el pueblo de Shengeldy (parte norte) hay todavía más viento. La temporada va de finales de primavera a otoño; en verano hace calor y el agua está cálida.",
+   "rating_basis": "El principal spot de los kiters de Almaty: se valora el fuerte «Chilik» del este y la cercanía a la ciudad; en contra: ola corta y empinada, poca infraestructura, sin escuelas de kite especializadas",
+   "waves_note": "Embalse de ~100 km de largo: con «Chilik» fuerte se levanta una ola corta y empinada de hasta 1–2 m",
+   "hazards": "El viento del sur es offshore; ola corta y empinada; lejos de los servicios de rescate",
+   "gustiness_note": "El «Chilik» es constante y fuerte; el viento del oeste, racheado e impredecible",
+   "crowd_note": "Comunidad local; los fines de semana con viento, varias decenas de kites",
+   "region": "Provincia de Almaty, ciudad de Konáev",
+   "pros": [
+    "«Chilik» fuerte y estable",
+    "A una hora en coche de Almaty",
+    "Agua cálida en verano",
+    "Superficie de agua enorme"
+   ],
+   "cons": [
+    "Ola corta y empinada con viento fuerte",
+    "Casi no hay escuelas de kite ni alquiler",
+    "El viento del oeste es racheado",
+    "Calor de hasta +35 °C y poca sombra"
+   ],
+   "wind_dir": "E–SE («Chilik»): side-shore; NW («Balkhash»); W («Zapad»): racheado; S: offshore, peligroso",
+   "airport": "ALA — Almaty, ~1–1,5 h"
+  },
+  "kalpitiya": {
+   "h": "d219755a20",
+   "description": "Kalpitiya es una península arenosa entre el océano Índico y la laguna de Puttalam, el principal centro de kite de Sri Lanka, con decenas de kite camps. De mediados de mayo a mediados de octubre sopla el fuerte monzón del suroeste, y de mediados de diciembre a mediados de marzo, un viento invernal más suave. La gran laguna es buena para aprender, y en barco se puede llegar a Vella Island y Dream Spot o hacer downwinds por la laguna de Puttalam.",
+   "rating_basis": "El principal destino de kite de Sri Lanka: dos temporadas, en verano viento casi a diario, más de una docena de spots, desde lagunas planas hasta olas (IKSURFMAG, Kitejungle); en contra: redes de pescadores, medusas, infraestructura sencilla",
+   "waves_note": "Gran laguna (~2×1 km): agua plana y poco profunda; Donkey Spot, en el lado del océano: chop y olas; Vella Island y Dream Spot (en verano, en barco): agua plana a sotavento de la isla y mar abierto al otro lado",
+   "hazards": "Redes de pesca en las lagunas (busca boyas y banderines), medusas, fondo fangoso en el centro de la laguna (hace falta calzado); en Donkey Spot no hay servicio de rescate en el lado del océano en verano; en algunos spots hace falta pase/permiso",
+   "gustiness_note": "En verano el monzón es fuerte y constante, sopla de la mañana a la tarde (18–25 nudos, picos de hasta 30); en invierno el viento es más flojo (15–20 nudos) y entra a mediodía",
+   "crowd_note": "En la gran laguna, en pleno verano, hay mucha gente junto a los camps, pero las decenas de spots de alrededor permiten escapar de la multitud; los spots de las islas están libres",
+   "region": "Provincia del Noroeste, península de Kalpitiya (Kappaladi / Kandakuliya)",
+   "pros": [
+    "En verano, viento casi a diario, 18–25 nudos",
+    "Dos temporadas al año",
+    "Lagunas planas y poco profundas para aprender y hacer freestyle",
+    "Muchos spots, excursiones a las islas y downwinds"
+   ],
+   "cons": [
+    "Infraestructura sencilla, la vida gira en torno a los camps",
+    "Redes de pesca en la laguna",
+    "Entre temporadas (noviembre, abril) casi no hay viento",
+    "Trayecto desde el aeropuerto de Colombo de ~3–4 h"
+   ],
+   "wind_dir": "SW–W en verano (monzón del suroeste, cross-shore); N–NE en invierno",
+   "airport": "CMB — Colombo (Bandaranaike), ~3–4 h en coche"
+  },
+  "mannar-keeri": {
+   "h": "6b7c0eb54e",
+   "description": "La isla de Mannar, en el norte de Sri Lanka, es la continuación de la cadena de bajíos del Puente de Adán hacia la India. El monzón de verano del suroeste se refuerza aquí en el estrecho y sopla casi a diario a 20–30 nudos, y las largas playas y lagunas poco profundas ofrecen agua plana. Un lugar salvaje y con poca gente para riders independientes y kite safaris.",
+   "rating_basis": "Conocido como el spot con más viento y más vacío de Sri Lanka: aquí llegan safaris desde Kalpitiya y a los bajíos del Puente de Adán (Kitejungle lo describe como «un lugar muy remoto»); valoración rebajada por la escasa infraestructura y las pocas escuelas",
+   "waves_note": "Costa poco profunda del golfo de Mannar: junto a la orilla y en las lagunas (Vankalai, bajíos del Puente de Adán), agua plana y chop; sin olas importantes",
+   "hazards": "Lejanía y ausencia de servicio de rescate, redes de pesca y barcas, bajíos con fondo de conchas, viento fuerte; los bajíos del Puente de Adán son zona fronteriza y hacen falta permisos",
+   "gustiness_note": "El monzón de verano se refuerza en el estrecho entre la India y Sri Lanka: el viento es más fuerte y constante que en Kalpitiya; en la isla está el mayor parque eólico del país",
+   "crowd_note": "Casi vacío: unos pocos kite camps y grupos de safari desde Kalpitiya",
+   "region": "Provincia del Norte, isla de Mannar (golfo de Mannar)",
+   "pros": [
+    "Viento fuerte y muy estable de junio a septiembre",
+    "Spots vacíos, agua plana y poco profunda",
+    "Safaris a los bajíos del Puente de Adán",
+    "Ambiente auténtico, nada turístico"
+   ],
+   "cons": [
+    "Lejanía: 5–6 h desde Colombo",
+    "Pocas escuelas y alquileres, alojamiento sencillo",
+    "Viento fuerte: no es para principiantes",
+    "En invierno el viento es flojo e irregular"
+   ],
+   "wind_dir": "SW–W (monzón del suroeste), side-onshore; en invierno, N–NE",
+   "airport": "CMB — Colombo, ~5–6 h en coche; JAF — Jaffna, ~2 h"
+  },
+  "dakhla-lagoon": {
+   "h": "d2481a28e9",
+   "description": "Una enorme laguna poco profunda en la península de Dajla, en pleno Sáhara, y uno de los lugares de kite con más viento y más conocidos del mundo. Los camps están en el extremo norte de la laguna (PK25), desde donde se puede navegar en agua plana, hacer downwinds hasta la Duna Blanca y la Isla del Dragón y, en coche, ir a la ola de Oum El Bouir.",
+   "rating_basis": "Aparece en casi todos los rankings mundiales: laguna de 45 km, ~340 días de viento al año (IKSURFMAG), agua plana para freestyle y spots de olas cerca; en contra: la lejanía y las noches frías",
+   "waves_note": "En la laguna, plano en bajamar y chop en marea alta, sin olas; Speed Spot es un espejo con marea baja; olas en la derecha de point break de Oum El Bouir (más grande en invierno)",
+   "hazards": "Corrientes y viento fuerte en la laguna; las mareas cambian la profundidad; en los spots de olas, piedras y shorebreak",
+   "gustiness_note": "El alisio sopla constante, más flojo por la mañana, y se entabla hacia las 14:00; en verano, hasta 30–35 nudos",
+   "crowd_note": "Hasta 7 camps en el extremo norte de la laguna: junto a los camps hay mucha gente, pero la laguna es enorme; en Speed Spot, con marea baja, se va apretado",
+   "region": "Sáhara Occidental (bajo administración de Marruecos), Atlántico",
+   "pros": [
+    "Viento casi todo el año (~340 días)",
+    "Enorme laguna con agua plana y poco profunda",
+    "Spots de olas cerca",
+    "Formato camp: «sales del bungalow y al agua»"
+   ],
+   "cons": [
+    "Lejanía: vuelo vía Casablanca",
+    "Noches frías y agua de 18–22 °C: hace falta neopreno",
+    "Internet inestable",
+    "Para los spots lejanos hace falta un 4×4"
+   ],
+   "wind_dir": "NNE–NE, side-shore (en Speed Spot, offshore)",
+   "airport": "VIL — Dajla, ~30–40 min hasta los camps"
+  },
+  "essaouira": {
+   "h": "26325395b7",
+   "description": "Ciudad fortificada con mucho encanto, una medina Patrimonio de la UNESCO y una amplia bahía de arena donde el alisio del noreste sopla casi todo el año. En la playa principal hay chop y ola pequeña; al lado, una laguna plana en la desembocadura del río, y a 20 km, los spots de olas de Sidi Kaouki y Moulay. Todo está a mano a pie, y el alojamiento y la comida son baratos.",
+   "rating_basis": "IKSURFMAG: la «ciudad de los vientos», con alisio casi todo el año, una gran bahía, vuelos directos desde Europa y vida barata; en contra: agua fría, arena que vuela y viento racheado",
+   "waves_note": "En la playa principal, chop y ola pequeña (más grande en el extremo izquierdo de la bahía), sin shorebreak; en la laguna de la desembocadura, plano pero con poco espacio",
+   "hazards": "Viento fuerte de hasta 40 nudos en verano, olas en el extremo izquierdo de la bahía, profundidad cambiante en la laguna, sol fuerte",
+   "gustiness_note": "En verano el alisio es estable y llega a 35–40 nudos; arena de la playa y viento frío",
+   "crowd_note": "La bahía principal es muy grande y hay sitio de sobra; la pequeña laguna se llena ya con ~6 kites",
+   "region": "Costa atlántica, Marrakech-Safí",
+   "pros": [
+    "Viento casi todo el año, muy estable en verano",
+    "Gran bahía sin apreturas",
+    "Medina con mucho carácter, alojamiento barato",
+    "Spots de olas cerca (Sidi Kaouki)"
+   ],
+   "cons": [
+    "Agua fría, 17–21 °C: hace falta neopreno de 3–4 mm",
+    "Arena que vuela y viento fresco en la playa",
+    "En verano el viento puede ser demasiado fuerte",
+    "Poco alcohol y poca vida nocturna"
+   ],
+   "wind_dir": "N–NNE, side-onshore desde la derecha",
+   "airport": "ESU — Esauira, ~20 min; RAK — Marrakech, ~2,5–3 h"
+  },
+  "moulay-bousselham": {
+   "h": "a048b52948",
+   "description": "Pueblo pesquero de la costa atlántica norte de Marruecos con una larga playa de arena y un beach break popular entre los surfistas de Casablanca y Rabat. Se puede hacer kite en verano con el alisio del norte. La laguna de Merja Zerga, al sur del pueblo, es una reserva de aves, no una zona de kite.",
+   "rating_basis": "Spot poco conocido: la guía kite-and-windsurfing-guide lo describe como una larga playa de arena con beach break donde se puede hacer kite cuando el alisio es lo bastante fuerte; casi no hay escuelas ni opiniones de kiters",
+   "waves_note": "Beach break atlántico; olas grandes en invierno, más pequeñas en verano",
+   "hazards": "Beach break y corrientes junto a la desembocadura de la laguna; la laguna es reserva (no se puede navegar); con viento del este, offshore",
+   "gustiness_note": "Solo se puede navegar cuando el alisio es lo bastante fuerte; el viento del este en invierno es offshore",
+   "crowd_note": "Apenas unos pocos kiters; en verano hay muchos bañistas y surfistas en la playa",
+   "region": "Costa atlántica, Rabat-Salé-Kenitra",
+   "pros": [
+    "Agua vacía y playa larga",
+    "Olas para kitesurf",
+    "No muy lejos de Rabat y Tánger"
+   ],
+   "cons": [
+    "Sin escuelas de kite ni alquiler",
+    "Viento inestable, offshore en invierno",
+    "Poca información sobre el spot"
+   ],
+   "wind_dir": "N–NE en verano (alisio), side-onshore; en invierno, a menudo E: offshore",
+   "airport": "RBA — Rabat-Salé, ~1,5–2 h; TNG — Tánger, ~2 h"
+  },
+  "ulcinj-velika-plaza": {
+   "h": "9c8d4086f5",
+   "description": "Velika Plaža es una playa de arena de 13 km al sureste de Ulcinj, que llega hasta la frontera con Albania y la isla de Ada Bojana. En verano, casi a diario, sopla de mediodía a la puesta de sol un térmico constante de 12–25 nudos; el agua es poco profunda y cálida (más de 25 °C) y no hay shorebreak. Es popular el downwind de ~7 km hasta el delta del río Bojana, con agua plana entre bancos de arena.",
+   "rating_basis": "IKSURFMAG, valoración 4,0: «uno de los últimos spots de kite „escondidos“ de Europa»: amplia playa de arena, agua hasta la cintura, sin shorebreak ni obstáculos peligrosos",
+   "waves_note": "Normalmente chop; solo hay ola pequeña después del mal tiempo. Al final del downwind de ~7 km, agua plana entre bancos de arena en el delta del Bojana",
+   "hazards": "No hay obstáculos peligrosos; en la desembocadura del Bojana, corriente y bajíos cambiantes: mejor hacer el downwind de forma organizada",
+   "gustiness_note": "Térmico «superestable» casi a diario, de mediodía a la puesta de sol; según los locales, Windguru subestima el viento real",
+   "crowd_note": "La zona de kite suele estar tranquila; en una playa de 13 km hay mucho espacio",
+   "region": "Ulcinj, sur de Montenegro, Adriático",
+   "pros": [
+    "Térmico de verano estable",
+    "Agua poco profunda hasta la cintura, amplia playa de arena: cómodo para principiantes",
+    "Agua cálida, poca gente",
+    "Downwind hasta el agua plana del delta del Bojana"
+   ],
+   "cons": [
+    "Fuera de mayo–septiembre hay poco viento",
+    "Lejos de los aeropuertos (Podgorica ~1 h 15 min, Tivat ~1,5–2 h)",
+    "Pocas previsiones online que acierten con el viento"
+   ],
+   "wind_dir": "SW–W (térmico), side / side-onshore",
+   "airport": "TGD — Podgorica, ~1 h 15 min; TIV — Tivat, ~1,5–2 h"
+  },
+  "sakalava-bay": {
+   "h": "c343f53e5c",
+   "description": "Pintoresca bahía en el norte de Madagascar, junto a la ciudad de Diego Suárez: una lengua de arena con agua plana dentro del arrecife y olas fuera. De abril a noviembre sopla casi a diario el fuerte alisio del sureste «Varatraza». Al lado, el mar Esmeralda (Babaomby), para downwinds y excursiones de safari.",
+   "rating_basis": "IKSURFMAG — 4,3: «la bahía más bonita de la zona de Diego Suárez», combinación de viento fuerte y estable, agua plana, olas y protección del arrecife; la vecina Babaomby está entre los diez lugares con más viento del planeta según Windguru",
+   "waves_note": "En la lengua de arena, agua plana como un espejo; la bahía está cerrada por el arrecife; olas más lejos, junto al arrecife; sin shorebreak",
+   "hazards": "Viento fuerte, arrecife y olas fuera de la bahía, rachas junto a los manglares; zona de malaria",
+   "gustiness_note": "El alisio es muy estable: en 2017, solo 7 de los 245 días de temporada tuvieron viento de menos de 15 nudos; junto al pueblo pesquero es racheado por los manglares",
+   "crowd_note": "Unos pocos lodges con escuela de kite en una gran bahía: mucho espacio",
+   "region": "Extremo norte de Madagascar, Antsiranana (Diego Suárez), océano Índico",
+   "pros": [
+    "Uno de los vientos más estables y fuertes del mundo (abril–noviembre)",
+    "Agua plana y olas en una misma bahía",
+    "Fondo de arena, agua cálida",
+    "Alojamiento barato (40–80 € la habitación doble)"
+   ],
+   "cons": [
+    "Logística complicada: vuelo vía Antananarivo / París",
+    "Poca infraestructura; internet sobre todo para los huéspedes de los lodges",
+    "En verano (dic–marzo), temporada de lluvias sin viento"
+   ],
+   "wind_dir": "ESE–SE (alisio «Varatraza»), cross-onshore",
+   "airport": "DIE — Diego Suárez (Antsiranana), ~50 min"
+  },
+  "le-morne": {
+   "h": "826b565e7f",
+   "description": "Península al pie del monte Le Morne Brabant (UNESCO), en el suroeste de Mauricio: una enorme laguna poco profunda con agua plana para aprender y hacer freestyle, y una barrera de coral con olas de distintos niveles, desde la suave Manawa hasta la legendaria One Eye. El mejor viento y swell llegan en el invierno austral (junio–noviembre). Los hoteles están junto al agua.",
+   "rating_basis": "Famoso por la ola de One Eye, una de las mejores olas de kite del mundo; IKSURFMAG destaca condiciones para todos los niveles (laguna, olas fáciles y de expertos en ~1,5 km), ~60 % de días con más de 4 Bft de junio a noviembre, pero el viento es caprichoso",
+   "waves_note": "Enorme laguna poco profunda con agua plana; en Main Beach, a veces shorebreak; en el arrecife, Manawa (izquierda suave), Chameaux y la legendaria One Eye (tubos de hasta el triple de la altura de una persona, solo expertos)",
+   "hazards": "Corales en la laguna, arrecife poco profundo y ola potente en One Eye y Chameaux, corrientes en los pasos del arrecife, shorebreak en Main Beach con swell",
+   "gustiness_note": "El alisio es estable en dirección, pero el viento es «caprichoso»: las guías aconsejan viajes de 2 semanas; el monte Le Morne hace sombra de viento en algunos puntos",
+   "crowd_note": "Main Beach y la laguna están ocupadas en plena temporada; en One Eye, los días pequeños, hay muchos principiantes en la ola",
+   "region": "Suroeste de la isla Mauricio, océano Índico",
+   "pros": [
+    "Laguna y olas de nivel mundial a poca distancia",
+    "Agua cálida todo el año",
+    "Hoteles junto al agua, naturaleza preciosa",
+    "Apto para todos los niveles"
+   ],
+   "cons": [
+    "Viento caprichoso: riesgo de quedarse sin navegar",
+    "Hoteles de resort caros",
+    "Corales en el fondo de la laguna: hace falta calzado",
+    "Vida nocturna tranquila"
+   ],
+   "wind_dir": "SE–ESE (alisio), cross-shore / onshore desde la izquierda; en la ola de Manawa, cross-offshore",
+   "airport": "MRU — Mauricio (Sir Seewoosagur Ramgoolam), ~1 h"
+  },
+  "isla-blanca-cancun": {
+   "h": "ff383bc1c4",
+   "description": "Estrecha lengua de arena al norte de Cancún: a un lado, el mar Caribe; al otro, una laguna plana y poco profunda. La temporada va de noviembre a junio: en invierno, los «nortes»; en primavera, viento del este. Los puntos principales son el camp Ikarus y La Punta, en el extremo de la lengua, que funciona con casi cualquier dirección.",
+   "rating_basis": "IKSURFMAG considera La Punta uno de los lugares más fáciles del mundo para aprender; Ikarus es el principal spot de la zona con viento del norte",
+   "waves_note": "La laguna es plana y poco profunda; con viento del norte de más de 25 nudos aparece chop en Ikarus",
+   "hazards": "El coche puede quedarse atascado en la arena: sigue las rodadas marcadas; chop con viento del norte fuerte; offshore en las playas de la zona hotelera",
+   "gustiness_note": "Los nortes (noviembre–abril) son fuertes y frescos; desde abril el viento rola al E–SE y se estabiliza",
+   "crowd_note": "Con viento del norte, a Ikarus llegan riders de toda la costa",
+   "region": "Quintana Roo, península de Yucatán",
+   "pros": [
+    "Laguna plana y poco profunda: ideal para aprender y hacer freestyle",
+    "Funciona con muchas direcciones de viento",
+    "Agua cálida, cerca de Cancún"
+   ],
+   "cons": [
+    "Poco transporte público (4 colectivos al día)",
+    "Casi sin internet",
+    "En verano y otoño hay poco viento; temporada de huracanes"
+   ],
+   "wind_dir": "N–NE en invierno (nortes), E–SE en primavera; en la laguna, side/side-off",
+   "airport": "CUN — Cancún, ~45 min"
+  },
+  "la-ventana": {
+   "h": "003e7422cb",
+   "description": "Polvoriento pueblo pesquero a orillas del mar de Cortés que en invierno se convierte en la capital del kite de Baja California. De noviembre a marzo sopla «El Norte», reforzado por el térmico: un viento constante casi a diario a lo largo de una larga playa frente a la isla Cerralvo. El agua tiene chop y cubre nada más entrar, así que los principiantes deberían ir con instructor y lancha; cerca están El Sargento y Los Barriles.",
+   "rating_basis": "El principal spot de kite de invierno de Norteamérica, en el mar de Cortés; Kitejungle señala la temporada alta de noviembre a marzo y condiciones aptas para todos los niveles; según la comunidad, «El Norte» es fiable y el ambiente de los campings, relajado",
+   "waves_note": "Sin olas: chop y mar de viento; el agua cubre casi desde la orilla",
+   "hazards": "Piedras en parte de la playa, rayas en los bajíos (arrastra los pies), viento fuerte de «El Norte» con los frentes",
+   "gustiness_note": "El viento invernal del norte, «El Norte», reforzado por el térmico diurno en la bahía entre la isla Cerralvo y las montañas; normalmente constante",
+   "crowd_note": "En plena temporada de invierno hay muchos kiters de EE. UU. y Canadá, pero con la playa larga y el agua profunda hay sitio de sobra",
+   "region": "Baja California Sur, costa del mar de Cortés (≈45 km de La Paz)",
+   "pros": [
+    "Viento invernal fiable (diciembre–marzo)",
+    "Mucho espacio en el agua",
+    "Ambiente relajado, campings y villas",
+    "Cerca de La Paz y Los Cabos"
+   ],
+   "cons": [
+    "Agua de ~20 °C en invierno: hace falta neopreno 3/2",
+    "Cubre junto a la orilla: más difícil para principiantes",
+    "En verano prácticamente no hay viento"
+   ],
+   "airport": "SJD — San José del Cabo, ~2 h; LAP — La Paz, ~1 h"
+  },
+  "brouwersdam": {
+   "h": "c4820f46ea",
+   "description": "El Brouwersdam es un dique de 6,5 km en el delta del Rin y el Mosa, entre las islas de Goeree-Overflakkee y Schouwen-Duiveland. A un lado, una playa del mar del Norte con chop y olas; al otro, el lago salado de Grevelingen, con agua plana, así que se puede navegar con casi cualquier viento. Viento frontal, más fuerte en otoño e invierno; en verano, neopreno; en invierno, traje seco.",
+   "rating_basis": "El spot de kite más conocido de los Países Bajos: un dique de 6,5 km con playas tanto al mar como al lago, que permite navegar con casi cualquier dirección de viento; popular entre kiters y windsurfistas (en.wikipedia)",
+   "waves_note": "En el lado del mar del Norte, chop y ola pequeña con vientos del oeste; en el lado del lago Grevelingen, agua plana con vientos del este",
+   "hazards": "Agua fría e hipotermia; espigones y taludes de piedra del dique; corrientes junto a la esclusa de Brouwerssluis; zonas de baño en verano: respeta las zonas de kite",
+   "gustiness_note": "El viento marino sobre el mar del Norte es constante; en otoño e invierno son frecuentes los frentes de temporal",
+   "crowd_note": "Los fines de semana con viento hay muchísimos kiters de los Países Bajos, Bélgica y Alemania; en verano las playas están llenas de bañistas",
+   "region": "Zelanda / Holanda Meridional, dique entre Goeree-Overflakkee y Schouwen-Duiveland",
+   "pros": [
+    "Dos lados del dique: spot para casi cualquier dirección de viento",
+    "Largas playas de arena, mucho espacio",
+    "Fácil llegar en coche (Róterdam, ~45 min)",
+    "Viento todo el año"
+   ],
+   "cons": [
+    "Agua fría (5–20 °C); en invierno hace falta traje seco",
+    "Tiempo cambiante; en verano el viento es más flojo",
+    "Mucha gente los fines de semana con viento"
+   ],
+   "wind_dir": "SW–W–NW: side-shore / side-onshore en el lado del mar; E–NE: en el lago Grevelingen",
+   "airport": "RTM — Róterdam, ~45 min; AMS — Ámsterdam, ~1 h 30 min; EIN — Eindhoven, ~1 h 30 min"
+  },
+  "haugastol-hardangervidda": {
+   "h": "238aee5af5",
+   "description": "Haugastøl es un pueblo base al borde de la meseta de Hardangervidda, en la línea de tren Oslo–Bergen, meca mundial del snowkite y sede de la carrera Red Bull Ragnarok. Alrededor hay decenas de lagos helados y colinas para cualquier nivel: desde un lago llano a 25 m del hotel hasta largas expediciones por la meseta. La temporada alta va de febrero a mayo, y la mejor nieve polvo, de enero a principios de marzo.",
+   "rating_basis": "Considerado uno de los mejores lugares del mundo para el snowkite: más de 3400 km² de meseta navegable, viento estable, la legendaria carrera Red Bull Ragnarok; en contra: clima duro y carreteras cerradas con temporal",
+   "waves_note": "Lagos helados (Sløtfjorden junto al hotel, Lillevann, Nygårdsvann, Skiftesjøen) y meseta ondulada: desde campos llanos «de aprendizaje» hasta relieve y kickers",
+   "hazards": "Grietas y agua sobre el hielo, piedras, agua abierta junto a presas y ríos, whiteout y congelación; las salidas largas en solitario, solo con navegación",
+   "gustiness_note": "En la meseta abierta el viento es constante; junto a las montañas (Halne, Sløtfjorden) algunas direcciones son racheadas; con viento del este sopla más fuerte en el oeste de la meseta",
+   "crowd_note": "Durante el Ragnarok y en Semana Santa hay mucha gente junto al hotel, pero la meseta es enorme y en los spots lejanos casi no hay nadie",
+   "region": "Vestland / Viken, entre Oslo y Bergen, ~1000 m",
+   "pros": [
+    "Enorme meseta abierta y decenas de spots",
+    "Viento estable de casi cualquier dirección",
+    "Acceso en el tren Oslo–Bergen",
+    "Temporada hasta mayo, largos días de primavera"
+   ],
+   "cons": [
+    "Mucho frío y viento, el tiempo cambia rápido",
+    "Noruega es cara",
+    "La carretera que cruza la meseta se cierra con temporal",
+    "Principio de temporada (oct–ene): poca nieve y pocas horas de luz"
+   ],
+   "wind_dir": "W y E (a lo largo de la meseta); en la mayoría de los spots funcionan todas las direcciones",
+   "airport": "OSL — Oslo-Gardermoen ~4 h / BGO — Bergen ~4 h; tren Bergensbanen hasta la estación de Haugastøl"
+  },
+  "auckland-orewa": {
+   "h": "afa6a8087f",
+   "description": "Orewa es una larga playa de arena en el norte de Auckland y uno de los principales spots de la ciudad con vientos del norte y del este. Gracias a sus muchas bahías, en Auckland se encuentra spot para casi cualquier dirección: Orewa, St Heliers y The Spit con agua plana, Shakespeare Regional Park y la oceánica Muriwai con olas. Viento frontal; la mejor época es la primavera (septiembre–noviembre).",
+   "rating_basis": "IKSURFMAG: en Auckland se puede navegar todo el año, y los meses con más viento son de junio a noviembre; Orewa sirve tanto para principiantes como para experimentados. Es un spot urbano «de casa», no un destino de kite de nivel mundial",
+   "waves_note": "Playa de 4 km en el golfo de Hauraki: con N–NE y E, mar de viento sin shorebreak; en bajamar, más llano. Cerca, en Auckland, hay spots de agua plana (St Heliers, The Spit, Shoal Bay) y la playa de surf de Muriwai",
+   "hazards": "Mareas (mejor en bajamar), bañistas en verano, rachas al paso de los frentes, agua fría en invierno; en la vecina Muriwai, ola potente y corrientes",
+   "gustiness_note": "Viento sobre todo frontal que cambia con el tiempo; en torno a Año Nuevo hay vientos fuertes del este, y en verano se suma la brisa marina",
+   "crowd_note": "Playa larga; con buen viento los fines de semana llegan kiters de todo Auckland",
+   "region": "Auckland, península de Hibiscus Coast (golfo de Hauraki), ~35 km al norte del centro",
+   "pros": [
+    "Se puede navegar todo el año",
+    "Playa larga sin shorebreak, poco profunda en bajamar",
+    "Muchos spots para distintas direcciones en una misma ciudad",
+    "Fácil de combinar con un viaje por Nueva Zelanda"
+   ],
+   "cons": [
+    "Viento frontal, irregular",
+    "Agua fresca: 14 °C en invierno, hace falta neopreno 4/3",
+    "Vuelo largo y caro",
+    "Depende de las mareas"
+   ],
+   "wind_dir": "N–NE y E, onshore / side-onshore",
+   "airport": "AKL — Auckland, ~45–50 min"
+  },
+  "wellington-plimmerton": {
+   "h": "b6fecd2348",
+   "description": "Onehunga Bay, en el parque Whitireia, frente a Plimmerton, es el principal spot con NW de los alrededores de Wellington: dentro de la bahía, agua plana; fuera, en el banco, olas. Aquí suele haber más viento que en el resto de la costa de Kāpiti, pero más suave que en el propio Wellington. Lyall Bay, en la ciudad, junto al aeropuerto, es un spot de olas solo para expertos.",
+   "rating_basis": "kitejungle: «olas fuera, agua plana dentro: simplemente fantástico con NW»; el spot es popular entre kiters y windsurfistas. Lyall Bay, dentro de la ciudad, es solo para muy experimentados",
+   "waves_note": "Plano dentro, olas fuera sobre el banco de arena (muy dependiente de la marea); la mejor ola llega con N racheado",
+   "hazards": "Viento racheado con N, NE peligroso; piedras y guijarros en la salida; la ola del banco depende de la marea",
+   "gustiness_note": "Con N y NE, rachas fuertes; con NW y W, viento más constante",
+   "crowd_note": "Popular entre los windsurfistas; a veces hay mucha gente",
+   "region": "Isla Norte, región de Wellington (Porirua)",
+   "pros": [
+    "Agua plana y olas en un mismo lugar",
+    "Viento gran parte del año",
+    "A 30 min de Wellington"
+   ],
+   "cons": [
+    "Rachas fuertes con N/NE",
+    "Agua fría (12–17 °C)",
+    "Salida de piedras y guijarros; el parque cierra antes de la puesta de sol"
+   ],
+   "wind_dir": "NW (la mejor), funciona de W a N; N y NE racheados, NE peligroso",
+   "airport": "WLG — Wellington, ~30 min"
+  },
+  "masirah-island": {
+   "h": "a1844c2349",
+   "description": "Isla desértica frente a la costa de Omán a la que en verano llega el fuerte monzón del suroeste (khareef). En la costa oeste hay bahías planas y poco profundas para freeride y aprendizaje; en la este, olas oceánicas para avanzados. La logística suele hacerse con turoperadores: 5 h en coche desde Mascate y ferri; a menudo se combina con las lagunas de Barr Al Hikman.",
+   "rating_basis": "IKSURFMAG — 4,8 para el kite trip por Omán (Barr Al Hikman + Masirah): viento de 20–35 nudos todo el verano, bahías planas en el oeste y olas de hasta 5 m en el este, agua casi vacía; en contra: sin lanchas de rescate y logística complicada",
+   "waves_note": "Costa oeste: bahías planas de ~1,7 m de profundidad con marea alta, sin shorebreak; costa este: olas de 2–3 m (hasta ~5 m), derecha, shorebreak",
+   "hazards": "Sin rescate en el agua, piedras en la salida de Khaseet, ola potente en el este; calor y sol",
+   "gustiness_note": "El monzón de verano sopla muy estable y fuerte, de mediados de junio a finales de agosto casi sin interrupciones",
+   "crowd_note": "Isla salvaje: en el agua, unos pocos; en los spots del este a veces hay windsurfistas",
+   "region": "Mar Arábigo, gobernación de Al Sharqiyah Sur",
+   "pros": [
+    "Viento de verano potente y estable cuando en otros sitios hay calma",
+    "Agua plana y olas grandes en una misma isla",
+    "Agua casi vacía, naturaleza salvaje"
+   ],
+   "cons": [
+    "Temporada corta: de mediados de junio a agosto",
+    "Lejos: 5 h desde Mascate + ferri",
+    "Sin lanchas de rescate, poca infraestructura",
+    "Mucho calor en tierra en verano"
+   ],
+   "wind_dir": "S–SW (monzón del suroeste), side-onshore en el oeste, side-offshore en el este",
+   "airport": "MCT — Mascate, ~5 h en coche + ferri"
+  },
+  "punta-chame": {
+   "h": "9842293db6",
+   "description": "Estrecha península de arena en la costa pacífica de Panamá donde en la estación seca (diciembre–abril) el alisio del norte sopla a través del istmo. Las fuertes mareas cambian el spot a lo largo del día: en bajamar, poca profundidad para principiantes; con marea alta, rampas para saltar; y a sotavento se abren lagunas de agua plana para freestyle. Infraestructura reducida: unas pocas casas de huéspedes y centros de kite.",
+   "rating_basis": "IKSURFMAG: el principal spot de kite de Panamá: estación seca de diciembre a abril, playa enorme, lagunas de agua plana y un banco de arena; el spot rara vez está lleno",
+   "waves_note": "En la playa principal, ola pequeña sin shorebreak, más llano por la mañana y en bajamar; a sotavento, una minilaguna (5–10 min) y una gran laguna (20 min) con agua plana con marea media; banco de arena a 20 min a barlovento, solo con bajamar viva",
+   "hazards": "Rayas en la playa principal (arrastra los pies), obstáculos a sotavento de la gran laguna, el banco de arena lejano solo con compañero; fuertes corrientes de marea",
+   "gustiness_note": "Alisio de la estación seca que llega del norte a través del istmo; hacia mediodía el viento puede caer, y hay días sin viento",
+   "crowd_note": "La playa principal es enorme y rara vez está llena; por la mañana casi vacía; la minilaguna tiene más ambiente por la tarde",
+   "region": "Panamá Oeste, costa del Pacífico (≈1,5–2 h de Ciudad de Panamá)",
+   "pros": [
+    "Playa enorme, poca gente",
+    "Lagunas y banco de arena con agua plana",
+    "Cerca de la capital de Panamá",
+    "Apto para todos los niveles (según la marea)"
+   ],
+   "cons": [
+    "Temporada solo de diciembre a abril",
+    "Fuerte dependencia de las mareas",
+    "A mediodía puede caer el viento, mucho calor"
+   ],
+   "airport": "PTY — Tocumen (Ciudad de Panamá), ~1 h 50 min"
+  },
+  "paracas": {
+   "h": "c1e7046266",
+   "description": "La desértica bahía de Paracas, a 3–4 h al sur de Lima, es el principal spot de kite del Perú. El viento térmico del sur empieza hacia el mediodía y a las tres de la tarde puede ser muy fuerte. Junto a la playa hay chop y espacio para principiantes; en el lado de barlovento y en el spot más alejado, agua lisa; a una hora en coche, la Laguna Grande, dentro de la reserva.",
+   "rating_basis": "IKSURFMAG: viento estable ~300 días al año, apto para todos los niveles; kitejungle: mejor temporada de noviembre a abril",
+   "waves_note": "Junto a la playa, chop; en el lado de barlovento de la bahía, agua perfectamente plana; sin olas",
+   "hazards": "Componente side-offshore del viento, rachas muy fuertes en la segunda mitad del día, agua fresca",
+   "gustiness_note": "Por la mañana casi calma; el viento sube hacia el mediodía y alcanza su pico hacia las 15:00 (a veces 30–40 nudos); a media jornada puede ser racheado",
+   "crowd_note": "Junto a la orilla hay muchos principiantes, pero la bahía es grande y es fácil encontrar sitio",
+   "region": "Ica, bahía de Paracas (junto a la Reserva Nacional)",
+   "pros": [
+    "Viento casi todos los días (salvo junio–julio)",
+    "Agua plana para freestyle",
+    "Apto para todos los niveles, escuelas en la misma playa"
+   ],
+   "cons": [
+    "Agua fresca, 16–22 °C",
+    "Por la mañana no hay viento",
+    "La arena fina se mete en el material",
+    "Lejos de Lima"
+   ],
+   "wind_dir": "S–SSW, cross / cross-off desde la izquierda",
+   "airport": "LIM — Lima, ~3,5–4 h en coche"
+  },
+  "boracay-bulabog": {
+   "h": "0ea0f93f35",
+   "description": "Bulabog es la playa este, a sotavento, de Boracay: una laguna protegida por un arrecife y reservada exclusivamente para kite y windsurf. De finales de octubre a abril sopla el monzón del noreste Amihan; a lo largo de la playa hay más de una decena de escuelas, y la famosa White Beach, con sus restaurantes y bares, está a 5 minutos a pie.",
+   "rating_basis": "El principal centro de kite de Filipinas (Kitejungle); IKSURFMAG describe un Amihan fiable de 15–25 nudos y una laguna plana tras el arrecife sin shorebreak; en contra: aglomeraciones en plena temporada",
+   "waves_note": "Dentro del arrecife, laguna de agua plana, con chop si el viento es fuerte; en el arrecife exterior, olas. Sin shorebreak; por la mañana y en cierta fase de la marea el agua está más lisa",
+   "hazards": "Arrecife de coral y poca profundidad en bajamar, aglomeración en la laguna, olas en el arrecife exterior; con viento fuerte, chop",
+   "gustiness_note": "El monzón del noreste Amihan sopla casi sin parar de finales de octubre a abril, con una media de 18–20 nudos; por la mañana suele ser más fuerte",
+   "crowd_note": "En plena temporada la estrecha laguna se llena muchísimo: decenas de kites y alumnos a la vez",
+   "region": "Provincia de Aklan, isla de Boracay, costa este",
+   "pros": [
+    "Amihan estable de noviembre a marzo",
+    "Agua plana tras el arrecife, sin shorebreak",
+    "Laguna reservada para kite/windsurf",
+    "Excelente infraestructura turística y vida nocturna cerca"
+   ],
+   "cons": [
+    "Mucha gente en plena temporada",
+    "Arrecife y poca profundidad en bajamar",
+    "Fuera de temporada (mayo–septiembre) no hay dónde navegar",
+    "Caro para lo que es Filipinas"
+   ],
+   "wind_dir": "NE–ENE (Amihan), side-onshore",
+   "airport": "MPH — Caticlan, ~30 min + 15 min de ferri; KLO — Kalibo, ~1,5 h"
+  },
+  "cuyo-capusan": {
+   "h": "d192591994",
+   "description": "Cuyo es una pequeña isla (13×7 km) del mar de Joló, entre Palawan y Panay, conocida por su monzón del noreste fuerte y fiable de noviembre a abril. El spot principal es la playa de Capusan, con una lengua de arena: a un lado, una laguna poco profunda para aprender; al otro, agua plana para freestyle. El segundo spot es Victoria's Beach, junto al kite resort Anino's Retreat.",
+   "rating_basis": "IKSURFMAG describe Cuyo como una isla con un Amihan fuerte y estable (20–35 nudos, los días de calma son raros) y dos tipos de agua junto a la lengua de arena, desde aprendizaje hasta freestyle; en contra: logística complicada",
+   "waves_note": "La lengua de arena separa el spot del mar: a la derecha, agua poco profunda de la rodilla a la cintura con chop pequeño; a la izquierda, agua perfectamente plana para freestyle; sin olas ni shorebreak",
+   "hazards": "Corales y algas en los bajíos a la derecha de la lengua, offshore racheado a la izquierda (puede arrastrarte hacia los barcos), dependencia de las mareas, lejos de atención médica",
+   "gustiness_note": "El Amihan suele soplar a 20–35 nudos (kites de 7–9 m); a la derecha de la lengua el viento es constante; a la izquierda, offshore y racheado",
+   "crowd_note": "Isla tranquila y remota: en el agua, unos pocos riders",
+   "region": "Palawan, islas Cuyo (mar de Joló)",
+   "pros": [
+    "Viento fuerte y estable de noviembre a marzo",
+    "Agua plana y bajíos junto a la lengua de arena",
+    "Casi nadie en el agua",
+    "Vida isleña auténtica"
+   ],
+   "cons": [
+    "Difícil de llegar: ferri desde Puerto Princesa ~4 veces por semana o avionetas con límite de equipaje de 20 kg",
+    "Internet lento, poca infraestructura",
+    "A la izquierda de la lengua, offshore: hace falta buen nivel",
+    "Sin escuelas ni alquileres desarrollados"
+   ],
+   "wind_dir": "NE (Amihan): a la derecha, cross-onshore; a la izquierda, offshore",
+   "airport": "CYU — Cuyo (vuelos de Air Juan); PPS — Puerto Princesa + ferri"
+  },
+  "lagoa-de-obidos": {
+   "h": "b7b035c105",
+   "description": "La Lagoa de Óbidos es una gran laguna poco profunda en la costa atlántica, a una hora al norte de Lisboa, que se comunica con el océano en Foz do Arelho. En verano sopla casi a diario por la tarde la nortada térmica, y el agua es plana y llega a la cintura en una gran superficie: un lugar ideal para aprender, hacer freestyle y foil. Al lado, una playa oceánica para navegar en olas.",
+   "rating_basis": "La mayor laguna costera de Portugal (~6,9 km², profundidad media ~2 m), uno de los mejores lugares de Europa para aprender y hacer freestyle en agua plana; Kitejungle: apta para todos los niveles, gente moderada",
+   "waves_note": "En la laguna no hay olas: agua plana y chop ligero; al lado, en la playa oceánica de Foz do Arelho, olas",
+   "hazards": "Fuertes corrientes de marea junto a la boca de la laguna (no te metas en el canal hacia el océano); bajíos y lodo en bajamar; barcos y pescadores",
+   "gustiness_note": "La nortada térmica de verano aumenta hacia mediodía y sopla bastante constante sobre la laguna abierta",
+   "crowd_note": "En verano hay muchas escuelas y alumnos en los bajíos, pero en la laguna sobra espacio",
+   "region": "Centro de Portugal, Costa de Plata (Foz do Arelho / Óbidos)",
+   "pros": [
+    "Agua plana y poco profunda en una gran superficie",
+    "Ideal para aprender y hacer freestyle",
+    "En verano, viento térmico estable por la tarde",
+    "A una hora de Lisboa, cerca de Peniche y Óbidos"
+   ],
+   "cons": [
+    "Fuera del verano el viento no es fiable",
+    "Las mareas cambian la profundidad; corrientes fuertes junto a la boca",
+    "Fondo fangoso en algunos puntos",
+    "Agua fresca fuera del verano"
+   ],
+   "wind_dir": "N–NW (nortada), side-shore",
+   "airport": "LIS — Lisboa, ~1 h 10 min (~100 km)"
+  },
+  "praia-do-guincho": {
+   "h": "5b91f9d4d4",
+   "description": "Guincho es una amplia playa de arena en la costa atlántica, a 30 minutos de Lisboa, al pie de la sierra de Sintra. En verano, fuerte nortada del norte casi cada día de sol, y olas oceánicas todo el año; es un spot para riders seguros: freeride, olas, big air. El agua es fría incluso en verano por el afloramiento.",
+   "rating_basis": "Spot legendario junto a Lisboa, con pruebas de campeonatos del mundo de kite y windsurf; en verano «siempre hay viento en un día de sol», hasta 40 nudos (Kitejungle). Condiciones difíciles: olas, corrientes, agua fría; no es para principiantes",
+   "waves_note": "Beach break atlántico: desde chop y ola pequeña en verano hasta olas grandes en invierno; en bajamar y con marea media la ola rompe más lejos; con pleamar, shorebreak muy potente",
+   "hazards": "Corrientes y resaca fuertes; shorebreak potente con marea alta; piedras en la playa y en el agua en los extremos; viento racheado junto a las rocas; agua fría",
+   "gustiness_note": "La nortada, reforzada por el relieve de la sierra de Sintra, llega en verano a 30–40 nudos; el viento que viene de las rocas del extremo norte de la playa es racheado",
+   "crowd_note": "En verano, los fines de semana, hay muchos surfistas y bañistas de Lisboa; en el agua hay pocos kiters por la dificultad del spot",
+   "region": "Costa de Lisboa, Cascais (Parque Natural de Sintra-Cascais)",
+   "pros": [
+    "Viento de verano fuerte y estable",
+    "Olas y big air",
+    "A 30 minutos de Lisboa, fácil de combinar con la ciudad",
+    "Precioso parque natural"
+   ],
+   "cons": [
+    "Agua fría (15–20 °C): hace falta neopreno 4/3 todo el año",
+    "Rompiente potente y corrientes, no es para principiantes",
+    "Rachas junto a las rocas; a veces el viento es demasiado fuerte"
+   ],
+   "wind_dir": "N–NNW (nortada), side-shore / side-offshore",
+   "airport": "LIS — Lisboa, ~35 min (~30 km)"
+  },
+  "viana-do-castelo-cabedelo": {
+   "h": "6121903f7b",
+   "description": "Cabedelo es una amplia playa de arena en la orilla sur de la desembocadura del río Lima, frente a la ciudad de Viana do Castelo, en el norte de Portugal. En verano, cada tarde sopla la nortada térmica de 15–25 nudos; en el estuario el agua es poco profunda y lisa, cómoda para aprender, y en la vecina Rodanho hay olas. Varias escuelas (Kite Voodoo, Modo Experto y otras), una tienda de kite y alquiler.",
+   "rating_basis": "Considerado uno de los mejores spots de kite de Portugal (pt.wikipedia); TheKiteSpot: viento fiable de abril a octubre, condiciones para todos los niveles. En contra: agua fría",
+   "waves_note": "En Cabedelo y en el estuario, de agua plana a chop; en la vecina playa de Rodanho, olas de más de 2 m sobre bancos de arena",
+   "hazards": "Corrientes en la desembocadura del río Lima, sobre todo en bajamar; las mareas cambian la profundidad; con viento offshore, solo con la lancha de apoyo de la escuela",
+   "gustiness_note": "Nortada con refuerzo térmico (hasta +50 % sobre la previsión), pico hacia las 16:00; por la mañana hace falta un kite más grande",
+   "crowd_note": "En verano (junio–agosto) las playas están llenas, pero en el agua hay mucho espacio",
+   "region": "Norte de Portugal, Miño (desembocadura del río Lima)",
+   "pros": [
+    "Térmico de verano estable",
+    "Bajíos hasta la cintura en la zona de Cabedelo: cómodo para principiantes",
+    "Hay agua plana y olas",
+    "Una bonita ciudad histórica al lado"
+   ],
+   "cons": [
+    "Agua fría (14–20 °C), neopreno 4/3 casi siempre",
+    "Por la mañana hay poco viento: se navega por la tarde",
+    "Fuera de temporada el viento no es fiable"
+   ],
+   "wind_dir": "N–NW (nortada), side-shore / side-onshore; en invierno, SW (suestada)",
+   "airport": "OPO — Oporto, ~50 min (~76 km); VGO — Vigo, ~1 h (~99 km)"
+  },
+  "baikal-maloe-more": {
+   "h": "57c6eeb01b",
+   "description": "El Maloye More (el «Mar Pequeño») es el estrecho entre la orilla occidental del Baikal y la isla de Oljón, con bahías poco profundas que se calientan (Kurkut, Mukhor), donde en verano se puede navegar en agua plana. En invierno el viento barre la nieve y el hielo del Maloye More se convierte en una enorme pista de ice kite y snowkite (la mejor época es febrero–marzo, cuando el hielo supera los 70 cm). Un lugar para experimentados: el viento es fuerte y muy racheado.",
+   "rating_basis": "Exotismo: navegar sobre el hielo transparente del Baikal en febrero–marzo y sesiones de verano en las bahías cálidas y poco profundas del Maloye More; en contra: clima duro, la racheada sarma y la lejanía",
+   "waves_note": "En verano, en la poco profunda bahía de Kurkut, plano; en el Maloye More abierto, con viento fuerte, ola empinada; en invierno, hielo liso y transparente del que la sarma barre la nieve",
+   "hazards": "Sarma (rachas de hasta 40 m/s), grietas y crestas de presión en el hielo, agujeros de agua abierta, congelación; en el Baikal abierto el agua está muy fría incluso en verano",
+   "gustiness_note": "La sarma es un viento catabático de temporal que baja del valle del río Sarma, con rachas de hasta 40 m/s; en verano el viento es inestable",
+   "crowd_note": "Apenas unos pocos kiters, sobre todo grupos organizados y expediciones",
+   "region": "Óblast de Irkutsk, distrito de Oljón",
+   "pros": [
+    "Experiencia única sobre el hielo transparente del Baikal",
+    "Enorme superficie sin gente",
+    "Bahías cálidas y poco profundas en verano",
+    "Paisajes increíbles de Oljón"
+   ],
+   "cons": [
+    "Sarma: viento muy fuerte y racheado",
+    "Heladas de −25…−30 °C con viento en invierno",
+    "Agua fría en el Baikal abierto",
+    "Lejos: ~5–6 h desde Irkutsk, caminos de tierra"
+   ],
+   "wind_dir": "NW (sarma, la «Gornaya»), y también NE–E a lo largo del Maloye More; side/side-off",
+   "airport": "IKT — Irkutsk, ~5–6 h en coche (~250 km)"
+  },
+  "blagoveshchenskaya-anapa": {
+   "h": "cf72812933",
+   "description": "La lengua de Bugaz, de 100–300 m de ancho, entre el mar Negro y el poco profundo liman de Bugaz, junto a la stanitsa de Blagoveshchenskaya, es el principal destino de kite del sur de Rusia. Se navega sobre todo en el liman, plano y poco profundo, cómodo para aprender; en el lado del mar, con vientos del oeste, hay chop y ola pequeña. La temporada va de mayo a octubre, y los mejores meses son de junio a septiembre.",
+   "rating_basis": "El spot de kite más conocido de Rusia (IKSURFMAG: 3,5/5); se valoran el liman plano y poco profundo y la buena infraestructura de escuelas; en contra: viento moderado y no siempre estable",
+   "waves_note": "En el lado del liman, agua plana y poco profunda; en el lado del mar, con vientos del oeste/suroeste, chop y ola pequeña",
+   "hazards": "Sol fuerte, bajíos con fondo de conchas; zona protegida: restricciones para acampar y construir",
+   "gustiness_note": "Viento sobre todo moderado, que aumenta durante el día y amaina al atardecer; al cruzar la lengua, junto a la orilla del liman, puede ser racheado",
+   "crowd_note": "En verano funcionan en la lengua una decena de escuelas de kite, y en el liman hay muchos alumnos",
+   "region": "Krai de Krasnodar, lengua de Bugaz, mar Negro / liman de Bugaz",
+   "pros": [
+    "Liman plano y poco profundo: ideal para aprender",
+    "Muchas escuelas y kite camps en ruso",
+    "En temporada se instala un kite park con sliders",
+    "Agua cálida en verano"
+   ],
+   "cons": [
+    "Viento moderado, hacen falta kites grandes; hay semanas sin viento",
+    "Lengua salvaje: sin sombra, poca infraestructura",
+    "Entrada de pago a la lengua, camino de arena",
+    "Algas en el liman"
+   ],
+   "wind_dir": "SW–W (cruzando la lengua; en el liman, side-off); con N–NE se navega en otros tramos planos cercanos",
+   "airport": "AAQ — Anapa, ~35 min (desde 2022 el funcionamiento del aeropuerto está restringido: comprueba su estado); estación de tren de Anapa, ~30 min"
+  },
+  "dolzhanskaya-dolgaya-spit": {
+   "h": "db6e04b364",
+   "description": "La lengua de Dolgaya es una franja de arena de 18 km junto a la stanitsa de Dolzhanskaya que separa el mar de Azov abierto del poco profundo golfo de Taganrog. Con casi cualquier dirección de viento, un lado de la lengua tiene agua plana y el otro, olas, así que gusta tanto a principiantes como a freestylers. La temporada va de mayo a septiembre–octubre, y cada septiembre se celebra el festival «Dolzhanka DA!».",
+   "rating_basis": "Lugar de culto para windsurfistas y kiters del sur de Rusia (festival «Dolzhanka DA!»); se valora poder elegir entre el lado plano y el lado con olas; en contra: agua turbia e infraestructura escasa",
+   "waves_note": "La lengua separa el mar de Azov y el golfo de Taganrog: con un mismo viento, un lado es plano y el otro tiene ola de viento corta de hasta 1 m",
+   "hazards": "Fuertes corrientes y remolinos en la punta de la lengua; offshore en uno de los lados: avisa a los socorristas; redes de pesca",
+   "gustiness_note": "Viento que llega desde aguas abiertas, constante; en el lado «de sotavento» de la lengua, junto a la orilla, algo irregular",
+   "crowd_note": "En verano, los fines de semana, hay mucha gente en la lengua, pero en el agua hay espacio",
+   "region": "Krai de Krasnodar, mar de Azov / golfo de Taganrog",
+   "pros": [
+    "Agua plana y con olas a cien metros de distancia",
+    "Viento desde aguas abiertas, sin obstáculos",
+    "Mar cálido y poco profundo en verano",
+    "Ambiente de campings y festivales"
+   ],
+   "cons": [
+    "Agua turbia, con algas en algunos puntos",
+    "Lejos de los aeropuertos",
+    "Poco alojamiento cómodo en la propia lengua",
+    "En mayo y septiembre hace falta un neopreno grueso"
+   ],
+   "wind_dir": "E–NE («nizovka») y W–SW («verkhovka»); siempre hay un lado de la lengua con side-shore",
+   "airport": "ROV — Rostov del Don (Platov), ~3 h (cerrado por restricciones desde 2022: compruébalo); tren hasta Yeisk (~40 km)"
+  },
+  "pleshcheyevo-lake": {
+   "h": "0058c90977",
+   "description": "Un gran lago (unos 51 km²) dentro de un parque nacional junto a Pereslavl-Zalesski, y el principal spot de kite cerca de Moscú. En verano se navega en agua plana con un bajío amplio y suave junto a la orilla; en invierno, sobre hielo y nieve, con concentraciones y carreras de snowkite. El viento es frontal, así que hay que ir según la previsión.",
+   "rating_basis": "El spot «de fin de semana» más popular entre los moscovitas en verano y en invierno; se valoran la cercanía a Moscú, el bajío junto a la orilla y el snowkite sobre hielo; en contra: viento inestable",
+   "waves_note": "En verano, agua plana y chop pequeño con viento fuerte; en invierno se navega sobre el hielo y la nieve del lago (cuando está permitido salir al hielo)",
+   "hazards": "Hielo fino a principios y finales del invierno, agujeros de agua abierta junto a las desembocaduras de ríos y manantiales (sobre todo en marzo); viento racheado de tierra",
+   "gustiness_note": "Viento de tierra que pasa por bosques y colinas: racheado junto a la orilla, más constante en el centro del lago; en verano aumenta durante el día",
+   "crowd_note": "Los fines de semana con viento hay muchos kiters de Moscú; entre semana, libre",
+   "region": "Óblast de Yaroslavl, a ~140 km de Moscú",
+   "pros": [
+    "A 2–2,5 h de Moscú",
+    "Bajío junto a la orilla: cómodo para aprender",
+    "Dos temporadas: agua en verano y snowkite sobre hielo en invierno",
+    "Gran superficie abierta"
+   ],
+   "cons": [
+    "Viento inestable: muchos días sin viento en verano",
+    "Rachas junto a la orilla",
+    "Solo se puede salir al hielo con permiso oficial",
+    "Parque nacional: restricciones de acceso y aparcamiento"
+   ],
+   "wind_dir": "W–SW y N–NW (frontales); la orilla se elige según la dirección",
+   "airport": "SVO / DME — Moscú, ~2,5–3 h en coche"
+  },
+  "sestroretsk-gulf-of-finland": {
+   "h": "6479291c6d",
+   "description": "La playa «Dyuny» de Sestroretsk, en la orilla norte del golfo de Finlandia, es el spot de kite más popular dentro de San Petersburgo. El agua poco profunda sirve para aprender, y con vientos del oeste entra una ola corta. La temporada va de junio a octubre, y solo se navega según la previsión de viento frontal; el agua solo llega a ~19 °C en julio–agosto.",
+   "rating_basis": "El principal spot de kite de San Petersburgo (wannakitesurf: 3/5, «para todos los niveles»); es cómodo ir desde la ciudad, pero el viento es irregular, el agua fresca y en verano las playas se llenan",
+   "waves_note": "Golfo poco profundo: con vientos del oeste, ola de viento corta y chop; con vientos del este, plano junto a la orilla",
+   "hazards": "Offshore con viento del E–NE, agua fría (hipotermia en primavera y otoño), bañistas en la playa",
+   "gustiness_note": "Viento frontal, más constante desde el mar; con direcciones del este, racheado por el bosque y los edificios",
+   "crowd_note": "En verano hay muchos bañistas en las playas: hay que despegar lejos de ellos",
+   "region": "San Petersburgo, distrito de Kurortny, golfo de Finlandia",
+   "pros": [
+    "Dentro de San Petersburgo, a 40 min del centro",
+    "Bajío junto a la orilla",
+    "Funcionan casi todas las direcciones de viento",
+    "Larga playa de arena"
+   ],
+   "cons": [
+    "Viento irregular, frontal",
+    "Agua fría la mayor parte de la temporada",
+    "En verano hay muchos bañistas y poco espacio para despegar",
+    "Los vientos del este son offshore y racheados"
+   ],
+   "wind_dir": "W–SW (onshore/side-onshore) y NW; E–NE: offshore",
+   "airport": "LED — Púlkovo, ~1 h"
+  },
+  "teriberka-kola": {
+   "h": "f61450bbd9",
+   "description": "Teriberka es un pueblo en la costa del mar de Barents, a 2–2,5 h de Múrmansk, que se ha convertido en uno de los principales destinos de snowkite de Rusia. Se navega en la lengua de arena de la desembocadura del río, en lagos helados y en la tundra ondulada junto al monte Eriveyv y el embalse de Verkhneteriberskoye. La temporada va de finales de noviembre a abril; la mejor época es de marzo a principios de abril: días largos, nieve compacta y el viento más fuerte.",
+   "rating_basis": "Una de las principales zonas de snowkite de Rusia: enorme tundra abierta, viento fuerte frecuente y paisajes árticos; grandes escuelas (Riders of the Storm, SnowKiteWorld y otras) organizan campamentos; en contra: clima duro y noche polar",
+   "waves_note": "Tundra nevada con colinas de hasta ~300 m, lagos helados y el embalse de Verkhneteriberskoye; en la lengua de arena de la desembocadura del río es cómodo despegar",
+   "hazards": "Ventiscas y whiteout, congelación, piedras en las laderas barridas por el viento, sin cobertura en las zonas alejadas; a los spots lejanos, solo con guía",
+   "gustiness_note": "El viento del mar es fuerte y frecuente, racheado junto a las colinas y en el relieve; en marzo sopla ~9 de cada 10 días (según los organizadores)",
+   "crowd_note": "Se navega sobre todo en grupos de kite tours; la tundra está prácticamente vacía",
+   "region": "Óblast de Múrmansk, costa del mar de Barents",
+   "pros": [
+    "Viento fuerte frecuente",
+    "Tundra vacía e inmensa, rutas largas",
+    "Paisajes árticos y auroras boreales",
+    "Kite camps organizados con traslado desde Múrmansk"
+   ],
+   "cons": [
+    "Noche polar en diciembre–principios de enero",
+    "Las ventiscas cierran la carretera Múrmansk–Teriberka",
+    "Frío y viento fuerte: hace falta buen equipo",
+    "Spots alejados sin cobertura"
+   ],
+   "wind_dir": "Cualquier dirección: tundra abierta; a menudo viento fuerte del mar de Barents",
+   "airport": "MMK — Múrmansk, ~2–2,5 h en coche"
+  },
+  "long-bay-providenciales": {
+   "h": "08e4263ec6",
+   "description": "Enorme bahía poco profunda de agua turquesa en el sureste de Providenciales, el principal spot de kite de Turcas y Caicos, donde tienen su base todas las escuelas de la isla. En bajamar el agua llega de la rodilla al muslo en kilómetros a la redonda, con fondo de arena blanda y alisio onshore constante: uno de los mejores lugares del Caribe para aprender y practicar trucos. Los avanzados navegan también en Emerald Point.",
+   "rating_basis": "IKSURFMAG — 3,8/5 para Providenciales: excelentes condiciones para aprender y hacer freestyle, kilómetros de agua hasta la cintura y poca gente; la temporada alta de Long Bay va de finales de noviembre a abril",
+   "waves_note": "Sin olas ni shorebreak; en bajamar el agua llega a medio muslo y se puede caminar más de 1,5 km; con marea alta (amplitud de ~60–70 cm), profundidad hasta los hombros y chop moderado",
+   "hazards": "Algunas piedras y conchas en el fondo, sombra de viento junto al barco hundido; en la vecina Emerald Point, fuertes corrientes en el canal, arrecife y lanchas; temporada de huracanes de junio a noviembre",
+   "gustiness_note": "Alisio oceánico sin obstáculos: constante; con viento side-onshore, junto al barco hundido hay sombra de viento",
+   "crowd_note": "Solo hay mucha gente en bajamar, cuando trabajan las escuelas; el resto del tiempo el espacio es casi ilimitado",
+   "region": "Isla de Providenciales, costa sureste",
+   "pros": [
+    "Enorme bajío con fondo de arena blanda",
+    "Viento onshore seguro",
+    "Poca gente",
+    "A 20 minutos del aeropuerto"
+   ],
+   "cons": [
+    "Destino muy caro",
+    "Con marea alta cubre más y aparece chop",
+    "Septiembre–octubre: viento flojo y temporada de huracanes"
+   ],
+   "airport": "PLS — Providenciales, ~20 min"
+  },
+  "hua-hin": {
+   "h": "e73f987d4e",
+   "description": "Hua Hin es un destino real a 3–4 horas de Bangkok y uno de los primeros centros de kite de Tailandia: 6 km de playa de arena desde el centro hasta el cabo de Khao Takiap y más de diez escuelas. En invierno sopla el monzón del noreste; en primavera, una brisa marina estable por la tarde. Buen lugar para aprender, pero las condiciones son más modestas que en Pranburi y Mui Ne.",
+   "rating_basis": "Uno de los centros de kite más antiguos de Tailandia (aquí se celebraron pruebas de la PKRA), con «no menos de diez escuelas», pero las opiniones en Seabreeze señalan chop, agua turbia y brisa inestable; viento moderado, sin condiciones «espectaculares»",
+   "waves_note": "Playa abierta del golfo: con el monzón del noreste, chop y pequeña ola de viento junto a la orilla, agua más turbia; en primavera, con la brisa, el agua está más limpia y la ola es pequeña. No hay agua plana",
+   "hazards": "Medusas (noviembre y marzo–mayo, sobre todo con viento del SE): hace falta neopreno/lycra; bañistas, boyas y motos de agua; piedras al norte del hotel Sofitel y, detrás, una zona militar: prohibido entrar",
+   "gustiness_note": "Noviembre–enero: monzón de 8–20 nudos en ciclos de 6–10 días, más fuerte por la mañana; febrero–mayo: brisa de tarde de 12–20 nudos (13:00–17:00); de mediados de mayo a octubre, SW offshore racheado: mejor no navegar",
+   "crowd_note": "Playa larga, normalmente sin apreturas; molestan los bañistas, las boyas y las motos de agua",
+   "region": "Provincia de Prachuap Khiri Khan, costa oeste del golfo de Tailandia",
+   "pros": [
+    "Cerca de Bangkok, buena infraestructura turística",
+    "Dos temporadas: monzón de noviembre a enero y brisa de febrero a abril",
+    "Playa de arena en pendiente suave y sin arrecife: cómoda para aprender",
+    "Muchas escuelas, agua cálida de ~27–30 °C"
+   ],
+   "cons": [
+    "Viento moderado (normalmente 10–20 nudos), hay días sin viento",
+    "Chop y agua turbia con el monzón",
+    "Con marea alta, de noviembre a marzo, la playa casi desaparece",
+    "En verano el viento es offshore y racheado"
+   ],
+   "wind_dir": "N–NE en invierno (cross-onshore), brisa marina del SE en primavera (side-onshore); SW en verano: offshore",
+   "airport": "BKK — Bangkok (Suvarnabhumi), ~3–4 h; HHQ — Hua Hin (pocos vuelos)"
+  },
+  "phuket-nai-yang": {
+   "h": "a38706dcae",
+   "description": "Nai Yang es una larga playa del parque nacional de Sirinat, junto al aeropuerto de Phuket. En la temporada del monzón del suroeste (mayo–octubre) las escuelas de kite de la isla se trasladan aquí: viento side-onshore, laguna dentro del arrecife y olas en el arrecife. En invierno (noviembre–abril) los kiters de Phuket navegan en el lado este, en la laguna de Rawai / Chalong.",
+   "rating_basis": "El principal spot de kite de verano (mayo–octubre) de Phuket; las guías de Phuket101 lo recomiendan más bien a riders de nivel medio y avanzado; la escala y la estabilidad del viento son más modestas que en los spots de monzón top",
+   "waves_note": "Dentro del arrecife exterior, laguna con chop y agua relativamente tranquila con marea alta; en el arrecife y con monzón fuerte, olas para avanzados",
+   "hazards": "Arrecife y poca profundidad en bajamar, corrientes de resaca en el monzón (banderas rojas), turbonadas, cercanía a la pista del aeropuerto: navega solo en la zona autorizada",
+   "gustiness_note": "El monzón del suroeste es más fuerte y menos predecible que el viento de invierno del este de la isla; hay turbonadas con chaparrones",
+   "crowd_note": "Temporada turística baja: en la playa y en el agua hay sitio",
+   "region": "Phuket, costa noroeste (mar de Andamán), junto al aeropuerto",
+   "pros": [
+    "Temporada de verano, cuando en el golfo de Tailandia hay poco viento",
+    "A 5–10 minutos del aeropuerto de Phuket",
+    "Playa tranquila en un parque nacional, pocos turistas en temporada baja",
+    "Agua cálida, ~29 °C"
+   ],
+   "cons": [
+    "Temporada de lluvias: turbonadas y chaparrones",
+    "No es el mejor lugar para principiantes absolutos",
+    "Fondo de arrecife y poca profundidad en bajamar",
+    "Poca oferta de escuelas"
+   ],
+   "wind_dir": "SW–W (monzón del suroeste), side-onshore",
+   "airport": "HKT — Phuket, ~10 min"
+  },
+  "pranburi-pak-nam-pran": {
+   "h": "ec6c11175a",
+   "description": "Pak Nam Pran es una playa de arena de 7–10 km junto a la desembocadura del río Pran, a una hora en coche al sur de Hua Hin. El cabo recibe viento casi todo el año: en invierno, el monzón del noreste; en primavera, una brisa estable del sur. Un lugar tranquilo con pueblos pesqueros y hoteles boutique; varias escuelas IKO, entre ellas una filial de KBA.",
+   "rating_basis": "Los riders locales en Seabreeze consideran Pak Nam Pran «una playa mucho mejor» que Hua Hin; aquí se celebraron el campeonato de Asia IKA TT:R y el KTA Freestyle X (marzo de 2017); viento de 12–20 nudos, playa larga y vacía",
+   "waves_note": "Octubre–enero (NE): chop y ola pequeña; febrero–junio: agua más lisa, y hacia marzo se forman bancos de arena con zonas de agua plana (flat para freestyle)",
+   "hazards": "Corrientes más fuertes junto a la desembocadura del río que en la playa abierta; no hay socorristas en la playa; viento offshore en verano; medusas en primavera (como en toda la costa de Hua Hin)",
+   "gustiness_note": "El monzón de invierno es más fuerte por la mañana y amaina a mediodía; en primavera el viento del sur es más flojo pero más estable, y el térmico lo refuerza a partir de las 12–13 h. El cabo refuerza el viento respecto a Hua Hin",
+   "crowd_note": "Entre semana, vacío; los fines de semana llegan tailandeses de Bangkok, kiters y bañistas",
+   "region": "Provincia de Prachuap Khiri Khan, a ~30 km al sur de Hua Hin",
+   "pros": [
+    "Temporada más larga y viento más estable que en Hua Hin",
+    "Playa larga y vacía, poca gente",
+    "En primavera, agua plana junto a los bancos de arena",
+    "Cerca, el spot de la presa de Pranburi (agua dulce) y las bahías de Khao Kalok y Dolphin Bay"
+   ],
+   "cons": [
+    "El viento rara vez pasa de 20 nudos",
+    "Poco entretenimiento e infraestructura",
+    "Julio–septiembre: offshore poco fiable",
+    "3,5–4 h de trayecto desde Bangkok"
+   ],
+   "wind_dir": "NE en invierno (cross-onshore), brisa del S–SE de febrero a junio (side-shore); julio–septiembre, a menudo offshore",
+   "airport": "BKK — Bangkok (Suvarnabhumi), ~3,5–4 h; HHQ — Hua Hin, ~40 min"
+  },
+  "djerba-lagoon": {
+   "h": "0dd6d1ad2a",
+   "description": "Isla llana y cálida frente a la costa de Túnez, con hoteles «todo incluido» y lagunas poco profundas en el sureste donde se puede aprender con el agua por la cintura. El viento es variable: en primavera y otoño, más fuerte; en verano, brisa térmica. Una buena opción para combinar vacaciones de playa y kite.",
+   "rating_basis": "Amplias lagunas poco profundas y agua cálida en verano, pero el viento es más flojo y menos regular que en el mar Rojo; popular como destino de kite entre los europeos; valoración basada en descripciones generales de los spots",
+   "waves_note": "Lagunas poco profundas del sureste de la isla: agua plana; en las playas abiertas del este (Sidi Mahrez), chop",
+   "hazards": "Poca profundidad y algas/piedras en el fondo en algunos puntos, medusas en verano",
+   "gustiness_note": "En verano, sobre todo brisa térmica; en primavera y otoño, vientos frontales; menos estable que en Egipto",
+   "crowd_note": "Lagunas grandes y con poca gente; junto a las escuelas de los hoteles, moderado",
+   "region": "Isla de Djerba, golfo de Gabes (mar Mediterráneo)",
+   "pros": [
+    "Lagunas planas y poco profundas: cómodas para aprender",
+    "Mar cálido en verano",
+    "Hoteles baratos, vuelo corto desde Europa"
+   ],
+   "cons": [
+    "Viento menos fiable que en Egipto y Marruecos",
+    "Pocas escuelas de kite y poca información",
+    "En verano, calor y viento más flojo"
+   ],
+   "wind_dir": "E–NE y N, side-shore (según la playa)",
+   "airport": "DJE — Djerba-Zarzis, ~20–30 min"
+  },
+  "akyaka-gokova": {
+   "h": "1d582f179e",
+   "description": "Playa de kite de arena junto a una reserva natural, en el mismo fondo del golfo de Gökova, al lado de la ecoaldea de Akyaka. El golfo, largo y estrecho, funciona como un embudo para el térmico diario de verano: de junio a septiembre hay viento casi todos los días, y el agua es plana y poco profunda hasta ~150 m de la orilla. Uno de los spots más fiables y seguros de Turquía para aprender.",
+   "rating_basis": "IKSURFMAG: viento ~75 % de los días en mayo y ~99 % de junio a septiembre, «lugar ideal para aprender freestyle», sin obstáculos ni olas; kitejungle: «viento muy estable de 15–25 nudos por la tarde»",
+   "waves_note": "Agua plana y poco profunda, sin olas ni shorebreak; hacia el extremo sur de la playa el viento es más fuerte y aparece un chop ligero",
+   "hazards": "Prácticamente sin obstáculos; junto a la playa de kite hay muchos alumnos. Aparca con cuidado: al lado hay una reserva",
+   "gustiness_note": "El largo golfo funciona como un embudo: viento ligero desde ~9:00, 18–20 nudos hacia mediodía, y se mantiene hasta la tarde; térmico constante sin rachas",
+   "crowd_note": "Normalmente hay sitio, pero junto a la playa de kite hay mucha gente por los alumnos; se puede ir más lejos a lo largo del golfo",
+   "region": "Golfo de Gökova, Muğla, mar Egeo",
+   "pros": [
+    "Viento casi garantizado de junio a septiembre",
+    "Agua plana y poco profunda, onshore: seguro para principiantes",
+    "Agua cálida y el acogedor pueblo de Akyaka, con restaurantes de pescado junto al río Azmak"
+   ],
+   "cons": [
+    "El viento rara vez supera los 20–22 nudos: poco para saltos «grandes»",
+    "Por la mañana, calma; se navega por la tarde",
+    "Mucho calor en julio–agosto"
+   ],
+   "wind_dir": "W (térmico a lo largo del golfo), onshore",
+   "airport": "DLM — Dalaman, ~50 min; BJV — Bodrum, ~2 h"
+  },
+  "alacati-kite-beach": {
+   "h": "dea037677b",
+   "description": "Alaçatı es el destino de viento más conocido de Turquía, a 1 h de Esmirna. La bahía de Alaçatı está reservada a los windsurfistas (puerto, Çark), y las playas de kite están en la orilla este de la bahía, a unos 20 minutos en coche rodeándola. En verano sopla casi a diario el poyraz del norte (meltemi), el agua es plana y junto a la orilla se hace pie durante unos 500 m. Al lado, el pueblo de moda de Alaçatı, con restaurantes y hoteles boutique.",
+   "rating_basis": "El principal destino de viento de Turquía: kite-and-windsurfing-guide, «lugar ideal para freestyle y freeride», zona donde se hace pie de ~500 m; kitejungle: 181 días de viento al año sin contar el térmico",
+   "waves_note": "Con viento del norte (meltemi/poyraz), agua plana o con chop ligero; con el lodos del sur, en primavera y otoño, entra una ola pequeña y suave",
+   "hazards": "Muchos alumnos y kites en el agua, rachas del gerence de la mañana; con viento del sur, olas y viento que empuja hacia la orilla",
+   "gustiness_note": "El poyraz de verano sopla a 5–7 Bft por la tarde; el gerence del noreste de la mañana puede ser más fuerte y racheado",
+   "crowd_note": "Kitejungle: «moderado», pero en julio–agosto hay muchas escuelas y alumnos en la playa de kite; los windsurfistas navegan aparte, en la parte oeste de la bahía",
+   "region": "Península de Çeşme, Esmirna, mar Egeo",
+   "pros": [
+    "Viento del norte estable en verano",
+    "Agua plana y un gran bajío: apto para aprender y hacer freestyle",
+    "Buena infraestructura, cerca de Esmirna y de un pueblo turístico"
+   ],
+   "cons": [
+    "Mucha gente en temporada alta",
+    "Agua más fresca que en el sur de Turquía (afloramiento con meltemi)",
+    "Por la mañana el viento puede ser racheado"
+   ],
+   "wind_dir": "N–NNE (poyraz / meltemi), side-shore; por la mañana a veces NE, el «gerence»",
+   "airport": "ADB — Esmirna (Adnan Menderes), ~1 h"
+  },
+  "ayvalik-kite-beach": {
+   "h": "e9fba02ca2",
+   "description": "Pueblo turístico del norte del Egeo turco, frente a Lesbos. Dos spots: Kite Beach, con escuela de kite y restaurante, y el Causeway, en la carretera a la isla de Cunda, con agua lisa y «rápida» cuando el viento es offshore. El viento del norte de verano sopla aproximadamente de mediados de junio a mediados de septiembre, y los meses más fiables son julio y agosto. La zona de navegación se extiende más de 5 km.",
+   "rating_basis": "IKSURFMAG llama a Ayvalık el «spot secreto de Turquía», y al Causeway, «uno de los mejores spots de agua plana que hemos encontrado»; aquí han navegado Aaron Hadlow y Sam Light",
+   "waves_note": "Agua plana, poco profunda y transparente en ambos spots; sin olas ni shorebreak",
+   "hazards": "Viento offshore en el Causeway; el downwind Kite Beach → Causeway, solo de forma organizada y con locales",
+   "gustiness_note": "Con previsión de viento del norte flojo y calor de +28–30 °C, día de 12 m; los días normales, 7–9 m; hasta ~30 nudos",
+   "crowd_note": "Según IKSURFMAG, «de verdad solo hay unos pocos kiters alrededor»",
+   "region": "Ayvalık, Balıkesir, norte del Egeo",
+   "pros": [
+    "Agua plana y poco profunda: desde aprender hasta freestyle",
+    "Casi nadie en el agua",
+    "Destino tranquilo y barato con buena cocina"
+   ],
+   "cons": [
+    "Temporada corta (de mediados de junio a mediados de septiembre)",
+    "Causeway: viento offshore y sin infraestructura",
+    "Lejos de Esmirna (~2,5 h)"
+   ],
+   "wind_dir": "N (meltemi), side / side-onshore en Kite Beach; en el Causeway, offshore",
+   "airport": "EDO — Edremit, ~40 min; ADB — Esmirna, ~2,5 h"
+  },
+  "urla-gulbahce": {
+   "h": "ca4b43d2c2",
+   "description": "La bahía de Gülbahçe (Çarpan), junto a Urla, es el primer spot de kite en el camino de Esmirna a la península de Çeşme; hasta Alaçatı quedan unos 30 minutos más. El agua poco profunda, tipo laguna, y el viento del norte de verano lo convierten en un lugar cómodo para aprender; en la orilla hay varias escuelas con alquiler, café y ducha. Hay tres puntos de salida: la orilla suroeste (escuelas), la este (side-shore) y una lengua de arena poco profunda en el norte.",
+   "rating_basis": "El spot de kite más cercano a Esmirna, con agua plana y poco profunda y varias escuelas (kitejungle); en las opiniones queda por detrás de Alaçatı en fuerza del viento, pero gana en facilidad para aprender",
+   "waves_note": "Bahía cerrada: agua plana o chop ligero, sin olas; en la lengua del norte, agua lisa para velocidad",
+   "hazards": "Viento offshore racheado junto a la lengua del norte; muchos alumnos junto a las escuelas",
+   "gustiness_note": "Viento del norte de verano más el térmico diurno; junto a la lengua del norte el viento es offshore y racheado",
+   "crowd_note": "Kitejungle: «moderado / medio»",
+   "region": "Urla, Esmirna, mar Egeo",
+   "pros": [
+    "Agua plana y poco profunda: cómodo para aprender",
+    "Cerca de Esmirna y del aeropuerto",
+    "Varias escuelas y alquiler"
+   ],
+   "cons": [
+    "Viento más flojo y menos estable que en Alaçatı",
+    "Lengua del norte: viento offshore, solo para experimentados"
+   ],
+   "wind_dir": "N (poyraz / meltemi), side-shore en la orilla este; en la lengua del norte, offshore fuerte",
+   "airport": "ADB — Esmirna, ~45–60 min"
+  },
+  "zanzibar-paje": {
+   "h": "faf49f556f",
+   "description": "Playa blanquísima en el sureste de Zanzíbar con una enorme laguna poco profunda protegida por un arrecife. Dos temporadas: el Kaskazi del norte (dic–feb) y el Kusi del sureste, más fuerte (jun–sep). Navegar depende totalmente de la marea: con marea baja la laguna interior se seca y todo el mundo se va a la laguna exterior y a los bancos de arena.",
+   "rating_basis": "IKSURFMAG: lagunas planas hasta la rodilla, dos temporadas de viento, agua cálida, delfines y tortugas; en contra: fuerte dependencia de las mareas, erizos de mar y plantaciones de algas",
+   "waves_note": "Lagunas interior y exterior: agua plana hasta la rodilla (según la marea); con marea alta, chop y kickers; olas en el arrecife, a ~1–2 km",
+   "hazards": "Erizos de mar (hace falta calzado), corales en el arrecife, plantaciones de algas, corrientes junto al paso del arrecife, poca profundidad en bajamar",
+   "gustiness_note": "Los vientos monzónicos son constantes; el Kusi es más flojo por la mañana y se entabla después de comer",
+   "crowd_note": "Paje es el principal centro de kite de Zanzíbar; en temporada hay mucha gente en la laguna (sobre todo en bajamar, cuando todos se van a la laguna exterior)",
+   "region": "Costa este de la isla de Zanzíbar (Unguja), océano Índico",
+   "pros": [
+    "Agua cálida, 25–29 °C: sin neopreno",
+    "Agua plana hasta la rodilla: ideal para aprender",
+    "Dos temporadas de viento al año",
+    "Delfines, tortugas, fiestas en la playa, Stone Town"
+   ],
+   "cons": [
+    "Navegar depende de las mareas",
+    "Erizos de mar y plantaciones de algas",
+    "Temporada de lluvias (abril–mayo) casi sin viento",
+    "Mucha gente en plena temporada"
+   ],
+   "wind_dir": "Kaskazi: NE (dic–feb); Kusi: SE (jun–sep); side-shore / side-onshore",
+   "airport": "ZNZ — Zanzíbar (Abeid Amani Karume), ~1 h"
+  },
+  "cape-hatteras-waves": {
+   "h": "04ba2ebfec",
+   "description": "La estrecha cadena de islas barrera de los Outer Banks, entre el Atlántico y el estrecho de Pamlico. En el lado interior, un bajío inmenso de agua plana hasta la cintura, ideal para aprender y hacer freestyle; en el lado del océano, olas. El centro de la escena de kite es el pueblo de Waves, con el kite resort REAL Watersports y el parque Real Slick. Los mejores meses son mayo y septiembre–octubre; en invierno hay viento, pero hace frío.",
+   "rating_basis": "El principal destino de kite de la costa este de EE. UU.: meses con viento durante todo el año, la enorme laguna poco profunda del estrecho de Pamlico con agua plana; en Real Slick (REAL Watersports), kickers y sliders",
+   "waves_note": "En el lado del estrecho de Pamlico, una enorme extensión poco profunda con agua plana y chop, sin shorebreak; en el lado oceánico de la isla, olas",
+   "hazards": "Huracanes y temporales (junio–noviembre), tormentas al paso de los frentes, medusas y cangrejos en los bajíos en verano, sliders y kickers en el kite park",
+   "gustiness_note": "Isla barrera abierta: viento constante (el autor de IKSURFMAG habla del «viento más estable en mucho tiempo»); la dirección cambia con la estación y los frentes",
+   "crowd_note": "En primavera y otoño hay mucha gente junto a los centros de kite, pero hay bajío para todos; la mayoría de los accesos al agua son caminos privados",
+   "region": "Carolina del Norte, Outer Banks, Rodanthe–Waves–Salvo",
+   "pros": [
+    "Enorme bajío con agua plana",
+    "Viento en cualquier época del año",
+    "También hay olas en el océano",
+    "Apto para aprender"
+   ],
+   "cons": [
+    "En invierno, agua y aire fríos",
+    "En verano el viento es más flojo y hace calor",
+    "Largo trayecto desde los aeropuertos (~2–2,5 h desde Norfolk)"
+   ],
+   "wind_dir": "SW en verano, NE/N en otoño y primavera; en Real Slick, normalmente side-shore",
+   "airport": "ORF — Norfolk, ~2–2,5 h; MQI — Dare County (aviación ligera), ~30 min"
+  },
+  "corpus-christi-packery-channel": {
+   "h": "e64ca149d7",
+   "description": "Packery Channel es un spot poco profundo en el lado de la Laguna Madre de North Padre Island: agua plana de la rodilla a la cintura y fondo con hierba. Corpus Christi es famoso por su constante viento de verano del sureste; la temporada principal va de mayo a septiembre, pero se puede navegar todo el año. Alrededor hay una decena de spots más (Wildcat, North Beach, Oso Bay, Fish Pass).",
+   "rating_basis": "Los riders locales llaman a Corpus Christi el «Santo Grial» por tener el mayor número de días navegables de EE. UU.; kiteboarding.com: SE de 17–21 mph todo el verano",
+   "waves_note": "Agua plana de la rodilla a la cintura; en el lado del océano, junto al espigón, a veces hay olas",
+   "hazards": "Conchas de ostra (escarpines obligatorios), canal de navegación para barcos, algas; en el lado del océano, mantente a 200 yardas del espigón norte",
+   "gustiness_note": "El SE de verano es constante (el térmico de tierra refuerza el flujo); el viento frontal del norte en invierno es racheado",
+   "crowd_note": "Muchos spots en un radio de 30 min: los kiters están repartidos",
+   "region": "Texas, North Padre Island",
+   "pros": [
+    "Muchísimos días de viento",
+    "Agua plana y poco profunda, apta para aprender",
+    "Muchos spots alternativos cerca"
+   ],
+   "cons": [
+    "En invierno, frentes fríos, N racheado y agua fresca",
+    "Hace falta calzado por las conchas de ostra",
+    "En el parque nacional de Padre Island (Bird Island Basin) el kite está prohibido"
+   ],
+   "wind_dir": "SE en verano (side-onshore), N con los frentes fríos de invierno",
+   "airport": "CRP — Corpus Christi, ~30 min"
+  },
+  "hood-river": {
+   "h": "408ca5baf4",
+   "description": "Pueblo en la garganta del río Columbia y capital de verano del kite y el windsurf de Norteamérica. El viento del Pacífico se acelera en la garganta y sopla casi a diario de mayo a septiembre. La salida principal es la lengua de arena en la desembocadura del río Hood y el Event Site; el agua tiene chop denso y swell fluvial contra la corriente. Agua dulce, el volcán Mount Hood en el horizonte y muchísimo que hacer los días sin viento.",
+   "rating_basis": "Spot fluvial de culto de Norteamérica: viento fuerte casi todos los días de verano (normalmente 18–25 mph, IKSURFMAG), muchísimos spots a lo largo de la garganta (Stevenson, Rufus) y una gran cultura de kite",
+   "waves_note": "En el Event Site, chop fluvial denso; aguas abajo, detrás de la lengua de arena, agua plana; contra la corriente, con viento fuerte, se levanta swell fluvial (más grande y limpio en Rufus, 45 millas al este)",
+   "hazards": "Fuerte corriente del río (te arrastra aguas abajo si caes), canal navegable con barcazas, agua fría en primavera y otoño, piedras resbaladizas en las salidas de Stevenson y Rufus",
+   "gustiness_note": "El viento de verano «sopla» por la garganta del Columbia desde el oeste: fuerte y a menudo racheado; más constante en Stevenson",
+   "crowd_note": "El Event Site es la salida más concurrida de la garganta: en verano se va apretado y los hoteles se llenan los fines de semana; aguas arriba hay más sitio",
+   "region": "Oregón, garganta del río Columbia",
+   "pros": [
+    "Viento casi todos los días de junio a agosto",
+    "Agua dulce, sin sal ni medusas",
+    "Muchos spots a lo largo de la garganta",
+    "Excelente infraestructura y actividades para los días sin viento"
+   ],
+   "cons": [
+    "Agua fresca incluso en verano: hace falta neopreno",
+    "Racheado y concurrido",
+    "Corriente fuerte y barcazas: no es para principiantes absolutos"
+   ],
+   "wind_dir": "W, side-shore (a lo largo de la garganta)",
+   "airport": "PDX — Portland, ~1 h"
+  },
+  "maui-kanaha-kite-beach": {
+   "h": "b51ad4297d",
+   "description": "La playa de Kanaha, junto al aeropuerto de Kahului, es el corazón de la escena de kite de Maui, donde nacieron muchos trucos y marcas. El alisio sopla casi a diario de primavera a otoño; junto a la orilla hay chop, y en el arrecife exterior, olas de calidad, grandes en invierno. A los principiantes se les enseña en la vecina Teach Beach; las zonas de kite están limitadas por la cercanía del aeropuerto.",
+   "rating_basis": "La cuna del kitesurf moderno y una de las mecas mundiales de las olas: en Kite Beach (Naish Beach) trabajan las principales marcas y riders; IKSURFMAG: meses con viento de marzo a octubre, alisio de 15–25 mph",
+   "waves_note": "Junto a la orilla, chop y shorebreak pequeño; en el arrecife exterior, series de olas, y con el swell de invierno, por encima de la cabeza; en Kihei, al sur, olas con swell del sur",
+   "hazards": "Arrecife poco profundo (peligroso en las caídas), shorebreak, swell potente en invierno; puede haber tiburones y tortugas; respeta los límites de la zona de kite junto al aeropuerto",
+   "gustiness_note": "El alisio sopla constante a 15–25 mph la mayoría de los días de primavera a otoño; en invierno el viento es menos fiable y hay vientos «kona» del sur",
+   "crowd_note": "Kite Beach es el spot principal de la isla; con buen viento hay mucha gente en el arrecife; las clases se dan aparte, en Teach Beach",
+   "region": "Hawái, Maui, costa norte (Kahului)",
+   "pros": [
+    "Alisio constante de abril a septiembre",
+    "Olas de nivel mundial en el arrecife",
+    "Agua cálida y la naturaleza de Hawái",
+    "A 10 minutos del aeropuerto"
+   ],
+   "cons": [
+    "Arrecife y olas: no es un lugar para principiantes",
+    "Caro (alojamiento, coche)",
+    "Zonas de navegación limitadas por el aeropuerto"
+   ],
+   "wind_dir": "NE (alisio), side-onshore",
+   "airport": "OGG — Kahului, ~10 min"
+  },
+  "el-yaque": {
+   "h": "a7fe96d01e",
+   "description": "Pueblo en el sur de la isla de Margarita, conocido durante décadas como la capital mundial del windsurf y después también del kite. Una enorme bahía poco profunda con chop y alisio lateral sirve tanto para principiantes como para freestylers, y las salidas en barco a la isla de Coche ofrecen agua perfectamente plana. Hoy el destino está medio vacío: menos gente, pero también menos infraestructura; las escuelas organizan traslados y excursiones a Araya y La Restinga.",
+   "rating_basis": "Legendario spot de windsurf/kite del Caribe con agua cálida y poco profunda y viento «casi todo el año» (IKSURFMAG); hoy casi sin multitudes por la situación de Venezuela; en las selecciones en ruso, Venezuela aparece como el mejor destino de invierno",
+   "waves_note": "En El Yaque no hay olas: chop pequeño y agua hasta la cintura hasta lejos de la orilla; agua perfectamente plana en la isla de Coche (20 min en barco o downwind de 15 km); olas en La Restinga",
+   "hazards": "Viento racheado durante el día, viento offshore en Coche (cubre la lancha de la escuela), conchas en la playa de La Restinga; seguridad: no alquiles coche, usa los traslados de las escuelas y consulta las recomendaciones del Ministerio de Asuntos Exteriores",
+   "gustiness_note": "Alisio casi todos los días, pero después del mediodía puede ser racheado; en Coche el viento es offshore y se entabla hacia las 10 de la mañana",
+   "crowd_note": "IKSURFMAG: «ahora no encontrarás spots abarrotados»; en la playa conviven windsurfistas y kiters",
+   "region": "Isla de Margarita, Nueva Esparta",
+   "pros": [
+    "Agua cálida y poco profunda hasta lejos de la orilla",
+    "Viento casi todos los días de febrero a julio",
+    "Agua libre",
+    "Excursiones al agua plana de Coche y Araya"
+   ],
+   "cons": [
+    "Logística complicada: sin vuelos internacionales directos (vía Caracas)",
+    "Situación política y de criminalidad en Venezuela",
+    "Racheado después del mediodía"
+   ],
+   "airport": "PMV — Porlamar (Margarita), ~40 min; vuelos internacionales vía CCS Caracas"
+  },
+  "mui-ne": {
+   "h": "4cb0c11548",
+   "description": "Mui Ne es el principal destino de kite de Vietnam y uno de los lugares de kite de Asia donde más se habla ruso: decenas de escuelas a lo largo de la playa de Ham Tien, algunas con instructores rusos (MKS, KiteFamily, KITENAM y otras). De noviembre a marzo sopla un fuerte monzón del noreste, reforzado por el térmico. Además de la playa principal están Malibu (olas), Harbour Wall (agua plana), Suối Nước y Turtle Island; a 3–4 h al norte, la laguna de Phan Rang.",
+   "rating_basis": "Uno de los destinos de kite más conocidos de Asia (Figaro Nautisme sitúa Mui Ne entre los destinos top de Asia); monzón estable de noviembre a marzo, viento fuerte y olas, muchas escuelas; en contra: aglomeraciones y shorebreak con marea alta",
+   "waves_note": "En la playa principal, shorebreak y olas de 1–2 m, que en diciembre–febrero con viento fuerte llegan a 2–3 m; Malibu: olas y onshore; junto al muro del puerto (Harbour Wall) y en Secret Spot, la única agua plana de la zona",
+   "hazards": "Shorebreak fuerte con marea alta, erosión y playa estrecha en la parte norte de Rang Beach, cabo rocoso junto a Ganh Beach y en el spot Cemetery, aglomeraciones e incumplimiento de las normas de prioridad, medusas (riesgo bajo), sol fuerte",
+   "gustiness_note": "El monzón se refuerza con el térmico: por la mañana 10–15 nudos, hacia mediodía 20–25, por la tarde 25–30 o más; junto a Harbour Wall después de las 13:00 y en Turtle Island el viento es racheado",
+   "crowd_note": "En diciembre–enero la playa principal se llena: puede haber 30–40 kites en un mismo tramo; Suối Nước y Malibu están más libres",
+   "region": "Provincia de Binh Thuan, Phan Thiet",
+   "pros": [
+    "Viento fuerte y estable de noviembre a marzo",
+    "Muchas escuelas, también en ruso",
+    "Agua cálida todo el año, alojamiento y comida baratos",
+    "Varios spots para cualquier estilo: olas, flat, downwinds de ~15 km"
+   ],
+   "cons": [
+    "Shorebreak y playa estrecha con marea alta: salida difícil para principiantes",
+    "Mucha gente en la playa principal en plena temporada",
+    "En diciembre–febrero el viento suele ser de 25–30 nudos o más: duro para principiantes",
+    "Basura en algunas playas (Malibu, Harbour Wall)"
+   ],
+   "wind_dir": "NE–ENE (monzón del noreste), side / side-onshore",
+   "airport": "SGN — Ciudad Ho Chi Minh, ~4–5 h en coche (también CXR — Cam Ranh, ~4 h)"
+  },
+  "phan-rang-my-hoa": {
+   "h": "a2a35ef3d3",
+   "description": "La laguna de My Hoa, junto al pueblo de My Tan, es el principal spot de kite de la provincia de Ninh Thuan y el lugar con más viento de Vietnam. El arrecife exterior, a 1 km aproximadamente de la orilla, frena las olas: dentro hay agua plana y poco profunda para aprender, hacer freestyle y velocidad; fuera del arrecife, olas. Alrededor de la laguna ha surgido una pequeña aldea de kite con varias escuelas y kite hotels; muchos llegan aquí en camps desde Mui Ne.",
+   "rating_basis": "Se describe con un viento más fuerte y estable que en Mui Ne, con una laguna plana tras el arrecife; Phan Rang Kite Center: 4,8 en Google (344 opiniones) y 5,0 en Tripadvisor; aquí se celebró una prueba del Kiteboard Tour Asia (2016, ~100 participantes)",
+   "waves_note": "Dentro de la laguna, protegida por un arrecife a 1 km aproximadamente de la orilla, agua plana y chop pequeño; fuera del arrecife, olas para wave riding (solo para experimentados). En verano el spot principal es la bahía de Ninh Chu, con agua plana y poco profunda",
+   "hazards": "Restos de coral, conchas afiladas y piedras en bajamar (hacen falta escarpines), caída brusca de profundidad en el borde del banco, arrecife y olas fuera del arrecife, viento de tarde que sube rápido; en mayo puede haber tifones",
+   "gustiness_note": "Una de las zonas con más viento de Vietnam: las montañas refuerzan el monzón; en temporada, una media de ~20–25 nudos, rara vez menos de 15 y a veces 35–40; viento más constante que en Mui Ne",
+   "crowd_note": "Mucho más libre que Mui Ne: un buen día, 10–20 riders; en plena temporada, hasta varias decenas de kites sobre la laguna",
+   "region": "Provincia de Ninh Thuan (My Tan / Ninh Hai), a ~20 km al noreste de Phan Rang",
+   "pros": [
+    "Monzón fuerte y estable, viento más constante que en Mui Ne",
+    "Agua plana y poco profunda en la laguna",
+    "Poca gente en comparación con Mui Ne",
+    "Alojamiento a 50 m de la salida, aeropuerto de Cam Ranh a ~1 h"
+   ],
+   "cons": [
+    "Fuerte dependencia de la marea: en bajamar asoman corales y piedras",
+    "El viento suele superar los 25 nudos: los principiantes, mejor por la mañana",
+    "Poca infraestructura y entretenimiento aparte del kite",
+    "Poca oferta de material de alquiler"
+   ],
+   "wind_dir": "N–NE (monzón del noreste), side / side-onshore; en verano, en Ninh Chu, S–SSE",
+   "airport": "CXR — Cam Ranh (Nha Trang), ~1 h"
+  },
+  "cape-town-bloubergstrand": {
+   "h": "9fae9797fc",
+   "description": "La costa de Blouberg–Table View, al norte de Ciudad del Cabo y con vistas a la Montaña de la Mesa, es la meca del big air y de la navegación en olas. Un fuerte viento del sureste sopla casi a diario de noviembre a marzo, el agua es fría (13–15 °C) y hay playas para elegir: desde la relativamente plana Dolphin Beach hasta las olas de Sunset y Calmers. Una ciudad estupenda, vinos y naturaleza para los días sin viento.",
+   "rating_basis": "Uno de los principales destinos del mundo para big air y olas: IKSURFMAG, viento de 20–40 nudos ~5 días a la semana de diciembre a febrero, una decena de playas a lo largo de la costa, downwinds con vistas a la Montaña de la Mesa",
+   "waves_note": "Chop y kickers casi en todas partes; Dolphin Beach tiene el agua más plana con marea alta; Sunset Beach y Calmers, olas limpias, grandes con swell; en Doodles, shorebreak fuerte",
+   "hazards": "Agua fría, rachas fuertes, shorebreak (Doodles, Sunset), piedras junto a Big Bay y al norte de Calmers, corrientes; robos en los coches aparcados",
+   "gustiness_note": "El «Cape Doctor» del sureste es fuerte y regular, pero llega a tirones junto a la Montaña de la Mesa; se levanta hacia las 10:00 y alcanza su máximo hacia las 16:00",
+   "crowd_note": "En diciembre–febrero llega todo el mundo del kite; hay mucha gente en Big Bay, Dolphin Beach (grupos de escuelas) y Calmers; noviembre y marzo son más tranquilos",
+   "region": "Provincia del Cabo Occidental, costa atlántica (Table Bay)",
+   "pros": [
+    "Viento fuerte y regular en el verano austral",
+    "Gran variedad de playas y olas",
+    "Downwinds y big air de nivel mundial",
+    "Ciudad del Cabo: comida, vino, naturaleza"
+   ],
+   "cons": [
+    "Agua fría: neopreno de 4/3–5/4 mm",
+    "El viento suele ser demasiado fuerte para principiantes",
+    "Delincuencia: no dejes cosas en el coche y ten cuidado por la noche",
+    "Vuelo largo"
+   ],
+   "airport": "CPT — Ciudad del Cabo, ~25–30 min"
+  },
+  "langebaan-lagoon": {
+   "h": "e0c3f4ce20",
+   "description": "Larga laguna cerrada (≈15 km) en la Costa Oeste de Sudáfrica, dentro del Parque Nacional de la Costa Oeste. El viento del sur de verano sopla paralelo a la costa sobre agua plana o ligeramente rizada: un lugar excelente para aprender y hacer freestyle cuando en Ciudad del Cabo sopla demasiado fuerte o hay olas. El agua está bastante más cálida que en Table Bay.",
+   "rating_basis": "El principal spot de agua plana del Cabo Occidental: una larga laguna poco profunda en el Parque Nacional de la Costa Oeste donde entrenan los freestylers (aparece en la guía de IKSURFMAG sobre Ciudad del Cabo); agua más cálida que en Table View",
+   "waves_note": "La laguna está cerrada al océano: sin olas; plano en las zonas poco profundas, chop con viento fuerte",
+   "hazards": "Corrientes en la boca de la laguna con el cambio de marea, zonas de protección de la naturaleza (parte del agua está cerrada), sol fuerte",
+   "gustiness_note": "El mismo viento del sur de verano que en Ciudad del Cabo, pero sobre terreno llano: más constante y sin los «tirones» de las montañas",
+   "crowd_note": "En diciembre–enero hay mucha gente en Shark Bay, pero la laguna es larga y se puede ir a lo largo de la orilla",
+   "region": "Provincia del Cabo Occidental, Costa Oeste, ~1,5 h al norte de Ciudad del Cabo",
+   "pros": [
+    "Agua plana sin olas",
+    "Viento más constante que en Ciudad del Cabo",
+    "Apto para principiantes y freestylers",
+    "Agua más cálida que en las playas oceánicas"
+   ],
+   "cons": [
+    "A 1,5 h de Ciudad del Cabo: hace falta coche",
+    "Poco entretenimiento en el pueblo",
+    "En invierno (mayo–septiembre), viento flojo y frío"
+   ],
+   "airport": "CPT — Ciudad del Cabo, ~1,5 h"
   }
  }
 }
