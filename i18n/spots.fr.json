@@ -1,0 +1,454 @@
+{
+ "_lang": "fr",
+ "spots": {
+  "albania-lalzit-rinia": {
+   "h": "d5402fbdc2",
+   "description": "Plage de sable de la baie de Lalzi (secteur de Rinia, plage de Bisht-Palla), à 20 minutes au nord de Durrës et à 40 minutes de l'aéroport de Tirana. L'eau peu profonde, à hauteur de cuisse, et une direction de vent stable en font un bon spot pour apprendre : au printemps soufflent des vents de sud, en juillet–août une brise thermique de nord. L'Albanie reste pour l'instant une destination kite bon marché et peu fréquentée.",
+   "rating_basis": "Kitejungle cite Lalzi comme l'un des deux spots « populaires » d'Albanie : eau peu profonde et vent régulier, « idéal pour les débutants » ; l'Albanie est encore quasi absente des classements internationaux",
+   "waves_note": "Eau peu profonde « à hauteur de cuisse », surtout de l'eau plate ou du clapot ; petites vagues par fort vent de sud",
+   "hazards": "Vents de sud forts et rafaleux au printemps ; dispositif de sauvetage minimal",
+   "gustiness_note": "La brise de nord estivale est douce et prévisible ; les vents de sud du printemps sont plus forts (parfois 30–40 nœuds) et moins stables",
+   "crowd_note": "L'école Kite Era promet des « spots vides à 99 % » — en général, seulement quelques kiters sur l'eau",
+   "region": "Baie de Lalzi, au nord de Durrës, Adriatique",
+   "pros": [
+    "Eau plate et peu profonde — idéale pour les débutants",
+    "Presque personne sur l'eau",
+    "Proche de l'aéroport de Tirana, bon marché"
+   ],
+   "cons": [
+    "Vent d'été modéré, pas tous les jours",
+    "Peu d'écoles et d'infrastructures",
+    "Les vents de sud du printemps peuvent être trop forts"
+   ],
+   "wind_dir": "Mai–juin : S–SW–W ; juillet–août : brise thermique de nord",
+   "airport": "TIA — Tirana, ~40 min"
+  },
+  "geraldton-point-moore": {
+   "h": "b3284f1ce7",
+   "description": "Point Moore est un cap sableux exposé près de Geraldton, à 6 heures de route au nord de Perth, et l'un des spots les plus ventés d'Australie-Occidentale. De fin novembre à début mars souffle une très forte brise de mer de sud, et le récif offre une gauche puissante. À proximité : Separation Point, Sunset Beach et Coronation Beach.",
+   "rating_basis": "IKSURFMAG : l'un des spots les plus ventés d'Australie, la plupart des jours en 7 m ; Point Moore est un cap sableux exposé aux vagues puissantes",
+   "waves_note": "Gauches puissantes sur le récif de Hell's Gates ; à l'intérieur du récif, c'est plus plat — les moniteurs locaux y donnent leurs cours",
+   "hazards": "Récifs de part et d'autre du cap, vagues puissantes, vent et rafales très forts, soleil brûlant",
+   "gustiness_note": "La brise forcit au fil de la journée ; journée type : kite de 7 m, rafales jusqu'à ~50 nœuds",
+   "crowd_note": "Peu de monde ; Coronation Beach est de plus en plus populaire",
+   "region": "Australie-Occidentale, côte du Mid West",
+   "pros": [
+    "Brise d'été très forte et régulière",
+    "Vagues de classe mondiale",
+    "Accès à la plage en voiture"
+   ],
+   "cons": [
+    "Le vent est parfois trop fort — il faut un kite de 5–6 m",
+    "Vagues musclées, récifs",
+    "Loin de Perth"
+   ],
+   "wind_dir": "S–SSW (brise de mer), cross-onshore de gauche",
+   "airport": "GET — Geraldton, ~10 min ; PER — Perth, ~6 h de route"
+  },
+  "gold-coast-broadwater": {
+   "h": "ca85a457eb",
+   "description": "Le Broadwater est un lagon abrité derrière la flèche de sable de la Gold Coast, avec de l'eau plate et des bancs de sable. Le spot The Train se trouve au bout de North St à Southport ; à côté, KFC (Loaders Creek) et Shearwater Esplanade pour les débutants. La saison correspond aux mois chauds, quand souffle la brise de mer de la journée ; elle faiblit vers mars, et en hiver les vents de sud dominent.",
+   "rating_basis": "Sur Seabreeze, les locaux recommandent l'eau plate face à Sea World et le spot The Train ; le Broadwater est un plan d'eau d'entraînement plutôt qu'une destination touristique",
+   "waves_note": "Plan d'eau fermé, sans vagues ; clapot lors des fortes marées hautes",
+   "hazards": "Trafic de bateaux et mouillages, courant de marée de 1–2 nœuds, obstacle immergé à marée basse (signalé par un panneau), limitations de vitesse dans les chenaux",
+   "gustiness_note": "Idéal par SE ou NNW–NE « propre » ; dans les autres directions, le vent est troué à cause des constructions",
+   "crowd_note": "Peu de kiters, mais beaucoup de bateaux et de mouillages",
+   "region": "Queensland, Gold Coast",
+   "pros": [
+    "Eau plate en pleine ville",
+    "Bien pour l'entraînement et le freestyle",
+    "Eau chaude en été"
+   ],
+   "cons": [
+    "Beaucoup de bateaux et de mouillages",
+    "Vent rafaleux à cause des constructions",
+    "Courant et hauts-fonds, dépendance à la marée"
+   ],
+   "wind_dir": "NNW–NE (brise d'été) et SE ; dans les autres directions, vent irrégulier et rafaleux",
+   "airport": "OOL — Gold Coast, ~30 min ; BNE — Brisbane, ~1 h"
+  },
+  "lancelin": {
+   "h": "316a17fcb6",
+   "description": "Lancelin est un village de pêcheurs à 1,5–2 heures au nord de Perth et l'une des capitales du vent d'Australie-Occidentale. En été, une puissante brise de mer de sud souffle presque tous les jours ; le lagon derrière Edward Island offre de l'eau plate, et les récifs au large de belles gauches. Tout autour, des dunes blanches et un excellent downwind le long de la côte.",
+   "rating_basis": "Spot légendaire de la côte ouest australienne (Lancelin Ocean Classic) ; IKSURFMAG : brise « presque tous les jours » de décembre à février, un lagon pour tous et des vagues de récif ; sur Seabreeze, on le recommande avec Margaret River comme ce qu'il y a de mieux en WA pour les vagues",
+   "waves_note": "Lagon derrière la pointe et Edward Island — eau plate ; derrière le récif (~1 km), Main Break (gauches puissantes) et South Passage (longues gauches) ; à Back Beach, gauches et droites avec shorebreak ; quand le vent forcit, la mer grossit",
+   "hazards": "Récif peu profond dans le lagon à marée basse, récif sur Main Break si l'on remonte au vent, rochers et Lancelin Island près de South Passage, shorebreak à Back Beach ; en cas de casse, le cross-onshore vous emporte loin le long de la côte ; soleil intense ; les voitures s'ensablent",
+   "gustiness_note": "De fin novembre à début mars, la brise souffle presque tous les jours : offshore le matin, elle tourne cross-onshore vers midi ; plus venté qu'à Perth — prévoir un kite plus petit",
+   "crowd_note": "Beaucoup de riders venus de Perth le week-end, calme en semaine ; les windsurfeurs adorent South Passage, Back Beach est généralement libre",
+   "region": "Australie-Occidentale, Turquoise Coast, ~1,5–2 h au nord de Perth",
+   "pros": [
+    "Brise quasi quotidienne de décembre à février",
+    "Lagon plat et vagues de récif au même endroit",
+    "Un classique du windsurf et du kite (Lancelin Ocean Classic)",
+    "Proche de Perth"
+   ],
+   "cons": [
+    "Récif peu profond dans le lagon à marée basse",
+    "Bondé le week-end",
+    "Peu d'écoles — un spot pour riders autonomes",
+    "Eau plus fraîche que sous les tropiques (19–23 °C)"
+   ],
+   "wind_dir": "S–SSW brise de mer, cross-onshore de gauche ; offshore le matin (E)",
+   "airport": "PER — Perth, ~1,5–2 h"
+  },
+  "perth-woodman-point": {
+   "h": "11bf276d3d",
+   "description": "Woodman Point, à 10 minutes au sud de Fremantle, est le spot classique de Perth pour rider en eau plate le long d'un banc de sable. En été, la brise de mer « Fremantle Doctor » souffle presque tous les jours. Mise à l'eau depuis le parking, à l'extrémité ouest de la pointe.",
+   "rating_basis": "Sur le forum Seabreeze, Woodman Point (« Woodies ») est qualifié de « paradis de l'eau plate », où viennent rider les kiters internationaux de passage à Perth",
+   "waves_note": "Eau plate le long du banc/de la flèche ; en haut du run, au moment de virer, fort clapot",
+   "hazards": "Vent offshore sur le run (la dérive peut durer 2–3 h), champs d'algues, déventement près de la barre, remorqueurs et pétroliers — rester à l'écart du chenal ; il faut une marée d'environ 0,8 m",
+   "gustiness_note": "La brise de mer estivale « Fremantle Doctor » souffle régulièrement l'après-midi ; idéal à 20–25+ nœuds",
+   "crowd_note": "En général 20–30 kiters sur le run, qui serrent le banc au plus près",
+   "region": "Australie-Occidentale, au sud de Fremantle",
+   "pros": [
+    "Eau lisse le long du banc — vitesse et freestyle",
+    "Brise d'été régulière",
+    "Proche de la ville"
+   ],
+   "cons": [
+    "Vent offshore sur le run — en cas de casse, longue nage",
+    "Algues — prévoir un petit aileron",
+    "Beaucoup de monde",
+    "Vent irrégulier en hiver"
+   ],
+   "wind_dir": "SW–SSW (Fremantle Doctor) ; vent offshore sur le run principal",
+   "airport": "PER — Perth, ~35 min"
+  },
+  "aruba-fishermans-huts": {
+   "h": "91deef62ce",
+   "description": "La plage de Hadicurari, près des cabanes de pêcheurs de la zone hôtelière d'Aruba, est le principal spot de kite de l'île et accueille une compétition annuelle. Eau plate au-dessus d'un récif peu profond, mer chaude et alizé presque toute l'année. Les riders confirmés vont chercher la vague à Boca Grandi, au sud-est. De nombreuses écoles (par exemple Armando's Kite Shack) sont installées directement sur la plage et proposent le rapatriement en bateau.",
+   "rating_basis": "IKSURFMAG attribue 5,0/5 à Aruba dans sa liste de guides : alizé constant toute l'année (généralement 20–25 nœuds), eau turquoise et chaude ; Fisherman's Huts est le spot principal de l'île, où travaillent presque toutes les écoles",
+   "waves_note": "À Fisherman's Huts, eau plate au-dessus d'un grand récif peu profond couvert d'algues, sans vagues ; vagues de 0,5–1 m dans la baie et de 1–2 m derrière le récif sur le spot sportif de Boca Grandi, au sud-est de l'île",
+   "hazards": "Vent offshore (il pousse vers le large — le rapatriement derrière le récif est payant, ~20 $), récif peu profond couvert d'algues, windsurfeurs et baigneurs",
+   "gustiness_note": "L'alizé souffle toute la journée (au plus fort de 11 h à 15 h), mais il est rafaleux près du bord à cause des bâtiments ; plus au large (« blue highway »), il est régulier",
+   "crowd_note": "Spot principal de l'île, près des hôtels — écoles, kiters et windsurfeurs se partagent un petit périmètre",
+   "region": "Côte nord-ouest, Noord (zone hôtelière de Palm Beach)",
+   "pros": [
+    "Alizé presque toute l'année, particulièrement fiable de décembre à août",
+    "Eau plate et mer chaude",
+    "À pied depuis les hôtels de Noord et Palm Beach",
+    "Hors de la zone des ouragans"
+   ],
+   "cons": [
+    "Vent side-offshore — sans le bateau de l'école, ne pas s'aventurer loin derrière le récif",
+    "Rafaleux près du bord",
+    "Cher"
+   ],
+   "airport": "AUA — Reine-Beatrix, ~25 min"
+  },
+  "silver-rock-barbados": {
+   "h": "cb90d74867",
+   "description": "La plage de Silver Sands, à la pointe sud de la Barbade, est le principal spot de kite et de windsurf de l'île. L'alizé souffle side-onshore, la vague casse sur le récif, et à l'intérieur on trouve de petits kickers pour sauter. Saison des vents de décembre à juillet, meilleures vagues de décembre à février.",
+   "rating_basis": "IKSURFMAG : célèbre reef break et spot de kite le plus populaire de l'île ; l'alizé souffle de décembre à juillet",
+   "waves_note": "Reef break : vague sur le récif, « kickers » à l'intérieur ; meilleures vagues de décembre à février ; shorebreak à marée haute",
+   "hazards": "Récif, shorebreak à marée haute",
+   "gustiness_note": "Alizé atlantique régulier",
+   "crowd_note": "Spot principal de l'île — la plupart des kiters et windsurfeurs s'y retrouvent",
+   "region": "Côte sud, paroisse de Christ Church",
+   "pros": [
+    "Alizé stable une grande partie de l'année",
+    "Vague sur le récif et kickers à l'intérieur",
+    "Eau chaude toute l'année, à 15 min de l'aéroport"
+   ],
+   "cons": [
+    "Récif et shorebreak — pas pour les vrais débutants",
+    "Vent plus faible d'août à octobre, saison des ouragans",
+    "Île chère"
+   ],
+   "wind_dir": "E (alizé), cross-onshore de gauche",
+   "airport": "BGI — Grantley Adams, ~15 min"
+  },
+  "bulgaria-krapets-durankulak": {
+   "h": "772c090c71",
+   "description": "De longues plages de sable à l'extrême nord-est de la Bulgarie, du village de Krapets jusqu'au lac de Durankulak et à la frontière roumaine (6 km au nord, avec Vama Veche juste derrière). Les lacs de Shabla et de Durankulak sont séparés de la mer par des dunes, et la côte est presque vierge de constructions. Vent synoptique de nord-est ; saison de baignade et de kite de juin à septembre.",
+   "rating_basis": "Le tronçon le plus au nord-est et le moins construit du littoral bulgare — de longues plages sauvages entre Krapets et Durankulak ; connu surtout des kiters bulgares et roumains, absent des classements internationaux",
+   "waves_note": "Mer Noire ouverte : clapot et mer du vent courte par vent de nord-est ; eau calme sans vent",
+   "hazards": "Vagues onshore et déferlantes par fort NE ; pas de sauveteurs sur les secteurs sauvages",
+   "gustiness_note": "Vent synoptique, sans thermique estival établi : les jours ventés alternent avec les jours sans vent",
+   "crowd_note": "Plages longues et peu fréquentées, même en été",
+   "region": "Commune de Shabla, province de Dobritch, nord du littoral bulgare de la mer Noire",
+   "pros": [
+    "Longues plages sauvages et beaucoup d'espace sur l'eau",
+    "Bon marché, Vama Veche (Roumanie) tout près",
+    "Eau chaude en été (jusqu'à 24 °C)"
+   ],
+   "cons": [
+    "Pas de thermique estival stable — vent irrégulier",
+    "Infrastructures et écoles minimales",
+    "Eau froide hors de l'été"
+   ],
+   "wind_dir": "NE–E (onshore / side-onshore) ; au printemps et en automne, aussi N",
+   "airport": "VAR — Varna, ~1,5 h ; CND — Constanța (Roumanie), ~1,5 h"
+  },
+  "atins": {
+   "h": "6f1f0ffe59",
+   "description": "Village tranquille dans le delta du rio Preguiças, à l'entrée du parc national des Lençóis Maranhenses et de ses dunes blanches et lagunes d'eau douce. La rivière forme un immense lagon peu profond à l'eau plate et chaude — idéal pour apprendre et pour le freestyle — et côté océan, derrière les bancs, il y a des vagues. Pas de routes : seulement des bateaux et des 4x4 agréés ; on vient ici pour la nature sauvage et l'espace.",
+   "rating_basis": "IKSURFMAG classe Atins parmi les meilleurs spots du Brésil : immense lagon peu profond à l'embouchure de la rivière pour tous niveaux et vent « quasi garanti » de juillet à mi-janvier ; la presse brésilienne parle du « paradis du kitesurf du Maranhão »",
+   "waves_note": "Dans le lagon de l'embouchure, eau plate à hauteur de genou ; derrière les bancs de sable, côté océan, clapot et vagues",
+   "hazards": "Bancs de sable mouvants et courant dans l'embouchure à marée descendante/montante ; loin de tout service médical",
+   "gustiness_note": "Alizé presque sans interruption : les jours sans vent sont rares en saison",
+   "crowd_note": "Plages immenses et désertes, il y a de la place même en pleine saison",
+   "region": "Maranhão, embouchure du rio Preguiças près du parc national des Lençóis Maranhenses",
+   "pros": [
+    "Immense lagon peu profond à l'eau plate",
+    "Peu de monde",
+    "Nature unique : dunes et lagunes des Lençóis",
+    "Vent stable de juillet à décembre"
+   ],
+   "cons": [
+    "Logistique compliquée : ~5 h depuis São Luís, puis bateau ou 4x4",
+    "Sable profond, village étiré",
+    "Peu de distractions, internet faible"
+   ],
+   "wind_dir": "E–ENE, cross-onshore (de droite au départ du lagon)",
+   "airport": "SLZ — São Luís, ~5 h (via Barreirinhas) ; PHB — Parnaíba, ~5 h"
+  },
+  "barra-grande-piaui": {
+   "h": "75c55dce1a",
+   "description": "Ancien village de pêcheurs sur la courte côte du Piauí, entre Jeri et le delta du Parnaíba. Son grand atout, ce sont les marées : à marée basse, un immense lagon peu profond à l'eau plate se forme le long de la plage, idéal pour apprendre et pour le freestyle, et un autre grand lagon se trouve sous le vent. Écoles : Buena Onda Brasil (la première du village), BGKite, Ventos do Mar, Barra Grande Kite Camp.",
+   "rating_basis": "Wannakitesurf — « Great » pour tous niveaux ; saison de juillet à janvier avec 20–30 nœuds ; le village s'est entièrement reconverti au tourisme kite (études de l'UFMG), mais reste plus calme et moins cher que Jeri",
+   "waves_note": "À marée basse, une immense « piscine » peu profonde à l'eau plate, à marée haute du clapot ; pas de grosses vagues. À 3 km sous le vent, un grand lagon plat",
+   "hazards": "Hauts-fonds à marée basse (risque de toucher le fond en cas de chute), filets de pêche et poteaux près du bord",
+   "gustiness_note": "Alizé régulier, au plus fort l'après-midi",
+   "crowd_note": "Presque vide en semaine, un peu plus de monde le week-end ; plage de 4 km — beaucoup de place",
+   "region": "Piauí, Cajueiro da Praia",
+   "pros": [
+    "Eau plate et peu profonde à marée basse",
+    "Peu de monde, ambiance tranquille",
+    "Alizé stable de juillet à janvier",
+    "Accessible sans 4x4 (45 min de Parnaíba)"
+   ],
+   "cons": [
+    "Forte dépendance à la marée : parfois trop peu d'eau",
+    "Moins d'infrastructures et de vie nocturne qu'à Jeri",
+    "Saison des pluies de janvier à mai"
+   ],
+   "airport": "PHB — Parnaíba, ~45 min ; JJD — Jijoca de Jericoacoara, ~3 h en 4x4"
+  },
+  "cumbuco": {
+   "h": "015b26d7e3",
+   "description": "Village de pêcheurs à 35 km de Fortaleza, devenu l'un des principaux centres de kite du Brésil. Une large plage de sable balayée par un alizé side-onshore régulier et, à 6 km sous le vent, la lagune d'eau douce de Cauípe, à l'eau plate, pour apprendre et pour le freestyle. Un point de départ pratique pour les downwinds et les kite-safaris le long de la côte du Ceará.",
+   "rating_basis": "L'une des stations de kite les plus connues du Brésil : Wannakitesurf — « Great » pour tous niveaux, du vent presque tous les jours d'août à décembre ; figure dans les classements russophones (kiteteam.ru) aux côtés de Jericoacoara",
+   "waves_note": "Côté océan, clapot et petites vagues de bord (bump & jump) ; eau plate dans les lagunes de Cauípe (6 km sous le vent) et de Tabuba",
+   "hazards": "Vagues de bord et courant de 1–2 nœuds côté océan, jangadas (barques de pêcheurs) et autres embarcations ; petits vols à Fortaleza",
+   "gustiness_note": "Alizé renforcé par le thermique des dunes : régulier, il forcit l'après-midi et retombe à la nuit",
+   "crowd_note": "Libre en semaine, bondé le week-end ; la foule se concentre devant l'hôtel Eco Paradise — à 150 m au vent ou sous le vent, il y a déjà de la place ; la lagune de Cauípe se remplit vers midi",
+   "region": "Ceará, Caucaia (35 km de Fortaleza)",
+   "pros": [
+    "Du vent presque tous les jours de juillet à janvier",
+    "Eau chaude toute l'année — pas besoin de combinaison",
+    "Lagunes de Cauípe et de Tabuba à l'eau plate tout près",
+    "Proche de l'aéroport de Fortaleza, infrastructures développées"
+   ],
+   "cons": [
+    "Beaucoup de monde le week-end",
+    "Vagues de bord côté océan — plus dur pour les débutants que la lagune",
+    "Fortaleza n'est pas sûre la nuit"
+   ],
+   "airport": "FOR — Fortaleza, ~40 min"
+  },
+  "jericoacoara": {
+   "h": "7774b8d662",
+   "description": "Village branché au milieu des dunes, dans un parc national au nord-ouest du Ceará — la vitrine du kite brésilien. Sur la plage même, près de la pointe, on trouve surtout des windsurfeurs et des kiters confirmés dans les vagues ; la plupart des kiters partent sur la vaste plage voisine de Preá, dans les lagunes de Paraíso et Azul, et en downwind jusqu'à Guriú et Tatajuba. Super ambiance, restaurants et couchers de soleil depuis la dune.",
+   "rating_basis": "Spot culte du Brésil et étape de la GKA Kite-Surf World Cup (2024) ; figure dans les classements mondiaux russophones ; la station de surf la plus connue du pays, avec lagunes et downwinds à proximité",
+   "waves_note": "À la pointe, une droite de 1–2 m (squattée par les windsurfeurs), sur la plage du clapot et de petites vagues ; eau plate dans les lagunes de Paraíso et Azul et sur les downwinds vers Guriú",
+   "hazards": "Vagues et rochers à la pointe, windsurfeurs dans les vagues, buggies et bateaux dans les lagunes ; soleil intense",
+   "gustiness_note": "Alizé régulier « jour et nuit » ; tout près du bord, sous la pointe, le vent est plus faible et haché dans la vague",
+   "crowd_note": "Station très fréquentée, beaucoup de windsurfeurs sur la vague de la pointe ; les kiters partent à Preá (12 km) et dans les lagunes, où les buggies affluent vers midi",
+   "region": "Ceará, parc national de Jericoacoara",
+   "vibe_note": "Vie nocturne célèbre : coucher de soleil sur la dune, bars à caïpirinha dans la rue principale, soirées forró.",
+   "pros": [
+    "Alizé stable de juillet à janvier",
+    "Downwinds et lagunes à l'eau plate à proximité",
+    "Station animée, beaucoup d'hébergements et de restaurants",
+    "Eau chaude, sans combinaison"
+   ],
+   "cons": [
+    "Bondé et cher",
+    "Long trajet : ~4–5 h depuis Fortaleza sur le sable, ou vol jusqu'à Jijoca",
+    "Vagues et cohue à la pointe — pas pour les débutants"
+   ],
+   "wind_dir": "E (environ 85°), side-shore / side-onshore",
+   "airport": "JJD — Jijoca de Jericoacoara, ~30 min ; FOR — Fortaleza, ~4–5 h"
+  },
+  "paracuru": {
+   "h": "64d9725a7a",
+   "description": "Spot de vagues de récif à 3 km de la petite ville de Paracuru, à environ 1,5 h à l'ouest de Fortaleza. L'alizé souffle side-shore de droite, la vague casse sur le récif et se prête au ride downwind. Saison de vent stable de juillet à janvier, au plus fort en septembre–octobre.",
+   "rating_basis": "Surf-Magazin : le spot de windsurf/kite le plus connu de la région, avec la plus grosse vague du Ceará, aujourd'hui « fermement aux mains des kiters » ; Kitejungle — ~325 jours de vent par an",
+   "waves_note": "La vague casse sur le récif, loin du bord — l'une des plus grosses du Ceará, jusqu'à 2 m (parfois 3) ; à l'intérieur du récif, du clapot qui grossit avec la marée montante",
+   "hazards": "Rochers juste sous la surface à marée basse, enclos de pêche (currais) sous le vent, shorebreak de 2 h avant à 2 h après la pleine mer",
+   "gustiness_note": "Alizé stable, plus fort d'un demi à un point Beaufort qu'à Cumbuco",
+   "crowd_note": "Nettement plus calme que Cumbuco et Jericoacoara",
+   "region": "Ceará, nord-est du Brésil",
+   "pros": [
+    "L'une des meilleures vagues du Ceará",
+    "Alizé fort et très stable de juillet à janvier",
+    "Moins de monde que sur les spots voisins"
+   ],
+   "cons": [
+    "Pas pour les débutants",
+    "Rochers immergés à marée basse, fort shorebreak à marée haute",
+    "Peu d'infrastructures sur le spot même"
+   ],
+   "wind_dir": "ESE–SE (alizé), side-shore de droite",
+   "airport": "FOR — Fortaleza, ~1,5 h"
+  },
+  "prea": {
+   "h": "78d97680a8",
+   "description": "Ancien village de pêcheurs à 12 km de Jericoacoara, devenu la capitale du kite de la région : hôtels kite et écoles s'alignent le long de la plage. Large plage, alizé side-shore régulier, eau peu profonde à marée basse et kickers plus au large : il y en a pour tous les niveaux. C'est le point de départ des downwinds vers Jeri et Guriú, avec des lagunes à l'eau plate à proximité.",
+   "rating_basis": "Principale base kite de la région de Jeri : large plage avec vent side-shore, plus de 300 jours de vent par an selon les locaux ; Unplug le juge adapté aux débutants ; des dizaines d'écoles et d'hôtels kite",
+   "waves_note": "Large plage : à marée basse, plat et peu profond près du bord, plus loin du clapot et des vagues de 1–1,5 m — des kickers pour sauter ; petites lagunes à proximité (Riacho Doce, Lagoa Azul)",
+   "hazards": "Vagues et courant à marée haute, rochers par endroits sur la plage, buggies sur la plage",
+   "gustiness_note": "Alizé side-shore régulier, sans obstacles ; il forcit l'après-midi",
+   "crowd_note": "Plage longue et large — nettement plus d'espace qu'à Jeri, même s'il y a du monde devant les hôtels kite en haute saison",
+   "region": "Ceará, Cruz (12 km à l'est de Jericoacoara)",
+   "pros": [
+    "Beaucoup d'espace sur l'eau",
+    "Convient du débutant au freestyleur",
+    "Downwinds et lagunes à proximité",
+    "Du vent presque tous les jours de juillet à janvier"
+   ],
+   "cons": [
+    "Un peu cher, hébergement surtout en hôtels kite",
+    "Loin de Fortaleza",
+    "Février–mai : saison des pluies et vent faible"
+   ],
+   "airport": "JJD — Jijoca de Jericoacoara, ~20 min ; FOR — Fortaleza, ~4 h"
+  },
+  "sao-miguel-do-gostoso": {
+   "h": "30eb4aff84",
+   "description": "Petite station tranquille sur la côte nord du Rio Grande do Norte, surnommée « le Ceará sans la foule ». Le spot principal est Ponta do Santo Cristo : un banc de sable y crée de l'eau plate, et des vagues apparaissent à marée haute et sur le récif. À proximité : les piscines naturelles de Monte Alegre, la vague de Tourinhos et Lagoa do Sal, un downwind de 30 km jusqu'à Marco et les piscines de récif des Parrachos, près de Perobas. Plusieurs écoles, dont l'Idilico Kite Club.",
+   "rating_basis": "IKSURFMAG : « les meilleures conditions de vent du Brésil, mais sans la foule », 90–100 % de jours navigables de septembre à février ; une palette de spots variés, de l'eau plate à la vague",
+   "waves_note": "À Ponta do Santo Cristo, un banc de sable à ~300 m du bord crée de l'eau plate ; à marée haute et sur le récif extérieur, des vagues ; à Monte Alegre, à marée basse, des piscines naturelles à hauteur de taille ; à Tourinhos et Lagoa do Sal, des vagues",
+   "hazards": "Coraux sur le downwind de Tourinhos (moniteur indispensable), récif à Santo Cristo, tortues marines près de Monte Alegre ; le downwind de ~30 km jusqu'à Marco exige une bonne condition physique",
+   "gustiness_note": "Alizé très constant, parallèle à la côte ; quasiment pas de pluie en saison",
+   "crowd_note": "Calme et spacieux — la principale différence avec le Ceará",
+   "region": "Rio Grande do Norte, côte nord (≈100 km de Natal)",
+   "pros": [
+    "Du vent presque tous les jours de septembre à février",
+    "Peu de monde",
+    "Variété : eau plate, vagues, piscines de récif, downwinds",
+    "Seulement ~1,5 h de l'aéroport de Natal"
+   ],
+   "cons": [
+    "Moins de choix d'écoles et d'hébergements qu'au Ceará",
+    "Vie nocturne tranquille",
+    "Certains spots nécessitent un véhicule (buggy)"
+   ],
+   "wind_dir": "E–SE, cross-onshore de droite (parallèle à la côte)",
+   "airport": "NAT — Natal (São Gonçalo do Amarante), ~1 h 20 min"
+  },
+  "taiba": {
+   "h": "6a1c6af799",
+   "description": "Village à une heure au nord de Cumbuco, mondialement connu pour sa lagune à l'eau parfaitement plate, où s'entraîne l'élite du freestyle et où se disputent des finales GKA. La lagune est étroite et allongée et devient peu profonde sur son bord sous le vent — c'est un spot pour riders confirmés ; les débutants seront plus à l'aise à Cauípe. Côté océan, devant la pousada Tramuntana, des vagues pour le bump & jump et le wave riding.",
+   "rating_basis": "La lagune de Taíba est « la principale arène de freestyle du Brésil » : elle a accueilli les finales de la GKA Freestyle-Kite World Cup (2022, 2025) ; Wannakitesurf juge le spot océan « Great »",
+   "waves_note": "Lagune étroite et allongée à la sortie nord du village — l'eau plate de référence, sans clapot ; côté océan, devant la pousada Tramuntana, vagues de ~1 m, parfois plus",
+   "hazards": "Rochers au milieu et hauts-fonds sur le bord sous le vent de la lagune ; trafic dense de freestyleurs",
+   "gustiness_note": "Alizé régulier, un peu plus fort qu'à Cumbuco/Cauípe ; vent lisse sur la lagune",
+   "crowd_note": "La lagune est petite et bondée de freestyleurs pros qui ne cèdent pas volontiers la place ; presque vide le matin. Le spot océan est libre en semaine",
+   "region": "Ceará, São Gonçalo do Amarante (65 km de Fortaleza)",
+   "pros": [
+    "L'une des meilleures lagunes au monde pour le freestyle",
+    "Vent un peu plus fort qu'à Cumbuco",
+    "Des vagues côté océan aussi",
+    "Facile à combiner avec Cumbuco et Paracuru (downwind)"
+   ],
+   "cons": [
+    "Lagune petite et encombrée",
+    "Peu d'infrastructures — une seule barraca au bord de la lagune",
+    "Buggy ou 4×4 nécessaire pour la partie nord"
+   ],
+   "airport": "FOR — Fortaleza, ~1 h"
+  },
+  "lake-silvaplana": {
+   "h": "80f2f153e0",
+   "description": "Le lac de Silvaplana (1790 m), près de Saint-Moritz, est l'un des spots de kite les plus célèbres des Alpes. De juin à septembre, le vent thermique de Maloja souffle presque tous les jours à 20–25 nœuds, avec un pic l'après-midi. En hiver, le lac gèle et accueille snowkiteurs et skieurs.",
+   "rating_basis": "Un classique du kite alpin : en été ~80 % de jours ventés grâce au vent de Maloja, en hiver snowkite sur le lac gelé ; points faibles : eau froide, air raréfié et prix suisses",
+   "waves_note": "En été, du clapot sans vagues ni shorebreak ; en hiver, le lac gèle et devient un terrain de snowkite",
+   "hazards": "Eau froide et soirées fraîches ; navigation à au moins 50 m du bord, une seule mise à l'eau autorisée ; en hiver, uniquement sur glace confirmée",
+   "gustiness_note": "Le vent de Maloja est un thermique de vallée fiable : il se lève vers 11–13 h, culmine entre 15 et 17 h (20–25 nœuds) et retombe vers 18–19 h",
+   "crowd_note": "En été, l'après-midi, beaucoup de kiters et de windsurfeurs sur l'eau ; une seule mise à l'eau officielle",
+   "region": "Grisons, Haute-Engadine, ~1790 m, près de Saint-Moritz",
+   "pros": [
+    "Thermique estival très fiable (~80 % des jours)",
+    "Snowkite sur la glace en hiver",
+    "Panoramas alpins incroyables",
+    "Pas de shorebreak"
+   ],
+   "cons": [
+    "Eau froide (max. ~18 °C début août)",
+    "Air raréfié — prévoir une taille de kite au-dessus",
+    "La Suisse est chère",
+    "Encombré en haute saison"
+   ],
+   "wind_dir": "SW (vent de Maloja) — cross-onshore de droite",
+   "airport": "ZRH — Zurich ~2 h (jusqu'à 3 h) / MXP — Milan-Malpensa ~2 h"
+  },
+  "antofagasta-playa-amarilla": {
+   "h": "69d1fb13c4",
+   "description": "Plage urbaine au sud d'Antofagasta, grande ville portuaire aux portes du désert d'Atacama. La meilleure période est l'été austral (décembre–février), quand la brise de mer de la journée souffle de façon stable. L'eau est froide à cause du courant de Humboldt.",
+   "rating_basis": "Spot local sans grande notoriété internationale ; Kitejungle compte ~157 jours de vent, avec décembre–février comme meilleurs mois ; des voyageurs sur Seabreeze y ont navigué en 10–12 m",
+   "waves_note": "Côte pacifique : clapot et vagues, sans spot de vagues remarquable",
+   "hazards": "Eau froide, portions de côte rocheuses, vagues",
+   "gustiness_note": "Vent surtout de brise diurne, plus fiable en été",
+   "crowd_note": "Peu de kiters, surtout des locaux",
+   "region": "Antofagasta, nord du Chili (désert d'Atacama)",
+   "pros": [
+    "Plan d'eau vide",
+    "Climat sec et ensoleillé",
+    "Ville avec infrastructures à proximité"
+   ],
+   "cons": [
+    "Eau froide, 16–22 °C",
+    "Saison courte",
+    "Peu d'informations et d'écoles"
+   ],
+   "wind_dir": "SW–S (brise de mer diurne)",
+   "airport": "ANF — Antofagasta, ~40 min"
+  },
+  "salinas-del-rey": {
+   "h": "a5411223da",
+   "description": "Spot en plein essor sur la côte caraïbe de la Colombie, à une heure de Barranquilla et de Carthagène. Un alizé puissant de décembre à avril et de bonnes vagues en ont fait une étape du circuit mondial GKA de kite-surf. Infrastructures modestes (un kite hostel et quelques camps), mais des villes animées à proximité ; pour l'eau plate, direction Puerto Velero, tout près.",
+   "rating_basis": "IKSURFMAG : haute saison de décembre à mars avec un vent moyen de 20–25 nœuds ; le spot a accueilli des étapes du GKA Kite-Surf World Tour en 2022 et 2023 ; choisi à la place du Cabo de la Vela, isolé et, selon le guide, « rafaleux, point final »",
+   "waves_note": "Plage ouverte avec vagues — spot de wave et de strapless (étape GKA Kite-Surf) ; pas d'eau plate : pour cela, on va dans la baie de Puerto Velero (léger clapot) ou au Cabo de la Vela",
+   "hazards": "Vagues et courants ; sur la route, les mototaxis non enregistrés sont dangereux ; le dernier kilomètre jusqu'à Puerto Velero : sable et broussailles",
+   "gustiness_note": "Alizé fort et sec (souvent plus de 25 nœuds en saison) ; plus régulier qu'au Cabo de la Vela, très rafaleux",
+   "crowd_note": "Plages larges et spacieuses ; en saison, des riders du monde entier affluent, mais sans cohue",
+   "region": "Atlántico, côte caraïbe entre Barranquilla et Carthagène",
+   "pros": [
+    "Vent fort et stable de décembre à mars",
+    "Bonne vague pour le wave riding",
+    "Proche de Carthagène et de Barranquilla",
+    "Peu de monde"
+   ],
+   "cons": [
+    "Pas d'eau plate — pas pour les débutants",
+    "Infrastructures modestes, coupures de courant possibles",
+    "Hors saison d'août à novembre"
+   ],
+   "airport": "BAQ — Barranquilla, ~45 min–1 h ; CTG — Carthagène, ~1 h 20 min"
+  },
+  "boa-vista-praia-chaves": {
+   "h": "22db29f0b8",
+   "description": "La plage de Praia de Chaves, près de l'hôtel Iberostar au sud de Sal Rei, est le principal spot d'apprentissage de Boa Vista ; quand il y a des vagues, les cours se font depuis un bateau. L'alizé de nord-est souffle de novembre à mai. L'île compte d'autres spots : Morabeza près de la ville (eau plate), la lagune de Rio et la vague de Varandinha pour les confirmés.",
+   "rating_basis": "IKSURFMAG : alizé de 15–30 nœuds en haute saison (novembre–mai), spots variés de l'eau plate à la vague ; Kitejungle — ~330 jours de vent par an",
+   "waves_note": "De décembre à février, des vagues (cours depuis le bateau) ; sur les plages voisines, de l'eau plate jusqu'à des vagues de ~2 m",
+   "hazards": "Shorebreak et vagues en hiver ; à Varandinha, océan ouvert sous le vent et rochers volcaniques, sans sauveteurs ; à Morabeza et Rio, offshore rafaleux",
+   "gustiness_note": "Alizé stable ; offshore rafaleux à Morabeza et sur la lagune de Rio",
+   "crowd_note": "Peu de kiters, spots spacieux",
+   "region": "Île de Boa Vista, Sal Rei",
+   "pros": [
+    "Alizé fort et stable de novembre à mai",
+    "Variété : eau plate, vagues, downwinds",
+    "Chaud toute l'année, aéroport tout près"
+   ],
+   "cons": [
+    "En hiver, vagues et shorebreak possibles sur la plage principale",
+    "4x4 nécessaire pour les spots éloignés",
+    "Vent nettement plus faible en été"
+   ],
+   "wind_dir": "NE (alizé), side-shore",
+   "airport": "BVC — Boa Vista (Aristides Pereira), ~10 min"
+  }
+ }
+}

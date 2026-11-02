@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Adrenalin Spots</title>
+  <meta name="description" content="">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="vendor/maplibre-gl.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script defer src="vendor/maplibre-gl.js"></script>
+</head>
+<body>
+  <a class="skip" href="#months" data-i18n="skip.months"></a>
+  <a class="skip" href="#search" data-i18n="skip.search"></a>
+  <div class="app">
+    <div id="map"></div>
+
+    <aside class="side" data-i18n-aria="side.aria">
+      <header class="brand">
+        <h1 data-i18n="brand"></h1>
+        <div class="dd-host" data-slot="activity"></div>
+        <button type="button" class="side-toggle" data-i18n-aria="side.collapse" data-i18n-title="side.collapse">‹</button>
+      </header>
+
+      <div class="seasons" role="group" data-i18n-aria="seasons.aria"></div>
+
+      <div class="filters">
+        <div class="dropdowns"></div>
+        <div class="toggles">
+          <button type="button" class="qf" data-filter="novisa" aria-pressed="false" data-i18n="qf.novisa" data-i18n-title="qf.novisa_title"></button>
+          <button type="button" class="qf" data-filter="ru" aria-pressed="false" data-i18n="qf.ru"></button>
+          <button type="button" class="qf" data-filter="flat" aria-pressed="false" data-i18n="qf.flat"></button>
+        </div>
+      </div>
+
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden" data-i18n="search.label"></span>
+          <input id="search" type="search" data-i18n-placeholder="search.placeholder" autocomplete="off">
+        </label>
+        <button type="button" class="reset" hidden data-i18n="reset"></button>
+      </div>
+
+      <h2 class="list-head"></h2>
+      <ol class="spot-list"></ol>
+
+      <footer class="side-foot">
+        <label class="lang"><span class="visually-hidden" data-i18n="lang.label"></span><select id="lang"></select></label>
+        <span class="foot-label" data-i18n="foot.wind_in"></span>
+        <div class="unit" role="group" data-i18n-aria="unit.aria">
+          <button type="button" data-unit="kn" data-i18n="unit.kn_btn"></button>
+          <button type="button" data-unit="ms" data-i18n="unit.ms_btn"></button>
+        </div>
+      </footer>
+    </aside>
+
+    <button type="button" class="side-open" data-i18n="side.open" data-i18n-aria="side.open_aria" data-i18n-title="side.open_aria"></button>
+
+    <main class="stage">
+      <div class="month-head">
+        <h2 class="month-title"></h2>
+        <p class="month-sub"></p>
+      </div>
+      <p id="status" class="visually-hidden" role="status" aria-live="polite"></p>
+
+      <div class="basemaps"></div>
+
+      <div class="timeline" role="group" data-i18n-aria="timeline.aria">
+        <button type="button" class="tl-btn prev" data-i18n-aria="tl.prev">‹</button>
+        <div class="months" id="months" role="radiogroup" data-i18n-aria="months.aria"></div>
+        <button type="button" class="tl-btn next" data-i18n-aria="tl.next">›</button>
+      </div>
+
+      <section class="panel" aria-hidden="true" inert aria-labelledby="panel-title">
+        <button type="button" class="panel-close" data-i18n-aria="panel.close">×</button>
+        <div class="panel-body"></div>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
