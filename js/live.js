@@ -136,7 +136,7 @@ const dirOk = (wd, dirs) => !dirs.length || wd == null || dirs.some((d) => COMPA
 export function flyableHour(ws, wd, wg, rain, dirs = [], kind = 'thermal') {
   if (ws == null || (rain || 0) >= 0.3) return false;
   const g = wg ?? ws * 1.5;
-  const thermal = g <= 16 && (ws <= 4.5 || (ws <= 12 && dirOk(wd, dirs)));
+  const thermal = g <= 20 && (ws <= 4.5 || (ws <= 12 && dirOk(wd, dirs)));
   const soaring = g <= 21 && ws >= 6.5 && ws <= 17 && dirOk(wd, dirs);
   return kind === 'thermal' ? thermal : kind === 'soaring' ? soaring : thermal || soaring;
 }

@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Raffiche",
   'card.cloudbase': "Base delle nubi",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "Un giorno volabile ha almeno 3 ore tra le 10 e le 18 senza pioggia (e meno di 5 mm in tutta la giornata), raffiche fino a 30 km/h e vento adatto al decollo (termica: fino a 22 km/h; dinamica: 12–32 km/h). Modello Open-Meteo (ERA5), {period}; base delle nubi dalla differenza tra temperatura e punto di rugiada alle 14. La griglia di ~30 km non vede brezze locali e rotori: chiedi ai piloti del posto.",
+  'card.fly_source': "Un giorno volabile ha almeno 3 ore tra le 10 e le 18 senza pioggia (e meno di 5 mm in tutta la giornata), raffiche fino a ~37 km/h e vento adatto al decollo (termica: fino a 22 km/h; dinamica: 12–32 km/h). Modello Open-Meteo (ERA5), {period}; base delle nubi dalla differenza tra temperatura e punto di rugiada alle 14. La griglia di ~30 km non vede brezze locali e rotori: chiedi ai piloti del posto.",
   'card.fly_pending': "Il meteo di volo del modello è ancora in calcolo per questo sito: comparirà dopo il prossimo aggiornamento.",
   'chart.fly': "Giorni volabili: {p}%",
   'chart.wind_gust': "Vento {w}, raffiche {g}",

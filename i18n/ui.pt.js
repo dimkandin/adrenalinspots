@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Rajadas",
   'card.cloudbase': "Base das nuvens",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "Um dia voável tem pelo menos 3 horas entre 10h e 18h sem chuva (e menos de 5 mm no dia todo), rajadas de até 30 km/h e vento adequado à rampa (térmicas: até 22 km/h; dinâmico: 12–32 km/h). Modelo Open-Meteo (ERA5), {period}; base das nuvens pela diferença entre temperatura e ponto de orvalho às 14h. A grade de ~30 km não vê brisas locais nem rotores — confirme com pilotos locais.",
+  'card.fly_source': "Um dia voável tem pelo menos 3 horas entre 10h e 18h sem chuva (e menos de 5 mm no dia todo), rajadas de até ~37 km/h e vento adequado à rampa (térmicas: até 22 km/h; dinâmico: 12–32 km/h). Modelo Open-Meteo (ERA5), {period}; base das nuvens pela diferença entre temperatura e ponto de orvalho às 14h. A grade de ~30 km não vê brisas locais nem rotores — confirme com pilotos locais.",
   'card.fly_pending': "O tempo de voo do modelo ainda está sendo calculado para este local — aparece após a próxima atualização.",
   'chart.fly': "Dias voáveis: {p}%",
   'chart.wind_gust': "Vento {w}, rajadas {g}",

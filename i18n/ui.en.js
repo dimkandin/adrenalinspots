@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Gusts",
   'card.cloudbase': "Cloud base",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "A flyable day has at least 3 hours between 10:00 and 18:00 without rain (and under 5 mm of rain all day), gusts up to 30 km/h and wind that suits the takeoff (thermals: up to 22 km/h; soaring: 12–32 km/h). Open-Meteo (ERA5) model, {period}; cloud base from the temperature–dew point spread at 14:00. The ~30 km model grid misses local breezes and rotors — check with local pilots.",
+  'card.fly_source': "A flyable day has at least 3 hours between 10:00 and 18:00 without rain (and under 5 mm of rain all day), gusts up to ~37 km/h and wind that suits the takeoff (thermals: up to 22 km/h; soaring: 12–32 km/h). Open-Meteo (ERA5) model, {period}; cloud base from the temperature–dew point spread at 14:00. The ~30 km model grid misses local breezes and rotors — check with local pilots.",
   'card.fly_pending': "Flying weather from the model is still being computed for this site — it will appear after the next data update.",
   'chart.fly': "Flyable days: {p}%",
   'chart.wind_gust': "Wind {w}, gusts {g}",

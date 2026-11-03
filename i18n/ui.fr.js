@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Rafales",
   'card.cloudbase': "Plafond",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "Un jour volable compte au moins 3 heures entre 10 h et 18 h sans pluie (et moins de 5 mm sur la journée), avec des rafales jusqu'à 30 km/h et un vent adapté au décollage (thermique : jusqu'à 22 km/h ; dynamique : 12–32 km/h). Modèle Open-Meteo (ERA5), {period} ; plafond estimé par l'écart température–point de rosée à 14 h. La maille de ~30 km ne voit ni brises locales ni rotors : renseignez-vous auprès des pilotes locaux.",
+  'card.fly_source': "Un jour volable compte au moins 3 heures entre 10 h et 18 h sans pluie (et moins de 5 mm sur la journée), avec des rafales jusqu'à ~37 km/h et un vent adapté au décollage (thermique : jusqu'à 22 km/h ; dynamique : 12–32 km/h). Modèle Open-Meteo (ERA5), {period} ; plafond estimé par l'écart température–point de rosée à 14 h. La maille de ~30 km ne voit ni brises locales ni rotors : renseignez-vous auprès des pilotes locaux.",
   'card.fly_pending': "La météo de vol du modèle est encore en calcul pour ce site ; elle apparaîtra après la prochaine mise à jour.",
   'chart.fly': "Jours volables : {p} %",
   'chart.wind_gust': "Vent {w}, rafales {g}",

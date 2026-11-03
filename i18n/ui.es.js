@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Rachas",
   'card.cloudbase': "Base de nubes",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "Un día volable tiene al menos 3 horas entre las 10 y las 18 sin lluvia (y menos de 5 mm en todo el día), rachas de hasta 30 km/h y viento adecuado al despegue (térmicas: hasta 22 km/h; dinámico: 12–32 km/h). Modelo Open-Meteo (ERA5), {period}; base de nubes según la diferencia entre temperatura y punto de rocío a las 14:00. La malla de ~30 km no ve brisas locales ni rotores: consulta a los pilotos locales.",
+  'card.fly_source': "Un día volable tiene al menos 3 horas entre las 10 y las 18 sin lluvia (y menos de 5 mm en todo el día), rachas de hasta ~37 km/h y viento adecuado al despegue (térmicas: hasta 22 km/h; dinámico: 12–32 km/h). Modelo Open-Meteo (ERA5), {period}; base de nubes según la diferencia entre temperatura y punto de rocío a las 14:00. La malla de ~30 km no ve brisas locales ni rotores: consulta a los pilotos locales.",
   'card.fly_pending': "El tiempo de vuelo del modelo aún se está calculando para este sitio; aparecerá tras la próxima actualización.",
   'chart.fly': "Días volables: {p}%",
   'chart.wind_gust': "Viento {w}, rachas {g}",

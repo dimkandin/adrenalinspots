@@ -653,7 +653,7 @@ export default {
   'card.gust_day': "Böen",
   'card.cloudbase': "Basis",
   'card.cloudbase_v': "~{v} m",
-  'card.fly_source': "Ein fliegbarer Tag hat mindestens 3 Stunden zwischen 10 und 18 Uhr ohne Regen (und unter 5 mm am ganzen Tag), mit Böen bis 30 km/h und passendem Wind für den Start (Thermik: bis 22 km/h; Soaring: 12–32 km/h). Open-Meteo-Modell (ERA5), {period}; Basis aus der Spanne zwischen Temperatur und Taupunkt um 14 Uhr. Das ~30-km-Raster sieht keine lokalen Brisen und Rotoren — frag die Piloten vor Ort.",
+  'card.fly_source': "Ein fliegbarer Tag hat mindestens 3 Stunden zwischen 10 und 18 Uhr ohne Regen (und unter 5 mm am ganzen Tag), mit Böen bis ~37 km/h und passendem Wind für den Start (Thermik: bis 22 km/h; Soaring: 12–32 km/h). Open-Meteo-Modell (ERA5), {period}; Basis aus der Spanne zwischen Temperatur und Taupunkt um 14 Uhr. Das ~30-km-Raster sieht keine lokalen Brisen und Rotoren — frag die Piloten vor Ort.",
   'card.fly_pending': "Das Flugwetter aus dem Modell wird für diesen Ort noch berechnet — es erscheint nach dem nächsten Datenupdate.",
   'chart.fly': "Fliegbare Tage: {p} %",
   'chart.wind_gust': "Wind {w}, Böen {g}",
