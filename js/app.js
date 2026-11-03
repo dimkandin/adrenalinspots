@@ -5,7 +5,7 @@ import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, 
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, num, setLang, t, tn } from './i18n.js';
 import {
-  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
+  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
 
 // What each section (activity) shows: quick filters, dropdowns, season kinds, and the number in the list
@@ -14,8 +14,13 @@ const ACT = {
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
   surf: { qf: ['novisa', 'ru', 'beginner'], dd: ['minRating', 'pop', 'brk', 'dir', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.swell && s.swell[m - 1] != null ? metres(s.swell[m - 1]) : '') },
+  snowboard: { qf: ['novisa', 'ru', 'beginner', 'park', 'freeride', 'glacier'], dd: ['minRating', 'pop', 'maxPass', 'minVert', 'minKm', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.snow && s.snow[m - 1] != null ? cm(s.snow[m - 1]) : '') },
 };
-const DEFAULT_FILTERS = { novisa: false, ru: false, flat: false, wave: false, beginner: false, brk: null, dir: null, minRating: null, minAir: null, minWater: null, vibe: null, pop: null };
+const DEFAULT_FILTERS = {
+  novisa: false, ru: false, flat: false, wave: false, beginner: false, brk: null, dir: null, park: false, freeride: false, glacier: false,
+  minRating: null, minAir: null, minWater: null, vibe: null, pop: null, maxPass: null, minVert: null, minKm: null,
+};
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
 
 const state = {
@@ -75,7 +80,13 @@ function passesFilters(s, m = state.month) {
   if (f.ru && s.ru_schools !== 'yes') return false;
   if (f.flat && !(s.water || []).includes('flat')) return false;
   if (f.wave && !((s.wave_riding || 0) >= 2)) return false;
-  if (f.beginner && !(s.level || []).includes('beginner')) return false;
+  if (f.beginner && !(state.activity === 'snowboard' ? (s.beginner || 0) >= 4 : (s.level || []).includes('beginner'))) return false;
+  if (f.park && !['good', 'pro'].includes(s.snowpark)) return false;
+  if (f.freeride && !((s.freeride || 0) >= 4)) return false;
+  if (f.glacier && !s.glacier) return false;
+  if (f.maxPass != null && !(s.lift_pass_eur != null && s.lift_pass_eur <= f.maxPass)) return false;
+  if (f.minVert != null && !((s.vertical_m || 0) >= f.minVert)) return false;
+  if (f.minKm != null && !((s.pistes_km || 0) >= f.minKm)) return false;
   if (f.brk && s.break_type !== f.brk && s.break_type !== 'mixed') return false;
   if (f.dir && !(s.wave_direction || []).includes(f.dir)) return false;
   if (f.minRating != null && !((s.rating || 0) >= f.minRating)) return false;
@@ -118,6 +129,7 @@ function features() {
       id: s.id, name_ru: s.name_ru, cc: s.cc, country: s.country, rating: s.rating,
       season: seasonOf(s), wind: s.wind ? s.wind[state.month - 1] : null,
       swell: s.swell ? s.swell[state.month - 1] : null, period: s.period ? s.period[state.month - 1] : null,
+      snow: s.snow ? s.snow[state.month - 1] : null,
       air: s.air ? s.air[state.month - 1] : null, sea: s.sea ? s.sea[state.month - 1] : null,
       visa_status: s.visa ? s.visa.status : null,
       vibe: s.vibe ? s.vibe.score : null,
@@ -405,6 +417,21 @@ const DROPDOWNS = [
     options: [{ value: null, text: t('dd.any_f') }, ...['quiet', 'life', 'party'].map((v) => ({ value: v, text: t(`dd.vibe.${v}`) }))],
   },
   {
+    key: 'maxPass', title: t('dd.pass.title'),
+    label: (v) => (v == null ? t('dd.pass.label') : t('dd.pass.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_m') }, ...[40, 60, 80].map((v) => ({ value: v, text: t('dd.pass.opt', { v }) }))],
+  },
+  {
+    key: 'minVert', title: t('dd.vert.title'),
+    label: (v) => (v == null ? t('dd.vert.label') : t('dd.vert.label_v', { v: num(v) })),
+    options: [{ value: null, text: t('dd.any_m') }, ...[500, 1000, 1500].map((v) => ({ value: v, text: t('dd.vert.opt', { v: num(v) }) }))],
+  },
+  {
+    key: 'minKm', title: t('dd.km.title'),
+    label: (v) => (v == null ? t('dd.km.label') : t('dd.km.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_f') }, ...[50, 100, 200].map((v) => ({ value: v, text: t('dd.km.opt', { v }) }))],
+  },
+  {
     key: 'minWater', title: t('dd.water.title'),
     label: (v) => (v == null ? t('dd.water.label') : t('dd.water.label_v', { v })),
     options: [{ value: null, text: t('dd.any_f') }, ...[16, 20, 24, 27].map((v) => ({ value: v, text: t(`dd.water.${v}`) }))],
@@ -414,7 +441,12 @@ const DROPDOWNS = [
 // show only the filters of the current section; sections without data are greyed out in the menu
 function applyActivityUI() {
   const cfg = ACT[state.activity];
-  document.querySelectorAll('.qf').forEach((b) => { b.hidden = !cfg.qf.includes(b.dataset.filter); });
+  document.querySelectorAll('.qf').forEach((b) => {
+    b.hidden = !cfg.qf.includes(b.dataset.filter);
+    const own = `qf.${b.dataset.filter}_title_${state.activity}`;   // e.g. «beginner» means different things in surf and skiing
+    if (t(own) !== own) b.title = t(own);
+    else if (b.dataset.i18nTitle) b.title = t(b.dataset.i18nTitle);
+  });
   document.querySelectorAll('.dd[data-key]').forEach((d) => { if (d.dataset.key !== 'activity') d.hidden = !cfg.dd.includes(d.dataset.key); });
   const enabled = new Set(state.activities.filter((a) => a.enabled && ACT[a.id]).map((a) => a.id));
   document.querySelectorAll('.dd[data-key="activity"] .dd-opt').forEach((o) => {

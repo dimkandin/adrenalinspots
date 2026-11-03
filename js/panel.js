@@ -1,13 +1,13 @@
 // Spot detail panel.
-import { swellChart, tempChart, windChart, windRose } from './charts.js';
-import { forecast, kitePhotos, placeNames, surfForecast } from './live.js';
+import { snowChart, swellChart, tempChart, windChart, windRose } from './charts.js';
+import { forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
 import { isRu, num, t, tn, weekdayShort } from './i18n.js';
 import {
-  BOTTOM, BREAK, LEVEL, MONTHS, MONTHS_IN, SCHOOLS, SEASON, SPOT_TYPE, TIDE, VISA, WATER, WIND_TYPE,
-  deg, esc, flagEmoji, getUnit, h, metres, rating, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
+  BOTTOM, BREAK, LEVEL, MONTHS, MONTHS_IN, PARK, SCHOOLS, SEASON, SNOWMAKING, SPOT_TYPE, TIDE, VISA, WATER, WIND_TYPE,
+  cm, deg, esc, flagEmoji, getUnit, h, metres, rating, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
 } from './util.js';
 
-const SPORT_WORD = { kite: 'kitesurfing', surf: 'surfing' };
+const SPORT_WORD = { kite: 'kitesurfing', surf: 'surfing', snowboard: 'skiing' };
 const sportWord = (spot) => SPORT_WORD[spot.activity] || 'kitesurfing';
 
 const panel = () => document.querySelector('.panel');
@@ -293,6 +293,99 @@ function renderSurfForecast(host, spot) {
   });
 }
 
+// ---------- mountains (ski & snowboard) ---------------------------------------------
+const midHeight = (a) => (a.base_m && a.top_m ? (a.base_m + a.top_m) / 2 : (a.top_m || a.base_m || null));
+
+function pistesBar(a) {
+  const parts = [['easy', a.easy_km], ['medium', a.medium_km], ['hard', a.hard_km]];
+  const total = parts.reduce((x, [, v]) => x + (v || 0), 0);
+  if (!total) return null;
+  return h('span', { class: 'pistes' },
+    h('span', { class: 'pistes-bar', 'aria-hidden': 'true' }, ...parts.filter(([, v]) => v).map(([k, v]) => h('i', { class: `pb-${k}`, style: `flex:${v}` }))),
+    h('small', { class: 'block' }, parts.filter(([, v]) => v != null).map(([k, v]) => `${t(`pistes.${k}`)} ${num(Math.round(v))}`).join(' · ')));
+}
+
+function passText(a) {
+  const lp = a.lift_pass;
+  if (!lp || lp.price == null) return '—';
+  const money = new Intl.NumberFormat(document.documentElement.lang || 'ru', { style: 'currency', currency: lp.currency || 'EUR', maximumFractionDigits: 0 }).format(lp.price);
+  const eur = lp.currency && lp.currency !== 'EUR' && a.lift_pass_eur ? ` (~${num(Math.round(a.lift_pass_eur))} €)` : '';
+  return `${money}${eur}`;
+}
+
+function mountainFacts(spot) {
+  const a = spot.attrs || {};
+  const flags = [a.glacier ? t('mtn.glacier') : null, a.summer_ski ? t('mtn.summer_ski') : null, a.night_skiing ? t('mtn.night') : null,
+    a.heliski ? t('mtn.heliski') : null].filter(Boolean);
+  return h('dl', { class: 'facts' },
+    fact(t('card.heights'), a.base_m && a.top_m ? `${num(a.base_m)}–${num(a.top_m)} ${t('unit.m')}` : '—',
+      a.vertical_m ? h('small', {}, ` ${t('card.vertical_v', { v: num(a.vertical_m) })}`) : null),
+    fact(t('card.pistes'), a.pistes_km ? `${num(Math.round(a.pistes_km))} ${t('unit.km')}` : '—', pistesBar(a)),
+    fact(t('card.lifts'), a.lifts != null ? String(a.lifts) : '—', a.longest_run_km ? h('small', {}, ` ${t('card.longest_run', { v: num(a.longest_run_km) })}`) : null),
+    fact(t('card.season_mtn'), a.season_ru || '—'),
+    fact(t('card.lift_pass'), passText(a), a.lift_pass && (a.lift_pass.note_ru || a.lift_pass.season)
+      ? h('small', { class: 'block' }, [a.lift_pass.note_ru, a.lift_pass.season ? t('card.pass_season', { s: a.lift_pass.season }) : null].filter(Boolean).join(' · ')) : null),
+    fact(t('card.beginner_mtn'), meter(a.beginner, 5, t('card.beginner_mtn'))),
+    fact(t('card.freeride'), meter(a.freeride, 5, t('card.freeride')), a.freeride ? h('small', {}, ` ${t(`freeride.${a.freeride}`)}`) : null),
+    fact(t('card.snowpark'), a.snowpark ? PARK[a.snowpark] : '—'),
+    fact(t('card.apres'), meter(a.apres, 5, t('card.apres'))),
+    a.snowmaking ? fact(t('card.snowmaking'), SNOWMAKING[a.snowmaking]) : null,
+    flags.length ? fact(t('card.also'), flags.join(', ')) : null,
+    fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),
+    fact(t('card.crowd_mtn'), meter(spot.crowd, 5, t('card.crowd_mtn')), spot.crowd_note ? h('small', {}, ` ${spot.crowd_note}`) : null),
+    a.transfer_ru ? fact(t('card.transfer'), a.transfer_ru) : null);
+}
+
+function snowBlock(spot, month) {
+  const guide = spot.climate.guide.map((g) => g || {});
+  const era5 = spot.climate.era5;
+  const e = era5 ? era5[month - 1] || {} : {};
+  const g = guide[month - 1] || {};
+  const wrap = h('div', {});
+  wrap.append(h('div', { class: 'legend' },
+    h('span', {}, h('i', { class: 'lg-bar' }), era5 ? t('card.lg_snow_model') : t('card.lg_snow_guide')),
+    era5 ? h('span', {}, h('i', { class: 'lg-dot' }), t('card.lg_snow_guide')) : null,
+    h('span', {}, h('i', { class: 'lg-threshold' }), t('card.lg_snow_30'))));
+  const chartHost = h('div', { class: 'chart-host' });
+  wrap.append(chartHost);
+  snowChart(chartHost, { guide, era5, seasons: spot.seasons, month, onMonth: ctx.setMonth });
+  const pct = (v) => (v != null ? `${Math.round(v)}%` : '—');
+  wrap.append(h('dl', { class: 'facts facts-3' },
+    fact(t('card.snow_in', { in_month: MONTHS_IN[month - 1] }), cm(e.snow_cm ?? g.snow_cm)),
+    fact(t('card.snowfall'), e.snowfall_cm != null ? cm(e.snowfall_cm) : '—'),
+    fact(t('card.snow_days'), e.snow_days != null ? num(Math.round(e.snow_days)) : '—'),
+    fact(t('card.ski_days'), pct(e.ski_prob)),
+    fact(t('card.sun'), e.sun_h != null ? t('card.sun_v', { h: num(e.sun_h, 1) }) : '—')));
+  wrap.append(h('p', { class: 'source' }, era5 ? t('card.snow_source', { period: spot.climate_periods.era5 || '', h: num(Math.round(midHeight(spot.attrs || {}) || 0)) }) : t('card.snow_pending')));
+  return wrap;
+}
+
+function renderSnowForecast(host, spot) {
+  host.innerHTML = '';
+  host.append(h('p', { class: 'muted' }, t('card.fc_loading')));
+  snowForecast(spot.lat, spot.lng, midHeight(spot.attrs || {})).then((days) => {
+    if (!current || current.id !== spot.id) return;
+    host.innerHTML = '';
+    const max = Math.max(20, ...days.map((d) => d.snow || 0));
+    const rows = h('div', { class: 'fc' });
+    for (const d of days) {
+      const date = new Date(d.date + 'T12:00:00');
+      const good = (d.snow || 0) >= 10;
+      rows.append(h('div', { class: `fc-row ${good ? 'is-good' : ''}` },
+        h('span', { class: 'fc-day' }, `${weekdayShort(date)} ${date.getDate()}`),
+        h('span', { class: 'fc-dir', 'aria-hidden': 'true' }, d.snow > 0.5 ? '❄' : (d.sun > 6 ? '☀' : '')),
+        h('span', { class: 'fc-bar' }, h('i', { class: 'fc-w fc-snow', style: `width:${((d.snow || 0) / max) * 100}%` })),
+        h('span', { class: 'fc-val' }, d.snow > 0.5 ? cm(d.snow) : t('card.fc_no_snow'),
+          h('small', {}, ` · ${deg(d.tmin)}…${deg(d.tmax)}`))));
+    }
+    host.append(rows, h('p', { class: 'source' }, t('card.fc_snow_source', { h: num(Math.round(midHeight(spot.attrs || {}) || 0)) })));
+  }).catch((e) => {
+    if (!current || current.id !== spot.id) return;
+    host.innerHTML = '';
+    host.append(h('p', { class: 'muted' }, t('card.fc_error', { msg: e.message })));
+  });
+}
+
 export function renderPanel(spot, context) {
   current = spot; ctx = context;
   const month = ctx.month;
@@ -326,9 +419,10 @@ export function renderPanel(spot, context) {
       isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null));
 
   const isSurf = spot.activity === 'surf';
+  const isMtn = spot.activity === 'snowboard';
   const water = (spot.water || []).map((w) => h('span', { class: `tag water-${w}` }, WATER[w] || w));
   const era = spot.climate.era5 ? spot.climate.era5[month - 1] : null;
-  const facts = isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
+  const facts = isMtn ? mountainFacts(spot) : isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
     fact(t('card.wind_range'), windRangeText(spot.wind_range) || '—'),
     fact(t('card.direction'), spot.wind_dir || '—', spot.wind_type ? h('small', {}, ` ${WIND_TYPE[spot.wind_type] || spot.wind_type}`) : null),
     fact(t('card.gustiness'), meter(spot.gustiness, 5, t('card.gustiness')), h('small', {}, ` ${gustText(spot.gustiness)}`), spot.gustiness_note ? h('small', { class: 'block' }, spot.gustiness_note) : null),
@@ -345,21 +439,25 @@ export function renderPanel(spot, context) {
   if (spot.description) body.append(h('p', { class: 'p-desc' }, spot.description));
   body.append(section(t('sec.conditions'), facts));
   body.append(section(t('sec.vibe'), vibeBlock(spot)));
-  body.append(isSurf ? section(t('sec.swell'), swellBlock(spot, month)) : section(t('sec.wind'), climateBlock(spot, month)));
+  body.append(isMtn ? section(t('sec.snow'), snowBlock(spot, month))
+    : isSurf ? section(t('sec.swell'), swellBlock(spot, month)) : section(t('sec.wind'), climateBlock(spot, month)));
 
   const tempHost = h('div', { class: 'chart-host' });
   const g = spot.climate.guide[month - 1] || {};
-  const hasWater = spot.climate.guide.some((x) => x && x.water_c != null)
-    || (spot.climate.era5 || []).some((x) => x && x.water_c != null);
+  const hasWater = !isMtn && (spot.climate.guide.some((x) => x && x.water_c != null)
+    || (spot.climate.era5 || []).some((x) => x && x.water_c != null));
+  const hasNight = isMtn && (spot.climate.era5 || []).some((x) => x && x.tmin_c != null);
   body.append(section(t('sec.temp'),
-    h('div', { class: 'legend' }, h('span', {}, h('i', { class: 'lg-line air' }), t('chart.air_day')),
-      hasWater ? h('span', {}, h('i', { class: 'lg-line water' }), t('chart.water_cap')) : null),
+    h('div', { class: 'legend' }, h('span', {}, h('i', { class: 'lg-line air' }), isMtn ? t('chart.air_mtn') : t('chart.air_day')),
+      hasWater ? h('span', {}, h('i', { class: 'lg-line water' }), t('chart.water_cap')) : null,
+      hasNight ? h('span', {}, h('i', { class: 'lg-line water' }), t('chart.night_cap')) : null),
     tempHost,
     h('dl', { class: `facts ${isSurf && hasWater ? 'facts-3' : hasWater ? 'facts-2' : 'facts-1'}` },
       fact(t('card.air_in', { in_month: MONTHS_IN[month - 1] }), deg(g.air_c ?? (era && era.air_c))),
       hasWater ? fact(t('card.water'), deg(g.water_c ?? (era && era.water_c))) : null,
-      isSurf && hasWater ? fact(t('card.wetsuit'), wetsuit((era && era.water_c) ?? g.water_c) || '—') : null)));
-  tempChart(tempHost, { guide: spot.climate.guide, era5: spot.climate.era5, month });
+      isSurf && hasWater ? fact(t('card.wetsuit'), wetsuit((era && era.water_c) ?? g.water_c) || '—') : null,
+      hasNight ? fact(t('card.night_in'), deg(era && era.tmin_c)) : null)));
+  tempChart(tempHost, { guide: spot.climate.guide, era5: spot.climate.era5, month, night: isMtn });
 
   if (isSurf && era && era.swell_rose && era.swell_rose.some((x) => x > 0)) {
     const roseHost = h('div', { class: 'rose-host' });
@@ -375,8 +473,8 @@ export function renderPanel(spot, context) {
   }
 
   const fcHost = oldForecast || h('div', { class: 'fc-host', 'data-unit': getUnit() });
-  body.append(section(isSurf ? t('sec.forecast_surf') : t('sec.forecast'), fcHost));
-  if (!oldForecast) (isSurf ? renderSurfForecast : renderForecast)(fcHost, spot);
+  body.append(section(isMtn ? t('sec.forecast_snow') : isSurf ? t('sec.forecast_surf') : t('sec.forecast'), fcHost));
+  if (!oldForecast) (isMtn ? renderSnowForecast : isSurf ? renderSurfForecast : renderForecast)(fcHost, spot);
 
   body.append(section(t('sec.video'), oldVideos || renderVideos(spot)));  // keep a playing video alive
 
@@ -414,11 +512,16 @@ export function renderPanel(spot, context) {
 
   const links = spot.links || {};
   const linkList = h('ul', { class: 'links' },
+    links.official ? h('li', {}, h('a', { href: links.official, target: '_blank', rel: 'noopener' }, t('card.link_official'))) : null,
+    links.skiresort_info ? h('li', {}, h('a', { href: links.skiresort_info, target: '_blank', rel: 'noopener' }, 'Skiresort.info')) : null,
     links.surf_forecast ? h('li', {}, h('a', { href: links.surf_forecast, target: '_blank', rel: 'noopener' }, 'Surf-Forecast')) : null,
     links.surfline ? h('li', {}, h('a', { href: links.surfline, target: '_blank', rel: 'noopener' }, 'Surfline')) : null,
     links.windguru ? h('li', {}, h('a', { href: links.windguru, target: '_blank', rel: 'noopener' }, t('card.link_windguru'))) : null,
     links.windfinder ? h('li', {}, h('a', { href: links.windfinder, target: '_blank', rel: 'noopener' }, t('card.link_windfinder'))) : null,
-    h('li', {}, h('a', { href: isSurf ? `https://www.windy.com/-Waves-waves?waves,${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},9` : `https://www.windy.com/${spot.lat.toFixed(3)}/${spot.lng.toFixed(3)}?${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},11`, target: '_blank', rel: 'noopener' }, isSurf ? t('card.link_windy_waves') : t('card.link_windy'))),
+    h('li', {}, h('a', { href: isMtn ? `https://www.windy.com/-Snow-depth-snowcover?snowcover,${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},10`
+      : isSurf ? `https://www.windy.com/-Waves-waves?waves,${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},9`
+        : `https://www.windy.com/${spot.lat.toFixed(3)}/${spot.lng.toFixed(3)}?${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},11`, target: '_blank', rel: 'noopener' },
+    isMtn ? t('card.link_windy_snow') : isSurf ? t('card.link_windy_waves') : t('card.link_windy'))),
     h('li', {}, h('a', { href: `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`, target: '_blank', rel: 'noopener' }, 'Google Maps')),
     ...(links.other || []).slice(0, 3).map((u) => h('li', {}, h('a', { href: u, target: '_blank', rel: 'noopener' }, new URL(u).hostname.replace('www.', '')))));
   body.append(section(t('sec.links'), linkList,

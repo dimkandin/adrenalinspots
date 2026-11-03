@@ -79,9 +79,35 @@ export async function surfForecast(lat, lng) {
   return p;
 }
 
+/** 7-day mountain forecast (Open-Meteo): new snow and temperatures, scaled to the given elevation. */
+export async function snowForecast(lat, lng, elevation) {
+  const key = `n:${lat},${lng},${elevation}`;
+  if (cache.has(key)) return cache.get(key);
+  const params = {
+    latitude: lat.toFixed(4), longitude: lng.toFixed(4), timezone: 'auto', forecast_days: '7',
+    daily: 'snowfall_sum,temperature_2m_max,temperature_2m_min,sunshine_duration,wind_speed_10m_max', wind_speed_unit: 'kmh',
+  };
+  if (elevation) params.elevation = String(Math.round(elevation));
+  const p = fetch('https://api.open-meteo.com/v1/forecast?' + new URLSearchParams(params)).then((r) => {
+    if (!r.ok) throw new Error(t('err.forecast', { status: r.status }));
+    return r.json();
+  }).then((j) => {
+    const d = j.daily || {};
+    return (d.time || []).map((date, i) => ({
+      date, snow: d.snowfall_sum ? d.snowfall_sum[i] : null, tmax: d.temperature_2m_max ? d.temperature_2m_max[i] : null,
+      tmin: d.temperature_2m_min ? d.temperature_2m_min[i] : null, sun: d.sunshine_duration ? d.sunshine_duration[i] / 3600 : null,
+      wind: d.wind_speed_10m_max ? d.wind_speed_10m_max[i] : null,
+    }));
+  });
+  cache.set(key, p);
+  p.catch(() => cache.delete(key));
+  return p;
+}
+
 // ---- photos: only shots of the sport (fallback when the database has none yet) ----------------
 const KITE = /kite|kitesurf|kiteboard|кайт|kiter|flysurf/i;
 const SURF = /surf|surfer|surfing|сёрф|серф|wave|barrel|line-?up|longboard/i;
+const SKI = /ski|snowboard|piste|slope|lift|gondola|cable car|télé|seilbahn|горнолыж|лыж|сноуборд|resort|powder/i;
 const BAD = /\bmap\b|karte|carte|logo|flag|coat of arms|diagram|\.svg|\.tif|\.pdf|chart|stamp/i;
 
 export function placeNames(name) {
@@ -129,8 +155,8 @@ async function commons(q, want = KITE) {
 export async function kitePhotos(name, snow = false, activity = 'kite') {
   const key = `p:${name}:${snow}:${activity}`;
   if (cache.has(key)) return cache.get(key);
-  const sport = activity === 'surf' ? 'surfing' : (snow ? 'snowkite' : 'kitesurfing');
-  const want = activity === 'surf' ? SURF : KITE;
+  const sport = { surf: 'surfing', snowboard: 'ski resort' }[activity] || (snow ? 'snowkite' : 'kitesurfing');
+  const want = { surf: SURF, snowboard: SKI }[activity] || KITE;
   const p = (async () => {
     const out = []; const seen = new Set();
     const add = (list) => list.forEach((x) => { const k = x.url.split('?')[0]; if (!seen.has(k)) { seen.add(k); out.push(x); } });

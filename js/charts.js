@@ -1,5 +1,5 @@
 // Small hand-made SVG charts for the spot panel.
-import { t } from './i18n.js';
+import { num, t } from './i18n.js';
 import { MONTHS, MONTHS_SHORT, SEASON, deg, getUnit, unitLabel, wind, windText } from './util.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -76,7 +76,7 @@ export function windChart(host, { guide, era5, seasons, month, onMonth }) {
       const p = el('path', { d: roundTopRect(cx - bw / 2, top, bw, y(0) - top, 4), fill: BAR[season], class: `bar ${i + 1 === month ? 'is-current' : ''}` });
       s.append(p);
       if (i + 1 === month) {
-        s.append(el('text', { x: cx, y: top - 5, class: 'value', 'text-anchor': 'middle' }, String(wind(v)).replace('.', ',')));
+        s.append(el('text', { x: cx, y: top - 5, class: 'value', 'text-anchor': 'middle' }, num(wind(v))));
       }
     }
     s.append(el('text', { x: cx, y: H - 8, class: `tick month ${i + 1 === month ? 'is-current' : ''}`, 'text-anchor': 'middle' }, MONTHS_SHORT[i]));
@@ -118,11 +118,16 @@ export function windChart(host, { guide, era5, seasons, month, onMonth }) {
 }
 
 /** Air & water temperature lines on one °C axis. */
-export function tempChart(host, { guide, era5, month }) {
+export function tempChart(host, { guide, era5, month, night = false }) {
   host.innerHTML = '';
-  const pick = (k) => guide.map((g, i) => (g && g[k] != null ? g[k] : (era5 && era5[i] && era5[i][k] != null ? era5[i][k] : null)));
+  // the model wins for mountain temperatures (scaled to mid-mountain); elsewhere guide numbers come first
+  const pick = (k) => guide.map((g, i) => {
+    const e = era5 && era5[i] && era5[i][k] != null ? era5[i][k] : null;
+    const gv = g && g[k] != null ? g[k] : null;
+    return night ? (e ?? gv) : (gv ?? e);
+  });
   const air = pick('air_c');
-  const water = pick('water_c');
+  const water = pick(night ? 'tmin_c' : 'water_c');
   const all = [...air, ...water].filter((v) => v != null);
   if (!all.length) { host.append(Object.assign(document.createElement('p'), { className: 'muted', textContent: t('chart.no_temp') })); return; }
   const W = 440, H = 150, L = 34, R = 8, T = 12, B = 24;
@@ -142,7 +147,7 @@ export function tempChart(host, { guide, era5, month }) {
   s.append(el('line', { x1: x(month - 1), x2: x(month - 1), y1: T, y2: H - B, class: 'cursor' }));
   const series = [
     { vals: air, cls: 'air', label: t('chart.air') },
-    { vals: water, cls: 'water', label: t('chart.water') },
+    { vals: water, cls: 'water', label: night ? t('chart.night') : t('chart.water') },
   ];
   for (const sr of series) {
     let d = '';
@@ -157,7 +162,7 @@ export function tempChart(host, { guide, era5, month }) {
     const hit = el('rect', { x: L + step * i, y: T, width: step, height: H - T - B, class: 'hit' });
     hit.addEventListener('mousemove', (ev) => {
       const rect = host.getBoundingClientRect();
-      tip.show(`<b>${MONTHS[i]}</b><br>${t('chart.air_day')}: ${deg(air[i])}<br>${t('chart.water_cap')}: ${deg(water[i])}`, ev.clientX - rect.left, ev.clientY - rect.top);
+      tip.show(`<b>${MONTHS[i]}</b><br>${t('chart.air_day')}: ${deg(air[i])}<br>${night ? t('chart.night_cap') : t('chart.water_cap')}: ${deg(water[i])}`, ev.clientX - rect.left, ev.clientY - rect.top);
     });
     hit.addEventListener('mouseleave', () => tip.hide());
     s.append(hit);
@@ -213,7 +218,7 @@ export function swellChart(host, { guide, era5, seasons, month, onMonth }) {
   const tickStep = maxM > 4 ? 1 : 0.5;
   for (let v = 0; v <= maxM + 0.001; v += tickStep) {
     s.append(el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
-    s.append(el('text', { x: L - 6, y: y(v) + 3.5, class: 'tick', 'text-anchor': 'end' }, String(v).replace('.', ',')));
+    s.append(el('text', { x: L - 6, y: y(v) + 3.5, class: 'tick', 'text-anchor': 'end' }, num(v)));
   }
   s.append(el('text', { x: 2, y: 10, class: 'tick' }, t('unit.m')));
   s.append(el('line', { x1: L, x2: W - R, y1: y(0.6), y2: y(0.6), class: 'threshold' }));
@@ -224,7 +229,7 @@ export function swellChart(host, { guide, era5, seasons, month, onMonth }) {
     if (v != null) {
       const top = y(v);
       s.append(el('path', { d: roundTopRect(cx - bw / 2, top, bw, y(0) - top, 4), fill: BAR[season], class: `bar ${i + 1 === month ? 'is-current' : ''}` }));
-      if (i + 1 === month) s.append(el('text', { x: cx, y: top - 5, class: 'value', 'text-anchor': 'middle' }, v.toFixed(1).replace('.', ',')));
+      if (i + 1 === month) s.append(el('text', { x: cx, y: top - 5, class: 'value', 'text-anchor': 'middle' }, num(v, 1)));
     }
     s.append(el('text', { x: cx, y: H - 8, class: `tick month ${i + 1 === month ? 'is-current' : ''}`, 'text-anchor': 'middle' }, MONTHS_SHORT[i]));
   }
@@ -243,10 +248,10 @@ export function swellChart(host, { guide, era5, seasons, month, onMonth }) {
       const season = SEASON[seasons[i] || 'off'];
       const rect = host.getBoundingClientRect();
       const rows = [
-        bars[i] != null ? t('chart.swell', { m: bars[i].toFixed(1).replace('.', ',') }) : null,
+        bars[i] != null ? t('chart.swell', { m: num(bars[i], 1) }) : null,
         e.swell_s != null ? t('chart.period', { s: Math.round(e.swell_s) }) : null,
         e.surf_prob != null ? t('chart.surf_days', { p: Math.round(e.surf_prob) }) : null,
-        hasModel && g.wave_m != null ? `<span class="muted">${t('chart.swell_guide', { m: g.wave_m.toFixed(1).replace('.', ',') })}</span>` : null,
+        hasModel && g.wave_m != null ? `<span class="muted">${t('chart.swell_guide', { m: num(g.wave_m, 1) })}</span>` : null,
       ].filter(Boolean);
       tip.show(`<b>${MONTHS[i]}</b> — ${season.short}<br>${rows.join('<br>')}`, ev.clientX - rect.left, ev.clientY - rect.top);
     });
@@ -255,5 +260,68 @@ export function swellChart(host, { guide, era5, seasons, month, onMonth }) {
     s.append(hit);
   }
   s.setAttribute('aria-label', t('chart.swell_aria'));
+  host.append(s);
+}
+
+/** Monthly snow (mountains): columns = snow depth from the snow model coloured by season,
+ *  dashed line = 30 cm of natural snow, dots = the research estimate when both exist. */
+export function snowChart(host, { guide, era5, seasons, month, onMonth }) {
+  host.innerHTML = '';
+  const W = 440, H = 190, L = 38, R = 8, T = 18, B = 26;
+  const s = svg(W, H);
+  const model = (era5 || []).map((e) => (e && e.snow_cm != null ? e.snow_cm : null));
+  const est = guide.map((g) => (g && g.snow_cm != null ? g.snow_cm : null));
+  const hasModel = model.some((v) => v != null && v > 0);
+  const bars = hasModel ? model : est;
+  const dots = hasModel ? est : [];
+  const all = [...bars, ...dots].filter((v) => v != null);
+  if (!all.length) { host.append(Object.assign(document.createElement('p'), { className: 'muted', textContent: t('chart.no_snow') })); return; }
+  const maxV = niceMax(Math.max(60, ...all) * 1.1, 50);
+  const step = (W - L - R) / 12;
+  const bw = Math.min(22, step - 6);
+  const y = (v) => T + (H - T - B) * (1 - v / maxV);
+  const tickStep = maxV > 300 ? 100 : 50;
+  for (let v = 0; v <= maxV + 0.001; v += tickStep) {
+    s.append(el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+    s.append(el('text', { x: L - 6, y: y(v) + 3.5, class: 'tick', 'text-anchor': 'end' }, num(v)));
+  }
+  s.append(el('text', { x: 2, y: 10, class: 'tick' }, t('unit.cm')));
+  s.append(el('line', { x1: L, x2: W - R, y1: y(30), y2: y(30), class: 'threshold' }));
+  for (let i = 0; i < 12; i++) {
+    const cx = L + step * i + step / 2;
+    const v = bars[i];
+    const season = seasons[i] || 'off';
+    if (v != null && v > 0) {
+      const top = y(v);
+      s.append(el('path', { d: roundTopRect(cx - bw / 2, top, bw, y(0) - top, 4), fill: BAR[season], class: `bar ${i + 1 === month ? 'is-current' : ''}` }));
+    }
+    if (i + 1 === month && v != null) s.append(el('text', { x: cx, y: y(Math.max(v, 0)) - 5, class: 'value', 'text-anchor': 'middle' }, num(Math.round(v))));
+    s.append(el('text', { x: cx, y: H - 8, class: `tick month ${i + 1 === month ? 'is-current' : ''}`, 'text-anchor': 'middle' }, MONTHS_SHORT[i]));
+  }
+  dots.forEach((v, i) => {
+    if (v == null) return;
+    s.append(el('circle', { cx: L + step * i + step / 2, cy: y(v), r: 3.2, class: 'dot era5' }));
+  });
+  const tip = tooltip(host);
+  for (let i = 0; i < 12; i++) {
+    const hit = el('rect', { x: L + step * i, y: T - 10, width: step, height: H - T - B + 10, class: 'hit' });
+    hit.addEventListener('mousemove', (ev) => {
+      const e = era5 && era5[i] ? era5[i] : {};
+      const g = guide[i] || {};
+      const season = SEASON[seasons[i] || 'off'];
+      const rect = host.getBoundingClientRect();
+      const rows = [
+        bars[i] != null ? t('chart.snow', { v: num(Math.round(bars[i])) }) : null,
+        e.snowfall_cm != null ? t('chart.snowfall', { v: num(Math.round(e.snowfall_cm)) }) : null,
+        e.snow_days != null ? t('chart.snow_days', { n: num(Math.round(e.snow_days)) }) : null,
+        hasModel && g.snow_cm != null ? `<span class="muted">${t('chart.snow_guide', { v: num(Math.round(g.snow_cm)) })}</span>` : null,
+      ].filter(Boolean);
+      tip.show(`<b>${MONTHS[i]}</b> — ${season.short}<br>${rows.join('<br>')}`, ev.clientX - rect.left, ev.clientY - rect.top);
+    });
+    hit.addEventListener('mouseleave', () => tip.hide());
+    hit.addEventListener('click', () => onMonth && onMonth(i + 1));
+    s.append(hit);
+  }
+  s.setAttribute('aria-label', t('chart.snow_aria'));
   host.append(s);
 }

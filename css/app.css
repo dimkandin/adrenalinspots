@@ -281,6 +281,13 @@ a:hover { color: var(--sea-2); }
 .lg-line.air { background: #d0632f; }
 .lg-line.water { background: #2b7bb0; }
 .lg-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ink); box-shadow: 0 0 0 1.5px #fff; }
+.pistes { display: block; }
+.pistes-bar { display: flex; height: 7px; border-radius: 4px; overflow: hidden; margin: 5px 0 2px; max-width: 220px; background: var(--line); }
+.pistes-bar i { display: block; }
+.pb-easy { background: #3d84c6; }
+.pb-medium { background: #d9534a; }
+.pb-hard { background: #1f2a30; }
+.fc-w.fc-snow { background: #9cc3e6; }
 
 .chart-host { position: relative; }
 .chart { width: 100%; height: auto; display: block; overflow: visible; }
