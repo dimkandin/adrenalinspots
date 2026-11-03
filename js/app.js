@@ -1,4 +1,5 @@
 // Kite Atlas — app entry: state, data loading, sidebar list, month strip.
+import { initAnalytics, track, trackView } from './analytics.js';
 import { BASEMAPS } from './basemaps.js';
 import { injectFlagCSS } from './flags.js';
 import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, setData, setSelected, updatePadding } from './map.js';
@@ -360,6 +361,8 @@ async function select(id, { focusCard = false, from = null } = {}) {
     if (state.selected !== id) return;
     renderPanel(spot, panelCtx());
     setSelected(id, true);
+    trackView(`${spot.name} — ${state.activity}`);
+    track('open_spot', { spot: id, activity: state.activity });
     if (focusCard) document.querySelector('#panel-title')?.focus({ preventScroll: true });
   } catch (e) {
     if (state.selected === id) { setSelected(null); showPanelError(t('err.spot', { msg: e.message })); }
@@ -499,6 +502,7 @@ async function switchActivity(a) {
   if (!ACT[a] || a === state.activity) return;
   state.activity = a;
   try { localStorage.setItem('activity', a); } catch { /* ignore */ }
+  track('switch_activity', { activity: a });
   Object.assign(state.filters, DEFAULT_FILTERS);
   Object.assign(state.seasons, { peak: true, shoulder: true, snow: true, off: false });
   document.querySelectorAll('.qf').forEach((b) => b.setAttribute('aria-pressed', 'false'));
@@ -739,6 +743,7 @@ function initLanguage() {
 }
 
 async function boot() {
+  initAnalytics();
   initLanguage();
   injectFlagCSS();
   onMapNotice(toast);
