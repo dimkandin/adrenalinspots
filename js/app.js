@@ -5,7 +5,7 @@ import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, 
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, num, setLang, t, tn } from './i18n.js';
 import {
-  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
+  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, deg, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
 
 // What each section (activity) shows: quick filters, dropdowns, season kinds, and the number in the list
@@ -16,11 +16,18 @@ const ACT = {
     value: (s, m) => (s.swell && s.swell[m - 1] != null ? metres(s.swell[m - 1]) : '') },
   snowboard: { qf: ['novisa', 'ru', 'beginner', 'park', 'freeride', 'glacier'], dd: ['minRating', 'pop', 'maxPass', 'minVert', 'minKm', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.snow && s.snow[m - 1] != null ? cm(s.snow[m - 1]) : '') },
+  climbing: { qf: ['novisa', 'ru', 'beginner', 'hard', 'rain', 'shade'], dd: ['minRating', 'pop', 'style', 'rock', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.air && s.air[m - 1] != null ? deg(s.air[m - 1]) : '') },
+  paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
 };
 const DEFAULT_FILTERS = {
   novisa: false, ru: false, flat: false, wave: false, beginner: false, brk: null, dir: null, park: false, freeride: false, glacier: false,
   minRating: null, minAir: null, minWater: null, vibe: null, pop: null, maxPass: null, minVert: null, minKm: null,
+  hard: false, rain: false, shade: false, style: null, rock: null,
+  tandem: false, courses: false, xc: false, flytype: null, maxTandem: null,
 };
+const MAIN_ROCKS = ['limestone', 'granite', 'sandstone'];
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
 
 const state = {
@@ -80,7 +87,17 @@ function passesFilters(s, m = state.month) {
   if (f.ru && s.ru_schools !== 'yes') return false;
   if (f.flat && !(s.water || []).includes('flat')) return false;
   if (f.wave && !((s.wave_riding || 0) >= 2)) return false;
-  if (f.beginner && !(state.activity === 'snowboard' ? (s.beginner || 0) >= 4 : (s.level || []).includes('beginner'))) return false;
+  if (f.beginner && !(['snowboard', 'climbing', 'paragliding'].includes(state.activity) ? (s.beginner || 0) >= 4 : (s.level || []).includes('beginner'))) return false;
+  if (f.hard && !((s.hard || 0) >= 4)) return false;
+  if (f.rain && !((s.rain_ok || 0) >= 2)) return false;
+  if (f.shade && !((s.shade || 0) >= 4)) return false;
+  if (f.style && !(s.styles || []).includes(f.style)) return false;
+  if (f.tandem && !s.tandem) return false;
+  if (f.courses && !s.courses) return false;
+  if (f.xc && !((s.xc || 0) >= 4)) return false;
+  if (f.flytype && !(s.flying_type === f.flytype || s.flying_type === 'mixed')) return false;
+  if (f.maxTandem != null && !(s.tandem_price_eur != null && s.tandem_price_eur <= f.maxTandem)) return false;
+  if (f.rock && !(f.rock === 'other' ? s.rock && !MAIN_ROCKS.includes(s.rock) : s.rock === f.rock)) return false;
   if (f.park && !['good', 'pro'].includes(s.snowpark)) return false;
   if (f.freeride && !((s.freeride || 0) >= 4)) return false;
   if (f.glacier && !s.glacier) return false;
@@ -129,7 +146,7 @@ function features() {
       id: s.id, name_ru: s.name_ru, cc: s.cc, country: s.country, rating: s.rating,
       season: seasonOf(s), wind: s.wind ? s.wind[state.month - 1] : null,
       swell: s.swell ? s.swell[state.month - 1] : null, period: s.period ? s.period[state.month - 1] : null,
-      snow: s.snow ? s.snow[state.month - 1] : null,
+      snow: s.snow ? s.snow[state.month - 1] : null, dry: s.dry ? s.dry[state.month - 1] : null, fly: s.fly ? s.fly[state.month - 1] : null,
       air: s.air ? s.air[state.month - 1] : null, sea: s.sea ? s.sea[state.month - 1] : null,
       visa_status: s.visa ? s.visa.status : null,
       vibe: s.vibe ? s.vibe.score : null,
@@ -229,7 +246,7 @@ function listRow(s) {
   h('span', { class: 'row-main', title: `${s.name_ru}, ${s.country || ''}` }, h('span', { class: 'row-name' }, s.name_ru), h('span', { class: 'row-place' }, `${flagEmoji(s.cc)} ${s.country || ''}`)),
   h('span', { class: 'row-side' },
     h('span', { class: 'row-rating' }, `★ ${rating(s.rating)}`),
-    h('span', { class: 'row-wind' }, value),
+    h('span', { class: 'row-wind', title: ACT[state.activity].valueTitle ? ACT[state.activity].valueTitle() : null }, value),
     visa ? h('span', { class: `row-visa tone-${visa.tone}`, title: visa.label }, h('span', { 'aria-hidden': 'true' }, visa.icon), h('span', { class: 'visually-hidden' }, `, ${visa.label}`)) : null)));
 }
 
@@ -383,7 +400,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 const DROPDOWNS = [
   {
     key: 'activity', label: () => t(`dd.activity.${state.activity}_short`), title: t('dd.activity.title'),
-    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
   {
@@ -395,6 +412,26 @@ const DROPDOWNS = [
     key: 'dir', title: t('dd.dir.title'),
     label: (v) => (v ? t(`dd.dir.${v}`) : t('dd.dir.label')),
     options: [{ value: null, text: t('dd.any_f') }, ...['left', 'right'].map((v) => ({ value: v, text: t(`dd.dir.${v}`) }))],
+  },
+  {
+    key: 'style', title: t('dd.style.title'),
+    label: (v) => (v ? t(`style.${v}`) : t('dd.style.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...['boulder', 'sport', 'multipitch', 'trad', 'dws'].map((v) => ({ value: v, text: t(`style.${v}`) }))],
+  },
+  {
+    key: 'rock', title: t('dd.rock.title'),
+    label: (v) => (v ? t(`rock.${v}`) : t('dd.rock.label')),
+    options: [{ value: null, text: t('dd.any_f') }, ...[...MAIN_ROCKS, 'other'].map((v) => ({ value: v, text: t(v === 'other' ? 'dd.rock.other' : `rock.${v}`) }))],
+  },
+  {
+    key: 'flytype', title: t('dd.flytype.title'),
+    label: (v) => (v ? t(`flying.${v}`) : t('dd.flytype.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...['thermal', 'soaring'].map((v) => ({ value: v, text: t(`flying.${v}`) }))],
+  },
+  {
+    key: 'maxTandem', title: t('dd.tandem.title'),
+    label: (v) => (v == null ? t('dd.tandem.label') : t('dd.tandem.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_f') }, ...[80, 120, 160].map((v) => ({ value: v, text: t('dd.tandem.opt', { v }) }))],
   },
   {
     key: 'minRating', title: t('dd.rating.title'),

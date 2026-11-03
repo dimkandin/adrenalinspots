@@ -5821,6 +5821,2362 @@
    ],
    "airport": "TAS — Tashkent, ~1.5 h",
    "lift_pass_note": "1 day (09:00–16:00), adult: weekdays — 320,000 som, weekends (Fri–Sun and holidays) — 390,000 som; half day — 240,000/290,000 som; beginner pass — 190,000/250,000 som"
+  },
+  "noravank-yeghegnadzor": {
+   "h": "2c7105fbfd",
+   "description": "The canyons of Vayots Dzor around Areni, Noravank and Yeghegnadzor are Armenia's main sport climbing area. Compact limestone on red and grey walls, routes from 5 to 7c and a couple of ~150 m multi-pitches in the Noravank gorge and the Jokhk Dzor gorge (“Hell's Canyon”). The Noravank and Tatev monasteries and the Areni wineries are close by — a good option for combining climbing with travel.",
+   "rating_basis": "Armenia's main sport climbing area (the whole country has ~100 sport routes 5–7c), beautiful canyons and monasteries; little information and few routes",
+   "hazards": "Heat and sun in summer, loose rock on rarely climbed routes, snakes",
+   "crowd_note": "Mostly local climbers and the occasional group — usually empty",
+   "region": "Vayots Dzor; Noravank, Areni and Jokhk Dzor canyons",
+   "season": "April–May and September–October; hot in summer, cold in winter",
+   "transfer": "~2 h by car from Yerevan (~110–120 km) on the highway south via Ararat and Areni",
+   "rock_note": "compact limestone in the Areni and Noravank canyons: red and grey walls, a cave, a few multi-pitches of around 150 m; Jokhk Dzor gorge (“Hell's Canyon”) has walls up to ~200 m",
+   "approach": "Sectors along the roads in the Noravank and Jokhk Dzor canyons, short approaches",
+   "stay": "Guesthouses in Yeghegnadzor and Areni; campsites around Goris",
+   "pros": [
+    "Beautiful canyons and monasteries",
+    "Empty and inexpensive",
+    "Russian widely understood",
+    "Areni wine and food"
+   ],
+   "cons": [
+    "Few routes and little information, no guidebook",
+    "Few hard routes",
+    "Hot summers"
+   ],
+   "airport": "EVN — Yerevan, ~2 h",
+   "school_notes": [
+    "Spring (April–May) and autumn climbing camps: Jokhk Dzor, Noravank, Goris; transfers, guesthouses and group gear rental included"
+   ]
+  },
+  "frey-bariloche": {
+   "h": "197afff47e",
+   "description": "A cirque of granite spires above the mountain lake Laguna Toncek in the Cerro Catedral massif — Argentina's top trad destination, with the feel of a miniature Patagonia. Hundreds of crack routes of 1–8 pitches topping out on tiny summits, with the cosy Refugio Frey, serving dinners and beer, as your base. Climbing is possible only in the southern summer.",
+   "rating_basis": "Argentina's best-known granite area: over 300 routes according to ClimbingAway, ~120 on Mountain Project; a unique alpine setting with a hut among the spires, but a short season, a long approach and difficult weather",
+   "hazards": "Strong winds and sudden weather changes, snow even in summer, scree and rockfall on the approaches, tábano horseflies in January, long rappels (two ropes needed); rescue is by Club Andino volunteers only",
+   "crowd_note": "In January–February (Argentine summer holidays) the hut and campsite are full of trekkers and there can be queues on the Aguja Frey classics; the more distant spires are quiet",
+   "region": "Río Negro, Northern Patagonia, Nahuel Huapi National Park, Cerro Catedral massif above Bariloche",
+   "season": "December–March (southern summer), February is the driest month; November and April depend on the weather, with possible snow and cold wind; May to October is winter (Cerro Catedral runs as a ski resort)",
+   "transfer": "Fly to Bariloche (~2 h from Buenos Aires), take city bus 55P to Villa Catedral, then walk; porters can be hired through Club Andino",
+   "rock_note": "pale, coarse-grained granite on more than 30 spires and towers 20–250 m high in the cirque above Laguna Toncek: cracks, dihedrals, arêtes and slabs, routes of 1–8 pitches topping out on small summits",
+   "approach": "There is no road to Refugio Frey: bus 55P from Bariloche to Villa Catedral (~40 min), then 3–5 h on foot (10.5 km, +750 m), or ride the lift and walk ~3 h along the Filo de Catedral ridge; from the hut to the spires is 5 min to 3 h over scree",
+   "restrictions": "Nahuel Huapi National Park: camping by the hut requires a free trekking permit and an online booking (no more than 3 days ahead, up to 5 nights, extendable); campfires are prohibited, use the hut's toilets. Old-school ethics: bolts only as a last resort; many anchors and old bolts are rusty or homemade.",
+   "guidebook": "Topo sold at Refugio Frey (Club Andino Bariloche)",
+   "stay": "Refugio Emilio Frey (Club Andino Bariloche): bunks, dinners, beer and snacks, large cams sometimes for rent; free camping by Laguna Toncek (booking required, winds can exceed 50 km/h); hostels and hotels in Bariloche",
+   "pros": [
+    "Stunning granite spires in an alpine cirque",
+    "Cosy hut and free camping right by the rock",
+    "Classic mid-grade crack climbing",
+    "Bariloche nearby — easy to reach from Buenos Aires"
+   ],
+   "cons": [
+    "Long walk-in, carrying all your gear",
+    "Short season and fickle Patagonian weather",
+    "Few sport routes, old bolts",
+    "No phone signal and no gear rental on site"
+   ],
+   "airport": "BRC — San Carlos de Bariloche, ~30 min to Villa Catedral + 3–5 h on foot",
+   "famous_lines": [
+    "Diedro de Jim 5.8 (5b), Aguja Frey",
+    "Sifuentes-Weber 5.9 (5c), 4 pitches, Aguja Frey",
+    "Clemenzo 5.9+ (5c), 6 pitches, Torre Principal",
+    "Imagínate 5.10 (6a), 5 pitches, Campanile Esloveno",
+    "Objetivo Luna 5.10c (6b), 8 pitches, El Cohete Lunar"
+   ],
+   "school_notes": [
+    "Programs by local Bariloche guides on the Explore-Share platform",
+    "Gear placement and anchor-building instruction for trad beginners"
+   ]
+  },
+  "arapiles-dyurrite": {
+   "h": "c4ef9b54f1",
+   "description": "Arapiles (Dyurrite) is a lone sandstone mountain rising from the Wimmera wheat fields and arguably the best trad area in the Southern Hemisphere: thousands of routes on perfect gear-protected cracks, from easy lines to the historic Punks in the Gym. The village of Natimuk lives for climbers, and most walls are a couple of minutes from the campground. Cultural heritage closures have been in force since the 2020s, and a new management plan is still under discussion.",
+   "rating_basis": "Australia's legendary trad area: 2,000+ quality routes (chockstone.org) on a small mountain; Punks in the Gym is the historic first 8b+; the downside is the growing number of closures",
+   "hazards": "Heat and sun in summer, fire danger, snakes, falls on poorly protected trad routes, polished holds",
+   "crowd_note": "At Easter the campground and the classic walls are packed, with queues at the Organ Pipes; quiet on weekdays",
+   "region": "Victoria, Wimmera, Natimuk — Mount Arapiles-Tooan State Park",
+   "season": "year-round, best in March–May and October–November; hot in summer (climb in the shade and in the morning), cool in winter but drier than the Grampians",
+   "transfer": "~4 h by car from Melbourne (≈300 km) via Horsham; or train to Ararat, V/Line bus to Horsham and a local bus to Natimuk",
+   "rock_note": "very solid quartzite sandstone: perfect cracks for gear, roofs, “organ pipes”; the classics are polished",
+   "approach": "Most walls are 2–15 min on foot from The Pines campground",
+   "restrictions": "Some sectors are closed to protect Aboriginal cultural heritage (Declaration Crag, Tiger Wall, Castle Crag and others). The draft Dyurrite management plan (2024) proposes closing about half the routes (The Pharos, Yesterday Gully, Mitre Rock, Tiptoe Ridge) and The Pines campground while keeping ~80 areas open; the plan is being finalised in 2025–2026 — check with Parks Victoria before your trip. From 1 November to 30 April gas stoves only, no campfires; trad ethics, and the few bolts have no hangers (bring bolt plates)",
+   "guidebook": "Arapiles guidebooks are sold at the shop in Natimuk; online topos on theCrag and chockstone.org",
+   "stay": "The Pines campground at the foot of the mountain (book online; may close under the new plan), houses and rooms in Natimuk — a climbers' village with a pub and a gear shop",
+   "pros": [
+    "Huge choice of trad at every grade",
+    "Great place to learn trad",
+    "Rock minutes from the campground",
+    "Dry climate — climbable almost all year"
+   ],
+   "cons": [
+    "Closures and uncertainty over the management plan",
+    "Polished classics",
+    "Summer heat and fire restrictions",
+    "Far from Melbourne"
+   ],
+   "airport": "MEL — Melbourne, ~4 h",
+   "famous_lines": [
+    "Punks in the Gym 8b+ (Ewbank 31–32, the world's first 8b+, Güllich 1985)",
+    "Kachoong 6b+ (Ewbank 21, roof)",
+    "Missing Link 5c (Ewbank 17)",
+    "Tannin 6a (Ewbank 19, Organ Pipes)",
+    "The Bard 4b (Ewbank 12, multi-pitch)"
+   ],
+   "school_notes": [
+    "Official register of licensed guides in Victoria; local schools and a shop with gear rental operate in Natimuk"
+   ]
+  },
+  "blue-mountains": {
+   "h": "41650387bc",
+   "description": "The Blue Mountains are a sandstone plateau west of Sydney with endless cliffs above eucalyptus gorges. Thousands of routes, mostly single-pitch sport on steep walls with small holds, plus trad and multi-pitches — all within one to two hours of the city. The bases are Blackheath, Katoomba and Mount Victoria.",
+   "rating_basis": "The state's largest area: over 5,000 routes (Mountain Project) on 45+ crags (ClimbingAway), quality sandstone sport climbing 2 hours from Sydney",
+   "hazards": "Bushfires and total fire bans, snakes and leeches, flies, rockfall from the cliffs, sudden weather changes on the plateau",
+   "crowd_note": "At weekends the popular sport crags around Blackheath fill up with Sydneysiders; quiet on weekdays",
+   "region": "New South Wales, Blackheath — Katoomba",
+   "season": "March–May and September–November; hot and humid in summer (climb in the shady gorges), cold in winter — pick sunny walls",
+   "transfer": "~1.5–2 h from Sydney by car on the Great Western Highway, or by train to Katoomba / Blackheath",
+   "rock_note": "orange sandstone on the plateau's sheer cliffs: steep, slightly overhanging walls with small holds, and in places long multi-pitches up to 120 m",
+   "approach": "Drive to the cliff edge, then 5–30 min on foot down to the crags (and back uphill)",
+   "restrictions": "Most crags are in Blue Mountains National Park (a UNESCO World Heritage site) and subject to NPWS rules; some sectors are on private land with their own access conditions (see the guidebook); don't climb on wet sandstone; fire bans and closures apply during periods of fire danger",
+   "guidebook": "Best of the Blue (sport); Blue Mountains Selected Sport Climbs; online topo on theCrag",
+   "stay": "Guesthouses, hostels and motels in Blackheath, Katoomba and Mount Victoria; national park campsites",
+   "pros": [
+    "Thousands of routes near Sydney",
+    "Excellent mid- and high-grade sport",
+    "Reachable by train",
+    "Crags in both shade and sun"
+   ],
+   "cons": [
+    "Flies and mosquitoes in summer",
+    "Sandstone can't be climbed when wet",
+    "Some crags are hard to find without a guidebook"
+   ],
+   "airport": "SYD — Sydney, ~2 h",
+   "famous_lines": [
+    "Bunny Bucket Buttress 5c (9 pitches, sport)",
+    "Sweet Dreams 5a (5 pitches, trad)",
+    "Lyptus 6c",
+    "Black Heathen 7a+",
+    "Rubber Lover 7b"
+   ],
+   "school_notes": [
+    "Climbing courses and guides in Katoomba",
+    "Beginner courses, abseiling"
+   ]
+  },
+  "grampians-gariwerd": {
+   "h": "1bffce21d5",
+   "description": "The Grampians (Gariwerd) are sandstone ranges in western Victoria and a world-class area: the pocketed Taipan Wall with routes up to 8c+, overhanging caves, trad and long multi-pitches, and the legendary boulder Wheel of Life. Since 2019 climbing has been allowed only in officially designated areas, which are gradually being reopened after surveys carried out together with the Traditional Owners.",
+   "rating_basis": "One of the world's best areas for sandstone quality: 4,800+ routes (chockstone.org), Taipan Wall and the caves of the Northern Grampians; rating lowered because of the sweeping closures since 2019",
+   "hazards": "Heat, bushfires and total fire bans, snakes (tiger snake, brown snake), rockfall on multi-pitches, sudden bad weather in winter",
+   "crowd_note": "At Easter and on long weekends Stapylton campground is overflowing and there are queues on the open classic walls",
+   "region": "Victoria, Grampians National Park, Halls Gap",
+   "season": "March–May and October–November; summer brings heat and fire danger (climb early in the morning and in the shade); winter is cool and rainy — climbers head for sunny walls and the caves",
+   "transfer": "~3–3.5 h by car from Melbourne (≈260 km) to Halls Gap; a car is essential",
+   "rock_note": "hard orange-grey sandstone: smooth walls with “bullet-hole” pockets (Taipan Wall), overhanging caves, cracks and long multi-pitches",
+   "approach": "From 5 min to 1.5 h; Taipan Wall is ~20 min uphill from Stapylton campground; some sectors require a 4WD",
+   "restrictions": "Climbing is allowed ONLY in Parks Victoria's official designated climbing areas — everything else has been closed to protect Aboriginal cultural heritage (since 2019). 18 areas reopened in May 2025 and another 17 in June 2026 (500+ routes); Spurt Wall is closed, Taipan Wall is partly open (some routes closed or with a new approach), Tortoise Wall has been temporarily closed since April 2026, Centurion Walls partly. Bouldering only in a few designated zones (e.g. Andersens West), and no new ones will be added. Summer Day Valley only with a licensed operator. A mandatory free online permit is in preparation. Use minimal chalk, coloured to match the rock; the park closes on total fire ban days and during fires",
+   "guidebook": "Online topos on theCrag and chockstone.org; local Grampians guidebooks; current maps of the open areas on the Parks Victoria website (check before your trip)",
+   "stay": "14 official park campgrounds (the best for climbers is Stapylton, with water, near Taipan and Hollow Mountain), motels and cottages in Halls Gap",
+   "pros": [
+    "World-class sandstone, the legendary Taipan Wall",
+    "Huge range of styles: sport, trad, multi-pitch",
+    "Campgrounds right by the rock",
+    "Climbable almost all year"
+   ],
+   "cons": [
+    "Sweeping closures, rules change often",
+    "Almost all bouldering is closed",
+    "Summer heat and fires",
+    "Car needed, far from Melbourne"
+   ],
+   "airport": "MEL — Melbourne, ~3.5 h",
+   "famous_lines": [
+    "Serpentine 8b (Ewbank 32, Taipan Wall)",
+    "Passport to Insanity 7c (Ewbank 27, The Fortress, 135 m)",
+    "Sandinista 7a (Ewbank 23, Sandinista Cliffs)",
+    "Power Drive 4c (Ewbank 14, Mt Abrupt, 175 m)",
+    "Wheel of Life 8C (boulder, Hollow Mountain Cave — check access status)"
+   ],
+   "school_notes": [
+    "Official list of licensed guides and schools in the park"
+   ]
+  },
+  "vratsa": {
+   "h": "69617ebb2a",
+   "description": "Vratsa is Bulgaria's main climbing area, in the Vratsata gorge in the Balkan foothills, 110 km from Sofia. About 580 routes: ~250 sport routes 5c–8c and long trad and alpine routes up to 400 m on the Central Wall — the biggest in the country. Other areas are close by too: Lakatnik and Karlukovo.",
+   "rating_basis": "Bulgaria's largest climbing area: 580+ routes and the country's biggest wall (up to 400 m); known mainly to local and Balkan climbers",
+   "hazards": "Loose rock, especially on multi-pitches; old protection on trad routes",
+   "crowd_note": "Climbers from Sofia come at weekends; quiet on weekdays",
+   "region": "Vrachanski Balkan Nature Park, Vratsata gorge",
+   "season": "Spring and autumn (April–June, September–October); shady sectors in summer; cold in winter",
+   "transfer": "~110 km (≈1.5–2 h) by car from Sofia; trains and buses run to Vratsa, then a taxi from town to the gorge",
+   "rock_note": "limestone of the Vratsata gorge: the Central Wall, up to 400 m, is the biggest in Bulgaria; sport sectors on vertical and overhanging rock",
+   "approach": "5–20 min from the parking in the Vratsata gorge to the sport sectors; a short approach from the road to the Central Wall",
+   "restrictions": "Most crags lie within the protected Vrachanski Balkan Nature Park: developing new crags is not allowed (new routes on existing ones are), and the Zgorigradska wall is closed to climbing; littering and chipping holds are not tolerated",
+   "guidebook": "Vratsa Climbing Guide, 2nd ed. 2020: 583 routes (~250 sport, the rest trad / alpine multi-pitches up to 350 m); online databases climbingguidebg.com and theCrag",
+   "stay": "Hotels and guesthouses in the town of Vratsa, 2–3 km from the gorge",
+   "pros": [
+    "Bulgaria's biggest wall, long multi-pitches",
+    "Inexpensive, few people",
+    "Close to Sofia"
+   ],
+   "cons": [
+    "Few easy sport routes",
+    "Chossy rock in places",
+    "Cold winters"
+   ],
+   "airport": "SOF — Sofia, ~1.5–2 h",
+   "famous_lines": [
+    "Ogledalata UIAA 6+ A1 (8-), 300 m (Central Wall)",
+    "1300 godini Bulgaria UIAA 6+, 400 m (Central Wall)",
+    "Vinkelite UIAA 5+ A1, 300 m (Central Wall)",
+    "Hergiani UIAA 5+ A1, 250 m (Central Wall)"
+   ],
+   "school_notes": [
+    "Guided ascents of the Vratsa Central Wall, programs for beginners and experienced climbers",
+    "Bulgarian school running trips to Vratsa",
+    "Outdoor rock climbing course"
+   ]
+  },
+  "rio-de-janeiro-urca": {
+   "h": "c01e9ac366",
+   "description": "One of the world's best urban climbing destinations: the granite-gneiss domes of Sugarloaf, Urca and Corcovado rise straight out of the city and the ocean. The classics are multi-pitch slab and face routes with sparse bolts and summit views over Guanabara Bay, plus short sport crags (“falésias”) around the city.",
+   "rating_basis": "Mountain Project calls Rio “the best urban climbing destination in the world”: hundreds of multi-pitch routes right in the city with ocean views; MP itself describes only ~70 routes, while the full Zona Sul guidebook lists 283",
+   "hazards": "Heat and sun on the slabs, slippery rock after rain and fog, long runouts between bolts, muggings on some trails, sudden tropical downpours",
+   "crowd_note": "At weekends guided groups queue on the classics Via dos Italianos and K2; quiet on weekdays",
+   "region": "Rio de Janeiro, Urca neighbourhood (Praia Vermelha), Pão de Açúcar and Urca Natural Monument",
+   "season": "May–September (the southern “winter”: dry, +24…+26 °C, best friction); April and October–November are warm with occasional downpours; December–February is hot and humid (+30 °C and above on sunny slabs), so climbing happens only early in the morning and on shady walls; in Rio the season opens with the climbers' festival at Praia Vermelha",
+   "transfer": "~30–50 min by taxi from Galeão international airport (GIG) to Urca; ~10 min from domestic Santos Dumont (SDU); city buses run to Praia Vermelha",
+   "rock_note": "solid granite-gneiss on the coastal domes of Sugarloaf (396 m), Urca and Babilônia: steep slabs and vertical faces on small edges and “scoops”, cracks and chimneys; sparsely bolted multi-pitch routes right above the ocean and the city",
+   "approach": "10–30 min from Praia Vermelha beach along the Cláudio Coutinho tourist trail and side paths to the starts; Corcovado is ~25 min from the Paineiras road; from the top of Sugarloaf you descend by cable car",
+   "restrictions": "The Urca and Sugarloaf rocks are a protected natural area of the city (Monumento Natural dos Morros do Pão de Açúcar e da Urca): stay on the trails and leave no litter. Descend from the summit on the Bondinho cable car (a ticket up costs over 150 reais; according to climbers' reports, the ride down to Morro da Urca is free for them). There have been muggings in the past on the Corcovado and Babilônia trails — go in a group and leave valuables behind. Wet slabs after rain and fog are very slippery.",
+   "guidebook": "Guia de Escaladas da Zona Sul e das Ilhas Costeiras do Rio de Janeiro (André Ilha, Kika Bradford) — 283 routes on 11 mountains; guidebooks by Flávio Daflon and Delson de Queiroz “Urca” and “Floresta da Tijuca”",
+   "stay": "Hotels and hostels in Urca, Botafogo and Copacabana (10–20 min to Praia Vermelha by public transport or taxi)",
+   "pros": [
+    "Multi-pitch climbing with ocean views right in the city",
+    "Reachable by public transport, no car needed",
+    "Dry, warm “winter” from May to September",
+    "Easy to combine with beach time and sightseeing"
+   ],
+   "cons": [
+    "Too hot and humid in summer",
+    "Sparse bolting — a confident leader is needed",
+    "Safety concerns on some trails",
+    "Little information in English, local Brazilian grading system"
+   ],
+   "airport": "GIG — Rio de Janeiro Galeão, ~40 min; SDU — Santos Dumont, ~10 min",
+   "famous_lines": [
+    "Via dos Italianos 5.10a/b (6a+), 9 pitches, Pão de Açúcar",
+    "Secundo Costa Neto 5.11 (6c+), 10 pitches, Pão de Açúcar",
+    "Coringa 5.6 (4c), 3 pitches, Pão de Açúcar",
+    "Luis Arnaud 5.7 (5a), 6 pitches, Morro da Babilônia",
+    "K2 5.9 (5c), 4 pitches, Corcovado"
+   ],
+   "school_notes": [
+    "Guides speaking English, Spanish and Portuguese; ascents of Sugarloaf and Corcovado",
+    "Guided Sugarloaf ascent for all levels, including beginners"
+   ]
+  },
+  "squamish": {
+   "h": "f8b989cfa2",
+   "description": "A town at the foot of the Stawamus Chief granite monolith, between an ocean fjord and the mountains — Canada's crack-climbing mecca. Thousands of trad routes, from single pitches at the Smoke Bluffs to multi-pitch classics on the Apron and the Grand Wall, plus thousands of boulders in the forest and sport routes in the Cheakamus Canyon. This is where Chris Sharma climbed Dreamcatcher 9a.",
+   "rating_basis": "Canada's crack-climbing mecca: ~2,800 routes and problems on Mountain Project (~19k views a month), about 3,750 on theCrag; over 3,500 boulder problems in Bourdon's guide",
+   "hazards": "Bears (don't leave food out), wet slabs after rain, long multi-pitch routes with tricky descents, mosquitoes",
+   "crowd_note": "In July–August there are queues on Diedre, the Apron and the Smoke Bluffs, and the Chief campground is overflowing; quieter on weekdays and at the more distant crags",
+   "region": "British Columbia, Coast Mountains, 65 km north of Vancouver",
+   "season": "July–September is the driest period; in May–June and October you can climb between rain spells (forest bouldering is good on cool, dry days in spring and autumn); November to March is the Pacific coast rainy season",
+   "transfer": "~1–1.5 h from Vancouver airport along the scenic Sea-to-Sky Highway; there are shuttle buses, but it's better to rent a car at the airport — rentals in Squamish cost more",
+   "rock_note": "solid granite (granodiorite) on the ~700 m Stawamus Chief monolith: perfect cracks, the Apron slabs and the big walls of the Grand Wall; thousands of granite boulders in the forest at its base; sport routes in the Cheakamus Canyon",
+   "approach": "1–20 min from the campground and parking at the base of the Chief and the Smoke Bluffs, within town; 20–45 min to the upper walls and Cheakamus",
+   "restrictions": "Within the District of Squamish it is forbidden to sleep outside campgrounds, including in cars and vans; on Crown land stays are limited to 14 days — watch for fire bans. Stawamus Chief Provincial Park campground costs from CAD 10 per person (no reservations, according to Mountain Project). Some crags on private land are closed to climbing.",
+   "guidebook": "Squamish Select (Marc Bourdon), Climbers Guide to Squamish (Kevin McLane), Marc Bourdon's bouldering guide (2022, more than 3,500 problems)",
+   "stay": "Stawamus Chief climbers' campground at the foot of the wall (1–10 min to the routes), Klahanie and Alice Lake campgrounds, hostels and motels in Squamish; wild camping in the Cheakamus Canyon",
+   "pros": [
+    "Canada's best cracks and multi-pitch granite",
+    "Huge forest bouldering area next to the campground",
+    "Short approaches, everything within town",
+    "Beautiful scenery, Vancouver an hour away"
+   ],
+   "cons": [
+    "Rainy climate — reliably dry only in July–September",
+    "Trad skills and a rack of cams needed",
+    "Crowded in summer, strict bans on sleeping in cars",
+    "Expensive accommodation in high season"
+   ],
+   "airport": "YVR — Vancouver, ~1–1.5 h",
+   "famous_lines": [
+    "The Grand Wall 5.11a (6c), Stawamus Chief",
+    "Diedre 5.8 (5b), Apron",
+    "Angel's Crest 5.10b (6a+), 13 pitches",
+    "Cobra Crack 5.14b (8c), trad",
+    "Dreamcatcher 5.14d (9a), Cacodemon Boulders"
+   ],
+   "school_notes": [
+    "Crack, trad and multi-pitch courses, guiding on the Chief",
+    "Trad courses and guides in Squamish and Whistler",
+    "Club courses: intro to outdoor climbing and trad progression in Squamish"
+   ]
+  },
+  "magic-wood": {
+   "h": "fb4269de32",
+   "description": "A mossy spruce forest with gneiss boulders beside a mountain stream at 1,300 m — Europe's premier summer bouldering mecca. Hundreds of problems, most of them hard and athletic, with more than a hundred lines of 8A+, including Practice of the Wild 8C. It stays cool here in summer while the lowlands bake.",
+   "rating_basis": "One of the world's best summer bouldering areas: >100 problems of 8A and harder, Sharma's Practice of the Wild; top ratings on 27crags/Mountain Project",
+   "hazards": "Slippery mossy landings, wet rock after rain, mosquitoes, the river right next to some boulders",
+   "crowd_note": "In July–August the campground and the classics (Kamel, Beach) are packed with an international crowd; quieter in May and October",
+   "region": "Graubünden, Avers / Ferrera valley, Ausserferrera",
+   "season": "June–September is the main season; April–May (depending on snow) and October are quieter, with good friction; in winter only for strong climbers on a few boulders",
+   "transfer": "By car: ~2 h from Zurich on the A13 (exit 26 “Rofla / Avers-Juf / Ferrera”); by train to Thusis, then PostBus to the Ferrera, Schmelzi stop",
+   "rock_note": "compact gneiss in a mossy spruce forest by a mountain stream: steep, athletic lines on small holds, roofs and arêtes",
+   "approach": "2–10 min on foot from Camping Bodhi; the whole area covers ~250 × 500 m of forest",
+   "restrictions": "The area exists thanks to the patience of the Ferrera municipality: climb only within the marked zone and stick to the main paths; wild camping is forbidden and van overnights are allowed only at Camping Bodhi — elsewhere in the valley fines reach CHF 1,000; don't park on the village streets; use the toilets at the campground or the Edelweiss restaurant",
+   "guidebook": "Magic Wood — Bloc (3rd edition), sold at the campground; 27crags topo",
+   "stay": "Camping Bodhi right by the boulders (crash pad and shoe rental, cash and card accepted, no booking), Hotel Edelweiss in Ausserferrera and Alpenrose in Innerferrera",
+   "pros": [
+    "Cool in summer, when the rest of Europe is too hot",
+    "A huge number of hard classic lines",
+    "Campground right by the boulders, crash pad rental",
+    "Fairy-tale forest atmosphere"
+   ],
+   "cons": [
+    "Few easy problems for beginners",
+    "Frequent summer rain and thunderstorms; boulders by the river are slow to dry",
+    "Packed in July–August",
+    "Strict overnight and parking rules"
+   ],
+   "airport": "ZRH — Zurich, ~2 h; MXP — Milan Malpensa, ~2.5 h",
+   "famous_lines": [
+    "Practice of the Wild 8C — Chris Sharma, 2004",
+    "Unendliche Geschichte (Never Ending Story) 8A+–8B+",
+    "Octopussy 8A",
+    "Intermezzo 7C (Sektor Mitte)",
+    "Blue Sky of Mine 6A, highball (Kamel)"
+   ]
+  },
+  "ticino-cresciano": {
+   "h": "881c8ab678",
+   "description": "The slopes of the Riviera valley near Bellinzona are strewn with granite-gneiss boulders — one of the world's top winter bouldering destinations. Cresciano has around 600 problems and the legendary Dreamtime 8B+ and The Story of Two Worlds 8C; further up the valley lies forested Chironico, and the neighbouring valleys hold Brione and Val Bavona.",
+   "rating_basis": "One of the world's leading winter bouldering areas: Dreamtime and The Story of Two Worlds, ~600 problems in Cresciano plus the large neighbouring areas of Chironico and Brione; UKC, madboulder, 27crags",
+   "hazards": "Highballs and uneven landings on the slope, sharp crystals, fines for parking in the wrong places",
+   "crowd_note": "Busy at Christmas and on winter weekends, especially at Filo a Sbalzo by the parking and on the 7A–8A classics",
+   "region": "Ticino, Riviera valley (Cresciano — Osogna) and Leventina (Chironico), near Bellinzona",
+   "season": "October–April; the best friction comes on cold, dry days from November to February (Cresciano), with Chironico in spring and autumn; hot in summer, apart from moderate problems in the shade",
+   "transfer": "From Milan or Zurich by car on the A2 via the Gotthard to Bellinzona, then a few minutes to Cresciano; a Swiss motorway vignette is required (~CHF 40); from Lugano by train/bus",
+   "rock_note": "light-grey, rough granite-gneiss in a chestnut forest: steep lines, arêtes, small sharp holds; boulders scattered along the slope between Cresciano and Osogna",
+   "approach": "Cresciano: leave the car in the village, ~25 min on foot to the first boulders (driving up to the boulders is forbidden); Chironico: paid parking at Chironico, Nivo and Grumo, 5–15 min from the sectors",
+   "restrictions": "Cresciano: since October 2021 the local Patriziato has banned driving and parking near the boulders — use only the parking in the village, checks are carried out; brush off tick marks. Chironico: since 2024 (the “Save the Boulders” pilot) parking is allowed only at three paid lots (CHF 0.5/h or CHF 12/day), van overnights cost an extra CHF 2 tourist tax per person, camping is not allowed. Access in the region is sensitive — violations could lead to closures",
+   "guidebook": "Ticino Bouldering / 27crags topo (Cresciano, Chironico, Brione, Val Bavona)",
+   "stay": "Hostel in Cresciano (recently reopened), guesthouses, a campground in Claro; in Chironico only paid van parking areas",
+   "pros": [
+    "World-class rock with excellent winter friction",
+    "Legendary ultra-hard lines",
+    "Several areas within half an hour of each other",
+    "Sunny southern Switzerland"
+   ],
+   "cons": [
+    "Few easy problems",
+    "Access restrictions and paid parking",
+    "Sharp rock shreds your skin fast",
+    "Switzerland is expensive"
+   ],
+   "airport": "MXP — Milan Malpensa, ~1.5 h; ZRH — Zurich, ~2 h; LUG — Lugano, ~40 min",
+   "famous_lines": [
+    "Dreamtime 8B+ (Cresciano) — Fred Nicole, 2000, one of the world's first 8B+/8C",
+    "The Story of Two Worlds 8C (Cresciano) — Dave Graham",
+    "Iur 8B+ (Cresciano, Nuova Tribuna Centrale)",
+    "La Proue 8B (Cresciano, La Boule)",
+    "La Boule 8A (Cresciano)"
+   ]
+  },
+  "yangshuo": {
+   "h": "7ed3168f40",
+   "description": "Yangshuo is a town among karst towers on the Li River and China's main sport climbing hub. More than a thousand sport routes on some 25 separate towers: from the easy slabs of Swiss Cheese to the overhanging arch of Moon Hill and 8c+ routes on White Mountain. You cycle to the crags through rice paddies.",
+   "rating_basis": "China's main climbing hub: 1,000+ sport routes on 25+ karst towers (UKC), routes up to 8c+, well-developed infrastructure of shops and cafés",
+   "hazards": "Heat and humidity, slippery rock in damp weather, mosquitoes; old gear and loose rock on rarely visited crags",
+   "crowd_note": "Crowds and price hikes during Golden Week (early October); the rest of the time the crags are quiet",
+   "region": "Guangxi, around Guilin, Li River valley",
+   "season": "September–February; best in October–December (November is ideal); spring is damp, summer hot and rainy",
+   "transfer": "Fly to Guilin and take a 1.5-hour bus, or a high-speed train to Yangshuo station from Guangzhou, Shenzhen or Hong Kong",
+   "rock_note": "limestone karst towers: overhangs with tufas (Moon Hill), rounded jugs (White Mountain), small crimps (Lei Pi Shan)",
+   "approach": "10–30 min from town to the crags by bike or scooter, then 5–20 min on foot",
+   "restrictions": "Check China's entry rules (visa or visa-free entry) before you travel; Moon Hill is a tourist site with an entrance fee; crowds and price hikes during Golden Week (early October)",
+   "guidebook": "Yangshuo Rock Climbs (Tyson Wallace), updated annually, sold in Yangshuo's cafés and climbing shops",
+   "stay": "Hostels and guesthouses in Yangshuo (Climber's Inn); for a month-long stay it pays to rent an apartment; bike and scooter rental",
+   "pros": [
+    "Huge choice of routes at all levels",
+    "Cheap living, well-developed climber infrastructure",
+    "Shady and overhanging crags for hot and rainy days",
+    "Scenic karst landscape"
+   ],
+   "cons": [
+    "The rock “sweats” in spring; summer brings heat and downpours",
+    "Visa / entry rules to check, language and internet difficulties",
+    "The grade range at a given crag is often narrow"
+   ],
+   "airport": "KWL — Guilin, ~1.5 h",
+   "famous_lines": [
+    "Over the Moon 7b+ (Moon Hill)",
+    "Moonwalker 7c (Moon Hill)",
+    "China White 7b (White Mountain)",
+    "Spicy Noodle 8c+ (White Mountain)",
+    "Grandfathered Inn 6a+ (multi-pitch, 6 pitches)"
+   ],
+   "school_notes": [
+    "Shop, rental and guides (at the Lizard Lounge café), plus a bouldering cave",
+    "Yangshuo's original climbing centre: guides, guidebook, rental",
+    "Courses and rental in central Yangshuo"
+   ]
+  },
+  "suesca": {
+   "h": "73a2875e29",
+   "description": "A long sandstone cliff above a river, an hour's drive from Bogotá — the birthplace of Colombian climbing 80 years ago. Hundreds of trad and sport routes from 5.6 to 5.13, including easy multi-pitch classics, plenty of schools and guides, and a cool highland climate all year round.",
+   "rating_basis": "The cradle of Colombian climbing and the country's main area: 300–500 routes depending on the source (212 on Mountain Project, >300 according to ClimbingAway), classic beginner multi-pitches close to the capital",
+   "hazards": "Slippery sandstone after rain, fast-building thunderstorms, strong high-altitude sun, trains on the tracks along the trail, old protection on some trad routes",
+   "crowd_note": "At weekends and on public holidays there are lots of groups from Bogotá and climbing schools, with queues on the easy classics; quiet on weekdays",
+   "region": "Cundinamarca, Eastern Cordillera, ~60 km north of Bogotá",
+   "season": "climbable year-round (highlands, ~+18…+20 °C by day), but the best dry windows are December–March and July–August (sometimes into September); April–May and October–November are the rainy seasons",
+   "transfer": "~1–1.5 h from Bogotá: buses from the North Terminal every 15–30 min (~$2), or by car on the Autopista Norte (2 toll booths); at weekends a tourist train runs from Sabana station",
+   "rock_note": "compact quartz sandstone: a long cliff above the Bogotá River with cracks, dihedrals, roofs and slabs; multi-pitch routes of up to 5 pitches (~150 m)",
+   "approach": "5–20 min on a flat trail alongside the railway tracks and the river from the parking by Suesca village; sectors are numbered from right to left",
+   "restrictions": "Park at the services near the rock, not in the village; the approach follows an active tourist railway — stay alert. For routes harder than 5.10 and multi-pitches, locals recommend ACME-certified guides. The weather changes quickly — bring a rain jacket.",
+   "guidebook": "Local topos and online descriptions (Mountain Project, theCrag, the Pelecanus website); guides and topos available at the camps by the rock",
+   "stay": "Climbing camps and hostels at the foot of the cliff (Caminos de Suesca — with a climbing wall, gear rental and guides; Camp Suesca, Refugio La Roca), guesthouses in the village; many people come for the day from Bogotá",
+   "pros": [
+    "Lots of easy multi-pitch classics and schools for beginners",
+    "Cool “eternal spring” climate at 2,600 m",
+    "Easy bus ride from Bogotá",
+    "Gear rental and camps by the rock"
+   ],
+   "cons": [
+    "Two rainy seasons a year",
+    "Mostly trad, little hard sport",
+    "Crowded at weekends",
+    "Altitude of 2,600 m — the first few days can be tough"
+   ],
+   "airport": "BOG — Bogotá El Dorado, ~1.5–2 h",
+   "famous_lines": [
+    "CAEC 5.6 (4b), 3 pitches",
+    "La Clavícula 5.6 (4b), 3 pitches",
+    "LP 5.7–5.8 (5a/5b), 4 pitches, 160 m",
+    "El Gran Techo 5.8 (5b), 3 pitches",
+    "El Gran Diedro 5.11c (6c+/7a), 3 pitches"
+   ],
+   "school_notes": [
+    "Guided trips to Suesca from Bogotá, gear included"
+   ]
+  },
+  "vinales": {
+   "h": "2a4e1f3ba7",
+   "description": "The Viñales valley, with its tobacco fields and karst hills known as “mogotes”, is the cradle of Cuban climbing. Around 230 sport routes on tropical limestone: caves with stalactites, tufas and multi-pitch routes up to 150 m, mostly in the 6a–7b range. People come here for the atmosphere and the journey rather than the number of routes.",
+   "rating_basis": "Cuba's main climbing area: ~230 sport routes on Mountain Project (>200 according to ClimbingAway), unusual caves among tobacco fields; the rating is lowered by old bolts, unclear legal status and complicated logistics",
+   "hazards": "Heat and humidity, rusty old bolts and anchors (check them), wasps and insects in the caves, power and phone outages across the island, hurricanes from June to November",
+   "crowd_note": "Few climbers even at the height of the season; at the crags you'll mostly meet locals and a couple of foreign groups",
+   "region": "Pinar del Río, Viñales valley (UNESCO site), western Cuba",
+   "season": "November–April is the dry season, best December–March (+25…+28 °C); April is hot; May to October is the rainy season with heat and humidity, and June to November brings a risk of hurricanes",
+   "transfer": "Fly to Havana (direct flights from Moscow available), then 2–3 h to Viñales by Viazul bus, shared colectivo taxi (~$20 per person) or private taxi (~$100)",
+   "rock_note": "tropical limestone of the karst “mogote” hills: overhanging caves with stalactites and tufas, vertical pocketed walls, multi-pitch routes up to 150 m; some old bolts have been replaced with titanium ones",
+   "approach": "10–30 min on foot across the flat valley floor through tobacco fields from Viñales village or the road (taxi to the more distant crags ~$8)",
+   "restrictions": "The legal status is unclear: since 2012 access to the mountains of Viñales National Park has formally been restricted to official trails with a guide, and climbing has never been officially permitted. In practice people climb openly and no foreigners have been fined, but rangers sometimes ask climbers to leave; the authorities periodically harass Cuban climbers — keep a low profile and be respectful. US citizens face restrictions on travel to Cuba. Climbing gear can't be bought on the island — bring everything you need (local climbers will welcome donations of quickdraws and ropes).",
+   "guidebook": "Cuba Climbing (Armando Menocal, 2009 — Viñales only); up-to-date information on cubaclimbing.com and Mountain Project",
+   "stay": "Private guesthouses (casas particulares) in Viñales village — cheap, with home cooking; hosts will help arrange taxis and guides",
+   "pros": [
+    "Unusual caves and tufas amid tropical nature",
+    "Dry, warm winter",
+    "Cheap guesthouses and friendly local climbers",
+    "Visa-free for Russians, with direct flights from Moscow"
+   ],
+   "cons": [
+    "Unclear legal status of climbing in the national park",
+    "Old bolts on some routes",
+    "No gear shops, difficulties with money and connectivity",
+    "Not many routes, few hard ones"
+   ],
+   "airport": "HAV — Havana, ~2.5–3 h",
+   "famous_lines": [
+    "Wasp Factory 5.12c (7b+), Cueva Cabeza de Vaca",
+    "Moscow Mule 5.12b (7b), El Palenque",
+    "Mucho Pumpito 5.10d (6b+), 2–4 pitches, La Costanera",
+    "Chivato y Maricon 5.11a (6c), El Palenque",
+    "Me Llamo Lluma 5.10b (6a+), El Palenque"
+   ],
+   "school_notes": [
+    "Speaks English and Spanish; a day with a guide and gear ~$40–50"
+   ]
+  },
+  "frankenjura": {
+   "h": "b4f4c4b220",
+   "description": "The hilly, wooded Franconian Switzerland, with a thousand limestone crags, is one of the densest sport climbing areas in the world. Short, powerful routes on pockets, the history of the redpoint and Güllich's legendary Action Directe. In summer the forest shade saves the day, and after climbing there are Franconian beer gardens.",
+   "rating_basis": "The historic birthplace of the redpoint (Kurt Albert) and of Güllich's Action Directe: ~7,000 routes on ~1,000 crags, a huge number of 8a+ and harder; UKC, Mountain Project, theCrag",
+   "hazards": "Polish on the classics, sparse protection on easy old routes, ticks in the forest",
+   "crowd_note": "At weekends the popular crags (Weißenstein, Roter Fels, Krottenseer Turm) are busy with locals and polished; on weekdays and at more remote crags it's quiet",
+   "region": "Bavaria, Franconian Switzerland (Obertrubach, Pottenstein), between Nuremberg and Bayreuth",
+   "season": "late March–October; best April–June and September–October; in summer, north-facing walls in the forest (muggy in August); in winter, only the occasional dry, sunny day",
+   "transfer": "A car is essential: Nuremberg ~40–50 min, Munich ~2 h, Frankfurt ~3 h; public transport doesn't reach the crags",
+   "rock_note": "grey dolomitic limestone in the forest: short (8–30 m), powerful routes on pockets — from slabs to overhangs, on ~1,000 individual crags and towers",
+   "approach": "5–20 min through the forest from parking by the villages; the crags are spread over a large area, so you need a car",
+   "restrictions": "The nature park's “Kletterkonzeption” (climbing plan) applies: zone 1 — climbing prohibited; zone 2 — existing routes only, up to the anchor, no new routes; zone 3 — new routes allowed away from vegetation; zones are marked with signs at the crags. In spring some crags close for the nesting of protected birds — see the current list on the IG Klettern and DAV Felsinfo websites. Don't toprope directly through the anchor; by tacit agreement, no bouldering guidebooks are published",
+   "guidebook": "Kletterführer Frankenjura, volumes 1 and 2 (Panico) — >7,000 routes on ~1,000 crags; the frankenjura.com database",
+   "stay": "Gasthof Eichler with its camping meadow in Obertrubach, campgrounds in Betzenstein, Auerbach and Königstein, Kormershof in Allersdorf; guesthouses with beer gardens in the villages",
+   "pros": [
+    "Huge density of crags and routes",
+    "Forest shade — climbable in summer",
+    "A world centre of hard climbing",
+    "Beer gardens and cosy villages"
+   ],
+   "cons": [
+    "Short, stiff, powerful routes; old grades are harsh",
+    "Sparse protection on easy old routes, nuts needed",
+    "Winter is off-season, rain in November",
+    "Car needed"
+   ],
+   "airport": "NUE — Nuremberg, ~45 min; MUC — Munich, ~2 h",
+   "famous_lines": [
+    "Action Directe 9a / UIAA 11 (Waldkopf) — Wolfgang Güllich, 1991, the world's first 9a",
+    "Wallstreet UIAA 11− (Krottenseer Turm)",
+    "Ghettoblaster UIAA 10/10+ (Rabenstein)",
+    "Ringbandschoner UIAA 9+/10− (Illafelder Wand)",
+    "Dampfhammer UIAA 8 (Weißenstein)"
+   ],
+   "school_notes": [
+    "Outdoor courses for children and adults",
+    "Mountain sports school, climbing courses",
+    "Courses and guiding in the heart of the area"
+   ]
+  },
+  "albarracin": {
+   "h": "6b87dc3e7c",
+   "description": "Thousands of red sandstone boulders in a pine forest next to the medieval town of Albarracín at ~1,200 m. Most problems are 6A–7B — steep roofs and arêtes with mantel top-outs — with plenty of options for beginners. The area is protected (rock art, birds), so strict rules apply.",
+   "rating_basis": "Spain's main bouldering area: >2,300 problems on red sandstone, mostly 6A–7B; high ratings on UKC/theCrag",
+   "hazards": "Highballs with uneven landings, fragile wet sandstone, fines for breaking the regulations",
+   "crowd_note": "In spring and autumn the Parking, Arrastradero and Techos sectors get crowded at weekends and on holidays, with a queue at Techo Don Pepo",
+   "region": "Aragon, Teruel, Pinares de Rodeno Protected Landscape",
+   "season": "spring and autumn are best (March–May, October–November); cold in winter but with excellent friction and occasional light snow; hot in summer",
+   "transfer": "By car only: Valencia ~2 h, Zaragoza ~2.5 h, Madrid ~3–3.5 h",
+   "rock_note": "fine-grained red sandstone (rodeno) in a pine forest: steep boulders with mantel top-outs, roofs, arêtes; boulders from 1 to 20 m high",
+   "approach": "1–30 min from the parking areas along the Albarracín — Dornaque forest road; parking is paid (blue zone)",
+   "restrictions": "Strict regulation by the Government of Aragon: climb only in the marked zones; the Peninsula, Valle de la Madera, Mirador and Psicokiller sectors are closed from 10 January to 15 August (bird nesting); no climbing on boulders visible from the paved road, within 30 m of rock art or on painted boulders; night climbing is prohibited (climbing is allowed only from an hour before sunrise to an hour after sunset), as are bolts, new sectors, camping and fires; campervan overnights only at the La Escombrera car park and by the Dornaque centre; use minimal chalk, brush the holds, don't climb on wet sandstone",
+   "guidebook": "Albarracín Bouldering (Palmer, 2021: >2,300 problems in 21 sectors + >600 in Bezas), albarracinbouldering.com",
+   "stay": "Camping Ciudad de Albarracín (tents and bungalows, ~4 km from the boulders), Sandstone guesthouse (popular with climbers, crash pad rental), hotels and apartments in the medieval town",
+   "pros": [
+    "Huge choice of problems from 5 to 7B",
+    "Beautiful forest with a medieval town nearby",
+    "Good for beginners and groups",
+    "The altitude keeps the heat off in spring and autumn"
+   ],
+   "cons": [
+    "Strict rules and closed sectors",
+    "After rain you have to wait for the sandstone to dry",
+    "Cold in winter, hot in summer",
+    "Car needed"
+   ],
+   "airport": "VLC — Valencia, ~2 h; ZAZ — Zaragoza, ~2.5 h; MAD — Madrid, ~3.5 h",
+   "famous_lines": [
+    "Techo Don Pepo 7A (Techos) — the most popular boulder in the forest",
+    "La Lágrima 6C+ — on the guidebook cover",
+    "El Chimpancé 6B+ — highball",
+    "A Ciegas 7A+",
+    "Ramstein 7B+"
+   ]
+  },
+  "chulilla": {
+   "h": "e6e760289b",
+   "description": "A white village above the Turia river canyon and one of Europe's best winter sport climbing areas. Walls on both sides of the gorge let you choose sun or shade, and long 30–40 m endurance routes make it a paradise for the 7a–8a range. Everything is within walking distance of the village.",
+   "rating_basis": "One of Europe's top winter sport climbing areas: >1,400 routes, thousands of quality 7a–8a lines in a canyon with a choice of sun or shade; UKC's “Euro Sport Climbing Destination” series, PlanetMountain",
+   "hazards": "Rockfall in the canyon (there has been a well-known major collapse), polish, long routes — check your rope length (80–100 m ropes are sometimes needed)",
+   "crowd_note": "At Christmas, New Year and Easter the village is packed with climbers and there are queues on popular sectors; quieter on weekdays",
+   "region": "Valencian Community, Los Serranos comarca, Turia river gorge",
+   "season": "October–April; best November–March (13–17 °C, sunny), hard routes December–February; hot and greasy in summer",
+   "transfer": "~1 h by car from Valencia (CV-35, then CV-395); Hispano Chelvana bus on weekdays, with the stop to be requested in advance; no car needed in the village",
+   "rock_note": "grey-orange limestone of the Turia canyon: long vertical and slightly overhanging 30–40 m endurance routes with bouldery starts, tufa-like “sinters” on Pared de Enfrente",
+   "approach": "10–25 min on foot from the village along trails through the canyon; no car needed in the village",
+   "restrictions": "Wild camping is prohibited (campervans unofficially park at the car parks at the village entrances, without facilities); Leave No Trace — no fires, pack out your rubbish",
+   "guidebook": "Chulilla (2025, >1,400 routes, 59 sectors), topos also on climbmaps.com",
+   "stay": "El Altico climbers' refugio (≈€15 a night, climbing wall, pool, van parking), apartments and rooms in the village from ~€25; Goscanos climbers' bar, Al Coxinillo gear shop",
+   "pros": [
+    "Huge number of quality 6c–8a routes",
+    "Warm, dry winter",
+    "Everything within walking distance of the village, a convenient refugio",
+    "Choice of sun or shade in the canyon"
+   ],
+   "cons": [
+    "Limited choice for beginners",
+    "Polished holds on popular classics",
+    "Too hot in summer",
+    "Crowded during holidays"
+   ],
+   "airport": "VLC — Valencia, ~1 h; ALC — Alicante, ~2.5–3 h",
+   "school_notes": [
+    "Adventure tourism in Chulilla, including climbing",
+    "Beginner session",
+    "British guides, week-long sport climbing trip"
+   ]
+  },
+  "costa-blanca-sella": {
+   "h": "cce48f6a0c",
+   "description": "The Sella valley is the heart of the Costa Blanca, one of Europe's most popular winter destinations. Hundreds of well-bolted 4–6c routes on technical slabs and walls make it ideal for beginners and intermediates, with the multi-pitches of Puig Campana and the Peñón de Ifach and the Toix sea cliffs close by. Warm winters, cheap flights and plenty of accommodation.",
+   "rating_basis": "The largest and most popular area on the Costa Blanca (≈500 routes) with loads of quality grade 5–6 climbing; the BMC lists it among Spain's top 5 areas for intermediate climbers",
+   "hazards": "Polish on the classics, heat, lorries on the access road",
+   "crowd_note": "On winter weekends and during British school holidays the popular sectors are taken over by groups, but there's plenty of choice",
+   "region": "Valencian Community, Alicante province, Sella valley (near Puig Campana, Peñón de Ifach, Toix)",
+   "season": "October–April is the classic “winter sun” season; in May–June and September, the north-facing Pared de Rosalía; hot in summer",
+   "transfer": "Alicante airport, then by car: ~50–60 min to Sella (AP-7 to Villajoyosa, then ~20 km inland); car hire is cheap",
+   "rock_note": "grey limestone: technical slabs and slabby walls in the central part, long routes on the north-facing Pared de Rosalía, steep tufas in Hidden Valley, long trad routes on El Divino",
+   "approach": "5–20 min from the parking areas along the dirt road beyond the Sella refugio; lorries use the road on weekdays — park completely off the track",
+   "restrictions": "Soft limestone: clean your shoes, don't run the rope directly through the anchors, brush off tick marks. In the neighbouring Costa Blanca natural areas (Serra Gelada, Peñón de Ifach and others) the FEMECV federation publishes seasonal nesting restrictions — check before your trip",
+   "guidebook": "Costa Blanca Climbs (>4,000 routes, 56 crags), Rockfax Costa Blanca (>4,800 routes, 50 crags); a free mini-guide to Sella's new sectors from The Orange House",
+   "stay": "The Sella refugio at the start of the valley, The Orange House climbers' house (Finestrat, ~35 min from the airport), villas and apartments in Finestrat, Benidorm and Calpe",
+   "pros": [
+    "Ideal for beginners and the 5–6c range",
+    "Warm, sunny winters by the sea",
+    "Lots of schools and guides",
+    "Puig Campana and Peñón de Ifach multi-pitches nearby"
+   ],
+   "cons": [
+    "Few hard routes compared with Catalonia",
+    "The central part gets little sun on winter mornings",
+    "Hot in summer",
+    "Dirt road and lorries on weekdays"
+   ],
+   "airport": "ALC — Alicante, ~1 h; VLC — Valencia, ~1.5–2 h",
+   "famous_lines": [
+    "Marion 5+, 3 pitches (Marion)",
+    "El Pitxocet 6a+",
+    "Fisura con Finura 6a",
+    "Kamikaze 7a+"
+   ],
+   "school_notes": [
+    "Week-long trips and sport and multi-pitch courses",
+    "Guides for the Alicante areas",
+    "Beginner and intermediate courses"
+   ]
+  },
+  "el-chorro": {
+   "h": "8d4ffc8a61",
+   "description": "The limestone Los Gaitanes gorge by the famous Caminito del Rey walkway is one of Europe's top winter areas. Hundreds of routes for beginners and intermediates, classic multi-pitches of up to 12 pitches on the Frontales, and hard overhangs at Desplomilandia and Makinódromo. Warm Andalusian winters and direct flights to Málaga.",
+   "rating_basis": "One of Europe's most popular winter areas: >1,500 routes from grade 4 to the eighth grade, classic multi-pitch on the Frontales, the Caminito del Rey gorge; high ratings on UKC/theCrag/27crags",
+   "hazards": "Rockfall on multi-pitches (including from mountain goats) — wear a helmet; heat; scrambling on the approaches",
+   "crowd_note": "Busy from November to April, especially at Christmas and Easter; there can be queues on Amptrax and in Escalera Árabe, and the classics are polished",
+   "region": "Andalusia, Málaga province, Álora — Los Gaitanes gorge (Caminito del Rey)",
+   "season": "mid-October to early May; best November–April; up to 40 °C in summer — off-season",
+   "transfer": "~1 h by car from Málaga (A-357); the village has an El Chorro train station; you need a car to get between sectors",
+   "rock_note": "grey and orange limestone: slabs and vertical walls on the Frontales (walls up to 200 m), overhangs and tufas at Desplomilandia and Makinódromo, steep caves at Poema de Roca",
+   "approach": "from 5 min to 1–2 h; the Frontales are reached on foot from the parking by the reservoir, in places scrambling along rock ledges; Desplomilandia, Makinódromo and Abdalajís are easier to reach by car",
+   "restrictions": "Natural park: climbing in the Gaitanes gorge itself along the Caminito del Rey is no longer possible (access to the walkway only with a booking and from the northern entrance); the old routes of the Los Albercones sector by the railway shelter are banned; roadside parking in the park is prohibited where signposted; sectors may be temporarily closed during bird nesting — follow announcements from local clubs",
+   "guidebook": "El Chorro (2024, >1,500 routes, >80 sectors: El Chorro, Desplomilandia, Valle de Abdalajís), Rockfax El Chorro",
+   "stay": "Climbers' lodges Climbing Lodge, The Olive Branch (rooms, van parking) and Finca La Campana, Parque Ardales campground by the lake; also Álora, Ardales and the Abdalajís valley",
+   "pros": [
+    "Warm, dry winter",
+    "Routes for all levels, good for beginners",
+    "Classic multi-pitch on the Frontales",
+    "Close to Málaga airport, climbers' lodges"
+   ],
+   "cons": [
+    "Summer heat up to 40 °C",
+    "Polished classics",
+    "Approaches to some sectors are long and involve scrambling",
+    "Crowded during holidays"
+   ],
+   "airport": "AGP — Málaga, ~1 h",
+   "famous_lines": [
+    "Amptrax 6a+, ~200 m (Frontales) — the ultimate multi-pitch classic",
+    "Fanatic@s 6c+, 12 pitches (Frontales, Mundo)",
+    "Estrella Polar 6b+ (Frontales, Solarium)",
+    "Gaia 7a+, 3 pitches (Frontales, Momia)",
+    "Vía de las Cabras 5 (Suizo) — the area's first route, 1972"
+   ],
+   "school_notes": [
+    "Beginner courses, multi-pitch with a private guide, combos with the Caminito del Rey; gear and shoes included",
+    "Climbing camp-course",
+    "Certified guides",
+    "Climbing courses in Andalusia"
+   ]
+  },
+  "mallorca": {
+   "h": "1d9cd5b803",
+   "description": "The island where modern deep-water soloing was born: overhanging limestone cliffs, caves and arches above the turquoise water of the east coast, including Sharma's Es Pontàs 9a+. In winter and spring climbers head for the sport routes in the Tramuntana mountains — Sa Gubia, Fraguel, Gorg Blau.",
+   "rating_basis": "The best place for DWS in Europe (Rockfax), Sharma's Es Pontàs, plus hundreds of sport routes in the Tramuntana for winter; 27crags, UKC, Climb Europe",
+   "hazards": "Falls into the water from height — entering the water badly causes injuries; swell and rocks at the base, sea urchins; heat; old bolts on some routes",
+   "crowd_note": "In summer the coves are full of swimmers and Cala Barques can get busy; in winter the mountain crags are quiet",
+   "region": "Balearic Islands; DWS on the east coast (Porto Cristo, Cala Barques, Cala Serena), sport in the Tramuntana mountains (Sa Gubia, Fraguel, Gorg Blau)",
+   "season": "DWS: June–October (warm water), best September–October; sport climbing: late September–May",
+   "transfer": "Palma airport (car hire on site), ~1 h to Porto Cristo, ~20 min to Sa Gubia; ferries also run from Barcelona and Valencia",
+   "rock_note": "limestone: on the coast, overhanging sea cliffs, caves and arches 5–20 m above the water for DWS; in the Tramuntana mountains, grey walls and the multi-pitch routes of Sa Gubia",
+   "approach": "DWS cliffs: 5–20 min from parking at the coves, then a down-climb or traverse to the start above the water; mountain crags: 5–30 min; a car is needed",
+   "restrictions": "Before your trip check current access to Cala Magraner and Port de Sóller (there have been construction works and barriers); the older routes at Cala Magraner have old bolts. DWS only when the sea is calm and the rock is dry",
+   "guidebook": "Rockfax Mallorca Deep Water Soloing (490 routes, 16 crags), Mallorca Sport Climbing; DWS topo on 27crags (≈780 routes, 20 crags)",
+   "stay": "For DWS — Cala d'Or and Porto Cristo in the south-east; for sport — Palma, Sóller, Valldemossa, Port de Pollença",
+   "pros": [
+    "Europe's best deep-water soloing",
+    "Two seasons: DWS in summer and autumn, sport in winter and spring",
+    "Lots of flights and infrastructure",
+    "Warm sea"
+   ],
+   "cons": [
+    "DWS depends on the swell and how damp the rock is",
+    "Hot and touristy in summer",
+    "Crags are spread across the island — car needed",
+    "In winter the mountains can get prolonged rain and seepage"
+   ],
+   "airport": "PMI — Palma de Mallorca, ~1 h to the east coast",
+   "famous_lines": [
+    "Es Pontàs 9a+ (DWS, arch near Santanyí) — Chris Sharma, 2007",
+    "Cova del Diablo (Porto Cristo) — DWS test pieces up to 18 m",
+    "Ses Tres Maries 6a+ (Cala Magraner)",
+    "Buf!! 7a (Alaró)",
+    "Lisa Simpson 6b+ (Gorg Blau)"
+   ],
+   "school_notes": [
+    "Guided climbing and deep-water soloing",
+    "Group and private sessions, family climbing"
+   ]
+  },
+  "margalef": {
+   "h": "47aca642ce",
+   "description": "A valley of conglomerate walls and caves in the Montsant Natural Park — the mecca of pocket climbing. It has whole sectors of grade 4–6 routes for beginners alongside some of the hardest routes in the world (First Round First Minute 9b, Perfecto Mundo 9b+). Because of its huge popularity, access to the main zones has required a booking since 2025.",
+   "rating_basis": "One of the world's best conglomerate areas: ~1,870 routes, 9b and 9b+, lots of quality 6a–7b; popular with all levels (27crags, UKC, PlanetMountain)",
+   "hazards": "Finger injuries on one- and two-finger pockets, summer heat, pebbles popping out of the conglomerate",
+   "crowd_note": "~89,000 visits a year; at Easter and over the 1 November holiday the main zones are overflowing — which is why barriers and booking were introduced",
+   "region": "Catalonia, Priorat (Tarragona), Serra del Montsant Natural Park",
+   "season": "October–April; in winter the south-facing walls of Espadelles, in spring and autumn everything, in summer shady sectors early in the morning and in the evening",
+   "transfer": "A car is needed: there's almost no public transport; Reus ~1.5 h, Barcelona ~2–2.5 h",
+   "rock_note": "conglomerate with pockets from single-finger to palm-sized holes: overhangs, caves, powerful routes up to 50 m",
+   "approach": "short approaches of 5–20 min from the El Pont and La Presa car parks; comfortable, safe ground at the base of the walls — suitable for families",
+   "restrictions": "Since 14 October 2025 access to the two main zones (Sant Salvador and Embassament / Espadelles) is through barriers with online booking, €5 per car per day, capped at ~210 and ~190 cars; overnight stays outside designated areas are not allowed. The area lies within the Montsant Natural Park",
+   "guidebook": "Margalef (2024 Edition), the 27crags app (≈1,860 routes)",
+   "stay": "El Racó de la Finestra and Can Severet refugios, houses and apartments in the village, campervan and tent areas by the El Pont and La Presa car parks (as of 2026 some services had closed — check in advance)",
+   "pros": [
+    "Unique pocketed conglomerate",
+    "Routes for all levels — from 4 to 9b+",
+    "Short approaches and safe ground at the base of the walls",
+    "Siurana and Montsant nearby"
+   ],
+   "cons": [
+    "Overflowing on holidays and at Easter",
+    "Paid access and booking since 2025",
+    "Pockets are hard on the fingers",
+    "Hot in summer"
+   ],
+   "airport": "REU — Reus, ~1.5 h; BCN — Barcelona, ~2–2.5 h",
+   "famous_lines": [
+    "First Round First Minute 9b — Chris Sharma, 2011",
+    "Perfecto Mundo 9b+ — Alex Megos, 2018",
+    "Pal Norte 8c+ (Racó de les Espadelles)",
+    "Montgronyeta 7b+",
+    "Flors i Violes 6b+"
+   ],
+   "school_notes": [
+    "Russian-speaking guides and coaches, based in a mountain house between Siurana and Margalef",
+    "Guides from the Explore-Share network",
+    "Guided group trips"
+   ]
+  },
+  "rodellar": {
+   "h": "b432c582f9",
+   "description": "The Mascún canyon in the Sierra de Guara, with huge limestone arches and caves, is Spain's main summer sport climbing area. Shade in the deep canyon and a river for swimming offer relief from the heat, while tufa-covered overhangs provide powerful 7a–8c routes. There are few easy routes — beginners are usually taken to nearby Alquézar.",
+   "rating_basis": "One of Spain's best summer sport areas: 800+ routes in a scenic canyon with arches, strong overhanging 7a–8c lines; high ratings on PlanetMountain/Mountain Project",
+   "hazards": "Seasonal seepage on the tufas, loose rock in the canyon, river crossings, heat in July–August",
+   "crowd_note": "In July–August and over the May holidays the canyon is full of climbers and canyoneers, with queues on the Las Ventanas and El Camino classics",
+   "region": "Aragon, Huesca, Sierra y Cañones de Guara Natural Park, Mascún canyon",
+   "season": "late April to November; best May–June and September–October; in July–August people climb in the shade of the canyon, but it's hot and crowded; cold and wet in winter",
+   "transfer": "A car is needed: Zaragoza ~1–1.5 h, Barcelona ~2.5–3 h (≈270 km via Lleida, Monzón, Barbastro); the village is at the end of the road",
+   "rock_note": "orange-grey canyon limestone: steep overhangs, huge arches and caves, tufas, powerful endurance routes",
+   "approach": "~10–30 min down into the canyon from the village; between sectors along the riverside path, fording the river in places",
+   "restrictions": "Climbing is regulated by a Guara Natural Park order (2015) because of nesting bearded vultures, Bonelli's eagles and Egyptian vultures: in the Mascún canyon and on most Alcanadre sport sectors climbing is allowed year-round, but the classic Peña Grau only from 1 August to 30 November; “quiet zones” are closed completely, and new sectors need the park's permission. Don't toprope directly through the anchors, and don't park where you block tractors",
+   "guidebook": "Rodellar Rock Climbing and Bouldering Guidebook; topo at Camping Mascún",
+   "stay": "Camping Mascún (at the trailhead, with a shop and restaurant) and El Puente with bungalows, Refugio Kalandraka, Albergue Las Almunias, Valle de Rodellar apartments; stock up on groceries in Huesca",
+   "pros": [
+    "Shade in the canyon — climbable in summer",
+    "World-class overhanging endurance routes",
+    "Campgrounds right by the trail",
+    "A stunning canyon with a river"
+   ],
+   "cons": [
+    "Few easy routes",
+    "Tufas seep after a rainy winter and spring",
+    "Crowded and hot in summer",
+    "Car needed"
+   ],
+   "airport": "ZAZ — Zaragoza, ~1–1.5 h; BCN — Barcelona, ~2.5–3 h; REU — Reus, ~1 h 45 min",
+   "school_notes": [
+    "Local guiding office: climbing, via ferrata, canyoning",
+    "Guides and courses, including women's courses",
+    "Beginner courses"
+   ]
+  },
+  "siurana": {
+   "h": "9c9e9156c0",
+   "description": "A village on the edge of a limestone plateau above a reservoir and one of the icons of Spanish sport climbing. Technical vertical walls with small holds, a huge choice of 6b–8b and the ultra-hard La Rambla 9a+ and La Capella 9b. Sunny in winter, hot in summer.",
+   "rating_basis": "One of Spain's main sport areas: >1,700 routes, the legendary La Rambla 9a+ and Ondra's 9b, a convenient campground next to the crags; high ratings on UKC/theCrag",
+   "hazards": "Drop-offs at the edge of the plateau along the paths, heat and sun, sharp rock; some routes have chipped holds",
+   "crowd_note": "Busy at the peak of the season (October–November, Easter), but the sectors are spread out — it's easy to move to a neighbouring one",
+   "region": "Catalonia, Priorat (Tarragona), Prades mountains",
+   "season": "October–April; sunny south-facing walls in winter, shady sectors in May–June and September (El Pati, Can Codolar, Reserva India)",
+   "transfer": "From Reus a taxi costs €40–50, or take the bus to Cornudella (a few times a day), then 10–15 min uphill; ~2 h by car from Barcelona",
+   "rock_note": "compact orange-grey limestone: vertical to slightly overhanging, small edges and pockets, technical climbing with crux moves; walls up to 35–40 m",
+   "approach": "all sectors are on foot from the village or campground, 5–30 min; 10–15 min by car from Cornudella",
+   "restrictions": "Overnighting in campervans in the car parks and on the roadside is tolerated for now, but this may change — the official campground by the village is a better bet",
+   "guidebook": "Siurana Climbing (more than 2,000 routes), local topos at the campground and in Cornudella's shops",
+   "stay": "Camping Siurana by the village (tents, campervans, cabins for 4–6 people) — all sectors within walking distance; apartments and refugios in Cornudella de Montsant",
+   "pros": [
+    "Huge volume of quality 6a–8c routes",
+    "Everything on foot from the campground",
+    "Sunny, stable weather in winter",
+    "Margalef, Montsant and Arras nearby — easy to combine"
+   ],
+   "cons": [
+    "Too hot in summer",
+    "Stiff technical grades",
+    "Hard to get to without a car",
+    "Fewer easy routes than 6b+ and up"
+   ],
+   "airport": "REU — Reus, ~45 min (flights mostly April to October); BCN — Barcelona, ~2 h",
+   "school_notes": [
+    "A community of guides and coaches working in Russian, German, French, English and Czech",
+    "“Gym to crag” courses and coaching, gear and transfer from Reus/Tarragona",
+    "Guides covering the Tarragona areas"
+   ]
+  },
+  "ceuse": {
+   "h": "8036b7e357",
+   "description": "A horseshoe of limestone walls at ~1,800–2,000 m above Gap — the summer mecca of sport climbing. Famous for its perfect pocketed rock, long (30–40 m) routes and spaced bolts, and for the Biographie sector, where the world's first 9a+ and 9b+ were climbed. There's plenty of quality 6a–6c, but its real fame lies at 7a and above.",
+   "rating_basis": "One of the world's best sport crags for rock quality; the legendary 9a+–9b+ lines of Sharma, Ondra and Megos; top ratings on 27crags/theCrag",
+   "hazards": "In early spring after a snowy winter, seepage and the risk of snow cornices falling from the ridge; long runouts between bolts; mountain thunderstorms in summer",
+   "crowd_note": "Busy on Berlin and the Biographie classics in July–August; Face de Rat and the more distant sectors are quieter",
+   "region": "Hautes-Alpes, Sigoyer, ~10 km from Gap",
+   "season": "late May to early October; best June–September",
+   "transfer": "A car is needed: ~25 min from Gap on the D19 via Sigoyer to the end of the road at Col des Guérins; train/bus to Gap or Tallard, then a taxi for €40–60",
+   "rock_note": "blue-grey pocketed limestone of the highest quality: pockets, vertical and overhanging, walls up to 130 m in a horseshoe around the summit",
+   "approach": "45 min to 1 h 15 min uphill (≈500 m of ascent, 3 km) from the upper car park or the Les Guérins campground",
+   "guidebook": "Céüse (Rolland & Girousse, 2023), the 27crags app with Laurent Girousse's topos",
+   "stay": "Les Guérins campground right below the trail (season roughly mid-May to September), van parking at the Maison de Céüse, gîtes in Sigoyer; shops in Gap and Tallard",
+   "pros": [
+    "World-class rock and long routes",
+    "Cool in summer thanks to the altitude",
+    "Campground right at the trailhead — doable without a car",
+    "Huge choice of 7a–8c"
+   ],
+   "cons": [
+    "Long, steep approach of ~1 h",
+    "Spaced bolts and stiff grades",
+    "Few easy routes for beginners",
+    "Short season, almost nothing to climb in bad weather"
+   ],
+   "airport": "MRS — Marseille, ~2–2.5 h by car; GNB — Grenoble, ~2 h; also Nice and Turin",
+   "famous_lines": [
+    "Biographie / Realization 9a+ (Biographie) — Chris Sharma, 2001",
+    "Bibliographie 9b+ (Biographie) — Alex Megos, 2020",
+    "Jungle Boogie 9a+ — Adam Ondra, 2012",
+    "Trilogy 7b (Un Pont sur l'Infini)",
+    "Natilik 6b, trad (Natilik)"
+   ],
+   "school_notes": [
+    "Intro to climbing on the practice boulders below the wall, 20 May to 18 October, from €25"
+   ]
+  },
+  "fontainebleau": {
+   "h": "fa7a0e3fbd",
+   "description": "A vast sandstone forest near Paris — the birthplace of modern bouldering. Thousands of boulders are grouped into colour-coded “circuits”, from children's yellow to black and white, so the area is equally good for beginners and for climbing 8A+. The main massifs: Bas Cuvier and Apremont, Franchard, Trois Pignons (95.2, Bois Rond, Canche aux Merciers), Éléphant, Buthiers.",
+   "rating_basis": "The world's most famous bouldering area: >30,000 problems, 100+ colour-coded circuits, a history going back to the 1940s; tops every ranking on 27crags/UKC",
+   "hazards": "Highballs with poor landings, ticks in the forest, damage to the fragile sandstone when climbing on it damp",
+   "crowd_note": "At weekends and at Easter the classics of Bas Cuvier, Apremont and Trois Pignons are packed with Parisians and Brits; on weekdays and at the more distant massifs it's quiet",
+   "region": "Île-de-France, Fontainebleau forest, ~70 km south of Paris",
+   "season": "year-round, except in heat and rain; best March–May and September–October; dry winter days give the best friction",
+   "transfer": "From Paris: train from Gare de Lyon to Fontainebleau-Avon or Bourron-Marlotte, ~40–60 min; from CDG about 2 h by RER B + train; for a trip longer than a couple of days you need a car — the massifs are scattered throughout the forest",
+   "rock_note": "fine-grained quartz sandstone: rounded “soap-bar” slopers, ledges, cracks and highballs among the sandy clearings of a pine forest",
+   "approach": "2–20 min through the forest from the car parks; at Bas Cuvier the boulders are visible right from the parking; drive between massifs",
+   "restrictions": "Never climb on wet or damp sandstone — the rock crumbles, so wait for it to dry after rain; clean your shoes before every attempt, brush off chalk, don't make tick marks; carry crash pads rather than dragging them along the ground. The forest is managed by the ONF: wild camping and fires are prohibited, and some areas close during hunting — check the ONF website",
+   "guidebook": "Fontainebleau Climbs, Fontainebleau Fun Bloc, Fontainebleau Off Piste, Essential Fontainebleau (Stone Country); the bleau.info online database, 27crags",
+   "stay": "La Musardière campground near Milly-la-Forêt (close to Trois Pignons, open mid-February to November), FontaineblHostel & Camping, gîtes and Airbnbs in Bourron-Marlotte, Milly and Fontainebleau",
+   "pros": [
+    "Endless problems at every grade",
+    "Ideal for beginners and families: colour-coded circuits, soft sandy ground",
+    "Easy to reach from Paris by train",
+    "Forest shade for warm days"
+   ],
+   "cons": [
+    "Rain stops climbing completely, and the sandstone needs time to dry",
+    "Distinctive friction technique and sandbagged grades",
+    "Crowds at weekends and at Easter",
+    "Car needed to get between massifs"
+   ],
+   "airport": "ORY — Paris Orly, ~50 min by car; CDG — ~1.5 h",
+   "famous_lines": [
+    "La Marie Rose 6A (Bas Cuvier) — the forest's first grade 6, 1946",
+    "L'Abattoir 7A (Bas Cuvier)",
+    "La Bérézina (L'Abbé Résina) 7C (Bas Cuvier)",
+    "C'était Demain 8A (Cuvier Rempart)",
+    "Duel 8A (Cuisinière Crête Sud)"
+   ],
+   "school_notes": [
+    "Certified guides, crash pads and transfer from the station; half a day from ~€47",
+    "Beginner sessions through the tourist office"
+   ]
+  },
+  "gorges-du-tarn-jonte": {
+   "h": "7c90527ab5",
+   "description": "Two neighbouring limestone canyons in the Causse du Larzac near Millau. The Tarn is famous for overhanging yellow-orange walls with long endurance routes — paradise for 7a and up, with few easy routes. The Jonte gorge near Le Rozier has vertical walls up to 150 m with multi-pitch routes and vultures circling close by.",
+   "rating_basis": "The Tarn is a cult crag of the 1990s (Güllich, the Gymnaze and Baumes sectors) with long overhanging 7a–8c routes; the Jonte offers classic multi-pitch with vultures; high ratings on theCrag/PlanetMountain",
+   "hazards": "Summer heat on south-facing walls, spaced bolts on some routes, loose rock, steep approaches; in the Jonte some routes require your own gear",
+   "crowd_note": "In summer and over the May holidays the gorge is full of tourists and canoes, and the popular Tarn sectors can get busy; the Jonte is quieter",
+   "region": "Occitanie, Lozère / Aveyron, Le Rozier — Les Vignes, ~20 km from Millau",
+   "season": "April–October; best in spring and September–October; in summer, shady Tarn sectors in the morning/evening and swimming in the river",
+   "transfer": "A car is essential: Montpellier — Millau ~1.5 h on the A75, then 20 min to Le Rozier; Toulouse ~3 h",
+   "rock_note": "Tarn: yellow-orange dolomitic limestone with black and blue streaks — overhangs, bulges, endurance routes up to 70–80 m; Jonte: vertical walls up to 150 m with multi-pitch lines",
+   "approach": "5–15 min from the riverside road (the Tarn near Les Vignes, the Jonte from Le Rozier and Peyreleau), with steep paths in places",
+   "restrictions": "The south side of the Jonte gorge is closed to climbing (vulture colonies); park only in designated places — sleeping in cars in the car parks is prohibited and the police patrol",
+   "guidebook": "Gorges du Tarn et de la Jonte (local topo), Adrian Berry's “Gorges du Tarn” (2011), FFME Languedoc-Roussillon (2021)",
+   "stay": "Campgrounds along the Tarn near Les Vignes and Le Rozier, gîtes in Le Rozier and Peyreleau; shops and rental in Millau",
+   "pros": [
+    "World-class long overhanging 7a–8c routes",
+    "Short approaches from the road",
+    "Multi-pitches in the Jonte",
+    "A river for swimming on rest days"
+   ],
+   "cons": [
+    "Few routes below 6a",
+    "No sun at the bottom of the gorge in winter — cold",
+    "Stiff grades on the older routes",
+    "Car needed"
+   ],
+   "airport": "RDZ — Rodez, ~1.5 h; MPL — Montpellier, ~2 h",
+   "famous_lines": [
+    "Les Femmes et les Grimpeurs d'Abord 5c (Les Vases, Jonte)",
+    "L'Air du Temps 6b, 6 pitches (Air du Temps, Jonte)",
+    "Keep Cool Raoul 6c+, 6 pitches (Fusée, Jonte)",
+    "Premiers Choux-Fleurs 8a+, 70 m (Tarn)",
+    "Big Boss 8b (Tarn)"
+   ],
+   "school_notes": [
+    "Climbing and multi-pitch routes with an instructor",
+    "School at the entrance to the gorges",
+    "Climbing instructors",
+    "Climbing course (stage)"
+   ]
+  },
+  "gorges-du-verdon": {
+   "h": "6d05e534d9",
+   "description": "Europe's deepest canyon, with limestone walls up to 350 m — a legend of multi-pitch climbing. Most routes start with a rappel from the rim of the gorge, so the only way out is up. There are also short crags for learning near La Palud (Col d'Ayen, Félines, Petit Eycharme).",
+   "rating_basis": "A European multi-pitch classic: walls up to 350 m above a turquoise river, hundreds of lines, historically the birthplace of French sport climbing; high ratings on theCrag/UKC",
+   "hazards": "Rappelling in to the start of the route with no way down, thunderstorms and heat, stones knocked off the rim by tourists, old protection on some classic routes",
+   "crowd_note": "In spring and September there can be parties queuing for the rappel on the Escalès classics; the learning crags are quiet",
+   "region": "Provence-Alpes-Côte d'Azur, La Palud-sur-Verdon",
+   "season": "April–May and September–October; in summer climbers stick to walls in the shade in the afternoon",
+   "transfer": "By car only: ~2.5 h from Nice or Marseille; the nearest towns are Castellane and Moustiers-Sainte-Marie",
+   "rock_note": "compact grey canyon limestone: vertical walls of 100–350 m, “gouttes d'eau” pockets, slabs and cracks; you rappel in to the start of the routes from the rim of the gorge",
+   "approach": "5–15 min from the parking spots on the Route des Crêtes, then a rappel (often 2×45–50 m) to the start of the route — the only way back is up the route; you need double ropes and solid rappelling skills",
+   "restrictions": "Griffon vulture colony and peregrine falcons: the Verdon Regional Nature Park publishes an annual list of “sensitive routes” (voies sensibles) that climbers are asked to avoid from January to the end of August (some from June to August): the Chasteuil, Encastel, Naziaque, Fenrir, Mayreste, Courchons sectors and others. This is a recommendation rather than law, but climbers respect it",
+   "guidebook": "“Verdon” topos sold at the La Palud and Castellane tourist offices; theCrag database",
+   "stay": "Municipal campground and guesthouses in La Palud-sur-Verdon (the village has a gear shop, a climbers' bar and a bakery), also Rougon and Moustiers-Sainte-Marie; book accommodation ahead in summer",
+   "pros": [
+    "World-class multi-pitches with incredible exposure",
+    "Short approaches from the road along the canyon rim",
+    "La Palud, a climbers' village with a shop and campground",
+    "Wide choice from 5c to 8c"
+   ],
+   "cons": [
+    "Committing: you rappel in and the only retreat is up",
+    "Hot and full of tourists in summer, cold in winter",
+    "Some routes are sparsely bolted or need your own gear",
+    "Car needed"
+   ],
+   "airport": "NCE — Nice, ~2.5 h; MRS — Marseille, ~2.5 h",
+   "famous_lines": [
+    "La Demande ~6a, 350 m, semi-trad (Escalès) — the first line on the Escalès",
+    "Pichenibule — 6a–6c with one 7c+ pitch (Escalès)",
+    "Ula ~300 m, trad, double rack of cams",
+    "El Gringo Loco 6a, 90 m (Dent d'Aire)"
+   ],
+   "school_notes": [
+    "DEJEPS instructor, 5-day courses for groups of 3–5, March–October, gear included",
+    "Climbing courses and adventure programmes",
+    "Climbing with an instructor"
+   ]
+  },
+  "chiatura-katskhi": {
+   "h": "00b07ba7d8",
+   "description": "The area around the mining town of Chiatura in Imereti is Georgia's main sport climbing area: the Katskhi crags (96 routes in 9 sectors, including a cave and a canyon), Sveri (63 routes) and a solid crag above the town itself (30 routes). Around 190 routes 5a–8b, more than half of them 6a+…7a. The famous Katskhi Pillar with a monastery on its summit is nearby.",
+   "rating_basis": "Georgia's main sport area by number of routes and ascents on theCrag (~190 routes 5a–8b); theCrag calls Katskhi one of the best places in the country; minimal infrastructure",
+   "hazards": "Summer heat, rockfall on new routes",
+   "crowd_note": "Mostly local clubs from Tbilisi and Kutaisi climb here — usually empty",
+   "region": "Imereti, Chiatura Municipality",
+   "season": "April–June and September–October; summers in Imereti are hot and humid, winters damp and cool",
+   "transfer": "~1.5 h by car from Kutaisi airport; ~180 km (~3.5 h) from Tbilisi",
+   "rock_note": "solid limestone in the canyons around Chiatura: vertical, overhanging and a cave, routes of 12–23 m",
+   "approach": "Short approaches from the road; the crag above Chiatura is reached by a steep road that a normal car can manage, with a small parking area",
+   "guidebook": "No printed guidebook; topos on theCrag: Katskhi (96 routes, 9 sectors), Sveri (63), the crag above Chiatura (30)",
+   "stay": "Guesthouses and apartments in Chiatura; pitching a tent by the crags is awkward, but you can sleep in your car",
+   "pros": [
+    "Lots of grade 6 routes on good limestone",
+    "Empty and inexpensive",
+    "Close to Kutaisi airport, delicious food"
+   ],
+   "cons": [
+    "No printed guidebook or infrastructure",
+    "Few hard routes",
+    "Hot, humid summers"
+   ],
+   "airport": "KUT — Kutaisi, ~1.5 h; TBS — Tbilisi, ~3.5 h"
+  },
+  "kalymnos": {
+   "h": "b90e435d9a",
+   "description": "Kalymnos is an island in the Dodecanese and probably the world's most popular place to combine sport climbing with a seaside holiday. Some 4,000+ routes on 99 crags, from slabs to grottos with stalactites and tufas, almost all within a 20–35-minute walk of Masouri. There are also multi-pitches of up to 11 pitches on Telendos, and DWS.",
+   "rating_basis": "One of the world's most popular sport climbing areas: 4,000+ routes on 99 crags, an international climbing festival, and five-star reviews across the board",
+   "hazards": "Heat and sun, sharp tufas and stalactites, rockfall below the grottos, goats above the crags knocking down stones, scooter riding",
+   "crowd_note": "In October (festival) and May there are queues on the classics at the Grande Grotta and the sectors around Masouri; the more distant sectors and Telendos are quieter",
+   "region": "Dodecanese, Aegean Sea",
+   "season": "Year-round except the hot summer; best September–November and March to early June",
+   "transfer": "Fly to Kos, take a 10-min taxi to Mastichari port and a 25–30-min ferry to Pothia; there are also Athens — Kalymnos flights and ferries from Piraeus (9–14 h) and Rhodes",
+   "rock_note": "grey and orange limestone: tufas, stalactites, huge grottos and overhangs, as well as slabs and pocketed walls",
+   "approach": "20–35 min on foot from Masouri to most sectors; the north (Arginonta, Skalia, Emporios) by scooter; Telendos is a 10-min boat ride from Myrties",
+   "restrictions": "No paid permits; proceeds from the local guidebook go to the rebolting fund. Wild camping on the island is prohibited",
+   "guidebook": "Kalymnos Rock Climbing (Aris Theodoropoulos, Katie Roussou), 2023–2025 editions, with an app; also the Rockfax guide (~2,300 routes) and topos on 27crags",
+   "stay": "Studios and apartments in Masouri, Armeos and Myrties right below the crags; book ahead for May and October; you'll need a scooter for the more distant sectors",
+   "pros": [
+    "Huge choice of routes at every grade, excellent bolting",
+    "Crags close to your accommodation and the sea",
+    "The grottos are an option on rainy days",
+    "Warm winter, climbable almost year-round"
+   ],
+   "cons": [
+    "Hot summers",
+    "Queues on the classics in high season",
+    "Scooter needed for the more distant sectors",
+    "Sharp limestone"
+   ],
+   "airport": "KGS — Kos, ~1–1.5 h including the ferry; JKL — Kalymnos (flights from Athens)",
+   "school_notes": [
+    "Platform for certified guides: lead climbing courses and multi-pitches",
+    "Multi-pitch courses with local instructors",
+    "Private guides, coaching, DWS"
+   ]
+  },
+  "leonidio": {
+   "h": "dd35809aed",
+   "description": "Leonidio is a small town in the eastern Peloponnese surrounded by red limestone cliffs; in 10 years it has become one of Europe's best winter sport climbing areas. About 2,700 routes in 111 sectors, from slabs to tufa-covered overhangs, plus multi-pitches in the canyon; the sea is close by, as is another area, Kyparissi (~1 h).",
+   "rating_basis": "One of Europe's main winter sport areas (8a.nu: “the winter capital of the future”), 2,700+ routes, an annual festival, glowing reviews from the BMC and UKC",
+   "hazards": "Sharp limestone, stones dislodged by goats above the crags, heat on south-facing walls in spring, winding mountain roads",
+   "crowd_note": "Busy at popular sectors near town at Christmas, in November and at Easter, but with so many sectors there are few queues",
+   "region": "Arcadia, eastern Peloponnese",
+   "season": "October–April; peak from mid-October to early January, and spring is good too; hot from mid-May to September",
+   "transfer": "~3.5 h by car from Athens airport (toll motorway, then a winding mountain road along the coast); bus from Athens ~4 h; Kalamata airport is closer but has fewer flights",
+   "rock_note": "red and grey limestone: tufas and overhangs, technical walls on small holds, multi-pitch walls in the canyon",
+   "approach": "A couple of minutes to the roadside sectors (Sabaton, Montanejos); 10–30 min uphill to most others; some sectors require a car",
+   "restrictions": "No permits or fees; climbing is supported by the Pánjika cooperative (guidebook proceeds go to route maintenance). Please use the free municipal toilets",
+   "guidebook": "Leonidio & Kyparissi (Pánjika cooperative), 5th edition 2026: 2,673 single-pitch and 49 multi-pitch routes in 111 sectors; topos also on 27crags and theCrag",
+   "stay": "Apartments and guesthouses in Leonidio and Plaka; a large beach campground ~5 km away (Camping Semeli)",
+   "pros": [
+    "Sunny south-facing sectors — excellent in winter",
+    "Wide choice of grade 6–7 routes, good bolting",
+    "Lively town, sea, campground",
+    "Kyparissi nearby"
+   ],
+   "cons": [
+    "Too hot in summer",
+    "Car needed for some sectors",
+    "Long drive from Athens"
+   ],
+   "airport": "ATH — Athens, ~3.5 h by car; KLX — Kalamata",
+   "school_notes": [
+    "Course with IFMGA guides (Mihnea Prundeanu, Kyriakos Rossidis), November–December",
+    "5-day beginner climbing course in Greece"
+   ]
+  },
+  "meteora": {
+   "h": "87c1e696e5",
+   "description": "Meteora is a group of conglomerate towers up to 300 m high, crowned with monasteries (UNESCO). About 900 multi-pitch routes put up in the Saxon Switzerland tradition: sparse ring bolts, runouts, and slings threaded around “pebbles” for protection. Nearby are the sport areas of Theopetra, Pyli and Mouzaki and the Rizoma bouldering.",
+   "rating_basis": "Unique conglomerate towers with monasteries (UNESCO), ~900 multi-pitch routes up to 285 m; but the sparse ring bolts and runouts on pebbles put off sport climbers",
+   "hazards": "Long runouts, pebbles popping off, confusion when rappelling from single ring bolts, heat",
+   "crowd_note": "Lots of tourists at the monasteries, but the routes are usually free",
+   "region": "Thessaly, Kalambaka — Kastraki",
+   "season": "April to mid-June and mid-September to November; possible on sunny winter days, very hot in summer",
+   "transfer": "~360 km from Athens (train or bus to Kalambaka, ~4–5 h), ~230 km from Thessaloniki; the nearest city is Larissa; Kastraki is 2 km from Kalambaka",
+   "rock_note": "conglomerate: towers up to 300 m high with “pebbles” instead of holds; slabs and vertical faces, technical rather than powerful climbing",
+   "approach": "5–30 min from Kastraki and the roads between the towers; descent by rappelling from ring bolts",
+   "restrictions": "UNESCO site. Climbing is forbidden on the six towers with active monasteries (an agreement dating from the 1970s); no adding bolts to the classics; overnight stays, fires and camping between the towers are prohibited. No permits or fees; wear modest clothing to visit the monasteries",
+   "guidebook": "Meteora – Climbing and Hiking (Hasse, Stutte; ~230 routes) and its 2000 supplement; Meteora Sport Climbing Guide (Vangelis Bastios, 2022) — sport in Meteora, Theopetra, Sarakina; the selections Best of the Classics (206 routes) and Rock Around the World",
+   "stay": "Vrachos and Kastraki campgrounds in Kastraki village, guesthouses in Kastraki and Kalambaka",
+   "pros": [
+    "Unique scenery and atmosphere",
+    "Long grade 5–6 routes",
+    "Campgrounds right below the towers",
+    "No fees"
+   ],
+   "cons": [
+    "Sparse protection — experience and trad gear needed",
+    "Hot in summer",
+    "Wet conglomerate is slippery; the “monastery” towers are off-limits"
+   ],
+   "airport": "SKG — Thessaloniki, ~3 h; ATH — Athens, ~4 h",
+   "famous_lines": [
+    "Traumpfeiler (Pillar of Dreams) ~5c+, 250 m (Heiliger Geist)",
+    "Südwestgrat 6a, 180 m (Holy Ghost Guardian)",
+    "Alptraum VII-, 90 m (Holy Ghost Guardian)",
+    "Black Magic 6a+ (Holy Ghost Guardian)"
+   ],
+   "school_notes": [
+    "Introductory outings with an instructor for beginners and intermediates",
+    "Guide for experienced climbers, multi-pitches"
+   ]
+  },
+  "paklenica": {
+   "h": "00628ace06",
+   "description": "Paklenica is a national park on the slopes of Velebit above the Adriatic and Croatia's main climbing area. About 600 marked routes: short sport routes in the Klanci canyon section and long multi-pitches up to 350 m on Anića kuk, Veliki Čuk and Debeli kuk. A mix of sport, “big wall” and the sea 10 minutes away.",
+   "rating_basis": "Croatia's main climbing area: ~600 equipped routes from 3 to 8b+, multi-pitches up to 350 m on Anića kuk, an international climbers' meeting in early May",
+   "hazards": "Rockfall on the big walls, old pitons, heat and snakes in summer, the strong bora wind",
+   "crowd_note": "Crowded in Klanci over the May holidays (the international climbers' meeting) and in summer; the big walls are quieter",
+   "region": "Zadar County, Velebit range, Starigrad-Paklenica",
+   "season": "April to late October; hot in summer, but there's plenty of shade in the canyon; in winter the sunny Crljenica is possible, though the bora can blow",
+   "transfer": "Zadar airport is ~45 km away (taxi, rental car or bus to Starigrad); ~2 h from Split",
+   "rock_note": "karst limestone of the Velika Paklenica canyon: short sport routes in Klanci and walls up to 350 m (Anića kuk), old routes on pitons and new ones on bolts",
+   "approach": "The Klanci sector is 5 min from the parking at the canyon entrance; 30–60 min along the trail to Anića kuk and the other big walls",
+   "restrictions": "National park: paid entry (1-, 3- and 5-day and annual tickets; climbing is included in the ticket). Climbing is allowed only in the Velika Paklenica canyon (forbidden in Mala Paklenica); soloing is forbidden and helmets are mandatory; new routes only with the park's permission; some routes close for nesting; camping in the park is prohibited",
+   "guidebook": "Paklenica Climbing Guide (2026 edition); topos on theCrag and 27crags (~1,200 routes including neighbouring areas)",
+   "stay": "Campgrounds and apartments in Starigrad-Paklenica by the park entrance; three mountain huts in the hills",
+   "pros": [
+    "Multi-pitches up to 350 m next to the sea",
+    "Shade in the canyon in summer",
+    "Lots of routes for beginners",
+    "Rescuers on duty in summer"
+   ],
+   "cons": [
+    "Paid entry to the national park",
+    "Old piton routes require trad experience",
+    "Few hard routes",
+    "Limited parking"
+   ],
+   "airport": "ZAD — Zadar, ~45 min",
+   "famous_lines": [
+    "Mosoraški 5.10a, 10 pitches (Anića kuk)",
+    "Velebitaški 5.10b, 11 pitches (Anića kuk)",
+    "Brahm 5c, UIAA VI (Anića kuk)",
+    "Water Song 5.10b/c, 6 pitches (Veliki Čuk)",
+    "Sjeverno rebro 5.6, 5 pitches (Veliki Čuk)"
+   ],
+   "school_notes": [
+    "Guided multi-pitch routes",
+    "Beginner climbing course"
+   ]
+  },
+  "hampi": {
+   "h": "2f5cf9d45f",
+   "description": "Hampi is the ruins of a medieval capital amid endless granite boulders on the banks of the Tungabhadra. A winter bouldering classic: more than a thousand problems from easy to 8A, cheap living in guesthouses among rice paddies and palm trees, and crash pad rental for next to nothing.",
+   "rating_basis": "One of the world's largest boulder fields (UKC): 1,400+ problems in the guidebook, 700+ according to PlanetMountain, a unique landscape with the ruins of the Vijayanagara Empire",
+   "hazards": "Heat, sharp granite, stomach bugs (don't drink tap water), stray dogs, monkeys and bats (rabies risk), snakes and scorpions under the boulders",
+   "crowd_note": "In season a couple of hundred climbers live on the island, but there are enough boulders for everyone",
+   "region": "Karnataka, Tungabhadra River",
+   "season": "November–February; best December–January (cool and dry); from March the heat approaches 40°, and June to September is monsoon",
+   "transfer": "Fly to Bangalore, take an overnight train or bus to Hospet (~7 h), a 20–30-min rickshaw ride and a boat to the island; ~8–9 h by bus from Goa",
+   "rock_note": "orange granite of ancient boulder fields: sharp small holds, friction; by the river, water-polished grey granite",
+   "approach": "Most boulders are 5–20 min on foot from the Hampi Island (Virupapur Gaddi) guesthouses; cross the river by boat",
+   "restrictions": "Hampi is a UNESCO site: don't climb on temples or monuments; some guesthouses have been demolished under the monument protection plan, and accommodation is shifting to Hospet and the villages; some boulders are on private land; alcohol is officially banned",
+   "guidebook": "Golden Boulders — Hampi (GeoQuest, 2013): 10 areas, 1,400+ problems",
+   "stay": "Simple guesthouses and huts on Hampi Island (Virupapur Gaddi), hotels in Hampi Bazaar and Hospet; prices shoot up at Christmas and New Year",
+   "pros": [
+    "A huge number of boulders within walking distance",
+    "Very cheap",
+    "Unique scenery with UNESCO temples",
+    "Easy to combine with Goa"
+   ],
+   "cons": [
+    "Short season: hot even in November and February",
+    "Sharp rock — hard on the skin",
+    "Accommodation uncertainty due to guesthouse demolitions",
+    "Visitors often get stomach problems"
+   ],
+   "airport": "BLR — Bangalore, ~7 h; GOI — Goa, ~8 h"
+  },
+  "arco": {
+   "h": "6b86105342",
+   "description": "A small town at the northern tip of Lake Garda — one of the hubs of European climbing and the birthplace of the Rock Master competition. Thousands of sport routes on well over a hundred crags, from practice slabs to 9b, plus the big multi-pitch walls of the Sarca valley. The mild climate makes climbing possible almost all year round.",
+   "rating_basis": "The cradle of Italian sport climbing and home of Rock Master: >5,000 routes on 130+ crags and the big walls of the Sarca valley, all close to Lake Garda (PlanetMountain, Climb Europe, theCrag)",
+   "hazards": "Rockfall on the big walls, polish, summer heat, mountain thunderstorms",
+   "crowd_note": "Very busy at Easter and on public holidays (Germans, Austrians, Italians), and the Massone classics are polished; the more distant crags are quieter",
+   "region": "Trentino, northern shore of Lake Garda, Sarca valley",
+   "season": "March–May and September–November; in winter, south-facing walls on calm days; in summer, shady and higher sectors, plus the Ora wind in the afternoon",
+   "transfer": "Verona ~1 h 15 min by car (≈80 km), Bergamo ~2 h; buses from Rovereto/Trento; a car is advisable",
+   "rock_note": "grey and orange limestone of the Sarca valley: slabs, vertical walls and overhangs on 130+ sport crags, and the big walls of Monte Brento and Monte Casale up to 1,000–1,400 m",
+   "approach": "most sport crags are 2–20 min from the road, or reachable on foot/by bike from Arco; the big walls involve mountain approaches of 1 h or more",
+   "restrictions": "Many crags are on private land — conflicts with landowners and closures do happen; respect local bans and access restrictions; parking at Massone is limited — better to walk or cycle",
+   "guidebook": "Arco Rock (6,000 routes, 139 crags), Arco Pareti / sport climbing guide (~4,400 routes, 131 crags)",
+   "stay": "Hotels, apartments, B&Bs and campgrounds in Arco and Riva del Garda; the town has dozens of gear shops",
+   "pros": [
+    "Huge choice for all levels",
+    "Sport, multi-pitch and big walls in one place",
+    "Mild winters and lots of schools",
+    "A town with infrastructure and a lake for rest days"
+   ],
+   "cons": [
+    "Polished classics near town",
+    "Hot and crowded in summer",
+    "Landowner conflicts at some crags",
+    "Few options in the rain"
+   ],
+   "airport": "VRN — Verona, ~1.2 h; BGY — Bergamo, ~2 h; also Brescia",
+   "famous_lines": [
+    "Massone (Policromuro) — ~150 routes 4a–9b, venue of the Rock Master competition",
+    "Ali di Pollo (Calvario) — qualifier for the first Rock Master, 1987",
+    "Luisa Violenta (Spiaggia delle Lucertole) — a 1980s classic by Mariacher and Iovane",
+    "Belvedere (Nago) — beginner slabs and a wall up to 7c with a view of Lake Garda"
+   ],
+   "school_notes": [
+    "IFMGA mountain guides",
+    "Multi-pitch routes",
+    "Online booking",
+    "Beginner courses"
+   ]
+  },
+  "finale-ligure": {
+   "h": "4e6c0ed555",
+   "description": "Hills above the Italian Riviera with dozens of limestone crags among woods and olive groves — Italy's classic winter area. Around 4,000 sport routes from 3a to 8c+, mostly 6a–7a, with technical climbing on small pockets. On rest days there's the sea, medieval Finalborgo and mountain biking.",
+   "rating_basis": "One of Italy's oldest and largest sport climbing areas: ~4,000 routes, technical pocketed limestone, a winter season by the sea; Climb Europe, Mountain Project, PlanetMountain",
+   "hazards": "Polish, northerly wind in winter, sectors closed for nesting — fines apply",
+   "crowd_note": "On holidays and weekends Monte Cucco and Rocca di Corno are popular and the classics are polished; there are so many crags that you can always find a quiet spot",
+   "region": "Liguria, province of Savona, Italian Riviera (Finalborgo)",
+   "season": "October–May; in winter, south-facing sectors by the sea sheltered from the northerly wind; in spring and autumn, everything; hot and crowded in summer",
+   "transfer": "Genoa ~45 min–1 h on the A10; Nice ~1.5–2 h; train to Finale Ligure Marina station; you need a car or scooter for the crags",
+   "rock_note": "“pietra di Finale” — pale, porous reef limestone: small pockets, edges, technical vertical climbing; routes are usually 20–30 m, the Bric Pianarella wall up to 250 m",
+   "approach": "5–30 min along forest trails from the parking in the Aquila, Ponci and Perti valleys; the crags are spread over ~10 km², so you need a car or scooter",
+   "restrictions": "Protection of peregrine falcons and eagle owls: parts of Caprazoppa (from the relay mast down to the sea by Torre Colombara), Pianarella (beyond the “Via Lunga”), Casa delle Vacche, Rocca di Corno (beyond the route “Il Futuro è un'Ipotesi”) and the whole of Capo Noli above the Via Aurelia are closed year-round; Monte Tolla, Bric Reseghe, Rocca degli Uccelli and the right and central sectors of the Bastionata di Boragni are closed from 1 January to 31 July",
+   "guidebook": "Finale Climbing (Versante Sud, 2022, in English), about 4,000 routes in 213 sectors",
+   "stay": "Campgrounds and apartments in Finalborgo and Finale Marina, agriturismi in the valleys; Finalborgo has gear shops and climbers' bars",
+   "pros": [
+    "Huge choice of 5c–7a",
+    "Mild winters by the sea",
+    "Beautiful crags in the woods and medieval Finalborgo",
+    "Lots of guides and shops"
+   ],
+   "cons": [
+    "Polished classics",
+    "Hot and touristy in summer",
+    "Crags are spread out — transport needed",
+    "Stiff grades and a technical style"
+   ],
+   "airport": "GOA — Genoa, ~1 h; NCE — Nice, ~1.5–2 h; TRN — Turin, ~2 h",
+   "famous_lines": [
+    "Peace 7a+ (Rocca di Corno)",
+    "Via Lunga, multi-pitch (Bric Pianarella)",
+    "Monte Cucco and Rocca di Perti — classic 5c–7a sectors"
+   ],
+   "school_notes": [
+    "Local IFMGA mountain guide office, year-round",
+    "Multi-pitch routes, year-round",
+    "Beginner course, May–June"
+   ]
+  },
+  "sardinia-cala-gonone": {
+   "h": "1a41689ebd",
+   "description": "The limestone coast of the Gulf of Orosei, with crags right above the beaches — a classic winter destination. Cala Gonone has more than 700 routes, from beginner slabs to the Millennium cave with tufas up to 8c+, while further south in Ogliastra there are the multi-pitches of Punta Giradili and the Goloritzé spire, plus more than 1,200 routes at Ulassai and Jerzu.",
+   "rating_basis": "One of the best winter areas in the Mediterranean: limestone above a turquoise sea, the Millennium cave, the classic multi-pitches of Goloritzé and Giradili; Climb Europe, UKC, PlanetMountain",
+   "hazards": "Rusty protection on some of the older routes by the sea (Cala Luna), rappel anchors hard to find on Grotta dei Colombi, cold mistral wind on the multi-pitches",
+   "crowd_note": "Few people in winter; the Biddiriscottai and Buchi Arta classics are popular over holidays; in summer the beaches are packed with tourists",
+   "region": "Sardinia, Dorgali (Cala Gonone), Gulf of Orosei; further south — Baunei, Ulassai, Jerzu",
+   "season": "October–May; 13–20 °C by the sea in winter, best November–April; too hot and touristy in summer",
+   "transfer": "A car is needed: Olbia ~1.5–2 h via the SS131 DCN and SS125; Cagliari ~3 h; Alghero ~2.5–3 h; ~1 h on a mountain road from Cala Gonone to Baunei",
+   "rock_note": "white and grey limestone by the sea: caves with tufas (Millennium), slabs and walls above the Cala Fuili and Cala Luna beaches, multi-pitch walls of 200–400 m (Grotta dei Colombi, Punta Giradili, the Goloritzé spire)",
+   "approach": "from 5 min (Buchi Arta) to 30–60 min along coastal trails to the beach sectors; the Millennium cave has a via ferrata-style approach; some sectors can be reached by boat",
+   "guidebook": "Rock Climbing in Cala Gonone (Corrado Conca, 2025, >700 routes in 9 areas); online topos at climbingitaly.com",
+   "stay": "Apartments and hotels in Cala Gonone and Dorgali (much is closed in winter, but accommodation is cheap), a climbers' house in Lotzorai, apartments in Baunei and Arbatax",
+   "pros": [
+    "Climbing above the sea and beaches",
+    "Mild winters",
+    "World-class seaside multi-pitches",
+    "Few people outside summer"
+   ],
+   "cons": [
+    "Some shops and restaurants close in winter",
+    "The scirocco makes the caves damp and slippery",
+    "Far from airports, car needed",
+    "Too hot in summer"
+   ],
+   "airport": "OLB — Olbia, ~1.5–2 h; CAG — Cagliari, ~3 h",
+   "famous_lines": [
+    "Millennium cave 6a–8c+ — tufas on a par with Kalymnos's Grande Grotta",
+    "Hey Jude 5c (La Poltrona)",
+    "L'Alchimista 6c+, multi-pitch (Grotta dei Colombi)",
+    "Wolfgang Güllich 7a (6b obl.), 400 m (Punta Giradili, Baunei)",
+    "Easy Gymnopedie 6b, 5 pitches (Goloritzé spire)"
+   ],
+   "school_notes": [
+    "Guides for sport and multi-pitch routes"
+   ]
+  },
+  "wadi-rum": {
+   "h": "3e45fd9c5a",
+   "description": "Wadi Rum is a UNESCO-listed desert in southern Jordan with sandstone massifs up to 500 m high. About 350 routes, mostly trad and long 5–6b multi-pitches up cracks, many of them following old Bedouin paths; sport routes can be counted on one hand. This is adventure climbing: long approaches, rappel descents, nights in the desert.",
+   "rating_basis": "A legendary adventure climbing area: walls up to 500 m in a UNESCO desert, Tony Howard's 1980s classics; few bolted routes for sport climbers",
+   "hazards": "Loose rock and fragile holds, sun-bleached slings at the anchors, sand that wears through ropes, flash floods, heat and dehydration, cold nights in winter",
+   "crowd_note": "Lots of jeep tourists, few climbers — the routes are usually deserted",
+   "region": "Wadi Rum Protected Area (UNESCO), southern Jordan",
+   "season": "October–May; best in November and March–April; too hot in summer (+40 °C)",
+   "transfer": "40–50 min by taxi from Aqaba (20–40 JD); 3–4 h from Amman (80–110 JD); buses run twice a day from Aqaba and Amman to the Rest House",
+   "rock_note": "sandstone desert massifs up to 500 m high: long crack systems and chimneys, with fragile and crumbly rock in places",
+   "approach": "15–60 min on foot from Rum village to the Jebel Rum walls; the more distant massifs (Burdah, Barrah, Nassrani) by Bedouin jeep",
+   "restrictions": "Entry to the protected area costs 5 JD per person (free with the Jordan Pass). Tourists may not drive around the desert on their own — for the more distant walls you need a local Bedouin guide / driver. Wet sandstone is fragile: once the surface has dried, wait another day. There are almost no bolts; trad ethics",
+   "guidebook": "Treks and Climbs in Wadi Rum (Tony Howard, Cicerone, 4th ed. 2007, out of print; ~350 routes); Thierry Souchard's 2017 selected guide (180 multi-pitches) and a digital topo on OmegaRoc",
+   "stay": "Camping by the Rest House in Rum village (~2 JD with your own tent), Bedouin homes in the village (15–25 JD with dinner and breakfast) and desert camps (~50 JD with meals and transfer)",
+   "pros": [
+    "Long trad routes in fantastic scenery",
+    "Empty walls",
+    "Bedouin hospitality, Petra nearby"
+   ],
+   "cons": [
+    "Almost no bolts — trad experience and gear needed",
+    "Fragile sandstone, no climbing after rain",
+    "A guide-driver needed for the more distant walls",
+    "Hot summers"
+   ],
+   "airport": "AQJ — Aqaba, ~50 min; AMM — Amman, ~4 h",
+   "famous_lines": [
+    "Pillar of Wisdom 6b, 350 m (Jebel Rum)",
+    "Towering Inferno 6b, 500 m (Jebel Rum)",
+    "Lionheart 6b, 350 m (Jebel Rum)",
+    "The Beauty 6a, 200 m (Jebel Nassrani)",
+    "Merlin's Wand 6a+, 150 m (Barrah Canyon)"
+   ]
+  },
+  "ogawayama": {
+   "h": "def4875b82",
+   "description": "Ogawayama is a granite area in a pine forest at around 1,500–1,700 m and the birthplace of Japanese free climbing in the early 1980s. It's known for cracks and friction slabs (trad and multi-pitch) and one of the best boulder fields in Japan. The domes of Mizugaki-yama, with long multi-pitches, are nearby.",
+   "rating_basis": "Japan's most popular climbing area and the birthplace of Japanese free climbing (Mountain Project): granite cracks, slabs and 21 bouldering sectors, with strong problems up to 5 dan",
+   "hazards": "Unreliable old pitons on trad routes, falls on slabs, summer thunderstorms, bears and ticks in the forest",
+   "crowd_note": "Lots of Japanese climbers at weekends and on holidays (Golden Week in early May); quiet on weekdays",
+   "region": "Nagano, Kawakami village, Chichibu mountains",
+   "season": "April–November; best in May and September–October; June is the rainy season (tsuyu), frost and snow from December to March",
+   "transfer": "~3–4 h by car from Tokyo on the Chūō Expressway; or train to Shinano-Kawakami station (Koumi Line) and a taxi",
+   "rock_note": "pale granite in a pine forest: cracks, friction slabs, pocketed boulders; the “Japanese Yosemite”",
+   "approach": "All 21 bouldering sectors are within walking distance of the Mawarime-daira campground: 5–40 min through the forest",
+   "restrictions": "Mawarime-daira campground is open from late April to early November (entry ¥700 per day + ¥1,300 per night in a tent); book ryokan in advance; trad routes need your own gear; cash is essential. The neighbouring granite massif is Mizugaki-yama (Yamanashi): multi-pitches on domes, cracks, sport and bouldering",
+   "guidebook": "Ogawayama Bouldering Area Guide (2020); Ogawayama, Mitake, Mitsumine (Tokio Muroi); Nihon no Iwaba No. 3 (Kitayama Makoto) for routes; the books are in Japanese and sold at the Ogawayama shop",
+   "stay": "Campground and bungalows in the Mawarime-daira meadow at the foot of the crags (late April to early November), ryokan",
+   "pros": [
+    "Classic granite: cracks, slabs and bouldering in one place",
+    "Cool in summer thanks to the altitude",
+    "Campground right by the rock"
+   ],
+   "cons": [
+    "Japanese grades (kyu/dan) and harsh grading",
+    "Rainy season in June, snow in winter",
+    "Hard to reach without a car",
+    "Guidebooks in Japanese"
+   ],
+   "airport": "HND / NRT — Tokyo, 3–5 h by car",
+   "famous_lines": [
+    "Crazy Jam 6b+ (Oyayubi Iwa, trad)",
+    "Ogawayama Layback 5c (Oyayubi Iwa, trad)",
+    "Selection 5c (Yane Nihou, 7 pitches)",
+    "Kujiraiwa — “The Whale” (boulder by the parking)",
+    "Fukakai — “The Mysterious Slab” (3- and 5-dan boulders)"
+   ]
+  },
+  "ak-suu-karavshin": {
+   "h": "ed47982828",
+   "description": "The Ak-Suu and Kara-Suu (Karavshin) valleys in the Turkestan Range are a legendary big-wall granite area, the “Patagonia of Asia”. Asan and Usen peaks, the Russian Tower, Peak 4810 and the north face of Ak-Suu (5,217 m) offer routes of 400 to 1,400 m — from free climbing at 6c–8a+ to Russian grade 6B. For experienced climbers only: expedition logistics, a border zone and no infrastructure whatsoever.",
+   "rating_basis": "One of the world's best big-wall granite areas (the “Patagonia of Asia”): routes up to 1,400 m, a classic venue of Russian mountaineering championships and international expeditions",
+   "hazards": "Rockfall and ice in the afternoon, thunderstorms and hail, altitude, remoteness from help, border zone",
+   "crowd_note": "Only a few expeditions come each season — the walls are almost always empty",
+   "region": "Batken Region, Turkestan Range (Pamir-Alay), Ak-Suu and Kara-Suu valleys",
+   "season": "Mid-June to September; best July–August; more precipitation in autumn, and the area is inaccessible in winter",
+   "transfer": "Fly to Bishkek, then on to Osh or Batken; drive to Vorukh (Karavshin) or Uzgurush / Katran (Lyailyak), then a day on foot with horses or donkeys; a helicopter drop-off is possible",
+   "rock_note": "monolithic granite of the “Patagonia of Asia”: walls of 400–1,400 m, cracks and dihedrals, with ice and rockfall up high",
+   "approach": "A day on foot or on horseback to base camp from Vorukh (Karavshin) or Katran / Uzgurush (Lyailyak), or a helicopter from Osh or Batken; 2–3 h from base camp to the walls",
+   "restrictions": "Border zone near the Tajik and Uzbek borders: a border permit is required (~$40 for a month, takes about a month to arrange, insurance required); there's a military checkpoint at the valley entrance. The route to Karavshin passes through the Tajik enclave of Vorukh — a Tajik visa may be needed",
+   "guidebook": "No guidebook: topos in reports in the Alpine Journal, the American Alpine Journal, alpinemag.fr and in descriptions from the Mountaineering Federation of Russia; routes are graded on both the French scale and the Russian one (5A–6B)",
+   "stay": "Tented base camps only (Kara-Suu, Ak-Suu, ~3,000 m); agencies in Osh and Bishkek rent out camp tents, gas, generators and satellite phones",
+   "pros": [
+    "Huge world-class granite walls",
+    "Almost nobody around",
+    "A summer season, when the Mediterranean is too hot"
+   ],
+   "cons": [
+    "Expedition logistics and a border permit",
+    "No infrastructure or rescue services",
+    "Rockfall, ice and thunderstorms at altitude"
+   ],
+   "airport": "OSS — Osh, or Batken; 1–2 days to base camp",
+   "famous_lines": [
+    "Perestroika Crack 7a+, 800 m (Russian Tower / Peak Slesov, Ak-Su)",
+    "Alperien 6c+, 900 m (Asan, Kara-Su)",
+    "Northwest face of Asan 7b+ (free ascent 2009)",
+    "Al Kalpak 8a+, 380 m (Little Asan)",
+    "North face of Ak-Suu, Shabalin's “Nose” 6B, ~1,400 m"
+   ],
+   "school_notes": [
+    "Bishkek agency: border permit, transport, camp, guides, gear rental"
+   ]
+  },
+  "thakhek": {
+   "h": "db48d508b1",
+   "description": "Jungle, rice paddies and karst towers 12 km from the town of Thakhek. All the climbing has grown up around the Green Climbers Home camp: 600+ sport routes in 50 sectors, many just minutes from the bungalows. Steep limestone with tufas and pockets, a good choice of 6a–7b and the overhanging cave of The Roof.",
+   "rating_basis": "UKC calls Thakhek the best sport climbing area in Southeast Asia: 600+ routes (camp figures), 51 sectors (Mountain Project), crags minutes from the camp",
+   "hazards": "Snakes, scorpions and insects in the jungle, dogs in town (rabies risk), heat; serious medical care is available only in Thailand",
+   "crowd_note": "December–January are the busiest months and the camp can be full; November and February are quieter",
+   "region": "Khammouane, Pha Tam Kam valley",
+   "season": "October–April (the camp is open from October to May); best November–February; monsoon in summer, camp closed",
+   "transfer": "Fly Bangkok — Nakhon Phanom, bus across the Friendship Bridge to Thakhek (~1.5 h), then a taxi ~12 km to the camp; buses also run from Vientiane",
+   "rock_note": "steep karst limestone: pockets, tufas, huecos; the overhanging cave of The Roof",
+   "approach": "Most sectors are 0–10 min from the camp; the distant Phantasia sector is about 30 min",
+   "restrictions": "Climbing is organised around the Green Climbers Home camp: the guidebook is sold at the camp and proceeds go to the bolt fund; respect the local villages and rice paddies",
+   "guidebook": "Green Climbers Home guidebook, sold at the camp (~USD 16–20)",
+   "stay": "Green Climbers Home camp (two camps): bungalows, tents with bedding, kitchen and bar; book ahead for December–January",
+   "pros": [
+    "Crags minutes from the camp",
+    "Cheap, everything included at the camp",
+    "Courses and rental on site",
+    "Varied aspects — you can almost always find shade"
+   ],
+   "cons": [
+    "Season limited by the camp's opening (October–May)",
+    "Heat in March–April",
+    "Remote, basic medical care"
+   ],
+   "airport": "KOP — Nakhon Phanom (Thailand), ~2 h including the border; VTE — Vientiane, ~5–6 h",
+   "famous_lines": [
+    "Jungle King 7b (The Roof)",
+    "Big Smile 8a (The Roof)",
+    "L4 One of the Best 7a (Open All Hours)",
+    "Breaking Bad 7c (Burnout)",
+    "Chinese New Year 6b (multi-pitch)"
+   ],
+   "school_notes": [
+    "Climbers' camp: courses from beginner to lead climbing, rental of ropes, quickdraws and shoes"
+   ]
+  },
+  "taghia": {
+   "h": "e88b0126f5",
+   "description": "Taghia is a Berber village deep in the High Atlas, surrounded by limestone walls up to 800–900 m high. One of the world's best areas for long sport multi-pitches: dozens of bolted routes 6b–8a on compact rock, many of them 300–600 m long. There are no roads — just a trail and mules, and life in simple gîtes.",
+   "rating_basis": "A cult area for bolted big walls: walls up to 800–900 m, modern bolted routes up to 8a (ClimbingAway); Alex Honnold free soloed Les Rivières Pourpres; the downside is the complicated logistics",
+   "hazards": "Flash floods in narrow canyons, rockfall with runoff from the plateau, evening thunderstorms, cold on the walls, stomach bugs; no rescue service",
+   "crowd_note": "In spring and autumn a few dozen climbers stay in the gîtes, but there are plenty of routes — no queues",
+   "region": "Béni Mellal-Khénifra, Central High Atlas, Zaouiat Ahansal",
+   "season": "April–May and September–October; in summer you can climb on shady walls; cold from November to March, with occasional snow",
+   "transfer": "From Marrakech to Zaouiat Ahansal 5–6 h by 4×4 taxi (or 9–10 h on two buses via Azilal), then ~2 h on foot with mules",
+   "rock_note": "compact grey and orange limestone on big walls of 200–900 m with no ledges or vegetation; long, continuous pitches",
+   "approach": "No road to the village: ~2 h on foot from Zaouiat Ahansal (mules carry the gear); from the village to the walls is 15 min to 2.5 h uphill",
+   "restrictions": "No permits. A remote area with no road and no mountain rescue — you need to be fully self-sufficient on multi-pitches and descents; respect the ways of the Berber village (clothing, photos); always treat your water",
+   "guidebook": "Taghia — Montagnes Berbères (Christian Ravier, in French); handwritten topos of new routes are kept at Said's gîte",
+   "stay": "Two gîtes in the village (Said Messaoudi's Gîte Tawjdat and Youssef's Maison de Taghia) — half board, hot water and electricity",
+   "pros": [
+    "Walls up to 800 m with modern bolting",
+    "Compact rock without ledges",
+    "An authentic Berber village",
+    "Few people"
+   ],
+   "cons": [
+    "Complicated logistics and long approaches",
+    "Almost no routes for beginners",
+    "No rescue service",
+    "Stomach bugs"
+   ],
+   "airport": "RAK — Marrakech, ~8 h including the walk-in",
+   "famous_lines": [
+    "Les Rivières Pourpres 7b+ (600 m, Petit / Piola / Robert)",
+    "Baraka 7b (6c A0, 800 m)",
+    "Axe du Mal 7c+ (600 m)",
+    "Belle et Berbère 6b+ (300 m)",
+    "Fat Guides 7b+ (~300 m)"
+   ],
+   "school_notes": [
+    "Guided trips to the Taghia multi-pitches (9 days)"
+   ]
+  },
+  "todra-gorge": {
+   "h": "94a5c3dcfe",
+   "description": "Todra is a narrow canyon with sheer walls up to 300 m on the southern slopes of the High Atlas, near the Tinghir oasis. Sport routes from 4b to 8c and endless limestone multi-pitches right from the road, with hotels at the foot of the walls. A good option in spring, autumn and on sunny winter days.",
+   "rating_basis": "Morocco's best-known climbing area: ~350 routes 4b–8c (ClimbingAway), multi-pitches up to 350 m in a scenic canyon; downsides are the uneven fixed gear and tourists by the sectors",
+   "hazards": "Rockfall from the walls, unreliable anchors on old routes, flash floods and a washed-out road after downpours, no mountain rescue and no phone signal",
+   "crowd_note": "Few climbers; by day the gorge entrance is crowded with tourists and souvenir sellers",
+   "region": "Drâa-Tafilalet, Tinghir, southern slopes of the High Atlas",
+   "season": "March–June and September–November; in winter you can climb on sunny walls (~15° by day, frost at night); July–August is scorching",
+   "transfer": "Fly to Ouarzazate, then ~3 h by car; ~7 h from Marrakech across the Atlas (or a bus to Tinghir and a 15 km taxi ride)",
+   "rock_note": "grey and orange limestone on the canyon's sheer walls up to 300 m: vertical faces, friction slabs, pockets",
+   "approach": "Sectors along the road in the gorge: 1–15 min from the car or hotel; Pieds dans l'Eau requires wading across the river",
+   "restrictions": "No permits; the two sectors at the gorge entrance are busy with tourists and vendors during the day — climb in the morning or towards evening. Not all routes have chained anchors; Morocco has no mountain rescue service; floods wash out the road into the gorge",
+   "guidebook": "Todra — Rock Climbing in Morocco's Todra Gorge (Oxford Alpine Club / Cordee, 5th ed.); a local printed guide from 2014 (Tizgui); digital topo in the ClimbingAway app",
+   "stay": "Hotels and hostels in Tizgui village and right in the gorge (Hotel Yasmina, Mansour, La Vallée), campsites on the road to the gorge; for more comfort, kasbahs in Tinghir",
+   "pros": [
+    "Long bolted multi-pitches",
+    "Approach — minutes from your hotel",
+    "Cheap, a colourful Berber oasis",
+    "Climbable in winter too"
+   ],
+   "cons": [
+    "Inconsistent fixed gear and anchors",
+    "Tourists and vendors by the main sectors",
+    "Very hot in summer",
+    "No rescue service or phone signal in the gorge"
+   ],
+   "airport": "OZZ — Ouarzazate, ~3 h; ERH — Errachidia, ~2.5 h; RAK — Marrakech, ~7 h",
+   "famous_lines": [
+    "Berbertraum 5c (Aiguille des Palmeraies, 13 pitches, 340 m)",
+    "Smoufond 6a+ (Pieds dans l'Eau, ~150 m)",
+    "Vol de Défilé 6a (Aiguille du Gué, 4 pitches)",
+    "Pilier du Couchant (classic multi-pitch)"
+   ],
+   "school_notes": [
+    "Local guides, gear rental and sales, route rebolting in agreement with the authorities"
+   ]
+  },
+  "tsaranoro": {
+   "h": "1e93e01cff",
+   "description": "Tsaranoro is a set of granite walls up to 800 m high above a valley by the Andringitra massif in southern Madagascar. Some of the world's hardest multi-pitch routes have been climbed here (Mora Mora 8c), but there are also 6b–7a classics such as Out of Africa. Camp Catta sits right below the walls, surrounded by ring-tailed lemurs and Betsileo villages.",
+   "rating_basis": "One of the world's best granite big-wall areas (UKC, PlanetMountain): walls up to 800 m, bolted multi-pitches from 6a to 8c (Mora Mora, Adam Ondra); 50–100 routes (ClimbingAway)",
+   "hazards": "Long walls and descents in the dark, heat on sunny slabs, cold on the summits in July, stomach bugs, no rescue service",
+   "crowd_note": "Only a handful of climbers even in September — the walls are empty",
+   "region": "Haute Matsiatra, Tsaranoro valley by the Andringitra massif, Ambalavao",
+   "season": "May–October (dry season); September and early October are the most popular, while July is cold on the summits; November to March brings heat and rain",
+   "transfer": "Fly to Antananarivo, then a full day on the road via Fianarantsoa and Ambalavao (the last stretch is a dirt track by 4×4); the camps arrange transfers",
+   "rock_note": "compact big-wall granite up to 800 m: slabs and vertical faces on small edges, almost no natural protection — routes are bolted ground-up",
+   "approach": "30 min to 1.5 h uphill on foot from Camp Catta below the walls; the road from Ambalavao is a dirt track, with the last part by 4×4",
+   "restrictions": "A remote area with no rescue service — complete self-sufficiency on the big walls, early starts (or you'll be spending the night on the wall); new routes require your own bolts and ground-up bolting skills on lead; respect local customs and taboos (fady); treat your water",
+   "guidebook": "Route topos are kept at Camp Catta; there is no separate modern guidebook — topos on theCrag",
+   "stay": "Camp Catta right below the walls (tents, bungalows, bar) or Tsaranoro Camp; basic camping in the village",
+   "pros": [
+    "World-class granite big walls",
+    "Empty walls, no queues",
+    "Camp right below the walls",
+    "Lemurs and the exotic feel of Madagascar"
+   ],
+   "cons": [
+    "Long, arduous journey",
+    "Almost no easy routes",
+    "No rescue service or medical care nearby",
+    "Bolting is sparse in places"
+   ],
+   "airport": "TNR — Antananarivo, ~10–12 h by car",
+   "famous_lines": [
+    "Out of Africa 7a (Tsaranoro Kely, 580 m, 14 pitches)",
+    "Gondwanaland 7c (Tsaranoro Be, 20 pitches)",
+    "Mora Mora 8c (Tsaranoro Atsimo, Adam Ondra)",
+    "Tough Enough 8b+ (Karambony)",
+    "Yellow Fever 7c (Lemur Wall)"
+   ]
+  },
+  "el-potrero-chico": {
+   "h": "6450196021",
+   "description": "A canyon of giant limestone “fins” near Monterrey — one of North America's top winter destinations and the best area in the Americas for long sport multi-pitches. Well-bolted routes of up to 23 pitches (Time Wave Zero), hundreds of single-pitch routes 10 minutes from the campground and a friendly climbing scene in December–January.",
+   "rating_basis": "One of North America's top winter destinations and the best area in the Americas for long sport multi-pitches: ~680 routes on Mountain Project (~7k views a month), more than 140 multi-pitches of up to 23 pitches",
+   "hazards": "Rockfall (helmet essential), long rappels off multi-pitch routes in the dark, heat on sunny days, fast-building thunderstorms; dogs and petty theft at the campgrounds",
+   "crowd_note": "In December–January (especially over the holidays) there are queues on the popular multi-pitches Space Boyz, Estrellita and Time Wave Zero — parties start before dawn",
+   "region": "Nuevo León, Sierra Madre Oriental, near the town of Hidalgo (40 km from Monterrey)",
+   "season": "November–February (peak December–January, when climbers from all over North America gather); October and March are warm but climbable; from April to September the heat tops +30 °C, and late summer brings downpours and tropical storms",
+   "transfer": "Fly to Monterrey, then a taxi or a La Posada transfer to Hidalgo (~45 min, taxi ~$50–60); by car from Laredo (Texas) ~3 h on toll roads",
+   "rock_note": "grey-orange limestone on vertical slab “fins” up to 600 m high on both sides of the canyon: vertical and slightly overhanging walls with slots, pockets and arêtes; loose rock in places",
+   "approach": "5–20 min on foot from the campgrounds and guesthouses at the canyon entrance; up to 30–40 min to the more distant multi-pitches",
+   "restrictions": "The canyon lies within El Potrero Chico municipal park — driving in requires a parking pass (check with the park administration). If driving from the US: tourist card, Mexican insurance, daytime driving only on toll roads; check the safety advisories for Nuevo León state before your trip. Helmets are a must — rockfall happens in the canyon.",
+   "guidebook": "Magic Ed's guidebook (The Whole Enchilada) and the Rakkup digital guide; updated topos are sold on site at cafés and campgrounds",
+   "stay": "Climbers' campgrounds and guesthouses at the canyon entrance: La Posada (pool, restaurant, airport transfers), Homero's (since 1989), Quinta La Pagoda (closest to the walls), Rancho el Sendero, Estancia San José; camping ~$5–8, rooms ~$20–50",
+   "pros": [
+    "Long, fully bolted mid-grade multi-pitches",
+    "Warm, dry winter",
+    "Cheap living, campgrounds 10 min from the walls",
+    "A great place to step up from single-pitch sport to multi-pitch"
+   ],
+   "cons": [
+    "Few hard top-end single-pitch routes",
+    "Queues on popular multi-pitches over the holidays",
+    "Loose rock on less-travelled routes",
+    "Safety concerns when driving through northern Mexico"
+   ],
+   "airport": "MTY — Monterrey, ~45 min",
+   "famous_lines": [
+    "Time Wave Zero 5.12a (7a+), 23 pitches",
+    "El Sendero Luminoso 5.12+ (7b/7b+), 15 pitches, El Toro — free soloed by Alex Honnold in 2014",
+    "Yankee Clipper 5.12a (7a+), 15 pitches",
+    "Estrellita 5.10c (6b), 12 pitches",
+    "Space Boyz 5.10d (6b+), 11 pitches"
+   ],
+   "school_notes": [
+    "US school: winter climbing programmes and multi-pitch courses in Potrero Chico"
+   ]
+  },
+  "castle-hill-kura-tawhiti": {
+   "h": "412dea8830",
+   "description": "Kura Tawhiti (Castle Hill) is a field of huge limestone boulders on hills between the Torlesse and Craigieburn ranges and New Zealand's premier bouldering spot. The rounded shapes demand friction and mantel technique, while neighbouring Flock Hill, Spittle Hill and Quantum Field add thousands more problems. The site is sacred to Ngāi Tahu, and the rules of conduct are strict.",
+   "rating_basis": "New Zealand's premier bouldering spot (Wikipedia, ClimbNZ): thousands of limestone boulders in the Castle Hill Basin, problems up to 8A and beyond, iconic scenery",
+   "hazards": "Sudden weather changes and westerly winds, hypothermia in winter, strong sun (high UV), falls from tall highballs onto uneven ground",
+   "crowd_note": "Lots of tourists and climbers at the boulders closest to the car park; Flock Hill and the more distant sectors are quiet",
+   "region": "Canterbury, Castle Hill Basin, SH73 to Arthur's Pass",
+   "season": "March–May and October–November (southern hemisphere autumn and spring); cold in winter with occasional snow, but friction is excellent on dry, sunny days; a bit hot in the sun in summer",
+   "transfer": "~80 min by car from Christchurch on SH73; the TranzAlpine train passes by but doesn't stop",
+   "rock_note": "grey limestone “castle” boulders on grassy hills: rounded shapes, slopers, mantels and friction; the rock polishes quickly",
+   "approach": "10–20 min on foot from the car park on SH73 along a trail across private pasture",
+   "restrictions": "A DOC reserve with Tōpuni status (wāhi tapu, sacred sites of Ngāi Tahu): stay on the trail, don't dig or trample rare plants, respect temporary access restrictions; brush off chalk and tick marks; new bolts are prohibited and trad is discouraged; no dogs. Neighbouring Flock Hill is a private station and requires a short online certification",
+   "guidebook": "The Comprehensive Castle Hill Climbing Guide; online topos on castlehillbasin.co.nz and ClimbNZ",
+   "stay": "Holiday houses in Castle Hill village, the DOC campsite at Craigieburn, hostels and hotels in Springfield and Christchurch",
+   "pros": [
+    "A huge number of boulders for all levels",
+    "Short approach from the highway",
+    "Spectacular scenery",
+    "Easy to reach from Christchurch"
+   ],
+   "cons": [
+    "The rock polishes quickly",
+    "Changeable mountain weather, snow in winter",
+    "Strict cultural rules"
+   ],
+   "airport": "CHC — Christchurch, ~1 h 20 min"
+  },
+  "paynes-ford": {
+   "h": "777c3d359a",
+   "description": "Paynes Ford is a set of limestone walls along the Takaka River in subtropical bush near Golden Bay — New Zealand's most “holiday-like” sport climbing area. About 250 routes 5–7b+, mostly 15–25 m long, with the legendary Hangdog climbers' campground right by the crags. The Tarakohe sea cliffs are nearby.",
+   "rating_basis": "New Zealand's best sport area for a climbing holiday: ~250 routes (Mountain Project) next to a climbers' campground, limestone in the bush; few hard routes",
+   "hazards": "Slippery rock in damp weather, sandflies, wasps in late summer",
+   "crowd_note": "At Christmas and New Year Hangdog is full and there are waits on popular routes; almost empty in winter",
+   "region": "Tasman, Golden Bay, Takaka",
+   "season": "year-round; best March–May and October–November; humid and crowded in summer (Christmas–New Year), cool in winter but with good friction",
+   "transfer": "~1.5–2 h by car from Nelson over Takaka Hill; ~6 h from Christchurch",
+   "rock_note": "grey limestone in subtropical bush by the river: vertical and slightly overhanging, pockets, flowstone, slopers, roofs in places",
+   "approach": "5–15 min along well-kept trails from Hangdog Camp and the reserve car park; the Tarakohe sea cliffs are 15 min away by car",
+   "restrictions": "The crags are in the Paines Ford Scenic Reserve (DOC): no fires, stay on the trails; after heavy rain the walls take several days to dry — don't climb on dirty or wet rock",
+   "guidebook": "Golden Bay Climbing Guide; online topos on theCrag and thetopo.com",
+   "stay": "Hangdog Camp — a private climbers' campground a few metres from the crags (showers, toilets, bunkhouse); accommodation in Takaka, 5 min away",
+   "pros": [
+    "Campground a minute from the crags",
+    "Lots of mid-grade routes",
+    "Beautiful bush and a river for swimming",
+    "Climbable year-round"
+   ],
+   "cons": [
+    "Few hard routes",
+    "Humid in summer — the rock gets greasy",
+    "Walls take a long time to dry after rain",
+    "Far from major cities"
+   ],
+   "airport": "NSN — Nelson, ~2 h"
+  },
+  "guamka": {
+   "h": "56d53a5e75",
+   "description": "Guamka is a hamlet at the entrance to the Guam Gorge, with 400 m cliffs above the Kurdzhips River, and the main sport climbing area of southern Russia. More than 250 routes from 4 to 9a in 17 shady forest sectors. Other crags lie nearby in Adygea: the historic Khadzhokh sectors (“Korotyshki”, “Rossiya” — about twenty routes), “Obval” above Dakhovskaya, and Doguako (60+ routes, ~1,100 m).",
+   "rating_basis": "The main sport area of southern Russia: 250+ routes up to 9a, rated 5 stars by the Russian Climbing Federation (FSR), national climbing festivals; shady crags make summer climbing possible",
+   "hazards": "Ticks, rockfall, limestone slippery after rain, snakes",
+   "crowd_note": "In summer and at weekends lots of climbers from Krasnodar and training camps; during festivals the popular sectors are busy",
+   "region": "Krasnodar Krai, Apsheronsky District, on the border with Adygea (Western Caucasus)",
+   "season": "April–October; best July–October (cool by the rock, August is the most stable month); frequent rain in spring and June",
+   "transfer": "Fly or take the train to Krasnodar (~156 km, ~3 h by car via Apsheronsk); Apsheronsk — Guamka bus twice a day",
+   "rock_note": "limestone in the forest above the Kurdzhips River: vertical and overhanging, routes of 12–35 m, up to 50 m in the “Stalingrad” sector",
+   "approach": "Sectors in the forested part of the gorge, 10–40 min on foot from the hamlet",
+   "restrictions": "While the tourist train is running on the narrow-gauge railway, walking through the gorge from its start to the station by the “1707” café is not allowed. No climbing fees; the guidebook is sold to support bolting",
+   "guidebook": "“Skalolazanie v Guamke” (Climbing in Guamka; AllClimb — the Pologrudovs and ClimbLife — the Shaferovs, with FSR support, 2019 ed.): 250+ routes in 17 sectors, 5b–9a; the FSR database “Skaly Rossii” (Rocks of Russia)",
+   "stay": "Gagarin campground, the FSR base camp by the Kurdzhips River, hotels and guesthouses in the hamlet (“Guamka”, “Bolshaya Medveditsa”, “Orekhovaya Roshcha”); thermal pools in Volodeya, 7 km away",
+   "pros": [
+    "Shade and cool air in summer",
+    "Big choice of grade 6–7 routes plus hard lines",
+    "Campgrounds and accommodation by the rock, a river for swimming",
+    "Lots of Russian-speaking training camps"
+   ],
+   "cons": [
+    "Few sunny sectors in spring and autumn",
+    "Rain in spring and early summer",
+    "Far from the airport"
+   ],
+   "airport": "KRR — Krasnodar, ~3 h",
+   "famous_lines": [
+    "“Stalingrad” sector — long routes 6b–8b+, up to 50 m",
+    "“Matuzka” sector — 43 routes 5c–7b",
+    "“Sukhaya Balka” sector — 24 routes 6b–8c",
+    "“Golubaya Skala” (Blue Rock) sector — 15 routes 5a–8b+"
+   ],
+   "school_notes": [
+    "Summer camps and coached training, by the guidebook authors",
+    "9-day intensive with transfer from Krasnodar and apartments",
+    "Trips and training sessions in the Guam Gorge"
+   ]
+  },
+  "indyuk": {
+   "h": "b3d9722fc1",
+   "description": "Mount Indyuk (859 m) is a rock massif 30 km from Tuapse with views of the Black Sea coast and one of the main sport climbing areas of southern Russia. Around 125–139 routes 4–8a in the “Perya”, “Karaul” and “Korona” sectors and ~20 trad routes up to 150 m on monolithic porphyritic tuff. Life is in tents below the crags, with the sea nearby.",
+   "rating_basis": "One of the main sport areas of southern Russia: 125–139 routes 4–8a and ~20 trad routes up to 150 m on monolithic volcanic rock; rated 5 stars by the FSR; downsides are the long approach and water shortages in summer",
+   "hazards": "Heat and dehydration in summer, ticks, rockfall on long routes",
+   "crowd_note": "Over the May holidays and at weekends lots of climbers come from Krasnodar and the coast; quiet the rest of the time",
+   "region": "Krasnodar Krai, Tuapse District, Western Caucasus (30 km from the Black Sea coast)",
+   "season": "Mid-April to late October; best mid-April to mid-June and the second half of September–October; July–August are hot and the springs dry up; snow from late December to March",
+   "transfer": "~3–4 h by car from Krasnodar via Dzhubga and Tuapse (or via the Shaumyan Pass); local trains to the “1744 km” or “Indyuk” stations; ~30 km from Tuapse",
+   "rock_note": "monolithic porphyritic tuff (volcanic rock): friction slabs, vertical walls on small holds, overhangs, roofs, “hourglass” threads; buttresses up to 150 m, crags facing every direction",
+   "approach": "1–1.5 h from Indyuk village or the “1744 km” platform to the campsites below the crags, then 10–20 min to the sectors",
+   "restrictions": "No fees. Camping in tents only at the campsites (“Rodnikovaya Polyana”, “Lokomotivskie Nochevki”); there's little water by the crags — the springs dry up from July, and in August the nearest permanent spring is between Indyushka and Indyushonok",
+   "guidebook": "Guidebook by G. Dultsev (2003) and guidebook by M. Foigel (2008); descriptions on climbinduk.org and in the FSR database; AllClimb online guide (~139 routes)",
+   "stay": "Tents at the equipped campsites below the crags; the nearest accommodation is in Indyuk village and on the Tuapse coast",
+   "pros": [
+    "Unusual monolithic rock, varied features",
+    "Sun and shade — crags face every direction",
+    "Black Sea coast nearby",
+    "Free, tent life"
+   ],
+   "cons": [
+    "Long approach of 1–1.5 h",
+    "Hot with little water in summer",
+    "Few hard routes"
+   ],
+   "airport": "KRR — Krasnodar, ~3.5 h; AER — Sochi, ~3 h",
+   "famous_lines": [
+    "“Perya” (Feathers) sector — 57 routes, 15–35 m",
+    "“Korona” (Crown) sector — 41 routes on the summit, up to 50 m",
+    "“Karaul” sector — 29 routes 4–8a",
+    "Begunki — the easiest route in the area",
+    "Ruslo — the hardest route in the area"
+   ]
+  },
+  "krasnoyarsk-stolby": {
+   "h": "d4157f72d3",
+   "description": "The Krasnoyarsk Stolby are syenite rock pillars in the taiga on the outskirts of Krasnoyarsk — the cradle of Russian climbing and the birthplace of “stolbizm”, ropeless climbing on traditional “khody” (passages). Around 500 “khitrushki” boulder problems 5A–8A and 121 sport routes 4–8b on 14 massifs (Kitaiskaya Stenka, Takmak, Pervy Stolb and others).",
+   "rating_basis": "The cradle of Russian climbing (first route in 1851, “stolbizm”), ~500 khitrushki and 121 routes; rated 5 stars by the FSR; but a short season and long approaches",
+   "hazards": "Tick-borne encephalitis, ropeless climbing on the khody, old bolts, slippery wet rock, no drinking water along the trails",
+   "crowd_note": "At weekends the Central Stolby and Takmak are busy with tourists and local stolbisty; the “Khitrushki” festival in September and a winter one in January",
+   "region": "Krasnoyarsk Krai, Krasnoyarsk Stolby National Park",
+   "season": "May–October, best July–September; lots of ticks in May–June; in winter only locals climb (Christmas festival in January)",
+   "transfer": "Krasnoyarsk airport → city ~40 min; to the Laletino ranger post by car on the M54 highway (parking ~70 RUB) or by minibus to the “Turbaza” stop; to Takmak, buses 39, 8a and 30a to “Bazaikha”",
+   "rock_note": "syenite (a granite-like rock): rock pillars up to 100 m high in the taiga, rounded shapes, cracks, khitrushki on boulders and the traditional khody of the stolbisty",
+   "approach": "Central Stolby: ~5 km on foot from the Laletino ranger post (~7 km from the “Turbaza” stop), or ride up on the Bobrovy Log chairlift; the Takmak area is 1–2 km from Bazaikha",
+   "restrictions": "National park: entry is free; visitors may stay only in the tourist and excursion zone, on the trails, during daytime; fires, tents outside the tent camp at the Narym ranger post, damaging the rock, graffiti and stripping moss are prohibited. Climb only in dry weather. Vaccination against tick-borne encephalitis is necessary. On some old routes the bolts haven't been checked for a long time",
+   "guidebook": "Guidebook “Krasnoyarskie Stolby” (240 pp., 2016; sport routes, khody and khitrushki of the Central area); the FSR “Skaly Rossii” database (c-f-r.ru); maps on stolby.ru",
+   "stay": "The tent camp and huts at the Narym ranger post — the only place you may stay overnight; otherwise accommodation in Krasnoyarsk (20–40 min to the entrance)",
+   "pros": [
+    "Unique history and the culture of stolbizm",
+    "Hundreds of khitrushki on rough syenite",
+    "Cool in summer, shade in the taiga",
+    "Free entry"
+   ],
+   "cons": [
+    "Short season",
+    "Long walk-ins",
+    "Ticks in May–June",
+    "Few sport routes, some bolts are old"
+   ],
+   "airport": "KJA — Krasnoyarsk, ~1 h",
+   "famous_lines": [
+    "Slonik (Little Elephant) — the most famous boulder of the Stolby",
+    "Golubye Katushki — a popular khod (Central Stolby)",
+    "Dymokhod (Chimney) — a popular khod (Central Stolby)",
+    "Kitaiskaya Stenka (Chinese Wall) — 40 routes 6a–7c+"
+   ],
+   "school_notes": [
+    "Commercial tour of the Stolby with climbing instruction",
+    "Mountaineering and climbing school on natural rock"
+   ]
+  },
+  "treugolnoe-karelian-isthmus": {
+   "h": "ac33a38392",
+   "description": "Lake Treugolnoe (Triangular Lake) is the main sport climbing area of the Karelian Isthmus and north-west Russia: granite walls above a forest lake with 200+ routes 5a–8c+ (half of them up to 6c) and 200+ boulders. 1.5 km away is Lietlahti park with 500+ boulder problems, and closer to Kuznechnoye lies the legendary Yastrebinoe Lake (Bolshie Skaly), home since 1987 of the “Skalolazanie dlya vsekh” (Climbing for All) festival. The Karelian crags around Lake Ladoga (Impilahti, Hiitola) are little developed.",
+   "rating_basis": "The best sport area in north-west Russia: 200+ routes up to 8c+ and 200+ boulders by the lake, plus 500+ boulders in nearby Lietlahti park; rated 5 stars by the FSR",
+   "hazards": "Mosquitoes and ticks, slippery wet granite in shady sectors, crossing a stream on a log",
+   "crowd_note": "On summer weekends lots of people come from St Petersburg — parking spaces and campsites are scarce; quiet on weekdays",
+   "region": "Leningrad Oblast, Vyborgsky District, Karelian Isthmus (including Lietlahti park and Yastrebinoe Lake)",
+   "season": "May–September; best June–September; lots of mosquitoes in summer, especially in shady sectors",
+   "transfer": "~3 h by car from St Petersburg on the Scandinavia highway via Lesogorsky and Topolki (the last ~12 km is a dirt road) or via the Priozerskoye highway; without a car — local train to Vyborg, bus to Lesogorsky and a taxi",
+   "rock_note": "Karelian granite above a forest lake: big overhangs, roofs, friction, chimneys; mostly south-facing, dries quickly after rain",
+   "approach": "~20 min from the car to the campsites and the main massif; the “Reka” massif is 20 min away across a stream on a log, “Gornyak” 1.5 km along a trail; the last stretch of dirt road is better done in a 4×4",
+   "restrictions": "Border zone: a permit is required (free via Gosuslugi or by e-mail, valid for a month; checked periodically) — for the lake as well as for the Lietlahti farmstead and park. Take all your rubbish with you; the good campsites are usually “claimed” by regulars, and it's bad form to take them",
+   "guidebook": "Guidebook by Ovsyannikov and Tselishchev (2008) and the Triangular Lake app; topos on 27crags and theCrag; the FSR “Skaly Rossii” database",
+   "stay": "Tents at the campsites by the lake and on Upper Novoselskoye Lake; a guesthouse at the Lietlahti farmstead 1.5 km away (by arrangement, permit required)",
+   "pros": [
+    "World-class granite near St Petersburg",
+    "Routes and boulders in one place",
+    "Overhangs for rainy days, dries quickly",
+    "Tent life by the lake, white nights"
+   ],
+   "cons": [
+    "Border zone — permit required",
+    "Mosquitoes",
+    "Short season",
+    "Poor road on the last stretch"
+   ],
+   "airport": "LED — St Petersburg (Pulkovo), ~3.5 h",
+   "famous_lines": [
+    "Katarsis 8c+ (sector E)",
+    "Mechta skalolaza 8a+",
+    "Show must go on 8a (sector G)",
+    "Simfoniya ekstaza 7c+",
+    "Redrum 7C+/8A (boulder)"
+   ],
+   "school_notes": [
+    "Coached trips and camps on the Karelian Isthmus",
+    "Organised trips from St Petersburg",
+    "One-day and multi-day climbing trips from St Petersburg"
+   ]
+  },
+  "osp-misja-pec": {
+   "h": "b17b59d496",
+   "description": "Osp is a small village on the edge of the Karst near the Italian border and Slovenia's main sport climbing area. Together with Mišja Peč and Črni Kal there are more than 600–700 routes: the overhanging endurance amphitheatre of Mišja Peč (mostly 7a–8a and up to 9a+), the big wall and cave of Osp up to 140 m, and the easy vertical climbing of Črni Kal.",
+   "rating_basis": "The centre of Slovenian climbing: ~700 routes on three crags; Mišja Peč is one of Europe's best overhanging sectors with routes up to 9a+, plus the “cave” climbing of Osp",
+   "hazards": "Polished holds, long runouts near the top of routes, rockfall, summer heat",
+   "crowd_note": "On autumn and spring weekends Mišja Peč is busy with Italians from Trieste and Slovenians",
+   "region": "Slovenian Littoral, the Karst near the Italian border (Trieste)",
+   "season": "Year-round, best October–December and March–April; in summer only early in the morning and in the shade; November–February can be cold and damp, with the bora blowing",
+   "transfer": "Trieste airport is ~40 min away; Ljubljana is 1–1.5 h by car; ~15 min from Trieste via the Rabuiese border crossing",
+   "rock_note": "grey karst limestone: the horseshoe-shaped overhanging amphitheatre of Mišja Peč, the big wall and cave of Osp (up to 140 m), the vertical walls of Črni Kal",
+   "approach": "5–15 min on foot from the campground in Osp to the Osp wall and Mišja Peč; Črni Kal is 10 min away by car",
+   "restrictions": "In spring some routes in the central sector of Mišja Peč are closed until June because of nesting owls and peregrine falcons (bans by Projekt OSP and the nature conservation services; the list of routes is posted on signs at the crag). Check at the campground whether the right-hand sector of the big Osp wall is open. Don't park in the village and don't pitch tents below the wall",
+   "guidebook": "Regional guidebook to the Slovenian Littoral and Trieste (~3,100 routes on 32 crags); topos on theCrag",
+   "stay": "Vovk climbers' campground in Osp (year-round, within walking distance of the walls), a hostel in Očizla; Trieste is 15 min away",
+   "pros": [
+    "World-class hard routes",
+    "Overhangs stay dry in the rain",
+    "Campground by the crags, Trieste nearby",
+    "Sunny sectors in winter"
+   ],
+   "cons": [
+    "Few easy routes at Osp itself and Mišja Peč",
+    "Polished classics",
+    "Hot in summer, the bora can blow in winter"
+   ],
+   "airport": "TRS — Trieste, ~40 min; LJU — Ljubljana, ~1.5 h"
+  },
+  "railay-tonsai": {
+   "h": "a7c6f1a56f",
+   "description": "The Railay peninsula and neighbouring Tonsai are Southeast Asia's best-known climbing area: karst towers right above the beaches, sport routes, multi-pitches on Thaiwand Wall and deep-water soloing (DWS) from boats. This is where the trend for “beach” climbing in Asia began; there are plenty of schools and rental shops.",
+   "rating_basis": "A classic of world tropical climbing: 700+ routes on 49 walls (UKC), multi-pitches above the sea and DWS; downsides are polish, corroded old bolts and heat",
+   "hazards": "Heat and dehydration, corroded bolts and slings, rotten stalactites, tides on the approaches, aggressive monkeys (rabies risk); inspect any rental gear",
+   "crowd_note": "1-2-3 Wall and the beginner walls are packed with school groups; the harder Tonsai sectors are quieter",
+   "region": "Krabi, Andaman Sea",
+   "season": "November–April (dry season); best December–February; June to October is monsoon season — rain and cancelled boats",
+   "transfer": "Fly to Krabi, ~40 min by taxi to the Ao Nang pier, then a 10–15-min longtail boat",
+   "rock_note": "tropical limestone of karst towers above the sea: stalactites, tufas, caves and overhangs; polished on popular routes",
+   "approach": "No roads: 10–15 min by longtail from Ao Nang; 2–20 min on foot from the beaches to the walls, some walls only at low tide or by boat",
+   "restrictions": "According to local sources, the area belongs to Hat Noppharat Thara – Mu Ko Phi Phi National Park; some walls are accessible only at low tide. Old stainless-steel bolts corrode quickly — trust only glued-in titanium ones (the Thaitanium programme) and check against the guidebook",
+   "guidebook": "Rock Climbing in Thailand and Laos (Elke Schmitz); the King Climbers guidebook; Thailand Climbing (Sam Lightner Jr.) — part of the proceeds go to rebolting",
+   "stay": "Bungalows and guesthouses in Tonsai (a climbers' camp, no ATMs) or hotels on Railay West and Railay East",
+   "pros": [
+    "Climbing by the sea, beaches, DWS",
+    "Lots of schools, rental and beginner courses",
+    "Multi-pitches with views over the Andaman Sea",
+    "You can climb for a month without any transport"
+   ],
+   "cons": [
+    "Heat and humidity even in the dry season",
+    "Polished classic routes",
+    "Corroded anchors and old bolts",
+    "Monsoon from June to October"
+   ],
+   "airport": "KBV — Krabi, ~1 h including the boat; HKT — Phuket, ~3 h",
+   "famous_lines": [
+    "Humanality 6b+ (multi-pitch, 4–7 pitches)",
+    "Lord of the Thais 7b (Thaiwand Wall, 5 pitches)",
+    "Circus Oz 7a (Thaiwand Wall)",
+    "The Groove Tube 6a (Fire Wall)",
+    "Greed 8c (Dum's Kitchen)"
+   ],
+   "school_notes": [
+    "School and gear rental in Tonsai, DWS trips",
+    "The oldest school on Railay, publisher of the local guidebook",
+    "Beginner courses, multi-pitches and DWS"
+   ]
+  },
+  "geyikbayiri": {
+   "h": "a1134a56e0",
+   "description": "Geyikbayırı is a village in the Taurus foothills 40 km from Antalya and Turkey's main winter sport climbing area. More than 1,300 routes in 40+ sectors of karst limestone, from easy lines to 8c+/9a; the walls face every direction, and there are caves and tufas. A climbing-campground vibe, the sea nearby and lots of Russian-speaking training camps.",
+   "rating_basis": "The main winter sport area of Turkey and the eastern Mediterranean: 1,300+ routes in 40+ sectors, well-developed campgrounds, glowing reviews from Rock+Run, National Geographic and Gripped",
+   "hazards": "Polished holds on the classics, heat on south-facing walls in spring, rockfall",
+   "crowd_note": "Busiest in November and February (slackline festival); on Sundays tourists flock to the market in Akdamlar",
+   "region": "Antalya, Taurus foothills",
+   "season": "October–April; best October–November and March–April; December–January are the rainiest months; hot in summer",
+   "transfer": "40 km from Antalya airport: taxi ~€35–40, rental car (can be arranged through the campground) or buses 521/501 from the bus station to Akdamlar and then another ~6 km",
+   "rock_note": "orange-grey karst limestone: tufas, caves, vertical walls; the walls face every direction",
+   "approach": "A single paved road runs along the crags; approaches of 5–15 min, ~30 min to the more distant sectors",
+   "restrictions": "The area lies within a nature park; there are no climbing fees. Routes are equipped with stainless-steel bolts and rebolting is ongoing — buy the guidebook on site at the campgrounds (proceeds go to the routes)",
+   "guidebook": "Official guidebook by Öztürk Kayıkcı (2023), sold at the campgrounds; topos on theCrag",
+   "stay": "Climbers' campgrounds and bungalows by the crags: JoSiTo, Climbers Garden, Kezban, Flying Goat, Peak Guesthouses and others; bungalows ~€20–40, a tent ~€7 a night, breakfasts and dinners available",
+   "pros": [
+    "Sunny and shady sectors for any day",
+    "Climbers' campgrounds right by the crags",
+    "Cheap direct flights to Antalya",
+    "Lots of Russian-speaking training camps and coaches"
+   ],
+   "cons": [
+    "Too hot in summer",
+    "Rain in December–January",
+    "Popular classics are polished"
+   ],
+   "airport": "AYT — Antalya, ~45 min",
+   "school_notes": [
+    "Coached intensive: transfer from Antalya, apartments, group gear",
+    "Coached climbing camps in Geyikbayırı",
+    "Training programmes in Geyikbayırı, Citdibi and Olympos",
+    "Russian-speaking climbing school for beginners and intermediates"
+   ]
+  },
+  "long-dong": {
+   "h": "1cb5855978",
+   "description": "Long Dong is a set of sea cliffs at the north-eastern tip of Taiwan, facing the Pacific Ocean. Around six hundred routes on very hard quartz sandstone: trad cracks, sport lines and a couple of multi-pitches, with a swim in the sea after climbing. The season is autumn and spring, between the winter monsoon and the summer typhoons.",
+   "rating_basis": "Taiwan's main climbing area: almost 600 routes (G3), 268 described on Mountain Project in 10 sectors; quality trad above the sea an hour from Taipei",
+   "hazards": "Waves and tides on the approaches, typhoons in summer, wasps, corroded bolts, heat on exposed crags",
+   "crowd_note": "At weekends lots of local climbers from Taipei at the sectors by the north car park; empty on weekdays",
+   "region": "New Taipei, north-east coast, Gongliao District",
+   "season": "October–May; best October–November and April; in winter the north-east monsoon brings wind, drizzle and cold; May–June is the “plum rain” season, and summer brings heat and typhoons",
+   "transfer": "~1 h from Taipei by car (≈35 km) or by bus via Keelung with a change",
+   "rock_note": "very hard quartz sandstone (metaconglomerate) on sea cliffs up to 30 m: cracks and arêtes, with a feel close to granite",
+   "approach": "5–30 min along coastal trails from three car parks on the coastal highway (north, central, south); access to some walls depends on the tide and swell",
+   "restrictions": "North-east Coast National Scenic Area; the wall by the central approach is closed for nesting peregrine falcons (usually 1 February – 30 June); camping in tents is formally prohibited; don't remove fixed gear or run the rope through it; bolts near the sea corrode",
+   "guidebook": "Rock Climbing Taiwan (Matt Robertson, 2012, partly outdated); Long Dong Trad Climbs (Matt Robertson, 2006); up-to-date topos on Mountain Project and the local Guidebook Plus supplement",
+   "stay": "The Bivy in neighbouring Bitou village, rooms by the north car park, hostels in Jiufen, a paid campground in Fulong",
+   "pros": [
+    "Excellent trad on hard rock",
+    "An hour from Taipei",
+    "A swim in the sea after climbing",
+    "Lots of mid-grade routes"
+   ],
+   "cons": [
+    "Wind and drizzle in winter, heat and typhoons in summer",
+    "Bolts near the sea corrode",
+    "Tent camping is formally prohibited"
+   ],
+   "airport": "TSA — Taipei Songshan, ~1 h; TPE — Taoyuan, ~1.5 h",
+   "famous_lines": [
+    "Sky Ladder 6a+ (sport)",
+    "Via del Drago 6b (trad, 2 pitches)",
+    "Redhead 6b+ (sport)",
+    "Goldline 6c (trad)",
+    "Big Rock Falling 7a+ (sport)"
+   ]
+  },
+  "bishop": {
+   "h": "aa078df32e",
+   "description": "Bishop is North America's winter bouldering capital, set against the snowy Sierra. The granite highballs of the Buttermilks and the volcanic canyons of the Happy and Sad Boulders offer thousands of problems from V0 to V15 with flat landings and almost guaranteed sun. Nearby are hundreds of sport routes in the Owens River Gorge.",
+   "rating_basis": "One of the world's bouldering capitals: on Mountain Project ~1,500 problems in the Buttermilks, Tablelands and Druid Stones alone (~26k area views a month), over 1,800 problems according to Kaya; landmark 8B+–8C problems have been climbed here",
+   "hazards": "Tall highballs over rocks (several crash pads needed), sharp granite that shreds skin, strong wind and frost at night in winter, rattlesnakes in the warmer months",
+   "crowd_note": "At weekends from December to March Peabody and the Happy Boulders are busy, with queues for the classics; quiet on weekdays and at the more distant blocks",
+   "region": "California, Eastern Sierra Nevada, Owens Valley",
+   "season": "October–April, best November–March (dry, sunny, excellent friction); on cold days head for the Happy/Sad Boulders (lower and sheltered from the wind), on warm days the Buttermilks; in April–May climb in the mornings and evenings; June–September is too hot (in summer people move to Mammoth and June Lake, an hour's drive away)",
+   "transfer": "A car is needed: on Highway 395 ~4.5 h from Los Angeles (400 km), ~3.5 h from Reno, ~4 h from Las Vegas; crash pads, climbing shoes and guidebooks can be rented from Eastside Sports in Bishop",
+   "rock_note": "two rock types: coarse-grained granite in the Buttermilks (1,950 m) — highballs, small holds and sharp crystals; volcanic tuff in the Volcanic Tablelands (Happy and Sad Boulders, ~1,300 m) — canyons with pockets, overhangs and flat landings; sport climbing in the nearby Owens River Gorge (tuff, ~1,100 routes)",
+   "approach": "2–15 min from the parking areas: the Buttermilks along the dirt Buttermilk Road (high clearance advisable), Happy and Sad via a short climb into the canyons from Chalk Bluff Road",
+   "restrictions": "BLM and Inyo National Forest land: stay on the trails, don't put crash pads on plants, pack out all rubbish and waste (wag bag). In the Buttermilks overnight stays and fires at the Birthday Boulders car park are prohibited. The Pleasant Valley Pit climbers' campground costs $5 per site, no reservations. Before your trip it's worth checking the Bishop Climbing Rangers' weekly conditions report.",
+   "guidebook": "Bishop Bouldering (Charlie Barrett) and Bishop Area Rock Climbs (Wolverine Publishing); guidebooks can be rented at Eastside Sports",
+   "stay": "Pleasant Valley Pit campground near the Happy/Sad Boulders ($5), budget motels and a hostel in Bishop; on winter weekends there's a “climbers' coffee” with the rangers at the Pit",
+   "pros": [
+    "Thousands of problems at all grades with flat landings",
+    "Dry, sunny winters and excellent friction",
+    "Two different rock types 20 minutes apart",
+    "Cheap campground and crash pad rental in town",
+    "Owens River Gorge sport routes nearby"
+   ],
+   "cons": [
+    "Too hot in summer",
+    "Cold nights and wind in the Buttermilks in winter",
+    "Car needed, potholed dirt roads",
+    "Crowded at weekends"
+   ],
+   "airport": "BIH — Bishop (seasonal flights from Denver and San Francisco from roughly mid-December to March); RNO — Reno, ~3.5 h; LAS — Las Vegas, ~4 h; LAX — Los Angeles, ~4.5 h",
+   "famous_lines": [
+    "Lucid Dreaming V15 (8C), Buttermilks",
+    "The Mandala V12 (8A+), Buttermilks",
+    "Evilution Direct V11 (8A), Grandpa Peabody, Buttermilks",
+    "Iron Man Traverse V4 (6B), Buttermilks",
+    "Heavenly Path V1 (5), Happy Boulders"
+   ],
+   "school_notes": [
+    "Eastern Sierra guide service: climbing and mountaineering",
+    "Climbing and mountaineering guides in the Bishop area"
+   ]
+  },
+  "hueco-tanks": {
+   "h": "52c223eb31",
+   "description": "A desert park with caves and overhanging boulders near El Paso — one of the most famous places in world bouldering and the birthplace of the V scale. More than a thousand steep problems on pockets and roofs, ideal dry winters and a strict access system to protect ancient rock art.",
+   "rating_basis": "A cult spot in world bouldering: the V scale was born here; more than 1,000 problems (North Mountain alone has 850 in the Wolverine guidebook), problems by Fred Nicole and Daniel Woods up to V15–V16; National Geographic has listed it among America's best adventures",
+   "hazards": "Cacti and thorns on the approaches, sharp pocket edges, rattlesnakes on warm days, wind and cold nights in winter; after rain the rock becomes fragile — let it dry",
+   "crowd_note": "Visitor numbers are capped by the reservation system, so the boulders are uncrowded — the hard part is getting a North Mountain slot on a weekend between December and March",
+   "region": "Texas, Chihuahuan Desert, 40 km north-east of El Paso",
+   "season": "November–March (best November–February; strong winds in March and early April); October and April depend on the weather; mid-April to September is too hot, with monsoon thunderstorms in summer as well",
+   "transfer": "A car is essential: ~40 min east from El Paso on Montana Ave (US 62/180)",
+   "rock_note": "syenite porphyry — a hard igneous rock similar to granite: steep overhangs, roofs and caves with huecos (scoops and pockets), lots of heel and toe hooks; very few slabs",
+   "approach": "5–30 min from the park's car park and campground; East Mountain, East Spur and West Mountain only in a guided group",
+   "restrictions": "Strict access: Hueco Tanks is a state historic site with ancient rock art. Self-guided climbing is allowed only on North Mountain — no more than 70 people a day (60 places by advance phone reservation on +1 512 389-8911 up to 90 days ahead, 10 on the day of the visit, with priority for those camping in the park; unconfirmed reservations are released at 10:00). You can book up to 3 consecutive days, then take a day off. East Mountain, East Spur and West Mountain only with a guide (book at least a week ahead). Entry is $7 per adult per day; watching the orientation video once a year is mandatory; the park closes at 18:00 (opens at 8:00 in winter); fires and drones are prohibited.",
+   "guidebook": "Hueco Tanks: North Mountain (Matt Wilder, Jason Kehl; Wolverine Publishing, 2nd ed. 2020) — 850 North Mountain problems plus the “best of” the guided areas",
+   "stay": "Campground inside the park ($12–16 per site; campers get priority for free North Mountain slots), the climber-run Hueco Rock Ranch 1.5 km away (camping and rooms, open November–April), hotels in El Paso (40 min)",
+   "pros": [
+    "Legendary steep bouldering at all levels — from V0 to V15",
+    "Dry, sunny winters",
+    "Thanks to the visitor cap, the boulders are never crowded",
+    "A climbers' camping ranch nearby"
+   ],
+   "cons": [
+    "Complicated reservation system and mandatory guides for two-thirds of the park",
+    "The park closes at 18:00",
+    "Wind in March–April, heat from May",
+    "Crash pad rental on site isn't guaranteed — better to bring your own"
+   ],
+   "airport": "ELP — El Paso, ~40 min",
+   "school_notes": [
+    "Local guide service: access to the guide-only areas (East Mountain, East Spur, West Mountain)",
+    "Commercial bouldering guides at Hueco Tanks",
+    "Guides for the restricted-access areas"
+   ]
+  },
+  "indian-creek": {
+   "h": "8475dd3037",
+   "description": "A desert canyon in Utah with hundreds of red sandstone walls split by perfectly parallel cracks — the world's benchmark for crack climbing. There's almost no sport climbing here: just trad, lots of same-sized cams and hand-jamming technique. You live in a tent in the desert under the stars.",
+   "rating_basis": "The world's crack-climbing mecca: ~1,700 routes on Mountain Project (~13k views a month); the classics Supercrack and Incredible Hand Crack feature on lists of the world's best cracks",
+   "hazards": "Fragile wet sandstone, heat and dehydration, cold nights, rattlesnakes, remoteness from medical help, flash floods in the canyons after downpours",
+   "crowd_note": "In October and April there are queues at Supercrack Buttress and Donnelly Canyon, and the campgrounds overflow at weekends; the more distant walls are quiet",
+   "region": "Utah, Bears Ears National Monument, Colorado Plateau (between Moab and Monticello)",
+   "season": "spring (late March–May) and autumn (September–November), October being the best month; in early autumn seek shade during the day, in late autumn the sunny south-facing walls; cold wind in spring; summer heat above +32 °C and nesting closures, cold in winter",
+   "transfer": "A car is needed: ~1.5 h from Moab, ~45 min from Monticello, ~5 h from Salt Lake City, ~8 h from Denver and Las Vegas; cams in large numbers (6–16 of the same size) — bring your own or rent in Moab",
+   "rock_note": "red Wingate sandstone: perfectly parallel vertical cracks of every width — from thin finger cracks to offwidths — on walls 30–60 m high; almost exclusively single-pitch trad",
+   "approach": "10–40 min of steep uphill over scree from the dirt parking areas along Route 211; stay on the trails and don't step on the cryptobiotic crust",
+   "restrictions": "Don't climb on wet sandstone: wait 24–48 hours after rain, otherwise holds break and anchors weaken. Annual raptor nesting closures from 1 March to the end of summer on dozens of walls (Echo, Reservoir Wall, Cat Wall and others — see the BLM map); walls without active nests reopen in late April–May. Don't park or walk on cryptobiotic soil, pack out human waste, don't touch archaeological sites, close gates on private land. The Creek Pasture, Superbowl and Hamburger Rock campgrounds cost $15 a night, no reservations, 14-day maximum.",
+   "guidebook": "Indian Creek: A Climbing Guide (David Bloom); online — Mountain Project",
+   "stay": "BLM campgrounds Creek Pasture and Superbowl (tables, toilets, $15), primitive sites at Bridger Jack and Cottonwood; no water — bring your own (a 20-litre jerrycan for two lasts ~4 days); the nearest shops and motels are in Monticello (50 km) and Moab (100 km)",
+   "pros": [
+    "The best parallel cracks in the world",
+    "Huge choice of 5.10–5.12 routes",
+    "Free or cheap campgrounds among the crags",
+    "Dry, sunny climate in spring and autumn"
+   ],
+   "cons": [
+    "You need a big rack of cams and solid crack technique",
+    "Few routes for beginners",
+    "No water, shops or phone signal; town is far away",
+    "Seasonal raptor closures on many walls"
+   ],
+   "airport": "CNY — Moab (Canyonlands Field, expensive flights), ~1.5 h; GJT — Grand Junction, ~3 h; SLC — Salt Lake City, ~5 h"
+  },
+  "joshua-tree": {
+   "h": "d2ff0cb9a8",
+   "description": "Thousands of granite domes and boulders in the middle of the Mojave Desert — California's top winter climbing destination. Short trad routes on cracks and slabs, topropes for beginners and a huge amount of bouldering with very harsh friction. The rocks stand right by the park's roads and campgrounds.",
+   "rating_basis": "About 8,100 routes and problems on Mountain Project (~41k views a month) — one of the largest databases in the US; a classic winter destination for Californian climbers",
+   "hazards": "Heat and dehydration (there's almost no water in the park), cold winter nights, rattlesnakes and cacti on the approaches, easy to get lost among identical-looking rocks, sandy “ball bearings” on slabs",
+   "crowd_note": "From November to May the campgrounds and the classics in Hidden Valley are packed at weekends; quiet on weekdays and at the more distant domes",
+   "region": "California, Mojave Desert, Joshua Tree National Park",
+   "season": "October–April; best October–November and February–April (October and March according to Mountain Project); December–January is cool with short days and occasional snow, but excellent friction for bouldering; May to September brings desert heat of +30…+38 °C",
+   "transfer": "A car is needed: ~1 h from Palm Springs, ~2.5–3 h from Los Angeles; gear and guides at the Nomad Ventures shop in Joshua Tree village",
+   "rock_note": "quartz monzonite: grainy domes and rock “piles” in the desert, cracks, slabs with coarse crystalline texture; very harsh friction, with sand and “ball bearings” underfoot on rarely climbed routes",
+   "approach": "Most rocks are 2–15 min from the road and campgrounds (Hidden Valley, Intersection Rock); up to an hour across the desert to the more distant domes",
+   "restrictions": "National park entry is $30 per car for 7 days (card only). New bolts and replacing old ones only with a park permit; hangers must be rock-coloured, and using plants for anchors is prohibited. Annual closures for nesting owls and falcons at certain rocks (in 2026: 17 February – 7 June: Right On, Orange Flake, Fat Freddie's Cat, Freak Brothers Dome and others). The park's campgrounds have about 500 sites and fill up quickly in season; most have no water — bring your own.",
+   "guidebook": "Joshua Tree Rock Climbs (Randy Vogel) and Joshua Tree Bouldering; online — Mountain Project",
+   "stay": "Park campgrounds Hidden Valley (in the heart of the rocks), Ryan, Jumbo Rocks, Indian Cove; BLM sites near the park boundary take the overflow; motels and Airbnbs in Joshua Tree and Twentynine Palms",
+   "pros": [
+    "Huge choice of short routes and problems within walking distance of the car",
+    "A great winter destination with dry, sunny weather",
+    "Lots of easy routes and schools for beginners",
+    "Campgrounds right among the rocks"
+   ],
+   "cons": [
+    "Few sport routes — trad skills and cams needed",
+    "Too hot in summer",
+    "Abrasive, grainy rock — wears out skin and ropes",
+    "Campgrounds packed at weekends in season"
+   ],
+   "airport": "PSP — Palm Springs, ~1 h; ONT — Ontario, ~2 h; LAX — Los Angeles, ~2.5–3 h",
+   "famous_lines": [
+    "Gunsmoke V3 (6A), traverse",
+    "Illusion Dweller 5.10b (6a+), Sports Challenge Rock",
+    "Exorcist 5.10a (6a)",
+    "Equinox 5.12c (7b+), finger crack",
+    "Mental Physics 5.7 (5a), 2 pitches"
+   ],
+   "school_notes": [
+    "Small guide service, half-day and full-day outings",
+    "Year-round instruction, owned by AMGA guides",
+    "Family-run school, sessions for all levels and for kids, gear included",
+    "Courses for all levels"
+   ]
+  },
+  "new-river-gorge": {
+   "h": "4622b0bb98",
+   "description": "The deep, forested gorge of the New River in West Virginia, ringed by cliffs of very hard sandstone — one of the main areas on the US East Coast and a national park since 2020. Sport and trad are equally good here: the technical vertical walls of the Endless Wall, the overhangs of Summersville Lake (up to 5.15a) and classic cracks. The hub of climbing life is the town of Fayetteville.",
+   "rating_basis": "One of the largest areas in the eastern US: ~2,400 routes and problems on Mountain Project (~18k views a month), with MP itself citing “more than 3,000 routes”; famous for the quality of its sandstone and technical sport and trad",
+   "hazards": "Ticks, poison ivy and copperheads, wet, muddy trails after rain, sparse bolts on older routes",
+   "crowd_note": "On autumn weekends (especially during the Bridge Day festival in October) the popular Endless Wall and Bridge Buttress are busy; quiet on weekdays",
+   "region": "West Virginia, New River Gorge National Park (near the town of Fayetteville)",
+   "season": "spring (April–May) and autumn (September–October) are the best times, but multi-day rain spells happen; summer is hot and humid — the shady, breezy Summersville Lake crags are the escape; in winter people climb only on sunny days on south-facing walls",
+   "transfer": "A car is needed: ~1 h from Charleston, ~5 h from Washington",
+   "rock_note": "very hard, iron-rich Nuttall sandstone (almost quartzite in places): vertical and overhanging walls of 12–45 m above the river, horizontal breaks, cracks and arêtes; technical climbing, bolts more spaced than at the Red River Gorge",
+   "approach": "5–30 min along forest trails from the rim of the gorge; at the Endless Wall you descend to the base via ladders",
+   "restrictions": "Most crags lie within New River Gorge National Park (since 2020): fixed draws are prohibited, new routes only with a paid NPS permit, rebolting only with permission via the local NRAC coalition; groups of no more than 15 at Bridge Buttress and 10 at other crags; on single-pitch routes lowering is preferred over rappelling. Summersville Lake is managed by the US Army Corps of Engineers — there are no bolting restrictions there.",
+   "guidebook": "New River Rock (Mike Williams); online — Mountain Project",
+   "stay": "The American Alpine Club (AAC) campground near Lansing with showers and tent platforms ($8–30, book ahead), Chestnut Creek and Ray's, motels and guesthouses in Fayetteville",
+   "pros": [
+    "Top-quality sandstone",
+    "Good balance of sport and trad",
+    "Shady Summersville Lake crags for summer",
+    "Convenient AAC campground and the climbing town of Fayetteville"
+   ],
+   "cons": [
+    "Few easy routes; the best walls need 6c sport / 6a trad",
+    "Frequent multi-day rain spells in spring and autumn",
+    "Muggy summers",
+    "Fixed draws are prohibited in the national park"
+   ],
+   "airport": "CRW — Charleston (West Virginia), ~1 h; ROA — Roanoke, ~2.5 h",
+   "famous_lines": [
+    "Full Metal Brisket 5.15a (9a+), Jonathan Siegrist",
+    "The Greatest Show on Earth 5.13a (7c+, trad)",
+    "Fantasy 5.8 (5b, trad, 2 pitches)",
+    "Four Sheets to the Wind 5.9+ (5c, trad)",
+    "Lost Souls 5.12a (7a+)"
+   ],
+   "school_notes": [
+    "Since 1994: beginner courses (1–2 days), intermediate, sport climbing, self-rescue",
+    "Half-day and full-day outings, can be combined with rafting"
+   ]
+  },
+  "red-river-gorge": {
+   "h": "39a06bd62b",
+   "description": "A forested gorge in Kentucky with thousands of sport routes on solid sandstone — one of North America's top sport climbing destinations. It's famous for the huge overhangs of the Motherlode and Drive-By, long endurance routes and the fact that you can climb under the roofs even in the rain. Climbing life revolves around the campground and pizzeria at Miguel's.",
+   "rating_basis": "One of the best-known sport destinations in the US: ~4,100 routes and problems on Mountain Project (~28k views a month), UKClimbing calls it “world-class”; famous for its overhangs and 7a–8c endurance routes",
+   "hazards": "Ticks, poison ivy and snakes (copperheads, rattlesnakes), slippery sandstone on the approaches after rain, heat and humidity in summer",
+   "crowd_note": "On autumn weekends the Motherlode, Drive-By and Muir Valley are busy and Miguel's is noisy; quieter on weekdays and at the more distant sectors",
+   "region": "Kentucky, Daniel Boone National Forest",
+   "season": "March–May and September–November; best April and October–November; summer is hot and very humid (climb early in the morning and in the evening in the shade); winter has good sunny days, but the weather is unstable",
+   "transfer": "By car only: ~1 h from Lexington (80 km via the Mountain Parkway), ~2 h from Louisville and Cincinnati",
+   "rock_note": "dense orange sandstone with “iron” pockets, horizontal breaks and giant overhanging amphitheatres (the Motherlode, Drive-By); long endurance routes of 25–35 m",
+   "approach": "5–45 min along forest trails from the car parks; some PMRP sectors require a high-clearance vehicle",
+   "restrictions": "Most sport sectors are on private land: at PMRP, MFRP and BRRP (owned by the Red River Gorge Climbers' Coalition) you must sign a liability waiver, overnight parking is prohibited and dogs must be leashed; at Muir Valley — waiver and paid parking (~$15), no dogs; at Graining Fork (Roadside Crag) — a limited number of daily passes. In the Northern Gorge (national forest) backcountry camping requires an inexpensive permit, and fixed draws are not allowed.",
+   "guidebook": "Red River Gorge Rock Climbs South and North (Wolverine Publishing), Best of the Red (Sharp End Books); online guide redriverclimbing.com",
+   "stay": "The legendary climbers' campground at Miguel's Pizza (with a gear shop), Lago Linda's, Land of the Arches with showers, the Sky Bridge Station and Rustic Red hostels, Red River Outdoors cabins",
+   "pros": [
+    "Thousands of sport routes at all grades, especially 6b–8b",
+    "Giant overhangs — climbable in the rain",
+    "Cheap climbers' campgrounds and the scene at Miguel's",
+    "Lots of beginner routes in Muir Valley and the Northern Gorge"
+   ],
+   "cons": [
+    "Hot and muggy in summer, poor friction",
+    "Car needed, sometimes with high clearance",
+    "Some sectors are on private land — rules and paid parking",
+    "Little bouldering or multi-pitch"
+   ],
+   "airport": "LEX — Lexington, ~1 h; SDF — Louisville, ~2 h; CVG — Cincinnati, ~2 h",
+   "famous_lines": [
+    "Fifty Words for Pump 5.14c (8c+), PMRP",
+    "Omaha Beach 5.14a (8b+), Motherlode",
+    "Kaleidoscope 5.13c (8a+), Drive-By",
+    "Ro Shampo 5.12a (7a+), Roadside Crag",
+    "Rock Wars 5.10a (6a, trad), Long Wall"
+   ],
+   "school_notes": [
+    "The gorge's oldest guide service: half-day and full-day climbing, groups of up to 6",
+    "Guides and courses for individuals and groups, book in advance"
+   ]
+  },
+  "rifle-mountain-park": {
+   "h": "8e3feeb28e",
+   "description": "A narrow limestone canyon in the Colorado mountains — the top summer sport destination for strong climbers in the US. The routes stand right by the road and are long and steep, with a huge concentration of 7c–9a. The good “real” classics start at around 5.11 (6c).",
+   "rating_basis": "Mountain Project calls Rifle “the best limestone sport climbing in North America”: ~510 sport routes, one of the largest concentrations of 5.13–5.14 in the US and the area's first 5.15a (Kinder Cakes)",
+   "hazards": "Rockfall and breaking holds on new routes, polished holds, summer thunderstorms, long routes — check your rope length and tie a stopper knot",
+   "crowd_note": "From May to September the popular walls (Project Wall, Arsenal, Meat Wall) are busy at weekends; the old classics are polished",
+   "region": "Colorado, Western Slope of the Rockies, 20 km north of the town of Rifle",
+   "season": "May–October; a narrow, shady canyon at ~2,150 m — a summer destination for when the rest of Colorado is too hot; best June–September; spring and late autumn are cold with seepage; in winter the canyon fills with ice (ice climbing)",
+   "transfer": "A car is needed: ~1.25 h from Grand Junction (130 km), ~3.5 h from Denver on I-70",
+   "rock_note": "blue-grey Leadville limestone in a narrow, shady canyon: steep, long endurance routes on pinches, pockets and flat holds, the Ruckman and Wicked caves; the old classics are heavily polished",
+   "approach": "1–10 min: most sectors are right by the dirt road along the canyon floor",
+   "restrictions": "The park belongs to the city of Rifle: entry is $10 per car per day or a season pass; camping ~$20 a night (since 2025), most sites booked 3 months ahead via RoverPass. New routes only with permission; the crags by the fish hatchery in the western part of the canyon are closed to climbing. Climbers are asked to report bats on routes to Climbers for Bat Conservation.",
+   "guidebook": "Rifle: A Climber's Guide (Derek Krol); route development is overseen by the Rifle Climbers Coalition",
+   "stay": "City campgrounds in the canyon (Little Box, Blue Spruce), Rifle Falls and Rifle Gap state park campgrounds, free camping at The Meadows (4WD needed), motels in the town of Rifle (20 min)",
+   "pros": [
+    "One of North America's best concentrations of hard 7c–9a+ routes",
+    "Shade all day — climbable in summer",
+    "1–10 min approach from the car",
+    "Campground right in the canyon"
+   ],
+   "cons": [
+    "Almost no routes for beginners and intermediates",
+    "Polished old classics",
+    "Crowded on summer weekends",
+    "Cold and damp in spring and autumn"
+   ],
+   "airport": "GJT — Grand Junction, ~1.25 h; EGE — Eagle/Vail, ~1.25 h; DEN — Denver, ~3.5 h"
+  },
+  "rmnp-bouldering": {
+   "h": "63c1e725b0",
+   "description": "High-alpine bouldering at 3,000–3,400 m above the lakes of Rocky Mountain National Park — a summer destination for strong boulderers. The banded gneiss of Chaos Canyon and Emerald Lake offers problems mostly in the 7A–8B range and famous lines up to 8C, but you have to hike up to them carrying a crash pad.",
+   "rating_basis": "PlanetMountain calls Chaos Canyon a “bouldering mecca”: alpine boulders 7A–8C at 3,000 m, with landmark V14–V15 ascents (Wheel of Chaos, Hypnotized Minds); Mountain Project describes ~200 problems in the main areas",
+   "hazards": "Afternoon thunderstorms with lightning, altitude sickness, uneven rocky landings, sudden cold snaps and snow, elk and bears (don't leave food out), remoteness from help",
+   "crowd_note": "In July–August the Bear Lake car park fills up by early morning; the Emerald Lake classics are busy at weekends, Upper Chaos is quieter",
+   "region": "Colorado, Rocky Mountain National Park, Bear Lake area (near the town of Estes Park)",
+   "season": "July–September; in early July some boulders are still under snow, October is cold with possible first snow; in summer there are thunderstorms almost every afternoon — start at dawn; November to June is winter, with snow at ~3,100–3,400 m",
+   "transfer": "~2 h by car from Denver to Estes Park, then 30–40 min to Bear Lake (or the shuttle from the Park & Ride)",
+   "rock_note": "banded gneiss and granite in high-alpine canyons: large alpine boulders on moraines and by the lakes, overhangs and arêtes with positive holds, some tall problems over rocks",
+   "approach": "30 min to 2 h from the Bear Lake car park with a crash pad, up the trail to Emerald Lake and over boulders into Chaos Canyon (~250–500 m of ascent)",
+   "restrictions": "From 22 May to 19 October 2026, entering the Bear Lake Road corridor between 5:00 and 18:00 requires a timed-entry reservation on Recreation.gov (released on the 1st of the previous month, $2 fee) plus a park entrance pass; from 2026 foreign visitors pay a $100 surcharge per person or buy a $250 non-resident pass. Leaving crash pads in the park is prohibited (they will be confiscated), fans and any motorised equipment are banned in the wilderness area, and you may not move rocks to build landings, break off holds or cut vegetation; waste goes in a wag bag. From 15 February to 31 July off-trail travel above the Loch Vale — Sky Pond trail is closed (raptors), plus a voluntary closure of the Meadow Boulder in Upper Chaos.",
+   "guidebook": "RMNP bouldering guidebooks from Mount Julian Press; online — Mountain Project and Kaya",
+   "stay": "Park campgrounds (Moraine Park, Glacier Basin — reservations required), motels and cabins in Estes Park (30–40 min to Bear Lake); free shuttles run from the Park & Ride",
+   "pros": [
+    "World-class summer bouldering 7A–8C",
+    "Cool temperatures and good friction in July–September",
+    "Incredible alpine views and lakes",
+    "Can be combined with alpine climbing and trad in the park"
+   ],
+   "cons": [
+    "Almost no easy problems",
+    "Long uphill approach with crash pads, altitude of 3,000+ m",
+    "Entry reservations and expensive entry for foreigners",
+    "Daily afternoon thunderstorms, short season"
+   ],
+   "airport": "DEN — Denver, ~2–2.5 h"
+  },
+  "smith-rock": {
+   "h": "664e84f4d8",
+   "description": "The Crooked River canyon in the high desert of Central Oregon, where American sport climbing was born in the 1980s. Technical vertical routes on tuff, the legendary Monkey Face tower and basalt cracks in the gorge, from 5.7 to 5.14d.",
+   "rating_basis": "The birthplace of American sport climbing: more than 1,500 routes on Mountain Project (~19k views a month); the first US 5.14a (To Bolt or Not to Be, 1986) and the first 8c+ (Just Do It) were climbed here",
+   "hazards": "Ground falls before the first bolt and starts on sloping ground, loose rock on the upper ledges, rattlesnakes, poison ivy by the river, summer heat",
+   "crowd_note": "On spring and autumn weekends there are queues for the classics on the Dihedrals and Morning Glory Wall, and the main car park fills up by morning",
+   "region": "Oregon, Central Oregon, Smith Rock State Park (near the village of Terrebonne)",
+   "season": "March–May and September–November; summer days often top +38 °C (climb early in the morning and in the shady sectors of the gorge); winter brings cold, dry, sunny days; nights are cold year-round",
+   "transfer": "A car is needed: ~20 min from Redmond airport, ~40 min from Bend, ~2.5–3 h from Portland",
+   "rock_note": "welded volcanic tuff: technical vertical faces with small edges and pockets, arêtes and dihedrals, the famous Monkey Face; columnar basalt with cracks in the Upper and Lower Gorge",
+   "approach": "10–45 min from the main car park across the bridge over the Crooked River to the Dihedrals, Morning Glory and Monkey Face",
+   "restrictions": "Parking in the park costs $10 per car per day (season pass $30). Seasonal raptor nesting closures, usually from February to early August, affect The Monument, Kiss of the Lepers, Picnic Lunch Wall and part of the Smith Rock Group (current dates at smithrock.com/seasonal-closures). The first bolt is often ~4–5 m up and many routes start from a slope — bring a stick clip. Sleeping in cars and campfires are prohibited at the Bivy campground.",
+   "guidebook": "Rock Climbing Smith Rock State Park (Alan Watts); online — Mountain Project",
+   "stay": "Smith Bivy walk-in campground at the park entrance ($12 per person, showers, water, no cars or fires), Skull Hollow campground 13 km away (no water), motels and Airbnbs in Terrebonne, Redmond and Bend",
+   "pros": [
+    "Historic sport classics at all levels",
+    "Dry, sunny climate, rain is rare",
+    "Cheap climbers' campground at the park entrance",
+    "Several accredited schools and guides"
+   ],
+   "cons": [
+    "Very hot in summer, cold in winter",
+    "High first bolts, some old anchors and bold spacing",
+    "Seasonal raptor closures on some walls",
+    "Lots of people at weekends"
+   ],
+   "airport": "RDM — Redmond/Bend, ~20 min; PDX — Portland, ~2.5–3 h",
+   "famous_lines": [
+    "To Bolt or Not to Be 5.14a (8b+), the first 5.14 in the US, Dihedrals",
+    "Just Do It 5.14c (8c+), Monkey Face",
+    "Chain Reaction 5.12c (7b+)",
+    "Monkey Face — Pioneer Route 5.7 A0",
+    "Moonshine Dihedral 5.9 (5c), Dihedrals"
+   ],
+   "school_notes": [
+    "Guides with more than 20 years' experience in the park, gear for clients, based at a shop in Terrebonne",
+    "AMGA-accredited: instruction, guiding and camps for all ages",
+    "Operating in the park since 1983, AMGA-accredited"
+   ]
+  },
+  "yosemite-valley": {
+   "h": "9e5e3d0d2f",
+   "description": "The world's most famous climbing valley: the granite walls of El Capitan and Half Dome, where big-wall climbing was born, along with the free ascents of The Nose and the Dawn Wall. The main style is trad on cracks and multi-pitch routes, plus historic bouldering at Camp 4 with the Midnight Lightning problem. In summer the action moves up to high-alpine Tuolumne Meadows in the same park.",
+   "rating_basis": "The historic centre of American climbing; Mountain Project lists ~1,900 routes and problems in the valley and ~3,200 across the national park, with about 46k page views a month; El Capitan and Half Dome appear on every world top list",
+   "hazards": "Rockfall (including major collapses from El Capitan), thunderstorms and sudden bad weather on multi-day walls, heat and dehydration in summer, bears in the campgrounds (store food in metal lockers), long descents after routes",
+   "crowd_note": "In spring and autumn there are queues and “traffic jams” on The Nose, Royal Arches, Nutcracker and other classics; campgrounds and car parks overflow, and in summer park entry may be temporarily closed",
+   "region": "California, Sierra Nevada, Yosemite National Park",
+   "season": "April–June and September–October in the valley; in July–August the valley is hot (+32…+35 °C) — climb early in the morning and in the shade, while most of the action moves to Tuolumne Meadows (2,600 m; the Tioga Pass road is open roughly from late May to October–November); winters are rainy and snowy, but bouldering is good on dry days",
+   "transfer": "A car is essential, or YARTS buses from Merced (Amtrak train) / Fresno; ~1.5–2 h from Fresno, ~4 h from San Francisco",
+   "rock_note": "pale, monolithic granite: perfect cracks of every size, slabs with micro-features, walls up to 1,000 m high (El Capitan, Half Dome)",
+   "approach": "5–30 min from the road to the base of most walls and to the Swan Slab; 1–3 h to the starts on Half Dome and some other walls; bouldering right in Camp 4 and along the road",
+   "restrictions": "Paid national park entry ($35 per car for 7 days); from 2026 foreign visitors pay a $100 surcharge per person or buy a $250 non-resident America the Beautiful annual pass. Camp 4 is by reservation only on Recreation.gov — dates are released a week ahead at 7:00 Pacific time and go in minutes; other campgrounds are booked months ahead. Bivying on a big wall requires a free climbers' wilderness permit. Each year from 1 March to 15 July some walls are closed for nesting peregrine falcons. New bolts may only be placed with a hand drill, “gardening” cracks is prohibited, all rubbish and waste must be carried off the wall, and tick marks brushed off.",
+   "guidebook": "Yosemite Valley Free Climbs (SuperTopo, Don Reid / Chris McNamara) and Yosemite Big Walls (SuperTopo); for bouldering, Yosemite Valley Bouldering (Matt Wilder)",
+   "stay": "The legendary Camp 4 climbers' campground (book a week ahead), other valley campgrounds (book months ahead), Yosemite Valley Lodge, Curry Village; cheaper motels in El Portal, Mariposa and Groveland (30–60 min)",
+   "pros": [
+    "Legendary big walls and the world's best cracks",
+    "Huge choice of multi-pitch classics from 5.7 to 5.14",
+    "Historic bouldering at Camp 4",
+    "An official school and guides in the park",
+    "Stunning scenery and waterfalls for rest days"
+   ],
+   "cons": [
+    "Few sport routes — trad skills and a rack of cams needed",
+    "Very crowded and campgrounds hard to book",
+    "Hot in the valley in summer, rain and snow in winter",
+    "Expensive entry for foreigners from 2026"
+   ],
+   "airport": "FAT — Fresno, ~2 h; SFO / OAK — San Francisco, ~4 h",
+   "famous_lines": [
+    "The Nose 5.9 C2 / free 5.14a (8b+), El Capitan",
+    "Regular Northwest Face 5.9 C1 (Half Dome)",
+    "Snake Dike 5.7 (Half Dome)",
+    "Astroman 5.11c (Washington Column)",
+    "Midnight Lightning V8 (7B), Columbia Boulder, Camp 4"
+   ],
+   "school_notes": [
+    "The national park's official school: beginner, crack, anchor and multi-pitch courses, a big-wall seminar, guided ascents of Half Dome and El Capitan; some gear for rent, free helmets on courses"
+   ]
+  },
+  "cat-ba-lan-ha-bay": {
+   "h": "f1b31f34f9",
+   "description": "Cat Ba Island on the edge of Ha Long Bay is Vietnam's main spot for deep-water soloing (DWS): hundreds of lines on the undercut karst islands of Lan Ha Bay. The island itself has sport sectors, the best being Butterfly Valley. For pure sport climbing it's also worth visiting Huu Lung on the mainland, 2 hours from Hanoi.",
+   "rating_basis": "One of the few DWS areas in the world (230+ lines on 24 crags) plus 200+ sport routes (Mountain Project); but the volume and difficulty are more modest than in Thailand and Laos, and access is regulated",
+   "hazards": "Shallow water and submerged rocks at low tide (DWS), heat and humidity, typhoons in summer, rusty fixed gear on older routes",
+   "crowd_note": "Few climbers; tourist crowds only in town and on the bay cruises",
+   "region": "Haiphong, Cat Ba Island by Ha Long Bay",
+   "season": "April–May and September–December; DWS June–November (needs a tide above 2.2 m); cool and drizzly in winter, heat and typhoons in summer",
+   "transfer": "From Hanoi by bus + ferry to Cat Ba town, ~4–4.5 h; Haiphong airport is closer",
+   "rock_note": "limestone karst islands: towers undercut at the waterline for DWS; on Cat Ba, steep walls with tufas (Butterfly Valley)",
+   "approach": "On Cat Ba, 10–20 min by scooter from town and a short walk-in; the crags in the bay and all DWS by boat only",
+   "restrictions": "A UNESCO site controlled by the national park and the military: access to the crags is via a climbing company's pass, a fee to the landowner or a national park fee; DWS only with a licensed guide and boat. The mainland alternative is Huu Lung (Lang Son province): 120+ sport routes 4+…8b, with homestays by the crags",
+   "guidebook": "Vietnam Rock Climbing Guidebook / Vietnam Climbing (500+ routes: sport, DWS, trad; covers Cat Ba and Huu Lung)",
+   "stay": "Hotels and hostels in Cat Ba town; scooter rental",
+   "pros": [
+    "World-class DWS in Ha Long Bay",
+    "Fairy-tale scenery",
+    "Few climbers"
+   ],
+   "cons": [
+    "Complicated access rules and fees",
+    "DWS depends on the tides",
+    "Typhoons and heat in summer, drizzle in winter"
+   ],
+   "airport": "HPH — Haiphong, ~2 h including the ferry; HAN — Hanoi, ~4 h",
+   "famous_lines": [
+    "Routine Heaven 6a",
+    "Barefoot Vietnamese 6b",
+    "License To Climb 7a+",
+    "Screw Loose 6a+ (4 pitches)",
+    "Three Brothers Traverse (DWS traverse, Three Brothers)"
+   ],
+   "school_notes": [
+    "Guides in Cat Ba town: sport and DWS from a boat",
+    "DWS courses and trips"
+   ]
+  },
+  "rocklands": {
+   "h": "43006b20a0",
+   "description": "Rocklands is a vast field of orange sandstone boulders in the northern Cederberg and one of the planet's top bouldering destinations. More than four thousand problems from easy slabs to 8C+, roofs and pinchy arêtes, San rock art and desert scenery. The season is the southern winter, when it's dry and cool.",
+   "rating_basis": "One of the world's best bouldering areas: 4,300+ problems up to 8C+ (Wikipedia), opened up by Todd Skinner and Fred Nicole in 1996, an annual mecca for the strongest boulderers",
+   "hazards": "Snakes (Cape cobra, adders), baboons, ticks, sharp rock; winter nights can be around freezing",
+   "crowd_note": "In July international teams and film crews gather at the classics, but the field is huge — there are plenty of free boulders",
+   "region": "Western Cape, northern Cederberg, Pakhuis Pass",
+   "season": "April–September (southern winter); best May–August — dry, cool, excellent friction; hot in summer (November–March)",
+   "transfer": "~3 h by car from Cape Town on the N7 via Clanwilliam (20 min from Rocklands); a car is essential",
+   "rock_note": "dense, bright orange Cederberg quartzitic sandstone: roofs, arêtes, pinches, friction slabs",
+   "approach": "2–30 min on foot from the farm campgrounds and parking areas along the Pakhuis Pass road; a car is essential",
+   "restrictions": "All sectors (the CapeNature reserve and private farms) only with a valid permit bought online; since 2013 one landowner has closed their land (Tea Garden and the areas from Klein Kliphuis towards Clanwilliam) — trespassers are fined. Don't touch the rock art; brush off chalk and tick marks",
+   "guidebook": "Rocklands Bouldering South Africa (Cordee); online topos on theCrag and 27crags",
+   "stay": "Farm campgrounds and cottages by the rocks: De Pakhuys, Traveller's Rest, Kleinfontein, Eight Day Rain, Kliphuis (CapeNature); book ahead for July",
+   "pros": [
+    "Thousands of problems at every grade",
+    "Excellent winter friction",
+    "Accommodation and campgrounds right by the boulders",
+    "Easy to combine with Cape Town and Waterval Boven"
+   ],
+   "cons": [
+    "Permit mandatory, some land closed",
+    "Impossible without a car",
+    "Far from shops (Clanwilliam)"
+   ],
+   "airport": "CPT — Cape Town, ~3 h"
+  },
+  "waterval-boven": {
+   "h": "72fa4b1fbb",
+   "description": "A village by a waterfall on the Elands River, renamed Emgwenya, and South Africa's sport climbing capital. Hundreds of bolted routes on ancient orange quartzite on the crags around the valley, all just minutes from the car. Easy to combine with a trip to Kruger Park or Rocklands.",
+   "rating_basis": "South Africa's main sport climbing area: 700+ bolted routes according to the MCSA (1,000+ according to Mountain Project) within 8 km of the village, orange quartzite, grades 5.4–5.14",
+   "hazards": "Thunderstorms and lightning in summer, snakes and ticks, sharp quartzite; it's best not to leave valuables in the car",
+   "crowd_note": "Crowded only on long weekends and during South African school holidays",
+   "region": "Mpumalanga, Elands River valley",
+   "season": "March–November; best April–October (dry southern winter, sunny sectors); afternoon thunderstorms in summer",
+   "transfer": "~3 h from Johannesburg on the N4 (≈240 km); ~1 h from Mbombela (Nelspruit)",
+   "rock_note": "orange quartzite ~2.3 billion years old: vertical and moderately overhanging, roofs, sharp edges",
+   "approach": "All crags are within 8 km of the village: 5–20 min on foot from the parking areas; Wonderland is reached from Tranquilitas farm",
+   "restrictions": "No climbing permit needed; no littering or graffiti; some crags are on private farms — park in the designated places",
+   "guidebook": "Local Waterval Boven guidebook (PDF), also sold at Roc'n Rope; topos on theCrag and 27crags",
+   "stay": "Roc'n Rope Climber's Lodge in the village (dorms and doubles), Orange House for groups; Tranquilitas farm — camping, chalets and safari tents by the Wonderland sectors",
+   "pros": [
+    "Huge choice of routes close to the village",
+    "Climbable almost year-round",
+    "Cheap accommodation for climbers",
+    "Kruger Park nearby for a rest day"
+   ],
+   "cons": [
+    "Afternoon thunderstorms in summer",
+    "Car needed",
+    "Little information in Russian"
+   ],
+   "airport": "JNB — Johannesburg, ~3 h; MQP — Kruger Mpumalanga, ~1.5 h",
+   "school_notes": [
+    "Climbers' lodge, guides and courses in the village"
+   ]
   }
  }
 }

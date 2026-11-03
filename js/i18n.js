@@ -122,9 +122,12 @@ export function localizeSpot(s) {
     if (tr.school_notes && s.school_list) s.school_list.forEach((x, i) => { if (tr.school_notes[i]) x.note_ru = tr.school_notes[i]; });
     if (s.attrs) {   // surf and other activity-specific texts
       const map = { area_breaks: 'area_breaks_ru', beginner_months: 'beginner_months_ru', best_wind_dir: 'best_wind_dir', best_swell_dir: 'best_swell_dir', wave_size_m: 'wave_size_m',
-        season: 'season_ru', transfer: 'transfer_ru' };
+        season: 'season_ru', transfer: 'transfer_ru',
+        rock_note: 'rock_note_ru', approach: 'approach_ru', restrictions: 'restrictions_ru', guidebook: 'guidebook_ru', stay: 'stay_ru', famous_lines: 'famous_lines_ru',
+        takeoffs: 'takeoffs_ru', wind_note: 'wind_ru', best_time: 'best_time_ru', access: 'access_ru', xc_note: 'xc_note_ru', rules: 'rules_ru', landing: 'landing_ru', events: 'events_ru' };
       for (const [k, f] of Object.entries(map)) if (tr[k] && s.attrs[f] != null) s.attrs[f] = tr[k];
       if (tr.lift_pass_note && s.attrs.lift_pass && s.attrs.lift_pass.note_ru) s.attrs.lift_pass.note_ru = tr.lift_pass_note;
+      if (tr.tandem_price_note && s.attrs.tandem_price && s.attrs.tandem_price.note_ru) s.attrs.tandem_price.note_ru = tr.tandem_price_note;
     }
   }
   return s;

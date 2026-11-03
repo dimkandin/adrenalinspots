@@ -26,6 +26,24 @@ export const TIDE = dictOf('tide', ['low', 'low_mid', 'mid', 'mid_high', 'high',
 // mountains
 export const PARK = dictOf('park', ['none', 'small', 'good', 'pro']);
 export const SNOWMAKING = dictOf('snowmaking', ['none', 'some', 'most']);
+// climbing
+export const STYLE = dictOf('style', ['boulder', 'sport', 'multipitch', 'trad', 'dws']);
+export const ROCK = dictOf('rock', ['limestone', 'granite', 'sandstone', 'gneiss', 'quartzite', 'conglomerate', 'basalt', 'gritstone', 'other']);
+export const BOLTING = dictOf('bolting', ['good', 'mixed', 'sparse', 'trad']);
+/** How a daytime high feels for climbing: friction for bouldering, comfort for rope climbing. */
+export function climbFeel(tmax, boulder = false) {
+  if (tmax == null) return null;
+  if (tmax < (boulder ? 0 : 5)) return 'cold';
+  if (tmax <= (boulder ? 16 : 22)) return boulder ? 'great_b' : 'great';
+  if (tmax <= (boulder ? 22 : 28)) return 'warm';
+  return 'hot';
+}
+// paragliding
+export const FLYING = dictOf('flying', ['thermal', 'soaring', 'mixed']);
+export const PG_LEVEL = dictOf('pglevel', ['tandem', 'student', 'pilot', 'xc']);
+/** Compass points in the interface language: 'SW' -> 'ЮЗ' in Russian, 'SO' in Spanish… */
+export const compassText = (d) => String(d).split('').map((ch) => t('compass_letters')['NESW'.indexOf(ch)] || ch).join('');
+export const kmh = (kn) => (kn == null ? '—' : `${num(Math.round(kn * 1.852))} ${t('unit.kmh')}`);
 export const SCHOOLS = dictOf('schools', ['none', 'few', 'several', 'many']);
 export const WIND_TYPE = dictOf('wind_type', ['thermal', 'trade', 'monsoon', 'frontal', 'katabatic', 'mixed']);
 export const SPOT_TYPE = dictOf('spot_type', ['lagoon', 'beach', 'bay', 'lake', 'reservoir', 'river', 'sandbank', 'snow_plateau', 'frozen_lake']);

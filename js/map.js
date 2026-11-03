@@ -179,7 +179,8 @@ function tipHtml(p) {
     p.snow != null ? t('tip.snow', { v: cm(p.snow) })
       : p.swell != null ? t('tip.swell', { v: metres(p.swell), s: p.period != null ? Math.round(p.period) : '—' })
         : (p.wind != null ? t('tip.wind', { v: windText(p.wind) }) : ''),
-    p.air != null ? t('tip.air', { v: Math.round(p.air) }) : '', p.sea != null ? t('tip.sea', { v: Math.round(p.sea) }) : ''].filter(Boolean).join(', ')}</div>
+    p.air != null ? t('tip.air', { v: Math.round(p.air) }) : '', p.sea != null ? t('tip.sea', { v: Math.round(p.sea) }) : '',
+    p.dry != null ? t('tip.dry', { v: Math.round(p.dry) }) : '', p.fly != null ? t('tip.fly', { v: Math.round(p.fly) }) : ''].filter(Boolean).join(', ')}</div>
     ${visa || p.vibe ? `<div class="tip-row">${visa ? `<span class="tip-visa tone-${visa.tone}">${esc(visa.label)}</span>` : ''}${p.vibe ? `<span class="tip-vibe">${esc(t('tip.vibe', { v: vibeLabel(p.vibe) }))}</span>` : ''}</div>` : ''}`;
 }
 

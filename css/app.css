@@ -288,6 +288,10 @@ a:hover { color: var(--sea-2); }
 .pb-medium { background: #d9534a; }
 .pb-hard { background: #1f2a30; }
 .fc-w.fc-snow { background: #9cc3e6; }
+.grades .pb-easy { background: #79c99a; }
+.grades .pb-medium { background: #f0b44c; }
+.grades .pb-hard { background: #d9534a; }
+.fc-w.fc-rain { background: #8fb3d9; }
 
 .chart-host { position: relative; }
 .chart { width: 100%; height: auto; display: block; overflow: visible; }

@@ -325,3 +325,56 @@ export function snowChart(host, { guide, era5, seasons, month, onMonth }) {
   s.setAttribute('aria-label', t('chart.snow_aria'));
   host.append(s);
 }
+
+/** Monthly climbing weather: columns = share of dry days (weather model) coloured by season. */
+export function dryChart(host, { era5, seasons, month, onMonth }) {
+  pctChart(host, { era5, seasons, month, onMonth, key: 'dry_prob', aria: t('chart.dry_aria'), empty: t('chart.no_dry'),
+    rows: (e) => [
+      e.dry_prob != null ? t('chart.dry', { p: Math.round(e.dry_prob) }) : null,
+      e.rain_days != null ? t('chart.rain_days', { n: num(Math.round(e.rain_days)) }) : null,
+      e.air_c != null ? t('chart.day_night', { d: deg(e.air_c), n: deg(e.tmin_c) }) : null,
+      e.hum_pct != null ? t('chart.humidity', { p: Math.round(e.hum_pct) }) : null,
+    ] });
+}
+
+/** Columns of a monthly percentage from the weather model (dry days, flyable days…), coloured by season. */
+export function pctChart(host, { era5, seasons, month, onMonth, key, rows, aria, empty }) {
+  host.innerHTML = '';
+  const vals = (era5 || []).map((e) => (e && e[key] != null ? e[key] : null));
+  if (!vals.some((v) => v != null)) { host.append(Object.assign(document.createElement('p'), { className: 'muted', textContent: empty })); return; }
+  const W = 440, H = 170, L = 38, R = 8, T = 18, B = 26;
+  const s = svg(W, H);
+  const step = (W - L - R) / 12;
+  const bw = Math.min(22, step - 6);
+  const y = (v) => T + (H - T - B) * (1 - v / 100);
+  for (let v = 0; v <= 100; v += 25) {
+    s.append(el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+    s.append(el('text', { x: L - 6, y: y(v) + 3.5, class: 'tick', 'text-anchor': 'end' }, `${v}%`));
+  }
+  for (let i = 0; i < 12; i++) {
+    const cx = L + step * i + step / 2;
+    const v = vals[i];
+    const season = seasons[i] || 'off';
+    if (v != null && v > 0) {
+      const top = y(v);
+      s.append(el('path', { d: roundTopRect(cx - bw / 2, top, bw, y(0) - top, 4), fill: BAR[season], class: `bar ${i + 1 === month ? 'is-current' : ''}` }));
+    }
+    if (i + 1 === month && v != null) s.append(el('text', { x: cx, y: y(v) - 5, class: 'value', 'text-anchor': 'middle' }, `${Math.round(v)}%`));
+    s.append(el('text', { x: cx, y: H - 8, class: `tick month ${i + 1 === month ? 'is-current' : ''}`, 'text-anchor': 'middle' }, MONTHS_SHORT[i]));
+  }
+  const tip = tooltip(host);
+  for (let i = 0; i < 12; i++) {
+    const hit = el('rect', { x: L + step * i, y: T - 10, width: step, height: H - T - B + 10, class: 'hit' });
+    hit.addEventListener('mousemove', (ev) => {
+      const e = era5 && era5[i] ? era5[i] : {};
+      const season = SEASON[seasons[i] || 'off'];
+      const rect = host.getBoundingClientRect();
+      tip.show(`<b>${MONTHS[i]}</b> — ${season.short}<br>${rows(e).filter(Boolean).join('<br>')}`, ev.clientX - rect.left, ev.clientY - rect.top);
+    });
+    hit.addEventListener('mouseleave', () => tip.hide());
+    hit.addEventListener('click', () => onMonth && onMonth(i + 1));
+    s.append(hit);
+  }
+  s.setAttribute('aria-label', aria);
+  host.append(s);
+}
