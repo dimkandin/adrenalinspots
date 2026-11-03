@@ -4145,6 +4145,1682 @@
     "Longe do aeroporto internacional"
    ],
    "airport": "PLZ — Gqeberha (Port Elizabeth), ~1 h (voos domésticos via Joanesburgo/Cidade do Cabo); da Cidade do Cabo (CPT), ~8 h de carro"
+  },
+  "grandvalira": {
+   "h": "7c2fcc75d6",
+   "description": "A maior área de esqui dos Pireneus: seis setores interligados de Pas de la Casa a Encamp, mais de 200 km de pistas. A estação é boa para iniciantes e intermediários, com um grande snowpark e esqui noturno. A vantagem de Andorra são as compras sem impostos e a hospedagem relativamente barata.",
+   "rating_basis": "Teste do skiresort.com — 4,4/5 (“Outstanding”), com destaque para tamanho, neve, famílias, iniciantes, snowpark e après-ski; a maior área dos Pireneus",
+   "hazards": "Risco de avalanche fora das pistas, vento forte e neblina nos passos (Envalira, Pic Blanc), neve dura/gelada de manhã, gelo e engarrafamentos na estrada CG-2.",
+   "crowd_note": "Lotado nos feriados espanhóis (início de dezembro, Natal, Páscoa), nos fins de semana e em fevereiro; nos dias úteis de janeiro fica vazio. Engarrafamentos na estrada pelo passo de Envalira",
+   "region": "Canillo / Encamp, Pireneus andorranos",
+   "season": "início de dezembro – meados de abril",
+   "transfer": "Toulouse ~2,5–3 h, Barcelona ~3–3,5 h (ônibus diretos), aeroporto Andorra–La Seu d'Urgell ~1 h (poucos voos)",
+   "pros": [
+    "Grande área interligada, muitas pistas azuis e vermelhas largas",
+    "Ótimas escolas e infraestrutura para crianças",
+    "Snowpark Henrik Harlaut em El Tarter, esqui noturno",
+    "Produção de neve potente, temporada desde o início de dezembro"
+   ],
+   "cons": [
+    "Pouco terreno difícil para avançados",
+    "Sem aeroporto próprio — 3 h de Toulouse ou Barcelona",
+    "Multidões e engarrafamentos nos feriados espanhóis",
+    "Vento e neblina fecham com frequência os teleféricos de cima"
+   ],
+   "airport": "TLS — Toulouse, ~3 h",
+   "lift_pass_note": "1 dia, adulto (18–64), segundo o estiber.com para 2026/27; preços dinâmicos, até −15% comprando online com antecedência; o skiresort.com indica 69 € na alta temporada"
+  },
+  "tsaghkadzor": {
+   "h": "f8e6a9f23d",
+   "description": "A principal estação de esqui da Armênia, a uma hora de Yerevan: cinco seções de teleférico Leitner sobem o monte Teghenis até 2819 m, com desnível de cerca de 850 m e pista mais longa de 8 km. Barato, todos os instrutores falam russo e cidadãos russos não precisam de visto. Não há iluminação noturna, e a infraestrutura é modesta.",
+   "rating_basis": "Teste do skiresort.com — 3,0/5 (“Good”); principal estação de esqui da Armênia, antiga base olímpica soviética",
+   "hazards": "Vento e fechamento da seção superior do teleférico, risco de avalanche fora das pistas nas encostas sem árvores do Teghenis, gelo depois de degelos, anoitecer cedo (os teleféricos funcionam até escurecer).",
+   "crowd_note": "Movimentado nos feriados de Ano-Novo e nos fins de semana (vem gente de Yerevan); nos dias úteis fica vazio",
+   "region": "Kotayk, encostas do monte Teghenis (cordilheira Pambak)",
+   "season": "fim de dezembro – início de abril (em anos de muita neve, de meados de novembro ao fim de abril)",
+   "transfer": "Yerevan (aeroporto Zvartnots) ~1–1,25 h (≈71 km; táxi 10–18 mil drams), do centro de Yerevan ~1 h; micro-ônibus nº 273",
+   "pros": [
+    "Uma hora de Yerevan, sem visto para russos",
+    "Todos os instrutores falam russo, aulas baratas",
+    "Descidas longas de até 8 km, desnível de ~850 m",
+    "Ski pass e aluguel de equipamento baratos"
+   ],
+   "cons": [
+    "Poucos teleféricos (uma sequência de cadeirinhas em série)",
+    "Sem esqui noturno e quase sem après-ski",
+    "Preparação das pistas e serviço modestos",
+    "Neve instável no início da temporada"
+   ],
+   "airport": "EVN — Yerevan, ~1,25 h",
+   "lift_pass_note": "1 dia, adulto — 12 000 drams (≈27 €) segundo o Yandex Travel (fevereiro de 2026); o skiresort.com indica 13 000 drams. Cartão do ski pass 2 000 drams, subida avulsa 3 000 drams, 10 subidas 10 000 drams"
+  },
+  "cerro-catedral": {
+   "h": "3f8da0a3e0",
+   "description": "A maior estação da Argentina, a 19 km de Bariloche — a “Suíça patagônica”: pistas sobre o lago Nahuel Huapi e os Andes, ~29 teleféricos e mais de 1100 m de desnível, com neve úmida embaixo e seca em cima. Muitas pistas fáceis para iniciantes e muito freeride em bowls e couloirs (Punta Nevada, La Laguna). Alternativa para freeriders: Las Leñas, em Mendoza — desnível de ~1230 m, 2200–3430 m, os famosos couloirs do teleférico Marte, ski pass 2026 a 180 000 ARS.",
+   "rating_basis": "skiresort.com — 3,3/5, a melhor nota entre as estações da Argentina; maior estação do país, com vista para o lago Nahuel Huapi, boas avaliações do freeride",
+   "hazards": "Vento forte e whiteout no alto, risco de avalanche nos bowls e no backcountry (é preciso guia e equipamento), gelo e pedras nas encostas de baixo quando há pouca neve",
+   "crowd_note": "Muito cheio nas férias de inverno de julho na Argentina e no Brasil (filas nos teleféricos de baixo); do fim de agosto a setembro fica mais tranquilo",
+   "region": "Patagônia, província de Río Negro, Parque Nacional Nahuel Huapi",
+   "season": "fim de junho – fim de setembro / início de outubro (melhor de agosto ao início de setembro)",
+   "transfer": "Aeroporto de Bariloche (BRC) ~40 min (~30 km); do centro de Bariloche são 19 km, ~25–40 min de ônibus ou táxi",
+   "pros": [
+    "Esqui em julho–setembro com vista para os lagos da Patagônia",
+    "Grande desnível e bom freeride",
+    "Bariloche ao lado: restaurantes, chocolate, vida noturna",
+    "Muitas escolas e pistas fáceis"
+   ],
+   "cons": [
+    "Base baixa (~1030 m): neve úmida e trechos sem neve embaixo",
+    "Multidões em julho",
+    "Clima patagônico instável e vento",
+    "Preços instáveis por causa do câmbio do peso"
+   ],
+   "airport": "BRC — San Carlos de Bariloche, ~40 min",
+   "lift_pass_note": "1 dia, adulto, temporada 2026 — 160 000 ARS (~115 $), preço único na alta e na baixa temporada segundo a PowderQuest; o câmbio do peso oscila muito"
+  },
+  "hintertux-mayrhofen": {
+   "h": "60c34eb694",
+   "description": "O ski pass Zillertal 3000 reúne a geleira de Hintertux, aberta o ano todo (até 3250 m, 64 km), e a área de Mayrhofen — Penken, Ahorn, Rastkogel, Eggalm (142 km). Mayrhofen é famosa pelo Penken Park e pela Harakiri, a pista preparada mais íngreme da Áustria (78%); Hintertux, por permitir esquiar em qualquer mês e pelo Betterpark de outono. Destino popular entre turistas de língua russa.",
+   "rating_basis": "skiresort.com: Mayrhofen 4,7/5 (“nível mundial”), geleira de Hintertux 4,0/5; o Penken Park é um dos melhores snowparks da Europa; única área de esqui da Áustria aberta o ano todo",
+   "hazards": "Altitude de até 3250 m — frio intenso e vento na geleira; fendas fora das pistas; no verão a neve fica fofa depois do almoço, e em semanas de calor anormal a geleira pode fechar temporariamente; risco de avalanche nas ski routes",
+   "crowd_note": "Filas de manhã na Penkenbahn e na Ahornbahn em Mayrhofen; na geleira fica cheio em outubro–novembro (treinos de seleções nacionais) e nos fins de semana",
+   "region": "Tirol, vale do Zillertal (Tuxertal)",
+   "season": "geleira de Hintertux — o ano todo (em semanas quentes de verão pode haver pausas curtas); Mayrhofen (Penken, Ahorn, Rastkogel, Eggalm) — início de dezembro – meados de abril",
+   "transfer": "Innsbruck ~1 h até Mayrhofen (65 km) e mais ~30 min até Hintertux; Munique ~2,5 h, Salzburgo ~2,5 h; trem Zillertalbahn de Jenbach a Mayrhofen, depois ônibus até Hintertux",
+   "pros": [
+    "Esqui o ano todo na geleira de Hintertux",
+    "Snowparks de nível pro (Penken Park, Betterpark)",
+    "Pista Harakiri — 78% de inclinação",
+    "Après-ski animado em Mayrhofen",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "As áreas de Mayrhofen e Hintertux não são interligadas — 30 min de ônibus",
+    "Mayrhofen fica baixa (630 m) — na primavera não há neve para descer ao vale, desce-se de teleférico",
+    "Filas em Mayrhofen de manhã"
+   ],
+   "airport": "INN — Innsbruck, ~1,5 h até Hintertux",
+   "lift_pass_note": "1 dia, adulto, alta temporada na bilheteria: tanto a geleira de Hintertux quanto a área de Mayrhofen custam 79 € cada (ski passes separados; o Zillertal 3000 conjunto é só para vários dias). O skiresort.com indica 82 € para 2026/27"
+  },
+  "ischgl-samnaun": {
+   "h": "bfdd08e3a8",
+   "description": "Ischgl é uma das estações mais famosas da Áustria: 239 km de pistas da Silvretta Arena a 2000–2872 m de altitude, interligadas com Samnaun, na Suíça, área livre de impostos. Teleféricos modernos, neve artificial em quase toda a área e neve garantida de novembro a maio. Famosa pelas festas, pelos shows Top of the Mountain e pela vida noturna intensa.",
+   "rating_basis": "skiresort.com: 4,9/5 — uma das notas mais altas do mundo, “top” em 18 categorias; famosa pelos shows Top of the Mountain e pelo après-ski",
+   "hazards": "Risco de avalanche nas encostas fora de pista e nas ski routes; vento e frio intenso nos passos para Samnaun; volta tarde do après-ski por pistas escuras",
+   "crowd_note": "Filas de manhã na Silvrettabahn e na Pardatschgratbahn, na vila; lá em cima as pistas são espaçosas; na abertura e no encerramento da temporada (shows) fica muito cheio",
+   "region": "Tirol, vale do Paznaun (a área avança até Samnaun, na Suíça)",
+   "season": "fim de novembro – início de maio (2026/27: 26.11–02.05; temporada principal até o fim de março, depois a de primavera)",
+   "transfer": "Innsbruck ~1,25 h (100 km), Zurique ~2,5–3 h, Munique ~3 h; de trem até Landeck-Zams, depois ônibus ~45 min",
+   "pros": [
+    "Neve garantida — esqui acima de 2000 m, temporada até maio",
+    "Teleféricos muito modernos",
+    "Après-ski e shows lendários",
+    "Compras sem impostos em Samnaun",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Hospedagem cara na alta temporada",
+    "As pistas para aprender ficam lá em cima (Idalp), não junto à vila",
+    "Barulhento — não serve para férias tranquilas em família"
+   ],
+   "airport": "INN — Innsbruck, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, Silvretta Arena (Ischgl + Samnaun), alta temporada na bilheteria; para 2026/27 o skiresort.com indica 83 €"
+  },
+  "kaprun-kitzsteinhorn": {
+   "h": "ab055e0672",
+   "description": "O Kitzsteinhorn, acima de Kaprun, é a área de geleira do estado de Salzburgo, com temporada de outubro a maio: esqui até 3029 m, vários snowparks com superpipe, rotas de freeride sinalizadas e a plataforma panorâmica Top of Salzburg. Embaixo fica o Maiskogel, voltado para famílias, e ao lado, a Schmittenhöhe em Zell am See, no mesmo ski pass.",
+   "rating_basis": "skiresort.com: 4,4/5 (“excepcional”), “top” em 17 categorias, incluindo snowpark e freeride; geleira com uma das temporadas mais longas da Áustria",
+   "hazards": "Altitude acima de 3000 m — frio intenso, vento, whiteout; fendas na geleira e avalanches fora das pistas (as rotas de freeride não são controladas); no outono, gelo duro",
+   "crowd_note": "No outono a geleira fica cheia — as seleções treinam lá; na alta temporada há filas de manhã no Gletscherjet; nos dias úteis de inverno é tranquilo",
+   "region": "Salzburgo, Zell am See – Kaprun",
+   "season": "geleira do Kitzsteinhorn — de meados de outubro a meados de maio (2026/27: 10.10–17.05); Maiskogel e descida até Kaprun — de dezembro a março/abril",
+   "transfer": "Salzburgo ~1–1,25 h (100 km), Munique ~2,5 h, Innsbruck ~2 h; de trem até Zell am See, depois ônibus ~15 min",
+   "pros": [
+    "Geleira — esqui de outubro a maio",
+    "Snowparks fortes e superpipe",
+    "Rotas de freeride sinalizadas",
+    "Perto de Zell am See, com o lago e a Schmittenhöhe",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Área própria pequena (cerca de 60 km)",
+    "Vento e fechamentos na geleira",
+    "Descida esquiando até o vale só no meio do inverno"
+   ],
+   "airport": "SZG — Salzburgo, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, Kitzsteinhorn (incl. Maiskogel), alta temporada na bilheteria; skiresort.com para 2026/27 — 82 €. A Schmittenhöhe (Zell am See), ao lado, entra no ski pass conjunto Ski ALPIN CARD"
+  },
+  "kitzbuehel": {
+   "h": "044e3085a3",
+   "description": "Kitzbühel é uma cidadezinha medieval glamourosa do Tirol e a casa da famosa pista de velocidade Streif, no monte Hahnenkamm. A área KitzSki (188 km, 800–2000 m) liga Kitzbühel, Kirchberg e Jochberg; muitas pistas azuis e vermelhas suaves, neve artificial em quase toda parte, refúgios aconchegantes e vida noturna agitada na cidade.",
+   "rating_basis": "skiresort.com: 4,9/5 (“nível mundial”), “top” em 18 categorias; a lendária pista Streif no Hahnenkamm, cidade medieval histórica",
+   "hazards": "Altitude baixa — degelos e chuva, pistas geladas de manhã; a Streif e as pistas pretas são muito exigentes; risco de avalanche nas ski routes",
+   "crowd_note": "Movimentado nos fins de semana (fica perto de Munique) e na semana da corrida do Hahnenkamm, em janeiro; filas de manhã na Hahnenkammbahn",
+   "region": "Tirol, Alpes de Kitzbühel",
+   "season": "do início/meados de novembro (primeiro a área de Resterhöhe) ao início/meados de abril; a área toda — a partir de meados de dezembro (2026/27: 6.11–4.04)",
+   "transfer": "Salzburgo ~1,25 h (80 km), Innsbruck ~1,25 h (95 km), Munique ~2 h; estação ferroviária na cidade",
+   "pros": [
+    "Cidade histórica cheia de charme",
+    "188 km de pistas variadas, muitas para intermediários",
+    "Neve artificial em quase toda a área",
+    "Perto de Munique, Salzburgo e Innsbruck",
+    "Après-ski e restaurantes animados"
+   ],
+   "cons": [
+    "Pouca altitude (800–2000 m) — em invernos quentes a neve não é garantida, a primavera chega cedo",
+    "Movimentado nos fins de semana",
+    "Hospedagem cara na própria Kitzbühel"
+   ],
+   "airport": "SZG — Salzburgo, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, alta temporada (skiresort.com; panorama de preços da Áustria 2025/26 — 83 €); em 2026/27 o período premium vai de 20.12 a 13.03, fora dele é mais barato"
+  },
+  "soelden": {
+   "h": "5f33f8a41e",
+   "description": "Sölden é a estação de geleira do Ötztal, com uma das temporadas mais longas da Áustria: as geleiras Rettenbach e Tiefenbach abrem em outubro, e a área toda funciona até maio. 144 km de pistas até 3340 m, três picos panorâmicos acima de 3000 m (Big 3), as filmagens de “007 Contra Spectre” no Gaislachkogl e um après-ski animado. Popular entre turistas de língua russa.",
+   "rating_basis": "skiresort.com: 4,7/5 (“nível mundial”), “top” em 17 categorias; três picos acima de 3000 m (Big 3), abertura da Copa do Mundo FIS na geleira Rettenbach",
+   "hazards": "Altitude de até 3340 m — frio intenso e vento nas geleiras; fendas fora das pistas; risco de avalanche nas ski routes; a estrada pelo Ötztal pode fechar quando há risco de avalanche",
+   "crowd_note": "Filas de manhã nas gôndolas Giggijoch e Gaislachkogl na alta temporada; em outubro–novembro as geleiras ficam cheias (treinos de equipes)",
+   "region": "Tirol, vale do Ötztal",
+   "season": "geleiras Rettenbach e Tiefenbach — a partir do início/meados de outubro; a área toda até o vale — de meados de novembro ao início de maio (2026/27: 9.10–2.05)",
+   "transfer": "Innsbruck ~1,25 h (85 km), Munique ~3 h, Zurique ~3,5 h; de trem até a estação Ötztal, depois ônibus ~1 h",
+   "pros": [
+    "Geleiras — esqui de outubro a maio",
+    "Três picos acima de 3000 m",
+    "Bom snowpark",
+    "Après-ski animado",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "A vila se estende ao longo de uma estrada barulhenta",
+    "Filas nas gôndolas de baixo",
+    "A pista da geleira até o vale pode ficar dura e cheia no fim da tarde"
+   ],
+   "airport": "INN — Innsbruck, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, alta temporada segundo o skiresort.com; preços dinâmicos — em 2025/26 a partir de 68 €"
+  },
+  "st-anton-ski-arlberg": {
+   "h": "ef7078639f",
+   "description": "St. Anton é a capital da área Ski Arlberg: 300 km de pistas interligadas com Lech, Zürs, Stuben e Warth, além de cerca de 200 km de rotas fora de pista. Lenda do freeride e das encostas íngremes, berço da escola de esqui de Hannes Schneider e dono do après-ski mais barulhento da Áustria (Mooserwirt, Krazy Kanguruh).",
+   "rating_basis": "skiresort.com: 4,8/5 (“nível mundial”), “top” em 18 categorias; a maior área interligada da Áustria, berço da técnica moderna de esqui (Hannes Schneider)",
+   "hazards": "Alto risco de avalanche nas rotas fora de pista populares (Valluga, Schindlerkar); pistas íngremes com muitos moguls; depois do après-ski, descida até a vila ao anoitecer",
+   "crowd_note": "Filas no Galzig e no Gampen nos feriados e em fevereiro; Lech limita o número de ski passes vendidos por dia — lá é mais tranquilo",
+   "region": "Tirol / Vorarlberg, Arlberg",
+   "season": "início de dezembro – meados/fim de abril (2026/27: 2.12–18.04)",
+   "transfer": "Innsbruck ~1–1,25 h (100 km), Zurique ~2,5 h, Friedrichshafen ~1,75 h; estação de St. Anton na ferrovia do Arlberg — trens diretos de Zurique, Innsbruck e Viena",
+   "pros": [
+    "Freeride de nível mundial e heliski a partir de Lech/Zürs",
+    "300 km de pistas com um só ski pass",
+    "Après-ski lendário",
+    "Estação de trem dentro da vila",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Terreno difícil — não é a melhor opção para iniciantes absolutos",
+    "Hospedagem cara",
+    "Muitas pistas ficam cheias de moguls até a hora do almoço"
+   ],
+   "airport": "INN — Innsbruck, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, todo o Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken), alta temporada (skiresort.com, schneehoehen.de); em 2025/26 — 81,50 €"
+  },
+  "thredbo": {
+   "h": "9ce178187a",
+   "description": "A principal vila de esqui da Austrália, no Parque Nacional Kosciuszko: o maior desnível do país (~670 m), o teleférico mais alto (2037 m) e as descidas mais longas — até 5,9 km do cume até Friday Flat. A produção de neve potente garante a temporada, os parks são bons e a vila é aconchegante, com bares junto às pistas. A vizinha Perisher é a maior estação do Hemisfério Sul (cerca de 1200 ha, ~47 teleféricos, Epic Pass), mas sem esse desnível.",
+   "rating_basis": "skiresort.com — 3,8/5 (“Very good”); o maior desnível e as descidas mais longas da Austrália, uma verdadeira vila de montanha junto aos teleféricos",
+   "hazards": "Gelo e neve dura de manhã, vento forte e neblina no cume, gelo na estrada de montanha Alpine Way (correntes obrigatórias na temporada)",
+   "crowd_note": "Muito cheio nas férias escolares de julho e nos fins de semana (vem gente de Sydney e Canberra); nos dias úteis de agosto é mais tranquilo",
+   "region": "Nova Gales do Sul, Snowy Mountains, Parque Nacional Kosciuszko",
+   "season": "início/meados de junho – fim de setembro (neve garantida normalmente em julho–agosto)",
+   "transfer": "Canberra (CBR) ~2,5–3 h (~200 km); Sydney ~6 h (~500 km); aeroporto das Snowy Mountains em Cooma ~1 h 15 min",
+   "pros": [
+    "Esqui em julho–agosto",
+    "O maior desnível e as pistas mais longas da Austrália",
+    "Vila animada com après-ski junto aos teleféricos",
+    "Produção de neve potente"
+   ],
+   "cons": [
+    "Montanhas baixas: a neve depende muito da temporada, gelo frequente",
+    "Ski pass e hospedagem caros",
+    "Multidões nas férias escolares",
+    "Longe dos aeroportos internacionais"
+   ],
+   "airport": "CBR — Canberra, ~2,5–3 h",
+   "lift_pass_note": "1 dia, adulto, temporada 2026 — 239 A$ nos dias úteis e 259 A$ nos fins de semana (online, dias padrão); nos dias de pico é mais caro"
+  },
+  "shahdag": {
+   "h": "d67cce9983",
+   "description": "Estação moderna no Parque Nacional Shahdag, no nordeste do Azerbaijão: gôndolas e cadeirinhas rápidas, cerca de 45 km de pistas com mais de 1100 m de desnível, cinco hotéis junto aos teleféricos. Há neve artificial em todas as pistas, e o clima é tranquilo e familiar. Na estação fala-se amplamente russo, inglês e turco.",
+   "rating_basis": "Teste do skiresort.com — 3,4/5 (“Good”): estação nova (aberta em 2012), com teleféricos modernos e neve artificial em 100% das pistas",
+   "hazards": "Vento forte no alto, neblina, gelo depois de degelos, risco de avalanche fora das pistas nas encostas íngremes sem árvores; estrada de montanha a partir de Qusar durante nevascas.",
+   "crowd_note": "Movimentado no Ano-Novo, no Novruz (março) e nos fins de semana, quando vem gente de Baku; nos dias úteis fica vazio",
+   "region": "Distrito de Qusar, Parque Nacional Shahdag, Grande Cáucaso",
+   "season": "segunda quinzena de dezembro – fim de março / início de abril",
+   "transfer": "Baku ~3–3,5 h (≈200 km: 170 km até Qusar + 30 km montanha acima)",
+   "pros": [
+    "Teleféricos novos, neve artificial em 100% das pistas",
+    "Hotéis 4–5* junto às pistas",
+    "Ski pass barato, todo mundo entende russo",
+    "Entrada sem visto para russos"
+   ],
+   "cons": [
+    "Longe de Baku (~3,5 h)",
+    "Quase sem après-ski e sem clima de vila",
+    "Temporada curta, a neve depende do inverno",
+    "Poucas pistas difíceis e pouco freeride"
+   ],
+   "airport": "GYD — Baku, ~3,5 h",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 42 AZN (≈22 €) segundo o skiresort.com; em 2024/25, a partir de 30 AZN nos dias úteis e a partir de 35 AZN nos fins de semana"
+  },
+  "jahorina": {
+   "h": "c4aba623e2",
+   "description": "Estação olímpica de 1984, a 30 km de Sarajevo: cerca de 50 km de pistas, principalmente azuis e vermelhas, entre florestas de coníferas, uma gôndola nova e esqui noturno. Estação barata e simples para iniciantes e intermediários, fácil de combinar com uma viagem a Sarajevo.",
+   "rating_basis": "Teste do skiresort.com — 3,7/5 (“Very good”): teleféricos, pistas, famílias, iniciantes; estação olímpica de 1984 (esqui alpino feminino)",
+   "hazards": "Neblina e vento no cume do Ogorjelica, gelo em períodos de degelo. Na Bósnia e Herzegovina ainda há campos minados da guerra dos anos 1990: para freeride e trilhas fora das pistas sinalizadas, contrate um guia local.",
+   "crowd_note": "Nos fins de semana e feriados vêm muitos moradores de Sarajevo e turistas da Sérvia e da Croácia; nos dias úteis fica vazio",
+   "region": "Pale, República Sérvia (perto de Sarajevo)",
+   "season": "início de dezembro – fim de março / início de abril",
+   "transfer": "Sarajevo ~45–60 min (≈30 km; táxi ≈50 KM, ônibus)",
+   "pros": [
+    "Perto do aeroporto de Sarajevo",
+    "Ski pass e hospedagem baratos",
+    "Teleféricos modernos, esqui noturno",
+    "Instrutores que falam russo, entrada sem visto para russos"
+   ],
+   "cons": [
+    "Montanhas baixas (até ~1900 m), a neve depende do inverno",
+    "Quase sem pistas difíceis e sem freeride",
+    "Área pequena, para 2–3 dias de esqui intenso",
+    "Après-ski modesto"
+   ],
+   "airport": "SJJ — Sarajevo, ~1 h",
+   "lift_pass_note": "1 dia, adulto, período de pico — 86 KM (≈44 €); meio da temporada 79 KM, início/fim da temporada 73 KM; esqui noturno 58–69 KM (tabela oficial da OC Jahorina)"
+  },
+  "bansko": {
+   "h": "61cf077760",
+   "description": "A principal estação de esqui da Bulgária, no sopé do Pirin: uma cidade antiga com gôndola saindo direto da periferia e esqui até 2500 m de altitude. As encostas voltadas para o norte seguram a neve até meados de abril, e há uma longa descida até a cidade. Hospedagem e comida baratas, vida noturna animada, etapas da Copa do Mundo.",
+   "rating_basis": "Teste do skiresort.com — 4,2/5 (“Outstanding”), World Ski Awards — melhor estação da Bulgária em 2025, etapas da Copa do Mundo FIS (janeiro de 2026), Lonely Planet Best in Travel 2025",
+   "hazards": "Risco de avalanche fora das pistas no Pirin, vento no alto (Todorka), descida inferior até a cidade com gelo, trânsito intenso nas pistas azuis no pico da temporada.",
+   "crowd_note": "As filas matinais para a gôndola da cidade nos fins de semana e feriados (Natal, Ano-Novo, fevereiro) são famosas; ajuda subir cedo ou ir de carro até Chalin Valog",
+   "region": "Pirin, província de Blagoevgrad",
+   "season": "meados de dezembro – meados de abril",
+   "transfer": "Sófia ~2–2,5 h (160 km), Plovdiv ~2,5–3 h (185 km)",
+   "pros": [
+    "Um dos melhores preços da Europa em ski pass, hospedagem e comida",
+    "Desnível de 1500 m, longa descida até a cidade",
+    "Neve artificial confiável e encostas voltadas para o norte",
+    "Cidade antiga charmosa e après-ski agitado"
+   ],
+   "cons": [
+    "Filas para a gôndola de manhã no pico da temporada",
+    "Poucas pistas difíceis",
+    "Área de 75 km — em uma semana pode ficar repetitivo",
+    "A descida inferior até a cidade derrete na primavera"
+   ],
+   "airport": "SOF — Sófia, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, alta temporada; desde 1.01.2026 os preços são em euros (antes disso, em 2024/25 — 110 leva). Nos primeiros dias da temporada, com funcionamento parcial, era vendido mais barato (65 leva ≈ 33 €)"
+  },
+  "banff-sunshine": {
+   "h": "b2e506b73e",
+   "description": "Estação de alta montanha no Parque Nacional de Banff, a 15 km da cidadezinha de Banff: três montanhas (Goat's Eye, Lookout, Standish) acima da linha das árvores, ~1360 ha esquiáveis e a neve seca das Montanhas Rochosas de novembro ao fim de maio. Para freeriders, a lendária área Delirium Dive (entrada só com transceptor de avalanche). É prático se hospedar em Banff, com restaurantes e bares; o ski pass conjunto SkiBig3 inclui Lake Louise — uma das maiores estações do Canadá (~1700 ha), a 60 km.",
+   "rating_basis": "skiresort.com — 4,0/5 (“Very good”); a temporada mais longa do Canadá sem geleira, neve seca das Rochosas, área Delirium Dive",
+   "hazards": "Risco de avalanche no Delirium Dive e fora das pistas (transceptor, pá e sonda obrigatórios), congelamento a −20…−30 °C, vento e whiteout acima da linha das árvores",
+   "crowd_note": "Filas para a gôndola de manhã nos fins de semana (vem gente de Calgary) e nos feriados; nos dias úteis fica vazio",
+   "region": "Alberta, Montanhas Rochosas, Parque Nacional de Banff",
+   "season": "início de novembro – fim de maio (até o fim de semana do Victoria Day); em 2026 houve também uma curta temporada de verão de 20 de junho a 5 de julho",
+   "transfer": "Calgary (YYC) ~1,5–2 h até Banff (~145 km) + ~20 min até a estação inferior da gôndola; shuttles a partir dos hotéis de Banff",
+   "pros": [
+    "Temporada longa: de novembro ao fim de maio",
+    "Neve seca e vistas alpinas das Rochosas",
+    "Freeride no Delirium Dive e no Wild West",
+    "Cidade de Banff com ótima infraestrutura"
+   ],
+   "cons": [
+    "Frio intenso em dezembro–janeiro (até −25 °C)",
+    "Vento e pouca visibilidade no alto",
+    "Só um hotel junto à pista, o resto fica em Banff",
+    "Parque natural: regras rígidas de construção e de acesso ao backcountry"
+   ],
+   "airport": "YYC — Calgary, ~2 h",
+   "lift_pass_note": "1 dia, adulto — ~184 C$ (preço de novembro de 2025, dinâmico, mais caro em datas de pico; o skiresort.com indica 189 C$). Existe o ski pass conjunto SkiBig3 para Sunshine, Lake Louise e Norquay"
+  },
+  "whistler-blackcomb": {
+   "h": "de00123df7",
+   "description": "A maior estação de esqui da América do Norte: duas montanhas ligadas pela gôndola Peak 2 Peak, ~3300 ha esquiáveis, mais de 200 pistas e desnível acima de 1500 m. Bowls enormes, geleiras e floresta para todos os níveis, parks profissionais, heliski saindo da própria vila; a vila na base é para pedestres e tem o melhor après-ski do Canadá. Neva muito (~11–12 m por temporada), mas é neve marítima, mais pesada que nas Rochosas.",
+   "rating_basis": "skiresort.com — 4,6/5; maior estação da América do Norte, sempre no topo dos rankings de leitores da SKI Magazine e do World Ski Awards",
+   "hazards": "Risco de avalanche nos bowls e no backcountry, neblina e whiteout na zona alpina, penhascos e couloirs, tree wells (poços de neve fofa ao redor das árvores); nas encostas de baixo, chuva e gelo",
+   "crowd_note": "Filas de manhã nas gôndolas da vila nos fins de semana (vem gente de Vancouver) e no Natal/Ano-Novo; nos dias úteis de março–abril é mais tranquilo",
+   "region": "Colúmbia Britânica, Coast Mountains",
+   "season": "fim de novembro – meados/fim de maio (Whistler fecha em abril, Blackcomb funciona até maio)",
+   "transfer": "Vancouver (YVR) ~2–2,5 h pela rodovia Sea-to-Sky (~137 km), shuttles regulares do aeroporto",
+   "pros": [
+    "Área e desnível enormes, pistas de até 11 km",
+    "Freeride de nível mundial: bowls, couloirs, geleiras, heliski",
+    "Snowparks profissionais",
+    "O melhor après-ski e vila para pedestres"
+   ],
+   "cons": [
+    "Ski pass e hospedagem muito caros",
+    "Chuva frequente embaixo e neblina por causa do clima marítimo",
+    "Multidões nos fins de semana e feriados",
+    "Longe da Europa"
+   ],
+   "airport": "YVR — Vancouver, ~2–2,5 h",
+   "lift_pass_note": "1 dia, adulto — o preço depende da data (preços dinâmicos da Vail Resorts): exemplo de preço online num dia útil de 2025/26 — 305 C$; na bilheteria, nos dias de pico, é mais caro (o skiresort.com indica 351 C$). Sai mais barato comprando online com antecedência ou com o Epic Pass"
+  },
+  "laax-flims-falera": {
+   "h": "ed15d437c4",
+   "description": "Laax é a capital do freestyle na Europa: vários snowparks, inclusive de nível pro, superpipe no Crap Sogn Gion, o centro coberto de freestyle Freestyle Academy e as competições LAAX Open. 176 km de pistas entre Laax, Flims e Falera até a geleira Vorab (3018 m), além de cerca de 40 km de ski routes para freeride.",
+   "rating_basis": "skiresort.com: 4,5/5 (“excepcional”), “top” em 17 categorias; LAAX Open e um dos maiores halfpipes do mundo — a principal estação de freestyle da Europa",
+   "hazards": "Risco de avalanche fora das pistas e nas ski routes; vento e pouca visibilidade na geleira Vorab; risco de lesões nas áreas pro do snowpark",
+   "crowd_note": "Nos fins de semana vem muita gente de Zurique — filas nas gôndolas em Murschetg; nos dias úteis é tranquilo",
+   "region": "Grisões, Surselva",
+   "season": "fim de novembro – meados de abril (2026/27: 28.11–11.04); a geleira Vorab às vezes abre mais cedo",
+   "transfer": "Zurique ~1,5–2 h (150 km); de trem até Chur, depois ônibus ~30–40 min",
+   "pros": [
+    "Os melhores snowparks e halfpipe da Europa",
+    "Geleira Vorab — neve garantida no alto",
+    "Bom freeride e 40 km de ski routes",
+    "Perto de Zurique"
+   ],
+   "cons": [
+    "Poucas pistas pretas",
+    "Preços dinâmicos — caro nos dias de pico",
+    "Sem confirmação de instrutores que falem russo"
+   ],
+   "airport": "ZRH — Zurique, ~1,5–2 h",
+   "lift_pass_note": "1 dia, adulto, preço dinâmico: normalmente cerca de 72 CHF, nos dias de pico até 89 CHF (temporada 2025/26)"
+  },
+  "st-moritz": {
+   "h": "3ee952ed44",
+   "description": "St. Moritz é a lendária estação mundana da Engadina e o berço do turismo de inverno. A área principal, Corviglia (155 km, até 3057 m no Piz Nair), é complementada no mesmo ski pass pelo Corvatsch (3303 m, snowpark e esqui noturno) e pela Diavolezza, com freeride em geleira. Clima ensolarado e seco, pistas largas e bem cuidadas, hotéis de luxo e poucas filas.",
+   "rating_basis": "skiresort.com: Corviglia 4,7/5 (“nível mundial”), “top” em 17 categorias; duas vezes sede dos Jogos Olímpicos de Inverno e de campeonatos mundiais de esqui alpino",
+   "hazards": "Frio intenso em janeiro (a Engadina é um dos vales mais frios da Suíça); risco de avalanche fora das pistas; geleira Morteratsch (descida a partir da Diavolezza) — fendas, melhor ir com guia",
+   "crowd_note": "As pistas costumam estar vazias mesmo na alta temporada; pode haver filas no funicular Chantarella e no teleférico do Piz Nair nos feriados",
+   "region": "Grisões, Alta Engadina",
+   "season": "Corviglia: fim de novembro – início de abril; Corvatsch e Diavolezza (mesmo ski pass da Engadina) funcionam até o fim de abril – maio",
+   "transfer": "Zurique ~3–3,5 h de trem (Ferrovia Rética, via Chur), Milão ~3 h; aeroporto Engadin-Samedan (aviação privada) — 10 min",
+   "pros": [
+    "Pouca gente nas pistas",
+    "Clima ensolarado e altitude — neve garantida",
+    "Snowpark profissional do Corvatsch e esqui noturno às sextas",
+    "Luxo, gastronomia, vida social",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Muito caro",
+    "As áreas da Engadina não são interligadas — é preciso ônibus/trem",
+    "Corviglia já fecha no início de abril",
+    "Longe dos aeroportos"
+   ],
+   "airport": "ZRH — Zurique, ~3,5 h de trem",
+   "lift_pass_note": "1 dia, adulto, Engadin St. Moritz (todas as áreas), alta temporada — ≈104 € segundo um comparativo de preços; vendido em CHF com preços dinâmicos (na temporada 2023/24, de 81,5 a 118,5 CHF)"
+  },
+  "verbier-4-vallees": {
+   "h": "dafa16d48e",
+   "description": "Verbier é o coração da área 4 Vallées (412 km de pistas junto com Nendaz, Veysonnaz, Thyon e La Tzoumaz) e uma das capitais mundiais do freeride: as encostas do Mont Fort (3330 m), de Tortin e o lendário Bec des Rosses, onde acontece a final do Freeride World Tour. A estação é conhecida pelo après-ski barulhento e pelos chalés caros.",
+   "rating_basis": "skiresort.com: 4,3/5 (“excepcional”), “top” em 14 categorias; Verbier sedia a final do Freeride World Tour (Xtreme Verbier) e é uma estação de freeride de referência",
+   "hazards": "Alto risco de avalanche nas rotas fora de pista populares (Vallon d'Arbi, Tortin); as ski routes íngremes não são preparadas; geleira do Mont Fort — fendas fora das pistas",
+   "crowd_note": "Filas na gôndola Médran e para o Mont Fort nos fins de semana (vem gente de Genebra) e em fevereiro; principalmente nas manhãs de powder",
+   "region": "Valais, Alpes Peninos",
+   "season": "início de dezembro – fim de abril; os setores altos (Mont Fort, Tortin) às vezes abrem já em novembro (2026/27: 7.11–25.04)",
+   "transfer": "Genebra ~2 h (160 km), Sion ~45 min; de trem até Le Châble, depois gôndola até Verbier",
+   "pros": [
+    "Freeride, moguls e couloirs de nível mundial",
+    "Heliski no local",
+    "412 km de pistas com um só ski pass",
+    "Vida noturna agitada",
+    "Perto de Genebra, há instrutores que falam russo"
+   ],
+   "cons": [
+    "Caro",
+    "Poucas pistas fáceis na própria Verbier — para iniciantes, melhor Nendaz/Thyon",
+    "Filas nos fins de semana",
+    "Muitas pistas do Mont Fort e de Tortin são “ski routes” não preparadas"
+   ],
+   "airport": "GVA — Genebra, ~2 h",
+   "lift_pass_note": "1 dia, adulto, 4 Vallées, alta temporada segundo o skiresort.com (≈102 €); no site oficial, o “melhor preço” online a partir de 87 CHF, −10% comprando com 10+ dias de antecedência"
+  },
+  "zermatt-cervinia": {
+   "h": "74b20999f8",
+   "description": "Zermatt, ao pé do Matterhorn, forma com as italianas Cervinia e Valtournenche a área Matterhorn Ski Paradise: 322 km de pistas até 3899 m e a descida mais longa dos Alpes — cerca de 25 km do Klein Matterhorn até Valtournenche. A geleira de Theodul funciona também no verão. Vila sem carros, alta gastronomia e freeride forte, com heliski.",
+   "rating_basis": "skiresort.com: 4,5/5 (“excepcional”), “top” em 16 categorias; a área de esqui mais alta dos Alpes (3899 m) e vista para o Matterhorn",
+   "hazards": "Altitude de até 3899 m — mal de altitude, frio intenso e vento; fendas na geleira fora das pistas (só com guia); risco de avalanche; com tempo ruim o passo de Theodul fecha e dá para ficar preso no lado italiano",
+   "crowd_note": "Filas no Matterhorn Express e para o Klein Matterhorn no Natal, em fevereiro e na Páscoa; em janeiro e março, moderado",
+   "region": "Valais, Alpes Peninos (a área continua na Itália — Cervinia, Valtournenche)",
+   "season": "temporada de inverno do início de novembro (geleira) / fim de novembro (área toda) ao início de maio; no verão, esqui na geleira de Theodul (Matterhorn Glacier Paradise) de maio a outubro",
+   "transfer": "Genebra ~3,5–4 h de trem, Zurique ~3,5 h, Milão-Malpensa ~3 h; vila sem carros — de carro até Täsch e trem shuttle de 12 min. Pelo lado de Cervinia: Turim ~2 h, Milão ~2,5 h",
+   "pros": [
+    "A área mais alta dos Alpes — neve quase o ano todo",
+    "Esqui de verão na geleira",
+    "Descida de ~25 km da Suíça até a Itália",
+    "Heliski, freeride forte",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Muito caro (ski pass, hospedagem, comida)",
+    "Viagem longa a partir dos aeroportos",
+    "Vento e fechamento dos teleféricos de cima; a passagem para a Itália depende do tempo"
+   ],
+   "airport": "GVA — Genebra, ~3,5 h de trem",
+   "lift_pass_note": "1 dia, adulto, alta temporada segundo o skiresort.com (≈126 €); preços dinâmicos: em 2026/27, a partir de 89 CHF (só Zermatt) e a partir de 104 CHF (com Cervinia) nas datas de baixa"
+  },
+  "portillo": {
+   "h": "28e24abfd1",
+   "description": "A estação mais antiga e lendária da América do Sul, a ~2900 m de altitude junto à Laguna del Inca, bem na fronteira com a Argentina; aqui aconteceu o Campeonato Mundial de 1966. Área esquiável pequena (~500 ha), mas com terreno íngreme, couloirs (Super C, Roca Jack) e os curiosos teleféricos “va-et-vient” para encostas onde não é possível instalar torres. Clima de clube fechado: quase todo o esqui é para os hóspedes do único hotel e dos hostels.",
+   "rating_basis": "skiresort.com — 2,8/5 (poucos teleféricos e pouco serviço), mas é um lugar cult: Campeonato Mundial de 1966, o lendário hotel amarelo junto à Laguna del Inca, o couloir Super C; uma das estações mais famosas dos Andes",
+   "hazards": "Alto risco de avalanche (em nevascas a rodovia 60 e os teleféricos fecham), altitude de ~3000 m, vento forte e radiação ultravioleta intensa, couloirs íngremes e rochas",
+   "crowd_note": "Quase não há filas: esquiam principalmente os hóspedes do hotel, e o número de visitantes diários é limitado (cerca de 450 por dia)",
+   "region": "Andes, região de Valparaíso, passo Los Libertadores, na fronteira com a Argentina",
+   "season": "fim de junho – fim de setembro / início de outubro (no nevado 2026 foi prorrogada até 11 de outubro)",
+   "transfer": "Santiago (SCL) ~2–2,5 h (~160 km via Los Andes pela rodovia 60 até o passo Cristo Redentor); Mendoza (Argentina) ~3–4 h atravessando a fronteira",
+   "pros": [
+    "Pistas vazias graças ao limite de visitantes",
+    "Couloirs íngremes e esqui fora de pista de nível mundial",
+    "Neve seca e base alta",
+    "Clima único de hotel antigo junto a um lago de montanha"
+   ],
+   "cons": [
+    "Poucas pistas e teleféricos, infraestrutura fraca",
+    "Hospedagem cara no hotel (normalmente pacotes semanais)",
+    "A estrada pelo passo fecha nas nevascas fortes",
+    "A neve depende muito do ano"
+   ],
+   "airport": "SCL — Santiago, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, temporada 2026: alta temporada (fins de semana, feriados e 18.07–02.08) — 71 $, baixa — 53 $; em pesos, 67 000 / 48 000 CLP segundo a PowderQuest. Ingresso diário com almoço — 87 $"
+  },
+  "valle-nevado": {
+   "h": "bd51678547",
+   "description": "A maior estação da América do Sul, a 60 km de Santiago: encostas abertas de alta montanha nos Andes, a 2860–3670 m, hotéis junto às pistas e vista para a Sierra Bellas. Liga-se às vizinhas La Parva e El Colorado na área Tres Valles — o maior conjunto de pistas interligadas da América do Sul. Muito esqui fora de pista e heliski em encostas de até 5000 m; a temporada vai de junho a setembro — a principal opção para os meses de verão do Hemisfério Norte.",
+   "rating_basis": "skiresort.com — 3,1/5; a maior e mais visitada estação da América do Sul, interligada com La Parva e El Colorado (Tres Valles); faz parte do Ikon Pass e do Mountain Collective",
+   "hazards": "Altitude de até 3670 m (mal de altitude, radiação ultravioleta forte), ventania “viento blanco”, risco de avalanche fora das pistas, pedras quando há pouca neve; correntes obrigatórias na estrada durante nevascas",
+   "crowd_note": "Nos fins de semana e nas férias de inverno de julho vêm muitos esquiadores de Santiago e do Brasil, com engarrafamentos na estrada de montanha; nos dias úteis de agosto–setembro fica vazio",
+   "region": "Andes, Região Metropolitana (Santiago)",
+   "season": "meados de junho – fim de setembro/início de outubro (no nevado 2026 foi prorrogada até 1º de dezembro)",
+   "transfer": "Aeroporto de Santiago (SCL) ~1,5–2 h (~80 km, o último trecho é uma serra de 40 curvas passando por Farellones); em nevascas, correntes e restrições de tráfego",
+   "pros": [
+    "Esqui em junho–setembro, quando é verão na Europa",
+    "Altitude: neve seca e muito sol",
+    "Conjunto Tres Valles e heliski",
+    "Perto de Santiago e do aeroporto internacional"
+   ],
+   "cons": [
+    "A quantidade de neve depende muito do ano (há temporadas secas)",
+    "Engarrafamentos e restrições na estrada de montanha",
+    "Hospedagem cara junto às pistas, pouca vida noturna",
+    "Sem floresta — com tempo ruim, a visibilidade é péssima"
+   ],
+   "airport": "SCL — Santiago, ~1,5–2 h",
+   "lift_pass_note": "1 dia, adulto, bilheteria, temporada 2026 — 93 000 CLP (~105 $), preço único para toda a temporada; comprando online para uma data específica, de 41 500 a 75 500 CLP (+6 000 CLP pelo cartão). Existe o ingresso “Interconnection” para La Parva e El Colorado, interligadas"
+  },
+  "thaiwoo-chongli": {
+   "h": "40b76effa6",
+   "description": "Uma moderna “cidadezinha de esqui”, aberta em 2015 junto à Grande Muralha da China, no distrito de Chongli, onde aconteceram as provas de esqui dos Jogos Olímpicos de 2022. Cerca de 30 pistas com desnível de até 510 m, quase tudo com neve artificial; boa base para iniciantes e intermediários, com snowpark. Alternativa vizinha: Wanlong — ~22 km de pistas, desnível de 560 m, esqui noturno e temporada até meados de abril.",
+   "rating_basis": "skiresort.com — 3,2/5; uma das maiores estações modernas de Chongli, o distrito das provas de neve dos Jogos Olímpicos de 2022",
+   "hazards": "Frio intenso com vento (congelamento), neve artificial dura e gelo, altitude de ~2000 m",
+   "crowd_note": "Nos fins de semana e no Ano-Novo Chinês vêm muitos esquiadores de Pequim, com filas para a gôndola; nos dias úteis fica vazio",
+   "region": "Chongli, Zhangjiakou, província de Hebei",
+   "season": "meados/fim de novembro – fim de março",
+   "transfer": "Trem de alta velocidade de Pequim (Pequim Norte/Qinghe) a Taizicheng ~1 h + shuttle gratuito ~15–20 min; de carro a partir de Pequim ~3 h (~240 km)",
+   "pros": [
+    "Rápido a partir de Pequim de trem de alta velocidade",
+    "Teleféricos modernos (gôndola, cadeirinhas rápidas)",
+    "Neve artificial confiável e pistas bem preparadas",
+    "Bom para iniciantes e famílias"
+   ],
+   "cons": [
+    "Pouca neve natural, sem freeride",
+    "Muito frio e vento (até −20 °C)",
+    "Multidões nos fins de semana",
+    "Desnível pequeno"
+   ],
+   "airport": "PEK/PKX — Pequim, ~3 h de carro ou ~1,5–2 h com o trem; ZQZ Zhangjiakou ~1 h"
+  },
+  "baqueira-beret": {
+   "h": "ab2dbdca21",
+   "description": "A maior estação da Espanha, no vale atlântico do Val d'Aran — aqui neva bem mais, e com mais regularidade, do que no resto da Catalunha. Três setores (Baqueira, Beret, Bonaigua) com longas pistas azuis e vermelhas, bom freeride e heliski. Uma estação de elite, mas tranquila, querida pela família real.",
+   "rating_basis": "Teste do skiresort.com — 4,2/5 (“Outstanding”): tamanho, neve, preparação das pistas, freeride; a maior estação da Espanha",
+   "hazards": "Risco de avalanche fora das pistas (principalmente em Bonaigua e Baciver), vento forte no passo de Bonaigua e no cume do Tuc de la Llança, neblina, fechamento da estrada pelo passo de Bonaigua no inverno.",
+   "crowd_note": "Muitos espanhóis nos feriados (o “puente” de dezembro, Natal, Páscoa) e nos fins de semana; nos dias úteis de janeiro–março fica vazio",
+   "region": "Val d'Aran, Catalunha, Pireneus",
+   "season": "fim de novembro / início de dezembro – início de abril",
+   "transfer": "Toulouse ~2,5 h (170 km), Barcelona ~4 h (ônibus da ALSA até Vielha), Lleida ~2,5–3 h",
+   "pros": [
+    "A estação com mais neve dos Pireneus espanhóis",
+    "Grande área com terreno variado",
+    "Bom freeride em Bonaigua e Baciver, heliski",
+    "Ótima gastronomia do Val d'Aran"
+   ],
+   "cons": [
+    "Hospedagem cara em Baqueira 1500",
+    "Multidões nos feriados espanhóis e fins de semana",
+    "Não fica perto de um grande aeroporto",
+    "Vida noturna modesta"
+   ],
+   "airport": "TLS — Toulouse, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, bilheteria — 71,50 €; com o cartão BaqueiraPASS, 67,50 €; o skiresort.com indica 75 € (provavelmente 2026/27)"
+  },
+  "sierra-nevada": {
+   "h": "aa7a85ed9e",
+   "description": "A grande estação de esqui mais ao sul da Europa, a 30 km de Granada: encostas do pico Veleta até 3300 m, com vista para o Mediterrâneo em dias claros. Ensolarada, com muitas pistas azuis e vermelhas largas, um snowpark forte e a animada vida noturna espanhola em Pradollano. Dá para combinar o esqui com a Alhambra e o mar.",
+   "rating_basis": "Teste do skiresort.com — 4,1/5 (“Outstanding”): pistas, iniciantes, snowpark, après-ski; a grande estação mais ao sul da Europa, sede do Campeonato Mundial FIS de freestyle e snowboard de 2017",
+   "hazards": "Vento forte e fechamento dos teleféricos de cima, gelo de manhã depois de degelos, radiação solar intensa (óculos e protetor solar são indispensáveis), altitude de até 3300 m, neblina; engarrafamentos na estrada A-395 nos fins de semana.",
+   "crowd_note": "Nos fins de semana e feriados vem muita gente passar o dia, de Granada, Málaga e Madri, com filas para as gôndolas em Pradollano; nos dias úteis fica vazio",
+   "region": "Granada, Andaluzia",
+   "season": "fim de novembro – fim de abril (às vezes até o início de maio)",
+   "transfer": "Granada ~1 h (ônibus da cidade ~45–60 min), Málaga ~2 h",
+   "pros": [
+    "Muito sol e altitude de até 3300 m",
+    "Produção de neve potente, temporada até o fim de abril",
+    "Snowpark de nível de campeonato mundial, esqui noturno",
+    "Granada e as praias da Costa Tropical ao lado"
+   ],
+   "cons": [
+    "Poucas pistas difíceis e pouco freeride",
+    "O vento forte fecha com frequência a parte de cima (Veleta)",
+    "Clima seco — em invernos sem neve, só se esquia na neve artificial",
+    "Multidões nos fins de semana"
+   ],
+   "airport": "GRX — Granada, ~1 h",
+   "lift_pass_note": "1 dia, adulto: 55–69 € conforme a data (mais caro nos feriados e na alta temporada, e mais caro no local do que online com antecedência); skiresort.com — 62 € na temporada principal"
+  },
+  "levi": {
+   "h": "5c4f618a8e",
+   "description": "A estação de esqui mais popular da Finlândia, acima do Círculo Polar Ártico: uma colina baixa com pistas iluminadas por todos os lados, uma vila compacta junto aos teleféricos e o aeroporto a 15 minutos. Ideal para famílias e iniciantes e para combinar o esqui com aurora boreal, huskies e renas; temporada de outubro a maio. Alternativa na Finlândia: Ruka (Kuusamo), com pistas parecidas e uma temporada muito longa.",
+   "rating_basis": "Teste do skiresort.com — 4,3/5 (“Outstanding”): neve, famílias, iniciantes, snowpark, hospedagem; a maior estação da Finlândia, etapa da Copa do Mundo de slalom em novembro",
+   "hazards": "Frio intenso (até −30 °C) e vento no cume — risco de congelamento, noite polar em dezembro–janeiro (esqui só com luz artificial), pouca visibilidade em nevascas, neve dura.",
+   "crowd_note": "O pico é no Natal e Ano-Novo, nas férias de inverno finlandesas (fevereiro – início de março) e na Páscoa; nos dias úteis de janeiro e abril fica vazio",
+   "region": "Kittilä, Lapônia finlandesa",
+   "season": "início de outubro (1–2 pistas com neve armazenada do inverno anterior) – início de maio; totalmente aberta a partir do fim de novembro, melhor de fevereiro a abril",
+   "transfer": "Kittilä ~15–20 min (15 km); de Helsinque, voo de ~1,5 h ou trem noturno até Kolari + ônibus ~1 h",
+   "pros": [
+    "Aeroporto a 15 minutos, vila compacta",
+    "Neve garantida de outubro a maio",
+    "Pistas iluminadas, ótimo para crianças e iniciantes",
+    "Exotismo da Lapônia: aurora boreal, huskies, renas"
+   ],
+   "cons": [
+    "Desnível de apenas ~335 m, poucas pistas difíceis",
+    "Frio intenso e noite polar em dezembro–janeiro",
+    "Hospedagem e voos caros nos feriados",
+    "Quase sem freeride"
+   ],
+   "airport": "KTT — Kittilä, ~15 min",
+   "lift_pass_note": "1 dia, adulto (12–64), temporada principal — 60 € segundo o skiresort.com; na temporada 2023/24 o preço oficial era 51,50 €"
+  },
+  "alpe-dhuez": {
+   "h": "ec4c099433",
+   "description": "A “ilha do sol” dos Alpes: 250 km de pistas de 1125 a 3330 m (Pic Blanc), encostas voltadas para o sul e muitos dias de sol. Aqui começa a Sarenne, uma das pistas pretas mais longas do mundo (16 km). Boa para famílias e intermediários, com snowparks e bom terreno fora de pista a partir do Pic Blanc.",
+   "rating_basis": "skiresort.com: 4,2/5 (“excepcional”), “top” em 11 categorias: tamanho, pistas, neve garantida, famílias, iniciantes, freeride, snowpark",
+   "hazards": "Risco de avalanche fora das pistas na área do Pic Blanc e das Grandes Rousses; geleira de Sarenne — fendas fora das pistas; a estrada de montanha com 21 curvas até a estação exige correntes/pneus de inverno",
+   "crowd_note": "Nas férias escolares francesas de fevereiro há filas nas gôndolas da vila (DMC, Pic Blanc); no resto do tempo, moderado",
+   "region": "Isère, maciço das Grandes Rousses, Alpes franceses",
+   "season": "início de dezembro – meados/fim de abril (2026/27: 5.12–18.04, ski pass válido até 25.04)",
+   "transfer": "Grenoble (GNB) ~1,5 h, Lyon ~2 h, Genebra ~2,5–3 h; ônibus da estação ferroviária de Grenoble ~1,5 h",
+   "pros": [
+    "Muito sol e pistas largas",
+    "Descida da Sarenne — 16 km a partir do Pic Blanc (3330 m)",
+    "Boa produção de neve artificial",
+    "Perto de Grenoble e Lyon"
+   ],
+   "cons": [
+    "Encostas voltadas para o sul — na primavera a neve amolece rápido",
+    "Construções da estação dos anos 1960–70",
+    "Instrutores que falam russo não confirmados"
+   ],
+   "airport": "GNB — Grenoble-Isère, ~1,5 h",
+   "lift_pass_note": "1 dia, adulto, Grand Domaine, período principal 19.12.2026–09.04.2027; no início e no fim da temporada é mais barato. O skiresort.com indica 66 € (provavelmente 2025/26)"
+  },
+  "chamonix": {
+   "h": "d683f6301a",
+   "description": "Chamonix é a capital mundial do alpinismo e do freeride, ao pé do Mont Blanc. As áreas não interligadas de Grands Montets, Brévent-Flégère e Balme somam ~120 km de pistas, mas o principal aqui é o esqui fora de pista: as descidas de geleira dos Grands Montets e a lendária Vallée Blanche, de 20 km, a partir da Aiguille du Midi (3842 m). Cidade animada, com bares e restaurantes, mas para iniciantes há estações mais práticas.",
+   "rating_basis": "Ícone do freeride de nível mundial (Vallée Blanche, Grands Montets); as áreas separadas têm 3,5–3,7/5 no skiresort.com por serem dispersas e terem poucas pistas fáceis",
+   "hazards": "Sério risco de avalanche e fendas de geleira fora das pistas — na Vallée Blanche e nas geleiras, só com guia de montanha e equipamento de avalanche; altitude de até 3842 m; mudanças rápidas de tempo",
+   "crowd_note": "Filas de manhã nos Grands Montets depois de nevadas e no teleférico da Aiguille du Midi; as áreas não são interligadas — os deslocamentos são de ônibus",
+   "region": "Alta Saboia, Alpes franceses",
+   "season": "Grands Montets: fim de novembro – início de maio; Brévent-Flégère e Balme: meados de dezembro – abril; Vallée Blanche (a partir da Aiguille du Midi) — normalmente de janeiro a abril",
+   "transfer": "Genebra ~1–1,5 h (88 km), Lyon ~3 h, Turim ~2 h pelo túnel do Mont Blanc",
+   "pros": [
+    "Freeride e descidas de geleira de nível mundial",
+    "Vallée Blanche — 20 km fora de pista a partir de 3842 m",
+    "Uma verdadeira cidade de montanha, com vida além das pistas",
+    "Perto de Genebra; o Mont-Blanc Unlimited dá acesso a Courmayeur e Verbier"
+   ],
+   "cons": [
+    "Áreas não interligadas, é preciso ônibus",
+    "Poucas pistas fáceis, as encostas de baixo ficam baixas (~1000 m)",
+    "O teleférico superior dos Grands Montets (3275 m) está fechado até dezembro de 2027",
+    "Filas nos dias de powder"
+   ],
+   "airport": "GVA — Genebra, ~1 h 15 min",
+   "lift_pass_note": "1 dia, adulto, Chamonix Le Pass (Brévent-Flégère, Grands Montets, Balme e áreas pequenas) na bilheteria; online com antecedência, a partir de 47 €. Mont-Blanc Unlimited (incl. Aiguille du Midi, Les Houches, Courmayeur) — 100 €"
+  },
+  "les-arcs-paradiski": {
+   "h": "1a36c1803a",
+   "description": "Les Arcs são quatro vilas-estação (1600, 1800, 1950, 2000) com ski-in/ski-out, ligadas pelo teleférico Vanoise Express a La Plagne na área Paradiski (425 km). O pico Aiguille Rouge (3226 m) oferece uma descida de 7 km com ~2000 m de desnível até Villaroger. Boa para famílias e intermediários, com freeride forte e snowpark; acesso fácil de trem.",
+   "rating_basis": "skiresort.com: Les Arcs 4,1/5, La Plagne 4,4/5 (“excepcional”); “top” em tamanho, neve garantida, iniciantes e freeride",
+   "hazards": "Risco de avalanche nas encostas fora de pista da Aiguille Rouge e de Villaroger; vento no alto, o Vanoise Express fecha com vento forte",
+   "crowd_note": "Férias escolares francesas de fevereiro — filas em Arc 1800 e Arc 2000; em janeiro e março fica vazio",
+   "region": "Saboia, vale da Tarentaise, Alpes franceses",
+   "season": "meados de dezembro – fim de abril (temporada 2025/26: 13.12–25.04; 2026/27: 12.12–25.04)",
+   "transfer": "Chambéry ~2 h, Genebra ~2,5–3 h, Lyon ~2,5 h; trem até Bourg-Saint-Maurice, depois funicular até Arc 1600 (7 min)",
+   "pros": [
+    "425 km de pistas da Paradiski com um só ski pass",
+    "Descida da Aiguille Rouge — ~2000 m de desnível",
+    "Funicular a partir da estação de trem de Bourg-Saint-Maurice",
+    "Muitas pistas fáceis, bom para famílias",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Vilas dos anos 1960–70, arquitetura que nem todo mundo aprecia",
+    "Temporada mais curta que em Val Thorens/Tignes (até o fim de abril)",
+    "Après-ski mais modesto que em Val d'Isère"
+   ],
+   "airport": "CMF — Chambéry, ~2 h",
+   "lift_pass_note": "1 dia, adulto, Paradiski (Les Arcs + La Plagne via Vanoise Express), alta temporada (schneehoehen.de); só Les Arcs/Peisey-Vallandry — 70 € (skiresort.com)"
+  },
+  "tignes-val-disere": {
+   "h": "288641cdbd",
+   "description": "A antiga Espace Killy é uma das áreas mais altas e com mais neve dos Alpes: 300 km de pistas entre Tignes (2100 m) e Val d'Isère (1850 m), com ponto mais alto na geleira da Grande Motte (3456 m). Lenda do freeride e berço do La Folie Douce; snowpark forte em Tignes e esqui de verão na geleira.",
+   "rating_basis": "skiresort.com: 4,7/5 (“nível mundial”), “top” em 17 categorias, incluindo neve garantida, freeride e snowpark",
+   "hazards": "Alto risco de avalanche fora das pistas (avalanches frequentes em Val d'Isère); acima da linha das árvores, whiteout e vento; na geleira, fendas fora da área sinalizada; altitude de até 3456 m",
+   "crowd_note": "Nas férias de fevereiro e nos fins de semana há filas nos principais teleféricos de Val d'Isère e Tignes-le-Lac; em janeiro e março é mais tranquilo",
+   "region": "Saboia, vale da Tarentaise, Alpes franceses",
+   "season": "fim de novembro – início de maio; no verão, esqui na geleira da Grande Motte (mais ou menos de meados de junho a julho/início de agosto, algumas pistas)",
+   "transfer": "Chambéry ~2,5 h, Genebra ~3 h, Lyon ~3 h; trem até Bourg-Saint-Maurice, depois ônibus ~45–60 min",
+   "pros": [
+    "Altitude e neve garantida de novembro a maio",
+    "Freeride de nível mundial",
+    "Esqui de verão na geleira da Grande Motte",
+    "Ótimo snowpark em Tignes",
+    "Há instrutores que falam russo (SnoCool, Evolution 2)"
+   ],
+   "cons": [
+    "Caro, principalmente Val d'Isère",
+    "Tignes — arquitetura dos anos 1970 e muito concreto",
+    "Poucas pistas fáceis para iniciantes absolutos; acima da linha das árvores, pouca visibilidade com tempo ruim"
+   ],
+   "airport": "CMF — Chambéry, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, toda a área Tignes – Val d'Isère, alta temporada (schneehoehen.de); o skiresort.com indica 75 € (provavelmente temporada 2025/26)"
+  },
+  "val-thorens": {
+   "h": "5134bb3c4a",
+   "description": "Les 3 Vallées é a maior área de esqui interligada do mundo: Courchevel, Méribel, Les Menuires, Saint-Martin-de-Belleville, Orelle e Val Thorens com um só ski pass. Val Thorens (2300 m) é a estação mais alta da Europa, com neve garantida do fim de novembro a maio. Serve para todos os níveis: quilômetros de pistas azuis e vermelhas, freeride forte e après-ski famoso.",
+   "rating_basis": "skiresort.com: 4,7/5 (“nível mundial”), “top” em 18 categorias; a maior área interligada do mundo, Val Thorens eleita várias vezes a melhor estação no World Ski Awards",
+   "hazards": "Risco de avalanche fora das pistas; acima de 2300 m não há floresta — com nevasca e neblina, a visibilidade some; vento forte e frio intenso nos cumes; altitude acima de 3000 m",
+   "crowd_note": "A área enorme dispersa as pessoas, mas nas férias escolares francesas e britânicas de fevereiro há filas nos teleféricos principais de Val Thorens e Courchevel; nas pistas azuis fica cheio no fim da tarde",
+   "region": "Saboia, Alpes franceses",
+   "season": "Val Thorens: fim de novembro – início de maio; a área toda dos 3 Vales fica interligada mais ou menos do início de dezembro a meados de abril",
+   "transfer": "Chambéry ~2 h, Lyon ~2,5–3 h, Genebra ~3 h; trem até Moûtiers, depois ônibus ~50 min",
+   "pros": [
+    "600 km de pistas com um só ski pass",
+    "Altitude de Val Thorens — neve de novembro a maio",
+    "Ski-in/ski-out em quase toda parte",
+    "Escolas fortes, há instrutores que falam russo",
+    "Après-ski animado (La Folie Douce, Courchevel 1850)"
+   ],
+   "cons": [
+    "Hospedagem cara, principalmente em Courchevel",
+    "Val Thorens fica acima da linha das árvores — com tempo ruim, pouca visibilidade e vento",
+    "Filas nas férias de fevereiro"
+   ],
+   "airport": "CMF — Chambéry, ~2 h",
+   "lift_pass_note": "1 dia, adulto, Les 3 Vallées, alta temporada (20.12–10.04); só Val Thorens–Orelle — 71 €. O skiresort.com indica 84,20 € (provavelmente já a temporada 2026/27)"
+  },
+  "bakuriani": {
+   "h": "9900747da4",
+   "description": "A estação de esqui mais antiga da Geórgia, numa floresta de pinheiros acima de Borjomi: vila aconchegante, áreas infantis com esteiras rolantes e clima tranquilo — a melhor opção da Geórgia para famílias. Várias áreas (Kokhta, Mitarbi, Didveli, Tatra); em 2023 a estação sediou o Campeonato Mundial de freestyle e snowboard. Barato, e quase todo mundo fala russo.",
+   "rating_basis": "Teste do skiresort.com — 3,2/5 (“Good”); sede do Campeonato Mundial FIS de freestyle e snowboard de 2023; a melhor estação da Geórgia para famílias segundo as avaliações",
+   "hazards": "Risco de avalanche fora das pistas em Didveli e no Kokhta depois de nevadas, vento no alto, encostas geladas depois de degelos, gelo na estrada de montanha a partir de Borjomi.",
+   "crowd_note": "Movimentado nos feriados de Ano-Novo e Natal (até meados de janeiro) e nos fins de semana, quando vem gente de Tbilisi; nos dias úteis de fevereiro–março é tranquilo",
+   "region": "Samtskhe-Javakheti, Borjomi, Pequeno Cáucaso",
+   "season": "meados/fim de dezembro – fim de março (em anos de muita neve, até meados de abril)",
+   "transfer": "Tbilisi ~3 h (≈180 km), Kutaisi ~3–3,5 h; a partir de Borjomi, o trem de bitola estreita “Kukushka” (~2,5 h) ou micro-ônibus ~40 min",
+   "pros": [
+    "Clima familiar, áreas infantis e pistas para aprender",
+    "Muito barato: ski pass ~19 €, instrutores, hospedagem",
+    "Floresta de pinheiros, encostas protegidas do vento",
+    "Quase todo mundo entende russo, sem visto para russos"
+   ],
+   "cons": [
+    "As áreas ainda não são totalmente interligadas, é preciso se deslocar",
+    "Temporada curta e dependente das nevadas",
+    "Preparação das pistas e serviço abaixo do padrão europeu",
+    "Quase sem après-ski"
+   ],
+   "airport": "TBS — Tbilisi, ~3 h (KUT — Kutaisi, ~3–3,5 h)",
+   "lift_pass_note": "1 dia, adulto — 55 lari (≈18–19 €) segundo o skiresort.com e um panorama da temporada 2026; instrutor ~100–120 lari/hora"
+  },
+  "gudauri": {
+   "h": "2be943abdb",
+   "description": "A estação de esqui mais alta e maior da Geórgia, no passo da Cruz: encostas sem árvores até 3276 m, desnível de cerca de 1300 m e um dos melhores freerides da Europa a preço baixo, com heliski e teleférico até o vale de Kobi. A estação é totalmente voltada para hóspedes de língua russa: quase todos os moradores falam russo. Segundo a estação, há mais de 50 km de pistas; o skiresort.com conta cerca de 35 km de pistas sinalizadas.",
+   "rating_basis": "Teste do skiresort.com — 3,3/5 (“Good”): pelo enorme terreno aberto para freeride e heliski; pontos negativos — preparação das pistas, filas, falhas nos teleféricos; a principal estação da Geórgia e uma das mais populares entre esquiadores de língua russa",
+   "hazards": "Alto risco de avalanche fora das pistas (há mortes de freeriders sem guia), a pista Kobi – Gudauri fecha com frequência por causa de avalanches, vento forte e whiteout nas encostas sem árvores, altitude acima de 3000 m e sol forte, fechamentos da Estrada Militar da Geórgia, falhas nos teleféricos.",
+   "crowd_note": "Filas nos teleféricos de manhã e multidões nas pistas azuis nos feriados de Ano-Novo e nos fins de semana (muitos turistas da Rússia e de Tbilisi); à tarde e nos dias úteis de março é mais tranquilo",
+   "region": "Mtskheta-Mtianeti, Grande Cáucaso (Estrada Militar da Geórgia)",
+   "season": "meados/fim de dezembro – meados de abril (melhor em fevereiro–março)",
+   "transfer": "Tbilisi ~2–3 h (≈120 km; táxi do aeroporto 170–200 lari, micro-ônibus de Didube ~15 lari), Vladikavkaz ~2–3 h pelo posto de fronteira de Verkhny Lars (≈110 km, filas na fronteira), Kutaisi ~4–5 h",
+   "pros": [
+    "Campos abertos enormes para freeride, heliski",
+    "Ski pass e instrutores muito baratos",
+    "Quase todo mundo fala russo, sem visto para russos",
+    "Altitude de até 3276 m e muita neve natural"
+   ],
+   "cons": [
+    "Preparação das pistas e serviço piores que na Europa",
+    "Filas e multidões nas pistas azuis nos feriados",
+    "Vento e quedas de energia param os teleféricos",
+    "A estrada pelo passo da Cruz e a fronteira fecham em nevascas"
+   ],
+   "airport": "TBS — Tbilisi, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, ilimitado — 70 lari (≈23 €); 4 dias — 260 lari, semana — 370 lari; subida avulsa 20 lari. O preço do passe diário não muda há várias temporadas"
+  },
+  "gulmarg": {
+   "h": "e0f171d635",
+   "description": "Estação de freeride no Himalaia, na Caxemira: a gôndola de dois estágios sobe de 2650 m até quase o cume do Apharwat (~3980 m), de onde se abrem enormes bowls de neve virgem, couloirs e floresta, com mais de 1300 m de desnível. Há poucas pistas preparadas — é um lugar para riders experientes, com guia e equipamento de avalanche; em algumas temporadas funciona heliski. Nos últimos anos a estação caiu no gosto dos freeriders russos: muito barata e com muita neve.",
+   "rating_basis": "skiresort.com — 3,2/5 pela infraestrutura; para freeriders é um lugar cult: uma das gôndolas mais altas do mundo (até ~3980 m), enormes encostas de neve virgem e floresta, preços baixos",
+   "hazards": "Risco de avalanche muito alto — em Gulmarg já morreram esquiadores estrangeiros, inclusive russos; guia, transceptor, sonda e pá são obrigatórios. Altitude de ~4000 m (mal de altitude), vento forte, situação instável na Caxemira — consulte as recomendações do Ministério das Relações Exteriores",
+   "crowd_note": "As encostas são vazias, mas os bilhetes para o 2º estágio da gôndola são limitados — no pico da temporada esgotam com 2–3 dias de antecedência; filas para a gôndola nos fins de semana por causa dos turistas indianos",
+   "region": "Caxemira (Jammu e Caxemira), Himalaia — cordilheira Pir Panjal",
+   "season": "segunda quinzena de dezembro – fim de março (o melhor powder vai de meados de janeiro a fevereiro)",
+   "transfer": "Aeroporto de Srinagar (SXR) ~1,5–2 h de táxi (~50 km via Tangmarg); para Srinagar, via Délhi",
+   "pros": [
+    "Freeride de nível mundial e grande desnível",
+    "Neve abundante e pouca gente nas encostas",
+    "Preços muito baixos de hospedagem e guias",
+    "O exotismo do Himalaia e da Caxemira"
+   ],
+   "cons": [
+    "Poucos teleféricos e pistas preparadas, infraestrutura fraca",
+    "O segundo estágio da gôndola fecha com frequência por vento e risco de avalanche",
+    "Instabilidade política na região, logística complicada",
+    "Quase sem après-ski (o acesso a álcool é limitado)"
+   ],
+   "airport": "SXR — Srinagar, ~2 h"
+  },
+  "dizin": {
+   "h": "defdcc1c2f",
+   "description": "A principal estação de esqui do Irã, na cordilheira Elburz, ao norte de Teerã: base a 2650 m, teleféricos até 3600 m, 4 gôndolas e neve seca. As encostas são principalmente para intermediários e avançados; fora das pistas, freeride com guia, mas com muitas pedras. Exótico e barato, mas com regras rígidas: dress code obrigatório para mulheres (lenço na cabeça) e proibição de álcool.",
+   "rating_basis": "skiresort.com — 3,0/5; a maior e mais conhecida estação do Irã, a primeira do país reconhecida pela FIS; base alta e neve seca",
+   "hazards": "Risco de avalanche (a estrada por Shemshak fecha com frequência), pedras fora das pistas, altitude de até 3600 m e radiação ultravioleta forte; situação instável no país — consulte as recomendações do Ministério das Relações Exteriores antes de viajar",
+   "crowd_note": "Nos fins de semana (quinta–sexta) e feriados, multidões vindas de Teerã e filas nas gôndolas; nos dias úteis fica vazio",
+   "region": "Elburz, província de Alborz/Teerã",
+   "season": "dezembro – abril (em anos de muita neve, até maio)",
+   "transfer": "De Teerã ~2,5 h via Karaj (~120 km) ou ~70 km pela estrada curta via Shemshak (fecha com frequência por avalanches); aeroporto Imam Khomeini (IKA) ~3–3,5 h",
+   "pros": [
+    "Base alta e neve seca",
+    "Muito barato para estrangeiros",
+    "Grande desnível para o tamanho",
+    "O exotismo e a cultura do Irã"
+   ],
+   "cons": [
+    "Teleféricos antigos e infraestrutura fraca",
+    "Multidões nos fins de semana",
+    "Sem après-ski nem álcool, dress code rígido",
+    "Situação política complicada e sanções (cartões bancários estrangeiros não funcionam)"
+   ],
+   "airport": "IKA — Teerã Imam Khomeini, ~3–3,5 h"
+  },
+  "cortina-dampezzo": {
+   "h": "8fdf56c366",
+   "description": "Cortina d'Ampezzo é a “rainha das Dolomitas”, uma estação mundana com o Corso Italia para pedestres e sede dos Jogos Olímpicos de Inverno de 2026. São 120 km de pistas em várias áreas (Tofana, Cristallo, Faloria, Lagazuoi – Cinque Torri), com vistas dramáticas para os paredões das Dolomitas; com o ski pass Dolomiti Superski, 1200 km em 12 vales. Boa para esquiar por prazer, para gastronomia e compras.",
+   "rating_basis": "skiresort.com: 4,1/5 (“excepcional”), “top” em 13 categorias; sede dos Jogos Olímpicos de Inverno de 2026 (esqui alpino feminino na Tofana), pista da Copa do Mundo Olympia delle Tofane",
+   "hazards": "Couloirs íngremes e rochas fora das pistas (Tofana, Cristallo) — quedas de pedras e avalanches; gelo duro nas pistas olímpicas; estradas de montanha sinuosas até a estação",
+   "crowd_note": "As pistas costumam estar vazias — muitos hóspedes vêm pela vida social; fica cheio no Natal e nos fins de semana italianos",
+   "region": "Vêneto, Dolomitas",
+   "season": "fim de novembro – início de abril; alguns setores (Tofana) podem funcionar até o fim de abril (2026/27: 21.11–02.05)",
+   "transfer": "Veneza ~2 h, Treviso ~2 h, Innsbruck ~2,5 h, Bolzano ~2 h",
+   "pros": [
+    "Paisagens das Dolomitas (Patrimônio da UNESCO)",
+    "Infraestrutura olímpica de 2026",
+    "Pistas vazias",
+    "Gastronomia, compras, vida social",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Áreas dispersas, é preciso ônibus",
+    "Caro",
+    "Pouco freeride de verdade e snowpark modesto"
+   ],
+   "airport": "VCE — Veneza Marco Polo, ~2 h",
+   "lift_pass_note": "1 dia, adulto, Dolomiti Superski, alta temporada; em 2026/27 — 89 €. O ski pass local de Cortina custa cerca de 80 € (skiresort.com)"
+  },
+  "livigno": {
+   "h": "d78d75c4b3",
+   "description": "Livigno é uma estação alta (1816 m) e livre de impostos na fronteira com a Suíça: as duas encostas do vale (Mottolino e Carosello) somam 115 km de pistas, neve garantida do fim de novembro a maio e um dos melhores snowparks da Europa. Barata para os padrões dos Alpes, popular entre jovens e snowboarders; em 2026 recebeu as provas olímpicas de snowboard e freestyle.",
+   "rating_basis": "skiresort.com: 4,4/5 (“excepcional”), “top” em 17 categorias; o snowpark Mottolino foi palco das provas de snowboard e freestyle dos Jogos Olímpicos de 2026",
+   "hazards": "Frio intenso e vento nas encostas abertas; passos de Foscagno e Forcola no inverno — correntes, possíveis fechamentos; risco de avalanche fora das pistas",
+   "crowd_note": "Cheio no Natal, em fevereiro e na Páscoa (muitos hóspedes do Leste Europeu); sábado é dia de troca de hóspedes, e as pistas ficam mais vazias",
+   "region": "Lombardia, Alta Valtellina",
+   "season": "fim de novembro – início de maio (2026/27: 28.11–02.05)",
+   "transfer": "Milão-Bérgamo ~3,5–4 h, Milão-Malpensa ~4 h, Innsbruck ~3 h, Zurique ~3,5 h (pelo túnel Munt la Schera)",
+   "pros": [
+    "Altitude — temporada até o início de maio",
+    "Snowpark Mottolino de nível pro",
+    "Zona livre de impostos — compras e combustível mais baratos",
+    "Muitas pistas fáceis e intermediárias",
+    "Après-ski animado"
+   ],
+   "cons": [
+    "Longe dos aeroportos, estrada por passos de montanha",
+    "Pouco terreno difícil e desnível pequeno (~1000 m)",
+    "Muito frio em janeiro"
+   ],
+   "airport": "BGY — Milão-Bérgamo, ~3,5–4 h",
+   "lift_pass_note": "1 dia, adulto, alta temporada (26.12–08.01 e 31.01–29.03); aos sábados na alta temporada — 61 €. O skiresort.com indica 72 € (provavelmente 2025/26)"
+  },
+  "madonna-di-campiglio": {
+   "h": "b1a103d547",
+   "description": "Madonna di Campiglio é uma estação elegante do Trentino, ao pé das Dolomitas de Brenta. A área interligada Skiarea Campiglio (155 km) reúne Madonna, Pinzolo, Folgarida e Marilleva; neve artificial em quase toda parte, pistas bem cuidadas, o snowpark Ursus e a lendária pista de slalom Canalone Miramonti, onde acontece a etapa 3Tre da Copa do Mundo.",
+   "rating_basis": "skiresort.com: 4,7/5 (“nível mundial”), “top” em 17 categorias; etapa 3Tre da Copa do Mundo de slalom na pista Canalone Miramonti",
+   "hazards": "Risco de avalanche e rochas fora das pistas; gelo duro nas pistas de manhã; estradas de montanha — pneus de inverno e correntes",
+   "crowd_note": "Cheio nos feriados italianos (Natal, Ano-Novo) e em fevereiro; nos dias úteis de janeiro e março fica vazio",
+   "region": "Trentino, Dolomitas de Brenta",
+   "season": "fim de novembro – meados de abril (2026/27: 21.11–11.04)",
+   "transfer": "Verona ~2,5 h, Milão-Bérgamo ~3 h, Innsbruck ~3 h; de trem até Trento, depois ônibus ~1,5 h",
+   "pros": [
+    "155 km de pistas interligadas e ótima preparação",
+    "Neve artificial em quase toda a área",
+    "As belas Dolomitas de Brenta",
+    "Boa opção para famílias e intermediários",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Pouca altitude (até 2504 m), temporada até meados de abril",
+    "Hospedagem cara na própria Madonna",
+    "Pouco freeride de verdade"
+   ],
+   "airport": "VRN — Verona, ~2,5 h",
+   "lift_pass_note": "1 dia, adulto, Skiarea Campiglio (Madonna, Pinzolo, Folgarida, Marilleva), alta temporada; nas datas de pico — 89 €. O skiresort.com indica 85 € (provavelmente 2025/26)"
+  },
+  "val-gardena": {
+   "h": "291baa0f97",
+   "description": "Val Gardena (Ortisei, Santa Cristina, Selva) é um dos principais vales do Dolomiti Superski: 181 km de pistas próprias e acesso direto ao circuito de 40 km da Sella Ronda, em volta do maciço do Sella, e, com o ski pass conjunto, 1200 km em 12 vales. Paisagens incríveis das Dolomitas, cozinha sul-tirolesa nos refúgios, a pista Saslong da Copa do Mundo e a descida La Longia, de 10,5 km, a partir da Seceda.",
+   "rating_basis": "skiresort.com: 4,7/5 (“nível mundial”), “top” em 17 categorias; etapa da Copa do Mundo na pista Saslong, circuito da Sella Ronda, Dolomitas — Patrimônio da UNESCO",
+   "hazards": "Encostas íngremes e rochosas fora das pistas — couloirs com queda de pedras e avalanches (Val Mezdì só com guia); gelo duro nas pistas preparadas de manhã; na Sella Ronda é importante chegar a tempo dos últimos teleféricos",
+   "crowd_note": "Nos feriados italianos, em fevereiro e na Sella Ronda — filas nos teleféricos Dantercepies e Ciampinoi, pistas principais cheias",
+   "region": "Tirol do Sul, Dolomitas",
+   "season": "início de dezembro – início de abril (2026/27: 4.12–4.04)",
+   "transfer": "Bolzano ~1 h, Innsbruck ~1,5–2 h, Verona ~2,5 h, Veneza/Treviso ~3 h, Munique ~3,5 h",
+   "pros": [
+    "Dolomitas — uma das paisagens mais bonitas dos Alpes",
+    "Circuito da Sella Ronda e 1200 km com um só ski pass",
+    "Ótimos refúgios e cozinha",
+    "Neve artificial em quase toda a área",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Pouca altitude (até 2518 m) — em invernos sem neve, esqui na neve artificial",
+    "Sella Ronda cheia em fevereiro",
+    "Pouco freeride de verdade, a temporada termina no início de abril"
+   ],
+   "airport": "BZO — Bolzano, ~1 h (maiores: VRN — Verona ~2,5 h, INN — Innsbruck ~1,5–2 h)",
+   "lift_pass_note": "1 dia, adulto, Dolomiti Superski (1200 km em 12 vales), alta temporada; em 2026/27 — 89 €. O ski pass só de Val Gardena/Alpe di Siusi custa cerca de 83 € (skiresort.com)"
+  },
+  "hakuba-valley": {
+   "h": "442501e7a3",
+   "description": "O vale de Hakuba reúne dez estações nos Alpes Japoneses do Norte, com o ski pass conjunto Hakuba Valley e ônibus entre elas; a principal é a olímpica Happo-One, com mais de 1000 m de desnível. Aqui está o terreno mais “alpino” do Japão: encostas abertas acima da floresta, freeride na floresta em Cortina e Tsugaike, backcountry. Também é boa para iniciantes (Iwatake, Tsugaike) e famílias; as vilas de Happo e Echoland têm restaurantes e bares.",
+   "rating_basis": "Pistas olímpicas de Nagano 1998, etapa do Freeride World Tour; o skiresort.com dá à própria Happo-One 3,3/5 pela infraestrutura; uma das duas principais estações do Japão",
+   "hazards": "Alto risco de avalanche no backcountry dos Alpes do Norte, registro e equipamento obrigatórios; whiteout, vento forte e gelo na crista de Happo, tree wells (poços de neve fofa ao redor das árvores) na floresta",
+   "crowd_note": "Filas para a gôndola de Happo nos fins de semana e no Ano-Novo, muitos australianos em janeiro; nas estações vizinhas do vale é mais tranquilo",
+   "region": "Nagano, Alpes Japoneses do Norte (Honshu)",
+   "season": "início de dezembro – início de maio (neve garantida do fim de dezembro a março)",
+   "transfer": "De Tóquio: shinkansen até Nagano ~1,5 h + ônibus ~1 h 10 min; ônibus/transfer direto de Haneda ou Narita ~4–5 h",
+   "pros": [
+    "O terreno maior e mais íngreme do Japão, freeride alpino de verdade",
+    "Um só ski pass para as 10 estações do vale",
+    "Muita neve e onsens na vila",
+    "Fácil acesso de trem a partir de Tóquio"
+   ],
+   "cons": [
+    "As estações não são interligadas por teleféricos — é preciso ônibus",
+    "As encostas de baixo dependem da neve no início e no fim da temporada",
+    "Pouca visibilidade e vento no alto fecham os teleféricos de cima",
+    "Mais cara que as estações locais de Nagano"
+   ],
+   "airport": "HND — Tóquio Haneda, ~4 h (NRT Narita ~4,5–5 h)",
+   "lift_pass_note": "1 dia, adulto, só Happo-One (bilheteria, fim de semana) — 8 700 ¥; o Hakuba Valley Ticket conjunto para as 10 estações do vale — 10 400 ¥ (para 2026/27 foram anunciados 11 100 ¥)"
+  },
+  "niseko-united": {
+   "h": "933ad542ff",
+   "description": "A maior estação de Hokkaido: quatro áreas interligadas numa só montanha, o Niseko Annupuri, com ski pass conjunto e vista para o vulcão Yotei. Famosa pelo powder seco japonês — cerca de 15 m de neve por temporada, esqui na floresta e acesso ao backcountry por portões oficiais. Hirafu é uma vila internacional, com muitos restaurantes, bares e escolas em inglês; aqui fica a maior área de esqui noturno do Japão.",
+   "rating_basis": "skiresort.com — 4,4/5 (“Outstanding”); uma das estações de powder mais famosas do mundo, top do Japão nas avaliações",
+   "hazards": "Risco de avalanche fora das pistas — saia só pelos portões abertos e com equipamento de avalanche; tree wells (poços de neve fofa junto às árvores), whiteout e vento forte no cume, congelamento em janeiro–fevereiro",
+   "crowd_note": "Filas nos teleféricos de baixo de Hirafu e multidões na vila no Ano-Novo, no Ano-Novo Chinês e nas férias australianas (janeiro); nos dias úteis de março é mais tranquilo",
+   "region": "Hokkaido, monte Niseko Annupuri",
+   "season": "fim de novembro – início de maio (temporada principal de meados de dezembro a março)",
+   "transfer": "Aeroporto Novo Chitose (Sapporo) ~2–2,5 h de ônibus ou transfer (~117 km); de Sapporo ~2 h",
+   "pros": [
+    "Muita neve leve e seca, nevadas constantes em dezembro–fevereiro",
+    "Acesso legal ao backcountry pelos portões (Niseko Rules)",
+    "Esqui noturno até as 20:30",
+    "Infraestrutura desenvolvida, muitos restaurantes e funcionários que falam inglês"
+   ],
+   "cons": [
+    "Desnível modesto (~900 m) e pistas de inclinação moderada",
+    "Neblina frequente, vento e fechamento dos teleféricos de cima",
+    "Hospedagem cara e multidões nas semanas de pico",
+    "Muito frio em janeiro–fevereiro"
+   ],
+   "airport": "CTS — Novo Chitose (Sapporo), ~2–2,5 h",
+   "lift_pass_note": "1 dia, adulto, ski pass conjunto All Mountain para as 4 áreas, temporada principal (13.12–22.03) — 12 000 ¥; no início da primavera e no fim da temporada é mais barato. Para 2026/27 foram anunciados 12 600 ¥ (temporada normal) e 13 500 ¥ (pico 24.12–28.02)"
+  },
+  "rusutsu": {
+   "h": "7324e702b6",
+   "description": "Estação-hotel em três montanhas (East, West e Isola), a uma hora de carro de Niseko: muito powder japonês na floresta, pistas largas com vista para o lago Toya e o vulcão Yotei, e pouca gente. Boa para famílias e para quem gosta de esquiar na floresta, mas a vida noturna se limita ao hotel. Alternativa em Hokkaido: Furano, no centro da ilha — neve mais fria e seca, funciona até o início de maio, ski pass 2025/26 a 8 000 ¥.",
+   "rating_basis": "skiresort.com — 4,1/5 (“Outstanding”); famosa pelo powder na floresta e pelas pistas bem preparadas, a primeira estação japonesa a receber o “Best Small Resort” do guia britânico Good Skiing & Snowboarding Guide",
+   "hazards": "Risco de avalanche e tree wells (poços de neve fofa ao redor das árvores) fora das pistas, frio intenso e vento em janeiro–fevereiro, whiteout",
+   "crowd_note": "Bem mais vazia que Niseko; só há filas nas gôndolas junto ao hotel nos feriados",
+   "region": "Hokkaido, região de Niseko–Shikotsu",
+   "season": "fim de novembro / início de dezembro – fim de março (às vezes até os primeiros dias de abril)",
+   "transfer": "Novo Chitose ~1,5 h de ônibus/transfer; Sapporo ~1,5–2 h; Niseko ~40 min",
+   "pros": [
+    "Ótimo freeride na floresta e powder sem multidões",
+    "Perto do aeroporto de Chitose",
+    "Esqui noturno e infraestrutura para famílias"
+   ],
+   "cons": [
+    "Ski pass caro na bilheteria (sai mais barato online)",
+    "Desnível pequeno (~600 m)",
+    "Quase sem après-ski fora do hotel",
+    "Fecha no fim de março"
+   ],
+   "airport": "CTS — Novo Chitose (Sapporo), ~1,5 h",
+   "lift_pass_note": "1 dia, adulto, na bilheteria, temporada principal (20.12–15.03) — 16 200 ¥; online com antecedência — 12 000 ¥ (~68 €)"
+  },
+  "karakol": {
+   "h": "3655792026",
+   "description": "A principal base de esqui do Quirguistão, num desfiladeiro de abetos acima da cidade de Karakol, junto à margem leste do lago Issyk-Kul: quatro ou cinco cadeirinhas até 3040 m, cerca de 20 km de pistas, encostas íngremes e muito powder. Mais acima, de snowmobile, chega-se a 3450 m e ao backcountry do Tian Shan; perto há cat-ski em Jyrgalan e fontes termais.",
+   "rating_basis": "A melhor base de esqui do Quirguistão: ~20 km de pistas, muito terreno íngreme e powder (2,5–4 m de neve por temporada), mas cadeirinhas antigas e lentas; teste do skiresort.info — 2,9 de 5; a Powderhounds a recomenda como aquecimento antes do cat-ski em Jyrgalan",
+   "hazards": "Risco de avalanche fora das pistas (o limite entre pistas e neve virgem quase não é sinalizado), altitude de até 3000–3450 m, frio intenso e vento no alto; a estrada de montanha até a base pode estar congelada",
+   "crowd_note": "Quase não há filas, exceto nas férias de Ano-Novo; a maioria dos hóspedes esquia nas pistas para iniciantes, e a neve virgem fica intocada",
+   "region": "Província de Issyk-Kul, cordilheira Terskey Ala-Too, Tian Shan (11 km da cidade de Karakol)",
+   "season": "meados de dezembro – fim de março (em anos de muita neve, do fim de novembro ao início de abril)",
+   "transfer": "11 km da cidade de Karakol (~25–30 min de táxi, não há shuttles); aeroporto de Issyk-Kul (Tamchy) ~200 km, ~3 h; Bishkek ~400 km, 6–7 h; Almaty ~6–7 h pelo posto de fronteira Kegen – Karkyra",
+   "pros": [
+    "Bom powder e encostas íngremes com floresta, pouca gente",
+    "Ski pass e hospedagem muito baratos",
+    "Subida de snowmobile até 3450 m, backcountry e cat-ski por perto",
+    "Sem visto, fala-se russo em toda parte"
+   ],
+   "cons": [
+    "Cadeirinhas antigas e lentas",
+    "Longe de Bishkek e Almaty",
+    "Serviço e aluguel de equipamento modestos",
+    "Neve instável de uma temporada para outra"
+   ],
+   "airport": "IKU — Issyk-Kul (Tamchy), ~3 h; FRU — Bishkek, ~6–7 h",
+   "lift_pass_note": "1 dia (09:00–16:00), adulto: 2000 som na alta temporada, 31.12–10.01; na temporada normal — 1400 som (ter–qui) e 1700 som (sex–seg); esqui noturno 18:30–22:00 — 1000/1200 som; cartão — 300 som"
+  },
+  "yongpyong": {
+   "h": "068c085adc",
+   "description": "A estação mais antiga e maior da Coreia do Sul, onde aconteceram as provas técnicas dos Jogos Olímpicos de 2018 (PyeongChang). As pistas são quase todas de neve artificial, há uma longa gôndola até o cume do Balwangsan e esqui noturno até a meia-noite. Popular entre os moradores do Extremo Oriente russo por ser um destino próximo; em 2015 a estação anunciava aulas em inglês, espanhol, italiano e russo.",
+   "rating_basis": "skiresort.com — 3,1/5; a maior e mais conhecida estação da Coreia, provas técnicas dos Jogos Olímpicos de 2018",
+   "hazards": "Neve artificial dura e gelo nas pistas íngremes, frio intenso com vento em janeiro, colisões nas pistas lotadas nos fins de semana",
+   "crowd_note": "Nos fins de semana e nos feriados coreanos (Ano-Novo lunar) fica muito cheio — vem gente de Seul; nos dias úteis é bem mais tranquilo",
+   "region": "PyeongChang, província de Gangwon",
+   "season": "meados/fim de novembro – fim de março, às vezes até o início de abril",
+   "transfer": "De Seul ~2,5–3 h de shuttle/ônibus (~200 km) ou KTX até a estação Jinbu (Odaesan) ~1,5 h + 15 min de táxi/shuttle; de Incheon ~3 h",
+   "pros": [
+    "Perto de Vladivostok e Seul, logística fácil",
+    "Neve artificial confiável e pistas bem preparadas",
+    "Esqui noturno até a meia-noite",
+    "Pista olímpica Rainbow para experientes"
+   ],
+   "cons": [
+    "Poucas pistas (~24 km)",
+    "Pouca neve natural, sem freeride (esquiar fora das pistas é proibido)",
+    "Multidões nos fins de semana",
+    "Vento frio em janeiro"
+   ],
+   "airport": "ICN — Seul Incheon, ~3 h"
+  },
+  "shymbulak": {
+   "h": "1abe3251c4",
+   "description": "A principal estação de esqui do Cazaquistão e de toda a Ásia Central, no Trans-Ili Alatau, acima de Almaty: gôndola a partir da pista de patinação de Medeu, esqui de 2260 a 3180 m (passo Talgar), cerca de 20 km de pistas e enormes possibilidades de freeride. Popular entre russos — sem visto, fala-se russo em toda parte, e a cidade, com seus restaurantes, fica a meia hora de carro.",
+   "rating_basis": "A maior e mais desenvolvida estação da Ásia Central, a 30 minutos de Almaty: gôndola a partir de Medeu, esqui até 3180 m, muito terreno fora de pista (Powderhounds); teste do skiresort.info — 3,1 de 5",
+   "hazards": "Alto risco de avalanche fora das pistas no Trans-Ili Alatau, vento forte e frio no passo Talgar (3180 m), altitude — possível mal de altitude; na entressafra, fluxos de lama e detritos",
+   "crowd_note": "Nos fins de semana e feriados (Ano-Novo, Nauryz) há filas na gôndola Medeu – Shymbulak e nas cadeirinhas de baixo; nos dias úteis é bem mais tranquilo",
+   "region": "Trans-Ili Alatau, Tian Shan, acima do vale de Medeu, Almaty",
+   "season": "meados/fim de novembro – meados de abril (em anos de muita neve, até maio)",
+   "transfer": "Aeroporto de Almaty ~35 km: até Medeu de táxi 40–60 min, depois gôndola até Shymbulak; também dá para ir de carro até a base",
+   "pros": [
+    "Altitude de até 3180 m — neve garantida e temporada longa",
+    "Muito terreno fora de pista abaixo do passo Talgar",
+    "A 30–40 minutos de uma cidade grande e do aeroporto",
+    "Sem visto para russos, fala-se russo em toda parte"
+   ],
+   "cons": [
+    "Área esquiável pequena (~20 km de pistas)",
+    "Aumento sensível do preço do ski pass em 2025/26",
+    "Filas nos fins de semana e feriados",
+    "Acima de 3000 m — vento e frio"
+   ],
+   "airport": "ALA — Almaty, ~1 h",
+   "lift_pass_note": "1 dia, adulto — 26 000 ₸ (antes 17 500 ₸, segundo o Ranking.kz, dezembro de 2025); foram introduzidas tarifas diferenciadas: na baixa temporada, em média ~30% mais barato (segundo outras fontes, 12 000–13 400 ₸); gôndola Medeu – Shymbulak na alta temporada, 25.12–11.01 — 5000 ₸ só ida"
+  },
+  "kolasin": {
+   "h": "c260f650cc",
+   "description": "Estação em rápido desenvolvimento no monte Bjelasica, a 10 km da cidadezinha de Kolašin: duas áreas (1450 e 1600) ligadas por cadeirinha, cerca de 45 km de pistas até 2070 m de altitude. Muita neve graças aos ventos úmidos do Adriático, ski pass muito barato, clima tranquilo e encostas largas. Pelo plano diretor Kolasin Valleys, a área deve chegar a 150 km até 2030.",
+   "rating_basis": "Teste do skiresort.com — 3,6/5 (“Very good”): pistas, teleféricos, neve, famílias, freeride; uma das estações com ski pass mais barato da Europa",
+   "hazards": "Risco de avalanche fora das pistas depois de nevadas fortes, vento e neblina na crista do Bjelasica, acúmulo de neve e gelo nas estradas de montanha, degelos quentes vindos do Adriático.",
+   "crowd_note": "Só há filas nos feriados de Ano-Novo e nos fins de semana; a estação cresce rápido, mas ainda é vazia",
+   "region": "Bjelasica, norte de Montenegro",
+   "season": "meados de dezembro – início de abril (em anos de muita neve, desde o fim de novembro)",
+   "transfer": "Podgorica ~1–1,5 h (pela nova autoestrada até Kolašin ~45–60 min + subida até a estação), Tivat ~2,5–3 h; o trem Belgrado – Bar para em Kolašin",
+   "pros": [
+    "Um dos ski passes mais baratos da Europa",
+    "Clima com muita neve, bom terreno para freeride",
+    "Pouca gente, cadeirinhas novas",
+    "A uma hora do aeroporto de Podgorica, mar por perto"
+   ],
+   "cons": [
+    "Por enquanto área pequena e pouca infraestrutura junto às pistas",
+    "Quase sem après-ski",
+    "Neve artificial só em parte da área",
+    "Pouca informação sobre escolas e instrutores"
+   ],
+   "airport": "TGD — Podgorica, ~1 h",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 25 € segundo o skiresort.com e um panorama da SportsCover Direct (Time Out); a temporada do preço não é informada, confirme no local"
+  },
+  "mavrovo": {
+   "h": "67b506b68f",
+   "description": "A principal estação de esqui da Macedônia do Norte, às margens do lago Mavrovo, dentro de um parque nacional: cerca de 15 km de pistas (segundo outras fontes, até 27 km), desnível de ~620 m e, por perto, travessias até o monte Korab (2764 m). Muito barato e tranquilo, mas os teleféricos são em sua maioria T-bars antigos. A estação é administrada pela operadora de Jahorina (OC Jahorina). Alternativa mais alta: Popova Šapka, perto de Tetovo (1672–2380 m, ~18 km de pistas, 1 300 MKD).",
+   "rating_basis": "Teste do skiresort.com — 2,8/5; a maior estação da Macedônia do Norte, mas com teleféricos antigos e montanhas baixas",
+   "hazards": "Neve instável e gelo nos degelos, neblina, risco de avalanche nas travessias até o Korab, acúmulo de neve na estrada Gostivar – Mavrovo.",
+   "crowd_note": "Movimentado só nos feriados de Ano-Novo e nos fins de semana (vem gente de Skopje); nos dias úteis fica quase vazio",
+   "region": "Parque Nacional Mavrovo, oeste da Macedônia do Norte",
+   "season": "meados de dezembro – início de abril (depende da neve)",
+   "transfer": "Skopje ~2 h (≈125 km), Ohrid ~1,5–2 h",
+   "pros": [
+    "Ski pass e hospedagem muito baratos",
+    "Belo parque nacional e lago",
+    "Esqui de travessia e freeride na região do Korab",
+    "Sem visto para russos"
+   ],
+   "cons": [
+    "Área pequena, T-bars antigos",
+    "Montanhas baixas — neve instável",
+    "Infraestrutura e après-ski modestos",
+    "2 horas de Skopje"
+   ],
+   "airport": "SKP — Skopje, ~2 h",
+   "lift_pass_note": "1 dia, adulto (24+) — 1 500 MKD (≈24 €); jovens de 14–23 — 1 250 MKD, crianças — 1 050 MKD. Quem tem o passe de temporada ganha 2 dias grátis em Jahorina (mesma operadora, OC Jahorina)"
+  },
+  "trysil": {
+   "h": "7717eed1d1",
+   "description": "A maior estação de esqui da Noruega: cerca de 80 km de pistas em quatro encostas do monte Trysilfjellet (Turistsenteret, Høgegga, Fageråsen, Skihytta), com hospedagem ski-in/ski-out. Uma das melhores da Europa para famílias com crianças e iniciantes, com ótimos snowparks e esqui noturno. Se quiser montanhas mais altas e freeride, veja Hemsedal.",
+   "rating_basis": "Teste do skiresort.com — 4,4/5 (“Outstanding”): neve, famílias, iniciantes, snowpark, hospedagem; a maior estação da Noruega. Alternativa com terreno mais montanhoso: Hemsedal (44 km, desnível de 830 m, 4,3/5)",
+   "hazards": "Frio intenso (até −20…−30 °C) e vento no cume sem árvores, congelamento, dias curtos em dezembro–janeiro, whiteout no alto, gelo nas encostas íngremes.",
+   "crowd_note": "O pico é nas férias de inverno norueguesas (fevereiro), na Páscoa e no Ano-Novo; filas na gôndola de Turistsenteret; nos dias úteis de janeiro e março fica vazio",
+   "region": "Innlandet, leste da Noruega (perto da fronteira com a Suécia)",
+   "season": "fim de novembro – meados/fim de abril",
+   "transfer": "Aeroporto Scandinavian Mountains, em Sälen (SCR, Suécia) ~45 min, Oslo-Gardermoen ~2,5 h (≈190 km, ônibus)",
+   "pros": [
+    "A maior área da Noruega, muita hospedagem junto às pistas",
+    "Ótima para famílias e iniciantes, áreas infantis",
+    "Neve garantida e produção de neve potente",
+    "Esqui noturno, bons snowparks"
+   ],
+   "cons": [
+    "Montanha baixa (até 1100 m) — pouco freeride",
+    "Caro: ski pass, comida, bebida alcoólica",
+    "Frio intenso e dias curtos em dezembro–janeiro",
+    "Longe de Oslo"
+   ],
+   "airport": "SCR — Sälen (Scandinavian Mountains), ~45 min",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 808 NOK (≈76 €) segundo o skiresort.com; a SkiStar usa preços dinâmicos, e comprar online com antecedência sai mais barato"
+  },
+  "queenstown-coronet-peak": {
+   "h": "1320fe1d9d",
+   "description": "A área de esqui mais próxima de Queenstown: 280 ha em encostas abertas sem árvores, desnível de ~460 m, um potente sistema de produção de neve e esqui noturno às quartas e sextas. A vizinha The Remarkables (1610–1943 m, ~20 km de pistas) é a melhor opção para iniciantes e snowparks, com o mesmo ski pass NZSki. A grande vantagem é Queenstown, com restaurantes, bares e aventuras (bungee jump, jetboats, heliski nos Alpes do Sul).",
+   "rating_basis": "skiresort.com — 3,7/5 (The Remarkables — 3,6/5); a primeira área de esqui da Nova Zelândia (1947), a melhor produção de neve do Hemisfério Sul, e Queenstown é a “capital da aventura”",
+   "hazards": "Vento forte e whiteout nas encostas abertas, gelo de manhã nas pistas com neve artificial, gelo na estrada de montanha (correntes necessárias); risco de avalanche fora das pistas",
+   "crowd_note": "Movimentado nas férias escolares de julho da Nova Zelândia e da Austrália e nos fins de semana; nos dias úteis de agosto–setembro fica vazio",
+   "region": "Otago, Ilha Sul, região de Queenstown",
+   "season": "meados de junho – fim de setembro (The Remarkables — até o início de outubro)",
+   "transfer": "Aeroporto de Queenstown (ZQN) ~25 min; do centro de Queenstown são 16 km, ~20 min, há ônibus de esqui",
+   "pros": [
+    "Esqui em julho–setembro a 20 minutos da cidade",
+    "Esqui noturno e produção de neve potente",
+    "Ótimo après-ski e as atrações de Queenstown",
+    "Um só ski pass para Coronet Peak, The Remarkables e Mt Hutt"
+   ],
+   "cons": [
+    "Altitude e desnível pequenos, pouca neve natural",
+    "Sem hospedagem junto às pistas — é preciso subir de carro todo dia",
+    "Vento e tempo instável",
+    "Voos caros a partir da Europa"
+   ],
+   "airport": "ZQN — Queenstown, ~25 min",
+   "lift_pass_note": "1 dia, adulto, temporada 2026 — 180 NZ$ (preço único nos dias úteis e fins de semana); os ski passes da NZSki (Superpass, Saver Pass) também valem para The Remarkables e Mt Hutt"
+  },
+  "poiana-brasov": {
+   "h": "d6160bc557",
+   "description": "A principal estação de esqui da Romênia, a 12 km da medieval Brașov: área pequena no monte Postăvarul, com desnível de cerca de 840 m, gôndola e esqui noturno. Boa para uma viagem curta combinada com passeios pela Transilvânia (Bran, Brașov), mas pequena demais para uma semana de esqui.",
+   "rating_basis": "Teste do skiresort.com — 2,9/5: área pequena (~14 km) com grande proporção de pistas difíceis; a estação mais popular da Romênia",
+   "hazards": "Encostas geladas depois de degelos, neblina, trânsito intenso nas pistas nos fins de semana; fora das pistas, floresta densa e ursos nos arredores (na época quente).",
+   "crowd_note": "Nos fins de semana e feriados vem muita gente de Bucareste, com filas na gôndola e no teleférico de cabine; nos dias úteis é tranquilo",
+   "region": "Brașov, Transilvânia (Cárpatos Meridionais, monte Postăvarul)",
+   "season": "meados de dezembro – fim de março / início de abril",
+   "transfer": "Brașov-Ghimbav ~30 min, Bucareste (Otopeni) ~3 h (≈170 km), Sibiu ~2,5 h",
+   "pros": [
+    "Brașov e os castelos da Transilvânia ao lado",
+    "Desnível de ~840 m, há pistas íngremes",
+    "Esqui noturno, neve artificial nas pistas principais",
+    "Novo aeroporto de Brașov a 30 minutos"
+   ],
+   "cons": [
+    "Só ~14 km de pistas",
+    "Montanhas baixas — neve instável",
+    "Filas nos fins de semana",
+    "Russos precisam de visto Schengen"
+   ],
+   "airport": "GHV — Brașov, ~30 min",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 240 RON (≈48 €) segundo o skiresort.com"
+  },
+  "kopaonik": {
+   "h": "cdecdbba2a",
+   "description": "A principal estação de esqui da Sérvia, num planalto dentro de um parque nacional: centro compacto com hotéis a 1700 m e cerca de 55 km de pistas até o cume do Pančićev vrh (2017 m). Boa para iniciantes e famílias, com esqui noturno e vida noturna agitada. Sem visto para russos, há instrutores que falam russo.",
+   "rating_basis": "Teste do skiresort.com — 4,2/5: famílias, iniciantes, restaurantes, hospedagem; a maior estação da Sérvia",
+   "hazards": "Vento forte e neblina no planalto aberto, gelo nos degelos, gelo na estrada de montanha; o risco de avalanche fora das pistas é baixo, mas existe nos couloirs íngremes.",
+   "crowd_note": "O pico é no Ano-Novo, no Natal ortodoxo e nas férias escolares sérvias (fim de janeiro – fevereiro), além dos fins de semana; nos dias úteis de março fica vazio",
+   "region": "Parque Nacional Kopaonik, sul da Sérvia central",
+   "season": "início de dezembro – início de abril",
+   "transfer": "Niš ~2–2,5 h (≈110 km), Belgrado ~4 h (≈280 km; de ônibus ~5 h)",
+   "pros": [
+    "Entrada sem visto para cidadãos russos, há instrutores que falam russo",
+    "Hotéis ski-in/ski-out num centro compacto",
+    "Barato para os padrões europeus",
+    "Esqui noturno, après-ski animado"
+   ],
+   "cons": [
+    "Montanhas baixas (até 2017 m) — a neve depende do inverno e da neve artificial",
+    "Poucas pistas difíceis",
+    "Longe de Belgrado, transporte público inconveniente",
+    "Movimentado nos feriados e nas férias escolares"
+   ],
+   "airport": "INI — Niš, ~2 h",
+   "lift_pass_note": "1 dia, adulto: 5 600–6 500 RSD conforme o período da temporada (alta temporada — valor máximo); skiresort.com — 5 900 RSD ≈ 50 €"
+  },
+  "abzakovo": {
+   "h": "cadc79132c",
+   "description": "Estação popular dos Urais, no Bashkortostan, junto a Novoabzakovo: 13 pistas com cerca de 15 km no total nas encostas do monte Shaitan, neve artificial e iluminação noturna. Boa para esquiar em família e para fins de semana a partir de Magnitogorsk, Chelyabinsk e Ufa; a 25 km fica a estação de Bannoe (“Metallurg-Magnitogorsk”), no lago Bannoe, com gôndola e desnível de 450 m.",
+   "rating_basis": "Uma das principais estações dos Urais: 13 pistas (15 km), neve artificial, esqui noturno; teste do skiresort.info — 2,8 de 5. A vizinha Bannoe (“Metallurg-Magnitogorsk”, 25 km) — desnível de 450 m, gôndola Doppelmayr, mas só algumas pistas",
+   "hazards": "Frio intenso (−20…−30 °C) e vento de dezembro a fevereiro, pistas congeladas nos degelos; praticamente não há risco de avalanche",
+   "crowd_note": "Filas na cadeirinha “Kometa” nos fins de semana e nas férias de Ano-Novo; nos dias úteis fica vazio",
+   "region": "Distrito de Beloretsk, Bashkortostan, Urais do Sul (perto de Magnitogorsk)",
+   "season": "fim de novembro – meados de abril; em anos bons, do início de novembro ao início de maio",
+   "transfer": "Magnitogorsk ~60 km, ~1 h (ônibus/trem suburbano até Novoabzakovo, depois 3 km); aeroporto de Magnitogorsk ~1 h; Ufa ~5 h, Chelyabinsk ~4,5–5 h",
+   "pros": [
+    "Neve artificial — temporada estável desde novembro",
+    "Esqui noturno em pistas iluminadas",
+    "Boa para iniciantes e famílias",
+    "Uma segunda estação ao lado — Bannoe"
+   ],
+   "cons": [
+    "Desnível pequeno (~300–370 m) e poucas pistas difíceis",
+    "Frio intenso e vento em janeiro",
+    "Teleféricos em sua maioria T-bars",
+    "Longe dos grandes aeroportos"
+   ],
+   "airport": "MQF — Magnitogorsk, ~1 h",
+   "lift_pass_note": "1 dia, dias úteis — 3400 ₽ (mais caro nos fins de semana); em 2024/25, a partir de 3000 ₽ nos dias úteis e a partir de 3400 ₽ nos fins de semana, válido também no “Metallurg”; 2 horas — a partir de 1600 ₽"
+  },
+  "arkhyz": {
+   "h": "9933093fca",
+   "description": "Nova estação para o ano todo no Cáucaso do Norte, com a vila de Romantik junto às estações inferiores: cerca de 27 km de pistas nas encostas sul e norte, gôndolas modernas e cadeirinhas com capota, e o mirante “Orbita” a 3030 m. Ótima opção para iniciantes e famílias, com esqui noturno e possibilidade de heliski.",
+   "rating_basis": "Estação moderna com gôndolas e cadeirinhas novas, pistas largas e suaves e bom serviço; teste do skiresort.info — 3,3 de 5; heliski com a EA Heli Skiing (janeiro – março)",
+   "hazards": "Risco de avalanche fora das pistas, gelo e nevascas na estrada de montanha, sol forte na altitude; é proibido entrar nas áreas fechadas",
+   "crowd_note": "Nas férias de Ano-Novo e nos fins de semana de fevereiro há filas no “Mlechny Put” e nas locadoras de equipamento; nos dias úteis fica vazio",
+   "region": "Distrito de Zelenchuksky, Karachay-Cherkessia, Cáucaso Ocidental",
+   "season": "fim de novembro/início de dezembro – início de abril",
+   "transfer": "Mineralnye Vody ~210–220 km, 3–4,5 h (ônibus, transfer ou táxi via Cherkessk)",
+   "pros": [
+    "Teleféricos modernos, pistas largas e bem preparadas",
+    "Ótima para iniciantes e famílias",
+    "Esqui noturno e snowpark na Encosta Sul",
+    "Heliski nos arredores (janeiro – março)",
+    "Preços mais baixos que em Sochi"
+   ],
+   "cons": [
+    "Área esquiável pequena, poucas pistas difíceis",
+    "Neve instável no início da temporada (em 2025/26 a abertura foi adiada para dezembro)",
+    "Vida noturna modesta em Romantik",
+    "Viagem longa a partir de Mineralnye Vody"
+   ],
+   "airport": "MRV — Mineralnye Vody, ~3,5 h",
+   "lift_pass_note": "1 dia, adulto: ~2550 ₽ no início da temporada e na primavera, ~3250 ₽ na alta temporada, até 4050 ₽ no Ano-Novo e nas datas de pico de fevereiro–março (preços de 2024/25; tarifas de 2025/26 em resort-arkhyz.ru); esqui noturno ~1600–1950 ₽"
+  },
+  "dombay": {
+   "h": "dd5d1d17b0",
+   "description": "Estação clássica de Karachay-Cherkessia, na reserva de Teberda, ao pé do Dombai-Ulgen. Um novo complexo de gôndolas e cadeirinhas sobe até 3168 m na encosta do Mussa-Achitara, e ao lado funcionam cadeirinhas antigas e um teleférico de vaivém. Cerca de 20–25 km de pistas e grandes encostas de freeride, com vista para a cordilheira principal do Cáucaso.",
+   "rating_basis": "Lendária estação soviética, com vistas belíssimas do Dombai-Ulgen e bom freeride; teste do skiresort.info — 3,0 de 5; as avaliações criticam os teleféricos dispersos, de donos diferentes, e o controle fraco das áreas com risco de avalanche",
+   "hazards": "Alto risco de avalanche fora das pistas, áreas perigosas mal sinalizadas; vento e frio intenso nas cadeirinhas de cima, abertas; a estrada Teberda – Dombai fecha periodicamente por causa de avalanches e nevascas",
+   "crowd_note": "As pistas ficam bem cheias na alta temporada, principalmente por volta dos 2500 m; filas para a nova gôndola nos feriados",
+   "region": "Karachay-Cherkessia, Parque Nacional de Teberda, Cáucaso Ocidental",
+   "season": "dezembro – fim de abril; em anos de muita neve, os teleféricos de cima (~3000 m) funcionam até o início de maio",
+   "transfer": "Mineralnye Vody ~210–225 km, 3–3,5 h de carro via Cherkessk e Teberda (transfer a partir de ~7500 ₽ por carro); ônibus até Teberda + táxi ~30 min",
+   "pros": [
+    "Uma das estações mais pitorescas da Rússia",
+    "Bom freeride nas encostas norte do Mussa-Achitara",
+    "Desnível de mais de 1500 m, esqui até ~3150 m",
+    "Hospedagem a preços acessíveis"
+   ],
+   "cons": [
+    "Teleféricos de donos diferentes — bilhetes diferentes",
+    "Cadeirinhas de cima sem capota, frio e vento",
+    "Sem neve artificial, pouco serviço",
+    "Transfer longo a partir de Mineralnye Vody, risco de a estrada fechar por avalanches"
+   ],
+   "airport": "MRV — Mineralnye Vody, ~3–3,5 h",
+   "lift_pass_note": "1 dia, adulto, novo complexo “Dombai-1/2/3”: 4400 ₽ nos feriados de Ano-Novo e de 1º de fevereiro a 15 de março, 3400 ₽ de 12 a 31 de janeiro e na segunda quinzena de março (segundo uma avaliação do howtrip); outras fontes indicam 2400–2900 ₽; as cadeirinhas antigas e o teleférico de vaivém têm bilhetes separados"
+  },
+  "elbrus-azau": {
+   "h": "73f62eacb0",
+   "description": "As encostas da montanha mais alta da Europa: os teleféricos sobem da clareira de Azau (2350 m), passando por Krugozor e Mir, até Gara-Bashi (3847 m), e acima disso snowcats levam até as rochas de Pastukhov. A 3 km fica o lendário Cheget, com encostas íngremes de neve virgem e vista para o Elbrus. Região para avançados: altitude, vento e muito freeride.",
+   "rating_basis": "A área de esqui mais alta da Europa (até 3847 m) e, junto com o Cheget, a principal região de freeride da Rússia; teste do skiresort.info — 3,2 (Elbrus) e 2,9 (Cheget) de 5 — a infraestrutura fica atrás de Sochi",
+   "hazards": "Mal de altitude e congelamento acima de 3500 m, vento forte e whiteout, fendas na geleira fora das pistas, alto risco de avalanche no Cheget (encosta norte só com guia); no desfiladeiro do Baksan, risco de avalanches atingirem a estrada",
+   "crowd_note": "Filas na gôndola de baixo em Azau nos feriados de Ano-Novo e de março; no Cheget, nas cadeirinhas antigas nos fins de semana",
+   "region": "Prielbrusye (Terskol, Azau), Kabardino-Balkaria, Cáucaso Central",
+   "season": "fim de novembro – maio; as encostas de cima junto à estação Gara-Bashi (3800 m+) — até junho",
+   "transfer": "Aeroporto de Nalchik ~120 km, ~2–2,5 h; Mineralnye Vody ~180 km, ~3–3,5 h (ônibus até Terskol via Nalchik, depois táxi de 10 min)",
+   "pros": [
+    "A área de esqui mais alta da Europa — neve até maio–junho",
+    "Freeride e esqui de travessia de nível mundial (Cheget, geleiras do Elbrus)",
+    "Ski passes baratos para o Cáucaso",
+    "Vistas do Elbrus e da cordilheira principal do Cáucaso"
+   ],
+   "cons": [
+    "Poucas pistas para iniciantes, condições duras na altitude",
+    "Os estágios de cima fecham com frequência por causa do vento",
+    "Teleféricos antigos no Cheget, infraestrutura modesta",
+    "Viagem longa a partir do aeroporto, pouca vida noturna"
+   ],
+   "airport": "NAL — Nalchik, ~2–2,5 h; MRV — Mineralnye Vody, ~3–3,5 h",
+   "lift_pass_note": "1 dia, adulto, teleféricos “Elbrus” (Azau – Gara-Bashi) — 3780 ₽, inclui a entrada no parque nacional “Prielbrusye”; passe diário do Cheget — a partir de ~1700 ₽ (passe separado)"
+  },
+  "gazprom-polyana": {
+   "h": "97f0296f57",
+   "description": "A estação de montanha da Gazprom em Esto-Sadok tem duas áreas: “Laura” — pistas largas e suaves com esqui noturno, ideal para famílias e iniciantes — e “Alpika” — descidas vermelhas e pretas a partir do cume de 2256 m. As áreas são ligadas por um teleférico 3S, e na base ficam os hotéis “Polyana 1389” e “Grand Hotel Polyana”.",
+   "rating_basis": "Teste do skiresort.info — 3,2 de 5; as pistas largas e bem preparadas da “Laura”, com iluminação noturna, são elogiadas por famílias e iniciantes; a “Alpika” tem pistas vermelhas e pretas com mais de 1 km de desnível; o freeride é oficialmente proibido",
+   "hazards": "Encostas com risco de avalanche fora das pistas na “Alpika” (sair das pistas é proibido), neblina e vento no alto, degelos e neve úmida embaixo nos períodos úmidos",
+   "crowd_note": "Normalmente mais vazia que Rosa Khutor (ski passes vendidos a partir de 2 dias, muitos hóspedes dos próprios hotéis); filas na gôndola “Laura” nos feriados",
+   "region": "Krasnaya Polyana (Esto-Sadok), Sochi, Krai de Krasnodar, cordilheira Psekhako",
+   "season": "meados de dezembro – março (Laura); Alpika — até o início/meados de abril",
+   "transfer": "Aeroporto de Sochi (Adler): de carro ~50 min (48 km), trem “Lastochka” até as estações “Esto-Sadok”/“Gorki Gorod” 30–60 min, ônibus 105, 105s, 535",
+   "pros": [
+    "Ótimas pistas largas para iniciantes e famílias",
+    "Esqui noturno na “Laura”",
+    "Menos gente que em Rosa Khutor",
+    "Complexo olímpico “Laura” — esqui cross-country"
+   ],
+   "cons": [
+    "Ski passes vendidos principalmente a partir de 2 dias",
+    "Freeride oficialmente proibido",
+    "A “Laura” já fecha em março",
+    "Pouco movimento de après-ski nas próprias áreas"
+   ],
+   "airport": "AER — Sochi (Adler), ~50 min",
+   "lift_pass_note": "Ski passes de um dia quase nunca estão à venda: 2 dias — a partir de 8500 ₽ (≈4250 ₽/dia), 3 dias — a partir de 9700 ₽; antes, o diário custava 4100 ₽; ski pass conjunto com Rosa Khutor e Krasnaya Polyana — a partir de 4800 ₽"
+  },
+  "kamchatka-moroznaya-heliski": {
+   "h": "ae8503641e",
+   "description": "Kamchatka é um dos melhores lugares do mundo para heliski: descidas dos vulcões Avachinsky, Koryaksky, Vilyuchinsky e Mutnovsky até o oceano, desníveis enormes e neve até o verão. O esqui com teleférico é modesto: Moroznaya, em Yelizovo (cadeirinha e T-bar, desnível de ~500 m, neve artificial e iluminação), Edelweiss, Krasnaya Sopka e Kirpichiki, em Petropavlovsk.",
+   "rating_basis": "Avaliação como destino de heliski: descidas pelas encostas de vulcões ativos com até 2000 m de desnível, 7–10 mil m por dia, neve até junho (Powderhounds, tours da Explore-Share); as bases de esqui em si são pequenas — teste do skiresort.info 2,9 (Moroznaya) e 2,3 (Edelweiss)",
+   "hazards": "Vulcões ativos (emissões de gás e cinzas), ciclones fortes, nevascas e tempo sem condições de voo, alto risco de avalanche e placas de vento, fendas nas geleiras; ursos na primavera; em fevereiro–março, nevadas abundantes e tempestades de neve fecham as encostas",
+   "crowd_note": "Praticamente não há filas, exceto nos fins de semana nas pistas urbanas; heliski em grupos pequenos",
+   "region": "Yelizovo e Petropavlovsk-Kamchatsky, Krai de Kamchatka, Extremo Oriente russo",
+   "season": "pistas — dezembro – abril; heliski nos vulcões — março – maio (em alguns lugares até junho)",
+   "transfer": "Aeroporto de Petropavlovsk-Kamchatsky (Yelizovo) — Moroznaya fica a poucos minutos de táxi; até Petropavlovsk ~37 km, 40–50 min; o heliski parte de helipontos perto de Yelizovo/Paratunka",
+   "pros": [
+    "Heliski de nível mundial nas encostas de vulcões ativos",
+    "Desníveis de até 2000 m e 7–10 mil m por dia",
+    "Temporada de neve muito longa — até maio–junho",
+    "Sem multidões, natureza selvagem, fontes termais de Paratunka"
+   ],
+   "cons": [
+    "As bases com teleférico são pequenas e antiquadas",
+    "Heliski e voo muito caros (~9 h a partir de Moscou)",
+    "Dias frequentes sem condições de voo por causa do tempo",
+    "Infraestrutura fraca e pouco serviço"
+   ],
+   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~10 min"
+  },
+  "kirovsk-bolshoy-vudyavr": {
+   "h": "76fc2a268e",
+   "description": "A principal estação acima do Círculo Polar Ártico, nos montes Khibiny, acima de Kirovsk: cerca de 27–30 km de pistas nas encostas do Aikuaivenchorr, gôndolas e cadeirinhas, 18 km de pistas iluminadas para esquiar na noite polar e sob a aurora boreal. A temporada é a mais longa da Rússia — de novembro ao fim de maio; ao lado ficam o Kukisvumchorr e o freeride dos couloirs dos Khibiny.",
+   "rating_basis": "A temporada de esqui mais longa da Rússia (em 2025/26 — 194 dias, ~472 mil visitantes) e esqui sob a aurora boreal; teste do skiresort.info — 3,0 de 5; pontos negativos — vento, neblina e noite polar em dezembro",
+   "hazards": "Vento forte, nevascas e whiteout no cume, entradas de ar ártico (frio repentino e intenso), alto risco de avalanche nos couloirs dos Khibiny — fora das pistas, só com guia local",
+   "crowd_note": "O pico de movimento é nos feriados de março e na primavera (março – maio), quando vem gente de São Petersburgo e Moscou; filas na gôndola K6 nos fins de semana",
+   "region": "Kirovsk, oblast de Murmansk, montes Khibiny, península de Kola (acima do Círculo Polar Ártico)",
+   "season": "meados/fim de novembro – fim de maio (temporada 2025/26: 19 de novembro – 31 de maio, 194 dias)",
+   "transfer": "Aeroporto “Khibiny” (Apatity) — táxi ~30 min, ônibus nº 130 40–60 min; Murmansk ~210 km, 2,5–3 h de carro; trem até Apatity (de Moscou ~1 dia e 8 h) + 30–40 min de ônibus",
+   "pros": [
+    "Temporada de novembro ao fim de maio — na primavera, muito sol e neve",
+    "Esqui sob a aurora boreal, pistas iluminadas",
+    "Freeride e esqui de travessia nos couloirs dos Khibiny",
+    "Fácil de chegar: aeroporto “Khibiny” a 30 min"
+   ],
+   "cons": [
+    "Noite polar em dezembro, dias curtos",
+    "Vento forte e neblina fecham os teleféricos de cima",
+    "Desnível pequeno (~670 m)",
+    "Pouca escolha de restaurantes e entretenimento"
+   ],
+   "airport": "KVK — Khibiny (Apatity), ~30 min",
+   "lift_pass_note": "1 dia, adulto: 2610 ₽ na alta temporada, a partir de 3420 ₽ nas datas de pico (Ano-Novo, março – maio); 4 horas — a partir de 1930 ₽"
+  },
+  "krasnaya-polyana-resort": {
+   "h": "d1c7fb0b6b",
+   "description": "A antiga “Gornaya Karusel”, na encosta norte da cordilheira Aibga, com a estação inferior dentro da vila de Gorki Gorod. Cerca de 30 km de pistas com desnível de ~1300 m, oito áreas de freeride sob a Chernaya Piramida e nos circos glaciais, dois snowparks e esqui noturno; nas estações de cima, a temporada muitas vezes vai até maio.",
+   "rating_basis": "Teste do skiresort.info — 3,2 de 5; valorizada pelas 8 áreas de freeride (Chernaya Piramida, Tsirk-2), dois snowparks, esqui noturno e a vila de Gorki Gorod junto à estação inferior",
+   "hazards": "Sério risco de avalanche nas áreas de freeride e nos circos depois de nevadas, vento forte e neblina nas estações de cima; sair das pistas só com guia e equipamento",
+   "crowd_note": "Filas nas gôndolas K-1/K-2 nas férias de Ano-Novo e nos fins de semana; nos dias úteis é bem mais vazia que Rosa Khutor",
+   "region": "Esto-Sadok, Sochi, Krai de Krasnodar, cordilheira Aibga",
+   "season": "fim de dezembro – início de maio (depois dos feriados de maio); o circo superior às vezes funciona por mais tempo",
+   "transfer": "Aeroporto de Sochi (Adler) ~45 km: de carro ~50 min, trem “Lastochka” até a estação “Gorki Gorod” (Esto-Sadok) — a partir de 30 min",
+   "pros": [
+    "A melhor área de freeride de Krasnaya Polyana (8 áreas, circos íngremes)",
+    "Temporada longa no alto — até maio",
+    "Esqui noturno, dois snowparks",
+    "A gôndola sai junto à estação do “Lastochka” e ao shopping Gorki Gorod"
+   ],
+   "cons": [
+    "Poucas pistas suaves para iniciantes",
+    "Os teleféricos de cima fecham com frequência por vento e neblina",
+    "Abertura tardia da temporada em anos de pouca neve (em 2025/26 — 26 de dezembro)"
+   ],
+   "airport": "AER — Sochi (Adler), ~50 min",
+   "lift_pass_note": "1 dia, adulto: 3900 ₽ até 28 de dezembro e em abril–maio, 5250 ₽ nas datas de Ano-Novo, 28.12–11.01; noturno — 2100/3200 ₽; crianças até 6 anos — 1 ₽"
+  },
+  "manzherok": {
+   "h": "7777a02438",
+   "description": "Estação moderna nas encostas do monte Malaya Sinyukha, junto à rodovia Chuysky Trakt, na República de Altai: cerca de 50 km de pistas, gôndola e cadeirinhas rápidas, desnível de ~850 m e a pista verde mais longa, a “Argut” (~5,5 km). Voltada para famílias e iniciantes, com snowpark, esqui noturno e cinco espaços de après-ski. A vizinha Belokurikha (Krai de Altai) é uma estação-sanatório de menor porte.",
+   "rating_basis": "Nova estação do Sber para o ano todo, com ~50 km de pistas e gôndola — a maior da Sibéria em extensão de pistas; teste do skiresort.info — 3,4 de 5; quase sem freeride",
+   "hazards": "Frio intenso em dezembro – janeiro, vento no cume do Sinyukha; fora das pistas, floresta e encostas íngremes, risco de avalanche baixo",
+   "crowd_note": "Movimentado nos feriados de Ano-Novo e nos fins de semana (fica perto de Barnaul e Novosibirsk); nos dias úteis fica vazio",
+   "region": "Distrito de Maima, República de Altai, monte Malaya Sinyukha",
+   "season": "fim de novembro/dezembro – fim de março a meados de abril (em 2025/26, abertura parcial em 16 de novembro)",
+   "transfer": "Aeroporto de Gorno-Altaysk 30–40 min pela Chuysky Trakt; Barnaul ~4 h, Novosibirsk ~6–7 h de carro",
+   "pros": [
+    "~50 km de pistas — uma das maiores estações da Sibéria",
+    "Teleféricos novos, pistas largas para iniciantes",
+    "Crianças até 10 anos esquiam de graça",
+    "Aeroporto de Gorno-Altaysk a 40 minutos"
+   ],
+   "cons": [
+    "Montanha baixa: poucas pistas difíceis e quase sem freeride",
+    "Neve instável embaixo no início da temporada",
+    "Frio intenso em janeiro",
+    "A temporada já termina no início ou meados de abril"
+   ],
+   "airport": "RGK — Gorno-Altaysk, ~40 min",
+   "lift_pass_note": "1 dia, adulto — 2800–3000 ₽ (segundo diferentes fontes), crianças até 10 anos — grátis; noturno — 1700 ₽, dia + noite — 3600 ₽"
+  },
+  "rosa-khutor": {
+   "h": "c6c13c82a1",
+   "description": "A principal estação de esqui da Rússia e montanha olímpica de 2014, na cordilheira Aibga: cerca de 100 km de pistas, desnível de mais de 1500 m, gôndolas modernas e a grande vila-estação Rosa Dolina, às margens do rio Mzymta. Serve para todos — de iniciantes na encosta sul a freeriders nos circos do norte.",
+   "rating_basis": "A maior e mais visitada estação da Rússia (≈100 km de pistas, instalações olímpicas de 2014); teste do skiresort.info — 3,6 de 5, 4 de 5 para avançados/freeride — a melhor do sul da Rússia",
+   "hazards": "Alto risco de avalanche fora das pistas depois de nevadas (muita precipitação vinda do mar Negro), neblina e fechamento dos teleféricos de cima por causa do vento; freeride só com guia e equipamento de avalanche",
+   "crowd_note": "Muito cheio nos feriados de Ano-Novo e nos fins de semana de fevereiro: filas nas gôndolas de baixo e no planalto Rosa; nos dias úteis de janeiro e março é mais tranquilo",
+   "region": "Krasnaya Polyana, Sochi, Krai de Krasnodar, Cáucaso Ocidental",
+   "season": "meados de dezembro – meados/fim de abril (os teleféricos funcionam desde o início de dezembro)",
+   "transfer": "Aeroporto de Sochi (Adler) ~50 km: de carro/táxi ~50–60 min, trem “Lastochka” até a estação “Rosa Khutor” ~1 h, ônibus 105/535 ~1,5 h",
+   "pros": [
+    "A maior área esquiável da Rússia, desnível de ~1,5 km",
+    "Gôndolas e cadeirinhas modernas, produção de neve potente (400+ canhões)",
+    "Parque radical olímpico, vários snowparks",
+    "Descidas de freeride nos circos do norte da cordilheira Aibga",
+    "Infraestrutura desenvolvida, hotéis e restaurantes na vila, trem direto do aeroporto"
+   ],
+   "cons": [
+    "Ski passes e hospedagem caros para os padrões russos",
+    "Filas nos feriados e fins de semana",
+    "Clima marítimo úmido: degelos, neblina, neve pesada embaixo",
+    "As pistas de baixo amolecem rápido na primavera"
+   ],
+   "airport": "AER — Sochi (Adler), ~1 h",
+   "lift_pass_note": "1 dia, adulto, só Rosa Khutor — 6350 ₽ (segundo o ski.ru); preços dinâmicos: na temporada 2024/25, 4850–6500 ₽ conforme as datas; passe conjunto para as estações de Krasnaya Polyana em 2025/26 — 5800–7700 ₽"
+  },
+  "sheregesh": {
+   "h": "4ecf7a828a",
+   "description": "A principal estação de esqui da Sibéria, no monte Zelyonaya, na Gornaya Shoria: vários setores (A, B, E, F) de operadoras diferentes, cerca de 40 km de pistas e mais de 20 teleféricos. Famosa pela enorme quantidade de powder seco, pelo freeride na floresta e pelas festas animadas, como o festival “Grelka”.",
+   "rating_basis": "A estação mais popular da Sibéria e a principal estação de powder da Rússia: neve seca de até 2–4 m, freeride na floresta e cat-ski; pontos negativos — várias operadoras com passes diferentes e frio intenso",
+   "hazards": "Frio intenso e vento no cume do Zelyonaya (congelamento), neblina e pouca visibilidade; nas áreas de freeride, encostas com risco de avalanche, árvores e riachos que não congelam nas ravinas; sair das pistas só com guia e transceptor",
+   "crowd_note": "Filas nos teleféricos centrais nos fins de semana, nas férias de Ano-Novo e no festival “Grelka”, em abril; nos dias úteis do fim de novembro e de março é mais tranquilo",
+   "region": "Distrito de Tashtagol, oblast de Kemerovo – Kuzbass, Gornaya Shoria",
+   "season": "fim de novembro – fim de abril (freeride na neve virgem mais ou menos a partir de meados de dezembro)",
+   "transfer": "Aeroporto de Novokuznetsk (Spichenkovo) ~160 km, 2,5–3 h de transfer (micro-ônibus ~7000 ₽ por veículo); aeroporto de Kemerovo ~400 km, ~5–6 h",
+   "pros": [
+    "Muita neve seca — o melhor powder da Rússia",
+    "Ótimo freeride na floresta e cat-ski",
+    "Temporada longa, do fim de novembro ao fim de abril",
+    "Esqui noturno, snowpark no setor E",
+    "Clima de festa, festival de primavera “Grelka”"
+   ],
+   "cons": [
+    "Frio intenso em dezembro–janeiro (até −30…−35 °C)",
+    "Fragmentação: operadoras e passes diferentes, o conjunto é mais caro",
+    "Desnível pequeno (~700 m)",
+    "Longe — voo até Novokuznetsk e 3 h de estrada"
+   ],
+   "airport": "NOZ — Novokuznetsk, ~2,5–3 h",
+   "lift_pass_note": "1 dia, adulto, ski pass conjunto “Edinyi” para 19 teleféricos de operadoras diferentes — 4250 ₽; os passes de setores individuais são mais baratos (“Kaskad” — 3200 ₽, “Setor E” — 3100 ₽), noturno — 1700 ₽"
+  },
+  "sobolinaya-baikalsk": {
+   "h": "54bada7f1e",
+   "description": "Estação nas encostas do Khamar-Daban, acima de Baikalsk, com vista para o lago Baikal: 18 pistas com cerca de 15 km no total, desnível de ~480 m, uma cadeirinha e T-bars. Famosa pela neve seca abundante, pelas descidas íngremes não preparadas (“Prezidentskaya”, “Mogul”) e pelo esqui na floresta.",
+   "rating_basis": "A principal estação da região do Baikal: o Khamar-Daban com muita neve, pistas íngremes e de floresta não preparadas com vista para o Baikal; teste do skiresort.info — 2,7 de 5; infraestrutura antiga",
+   "hazards": "Frio abaixo de −20 °C em janeiro, gelo de manhã e neve amolecida na primavera, pouca visibilidade; risco de avalanche nas encostas não preparadas depois de nevadas; o gelo do Baikal é perigoso fora de rotas verificadas",
+   "crowd_note": "Movimentado nos feriados de Ano-Novo e nos fins de semana (hóspedes de Irkutsk); nos dias úteis as pistas ficam quase vazias",
+   "region": "Baikalsk, oblast de Irkutsk, cordilheira Khamar-Daban, margem sul do Baikal",
+   "season": "meados de dezembro – segunda quinzena de abril (2025/26: 13 de dezembro – 25 de abril)",
+   "transfer": "Irkutsk ~140 km: de carro ~2–2,5 h, ônibus e trem ~4 h até Baikalsk, depois táxi",
+   "pros": [
+    "Muita neve — o Khamar-Daban é um dos lugares com mais neve da Sibéria",
+    "Vista para o Baikal do cume",
+    "Pistas íngremes e de floresta para avançados",
+    "Ski pass barato"
+   ],
+   "cons": [
+    "Teleféricos antiquados (principalmente T-bars)",
+    "Frio intenso em janeiro",
+    "Infraestrutura e vida noturna modestas",
+    "Longe de Irkutsk"
+   ],
+   "airport": "IKT — Irkutsk, ~2,5 h",
+   "lift_pass_note": "1 dia (10:00–17:00), adulto: dias úteis — 1800 ₽, fins de semana — 2700 ₽; nos feriados é mais caro; o skiresort.info indica 3600 ₽ (sem especificar a temporada)"
+  },
+  "are": {
+   "h": "3cb39a0293",
+   "description": "A maior e mais famosa estação de esqui da Escandinávia, nas encostas do Åreskutan: cerca de 90 km de pistas, desnível de quase 1000 m e várias áreas interligadas (Åre By, Tegefjäll, Duved, Björnen). Estação da Copa do Mundo, com uma vila animada bem ao lado da estação de trem e o melhor après-ski da Suécia. Na primavera, dias longos e ensolarados e neve profunda.",
+   "rating_basis": "Teste do skiresort.com — 4,2/5 (“Outstanding”): neve, famílias, iniciantes, snowpark, après-ski; a maior estação da Escandinávia, etapas da Copa do Mundo e campeonatos mundiais de esqui alpino",
+   "hazards": "Vento forte e frio intenso no cume do Åreskutan (os teleféricos de cima fecham com frequência), whiteout e pouca visibilidade acima da linha das árvores, risco de avalanche fora das pistas (Ullådalen, couloirs do Åreskutan), congelamento em janeiro.",
+   "crowd_note": "O pico é no sportlov, as férias esportivas suecas (fevereiro, semanas 7–10), e na Páscoa: filas no Kabinbanan e no VM8:an; em janeiro e nos dias úteis de março fica vazio",
+   "region": "Jämtland, centro da Suécia",
+   "season": "fim de novembro / início de dezembro – início de maio (melhor de fevereiro a abril)",
+   "transfer": "Östersund ~1 h (100 km), Trondheim (Noruega) ~2–2,5 h, trem direto de Estocolmo ~6–7 h até a estação no centro de Åre",
+   "pros": [
+    "A maior área e o maior desnível da Escandinávia",
+    "Temporada longa até o início de maio, ótima neve de primavera",
+    "Après-ski animado, vila com estação de trem junto aos teleféricos",
+    "Boas condições para famílias, esqui noturno"
+   ],
+   "cons": [
+    "Caro: hospedagem, comida, ski pass",
+    "Dias curtos e frio intenso em dezembro–janeiro",
+    "A parte de cima fecha com frequência por causa do vento",
+    "Poucas pistas pretas"
+   ],
+   "airport": "OSD — Östersund, ~1 h",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 801 SEK (≈72 €) segundo o skiresort.com; a SkiStar usa preços dinâmicos, na temporada 2024/25 — 755 SEK"
+  },
+  "jasna": {
+   "h": "911bcbb27d",
+   "description": "A maior estação de esqui da Eslováquia, nas duas encostas do monte Chopok (2004 m): o lado norte, Jasná, com pistas íngremes, e o lado sul, Chopok Juh, ligados por gôndolas. O melhor freeride e snowpark da região, teleféricos modernos, desnível de mais de 1000 m. Alternativa aos Alpes com preços mais baixos, mas a vida noturna fica principalmente nos hotéis.",
+   "rating_basis": "Teste do skiresort.com — 4,0/5 (“Very good”): freeride, restaurantes, pistas, teleféricos, neve; a maior estação da Eslováquia e do Leste Europeu fora dos Alpes, etapas do Freeride World Qualifier",
+   "hazards": "Vento forte na crista do Chopok (as gôndolas de cima fecham com frequência), neblina e gelo, risco de avalanche fora das pistas nos couloirs e em Chopok Juh; o serviço de resgate de montanha HZS exige respeitar as regras das áreas de freeride.",
+   "crowd_note": "Movimentado nos fins de semana e nas férias escolares tchecas, polonesas e húngaras (fevereiro); nos dias úteis fica vazio",
+   "region": "Vale Demänovská dolina, Liptov, Baixos Tatras",
+   "season": "início de dezembro – fim de abril (no Chopok, às vezes até 1º de maio)",
+   "transfer": "Poprad-Tatry ~1–1,25 h (≈60 km), Košice ~2 h, Cracóvia ~3 h, Bratislava ~3,5 h, Viena ~4 h; a estação ferroviária mais próxima é Liptovský Mikuláš (≈15 km, ski bus)",
+   "pros": [
+    "O melhor freeride e terreno da Europa Central fora dos Alpes",
+    "Gôndolas modernas, lados norte e sul da montanha",
+    "Boa produção de neve, temporada até o fim de abril",
+    "Preços mais baixos que nos Alpes"
+   ],
+   "cons": [
+    "Cume baixo (2004 m) — a parte de cima fica muitas vezes no vento e na neblina",
+    "Ski pass na bilheteria quase a preço alpino",
+    "Après-ski principalmente nos hotéis",
+    "Engarrafamentos e filas nos fins de semana"
+   ],
+   "airport": "TAT — Poprad, ~1 h (KRK — Cracóvia, ~3 h)",
+   "lift_pass_note": "1 dia, adulto, temporada principal — 71 € (bilheteria); comprando online com antecedência pelo GOPASS sai bem mais barato, preços dinâmicos"
+  },
+  "erciyes": {
+   "h": "841cef72bf",
+   "description": "A principal estação de esqui da Turquia, nas encostas do vulcão extinto Erciyes: encostas largas sem árvores com desnível de cerca de 1250 m, teleféricos novos e quatro entradas (Tekir, Hisarcık, Develi, Hacılar). Neve seca, muito sol e freeride fácil para quem está começando; a Capadócia fica perto. Segundo a estação, há mais de 100 km de pistas; o skiresort.com conta ~55 km. Alternativa no leste da Turquia: Palandöken (Erzurum) — 43 km de pistas até 3140 m, ainda mais seco e frio.",
+   "rating_basis": "Teste do skiresort.com — 3,5/5 (“Very good”); a maior e mais moderna estação da Turquia (>3 milhões de visitantes por temporada), encostas de um vulcão extinto até 3346 m",
+   "hazards": "Vento forte e nevascas nas encostas abertas do vulcão (fechamento dos teleféricos de cima), altitude acima de 3000 m, sol forte, neve dura depois do vento; o risco de avalanche em geral é baixo, mas existe fora das pistas e nos couloirs abaixo do cume.",
+   "crowd_note": "Muito cheio nas férias escolares de inverno turcas (sömestr, fim de janeiro – início de fevereiro) e nos fins de semana — centenas de milhares de visitantes; nos dias úteis de dezembro e março fica vazio",
+   "region": "Kayseri, Anatólia Central (perto da Capadócia)",
+   "season": "início de dezembro – início de abril (em anos de muita neve, até o fim de abril)",
+   "transfer": "Kayseri ~30–40 min (≈25 km; táxi ~20 €), Capadócia (Nevşehir) ~1,5 h",
+   "pros": [
+    "Desnível de ~1250 m e altitude de até 3346 m",
+    "Neve seca e terreno amplo e aberto para freeride",
+    "Aeroporto a 30–40 minutos, Capadócia por perto",
+    "Barato, russos não precisam de visto"
+   ],
+   "cons": [
+    "Os instrutores falam principalmente turco e inglês, russo raramente",
+    "Multidões nas férias escolares turcas",
+    "Quase sem après-ski (álcool só nos hotéis)",
+    "Vento forte nas encostas sem árvores"
+   ],
+   "airport": "ASR — Kayseri, ~40 min",
+   "lift_pass_note": "Dia inteiro — 950 TL (≈25 €) na temporada 2024/25; em 2025/26 a estação também vende passes por número de subidas (1 subida — 90 TL), e nas entradas Hacılar e Hisarcık há 50% de desconto. Os preços em liras sobem rápido por causa da inflação"
+  },
+  "uludag": {
+   "h": "c9143d36b7",
+   "description": "A estação de esqui mais antiga e mais famosa da Turquia, acima de Bursa — o “Olimpo da Mísia”. Os hotéis ficam direto nas encostas, na zona de Oteller; as pistas são em geral curtas, e há algumas difíceis. Popular entre os moradores de Istambul nos fins de semana: hotéis barulhentos com vida noturna, mas filas e teleféricos de todo tipo.",
+   "rating_basis": "Teste do skiresort.com — 3,1/5 (“Good”): a grande estação mais próxima de Istambul, uma das maiores áreas da Turquia, mas os teleféricos são heterogêneos e as pistas, dispersas",
+   "hazards": "Neblina e nevascas (frequentes no Uludağ), vento forte, gelo nos degelos, engarrafamentos e gelo na estrada de montanha a partir de Bursa.",
+   "crowd_note": "Muito cheio nos fins de semana (moradores de Istambul) e nas férias escolares turcas (fim de janeiro – início de fevereiro); nos dias úteis é bem mais tranquilo",
+   "region": "Bursa, região de Mármara",
+   "season": "meados de dezembro – fim de março (depende da neve)",
+   "transfer": "Bursa ~1 h (≈35 km; ou o teleférico Teleferik de Bursa até Sarıalan + shuttle), Istambul ~3–3,5 h, aeroporto Bursa-Yenişehir ~1,5 h",
+   "pros": [
+    "Perto de Istambul e Bursa",
+    "Hotéis ski-in/ski-out na zona de Oteller",
+    "Vida noturna animada nos hotéis",
+    "Russos não precisam de visto"
+   ],
+   "cons": [
+    "Desnível pequeno (~540 m) e pistas curtas",
+    "Multidões nos fins de semana e nas férias",
+    "Neve instável em invernos quentes",
+    "Teleféricos de donos diferentes, infraestrutura antiquada"
+   ],
+   "airport": "SAW — Istambul (Sabiha Gökçen), ~3 h",
+   "lift_pass_note": "1 dia, adulto: bilheteria 1 500 TL, online 1 400 TL (≈30 €); os preços em liras sobem rápido por causa da inflação"
+  },
+  "jackson-hole": {
+   "h": "59499bd45d",
+   "description": "Lenda do freeride nas Montanhas Rochosas: desnível de ~1260 m, quase metade do terreno é de pistas pretas e duplo-pretas, couloirs (Corbet's Couloir), rochas e acesso por portões ao enorme backcountry dos Tetons; há heliski. A vila Teton Village fica na base, e a cidadezinha caubói de Jackson, com bares e restaurantes, a 20 km. Neve seca de clima continental, mas faz frio.",
+   "rating_basis": "skiresort.com — 4,2/5 (“Outstanding”); estação cult para experts — Corbet's Couloir, o teleférico Tram, muitas vezes nº 1 nos rankings da SKI Magazine em terreno difícil",
+   "hazards": "Risco de avalanche no backcountry dos Tetons (só com equipamento e guia), couloirs íngremes e rochas, frio intenso e vento no cume (3185 m), tree wells (poços de neve fofa ao redor das árvores)",
+   "crowd_note": "Fila longa no teleférico Tram nas manhãs de powder e nos feriados; nos outros teleféricos é tolerável",
+   "region": "Wyoming, cordilheira Teton (Montanhas Rochosas)",
+   "season": "fim de novembro / início de dezembro – início de abril",
+   "transfer": "Aeroporto de Jackson Hole (JAC) ~30–40 min; Idaho Falls (IDA) ~2,5 h; Salt Lake City (SLC) ~5 h",
+   "pros": [
+    "Um dos melhores terrenos extremos dos EUA",
+    "Acesso ao backcountry por portões, heliski",
+    "Neve seca e grande desnível",
+    "Clima de Velho Oeste e parques nacionais por perto"
+   ],
+   "cons": [
+    "Poucas pistas fáceis para iniciantes",
+    "Ski pass e hospedagem caros",
+    "Frio intenso e vento",
+    "Longe dos grandes hubs"
+   ],
+   "airport": "JAC — Jackson Hole, ~35 min",
+   "lift_pass_note": "1 dia, adulto — o preço depende da data: exemplo de preços de 2025/26 no meio da temporada — 225 $ nos dias úteis, 285 $ nos fins de semana; nas datas de pico, na bilheteria, é mais caro (skiresort.com — 304 $). Incluído no Ikon Pass"
+  },
+  "mammoth-mountain": {
+   "h": "5241e94b33",
+   "description": "A maior estação da Califórnia, nas encostas de um vulcão extinto: desnível de ~950 m, bowls abertos e couloirs junto ao cume de 3369 m e os famosos parks Unbound, com halfpipe. As tempestades do Pacífico trazem muita neve, por isso a temporada vai de novembro a junho e, em anos recordes, até o verão; na primavera, esquia-se de camiseta. Embaixo fica a cidade de Mammoth Lakes, com restaurantes, e uma vila com gôndola.",
+   "rating_basis": "skiresort.com — 4,4/5 (“Outstanding”); uma das temporadas mais longas e com mais neve dos EUA, os famosos parks Unbound",
+   "hazards": "Altitude de 2400–3400 m (mal de altitude), ventos com força de furacão junto ao cume, risco de avalanche nos couloirs depois de tempestades, gases vulcânicos em algumas depressões fora das pistas",
+   "crowd_note": "Nos fins de semana e feriados vêm muitos esquiadores de Los Angeles, com filas no Main Lodge; nos dias úteis e na primavera fica vazio",
+   "region": "Califórnia, leste da Sierra Nevada",
+   "season": "início/meados de novembro – início de junho (em anos de muita neve, até julho e até o início de agosto)",
+   "transfer": "Aeroporto local Mammoth Yosemite (MMH) ~15 min (poucos voos); Reno (RNO) ~3 h; Los Angeles ~5–6 h de carro",
+   "pros": [
+    "Temporada muito longa — esqui em maio–junho",
+    "Muita neve e dias de sol",
+    "Parks e halfpipe de nível mundial",
+    "Couloirs íngremes junto ao cume"
+   ],
+   "cons": [
+    "Neve pesada e úmida (“Sierra cement”) depois das tempestades",
+    "O vento forte fecha os teleféricos de cima",
+    "Multidões vindas de Los Angeles nos fins de semana",
+    "Longe dos grandes aeroportos"
+   ],
+   "airport": "RNO — Reno, ~3 h (MMH — Mammoth Lakes, ~15 min)",
+   "lift_pass_note": "1 dia, adulto — preço dinâmico: exemplo de preço online de 2025/26 no meio da temporada — 189 $; nos feriados e na bilheteria é mais caro (skiresort.com — 259 $). Incluído no Ikon Pass"
+  },
+  "vail": {
+   "h": "366b64c98b",
+   "description": "Uma das maiores e mais famosas estações dos EUA: cerca de 5300 acres (~2150 ha) esquiáveis, o lado frontal com pistas bem preparadas e os famosos Back Bowls e Blue Sky Basin — enormes bowls abertos e floresta para quem gosta de neve virgem. Vila em estilo tirolês com hotéis caros, restaurantes e après-ski barulhento. Neve seca e sol do Colorado, mas a base fica a ~2500 m.",
+   "rating_basis": "skiresort.com — 4,5/5 (“Outstanding”); carro-chefe da Vail Resorts, sempre no topo dos rankings da SKI Magazine; ~2150 ha esquiáveis",
+   "hazards": "Altitude (mal de altitude, desidratação), frio intenso em janeiro, risco de avalanche além dos limites da estação; fechamentos da rodovia I-70 em nevascas",
+   "crowd_note": "Nos feriados e fins de semana (moradores de Denver pela I-70) há filas nas gôndolas da vila e nos teleféricos dos Back Bowls; nos dias úteis de janeiro e do início de março é melhor",
+   "region": "Colorado, Montanhas Rochosas",
+   "season": "meados de novembro – meados de abril",
+   "transfer": "Eagle County (EGE) ~40 min; Denver (DEN) ~2–2,5 h pela I-70 (~190 km, mais tempo com neve)",
+   "pros": [
+    "Área enorme: Back Bowls e Blue Sky Basin",
+    "Neve seca e muitos dias de sol",
+    "Ótima infraestrutura e après-ski",
+    "Boa para todos os níveis"
+   ],
+   "cons": [
+    "Um dos ski passes mais caros do mundo (o Epic Pass compensa mais)",
+    "Multidões nos fins de semana e feriados",
+    "Altitude de 2500–3500 m — risco de mal de altitude",
+    "Pouco terreno realmente íngreme"
+   ],
+   "airport": "EGE — Eagle/Vail, ~40 min (DEN — Denver, ~2,5 h)",
+   "lift_pass_note": "1 dia, adulto — preço dinâmico: exemplo de preços online de 2025/26 — 307 $ nos dias úteis e 335 $ nos fins de semana; na bilheteria, nos feriados, é mais caro (skiresort.com — 356 $). Muito mais barato com Epic Pass / Epic Day Pass comprados com antecedência"
+  },
+  "amirsoy": {
+   "h": "ef0a3a0698",
+   "description": "Estação moderna nas montanhas de Chimgan, a uma hora e meia de Tashkent: gôndolas, neve artificial, cerca de 16 km de pistas com desnível de ~660 m e chalés de luxo junto à estação inferior. Ótima para iniciantes e famílias; para avançados, terreno fora de pista nas cristas, esqui de travessia e heliski barato nos arredores de Chimgan e Beldersay.",
+   "rating_basis": "A primeira estação moderna do Uzbequistão (aberta em 2019): gôndolas novas, neve artificial TechnoAlpin, hotéis-chalé; teste do skiresort.info — 3,1 de 5; pistas simples, mas com bom terreno fora de pista por perto e heliski barato em Chimgan (Powderhounds)",
+   "hazards": "Risco de avalanche nas encostas fora de pista de Chimgan depois de nevadas, aquecimento rápido e neve úmida na primavera, neblina; gelo na estrada a partir de Tashkent",
+   "crowd_note": "Nos fins de semana e feriados vem muita gente de Tashkent (inclusive pedestres na gôndola); nos dias úteis fica vazio",
+   "region": "Distrito de Bostanliq, região de Tashkent, Tian Shan Ocidental (montanhas de Chimgan)",
+   "season": "meados de dezembro – fim de março (com neve artificial, é possível desde o fim de novembro)",
+   "transfer": "Aeroporto de Tashkent ~65–80 km, ~1,5 h de carro/táxi",
+   "pros": [
+    "Gôndolas novas e neve artificial",
+    "Sem visto para russos, todo mundo entende russo",
+    "Ótima para iniciantes e famílias",
+    "Heliski barato e esqui de travessia em Chimgan, por perto"
+   ],
+   "cons": [
+    "Área esquiável pequena, sem pistas pretas",
+    "Temporada curta em encostas baixas — neve instável em dezembro e março",
+    "Hospedagem cara nos chalés, pouca vida noturna",
+    "Filas na gôndola nos fins de semana"
+   ],
+   "airport": "TAS — Tashkent, ~1,5 h",
+   "lift_pass_note": "1 dia (09:00–16:00), adulto: dias úteis — 320 000 sum, fins de semana (sex–dom e feriados) — 390 000 sum; meio dia — 240 000/290 000 sum; área de aprendizado — 190 000/250 000 sum"
   }
  }
 }
