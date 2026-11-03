@@ -2605,6 +2605,1546 @@
     "D'inverno (maggio–settembre) vento debole e freddo"
    ],
    "airport": "CPT — Città del Capo, ~1,5 h"
+  },
+  "bells-beach": {
+   "h": "db27383e87",
+   "description": "Bells Beach è la leggendaria destra su reef della Surf Coast, vicino a Melbourne, e sede della più antica gara professionistica del mondo. Le potenti pareti aperte dell'Oceano Australe (sezioni Rincon e Bowl) funzionano con swell da sud-ovest e offshore da nord-ovest; il periodo migliore è marzo–settembre. Acqua fredda (13–18 °C): d'inverno serve una muta 4/3–5/4.",
+   "rating_basis": "«La destra più iconica d'Australia» (The Surf Atlas): point su reef con le sezioni Rincon e Bowl, sede della più antica gara professionistica, il Rip Curl Pro Bells Beach (tappa del WSL CT, tradizionalmente a Pasqua). Surf-forecast segnala uno swell molto costante dall'autunno alla primavera",
+   "hazards": "Reef roccioso (arenaria), forti correnti sotto il break e verso Jan Juc con onde grandi, acqua fredda, set potenti con swell grande; nella regione ci sono squali (rischio basso)",
+   "crowd_note": "Quando funziona è affollato, soprattutto nel weekend (Melbourne è a 1,5 h); Winkipop è ancora più pieno e con una gerarchia più rigida; nei giorni feriali d'inverno c'è più spazio",
+   "region": "Victoria, Surf Coast (Torquay, inizio della Great Ocean Road), Stretto di Bass / Oceano Australe",
+   "area_breaks": "Nei dintorni: Rincon e Bowl (sezioni di Bells), Winkipop (lunga destra, per esperti), Jan Juc (beach break, tutti i livelli, correnti con onde grandi), Torquay Point e Torquay Surf Beach (scuole), Point Addis, Anglesea (spiagge per principianti)",
+   "beginner_months": "I principianti imparano sulle spiagge di Torquay (Torquay Surf Beach) e Jan Juc, oltre che ad Anglesea; d'estate (dicembre–febbraio) le onde sono più piccole e l'acqua più calda: il periodo più comodo per imparare",
+   "pros": [
+    "Point destro iconico con pareti potenti",
+    "Swell costante dall'Oceano Australe dall'autunno alla primavera",
+    "Vicino a Torquay, patria di Rip Curl e Quiksilver, con tutti i negozi",
+    "Molti break lungo la Great Ocean Road"
+   ],
+   "cons": [
+    "Acqua e aria fredde d'inverno",
+    "D'estate spesso onde piccole e onshore",
+    "Affollato nel weekend",
+    "Non per principianti"
+   ],
+   "airport": "AVV — Avalon, ~40 min; MEL — Melbourne, ~1,5 h",
+   "best_wind_dir": "NW–N (offshore)"
+  },
+  "byron-bay-the-pass": {
+   "h": "ac900eef7e",
+   "description": "Byron Bay è una cittadina del surf dall'atmosfera hippie, sul punto più orientale dell'Australia. The Pass è una destra lunga e morbida sotto Cape Byron, ideale per il longboard, e intorno alla baia ci sono spiagge e point per tutti i livelli. In estate e in autunno funzionano gli swell da est e quelli dei cicloni, d'inverno i grandi swell da sud-est sulle spiagge esposte.",
+   "rating_basis": "Point da longboard iconico dell'Australia: una destra lunga e morbida (150–200 m) sotto Cape Byron, con una decina di spiagge e point nei dintorni. Nelle guide (The Surf Atlas) è uno degli spot più piacevoli del paese; le recensioni su surf-forecast danno ~3/5 per via della folla",
+   "hazards": "Folla, longboard e SUP al take-off, rocce sotto il capo, forti correnti a Main Beach e Belongil con grandi swell invernali, squali (soprattutto a Tallows), caravelle portoghesi (bluebottle) d'estate",
+   "crowd_note": "The Pass è quasi sempre strapieno di longboarder, SUP e allievi delle scuole, con ressa al take-off; a Wategos, Tallows e Broken Head c'è più spazio",
+   "region": "Nuovo Galles del Sud, costa settentrionale (Cape Byron), Oceano Pacifico",
+   "area_breaks": "Nei dintorni: Wategos (spiaggia nord, una sinistra rara per il NSW, longboard), Clarkes Beach (point destro, riparato dal vento da sud), Main Beach e The Wreck (picchi vicino al relitto, da intermedi in su), Tallows (il beach break più costante, squali), Broken Head (point, 15 min a sud), Lennox Head (potente point destro, 20 km a sud)",
+   "beginner_months": "Tutto l'anno: le scuole insegnano a Clarkes Beach e Main Beach e nella sezione interna di The Pass con onde piccole; d'estate (novembre–marzo) le onde sono di solito più piccole e morbide, più comode per i principianti",
+   "pros": [
+    "Destre lunghe e morbide: il paradiso del longboard",
+    "Spot per tutti i livelli nel giro di pochi chilometri",
+    "Tante scuole, noleggi e cultura surf",
+    "Acqua calda per gran parte dell'anno"
+   ],
+   "cons": [
+    "Molto affollato a The Pass",
+    "Squali: in zona ci sono stati incidenti gravi",
+    "Alloggi cari",
+    "In primavera spesso onshore da nord-est"
+   ],
+   "airport": "OOL — Gold Coast, ~50 min; BNK — Ballina, ~30 min",
+   "best_wind_dir": "SE–S (offshore / riparato dal capo)"
+  },
+  "gold-coast-snapper-rocks": {
+   "h": "fc6d719dd9",
+   "description": "Snapper Rocks è l'inizio del Superbank, un banco di sabbia artificiale alimentato con sabbia pompata sotto Point Danger, al confine tra Queensland e Nuovo Galles del Sud. Con swell da est e sud-est, lunghe pareti destre e tubi corrono da Snapper fino a Greenmount e a volte fino a Kirra. Acqua calda, città con tutti i servizi, una tappa del WSL e uno dei line-up più affollati del mondo.",
+   "rating_basis": "Il Superbank è una delle destre più famose del mondo: un banco di sabbia da Snapper a Kirra (surfate record di 1–2 km) e tappa annuale del Championship Tour WSL. Recensioni su surf-forecast: 5/5; il difetto principale è la folla, fino a centinaia di persone, e le liti per l'onda",
+   "hazards": "Folla e scontri tra tavole, rocce sotto Snapper, backwash e forte corrente lungo il banco (difficile restare sul picco), localismo; in Australia ci sono squali (rischio nel complesso basso, ci sono le reti) e d'estate, con vento da nord-est, caravelle portoghesi urticanti (bluebottle)",
+   "crowd_note": "Uno dei line-up più affollati del mondo: in una buona giornata a Snapper ci sono anche diverse centinaia di surfisti, con continui drop-in. A Greenmount è sempre pieno; c'è più spazio sulle spiagge più a nord (Burleigh, Currumbin) o all'alba nei giorni feriali",
+   "region": "Queensland, Gold Coast meridionale (Coolangatta / Rainbow Bay), Mar dei Coralli / Oceano Pacifico",
+   "area_breaks": "Lungo il Superbank: Snapper Rocks → Rainbow Bay → Greenmount → Coolangatta → Kirra (famoso tubo con swell grande). Nei dintorni: Duranbah (beach break presso il frangiflutti del Tweed, prende qualsiasi swell, locali), Currumbin Alley, Burleigh Heads (point destro), Surfers Paradise e Main Beach (beach break)",
+   "beginner_months": "Tutto l'anno nelle sezioni interne di Coolangatta e Rainbow Bay con onde piccole, oltre che sulle spiagge di Kirra e Currumbin; nei giorni di swell grande i principianti non hanno nulla da fare sui point",
+   "pros": [
+    "Lunghi tubi destri di livello mondiale",
+    "La stagione dei cicloni (gennaio–aprile) e gli swell invernali danno onde per gran parte dell'anno",
+    "Città con tutti i servizi, aeroporto vicino",
+    "Molti spot per livelli diversi lungo la costa"
+   ],
+   "cons": [
+    "Folla enorme e competizione aggressiva",
+    "Localismo a Snapper e Duranbah",
+    "Il banco cambia di continuo: qualità imprevedibile",
+    "In primavera (settembre–novembre) spesso onshore da nord-est e onde piccole"
+   ],
+   "airport": "OOL — Gold Coast (Coolangatta), ~5–10 min",
+   "best_wind_dir": "S–SE (sud-est, offshore per i point destri)"
+  },
+  "margaret-river-main-break": {
+   "h": "9752a25dfe",
+   "description": "Main Break (Surfers Point), alla foce del Margaret River, è un potente A-frame su reef: una lunga sinistra e una destra corta e ripida, che funziona da doppio overhead fino a 6 m con gli swell dei Quaranta ruggenti. È sede di una tappa del WSL e cuore di una regione surf con decine di reef e spiagge lungo una costa di vigneti. Acqua fresca (17–21 °C): serve la muta.",
+   "rating_basis": "L'onda principale dell'Australia Occidentale e sede di una tappa del Championship Tour WSL (Margaret River Pro); nelle guide (Surfertoday, The Surf Atlas) è un potente A-frame su reef di livello mondiale, che regge onde fino a 6 m. La regione è una delle più costanti al mondo in fatto di swell",
+   "hazards": "Onde potenti e set pesanti, reef basso e rocce, lunga remata fino al line-up (fino a 20 min), forti correnti con swell grande, squali bianchi (regione a rischio elevato)",
+   "crowd_note": "Con un buono swell Main Break è affollato, ma con onde grandi in acqua restano solo gli esperti; negli spot vicini (South Point, Gallows, The Farm) la folla dipende da weekend e vacanze scolastiche",
+   "region": "Australia Occidentale, regione di Margaret River (Prevelly), Oceano Indiano",
+   "area_breaks": "Nei dintorni: The Bombie (big wave, tow-in), The Box (destra tubolare su reef basso, per esperti), Southside, North Point e South Point a Gracetown, Gallows, Lefthanders, Injidup, Yallingup (Supertubes), Three Bears (Baby Bear per imparare), Redgate e Gnarabup (spiagge)",
+   "beginner_months": "Si impara tutto l'anno sulle spiagge riparate: Gracetown, Redgate, Gnarabup, Baby Bear (Three Bears) e la foce del Margaret River; d'estate (dicembre–febbraio) le onde sono più piccole e al mattino soffia offshore, più comodo per i principianti",
+   "pros": [
+    "Uno degli swell più costanti al mondo",
+    "Onde di livello mondiale su decine di spot",
+    "Spot vuoti nei giorni feriali fuori dalle vacanze scolastiche",
+    "Natura, vino e parco nazionale tutt'intorno"
+   ],
+   "cons": [
+    "Il break principale è solo per esperti",
+    "Acqua fresca: serve una muta 3/2–4/3",
+    "Squali: nella regione ci sono stati attacchi mortali",
+    "D'estate, nel pomeriggio, forte brezza da sud"
+   ],
+   "airport": "PER — Perth, ~3 h; BQB — Busselton (Busselton-Margaret River), ~45 min",
+   "best_wind_dir": "E–NE–SE (offshore al mattino)"
+  },
+  "barbados-soup-bowl": {
+   "h": "0c83fe5651",
+   "description": "Soup Bowl, a Bathsheba, è una potente destra su reef di corallo e calcare sulla selvaggia costa atlantica di Barbados, una delle onde più costanti dei Caraibi. D'inverno (novembre–marzo) i groundswell da nord-est danno pareti cave e tubi fino a 3 m; d'estate l'aliseo porta un piccolo swell da vento. Per imparare ci sono onde morbide sulla costa sud.",
+   "rating_basis": "La migliore onda dei Caraibi secondo molte guide e lo spot preferito di Kelly Slater; «funziona circa 355 giorni l'anno» (Surfertoday), tappe WSL del Barbados Surf Pro (Perfect Wave, Surf-forecast). Difetti: l'aliseo spesso soffia contro, reef basso e ricci di mare",
+   "hazards": "Reef basso e rocce, ricci di mare nella sezione interna, correnti di risacca, onde potenti con i grandi swell invernali",
+   "crowd_note": "Con buoni swell e nel weekend il line-up è affollato e i locali conoscono bene il picco; nei giorni feriali c'è molto più spazio",
+   "region": "Costa orientale (atlantica) di Barbados, parrocchia di Saint Joseph",
+   "area_breaks": "Nei dintorni: Parlours (a sud, onda divertente), Box-by-Box e Sunset (a nord), Sandbank (beach break morbido, principianti), Duppies (nord dell'isola, onde grandi); nel sud dell'isola (~30 km): Freights Bay (sinistra, da principianti a intermedi), Surfer's Point, Brandons, South Point",
+   "beginner_months": "A Soup Bowl i principianti possono entrare solo nelle mattine piccole e senza vento, con la bassa marea. Si impara tutto l'anno sulla costa sud (Freights Bay, Surfer's Point, Brandons: da giugno a ottobre lì funzionano gli swell da sud e quelli degli uragani) e d'inverno sul morbido Sandbank, a nord di Bathsheba",
+   "pros": [
+    "Una delle onde migliori e più costanti dei Caraibi",
+    "Acqua calda tutto l'anno",
+    "Funziona con qualsiasi marea",
+    "Isola compatta: molti spot entro un'ora d'auto"
+   ],
+   "cons": [
+    "L'aliseo soffia spesso side-onshore",
+    "Reef basso e ricci nella sezione interna",
+    "Isola cara",
+    "D'estate sulla costa est le onde sono piccole"
+   ],
+   "airport": "BGI — Barbados (Grantley Adams), ~35–40 min",
+   "best_wind_dir": "SW–W (offshore); funziona anche con l'aliseo NE–E",
+   "best_swell_dir": "NE (funzionano N–SE)"
+  },
+  "florianopolis-joaquina": {
+   "h": "d457f8f602",
+   "description": "Florianópolis («Floripa») è un'isola con 40 spiagge e il principale centro surf del Brasile meridionale. Joaquina è un potente beach break a picchi sotto le dune, con prevalenza di sinistre su sabbia, molto costante e reso celebre dalle tappe del tour mondiale. La stagione è l'autunno e l'inverno australe (marzo–agosto), quando i fronti freddi portano swell da sud-est e vento offshore da ovest.",
+   "rating_basis": "Capitale del surf del Brasile meridionale: Joaquina è una storica tappa del tour mondiale (anni '80–'90), un beach break molto costante (Surf-forecast: «very consistent», Mondo Surf: «world class»); sull'isola ci sono decine di spiagge per venti diversi (Culture Trip, NSC Total). Difetti: folla, correnti e inverno freddo",
+   "hazards": "Forti correnti di risacca e uscita difficile con grandi swell, close-out pesanti a riva, localismo sui picchi principali, furti dalle auto al parcheggio",
+   "crowd_note": "A Joaquina e Praia Mole spesso c'è ressa, soprattutto nel weekend e nelle vacanze estive (gennaio–febbraio); sulle altre spiagge dell'isola (Santinho, Moçambique, Matadeiro) c'è più spazio",
+   "region": "Isola di Santa Catarina, stato di Santa Catarina, Brasile meridionale",
+   "area_breaks": "Nei dintorni: Praia Mole (potente beach break, ~3 km), Campeche e Campeche Rights (picchi e una destra davanti all'isolotto), Barra da Lagoa (principianti, vicino al canale), Moçambique e Santinho (beach break a nord-est), Matadeiro e Lagoinha do Leste (sud dell'isola, funzionano con swell da sud)",
+   "beginner_months": "Dicembre–marzo (acqua calda, onde più piccole): si impara a Barra da Lagoa, Campeche e Lagoinha; a Joaquina i principianti è meglio che entrino solo nei giorni piccoli",
+   "pros": [
+    "Onde molto costanti",
+    "Tante spiagge per ogni vento e livello",
+    "Città sviluppata, sicura ed economica per gli standard brasiliani",
+    "Cultura surf, scuole, shaper"
+   ],
+   "cons": [
+    "D'inverno l'acqua è a 17–19 °C: serve una muta 3/2",
+    "Ressa sui picchi principali",
+    "D'estate prevale il vento da nord-est",
+    "Correnti forti"
+   ],
+   "airport": "FLN — Florianópolis (Hercílio Luz), ~25 min",
+   "best_wind_dir": "W–NW (offshore, dopo il passaggio di un fronte freddo)",
+   "best_swell_dir": "SE–S (entrano anche da E)"
+  },
+  "pichilemu-punta-de-lobos": {
+   "h": "25f5290bca",
+   "description": "Pichilemu è la capitale del surf cileno, sulla fredda costa del Pacifico. Punta de Lobos è un potente point sinistro sotto gli scogli di Los Morros, che riceve swell da sud e sud-ovest quasi tutto l'anno: nei giorni piccoli lunghe pareti per intermedi sicuri, d'inverno big wave fino a 10 m. L'acqua è fredda per via della corrente di Humboldt, ma le onde sono molto costanti.",
+   "rating_basis": "Capitale del surf cileno e World Surfing Reserve (2017): Punta de Lobos è un point sinistro lungo fino a 800 m, regge onde fino a 8–10 m ed è sede dell'evento big wave Ceremonial Punta de Lobos (Surfertoday, The Surf Atlas, Chile Travel). Difetti: acqua fredda e ingresso in acqua difficile",
+   "hazards": "Lastra di roccia scivolosa all'ingresso da Los Morros, forte corrente lungo il point, acqua fredda e rischio di ipotermia, promontori rocciosi; zona sismica: tenete d'occhio gli allarmi tsunami",
+   "crowd_note": "Punta de Lobos «non è mai vuoto», ma le diverse zone di take-off distribuiscono la gente; La Puntilla d'estate è piena di scuole; nelle mezze stagioni (marzo–maggio, settembre–novembre) c'è più spazio",
+   "region": "Regione di O'Higgins, costa centrale del Cile (≈200 km da Santiago)",
+   "area_breaks": "Nei dintorni: La Puntilla (sinistra lunga e morbida vicino al paese, tutti i livelli), Infiernillo (sinistra veloce e cava su sabbia, avanzati), Diamante (sezione sabbiosa di Lobos nei giorni piccoli), beach break a nord di Pichilemu (principianti), Cáhuil e Bucalemu a sud",
+   "beginner_months": "Novembre–marzo: swell più piccolo e vento più debole; si impara sulla morbida sinistra di La Puntilla, davanti al lungomare di Pichilemu (lì lavorano quasi tutte le scuole), e sui beach break a nord del paese",
+   "pros": [
+    "Swell molto costanti tutto l'anno",
+    "Lunga sinistra di livello mondiale",
+    "Onde per tutti i livelli (La Puntilla)",
+    "Locali cordiali, cultura surf"
+   ],
+   "cons": [
+    "Acqua fredda a 12–16 °C: muta 4/3 e calzari",
+    "Ingresso in acqua difficile dagli scogli",
+    "D'inverno tempeste, pioggia e onde enormi",
+    "Lontano dall'aeroporto"
+   ],
+   "airport": "SCL — Santiago, ~3,5–4 h",
+   "best_wind_dir": "E–SE (offshore); va bene anche un leggero S–SW (le scogliere riparano)"
+  },
+  "santa-teresa-mal-pais": {
+   "h": "eb5e7ae094",
+   "description": "Santa Teresa e Mal País sono diversi chilometri di beach break a picchi con lastre di reef nel sud della penisola di Nicoya, esposti a tutti gli swell del Pacifico. Le onde ci sono quasi ogni giorno: nella stagione secca 1–1,5 m puliti con offshore, nella stagione verde potenti swell da sud fino a 2–3 m. Un paese di yoga e surf alla moda, con ottimi caffè.",
+   "rating_basis": "Uno dei posti più costanti della Costa Rica: funziona quasi ogni giorno tutto l'anno (The Surf Atlas: ~90% dei giorni nella stagione verde) ed è nelle top list del paese (Surfertoday, Surf-forecast, Lapoint). Difetti citati nelle recensioni: la strada sterrata polverosa, i prezzi alti e la folla in aumento",
+   "hazards": "Forti correnti di risacca, rocce e lastre di reef (Playa Carmen, Punta Barrigona, il point di Hermosa), close-out pesanti con grandi swell, quad sulle strade",
+   "crowd_note": "Sui picchi principali di Santa Teresa e Playa Carmen c'è folla, soprattutto da dicembre ad aprile; la spiaggia lunga permette di trovare un picco libero, Mal País e Hermosa sono più tranquille",
+   "region": "Penisola di Nicoya (sud), provincia di Puntarenas, Oceano Pacifico",
+   "area_breaks": "Nei dintorni: Playa Carmen (beach break/reef all'incrocio, per avanzati nei giorni grandi), Mal País e Punta Barrigona (reef, onde cave, da 2 m), La Lora e Suck Rock (picchi nella parte nord della spiaggia), Playa Hermosa (principianti, point destro con l'alta marea), Manzanillo (reef a nord), Playa Grande vicino a Montezuma",
+   "beginner_months": "Dicembre–aprile (stagione secca): onde più piccole e offshore tutto il giorno; si impara a Playa Hermosa e sulle onde interne di Santa Teresa, oppure a Playa Carmen nei giorni piccoli",
+   "pros": [
+    "Onde quasi ogni giorno, tutto l'anno",
+    "Tanti picchi sulla spiaggia lunga, per tutti i livelli",
+    "Acqua calda a 27–29 °C",
+    "Atmosfera da paese del surf, scuole e surf camp"
+   ],
+   "cons": [
+    "Difficile da raggiungere (traghetto o volo locale, strada sterrata)",
+    "Alloggi e cibo cari",
+    "Polvere nella stagione secca, fango e acquazzoni a settembre–ottobre",
+    "Folla in aumento"
+   ],
+   "airport": "TMU — Tambor (voli locali), ~40 min; LIR — Liberia, ~3,5–5 h; SJO — San José, ~5 h con il traghetto",
+   "best_wind_dir": "NE–E (offshore)",
+   "best_swell_dir": "SW–W (vanno bene S–WNW)"
+  },
+  "tamarindo-playa-grande": {
+   "h": "5940fab369",
+   "description": "Tamarindo è una vivace cittadina turistica del Guanacaste e uno dei posti principali della Costa Rica per imparare a surfare: un morbido beach break davanti al paese, acqua calda e decine di scuole. Nei dintorni ci sono onde più serie: Playa Grande al di là dell'estuario, picchi su reef e la foce dell'Estero. Nella stagione secca soffia offshore quasi tutto il giorno, in quella verde arrivano grandi swell da sud-ovest.",
+   "rating_basis": "Una delle principali località surf della Costa Rica e il posto migliore per imparare nel Guanacaste (The Surf Atlas, Witch's Rock Surf Camp, Surf-forecast: «ottimo spot per principianti»). Playa Grande offre potenti A-frame da intermedi in su; tra i difetti si criticano la folla e l'edilizia turistica",
+   "hazards": "Coccodrilli alla foce dell'Estero (non attraversate a guado verso Playa Grande), reef e rocce a Pico e Henry's, banchi di sabbia bassi alla foce, correnti; upwelling freddo da dicembre",
+   "crowd_note": "Il line-up di Tamarindo è uno dei più affollati del paese, con molte scuole. A Playa Grande, Palmeras e Casitas c'è molto più spazio",
+   "region": "Guanacaste, nord della penisola di Nicoya, Oceano Pacifico",
+   "area_breaks": "Nei dintorni: Playa Grande (potenti A-frame, da intermedi in su; a nord Palmeras per principianti), foce dell'Estero (destre veloci, avanzati), Pico Grande e Pico Pequeño (reef, con l'alta marea), Henry's Left/Right, Capitán Suizo (principianti), Playa Langosta (A-frame, intermedi), Avellanas e Playa Negra (reef, ~20 km); in barca: Witch's Rock e Ollie's Point",
+   "beginner_months": "Tutto l'anno, meglio dicembre–aprile: onde di 0,5–1,5 m e offshore. Si impara sulla spiaggia principale di Tamarindo, davanti al Capitán Suizo e a Palmeras (nord di Playa Grande)",
+   "pros": [
+    "Ideale per imparare, tantissime scuole",
+    "Offshore per gran parte della giornata nella stagione secca",
+    "Vicino all'aeroporto di Liberia",
+    "Servizi e alloggi per ogni budget"
+   ],
+   "cons": [
+    "Molto affollato in acqua",
+    "Edilizia turistica, caro",
+    "La spiaggia principale offre poco agli avanzati",
+    "Forte dipendenza dalla marea"
+   ],
+   "airport": "LIR — Liberia, ~1 h 15 min; SJO — San José, ~4,5 h",
+   "best_wind_dir": "E–NE (offshore; nella stagione secca quasi tutto il giorno)",
+   "best_swell_dir": "W–SW (Playa Grande: S–SW)"
+  },
+  "montanita-la-punta": {
+   "h": "a2d0a0bdd2",
+   "description": "Montañita è un villaggio surf bohémien sulla costa dell'Ecuador, dove le onde ci sono quasi ogni giorno. La Punta è un point destro su reef e rocce all'estremità nord della spiaggia: con la bassa marea rompe più veloce e con tubi, e regge fino a 3–4 m. Davanti al villaggio c'è un lungo beach break sabbioso per principianti. Il periodo migliore è dicembre–maggio: caldo, sole e swell da nord; d'estate e in autunno fa più fresco ed è nuvoloso (garúa).",
+   "rating_basis": "La principale località surf dell'Ecuador e sede di gare nazionali e internazionali (Wikipedia «Surfing in Ecuador», Perfect Wave, Surf-forecast): una destra giocosa su reef e un lungo beach break. I difetti segnalati da tutte le recensioni: la folla sul point, con una gerarchia rigida, e il villaggio rumoroso e festaiolo",
+   "hazards": "Rocce e reef a La Punta (soprattutto con la bassa marea), correnti sul beach break con grandi swell, forte sole equatoriale, piccoli furti",
+   "crowd_note": "A La Punta spesso ci sono 25+ persone e una fila rigida; sul beach break i picchi distribuiscono la gente, a Olón, Manglaralto e Ayampe c'è più spazio. Più tranquillo al mattino presto e a mezzogiorno",
+   "region": "Provincia di Santa Elena, Ruta del Spondylus, costa del Pacifico",
+   "area_breaks": "Nei dintorni: beach break di Montañita (sinistre e destre, tutti i livelli), Olón (onde morbide, ~10 min a nord), Manglaralto (beach break a sud), Ayampe (potente beach break, ~30 km a nord), Salinas e Puerto Engabao (più a sud)",
+   "beginner_months": "Tutto l'anno sul beach break sabbioso davanti al villaggio (2 km di picchi) e a Olón, con marea media-alta; il periodo più piacevole è dicembre–maggio, quando fa caldo e c'è il sole",
+   "pros": [
+    "Onde quasi tutto l'anno",
+    "Acqua calda, di solito la muta non serve",
+    "Economico, tanti ostelli e scuole",
+    "Opzioni per principianti nei dintorni"
+   ],
+   "cons": [
+    "Molto affollato sul point, gerarchia rigida",
+    "Villaggio rumoroso e festaiolo",
+    "Giugno–novembre nuvoloso e più fresco",
+    "Rocce con la bassa marea"
+   ],
+   "airport": "GYE — Guayaquil, ~2,5–3 h",
+   "best_wind_dir": "NE–E (offshore)",
+   "best_swell_dir": "NW–N (dicembre–aprile), funzionano anche da SW"
+  },
+  "fuerteventura-north-shore": {
+   "h": "9298db421e",
+   "description": "La costa nord di Fuerteventura tra Corralejo ed El Cotillo è una catena di reef vulcanici lungo una strada sterrata chiamata «North Shore». Majanicho è un point destro su reef in una tranquilla baia di pescatori: regge swell grandi e nella sezione interna è adatto a chi sta progredendo. Da ottobre a marzo swell costante da nord e acqua calda per gli standard europei; d'estate le onde sono più piccole e soffiano forti alisei.",
+   "rating_basis": "Le «Hawaii d'Europa»: una decina di reef vulcanici lungo il North Shore (El Hierro, Majanicho, Lobos, Bubble) e clima caldo d'inverno. Thesurfatlas e Surfertoday mettono il nord dell'isola in cima alle Canarie; difetti: folla e localismo sui reef migliori",
+   "hazards": "Reef vulcanici bassi e taglienti e rocce, ricci di mare (portate i calzari), forti correnti e rip, nessun bagnino negli spot selvaggi",
+   "crowd_note": "A Rocky Point, El Hierro e Majanicho con un buono swell c'è ressa e i gruppi locali tengono il picco; sui reef più lontani a ovest e sulle spiagge di El Cotillo d'inverno c'è più spazio",
+   "region": "Isole Canarie, nord di Fuerteventura (Atlantico)",
+   "area_breaks": "Nei dintorni: El Hierro (A-frame pesante su reef, per esperti), Bubble (destra veloce su lastra vicino agli scogli, per pro), Lobos (lungo point destro sull'isola di Lobos, in barca), La Generosa e La Derecha de los Alemanes (reef), Rocky Point / Punta Elena (Corralejo, livello intermedio), Flag Beach (principianti), El Cotillo — Piedra Playa e La Escalera (beach break), Punta Blanca, La Caleta, Esquinzo",
+   "beginner_months": "Tutto l'anno, ma meglio aprile–settembre: onde piccole sulle spiagge di El Cotillo (Piedra Playa, Playa del Castillo, La Escalera) e a Flag Beach, a Corralejo; d'inverno i principianti imparano nelle baie riparate, sui reef del North Shore solo nei giorni piccoli e nelle sezioni interne",
+   "pros": [
+    "Surf d'inverno a +20–22 °C: la migliore alternativa invernale al continente",
+    "Tanti reef e spiagge per ogni livello",
+    "Volo breve dall'Europa, molti surf camp",
+    "Acqua calda tutto l'anno (18–23 °C)"
+   ],
+   "cons": [
+    "Reef vulcanici taglienti, ricci, tagli e ammaccature sulle tavole",
+    "Forti alisei d'estate e spesso ventoso anche d'inverno",
+    "Folla e localismo sui reef migliori",
+    "Strada sterrata del North Shore: serve l'auto (meglio un 4x4)"
+   ],
+   "airport": "FUE — Fuerteventura (Puerto del Rosario), ~35 min da Corralejo"
+  },
+  "lanzarote-famara-surf": {
+   "h": "4d73dd5378",
+   "description": "Famara è una spiaggia di 6 km sotto le scogliere a picco del Risco de Famara, accanto al villaggio surf di Caleta de Famara. Il beach break a picchi funziona quasi tutto l'anno ed è adatto a tutti, dalle prime lezioni alle grandi giornate invernali. A 15 minuti ci sono i reef di La Santa ed El Quemao, tra le onde più potenti d'Europa, per avanzati ed esperti.",
+   "rating_basis": "Lanzarote viene chiamata le «Hawaii d'Europa»: Famara è il principale spot «internazionale» dell'isola, per tutti i livelli (Thesurfatlas), e il reef di El Quemao è uno dei tubi più potenti d'Europa, con la gara a inviti Quemao Class. Difetto: forti alisei d'estate",
+   "hazards": "Forti correnti di risacca a Famara, rocce e alghe con l'alta marea; a La Santa ed El Quemao reef vulcanico basso e tagliente, tubi pesanti, ricci",
+   "crowd_note": "Famara ha 6 km di spiaggia e molti gruppi delle scuole, ma lo spazio non manca; sui reef di La Santa con un buono swell c'è ressa e i locali sono tanti",
+   "region": "Isole Canarie, nord-ovest di Lanzarote (parco naturale dell'Archipiélago Chinijo)",
+   "area_breaks": "Nei dintorni: La Santa (destra veloce su reef basso, per surfisti sicuri), El Quemao (sinistra tubolare pesante su reef tagliente, solo esperti), San Juan (sinistra su reef, per avanzati), Jameos del Agua (point sinistro sulla costa est, localismo), isola di La Graciosa",
+   "beginner_months": "Tutto l'anno, meglio maggio–settembre: sulla spiaggia di Famara le onde sono più piccole e le scuole lavorano ogni giorno; d'inverno, con swell grande, i principianti vengono portati su una spiaggia scuola a 10 minuti. La Santa ed El Quemao sono solo per surfisti esperti",
+   "pros": [
+    "Surf tutto l'anno, inverno caldo (+21–23 °C)",
+    "Spiaggia enorme per tutti i livelli",
+    "Reef di livello mondiale per esperti a due passi",
+    "Tante scuole e surf camp, anche con lezioni in russo"
+   ],
+   "cons": [
+    "Forte vento laterale (aliseo), soprattutto d'estate",
+    "Correnti e rip a Famara",
+    "I reef di La Santa sono taglienti e bassi",
+    "Serve l'auto, il villaggio è piccolo"
+   ],
+   "airport": "ACE — Lanzarote (Arrecife), ~30 min (25 km)"
+  },
+  "mundaka": {
+   "h": "226e8f0569",
+   "description": "Leggendario tubo sinistro su una lingua di sabbia alla foce del fiume Oka, presso il villaggio di pescatori di Mundaka. Nelle giornate perfette: take-off veloce, tubo lungo e surfate fino a 200 m, ma l'onda è capricciosa: servono un grande swell da NW, vento da sud e bassa marea. Dopo i dragaggi del 2005 il banco era scomparso, ma col tempo si è ricostituito.",
+   "rating_basis": "Una delle migliori sinistre di foce al mondo: tappa del campionato mondiale Billabong Pro Mundaka (dal 1999), tubi e surfate fino a 200 m (Surfertoday, Thesurfatlas). Difetto: è capricciosa, secondo le stime funziona solo 50–70 giorni l'anno",
+   "hazards": "Corrente molto forte in uscita dalla foce, che porta al largo (soprattutto con l'alta marea), banco basso e tubi pesanti, folla e localismo",
+   "crowd_note": "Nei rari giorni perfetti arrivano surfisti da tutta la regione: il line-up è pieno e molto competitivo",
+   "region": "Paesi Baschi (Biscaglia), riserva della biosfera di Urdaibai, Golfo di Biscaglia",
+   "area_breaks": "Nei dintorni: Laga (beach break indulgente, per intermedi), Bakio (beach break su rocce, prende più swell, c'è localismo), Sopelana e Meñakoz (35–40 km, vicino a Bilbao)",
+   "beginner_months": "A Mundaka i principianti non possono entrare. In estate e a inizio autunno si impara sulla spiaggia di Laga (dall'altra parte dell'estuario) e a Bakio (25 min); Laga va bene anche per gli intermedi che vogliono prepararsi per Mundaka",
+   "pros": [
+    "Onda di livello mondiale, una delle migliori sinistre d'Europa",
+    "Pittoresco villaggio basco e riserva di Urdaibai",
+    "Laga e Bakio a due passi quando Mundaka non funziona"
+   ],
+   "cons": [
+    "Funziona raramente (50–70 giorni l'anno)",
+    "Solo per avanzati",
+    "Forte localismo e folla nei giorni buoni",
+    "D'estate quasi sempre flat"
+   ],
+   "airport": "BIO — Bilbao, ~40 min (40 km)"
+  },
+  "zarautz": {
+   "h": "b4bd2bcfaf",
+   "description": "Zarautz è la spiaggia più lunga dei Paesi Baschi e la capitale non ufficiale del surf della Gipuzkoa, a 20 minuti da San Sebastián. Diversi banchi di sabbia danno picchi in entrambe le direzioni: a ovest più morbidi e piccoli, a est take-off ripidi e tubi. Va bene quasi per tutti: scuole sulla spiaggia e, con swell grande, un'onda che regge fino a 3–4 m.",
+   "rating_basis": "Thesurfatlas: «uno dei migliori beach break della Spagna», ottimo posto per imparare e per gli intermedi; su surf-forecast è uno spot «molto costante». Sede di tappe WSL (Pro Zarautz). L'onda non è leggendaria ma affidabile, e San Sebastián è a due passi",
+   "hazards": "Correnti di risacca con swell grande, folla e scuole in line-up, acqua inquinata dopo le piogge (lo segnala surf-forecast)",
+   "crowd_note": "La spiaggia lunga (2,5 km) con diversi picchi disperde la gente, ma in stagione e nel weekend c'è molta folla; la popolarità cresce di anno in anno",
+   "region": "Paesi Baschi (Gipuzkoa), Golfo di Biscaglia",
+   "area_breaks": "Nei dintorni: la Zurriola a San Sebastián (20 km, beach break: onda morbida davanti al Kursaal, picco potente vicino al muro di Sagüés), Getaria, Zumaia (Itzurun, uno degli spot più costanti del nord), Deba (sinistre vicino al molo), Mundaka (70 km, per pro)",
+   "beginner_months": "Maggio–settembre: l'estate è il periodo migliore per imparare (onde di 0,5–1,5 m, acqua fino a 22 °C); i principianti stanno nella parte ovest della spiaggia, più riparata. A San Sebastián si impara alla Zurriola, davanti al Kursaal",
+   "pros": [
+    "Beach break costante, funziona con qualsiasi marea",
+    "Ottimo per imparare e per intermedi",
+    "Vicino a San Sebastián: gastronomia e città dei Paesi Baschi",
+    "Tante scuole e surf camp"
+   ],
+   "cons": [
+    "Affollato in stagione",
+    "D'inverno spesso onshore e acqua fredda (12–14 °C)",
+    "D'estate le onde sono spesso piccole",
+    "I gruppi di locali a volte non sono amichevoli"
+   ],
+   "airport": "BIO — Bilbao, ~1 h (85 km); BIQ — Biarritz, ~45 min; EAS — San Sebastián, ~35 min"
+  },
+  "biarritz-cote-des-basques": {
+   "h": "6d235ca53a",
+   "description": "Biarritz è un'elegante località balneare e la culla del surf europeo. La Côte des Basques è una lunga spiaggia sotto le scogliere: a nord onde morbide per longboard e principianti, a sud più potenti. Funziona soprattutto con bassa marea e marea media; con l'alta marea la spiaggia finisce sott'acqua. Nei dintorni ci sono le spiagge di Anglet, i reef di Guéthary e, a 30 minuti, Hossegor.",
+   "rating_basis": "Culla del surf europeo (1957) e mecca del longboard; surf-report.com: «il più grande beach break di Biarritz», per tutti i livelli. Le onde sono nella media per gli standard mondiali, ma la combinazione di città, clima e decine di spiagge nel raggio di 20 km fa di Biarritz una delle mete surf più popolari d'Europa",
+   "hazards": "Rocce ai piedi delle scogliere con l'alta marea, correnti potenti alla Marbella, folla e scuole in line-up",
+   "crowd_note": "D'estate e nel weekend c'è moltissima gente e molte scuole; in autunno e sulle spiagge di Anglet c'è più spazio",
+   "region": "Paesi Baschi francesi, Nuova Aquitania (Golfo di Biscaglia)",
+   "area_breaks": "Nei dintorni: Grande Plage (spiaggia cittadina, tutti i livelli), Marbella (onde potenti e correnti, per esperti), Milady (tutti i livelli, bodyboard), Ilbarritz, spiagge di Anglet (Les Cavaliers, La Barre: 4 km di beach break), i reef di Guéthary (Parlementia) e Lafitenia, 10–15 km a sud",
+   "beginner_months": "Aprile–ottobre: i principianti imparano nella parte nord della Côte des Basques, vicino a Villa Belza (onde morbide, longboard), e alla Grande Plage con la bassa marea; d'estate onde piccole e acqua calda, l'ideale per le prime lezioni",
+   "pros": [
+    "Ottimo per imparare e per il longboard",
+    "Servizi di città, aeroporto a 10 minuti",
+    "Molti spot nel raggio di 20 km, dalle spiagge ai reef",
+    "Acqua calda d'estate e a inizio autunno"
+   ],
+   "cons": [
+    "Onde perlopiù medie, d'estate spesso piccole",
+    "Non funziona con tutte le maree: con l'alta marea la spiaggia scompare",
+    "Affollato d'estate",
+    "Alloggi cari"
+   ],
+   "airport": "BIQ — Biarritz, ~10 min (3 km)"
+  },
+  "hossegor-la-graviere": {
+   "h": "8ca1a9e8b1",
+   "description": "Hossegor è il centro del surf francese, sulle infinite spiagge sabbiose delle Landes. Il canyon sottomarino di Capbreton e i banchi di sabbia danno potenti tubi di livello mondiale a La Gravière e La Nord, e a un paio di chilometri ci sono spiagge tranquille per imparare. Il periodo migliore è settembre–novembre: swell grande, acqua calda e meno gente.",
+   "rating_basis": "La capitale europea del surf: storica tappa del campionato mondiale (Quiksilver Pro France); La Gravière è uno dei tubi da beach break più potenti al mondo. Thesurfatlas definisce settembre–ottobre il «periodo d'oro»; su surf-forecast ottobre è il mese migliore",
+   "hazards": "Shorebreak potente e tubi su banchi di sabbia bassi, correnti di risacca molto forti (soprattutto a La Gravière e con swell grande), folla in line-up",
+   "crowd_note": "A luglio–agosto (vacanze francesi) i line-up sono pieni e a La Sud ci sono folle di scuole; in autunno e nei giorni feriali c'è più spazio, e sulle spiagge di Seignosse e delle Landes più a nord si trova anche un picco vuoto",
+   "region": "Landes, Nuova Aquitania (Golfo di Biscaglia)",
+   "area_breaks": "Nei dintorni: Les Culs Nus (onda veloce e tubolare, da intermedi in su), La Nord (big wave d'inverno), La Centrale e La Sud (principianti), Les Estagnots e Le Penon a Seignosse (picchi potenti), Capbreton (La Piste, Le Santocha), Labenne e Les Bourdaines",
+   "beginner_months": "Maggio–settembre: si impara sulla spiaggia di La Sud a Hossegor (onde piccole e riparate) e sulle spiagge di Capbreton e Seignosse; a La Gravière i principianti non possono entrare in nessuna stagione",
+   "pros": [
+    "Tubi da beach break di livello mondiale",
+    "Decine di picchi lungo le spiagge: c'è sempre quello giusto per te",
+    "Industria del surf sviluppata: scuole, surf camp, shaper, outlet",
+    "Acqua calda a fine estate e in autunno"
+   ],
+   "cons": [
+    "La Gravière è solo per esperti",
+    "D'estate onde piccole e molta ressa",
+    "D'inverno acqua fredda (12–14 °C) e mareggiate",
+    "I banchi di sabbia si spostano: la qualità cambia da una stagione all'altra"
+   ],
+   "airport": "BIQ — Biarritz, ~30 min (35 km); BOD — Bordeaux, ~2 h"
+  },
+  "newquay-fistral": {
+   "h": "efbe03e30e",
+   "description": "Fistral è la principale spiaggia surf della Gran Bretagna, nella cittadina di Newquay, rivolta direttamente verso l'Atlantico. Il beach break sabbioso regge onde fino a 3–4 m: a nord destre, a sud sinistre. La stagione per gli intermedi è l'autunno, quando l'acqua è ancora tiepida e arrivano i primi groundswell; d'inverno acqua fredda e mareggiate, d'estate onde piccole per imparare.",
+   "rating_basis": "Capitale del surf del Regno Unito: Fistral è la spiaggia surf più famosa della Cornovaglia, sede del festival Boardmasters e di gare professionistiche; Thesurfatlas: «destre affidabili e di qualità» a North Fistral. Per gli standard mondiali l'onda è nella media e l'acqua è fredda",
+   "hazards": "Forti correnti di risacca lungo gli scogli nella parte sud della spiaggia, rocce a Little Fistral con l'alta marea, acqua fredda (rischio di ipotermia), folla",
+   "crowd_note": "Fistral è sempre affollata, d'estate sulle spiagge vicine ci sono «letteralmente centinaia» di allievi; in autunno e nei giorni feriali c'è più spazio, e i picchi vuoti si trovano sulle spiagge a nord e a sud di Newquay",
+   "region": "Cornovaglia, costa nord (Atlantico / Mar Celtico)",
+   "area_breaks": "Nei dintorni: North Fistral (destre), South Fistral (sinistre, meglio con l'alta marea), Little Fistral (wedge cavi su rocce, con la bassa marea), Cribbar (big wave sotto Towan Head, per esperti), Towan e Great Western (principianti), Crantock (foce del fiume), Watergate Bay, Harlyn e Polzeath (più a nord)",
+   "beginner_months": "Maggio–settembre: si impara sulle spiagge cittadine di Towan e Great Western (riparate, la «mecca dei principianti») e a Fistral nei giorni piccoli; d'estate basta una muta 3/2 o da 2 mm",
+   "pros": [
+    "Beach break costante, funziona con qualsiasi marea",
+    "Industria del surf sviluppata e tante scuole",
+    "Nei dintorni spiagge per principianti e alternative con qualsiasi vento",
+    "Aeroporto di Newquay a 15 minuti"
+   ],
+   "cons": [
+    "Acqua fredda: d'inverno 10 °C, serve una 5/4 con calzari, guanti e cappuccio",
+    "Molto affollato d'estate",
+    "Onshore frequente e tempo piovoso",
+    "Onda nella media per gli standard mondiali"
+   ],
+   "airport": "NQY — Newquay (Cornovaglia), ~15 min; da Londra ~5 h in treno"
+  },
+  "busua-ghana": {
+   "h": "c4877ef1a7",
+   "description": "Un tranquillo villaggio di pescatori con una lunga spiaggia sabbiosa, il posto principale per il surf in Ghana. Gli swell dell'Atlantico meridionale arrivano quasi tutto l'anno, i migliori e più grandi da maggio a settembre; nella stagione secca le onde sono più piccole e morbide. Acqua a 23–28 °C, si surfa senza muta, e nei dintorni ci sono reef per i più esperti.",
+   "rating_basis": "Il principale hub surf del Ghana: onda morbida per imparare, acqua calda e molti surf camp (Surf Atlas, momondo, Culture Trip); surf-forecast valuta il break in modo modesto (3/10, «abbastanza costante»), le onde di qualità sono sui reef vicini di Dixcove e Butre",
+   "hazards": "Rocce ai lati della baia e reef negli spot vicini, correnti di risacca (soprattutto a Butre), malaria: serve la profilassi",
+   "crowd_note": "Sulla spiaggia ci sono molti allievi delle scuole e dei camp locali, ma in line-up la folla non c'è quasi mai; sui reef vicini spesso non c'è nessuno",
+   "region": "Regione Occidentale, Golfo di Guinea (Costa d'Oro)",
+   "area_breaks": "Reef e point break ai lati della baia di Busua (per esperti), Butre (più a est, onde più grandi ma chiude e ha correnti), Dixcove / Fort Metal Cross (potente destra su reef, non per principianti), Cape Three Points (onda morbida e lenta, ~25 km)",
+   "beginner_months": "Tutto l'anno sulla spiaggia sabbiosa di Busua (riparata dagli scogli a ovest, onda spesso all'altezza del petto e morbida); nella stagione secca (novembre–marzo) le onde sono più piccole, l'ideale per le prime lezioni",
+   "pros": [
+    "Acqua calda tutto l'anno",
+    "Onda morbida per imparare, scuole e surf camp economici",
+    "Quasi nessuna folla",
+    "Cultura dell'Africa occidentale piena di colore"
+   ],
+   "cons": [
+    "La spiaggia stessa ha un'onda di qualità modesta",
+    "Lungo viaggio da Accra (4–5 h)",
+    "Zona malarica, stagione delle piogge maggio–giugno",
+    "Pochi noleggi di buone tavole fuori da Busua"
+   ],
+   "airport": "ACC — Accra, ~4–5 h in auto; TKD — Takoradi (voli nazionali), ~40 min"
+  },
+  "bali-canggu-batu-bolong": {
+   "h": "0c79da188c",
+   "description": "Canggu è il principale centro del turismo surf di Bali per principianti e intermedi. A Batu Bolong il fondale dolce di sabbia e rocce dà lunghi picchi morbidi a sinistra e a destra, soprattutto con marea media e alta; nei dintorni ci sono Old Man's e le più potenti Berawa ed Echo Beach. Tutt'intorno decine di scuole, anche in lingua russa, noleggio tavole sulla spiaggia, caffè e coworking.",
+   "rating_basis": "La principale zona di Bali per scuole e longboard: nelle guide (Bali Surfing Camp, Rapture, bali.com) è il miglior punto di partenza per principianti e intermedi, con onde lunghe e morbide con l'alta marea. Difetti citati nelle recensioni: molto affollato, tanti principianti e tavole lasciate andare",
+   "hazards": "Folla di principianti e longboard lasciati andare, rocce e reef in alcuni punti del fondale, shorebreak nella parte nord della spiaggia, acqua inquinata dopo forti piogge (scarichi), correnti con onde grandi",
+   "crowd_note": "Batu Bolong e Old Man's sono piene di scuole e longboarder tutto il giorno; a Berawa, Echo Beach e Pererenan c'è più spazio, ma lì l'onda è più dura",
+   "region": "Costa sud-occidentale di Bali (Canggu), Oceano Indiano",
+   "area_breaks": "Nei dintorni: Old Man's (reef morbido, longboard), Berawa (beach break, tavole corte), Echo Beach (reef, sinistra/destra, da intermedi in su), Pererenan (reef e spiaggia), Seseh / Canggu Rights; a 20–30 min le spiagge di Kuta e Legian per le prime lezioni",
+   "beginner_months": "Tutto l'anno: le scuole insegnano sui picchi morbidi di Batu Bolong e Berawa e sulla spiaggia sabbiosa di Kuta. Il periodo migliore è aprile–ottobre (offshore al mattino); a gennaio–febbraio spesso soffia onshore e l'acqua si intorbidisce dopo gli acquazzoni",
+   "pros": [
+    "Onde morbide per imparare e per il longboard",
+    "Enorme scelta di scuole, anche in lingua russa",
+    "Noleggio tavole direttamente in spiaggia",
+    "Onde quasi ogni giorno"
+   ],
+   "cons": [
+    "Molto affollato in acqua e sulle strade",
+    "Con la bassa marea l'onda chiude",
+    "Nella stagione delle piogge onshore e acqua torbida dopo gli acquazzoni",
+    "Shorebreak vicino allo scoglio nella parte nord"
+   ],
+   "airport": "DPS — Denpasar (Ngurah Rai), ~40–60 min (traffico)",
+   "best_wind_dir": "N–E (offshore al mattino / vento debole)"
+  },
+  "bali-keramas": {
+   "h": "3bda8d192c",
+   "description": "Una destra potente e corta su un reef vulcanico basso davanti all'hotel Komune: tubi fin dalla prima remata e una o due sezioni per le manovre. Funziona nella stagione delle piogge (novembre–marzo), quando sulla costa est soffiano venti offshore da ovest mentre l'ovest di Bali soffre l'onshore. Uno spot solo per esperti, soprattutto regular.",
+   "rating_basis": "Destra su reef veloce e tubolare, sede di tappe WSL (Oakley Pro Bali, Corona Bali Protected); nelle guide è l'onda principale di Bali nella stagione delle piogge. Recensioni su surf-forecast ~4/5; difetti: folla e fila rigida",
+   "hazards": "Reef vulcanico basso e tagliente (non entrate prima che sia passata un'ora dalla bassa marea), tubi pesanti e tavole rotte, corrente a fine onda, tagli sul reef, acqua torbida dopo gli acquazzoni",
+   "crowd_note": "Nella stagione delle piogge, quando la costa ovest è «spazzata» dal vento, qui arrivano tutti i surfisti forti dell'isola. Più spazio al mattino presto e nei giorni feriali; ci sono sessioni serali sotto i riflettori dell'hotel Komune (su prenotazione)",
+   "region": "Costa sud-orientale di Bali (Gianyar), Stretto di Badung",
+   "area_breaks": "Nei dintorni: Cucukan (destra su reef più piccola, assorbe parte della folla), Lebih / Black Magic Point (lastra di lava bassa), Ketewel e Padang Galak (beach break), Sanur Reef e Tanjung Reef (40 min in barca, stagione delle piogge), Nusa Dua e Serangan",
+   "pros": [
+    "La migliore onda di Bali nella stagione delle piogge",
+    "Tubo e sezione per le manovre sulla stessa onda",
+    "Sessioni serali sotto i riflettori",
+    "Più vicino a Ubud e Sanur che al Bukit"
+   ],
+   "cons": [
+    "Reef basso e tagliente, pericoloso con la bassa marea",
+    "Line-up fitto e competitivo",
+    "Da maggio a settembre l'aliseo soffia onshore",
+    "Non per principianti né per la maggior parte dei goofy"
+   ],
+   "airport": "DPS — Denpasar (Ngurah Rai), ~45–60 min",
+   "best_wind_dir": "NW–N–NE (stagione del monsone di ovest; offshore)"
+  },
+  "bali-uluwatu": {
+   "h": "2e7d189aaf",
+   "description": "Leggendaria sinistra su reef sotto la scogliera del tempio di Uluwatu: diverse sezioni (Temples, The Peak, Racetracks, Outside Corner, Bombie) funzionano da 1 a 5+ m. Nella stagione secca l'aliseo soffia offshore e gli swell da sud dei Quaranta ruggenti arrivano quasi ogni giorno. Si entra in acqua attraverso la famosa grotta. Spot per intermedi sicuri e oltre: i principianti qui non hanno nulla da fare.",
+   "rating_basis": "Una delle onde più famose al mondo: lunga sinistra su reef con diverse sezioni, tappa WSL (Uluwatu Pro); è in tutte le top list dell'Indonesia. Difetti citati nelle recensioni: folla costante e locali «chiusi in clan»",
+   "hazards": "Reef tagliente e rocce (soprattutto Racetracks con la bassa marea e la fine dell'onda a The Peak), forti correnti che con onde grandi trascinano oltre la grotta, uscita difficile con l'alta marea, tavole rotte e set grandi, tagli da corallo, ricci di mare",
+   "crowd_note": "Quasi sempre affollato, soprattutto a The Peak e con onde piccole; Temples e Racetracks con l'alta marea di solito sono più liberi. Più tranquillo al mattino presto e nelle mezze stagioni (aprile–maggio, settembre–ottobre)",
+   "region": "Penisola del Bukit, sud-ovest di Bali, Oceano Indiano",
+   "area_breaks": "Nei dintorni, sul Bukit: Padang Padang (tubo sinistro, esperti; la destra Padang Right per chi comincia), Impossibles, Bingin (sinistra corta e tubolare), Dreamland e Balangan (più morbide, per intermedi), Nyang Nyang (reef esposto, prende qualsiasi swell)",
+   "pros": [
+    "Swell molto costante da aprile a ottobre",
+    "Lunghe e potenti sinistre di livello mondiale",
+    "Decine di altri break del Bukit a 10–20 minuti",
+    "Servizi sviluppati: caffè sopra il line-up, noleggio, riparazione tavole"
+   ],
+   "cons": [
+    "Folla costante e competizione per l'onda",
+    "Reef basso e tagliente, soprattutto con la bassa marea (Racetracks)",
+    "Da dicembre a febbraio il monsone di ovest soffia onshore",
+    "Non per principianti"
+   ],
+   "airport": "DPS — Denpasar (Ngurah Rai), ~40–60 min",
+   "best_wind_dir": "SE–E (aliseo, offshore)"
+  },
+  "java-g-land": {
+   "h": "b9f52342fd",
+   "description": "G-Land è una lunga sinistra su reef ai margini della giungla del parco nazionale di Alas Purwo, nel sud-est di Giava. Nella stagione secca l'aliseo soffia perfettamente offshore e gli swell da sud si aprono in pareti e tubi lunghi centinaia di metri. Si può alloggiare solo nei surf camp sulla costa (niente villaggi né strade); di solito si arriva in barca o con un transfer da Bali.",
+   "rating_basis": "Un classico dell'Indonesia dagli anni '70: una sinistra su reef lunga oltre un chilometro, con le sezioni Money Trees e Speedies tra i migliori tubi al mondo; nelle guide (Wikipedia, The Surf Atlas, mondo.surf) è uno spot «imperdibile» per esperti. Difetto: è isolato e c'è solo la formula surf camp",
+   "hazards": "Reef basso e tagliente (soprattutto Speedies e Money Trees con la bassa marea), ricci di mare, forti correnti lungo il reef, lontananza dagli ospedali; nella giungla del parco scimmie, serpenti, zanzare (dengue/malaria)",
+   "crowd_note": "La gente si distribuisce lungo il reef e la folla dipende da quanto sono pieni i camp; a Money Trees al picco dello swell c'è un po' di ressa, a Kongs e Chickens c'è più spazio",
+   "region": "Giava Orientale, parco nazionale di Alas Purwo (Banyuwangi), baia di Grajagan",
+   "area_breaks": "Sezioni del reef: Kongs (pareti, la più facile, funziona con onde piccole), Money Trees (tubo lungo, il picco principale), Launching Pads, Speedies (il tubo più pesante e basso); più morbide: Chickens, 20/20s (sinistra e destra), Tiger Tracks. In bassa stagione (fine novembre–aprile) c'è Reverse G, un'onda destra ~30 km più a est (in barca)",
+   "pros": [
+    "Tra i tubi sinistri più lunghi e perfetti al mondo",
+    "Offshore costante nella stagione secca",
+    "Nessun villaggio: solo giungla e oceano",
+    "Meno folla che a Bali"
+   ],
+   "cons": [
+    "Solo per intermedi sicuri ed esperti",
+    "I camp chiudono nella stagione delle piogge",
+    "Da Bali ci vuole mezza giornata",
+    "Reef basso e infortuni seri a Speedies"
+   ],
+   "airport": "DPS — Denpasar (Bali): via terra con il traghetto attraverso lo stretto, circa mezza giornata, oppure in barca da Bali; più vicino: BWX — Banyuwangi",
+   "best_wind_dir": "SE–E (aliseo, offshore)"
+  },
+  "lombok-kuta-gerupuk": {
+   "h": "6d68aaee37",
+   "description": "Il villaggio di Kuta, nel sud di Lombok, è un'alternativa tranquilla a Bali: tutt'intorno una decina di reef e spiagge per ogni livello. La zona principale è la baia di Gerupuk, dove ai break si arriva con le barche-taxi: i reef interni sono morbidi e riparati dal vento, quelli esterni più potenti. La stagione migliore è quella secca (aprile–ottobre), ma le onde ci sono tutto l'anno.",
+   "rating_basis": "Nelle guide (The Surf Atlas, Southeast Asia Backpacker, Wave Explorers) è una delle migliori zone dell'Indonesia per principianti e intermedi: una baia riparata con diversi reef per livelli diversi, più le onde per esperti (Desert Point, Mawi) sull'isola. Difetti: folla a Inside, la barca per raggiungere i break",
+   "hazards": "Reef di corallo basso con la bassa marea, ricci di mare, tavole volanti nella folla a Inside, set pesanti a Outside, correnti negli spot esposti (Are Guling)",
+   "crowd_note": "In stagione Inside Right è il line-up più affollato dell'isola (50–100 persone con onde piccole, le scuole godono di una priorità non scritta); Don Don, Outside Left, Ekas e Seger sono molto più liberi",
+   "region": "Costa sud di Lombok (Lombok Centrale), Oceano Indiano",
+   "area_breaks": "Nella baia di Gerupuk: Inside Right (principianti), Kiddies, Don Don (A-frame), Outside Right (intermedi), Outside Left (esperti). Nei dintorni: Tanjung Aan e Batu Payung, il reef di Seger vicino a Kuta, Mawi (tubi, da intermedi in su), Selong Belanak (spiaggia sabbiosa per imparare), Ekas (Inside/Outside); lontano a ovest Desert Point (esperti, stagione secca)",
+   "beginner_months": "Il periodo migliore è maggio–settembre: si impara a Inside Right nella baia di Gerupuk, a Tanjung Aan e sulla spiaggia di Selong Belanak; nella stagione delle piogge le onde sono meno costanti, ma le scuole lavorano tutto l'anno",
+   "pros": [
+    "Break per tutti i livelli in un'unica baia",
+    "Più tranquillo ed economico di Bali",
+    "Spiagge sabbiose per le prime lezioni (Selong Belanak)",
+    "Onde tutto l'anno"
+   ],
+   "cons": [
+    "Ai break di Gerupuk si arriva solo in barca (~100 mila IDR per 2 ore)",
+    "Molto affollato a Inside Right",
+    "Reef basso con la bassa marea",
+    "Dopo mezzogiorno l'aliseo rovina le onde negli spot esposti"
+   ],
+   "airport": "LOP — Lombok (Praya), ~20–30 min da Kuta",
+   "best_wind_dir": "N–NE (offshore al mattino; la baia è riparata dall'aliseo)"
+  },
+  "mentawai-macaronis": {
+   "h": "60decedc33",
+   "description": "Macaronis è una sinistra su reef sull'isola di North Pagai, una delle onde più famose e «facili» dell'Indonesia: una parete lunga e regolare con un tubo alla partenza e una spalla aperta. Ci si arriva con uno yacht charter (una o due settimane tra i break dell'arcipelago) oppure si alloggia in un surf resort direttamente nella baia. Adatta a intermedi forti con onde all'altezza della testa e a surfisti esperti con swell grande.",
+   "rating_basis": "Surfertoday e le guide surf la definiscono una delle migliori onde al mondo: una sinistra di regolarità meccanica, con tubo e spalla lunga, che funziona con qualsiasi marea. Le Mentawai in generale sono il modello del surf trip in barca",
+   "hazards": "Corallo tagliente e basso nella sezione interna (servono calzari e un kit per i tagli), take-off pesante con onde alte il doppio di una persona, lontananza dagli ospedali, malaria e dengue",
+   "crowd_note": "Spot su prenotazione: secondo le regole delle autorità delle Mentawai a Macaronis possono stare contemporaneamente 2 barche charter più gli ospiti del resort, ma la regola non sempre è rispettata. Da aprile a ottobre ci sono molte barche; da dicembre a febbraio i line-up sono quasi vuoti",
+   "region": "Isole Mentawai (North Pagai, baia di Pasongan), Sumatra Occidentale, Oceano Indiano",
+   "area_breaks": "Nella baia di Pasongan: Mini Macas (sinistra, per intermedi), Macaronis Right (destra corta e tubolare), Fish Fingers (spiaggia per principianti). Nelle Mentawai meridionali: Greenbush, Rags Right/Left, Thunders, Roxys; nel nord dell'arcipelago: Lance's Right (HT's), Lance's Left, Rifles, Telescopes, Bank Vaults",
+   "pros": [
+    "Una delle migliori sinistre al mondo",
+    "Funziona con qualsiasi marea e con venti diversi",
+    "Il limite al numero di barche tiene sotto controllo la folla",
+    "Decine di break di livello mondiale tutt'intorno"
+   ],
+   "cons": [
+    "Caro: charter o resort, tutto con pagamento anticipato",
+    "Lungo viaggio via Padang e per mare",
+    "Reef basso e tagliente nella sezione interna",
+    "Zona malarica, assistenza medica lontana"
+   ],
+   "airport": "PDG — Padang (Minangkabau); poi traghetto o speedboat fino a Sikakap / traversata notturna in yacht charter",
+   "best_wind_dir": "E–NE (offshore)"
+  },
+  "bundoran-the-peak": {
+   "h": "6f6843436f",
+   "description": "Bundoran è una piccola cittadina balneare nel nord-ovest dell'Irlanda e il principale centro del surf locale. The Peak è un A-frame su reef di roccia proprio davanti al lungomare: funziona con la bassa marea e swell da ovest, la sinistra è veloce e tubolare, la destra più lunga e morbida. L'acqua fredda e il vento sono compensati dal potente swell atlantico e dall'atmosfera cordiale.",
+   "rating_basis": "Capitale del surf irlandese: The Peak è un A-frame su reef di qualità (sinistra veloce e ripida, destra che regge qualsiasi misura), sede di campionati europei e nazionali. Thesurfatlas segnala un line-up cordiale, anche se affollato; difetti: acqua fredda e tempo ventoso",
+   "hazards": "Reef di roccia basso (soprattutto con la marea più bassa), close-out sulla sinistra con swell grande, vento forte e tempeste d'inverno, ipotermia",
+   "crowd_note": "Quando funziona, a The Peak c'è sempre gente, ma l'atmosfera è cordiale; a Tullan Strand, Rossnowlagh e sulle spiagge di Sligo c'è molto più spazio",
+   "region": "Contea di Donegal, nord-ovest dell'Irlanda (Atlantico, baia di Donegal)",
+   "area_breaks": "Nei dintorni: Tullan Strand (3 km di spiaggia, tutti i livelli, A-frame per longboard vicino agli scogli di Roguey), la spiaggia principale di Bundoran (shorebreak), Rossnowlagh (15 km, principianti), Mullaghmore Head (15 km, big wave tow-in di livello mondiale), Streedagh Strand (Sligo), Easkey (60 km, reef sinistro e destro)",
+   "beginner_months": "Maggio–settembre: si impara sulla spiaggia di Tullan Strand, a nord della città (sabbia, funziona con qualsiasi marea), e a Rossnowlagh (15 km); d'estate le scuole sono piene, prenotate in anticipo. Sul reef di The Peak i principianti non possono entrare",
+   "pros": [
+    "Reef di qualità in pieno centro",
+    "Molti spot nel raggio di 20 km, compresa la big wave di Mullaghmore",
+    "Locali cordiali e pub irlandesi",
+    "Swell atlantico costante in autunno e in inverno"
+   ],
+   "cons": [
+    "Acqua molto fredda (10–16 °C): d'inverno serve una 5/4 con calzari, guanti e cappuccio",
+    "Frequente vento forte da W–SW e pioggia",
+    "The Peak funziona solo con la bassa marea",
+    "Lontano dai grandi aeroporti"
+   ],
+   "airport": "NOC — Ireland West (Knock), ~1 h 30 min; BFS — Belfast, ~2 h 30 min; DUB — Dublino, ~3 h"
+  },
+  "tel-aviv-hilton": {
+   "h": "3a123a4452",
+   "description": "Surf urbano sul lungomare di Tel Aviv: a Hilton Beach due moli formano A-frame su un fondo misto di reef e sabbia. Il periodo migliore va da novembre a marzo, quando le tempeste mediterranee portano swell fino a 1,5–2 m e a volte c'è offshore da est; d'estate quasi ogni giorno c'è una piccola onda da vento e l'acqua è come in piscina, comodo per imparare. Gli swell durano poco: bisogna prenderli seguendo le previsioni, già il primo giorno.",
+   "rating_basis": "Lo spot surf più famoso di Israele (Surfertoday, Culture Trip, Time Out): A-frame tra due moli in piena città, forte cultura surf; ma lo swell mediterraneo se ne va in fretta: surf-forecast dà 2/10 e «incostante»",
+   "hazards": "Rocce e moli di cemento, correnti vicino ai frangiflutti, folla; d'estate (giugno–luglio) invasioni di meduse; dopo gli acquazzoni acqua inquinata; prima del viaggio verificate le raccomandazioni sulla sicurezza",
+   "crowd_note": "Quando c'è onda, a Hilton c'è moltissima ressa: è il principale spot cittadino; c'è più spazio a Maaravi, a Giaffa e sulle spiagge a nord (Herzliya, Netanya)",
+   "region": "Tel Aviv, Mar Mediterraneo",
+   "area_breaks": "Gordon e Frishman (beach break, scuole), Dolphinarium, Maaravi (spiaggia esposta a sud, sinistre e destre vicino ai piloni di pietra, grande d'inverno), Giaffa; Herzliya e Netanya (Kontiki, Sironit) a nord; Bat Galim a Haifa (~95 km, diversi picchi per longboard e intermedi, rocce)",
+   "beginner_months": "Maggio–ottobre: piccola onda da vento da nord-ovest, dal ginocchio alla vita, e acqua calda a 22–29 °C; si impara a Hilton Beach, Gordon Beach e Maaravi (Giaffa), al mattino, e d'inverno nei giorni piccoli",
+   "pros": [
+    "Surf in piena grande città, tutto a portata di mano",
+    "Acqua calda per gran parte dell'anno",
+    "Tante scuole e noleggi",
+    "D'estate quasi sempre c'è una piccola onda per imparare"
+   ],
+   "cons": [
+    "Swell incostante che se ne va in fretta",
+    "Molta ressa sui picchi principali",
+    "Onde piccole per i surfisti esperti",
+    "Situazione di sicurezza instabile nella regione"
+   ],
+   "airport": "TLV — Tel Aviv (Ben Gurion), ~25 min"
+  },
+  "kerala-varkala": {
+   "h": "19a87ce99e",
+   "description": "Le spiagge sotto le scogliere rosse di Varkala sono un posto caldo (28–30 °C) e tranquillo per le prime lezioni, con yoga e ayurveda in aggiunta. La stagione va da ottobre ad aprile: swell piccoli e costanti da sud-ovest, al mattino bonaccia o leggero offshore, verso mezzogiorno si alza la brezza di mare. Da giugno a settembre il monsone porta tempeste e mare pericoloso.",
+   "rating_basis": "Lonely Planet e Kerala Tourism indicano Varkala e Kovalam come i principali posti per il surf nell'India meridionale; l'onda è piccola e morbida, buona per imparare (surf-forecast: «la folla non è mai un problema», ma qualità dell'onda 1/10); per gli intermedi sono più interessanti il point sinistro di Edava e Kovalam, vicino al faro",
+   "hazards": "Forti correnti di risacca e risucchio (sulle spiagge di Varkala annegano regolarmente dei bagnanti), banchi di sabbia che si spostano, acqua sporca dopo le piogge, caldo e sole; durante il monsone mare in tempesta",
+   "crowd_note": "I surfisti venuti da fuori sono qualche centinaio su tutta la costa, in line-up c'è spazio; un po' più di gente sul point sinistro vicino a Edava",
+   "region": "Kerala (distretto di Thiruvananthapuram), Mar Arabico",
+   "area_breaks": "North Cliff e Black Beach (Varkala), Odayam, Edava (point sinistro veloce e tubolare vicino alla moschea, da intermedi in su), Kappil, Paravur (A-frame alla foce del fiume); Kovalam (~50 km a sud: point sinistro vicino al faro e Hawa Beach) e Poovar (sinistra potente, stagionale)",
+   "beginner_months": "Ottobre–aprile sulle spiagge sotto la scogliera di Varkala, North Cliff e Black Beach, e a Kovalam (Hawa Beach); meglio uscire al mattino presto, prima della brezza di mare. Durante il monsone (giugno–settembre) il mare è agitato: non è stagione",
+   "pros": [
+    "Acqua molto calda, niente muta",
+    "Onde morbide per principianti, quasi nessuna folla",
+    "Economico, yoga e ayurveda",
+    "Comodo aeroporto di Trivandrum vicino"
+   ],
+   "cons": [
+    "Onde piccole, le giornate di qualità sono rare",
+    "A metà giornata soffia onshore",
+    "Monsone da giugno a settembre: non è stagione",
+    "In alcuni punti acqua sporca, dress code conservatore fuori dalle spiagge turistiche"
+   ],
+   "airport": "TRV — Thiruvananthapuram (Trivandrum), ~1 h da Varkala, ~30 min da Kovalam"
+  },
+  "chiba-ichinomiya-tsurigasaki": {
+   "h": "8973c4f387",
+   "description": "Ichinomiya è una cittadina del surf sulla costa est della penisola di Boso, a un'ora–un'ora e mezza da Tokyo; la spiaggia di Tsurigasaki ha ospitato il surf olimpico nel 2021. I banchi di sabbia tra i pennelli di roccia danno picchi a sinistra e a destra; le onde migliori le portano i tifoni ad agosto–ottobre, d'inverno swell costante e vento offshore da nord-ovest, ma acqua fredda.",
+   "rating_basis": "La spiaggia surf più famosa del Giappone e sede del primo torneo olimpico di surf (Tokyo 2020, luglio 2021). Japanesetaste definisce Tsurigasaki uno spot «popolare e affidabile» per tutti i livelli; l'onda è data dai banchi di sabbia vicino ai pennelli di roccia, e le giornate migliori arrivano con gli swell dei tifoni",
+   "hazards": "Correnti di ritorno vicino ai pennelli di roccia, potenti swell dei tifoni (agosto–ottobre), acqua fredda d'inverno; rispettate le regole locali delle spiagge e la fila",
+   "crowd_note": "Nel weekend, soprattutto d'estate, c'è moltissima gente (Tokyo è a 1–1,5 h); nei giorni feriali e d'inverno c'è molto più spazio",
+   "region": "Prefettura di Chiba, penisola di Boso (costa di Kujukuri), Oceano Pacifico",
+   "area_breaks": "Lungo la spiaggia di Kujukuri: Shidashita e Taito (beach break vicino ai pennelli), Torami (accanto a Ichinomiya); più a sud Onjuku (onda morbida, principianti, famiglie) e Katsuura (meno gente)",
+   "beginner_months": "Il periodo più comodo per imparare va da giugno a inizio settembre (acqua calda, onde piccole), sulle spiagge di Ichinomiya e Onjuku; in autunno, con gli swell dei tifoni, i principianti farebbero meglio a scegliere i tratti riparati vicino ai frangiflutti",
+   "pros": [
+    "La zona surf seria più vicina a Tokyo",
+    "Onde quasi tutto l'anno",
+    "Spiaggia olimpica con surf shop, noleggi e caffè",
+    "Adatta a tutti i livelli nei diversi tratti"
+   ],
+   "cons": [
+    "Affollato nel weekend",
+    "D'inverno acqua fredda (14–15 °C): serve una muta 4/3–5/4",
+    "Le onde dipendono molto dai tifoni",
+    "Poche informazioni e poche scuole in inglese, nessuna in russo"
+   ],
+   "airport": "NRT — Tokyo-Narita, ~1 h; HND — Haneda, ~1,5 h",
+   "best_wind_dir": "WSW–W–NW (offshore; monsone invernale)",
+   "best_swell_dir": "SE–E (swell dei tifoni)"
+  },
+  "sri-lanka-arugam-bay": {
+   "h": "ed7c35fb18",
+   "description": "Arugam Bay è la capitale del surf dell'est dello Sri Lanka: un point destro nella parte sud della baia e una decina di destre lungo la costa. La stagione è aprile–settembre, quando qui il monsone di sud-ovest soffia offshore, mentre il sud dell'isola è chiuso. Villaggio rilassato con ostelli, caffè e scuole; buono per intermedi.",
+   "rating_basis": "La principale località surf dell'est dello Sri Lanka e la destra più famosa del paese: un lungo point da 150–400 m. Nelle guide (The Surf Atlas, yamu.lk) è la migliore meta dello Sri Lanka d'estate; difetto: folla a giugno–agosto",
+   "hazards": "Rocce e reef sul point, folla e tavole volanti; coccodrilli nelle lagune vicino a Peanut Farm ed Elephant Rock; elefanti selvatici sulle strade la sera; correnti vicino ai promontori (Okanda)",
+   "crowd_note": "Main Point è molto affollato a giugno–agosto; Peanut Farm è la base delle scuole; a Okanda, Lighthouse e Pottuvil Point c'è più spazio. Ad aprile–maggio e settembre–ottobre c'è meno gente",
+   "region": "Costa orientale (Ampara, Pottuvil), Golfo del Bengala / Oceano Indiano",
+   "area_breaks": "Nei dintorni: Baby Point (sezione interna morbida, principianti), Peanut Farm (point destri, da principianti a intermedi, ~20 min a sud), Elephant Rock (onda morbida per longboard), Pottuvil Point (lungo point sabbioso), Lighthouse (due destre, ~45 min a nord), Whiskey Point (indebolito dall'erosione), Okanda (tre point, da intermedi forti in su, 23 km a sud)",
+   "beginner_months": "Maggio–settembre: si impara a Baby Point (parte interna di Main Point), a Peanut Farm con onde piccole e a Elephant Rock; per i principianti è più facile cominciare d'inverno nel sud dell'isola",
+   "pros": [
+    "Lunghe destre: il paradiso dei regular",
+    "Stagione in cui il sud dello Sri Lanka non funziona",
+    "Molti break per livelli diversi nel raggio di 30 km",
+    "Alloggi economici e atmosfera da villaggio surf"
+   ],
+   "cons": [
+    "Folla a Main Point d'estate",
+    "Da dicembre a marzo non funziona quasi mai (monsone di nord-est)",
+    "Lungo viaggio da Colombo",
+    "Quasi nessuna sinistra"
+   ],
+   "airport": "CMB — Colombo (Bandaranaike), ~7–8 h in auto; più vicino: voli nazionali per Ampara / Batticaloa (BTC)",
+   "best_wind_dir": "W–SW (monsone di sud-ovest, offshore)"
+  },
+  "sri-lanka-weligama": {
+   "h": "79456154ec",
+   "description": "Weligama è una lunga baia sabbiosa nel sud dello Sri Lanka e il principale punto dell'isola per imparare a surfare. Da novembre ad aprile soffia il monsone di nord-est (offshore) e i piccoli swell da sud-ovest danno onde morbide e dolci, su cui i principianti si alzano in piedi. Tutt'intorno decine di scuole e surf camp, molti con istruttori di lingua russa, e a 10–30 minuti i reef di Midigama e Mirissa e la baia di Hiriketiya per gli intermedi.",
+   "rating_basis": "Il posto più popolare per imparare in Sri Lanka e la «capitale russa del surf» dell'isola: decine di scuole e surf camp (anche in lingua russa). La qualità dell'onda in sé è modesta (surf-forecast ~2/5), ma nei dintorni ci sono reef per intermedi: Mirissa, Midigama, Rams",
+   "hazards": "Folla di principianti e tavole volanti, acqua inquinata in parte della baia, correnti con onde grandi d'estate; sui reef vicini (Midigama, Mirissa) reef basso, coralli e ricci di mare",
+   "crowd_note": "Nella baia ci sono contemporaneamente decine di allievi e scuole, soprattutto a dicembre–marzo; anche sui reef di Midigama e a Hiriketiya c'è gente in alta stagione, più spazio al mattino presto",
+   "region": "Costa sud (distretto di Matara), Oceano Indiano",
+   "area_breaks": "Nei dintorni: Mirissa (sinistra su reef e Mirissa Right, intermedi), Madiha e Rams (reef per esperti), Midigama (Lazy Left/Lazy Right, Coconut Point, Plantation), Ahangama e Kabalana (spiaggia e reef); ~30 km a est Hiriketiya (baia a ferro di cavallo: sinistra su reef e beach break morbido, tutti i livelli)",
+   "beginner_months": "Novembre–aprile è la stagione migliore per imparare: onde morbide nella baia sabbiosa quasi ogni giorno, e le maree contano poco. D'estate le scuole lavorano comunque, ma le onde sono più grandi e il vento soffia dal mare",
+   "pros": [
+    "Posto ideale per le prime lezioni: sabbia e onde morbide",
+    "Tantissime scuole e surf camp in lingua russa",
+    "Reef per intermedi a 10–30 minuti",
+    "Alloggi e cibo economici, acqua calda tutto l'anno"
+   ],
+   "cons": [
+    "Ressa in acqua in alta stagione",
+    "L'onda della baia offre poco agli esperti",
+    "Da giugno a settembre onshore e mareggiate del monsone di sud-ovest",
+    "In alcuni punti l'acqua della baia è sporca (porto peschereccio, scarichi)"
+   ],
+   "airport": "CMB — Colombo (Bandaranaike), ~2,5–3 h in autostrada; HRI — Mattala, ~1,5 h",
+   "best_wind_dir": "N–NE (monsone di nord-est, offshore)"
+  },
+  "imsouane-the-bay": {
+   "h": "4e44745c5a",
+   "description": "Imsouane è un villaggio di pescatori su un promontorio tra Agadir ed Essaouira. The Bay è una destra morbida che gira intorno al promontorio e attraversa tutta la baia: con swell lungo le surfate arrivano a 600–800 m, e al line-up ci si arriva camminando lungo la spiaggia. Le condizioni migliori sono da ottobre a marzo, quando arrivano gli swell da nord-ovest e gli alisei si calmano.",
+   "rating_basis": "«Una delle onde più lunghe d'Africa» (Surfertoday): surfate di 600–800 m; Thesurfatlas: «probabilmente il miglior point da longboard d'Africa». Popolare tra principianti e longboarder; per lo shortboard, con swell grande, è a sezioni",
+   "hazards": "Rocce all'uscita verso il line-up (soprattutto con la bassa marea), ricci di mare, scontri con i longboard nella folla, correnti a Cathedral",
+   "crowd_note": "In stagione a The Bay ci sono molti longboarder e gruppi dei surf camp, ma è comunque più tranquillo che a Taghazout; d'estate il line-up è meno pieno",
+   "region": "Costa tra Agadir ed Essaouira (Atlantico)",
+   "area_breaks": "Nei dintorni: Cathedral (point destro e spiaggia con picchi in entrambe le direzioni sul lato nord del promontorio, più veloce e potente: da intermedi in su), il reef tra The Bay e Cathedral (onde cave per avanzati); Tamri e i point di Taghazout 50–80 km a sud",
+   "beginner_months": "Tutto l'anno: nei giorni piccoli l'onda morbida in fondo alla baia di The Bay e la spiaggia di Cathedral (con l'alta marea) sono ideali per imparare e per il longboard; d'estate le onde sono più piccole, ma la baia è riparata dal vento da nord",
+   "pros": [
+    "Una delle onde più lunghe d'Europa e d'Africa",
+    "Ideale per il longboard e per chi sta progredendo",
+    "Facile raggiungere il line-up dal canale e dalla spiaggia",
+    "Villaggio tranquillo, pesce fresco; i surf camp di lingua russa di Taghazout organizzano qui surf trip"
+   ],
+   "cons": [
+    "Per lo shortboard l'onda è morbida e a sezioni",
+    "Serve uno swell abbastanza grande perché l'onda giri intorno al promontorio",
+    "Lontano dall'aeroporto, difficile arrivare senza auto",
+    "All'inizio del 2024 è stata demolita parte delle costruzioni sulla costa: le strutture stanno cambiando"
+   ],
+   "airport": "AGA — Agadir, ~1 h 30 min (100 km); ESU — Essaouira, ~1 h 30 min",
+   "best_wind_dir": "N–NE (offshore nella baia)"
+  },
+  "taghazout-anchor-point": {
+   "h": "775d9a7fc0",
+   "description": "Anchor Point è una lunga destra lungo un promontorio roccioso a un chilometro dal villaggio di Taghazout, il simbolo del surf marocchino. Da ottobre a marzo gli swell invernali da nord-ovest danno una sezione dopo l'altra, e nei dintorni c'è una decina di point e spiagge per ogni livello. Il clima caldo e secco d'inverno, i surf camp economici e la cucina marocchina fanno di Taghazout una delle principali mete surf invernali per gli europei.",
+   "rating_basis": "L'onda più famosa del Marocco: Thesurfatlas, «point destro di livello mondiale», lunghe pareti fino a 500 m (mondo.surf), regge swell di 2–3 m e oltre; Taghazout è il principale hub surf del Nord Africa, con decine di surf camp. Difetto: tanta folla al take-off",
+   "hazards": "Rocce all'entrata e all'uscita dal promontorio (spesso con ricci di mare: portate i calzari), take-off ripido e affollato, folla, correnti con swell grande",
+   "crowd_note": "In una buona giornata al take-off ci sono fino a 30 persone; nei point vicini (Hash Point, Mysteries, Boilers) e al mattino presto c'è più spazio",
+   "region": "Souss-Massa, costa a nord di Agadir (Atlantico)",
+   "area_breaks": "Nei dintorni: Killer Point (destra potente, per esperti), Boilers (destra vicino al relitto), Mysteries, Hash Point (destra morbida, tutti i livelli), Panoramas (sezione interna di Anchor), La Source (reef), Banana Point e Devil's Rock (principianti, Tamraght/Aourir), Crocro; Imsouane 80 km a nord",
+   "beginner_months": "Tutto l'anno, soprattutto maggio–settembre (onde di 0,5–1,5 m): si impara a Tamraght e Aourir (Banana Point, Devil's Rock, Crocro); d'inverno, nei giorni piccoli, a Hash Point e nella sezione interna di Panoramas. Anchor Point vero e proprio è da intermedi sicuri in su",
+   "pros": [
+    "Lunga destra di qualità, di livello mondiale",
+    "Inverno caldo e soleggiato (+21–24 °C)",
+    "Enorme scelta di surf camp «all inclusive», anche in lingua russa",
+    "Molti point nei dintorni per ogni livello"
+   ],
+   "cons": [
+    "Molta ressa ad Anchor in stagione",
+    "D'estate poche onde e vento forte",
+    "Entrata e uscita sulle rocce",
+    "Acqua fresca per la latitudine (17–22 °C): serve una 3/2"
+   ],
+   "airport": "AGA — Agadir, ~45 min (40 km); RAK — Marrakech, ~3 h",
+   "best_wind_dir": "NE–E (offshore), bonaccia"
+  },
+  "madagascar-anakao": {
+   "h": "74fde70336",
+   "description": "Un villaggio di pescatori del popolo vezo nell'arido sud-ovest del Madagascar: di fronte, sui reef esterni e vicino all'isola di Nosy Ve, rompono lunghe sinistre e rare destre. La stagione va da aprile a ottobre, quando arrivano gli swell da sud dell'Oceano Australe e al mattino soffia offshore da est (di giorno il vento rinforza). Ai picchi si arriva con le barche dei pescatori; i principianti qui non hanno nulla da fare, ma l'acqua è calda e non c'è quasi nessuno.",
+   "rating_basis": "Surf Atlas e Détours Madagascar indicano i reef di Anakao come la principale zona surf dell'isola: Flameballs è una «sinistra lunga e veloce di livello internazionale», quasi senza folla; surf-forecast definisce Jelly Babies «molto costante» (fino al 57 % di giornate pulite a luglio). Difetti: isolamento, accesso solo in barca, squali",
+   "hazards": "Corallo basso e tagliente e rocce, squali (soprattutto vicino alle foci dei fiumi), vento forte nel pomeriggio, lontananza dall'assistenza medica, cicloni da novembre a marzo; malaria",
+   "crowd_note": "I line-up sono quasi sempre vuoti: in zona lavorano pochissimi surf lodge e guide",
+   "region": "Sud-ovest del Madagascar (regione di Atsimo-Andrefana, vicino a Toliara), Canale di Mozambico",
+   "area_breaks": "Flameballs (lunga sinistra a nord dell'isola di Nosy Ve, per esperti, solo dalla barca), Jelly Babies (reef con destre e sinistre di fronte all'estremità sud di Anakao), Puss Puss (reef esterno, il vento lo rovina presto); più a sud Lavanono (sinistra su corallo, ~250 km da Fort-Dauphin)",
+   "pros": [
+    "Sinistre su reef di qualità senza folla",
+    "Acqua calda a 23–27 °C",
+    "Swell da sud costante in stagione",
+    "Natura selvaggia e cultura vezo"
+   ],
+   "cons": [
+    "Lungo viaggio: via Antananarivo fino a Toliara, poi in barca",
+    "Quasi nessuna struttura, noleggio o scuola",
+    "Ai picchi si arriva solo in barca",
+    "Novembre–marzo è la stagione dei cicloni"
+   ],
+   "airport": "TLE — Toliara (Tuléar), poi ~1 h di barca; voli internazionali via TNR — Antananarivo"
+  },
+  "mauritius-tamarin-bay": {
+   "h": "b3367c8a4c",
+   "description": "Tamarin è una classica sinistra su reef alla foce di un fiume, sull'arida costa ovest; funziona meglio nell'inverno australe (maggio–settembre) con swell da sud-ovest e l'aliseo da sud-est, che qui soffia offshore. La baia è riparata e serve uno swell grande, per cui l'onda è incostante. Per gli esperti il trofeo principale dell'isola è One Eye, ai piedi del monte Le Morne.",
+   "rating_basis": "L'onda più famosa di Mauritius (il film «Forgotten Island of Santosha», 1974): su surf-forecast ha il punteggio più alto dell'isola, 5/10, ma è «incostante»; Lonely Planet e Air Mauritius mettono Tamarin e One Eye in cima agli spot dell'isola; per esperti c'è One Eye a Le Morne (4/10, «costante», fino al 71 % di giornate pulite a maggio)",
+   "hazards": "Reef basso e tagliente e coralli, ricci di mare, forti correnti nei passaggi (soprattutto a One Eye), localismo; gli squali si vedono di rado",
+   "crowd_note": "Quando la baia funziona, sull'unico picco si radunano i locali e lo spazio è poco; anche a One Eye a volte c'è ressa, gli altri reef di solito sono vuoti",
+   "region": "Costa ovest (distretto di Black River), Oceano Indiano",
+   "area_breaks": "One Eye a Le Morne (~17 km, sinistra potente attraverso un passaggio nel reef, solo per esperti, con vento forte si rovina), laguna di Le Morne (principianti), Rivière des Galets (sinistre, ciottoli), Manawa e Baie des Oursins a sud (reef, per esperti)",
+   "beginner_months": "Onde piccole vicino a riva nella baia di Tamarin e nella zona di Le Morne (meno rocce): le scuole locali insegnano tutto l'anno, più comodo a ottobre–aprile, quando lo swell è più debole",
+   "pros": [
+    "Acqua calda a 23–28 °C, si surfa in boardshort",
+    "Sulla costa ovest l'aliseo soffia offshore",
+    "Località con buoni hotel e una laguna da kite vicina",
+    "Vicino a One Eye, un'onda di livello mondiale per esperti"
+   ],
+   "cons": [
+    "Tamarin funziona in modo incostante, serve uno swell grande",
+    "Reef basso e pochi picchi: ressa con i locali",
+    "Storica reputazione di localismo",
+    "Meta cara"
+   ],
+   "airport": "MRU — Mauritius (Ramgoolam), ~1 h"
+  },
+  "maldives-north-male-sultans": {
+   "h": "e04b8c4273",
+   "description": "L'atollo di North Malé è la zona surf più accessibile delle Maldive: una decina di onde su reef a 20–60 minuti di barca dall'aeroporto. Sultans è una destra lunga e veloce sul reef esterno dell'isola disabitata di Thanburudhoo, funziona con qualsiasi marea e regge swell grandi. Ci si arriva solo in barca: dai resort, dalle guesthouse di Thulusdhoo e Himmafushi o con un surf charter.",
+   "rating_basis": "Surfertoday e amaldives definiscono Sultans una delle onde più costanti delle Maldive: una lunga destra che «non chiude mai»; l'atollo di Malé è la zona surf più accessibile del paese, con una decina di reef di livello mondiale. Difetti: folla a maggio–agosto e prezzi alti",
+   "hazards": "Corallo basso e tagliente (servono calzari da reef), i tagli da corallo si infiammano in fretta nell'acqua calda, correnti con swell grande, lontananza dagli ospedali, sole forte",
+   "crowd_note": "In alta stagione (maggio–agosto) a Sultans e Chickens c'è ressa: barche dei resort, dei charter e delle guesthouse di Thulusdhoo; nel weekend arrivano i locali da Malé. Honky's e Lohis di solito sono più liberi, Pasta Point è solo per gli ospiti del resort Dhonveli",
+   "region": "Atollo di Kaafu (North Malé), isola di Thanburudhoo, Oceano Indiano",
+   "area_breaks": "Nei dintorni: Honky's (lunga sinistra dall'altro lato di Thanburudhoo, funziona quando a Sultans c'è onshore), Jailbreaks (lunga destra vicino a Himmafushi), Cokes (destra potente e tubolare vicino a Thulusdhoo), Chickens (lunga sinistra vicino a Kuda Villingili), Lohis e Pasta Point (sinistre, esclusiva dei resort); più a sud l'atollo di South Malé (Kandooma e altri)",
+   "pros": [
+    "Onde perfette su reef in acqua calda e cristallina",
+    "Solo 20–60 minuti dall'aeroporto",
+    "Opzioni dalle guesthouse ai charter e ai resort",
+    "Honky's e Sultans si completano a vicenda con venti diversi"
+   ],
+   "cons": [
+    "Caro (barche, resort, charter)",
+    "Ressa a maggio–agosto",
+    "Non per principianti: reef basso e tagliente",
+    "Da dicembre a febbraio onde piccole e rare"
+   ],
+   "airport": "MLE — Malé (Velana), 20–60 min di barca fino ai break",
+   "best_wind_dir": "W–NW (monsone di sud-ovest, offshore)"
+  },
+  "puerto-escondido-zicatela": {
+   "h": "215005aaf6",
+   "description": "Puerto Escondido è la principale città del surf di Oaxaca e la capitale mondiale dei beach break pesanti. Zicatela rompe in potenti tubi cavi proprio a riva con gli swell da sud-ovest; nella stagione degli swell da sud (aprile–ottobre) le onde arrivano a 4–8 m. Gli intermedi surfano sul point sinistro di La Punta, i principianti nelle baie di Carrizalillo e Marinero.",
+   "rating_basis": "Il «Pipeline messicano», uno dei beach break più pesanti al mondo, tappa del WSL Big Wave e del Puerto Escondido Challenge; è nelle top list mondiali (Surfertoday, Surfline, The Surf Atlas). Per gli intermedi il punteggio è sostenuto da La Punta, ma sul picco principale entrano solo gli esperti",
+   "hazards": "Shorebreak pesante e close-out, forti correnti di risacca, tavole rotte e infortuni; a La Punta rocce; a volte squali; piccoli furti in spiaggia",
+   "crowd_note": "A Zicatela nei giorni grandi c'è poca gente (fa troppa paura), mentre La Punta e Carrizalillo sono molto affollate: a La Punta c'è ressa e le rocce sono vicine, a Carrizalillo fino a 30 persone in una piccola baia",
+   "region": "Stato di Oaxaca, costa del Pacifico",
+   "area_breaks": "Nei dintorni: La Punta (lunga sinistra vicino alle rocce, intermedi), Carrizalillo (onda morbida nella baia, principianti), Playa Marinero (principianti), Bacocho (beach break), Punta Colorada (point a nord, avanzati); più a sud Chacahua e Barra de Colotepec",
+   "beginner_months": "A Zicatela i principianti non possono entrare. Si impara tutto l'anno nella baia di Carrizalillo e a Playa Marinero; i mesi migliori per imparare sono dicembre–aprile, quando lo swell è più piccolo e pulito. Gli intermedi surfano sul point sinistro di La Punta, all'estremità sud di Zicatela",
+   "pros": [
+    "Onde tutto l'anno, molto costanti",
+    "Acqua calda a 27–29 °C, la muta non serve",
+    "Opzioni per tutti i livelli nella stessa città",
+    "Economico, vita sociale e alloggi sulla spiaggia"
+   ],
+   "cons": [
+    "Il picco principale è mortalmente pericoloso per chi non è preparato",
+    "Ressa a La Punta e Carrizalillo",
+    "Stagione delle piogge e umidità a giugno–ottobre",
+    "Al mattino offshore, di giorno entra presto l'onshore"
+   ],
+   "airport": "PXM — Puerto Escondido, ~10 min; HUX — Huatulco, ~2 h",
+   "best_wind_dir": "N–NE (offshore, al mattino)"
+  },
+  "sayulita": {
+   "h": "1fd5778f6b",
+   "description": "Sayulita è un paese hippie della Riviera Nayarit, uno dei posti principali in Messico dove si impara a surfare. Davanti al paese funzionano un point destro alla foce del fiume e un morbido beach break sinistro su sabbia; l'onda è lenta e indulgente. D'inverno (novembre–maggio) onde piccole e pulite e tempo secco, d'estate swell da sud più grandi, ma caldo, pioggia e acqua torbida vicino al fiume.",
+   "rating_basis": "Uno dei posti più popolari per imparare in Messico (Rapture Camps, Mexico Travel & Leisure, The Surf Atlas): onda morbida e lenta, point destro e beach break sinistro, paese bohémien. Per gli avanzati le onde sono poche: vanno a Punta Mita e La Lancha; difetti: folla e acqua torbida dopo le piogge",
+   "hazards": "Rocce e ciottoli vicino al point (servono le scarpette), scontri nella folla, correnti con i grandi swell estivi, acqua torbida e rifiuti alla foce dopo gli acquazzoni, meduse; stagione degli uragani giugno–novembre",
+   "crowd_note": "Da dicembre a marzo il line-up è pieno di scuole e di gente con tavole a noleggio; a San Pancho (7 km a nord) le persone sono molte meno",
+   "region": "Nayarit, Riviera Nayarit (a nord di Puerto Vallarta)",
+   "area_breaks": "Nei dintorni: Punta Sayulita (reef a sud), La Lancha (più veloce e con tubi, da intermedi ad avanzati, ~3 km), San Pancho (beach break, sinistre, ~7 km), i point di Punta Mita: El Faro, La Lancia, Stinky's, Burros (25 km, meglio con swell da nord a novembre–maggio)",
+   "beginner_months": "Novembre–maggio è il periodo migliore per imparare: onde di 0,6–1,2 m, secco e soleggiato; si impara direttamente sulla spiaggia principale (sinistra su sabbia), ad aprile–maggio c'è meno gente",
+   "pros": [
+    "Onda ideale per imparare e per il longboard",
+    "Onde quasi tutto l'anno",
+    "Tantissime scuole e noleggi, paese vivace",
+    "Vicino ai point di Punta Mita per progredire"
+   ],
+   "cons": [
+    "Molta ressa in stagione",
+    "Acqua torbida alla foce del fiume dopo le piogge",
+    "Di giorno entra presto l'onshore",
+    "Gli avanzati si annoiano sulla spiaggia principale"
+   ],
+   "airport": "PVR — Puerto Vallarta, ~45 min",
+   "best_wind_dir": "E–NE (offshore, al mattino)",
+   "best_swell_dir": "NW (inverno) e S–SW (estate)"
+  },
+  "tofo-tofinho": {
+   "h": "213f657e28",
+   "description": "Un villaggio rilassato su un promontorio vicino a Inhambane: all'estremità sud della spiaggia c'è il point destro di Tofinho, su reef, con pareti potenti e tubi corti, e sulla spiaggia stessa un beach break per imparare. Il periodo migliore è aprile–agosto, quando arrivano gli swell da sud e al mattino soffia offshore da ovest. L'acqua è calda tutto l'anno e tra una sessione e l'altra si può nuotare con squali balena e mante.",
+   "rating_basis": "Tofinho è un point destro su reef di qualità (surf-forecast 4/10, «molto raramente affollato»); Surfertoday e Surf Atlas indicano Tofo come il principale posto per il surf in Mozambico; a favore acqua calda e squali balena, contro l'incostanza e la logistica complicata",
+   "hazards": "Reef e rocce a Tofinho, close-out sul beach break, correnti, squali (fauna marina ricca), meduse stagionali; malaria: serve la profilassi",
+   "crowd_note": "Quasi sempre libero: a Tofinho di solito ci sono pochi locali e viaggiatori, c'è ressa solo durante le vacanze dei sudafricani (dicembre, Pasqua)",
+   "region": "Provincia di Inhambane, Oceano Indiano",
+   "area_breaks": "Nei dintorni: la spiaggia principale di Tofo (beach break, principianti), Barra (sul promontorio, funziona solo con grande swell da sud); Guinjata Bay (pareti destre per tutti i livelli, ~1 h 15 min d'auto)",
+   "beginner_months": "Tutto l'anno sulla spiaggia principale di Tofo (beach break di 0,5–1,2 m, con un picco vicino al molo), meglio con swell piccolo al mattino; le lezioni le danno i diving center e i surf shop locali",
+   "pros": [
+    "Acqua calda tutto l'anno",
+    "Quasi nessuna folla",
+    "Squali balena, mante e megattere (giugno–ottobre)",
+    "Atmosfera da villaggio per backpacker, economico"
+   ],
+   "cons": [
+    "Tofinho funziona in modo incostante ed è sensibile al vento",
+    "Logistica complicata: volo via Johannesburg, strade pessime",
+    "Zona malarica",
+    "Poche scuole e noleggi"
+   ],
+   "airport": "INH — Inhambane, ~30 min (voli da Johannesburg); MPM — Maputo, ~7–8 h in auto"
+  },
+  "skeleton-bay-namibia": {
+   "h": "db88ed121e",
+   "description": "Un tubo sinistro veloce, basso e lunghissimo lungo una lingua di sabbia a nord-ovest di Walvis Bay, in mezzo al deserto del Namib. Funziona solo nell'inverno australe (maggio–settembre) con un grande swell da sud-ovest di lungo periodo, di solito per 1–3 giorni di fila, per cui ci si viene apposta seguendo una previsione precisa. Solo per esperti: l'onda rompe quasi sulla sabbia asciutta e la corrente trascina giù lungo il point.",
+   "rating_basis": "Il tubo sinistro su sabbia più lungo del mondo (fino a ~2 km, surfate fino a 3 minuti): n. 1 nella lista delle onde più lunghe del mondo di Surf Europe, protagonista fisso di Stab e Surfertoday, se ne è discusso come tappa WSL; ma funziona solo pochi giorni a stagione ed è solo per esperti",
+   "hazards": "Molto bassa (rompe su sabbia con l'acqua alla caviglia): infortuni e tavole rotte; forte corrente lungo la lingua di sabbia (~20 km/h), lunga camminata per tornare al picco (le regole locali vietano di tornare in auto); colonia di otarie a Pelican Point e acqua torbida: rischio squali; meduse; acqua fredda a 14–17 °C, nebbia, vento e polvere",
+   "crowd_note": "Quando arriva lo swell, da tutto il mondo arrivano le «strike mission»: sul picco ci sono decine dei surfisti più forti e solo una piccola parte riesce a prendere la sua onda; il resto del tempo è vuoto",
+   "region": "Regione di Erongo, Atlantico (Costa degli Scheletri)",
+   "area_breaks": "L'onda corre lungo la lingua di sabbia di Pelican Point; i beach break di Swakopmund (~35 km a nord) sono per surfate più tranquille",
+   "pros": [
+    "Il tubo più lungo del mondo, un'onda da sogno",
+    "Fondo di sabbia (non reef)",
+    "Paesaggi desertici e otarie",
+    "Quando funziona, più tubi in una sola surfata"
+   ],
+   "cons": [
+    "Funziona solo pochi giorni a stagione",
+    "Solo per esperti, molte tavole rotte",
+    "Folla dei surfisti più forti nei giorni di swell",
+    "Serve un fuoristrada, acqua fredda e nebbia"
+   ],
+   "airport": "WVB — Walvis Bay, ~45 min in fuoristrada; WDH — Windhoek, ~5–6 h in auto",
+   "best_swell_dir": "SW–W (periodo lungo)"
+  },
+  "popoyo-main-reef": {
+   "h": "872665474a",
+   "description": "Popoyo è un villaggio surf sulla Costa Smeralda (Emerald Coast) del Nicaragua, famoso per un raro fenomeno naturale: il vento caldo che arriva dall'enorme lago Nicaragua soffia offshore per gran parte dell'anno. Main Reef è un picco A-frame su una lastra di roccia con sinistre e destre cave, che funziona con qualsiasi marea; 150 m più al largo c'è Outer Reef per le big wave. Tutt'intorno una decina di spiagge e reef per ogni livello.",
+   "rating_basis": "Lo spot più famoso e costante del Nicaragua: «oltre 300 giorni di offshore l'anno» grazie al vento del lago Nicaragua (Mondo Surf, Perfect Wave, The Surf Atlas: «una vera perla per l'upper intermediate»). Outer Reef regge onde di 6–8 m. Difetto: Popoyo non è più un segreto da tempo e la folla cresce",
+   "hazards": "Reef di roccia (basso a Outer Reef, molti infortuni), correnti e risacca, forti raffiche offshore a dicembre–marzo, sole; situazione politica nel paese: verificate le regole d'ingresso",
+   "crowd_note": "A Main Reef in stagione (maggio–settembre) ci sono molti surf camp e barche da San Juan del Sur; Playa Santana, Guasacate e Beginner Bay sono più libere",
+   "region": "Dipartimento di Rivas, Costa Smeralda (Emerald Coast), Oceano Pacifico",
+   "area_breaks": "Nei dintorni: Outer Reef (sinistra pesante per esperti, da 3–4 m), Playa Guasacate (beach break, sabbia), Beginner Bay (principianti), Stoneys (point), Playa Santana e Rancho Santana, Panga Drops, La Bocana (foce, A-frame su sabbia); più a sud, vicino a San Juan del Sur: Playa Maderas, Remanso, Mayal, Colorados",
+   "beginner_months": "Dicembre–marzo: swell più piccolo (da nord-ovest), si impara a Beginner Bay (sabbia) e a Playa Guasacate; d'estate i principianti farebbero meglio a restare sulle onde interne e nelle baie",
+   "pros": [
+    "Offshore quasi tutto l'anno",
+    "Onde molto costanti, funziona con qualsiasi marea",
+    "Molti break di livelli diversi nei dintorni",
+    "Più economico della Costa Rica"
+   ],
+   "cons": [
+    "Lontano dall'aeroporto, strade pessime",
+    "Folla e surf camp in aumento",
+    "Main Reef e Outer Reef non sono per principianti",
+    "Piogge a settembre–ottobre"
+   ],
+   "airport": "MGA — Managua, ~2,5 h; LIR — Liberia (Costa Rica), ~3 h con l'attraversamento del confine",
+   "best_wind_dir": "E–NE (offshore dal lago Nicaragua)",
+   "best_swell_dir": "SW–S (d'inverno funzionano anche da NW)"
+  },
+  "raglan-manu-bay": {
+   "h": "8d6abbe2fd",
+   "description": "Raglan è la capitale del surf della Nuova Zelanda, con tre point sinistri uno dopo l'altro. Manu Bay è il più vicino al paese: take-off veloce, tubo e poi una lunga parete di 300+ m sopra i massi; si accende con gli swell da sud-ovest che girano intorno al capo. Il periodo migliore è autunno e inverno (marzo–agosto); l'acqua è fresca, serve una muta 3/2–4/3.",
+   "rating_basis": "Il point più famoso della Nuova Zelanda: una lunga sinistra apparsa nel film «The Endless Summer» (1966); insieme a Whale Bay e Indicators forma una delle migliori catene di point sinistri al mondo (Surfertoday, The Surf Atlas). Difetti: folla con gli swell migliori e localismo",
+   "hazards": "Rocce e massi sul fondo (calzari obbligatori), take-off pesante e sezioni veloci a Indicators, correnti con swell grande, un masso nascosto a Whale Bay con l'alta marea, acqua fredda",
+   "crowd_note": "Manu Bay è il più affollato dei tre point, soprattutto nel weekend e nelle vacanze estive; Whale Bay è più libero, Indicators è per surfisti forti",
+   "region": "Isola del Nord, regione di Waikato, costa ovest (Mar di Tasman)",
+   "area_breaks": "Nei dintorni: Whale Bay (la più morbida delle sinistre, intermedi), Indicators (la sinistra più lunga e veloce, intermedi forti ed esperti), Boneyards, Ngarunui Beach (sabbia, principianti), Wainui e Ruapuke (spiagge), Te Akau e Raglan Bar (sponda nord), Albatross Point (sinistra, serve l'accesso, localismo duro)",
+   "beginner_months": "Si impara tutto l'anno sulla spiaggia sabbiosa di Ngarunui (a 5 min da Manu Bay) e a Wainui; d'estate (dicembre–marzo) l'acqua è più calda e l'onda più morbida: il periodo migliore per le prime lezioni",
+   "pros": [
+    "Lunghi point sinistri di livello mondiale",
+    "Tre point per ogni livello, da intermedio in su",
+    "Swell costante dal Mar di Tasman",
+    "Cittadina del surf piena di atmosfera, spiagge per imparare vicine"
+   ],
+   "cons": [
+    "Acqua fredda d'inverno (14–16 °C): servono muta 4/3 e calzari",
+    "Folla a Manu Bay nei giorni buoni",
+    "Localismo: niente drop-in",
+    "Tempo ventoso e piovoso"
+   ],
+   "airport": "AKL — Auckland, ~2–2,5 h; HLZ — Hamilton, ~45 min",
+   "best_wind_dir": "SE–E (offshore)"
+  },
+  "santa-catalina-la-punta": {
+   "h": "824ed4cbb6",
+   "description": "Santa Catalina è un tranquillo villaggio di pescatori sulla costa pacifica di Panama e la porta d'accesso al parco marino di Coiba. L'onda principale è La Punta: una destra potente (con una sinistra corta) su un reef irregolare, che regge fino a 4 m e funziona con quasi qualsiasi swell da sud. La stagione è aprile–ottobre; nella stagione secca le onde sono più piccole ma più pulite. Qui c'è anche un ottimo diving.",
+   "rating_basis": "La migliore onda di Panama secondo molte guide (The Surf Atlas: «money wave», Mondo Surf, Visit Panama): una destra potente su reef che funziona con qualsiasi swell da sud. Difetti: line-up affollato in stagione, strada difficile e reef basso con la bassa marea",
+   "hazards": "Reef basso e irregolare e rocce (indispensabili kit di riparazione e calzari da reef), ricci di mare, entrata e uscita difficili con la bassa marea, sole forte",
+   "crowd_note": "A La Punta in stagione c'è ressa (un solo picco, molti surf camp e longboarder); Playa Estero, Punta Brava e Punta Roca sono quasi vuote",
+   "region": "Provincia di Veraguas, costa del Pacifico (vicino al parco nazionale di Coiba)",
+   "area_breaks": "Nei dintorni: Playa Estero (beach break, da principianti a intermedi), Punta Roca (reef, sinistra, upper intermediate), Punta Brava (sinistre corte, con la bassa marea), isola di Catalina; dall'altra parte del golfo Morrillo (destre cave, in barca)",
+   "beginner_months": "Tutto l'anno sul beach break sabbioso di Playa Estero (a 10 min dal villaggio), meglio a dicembre–marzo, quando lo swell è più piccolo. A La Punta i principianti non possono entrare: reef basso",
+   "pros": [
+    "Destra di qualità su reef e swell costanti",
+    "Acqua calda, niente muta",
+    "Natura selvaggia, diving a Coiba",
+    "Poco cemento"
+   ],
+   "cons": [
+    "Lontano: ~6 h da Panama City",
+    "Ressa sull'unico picco principale",
+    "Reef basso con la bassa marea",
+    "Pochi break per principianti"
+   ],
+   "airport": "PTY — Panama City (Tocumen), ~6 h in auto",
+   "best_wind_dir": "N–NE (offshore, al mattino)"
+  },
+  "chicama-puerto-malabrigo": {
+   "h": "75e979fac3",
+   "description": "Chicama è il leggendario point sinistro presso il paese di Puerto Malabrigo, nel deserto peruviano: l'onda surfabile più lunga del pianeta. Con un buono swell da sud-ovest l'onda corre lungo il promontorio attraverso diverse sezioni; per tornare si cammina lungo la riva o si risale con una barca. La stagione è aprile–ottobre, l'acqua è fredda per via della corrente di Humboldt.",
+   "rating_basis": "La sinistra più lunga del mondo: fino a 2–4 km quando le sezioni si collegano (Surfertoday, NASA Earth Observatory, Wavetribe); un posto di culto per gli intermedi, dove su una sola onda si fanno decine di curve. Difetti: incostanza (serve un buono swell da sud), acqua fredda e isolamento nel deserto",
+   "hazards": "Rocce e reef con la bassa marea (soprattutto a Keys), ricci di mare, forte corrente lungo il promontorio (remare indietro è inutile), close-out sui banchi di sabbia a El Point, nebbia fredda; non bevete l'acqua del rubinetto",
+   "crowd_note": "Di solito c'è spazio: il line-up si estende per chilometri; c'è ressa quando funzionano solo El Point o Malpaso",
+   "region": "Regione di La Libertad, nord del Perù (≈70 km da Trujillo)",
+   "area_breaks": "Sezioni della stessa onda: Malpaso (esterna, la più potente), La Isla/El Cape, Keys (vicino allo scoglio, esperti), El Point (la principale, intermedi), El Hombre, El Pueblo (vicino al molo). Nei dintorni: Pacasmayo (lunga sinistra, ~40 km a nord), Huanchaco (sinistra su sabbia, World Surfing Reserve, ~70 km a sud)",
+   "beginner_months": "Nei giorni piccoli (più spesso da novembre a marzo) i principianti e chi ha già qualche base imparano sulla sezione di El Point con un istruttore; scuole e noleggio sono in paese. La città più vicina per imparare è Huanchaco (beach break su sabbia)",
+   "pros": [
+    "L'onda più lunga del mondo: centinaia di metri su una sola onda",
+    "Offshore quasi costante",
+    "Poca gente",
+    "Adatta a far progredire gli intermedi"
+   ],
+   "cons": [
+    "Incostanza: serve uno swell da sud",
+    "Acqua fredda, serve una muta 3/2–4/3",
+    "Posto sperduto: poche strutture, polvere, odori della fabbrica di pesce",
+    "Lungo viaggio (via Lima e Trujillo)"
+   ],
+   "airport": "TRU — Trujillo, ~1,5 h; LIM — Lima, ~9 h in autobus",
+   "best_wind_dir": "SE (offshore) o bonaccia"
+  },
+  "mancora-point": {
+   "h": "56bc207756",
+   "description": "Máncora è una cittadina balneare festaiola nel soleggiato nord del Perù, dove si va per l'acqua calda e un'onda piccola e costante. Il point principale è una morbida sinistra su ciottoli, comoda per imparare e progredire; d'estate (dicembre–marzo) funzionano gli swell da nord-ovest, d'inverno quelli da sud. Da qui è comodo raggiungere le sinistre di livello mondiale di Lobitos e il tubo di Cabo Blanco.",
+   "rating_basis": "La località balneare e surf più popolare del Perù: un morbido point sinistro per principianti e intermedi, acqua calda e sole tutto l'anno (The Surf Atlas, Surf-forecast, Culture Trip). Per qualità è «un bambino in confronto a Chicama», ma vicino ci sono le sinistre di livello mondiale di Lobitos e Cabo Blanco",
+   "hazards": "Ciottoli sul fondo vicino al point, correnti con grandi swell, folla sul picco; a Cabo Blanco reef basso",
+   "crowd_note": "Quando funziona, sul point c'è molta gente (scuole, turisti), soprattutto da dicembre a marzo e nei giorni festivi; Vichayito e Los Organitos sono più liberi",
+   "region": "Regione di Piura, estremo nord del Perù",
+   "area_breaks": "Nei dintorni: Punta Ballenas (slab, avanzati), Pocitas e Vichayito (picchi morbidi, principianti), Los Organitos/Punta Veleros (sinistra), Los Órganos; a ~30–60 km Cabo Blanco (tubo pesante, esperti, tra inverno ed estate con swell da NW) e Lobitos (diversi point sinistri, da intermedi in su)",
+   "beginner_months": "Tutto l'anno; il periodo più comodo è dicembre–marzo (acqua calda, sole). Si impara sulla spalla del point, sulla spiaggia di Pocitas e sui beach break di Vichayito",
+   "pros": [
+    "Acqua calda e sole per gran parte dell'anno",
+    "Onda morbida per imparare e per intermedi",
+    "Vicino ai point di livello mondiale di Lobitos e Cabo Blanco",
+    "Alloggi economici, vita notturna"
+   ],
+   "cons": [
+    "Il point in sé è di qualità media",
+    "Cittadina turistica rumorosa",
+    "D'inverno più fresco e nebbie",
+    "Lontano da Lima"
+   ],
+   "airport": "TYL — Talara, ~1,5–2 h; TBP — Tumbes, ~1,5–2 h; PIU — Piura, ~3 h",
+   "best_wind_dir": "E–SE (offshore)",
+   "best_swell_dir": "NW (estate) e S–SW (inverno)"
+  },
+  "siargao-cloud-9": {
+   "h": "5015da9841",
+   "description": "Cloud 9 è una destra veloce e cava su reef basso presso il famoso pontile di legno sulla costa est di Siargao. Il periodo migliore è agosto–novembre, quando il monsone di sud-ovest soffia offshore e gli swell del Pacifico e dei tifoni danno onde fino a doppio overhead. Sull'isola c'è il rilassato villaggio surf di General Luna, con scuole e spot morbidi per principianti.",
+   "rating_basis": "L'onda più famosa delle Filippine: una destra veloce e tubolare presso il pontile di legno, con la gara internazionale annuale Siargao Cloud 9 Cup (fine ottobre–novembre). Recensioni su surf-forecast ~4/5; nelle guide è un'«onda per esperti», e tra i difetti c'è la «Crowd 9» in alta stagione",
+   "hazards": "Reef molto basso e tagliente (pericoloso con la bassa marea, servono calzari da reef), forti correnti nel line-up, folla; negli spot vicini ricci di mare, rocce nel canale (Stimpy's), correnti a Rock Island; tifoni (settembre–dicembre)",
+   "crowd_note": "A settembre–novembre e durante la gara a Cloud 9 c'è ressa; al mattino prima dell'alba c'è più spazio. Ci sono reef meno affollati (Stimpy's, Tuason), e a Daku e Rock Island si va in barca",
+   "region": "Isola di Siargao (General Luna), Surigao del Norte, Mare delle Filippine / Oceano Pacifico",
+   "area_breaks": "Nei dintorni: Jacking Horse (destra morbida, scuole), Quiksilver (l'onda più difficile dell'isola, tubi), Stimpy's (sinistra di qualità), Tuason (parete ripida), Rock Island e Daku (in barca; Daku è una destra morbida per intermedi), Cemetery (reef a picchi), Pacifico (nord dell'isola)",
+   "beginner_months": "Si può imparare tutto l'anno a Jacking Horse, vicino a General Luna (destra morbida con marea media e alta); d'estate (aprile–luglio) le onde sono piccole e lisce, il periodo migliore per i principianti; in autunno è meglio che i principianti restino negli spot delle scuole",
+   "pros": [
+    "Onda tubolare di livello mondiale",
+    "Molti spot per livelli diversi intorno a General Luna",
+    "Acqua calda tutto l'anno",
+    "Atmosfera da isola tropicale"
+   ],
+   "cons": [
+    "L'onda in sé è solo per esperti",
+    "Da dicembre a febbraio il monsone di nord-est soffia onshore, stagione delle piogge",
+    "D'estate spesso onde piccole",
+    "Tifoni in autunno"
+   ],
+   "airport": "IAO — Siargao (Sayak), ~40–50 min da General Luna; voli da Manila e Cebu",
+   "best_wind_dir": "SW–W (habagat, offshore)",
+   "best_swell_dir": "E–NE (swell dei tifoni e del Pacifico)"
+  },
+  "rincon-puerto-rico-domes": {
+   "h": "79856967be",
+   "description": "Rincón è una cittadina sul promontorio nord-occidentale di Porto Rico, dove d'inverno arrivano gli swell da nord-ovest dell'Atlantico. Domes è un picco su reef vicino alla cupola dell'ex centrale nucleare BONUS, con destre e sinistre; nei dintorni ci sono la destra di Maria's e la big wave di Tres Palmas. La stagione è ottobre–marzo, acqua calda tutto l'anno; per entrare serve il visto USA.",
+   "rating_basis": "La principale capitale del surf dei Caraibi: campionato mondiale del 1968, decine di reef e point a 10 minuti l'uno dall'altro (The Surf Atlas, Lonely Planet, 57hours). Tres Palmas è la big wave dei Caraibi. Difetti: incostanza fuori dall'inverno e reef bassi",
+   "hazards": "Reef bassi e rocce, ricci di mare, correnti di risacca (soprattutto ad Antonio's), onde potenti con grandi swell; d'estate uragani",
+   "crowd_note": "A Domes e Maria's nei giorni buoni c'è molta gente; a ottobre e marzo c'è più spazio che nel pieno dell'inverno. Sandy Beach è occupata dalle scuole",
+   "region": "Costa nord-occidentale dell'isola di Porto Rico, Caraibi",
+   "area_breaks": "Nei dintorni: Maria's (destra su reef, tutti i livelli nei giorni piccoli), Indicators, Point Higuero (onde grandi), Tres Palmas (big wave, esperti), Dogman's (destra, avanzati), Steps, Pools e Sandy Beach (principianti), Antonio's; a nord Arecibo, Aguadilla (Crash Boat, Wilderness, Surfer's Beach)",
+   "beginner_months": "Ottobre–aprile sulla spiaggia di Sandy Beach (sabbia, lunghe sinistre) e sulle onde interne di Maria's nei giorni piccoli; d'estate le onde quasi non ci sono",
+   "pros": [
+    "Molti reef e point in un tratto breve",
+    "Acqua calda tutto l'anno",
+    "Atmosfera rilassata, servizi sviluppati",
+    "Aliseo offshore a Maria's e Domes"
+   ],
+   "cons": [
+    "Incostanza: dipende dagli swell del Nord Atlantico",
+    "Da maggio ad agosto quasi flat",
+    "Reef bassi e taglienti, ricci",
+    "Servono il visto USA e l'auto"
+   ],
+   "airport": "BQN — Aguadilla, ~30–40 min; SJU — San Juan, ~2 h",
+   "best_wind_dir": "E–SE (offshore)"
+  },
+  "ericeira-ribeira-d-ilhas": {
+   "h": "cda277937d",
+   "description": "Una lunga destra lungo una baia rocciosa 3 km a nord di Ericeira, il simbolo della capitale del surf del Portogallo. Ribeira d'Ilhas regge swell da 0,5 a 3+ m, funziona con qualsiasi marea ed è più indulgente dei reef vicini. Tutt'intorno una vera collezione di onde per ogni livello, scuole, surf camp e ostelli, e Lisbona è a 50 km.",
+   "rating_basis": "Uno dei migliori point break destri d'Europa (Surfertoday), ex sede di tappe WSL; Ericeira è la prima World Surfing Reserve d'Europa (2011), con una decina di ottimi reef nel raggio di 10 km",
+   "hazards": "Rocce e reef in line-up (soprattutto con marea molto bassa), correnti di risacca con swell grande, ricci di mare",
+   "crowd_note": "Nei giorni buoni e nel weekend il line-up è fitto e competitivo, con molte scuole; nei giorni feriali al mattino e sui reef vicini c'è più spazio",
+   "region": "Costa di Lisbona, Atlantico (World Surfing Reserve di Ericeira)",
+   "area_breaks": "Nei dintorni: Coxos (potente destra su reef, per avanzati), Crazy Left e Pedra Branca (sinistre su reef), Reef e Cave (tubi pesanti, per pro), São Lourenço (destra su reef per swell grandi), Foz do Lizandro e São Julião (beach break per principianti), Praia do Sul e Praia dos Pescadores (in paese)",
+   "beginner_months": "Maggio–settembre: onde più piccole, i principianti imparano sulle spiagge di Foz do Lizandro, São Julião e Praia do Sul, a Ericeira stessa; sul point di Ribeira solo dopo aver imparato a surfare con sicurezza le onde verdi",
+   "pros": [
+    "Lunga destra di qualità",
+    "Molti break per ogni livello nel raggio di 10 km",
+    "Servizi sviluppati: scuole, surf camp, noleggi, shaper",
+    "Vicino a Lisbona, surf tutto l'anno"
+   ],
+   "cons": [
+    "Ressa e competizione nei giorni buoni",
+    "Acqua fredda (15–19 °C): serve una muta 3/2–4/3 tutto l'anno",
+    "D'estate l'onda è spesso debole",
+    "D'inverno mareggiate e onshore da sud-ovest"
+   ],
+   "airport": "LIS — Lisbona, ~45 min (50 km)"
+  },
+  "nazare-praia-do-norte": {
+   "h": "2d078f80b4",
+   "description": "Il canyon sottomarino di Nazaré, profondo fino a 5 km, concentra le tempeste invernali, e vicino al promontorio con il faro si alzano onde alte 20–30 m. Da ottobre a marzo si viene qui a guardare i surfisti del tow-in dal forte di São Miguel Arcanjo. Surfare a Praia do Norte è solo per professionisti con il supporto della moto d'acqua; nei giorni piccoli è un beach break pesante con close-out.",
+   "rating_basis": "Le onde più grandi mai surfate: i record Guinness di Garrett McNamara (2011) e Sebastian Steudtner (26,2 m, 2020), tappa annuale WSL di tow-in. Per il normale surfista in viaggio è soprattutto uno spettacolo, non un posto dove surfare",
+   "hazards": "Onde e correnti mortalmente pericolose, shorebreak potente, close-out; in spiaggia sono annegati dei turisti: state lontani dall'acqua e dal bordo della scogliera",
+   "crowd_note": "In acqua solo pro con le moto d'acqua; in compenso, sul promontorio del faro nei giorni grandi ci sono migliaia di spettatori e non si trova parcheggio",
+   "region": "Costa d'Argento (Silver Coast), Atlantico",
+   "area_breaks": "Nei dintorni: la spiaggia cittadina di Nazaré (baia riparata, onde punchy con swell da sud), Praia do Sul (tubi con swell grande, per pro), São Martinho do Porto (baia chiusa, principianti), Salgado e Vale Furado (beach break a nord)",
+   "beginner_months": "A Praia do Norte principianti e intermedi non possono entrare in nessuna stagione. D'estate si impara nella baia tranquilla di São Martinho do Porto (13 km) o si va a Peniche (40 km)",
+   "pros": [
+    "Il più grande spettacolo di big wave del pianeta",
+    "Comoda terrazza panoramica vicino al faro, museo del surf da big wave nel forte",
+    "Vicino a Peniche e a baie tranquille per il surf normale"
+   ],
+   "cons": [
+    "Per surfare è adatto solo agli esperti",
+    "Le giornate giganti non sono garantite: bisogna seguire le previsioni",
+    "Folle di spettatori e niente parcheggio nei giorni grandi",
+    "Acqua fredda"
+   ],
+   "airport": "LIS — Lisbona, ~1 h 15 min (120 km); OPO — Porto, ~2 h",
+   "best_wind_dir": "E–SE (offshore), N debole",
+   "best_swell_dir": "W–NW (periodo lungo, 13+ s)"
+  },
+  "peniche-supertubos": {
+   "h": "895a8b21a5",
+   "description": "Peniche è una penisola-isola con spiagge rivolte a nord, a sud e a ovest, per cui c'è quasi sempre un posto dove surfare. Supertubos è un'onda veloce e tubolare su sabbia (meglio le sinistre), sede di una tappa del campionato mondiale; accanto, a Baleal, c'è una delle principali baie «scuola» d'Europa. Una buona scelta sia per il primo viaggio sia per chi sta progredendo.",
+   "rating_basis": "Supertubos è la «Pipeline europea», tappa del campionato mondiale WSL (MEO Rip Curl Pro Portugal) ogni ottobre; Surfertoday lo definisce il miglior tubo d'Europa. La penisola, con coste di orientamento diverso, offre uno spot che funziona con quasi qualsiasi vento",
+   "hazards": "Tubi potenti e close-out su un banco di sabbia basso a Supertubos, correnti di risacca, rocce a Consolação e Gigi, folla in line-up",
+   "crowd_note": "Supertubos è sempre pieno quando funziona; d'estate a Baleal ci sono code per le lezioni e folle di scuole. A Areia Branca e Pico da Mota c'è molto più spazio",
+   "region": "Costa d'Argento (Silver Coast), Atlantico",
+   "area_breaks": "Nei dintorni: Baleal (Cantinho da Baía e Baleal Sul, beach break per principianti; Baleal Norte), Lagide (sinistra su reef), Molhe Leste (destra vicino al molo del porto, tubi potenti d'inverno), Consolação (point destro roccioso, per avanzati), Papoa (reef da big wave), Prainha, Gigi, Pico da Mota, Areia Branca",
+   "beginner_months": "Maggio–ottobre: i principianti imparano nella baia di Baleal (Cantinho da Baía, Baleal Sul), a Prainha e a Areia Branca, riparate da swell grandi e vento; Supertubos è per principianti solo nei giorni più piccoli",
+   "pros": [
+    "Quasi sempre c'è uno spot che funziona, grazie alle coste con orientamenti diversi",
+    "Tubo di livello mondiale a Supertubos",
+    "Baleal è ideale per imparare",
+    "Enorme scelta di scuole, surf camp e noleggi"
+   ],
+   "cons": [
+    "Ressa a Supertubos e Baleal d'estate",
+    "Acqua fredda, serve una muta 3/2–4/3",
+    "D'estate forte nortada (vento da nord) verso mezzogiorno",
+    "Supertubos chiude spesso (close-out) e sbatte forte sulla sabbia"
+   ],
+   "airport": "LIS — Lisbona, ~1 h (95 km)"
+  },
+  "sagres-tonel": {
+   "h": "0bfb50e8ec",
+   "description": "Sagres è un villaggio surf nell'angolo sud-occidentale d'Europa. Tonel è una spiaggia esposta allo swell da ovest sotto le scogliere vicino alla fortezza: nei giorni piccoli è adatta a chi sta progredendo, con lo swell invernale dà tubi potenti e close-out. Il grande vantaggio della zona è avere vicine la costa ovest e quella sud: con mareggiata e vento ci si può sempre spostare sul lato riparato.",
+   "rating_basis": "Thesurfatlas e Rapture Camps: «ai confini d'Europa» due coste, quella ovest e quella sud, offrono uno spot che funziona con quasi qualsiasi vento e swell; oltre 20 spot nel raggio di 10–20 km. Tonel in sé è un beach break affidabile ma non leggendario (punteggio 4/5 su surf-forecast)",
+   "hazards": "Forti correnti di risacca (soprattutto vicino allo scoglio nella baia con la bassa marea), rocce nascoste con l'alta marea, close-out pesanti con swell grande, scogliere a picco",
+   "crowd_note": "A Tonel e Mareta in stagione ci sono molte scuole; sulle spiagge selvagge della costa ovest (Cordoama, Castelejo) di solito c'è spazio",
+   "region": "Algarve occidentale, Capo San Vincenzo (Atlantico)",
+   "area_breaks": "Nei dintorni: Mareta (baia sud in paese, per principianti, funziona con swell grande da NW), Beliche (reef/spiaggia sotto le scogliere, per avanzati, c'è localismo), Martinhal, Zavial (10 km, onda di qualità, localismo), Cordoama e Castelejo (costa ovest selvaggia, calamite di swell), Amado (25 km, la spiaggia dei surf camp), Arrifana (40 km, spiaggia per principianti e point destro sotto la scogliera)",
+   "beginner_months": "Maggio–ottobre: si impara sulle spiagge occidentali (Amado, Arrifana, Cordoama) e a Tonel nei giorni piccoli; d'inverno, con swell grande, nella baia riparata di Mareta, in pieno centro di Sagres",
+   "pros": [
+    "Due coste: quasi sempre c'è uno spot che funziona",
+    "L'inverno più caldo e soleggiato del Portogallo",
+    "Molte scuole e surf camp, atmosfera rilassata",
+    "Spiagge selvagge e poco frequentate sulla costa ovest"
+   ],
+   "cons": [
+    "Forti correnti di risacca a Tonel",
+    "D'estate la costa sud è spesso flat e la nortada rovina l'ovest",
+    "Localismo a Beliche e Zavial",
+    "Lontano dall'aeroporto, serve l'auto"
+   ],
+   "airport": "FAO — Faro, ~1 h 15 min (115 km); LIS — Lisbona, ~3 h"
+  },
+  "kaliningrad-zelenogradsk": {
+   "h": "cf6b7afbbc",
+   "description": "Una cittadina balneare all'inizio dell'istmo dei Curi, capitale del surf sul Baltico: diverse scuole, una base aperta tutto l'anno con doccia calda e noleggio. L'onda è da vento e dipende dalle mareggiate, per cui si esce solo seguendo le previsioni; le tempeste più forti e frequenti sono da settembre a gennaio, d'estate è spesso bonaccia, ma l'acqua è calda ed è comodo imparare. D'inverno l'acqua è a 2–5 °C: serve una muta da 5–6 mm con calzari e guanti.",
+   "rating_basis": "Il posto più popolare per il surf nella Russia europea (T—Zh, «Vokrug Sveta», Aviasales, Tonkosti): scuole e basi ben organizzate, ma l'onda è di mare, corta, disordinata e solo con mareggiata; il periodo migliore è settembre–novembre",
+   "hazards": "Acqua fredda e ipotermia in autunno–inverno, forti mareggiate e correnti vicino ai frangiflutti, rocce a Donskoye; gli incidenti sul Baltico riguardano più spesso villeggianti ubriachi che non conoscono il mare",
+   "crowd_note": "Nei giorni di mareggiata sui picchi cittadini di Zelenogradsk c'è ressa (i surfisti arrivano da tutta la regione); a Donskoye, vicino a Yantarny e sull'istmo dei Curi c'è più spazio",
+   "region": "Oblast' di Kaliningrad, Mar Baltico (vicino all'istmo dei Curi)",
+   "area_breaks": "I picchi cittadini di Zelenogradsk e l'istmo dei Curi (principianti), Malinovka; sulla costa ovest della penisola di Sambia Svetlogorsk, Pionersky, Yantarny e Donskoye (fondo roccioso, per esperti, quasi deserto); il molo di Baltiysk. I locali chiamano gli spot della regione «Jack-spot», «Ambar» («Fienile»), «Koleso» («Ruota»)",
+   "beginner_months": "Giugno–settembre: acqua a 15–19 °C, onde piccole, ingresso dolce su sabbia; le scuole di Zelenogradsk fanno lezione nei giorni in cui c'è onda da vento (capitano anche settimane di bonaccia)",
+   "pros": [
+    "In Russia, senza visto e senza voli dall'altra parte del mondo; fondo sabbioso",
+    "Scuole e noleggi ben organizzati, in russo",
+    "Ingresso dolce: buono per le prime lezioni d'estate",
+    "Molti spot sulla costa della regione"
+   ],
+   "cons": [
+    "Onda corta e disordinata, solo con mareggiata",
+    "D'estate spesso bonaccia per settimane",
+    "Acqua fredda da novembre a maggio",
+    "Vento forte, spesso onshore"
+   ],
+   "airport": "KGD — Kaliningrad (Khrabrovo), ~25 min",
+   "best_swell_dir": "W–NW (onda da vento di mareggiata)"
+  },
+  "kamchatka-khalaktyrsky": {
+   "h": "3455b12e72",
+   "description": "Una lunga spiaggia di sabbia vulcanica nera ai piedi dei vulcani Avachinsky e Koryaksky, a 30 minuti da Petropavlovsk-Kamchatsky. I locali surfano tutto l'anno, ma la vera stagione per chi viaggia va da luglio a ottobre: acqua a 10–13 °C, surf camp estivi aperti, e le tempeste autunnali del Pacifico portano le onde più costanti (il mese migliore è settembre). D'inverno l'acqua è intorno a 0 °C, l'aria fino a −15 °C, e a volte all'oceano si arriva solo in motoslitta.",
+   "rating_basis": "La principale meta del surf in acqua fredda in Russia (T—Zh, «Vokrug Sveta», Moscow Times, Swellnet): una vera onda oceanica, sabbia vulcanica nera e vista sui vulcani; surf-forecast: 3/10, «non affollato nemmeno quando funziona», mese migliore settembre (~54 % di giornate pulite). Difetti: freddo, tempo variabile e biglietti cari",
+   "hazards": "Acqua fredda e ipotermia, forti correnti e risucchio, mareggiate con set grandi improvvisi, rapidi cambi di tempo; orsi e otarie orsine sulla riva; lontananza dai centri abitati, rischio tsunami; nell'autunno 2020 sulla spiaggia c'è stato un incidente ambientale (moria di massa di organismi marini a causa di una fioritura algale nociva)",
+   "crowd_note": "La spiaggia si estende per ~30 km e c'è quasi sempre spazio; d'estate c'è gente solo vicino ai camp sui picchi centrali (Halo Spot, «Tom Curren», Tsentralny), dove imparano i principianti",
+   "region": "Territorio della Kamčatka, Oceano Pacifico (vicino a Petropavlovsk-Kamchatsky)",
+   "area_breaks": "Lungo la spiaggia di Khalaktyrsky i picchi Halo Spot, «Tom Curren» e Tsentralny («Centrale»); nelle baie a sud dell'ingresso della baia di Avacha ci sono spot su reef e point (rocce, per esperti, spesso servono una barca o un fuoristrada)",
+   "beginner_months": "Luglio–settembre con un istruttore in un surf camp estivo sulla spiaggia di Khalaktyrsky (muta da 5–6 mm, calzari, guanti); acqua a 10–13 °C",
+   "pros": [
+    "Una vera onda oceanica in Russia, senza bisogno del passaporto per l'espatrio",
+    "Spiaggia deserta lunga 30 km",
+    "Vulcani, orsi, orche: natura unica",
+    "Scuole e surf camp in russo, con noleggio"
+   ],
+   "cons": [
+    "Acqua fredda anche d'estate (10–13 °C): serve una muta spessa",
+    "Voli e tour cari",
+    "Tempo che cambia di colpo, nebbie",
+    "Stagione confortevole breve"
+   ],
+   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~1 h dalla spiaggia"
+  },
+  "sochi-khosta": {
+   "h": "3bbef37e4f",
+   "description": "La foce del fiume Khosta è lo spot surf più famoso di Soči: dopo le tempeste autunnali e invernali qui rompono picchi corti su ciottoli e rocce. L'onda è quella del Mar Nero, da vento, e compare solo per 1–2 giorni dopo la tempesta, quando il vento cala, per cui si esce solo seguendo le previsioni; il periodo migliore è da dicembre a febbraio. D'estate il mare di solito è calmo: è il momento del SUP e dell'onda artificiale.",
+   "rating_basis": "Il principale spot di Soči (Aviasales definisce Khosta «il posto migliore» per il surf in città), ma l'onda è quella del Mar Nero: da vento, corta e solo dopo le tempeste; T—Zh e Tonkosti segnalano spiagge di ciottoli e forti correnti, con spot piccoli e affollati",
+   "hazards": "Ciottoli e rocce, frangiflutti e pennelli in cemento, forte corrente con la mareggiata (difficile arrivare al line-up remando), rifiuti e acqua torbida dal fiume dopo gli acquazzoni",
+   "crowd_note": "I picchi sono piccoli, e nei giorni di mareggiata a Khosta arrivano tutti i surfisti di Soči: in line-up c'è ressa; a Morvokzal, Capo Vidny, Adler e Imeretinka ci sono i gruppi di locali",
+   "region": "Territorio di Krasnodar, costa del Mar Nero",
+   "area_breaks": "Khosta-Rika, Mandarin, Morvokzal e Riviera (centro di Soči), Capo Vidny, Shirokaya Balka, Adler e la baia di Imereti (~15 km a sud); onda artificiale Wake People vicino al resort «Imeretinsky»",
+   "beginner_months": "Settembre–ottobre nei giorni piccoli dopo le tempeste, con un istruttore negli spot più dolci (baia di Imereti); d'estate le onde sono poche: i principianti imparano sull'onda artificiale o sul SUP",
+   "pros": [
+    "Surf vicino alle piste da sci di Krasnaya Polyana: al mattino onde, di giorno neve",
+    "Scuole e noleggi in russo",
+    "Clima mite, d'inverno l'acqua è a circa 9–12 °C",
+    "Facile da raggiungere, voli diretti"
+   ],
+   "cons": [
+    "Onda incostante, solo dopo le tempeste",
+    "Fondo di ciottoli e rocce, non per principianti assoluti",
+    "Spot piccoli e affollati",
+    "Correnti forti nei giorni di mareggiata"
+   ],
+   "airport": "AER — Soči (Adler), ~20 min",
+   "best_swell_dir": "SW–W (onda di mareggiata)"
+  },
+  "teriberka-barents-sea": {
+   "h": "50314ac36c",
+   "description": "Surf ai margini dell'Artico: grazie alla calda corrente di Capo Nord (di Murmansk) il Mare di Barents qui non gela, e le tempeste autunnali e invernali portano swell da nord. Ha senso andarci a settembre–novembre e a marzo–maggio: a dicembre–gennaio c'è la notte polare e la strada può essere bloccata dalla neve, d'estate le onde sono poche. È una spedizione per surfisti esperti con mute spesse: non ci sono scuole né bagnini, e le condizioni cambiano ogni 10 minuti.",
+   "rating_basis": "Esotismo per esperti: il surf artico di Teriberka è stato mostrato nel film Surf Siberia e negli articoli di «Vokrug Sveta», T—Zh, OneTwoTrip; a maggio 2024 qui si è svolto il primo campionato di surf dell'oblast' di Murmansk. Onde incostanti (le tempeste cambiano le condizioni in pochi minuti), nessuna scuola, acqua a 2–10 °C",
+   "hazards": "Ipotermia e congelamento, corrente forte, rocce e scogli sommersi, tempeste improvvise, nessun servizio di soccorso; notte polare a dicembre–gennaio; chiusura dell'unica strada con il maltempo",
+   "crowd_note": "In acqua ci sono pochissimi surfisti locali di Murmansk e qualche rara spedizione; la folla non esiste",
+   "region": "Oblast' di Murmansk, penisola di Kola, Mare di Barents",
+   "area_breaks": "Baie sabbiose intorno alla baia di Teriberka e spot rocciosi sulla costa (molti raggiungibili solo a piedi o in motoslitta); nuovi spot vengono scoperti sulla penisola Rybachy (~150 km a ovest)",
+   "pros": [
+    "Surf artico unico e line-up vuoto",
+    "Aurora boreale, balene, tundra",
+    "Si arriva in auto da Murmansk",
+    "In primavera c'è il giorno polare: si può surfare di notte"
+   ],
+   "cons": [
+    "Acqua a 2–10 °C: servono muta da 6–7 mm, calzari, guanti, cappuccio",
+    "Niente scuole, noleggi né bagnini",
+    "Onde incostanti e condizioni che cambiano in fretta",
+    "La strada da Murmansk può essere chiusa durante le bufere di neve"
+   ],
+   "airport": "MMK — Murmansk, ~120 km, 2–3 h in auto"
+  },
+  "dakar-ngor-right": {
+   "h": "ce68e4ea9b",
+   "description": "Dakar sorge sul punto più occidentale dell'Africa e prende swell da due lati: d'inverno (novembre–marzo) gli swell da nord-ovest accendono i reef di Ngor e Almadies, d'estate gli swell da sud funzionano sulla costa sud della penisola. L'onda principale è la destra su reef dell'isola di Ngor, raggiungibile in piroga in 5 minuti. Acqua da 19 °C d'inverno a 28 °C d'estate, atmosfera da vivace capitale dell'Africa occidentale.",
+   "rating_basis": "Ngor Right è stata resa celebre dal film «The Endless Summer» (1966); la penisola prende swell sia da nord sia da sud, per cui a Dakar le onde ci sono quasi tutto l'anno: Perfect Wave, Surf Simply e Surf Europe la includono tra i migliori surf trip invernali; surf-forecast: spot «costante», 4/10",
+   "hazards": "Ricci di mare e rocce (soprattutto a Vivier e Ngor Right), reef taglienti, correnti con grandi swell, acqua inquinata vicino agli scarichi cittadini; sulla piroga per l'isola il giubbotto salvagente è obbligatorio",
+   "crowd_note": "A Ngor Right d'inverno a volte c'è ressa (locali + ospiti dei surf camp sull'isola), sulle decine di reef di Almadies e nelle baie di Les Virages di solito c'è spazio",
+   "region": "Penisola di Capo Verde (Almadies), Atlantico",
+   "area_breaks": "Ngor Left (più morbida, intermedi), Pointe des Almadies (serie di reef), Ouakam (onda potente e tubolare vicino alla moschea, per esperti, meglio con swell da sud), Secret Spot, Les Virages (baie, principianti), Vivier (picchi, tanti ricci), Club Med, Yoff (beach break)",
+   "beginner_months": "Tutto l'anno sui beach break di Yoff e Les Virages (piccole baie), meglio con swell piccolo; d'estate (maggio–ottobre) l'onda è più morbida e l'acqua calda",
+   "pros": [
+    "Onde quasi tutto l'anno",
+    "Molti reef e spiagge su una piccola penisola",
+    "Acqua calda d'estate, d'inverno basta una 2–3 mm",
+    "Volo breve dall'Europa, cultura vivace"
+   ],
+   "cons": [
+    "Ricci di mare e reef bassi",
+    "Acqua cittadina inquinata in alcuni punti",
+    "D'estate (luglio–settembre) stagione delle piogge, caldo e meno onde",
+    "D'inverno serve la muta: acqua a 19–20 °C"
+   ],
+   "airport": "DSS — Dakar (Blaise Diagne), ~50 km, ~45–60 min da Ngor"
+  },
+  "el-salvador-punta-roca": {
+   "h": "4bcd2f2c1a",
+   "description": "La costa di La Libertad, promossa come Surf City, è una catena di point e reef destri a 40 minuti dalla capitale. Punta Roca è una destra lunga e veloce sopra i massi, una delle migliori destre del Centro America e sede di una tappa WSL; a 10 minuti c'è la festaiola El Tunco, con la sinistra di La Bocana e la morbida El Sunzal. Acqua calda, offshore al mattino, swell grandi da marzo a ottobre.",
+   "rating_basis": "Punta Roca è la «perla di El Salvador», una lunga destra fino a 200–300 m, tappa del WSL Championship Tour Surf City El Salvador Pro (Surfertoday, Perfect Wave, The Surf Atlas). Nei dintorni lunghi point destri per ogni livello. Difetti: folla, localismo sul picco principale e acqua torbida vicino alla città",
+   "hazards": "Massi e rocce (compresa «Mama Roca» vicino al take-off con la bassa marea), ricci di mare, conchiglie taglienti, acqua inquinata dopo le piogge, forti correnti con grandi swell, piccoli furti",
+   "crowd_note": "A Punta Roca e La Bocana di solito c'è molta gente, e i locali si prendono le onde migliori; El Sunzal ed El Zonte sono più tranquille, Mizata è quasi vuota",
+   "region": "Dipartimento di La Libertad, Surf City, Oceano Pacifico",
+   "area_breaks": "Nei dintorni: La Paz (sezione interna di Punta Roca, principianti), La Bocana (A-frame sinistro alla foce vicino a El Tunco, avanzati), El Sunzal (destra lunga e morbida, longboard e intermedi), El Zonte (point destro, tutti i livelli), La Paz Beach, Mizata (reef e point, vuoti, ~45 min)",
+   "beginner_months": "Novembre–febbraio (stagione secca): onde all'altezza della vita e offshore; si impara nella sezione interna di La Paz vicino a Punta Roca, sulle spalle di El Sunzal e a El Zonte",
+   "pros": [
+    "Lunghi point destri di livello mondiale",
+    "Acqua calda a 27–30 °C",
+    "Molti spot in 20 km, vicino all'aeroporto",
+    "Economico"
+   ],
+   "cons": [
+    "Folla e localismo a Punta Roca",
+    "Entrata e uscita difficili sui massi",
+    "Acqua inquinata vicino a La Libertad",
+    "Di giorno entra presto l'onshore"
+   ],
+   "airport": "SAL — San Salvador, ~40–45 min",
+   "best_wind_dir": "N–NE (offshore, al mattino)"
+  },
+  "istanbul-kilyos": {
+   "h": "19a3b12a0f",
+   "description": "Le spiagge sabbiose di Kilyos, a un'ora dal centro di Istanbul, sono esposte alle mareggiate da nord del Mar Nero: da novembre a febbraio arrivano onde dal ginocchio fino a 1,5 m e oltre, e al mattino spesso c'è offshore. L'onda è di periodo corto e dura 1–2 giorni dopo la mareggiata, per cui si esce seguendo le previsioni. D'estate il vento da nord-est trasforma la spiaggia in uno spot da kite, e nei giorni piccoli le scuole insegnano ai principianti.",
+   "rating_basis": "Il surf più vicino a Istanbul: Chasing the Donkey e Oggusto indicano Kilyos e Şile come i principali spot della costa turca del Mar Nero, con onde dal ginocchio fino a 1,5 m+ in autunno e in inverno, offshore al mattino e onshore di giorno; ma l'onda è di periodo corto e dipende dalle mareggiate",
+   "hazards": "Forti correnti di risacca (rip) e shorebreak: le spiagge di Istanbul sul Mar Nero sono note per gli annegamenti di bagnanti, e con la mareggiata vigono divieti di balneazione; acqua fredda d'inverno",
+   "crowd_note": "I surfisti sono pochi, la comunità locale di Istanbul; d'estate la spiaggia è piena di bagnanti e kiter, d'inverno in acqua ci sono pochissime persone",
+   "region": "Istanbul (distretto di Sarıyer), Mar Nero",
+   "area_breaks": "Le spiagge vicine a Kilyos (Kumköy), Riva sulla sponda asiatica (~30 km), Şile e Ağva (~70 km a est, beach break sabbiosi, alcune scuole); Sinop, lontano verso est, per esperti",
+   "beginner_months": "Da metà maggio a ottobre: acqua calda, e il vento estivo da nord-est (poyraz) dà una piccola onda da vento; le scuole di Kilyos e Şile insegnano da zero nei giorni giusti, meglio al mattino",
+   "pros": [
+    "Surf a un'ora da Istanbul e dall'aeroporto IST",
+    "Fondo sabbioso, ci sono scuole e noleggi",
+    "Acqua calda d'estate",
+    "Si può abbinare alla città"
+   ],
+   "cons": [
+    "Onda incostante e corta, solo dopo le mareggiate",
+    "D'inverno fa freddo: acqua a 8–12 °C",
+    "Di giorno spesso onshore",
+    "D'estate spiaggia affollata"
+   ],
+   "airport": "IST — Istanbul, ~35–45 min; SAW — Sabiha Gökçen, ~1,5 h"
+  },
+  "taiwan-jinzun": {
+   "h": "a51b76e30c",
+   "description": "Jinzun è una pittoresca baia sotto le scogliere sulla costa est di Taiwan, dove ogni anno a novembre si tiene una tappa WSL. Il point destro con picco su ciottoli e massi funziona con gli swell invernali da nord-est e con le onde dei tifoni; vicino ci sono la foce di Donghe e diversi point per esperti. Poco affollato, acqua calda quasi tutto l'anno.",
+   "rating_basis": "Tappa WSL annuale (Taiwan Open of Surfing, novembre; QS e tour di longboard): la WSL definisce questo point con picco su massi una delle onde più costanti e «ad alte prestazioni» della regione; Taiwan Outdoors: «una delle migliori mete surf di Taiwan». Pochi dati sulla stagionalità",
+   "hazards": "Rocce e massi sul fondo, correnti vicino ai point e alle foci dei fiumi (Baxiandong, Chenggong), tifoni (luglio–settembre, in quel periodo il surf è vietato)",
+   "crowd_note": "Taiwan è una delle mete surf meno affollate dell'Asia; a Jinzun c'è gente soprattutto durante la gara di novembre e nel weekend",
+   "region": "Contea di Taitung, comune di Donghe, costa orientale, Oceano Pacifico",
+   "area_breaks": "Nei dintorni: la foce del fiume Donghe (sinistra e destra, onda invernale costante), Dulan (10 min a sud), Baxiandong (point sinistro alla foce del fiume, massi, solo esperti), Chenggong (point sinistro su corallo, corrente forte, esperti)",
+   "beginner_months": "Per i principianti è meglio marzo–aprile e settembre–ottobre, quando l'onda è moderata e l'acqua calda; d'estate, durante i tifoni, a Taiwan il surf è vietato per legge",
+   "pros": [
+    "Poca gente in acqua",
+    "Acqua calda (d'inverno oltre 20 °C)",
+    "Bella costa selvaggia e surf hostel",
+    "Onda di livello da gara mondiale"
+   ],
+   "cons": [
+    "Poche informazioni e poche scuole in inglese",
+    "In primavera e a inizio estate spesso onde piccole",
+    "Durante i tifoni il surf è vietato",
+    "Lontano da Taipei (treno/volo fino a Taitung)"
+   ],
+   "airport": "TTT — Taitung, ~40–50 min; TPE — Taipei (Taoyuan), poi treno/volo",
+   "best_wind_dir": "W (offshore); con il monsone di nord-est la baia è in parte riparata",
+   "best_swell_dir": "NE–E (monsone invernale), SE (tifoni)"
+  },
+  "malibu-first-point": {
+   "h": "bfe4df0f6f",
+   "description": "Surfrider Beach a Malibu è il classico point destro californiano su ciottoli e sabbia, dove onde lunghe e regolari corrono fino a 300 m. First Point è un'onda morbida da longboard, Second e Third Point sono più veloci e da shortboard. Funziona con gli swell estivi e autunnali da sud; d'inverno gli swell da nord qui quasi non entrano.",
+   "rating_basis": "Una delle onde da longboard più famose al mondo e la prima World Surfing Reserve (2010); è nelle top list degli USA (Lonely Planet, Surfertoday, The Surf Atlas). Difetti segnalati da tutte le recensioni: folla, cattiva qualità dell'acqua dopo le piogge e incostanza fuori dall'estate",
+   "hazards": "Folla e scontri, rocce vicino al point, ricci di mare, acqua inquinata dopo le piogge (scarico dalla laguna di Malibu), correnti fredde in autunno",
+   "crowd_note": "D'estate in acqua ci sono 40–100 persone, con molti drop-in e discussioni sulla priorità. In autunno e a Zuma/County Line c'è più spazio",
+   "region": "California, contea di Los Angeles",
+   "area_breaks": "Nei dintorni: Second e Third Point (più veloci e cave, shortboard), Topanga (point destro, affollato), Latigo, Point Dume, Zuma Beach (beach break potente, inverno–primavera), Zeros/Nicholas Canyon (point sinistro), Leo Carrillo (point destro con l'alta marea), Staircase, County Line",
+   "beginner_months": "A First Point per i principianti c'è troppa gente e non è sicuro; si impara d'estate sulle onde interne morbide vicino al Malibu Pier e sulle spiagge di Zuma e Santa Monica (ci sono scuole vicino al molo)",
+   "pros": [
+    "Leggendaria lunga destra da longboard",
+    "I mesi migliori sono l'estate e l'autunno, caldi",
+    "Vicino a Los Angeles: alloggi, noleggi, scuole",
+    "Molti altri break nel raggio di 20 km"
+   ],
+   "cons": [
+    "Estremamente affollato",
+    "Cattiva qualità dell'acqua dopo le piogge e nella laguna",
+    "Acqua fredda: serve una muta 3/2–4/3",
+    "D'inverno quasi non funziona"
+   ],
+   "airport": "LAX — Los Angeles, ~50 min",
+   "best_wind_dir": "N–NE (offshore); va bene una leggera brezza da ovest",
+   "best_swell_dir": "S–SW (swell estivi dall'emisfero sud)"
+  },
+  "oahu-north-shore-pipeline": {
+   "h": "91cf59066e",
+   "description": "La North Shore di Oahu è la capitale mondiale del surf invernale: da ottobre a marzo arrivano potenti swell da nord-ovest dal Pacifico settentrionale. Pipeline è una pesante sinistra tubolare (con la destra di Backdoor) su un reef basso e tagliente pieno di grotte: un'onda per esperti e professionisti. Per gli intermedi sulla costa ci sono reef più morbidi, come Chun's, Laniakea e Haleiwa, ma anche lì d'inverno le cose si fanno serie.",
+   "rating_basis": "Pipeline è l'onda più famosa al mondo e sede di una tappa del WSL Championship Tour (Pipe Pro) e del Billabong Pipe Masters; la North Shore (il «Seven Mile Miracle») è in tutte le top list mondiali (Surfertoday, Lonely Planet, Perfect Wave). Per gli intermedi è più un posto dove guardare il surf che dove surfare sui picchi principali",
+   "hazards": "Reef basso e tagliente con grotte e sporgenze (fratture, lacerazioni), onde potenti e pesanti, forti correnti di risacca, coralli; con swell grandi il pericolo è estremo anche per gli esperti",
+   "crowd_note": "D'inverno nel line-up di Pipe ci sono decine di professionisti, fotografi e bodyboarder; le onde vengono «distribuite» secondo la gerarchia. A Sunset Beach, Chun's Reef e Laniakea c'è un po' più di spazio, ma c'è comunque gente",
+   "region": "Hawaii, isola di Oahu, North Shore",
+   "area_breaks": "Nei dintorni: Backdoor (destra sullo stesso reef), Off-the-Wall, Rockpiles, Sunset Beach (grande destra, esperti), Waimea Bay (big wave, esperti), Laniakea (destra, intermedi), Chun's Reef (destra, intermedi), Haleiwa (reef, nei giorni piccoli principianti), Puaena Point (principianti)",
+   "beginner_months": "Pipeline non è per principianti. D'inverno, nei giorni piccoli, si impara nella baia di Haleiwa (Ali'i Beach) e a Puaena Point; da maggio a settembre la North Shore è quasi flat: per i principianti è meglio Waikiki, sulla costa sud",
+   "pros": [
+    "Onde leggendarie di livello mondiale e gare WSL",
+    "Swell invernali costanti e aliseo offshore",
+    "Acqua calda tutto l'anno: si surfa in boardshort",
+    "Molti break su 11 km di costa"
+   ],
+   "cons": [
+    "I picchi principali sono solo per esperti, con gerarchia rigida e localismo",
+    "Alloggi e noleggio auto molto cari",
+    "D'estate quasi flat",
+    "Pericoloso: tantissimi infortuni ogni anno"
+   ],
+   "airport": "HNL — Honolulu, ~1 h in auto",
+   "best_wind_dir": "E–SE (offshore)",
+   "best_swell_dir": "NW–W (per Backdoor N–NW)"
+  },
+  "waikiki-queens-canoes": {
+   "h": "02c75d6918",
+   "description": "La spiaggia di Waikiki a Honolulu è il posto classico dove si impara a surfare: sul reef esterno rompono onde lunghe e dolci, e l'aliseo offshore le tiene quasi sempre pulite. Queens è una destra morbida (con una sinistra corta) da longboard, Canoes l'onda più amichevole per i principianti. La stagione è quella degli swell estivi da sud, da maggio a settembre.",
+   "rating_basis": "La patria del surf moderno (Duke Kahanamoku) e uno dei posti migliori al mondo per alzarsi sulla tavola: onde lunghe e morbide su reef, acqua calda, decine di scuole (Surfertoday, Hawaii Guide, Hawaii Magazine). Per i più esperti è più un paradiso del longboard che un posto da onde serie; il difetto principale è la folla",
+   "hazards": "Reef basso e coralli con la bassa marea, scontri con tavole e canoe nella folla; a Populars sono segnalati squali tigre; sole",
+   "crowd_note": "Uno dei posti più affollati al mondo: al mattino centinaia di allievi delle scuole, longboarder, canoe e SUP. A Queens il line-up è competitivo, con i longboarder locali; Populars e Public Baths sono più liberi, ma la remata è lunga",
+   "region": "Hawaii, isola di Oahu, costa sud (Honolulu)",
+   "area_breaks": "Nei dintorni: Queens (destra morbida, longboard), Canoes (principianti), Populars e Public Baths (intermedi, remata lunga), Walls (vicino al frangiflutti di Kapahulu), Ala Moana Bowls (sinistra veloce, avanzati), Diamond Head (da intermedi ad avanzati), Sandy Beach (shorebreak, solo esperti)",
+   "beginner_months": "Tutto l'anno a Canoes e sulle onde interne vicino a Kuhio Beach: anche d'inverno di solito c'è una piccola onda per imparare; il periodo migliore va da aprile a ottobre, quando arrivano gli swell da sud",
+   "pros": [
+    "Ideale per imparare e per il longboard",
+    "Acqua calda tutto l'anno",
+    "Decine di scuole e noleggi direttamente in spiaggia",
+    "Città, hotel e aeroporto vicini"
+   ],
+   "cons": [
+    "Molta ressa in acqua",
+    "Reef basso con la bassa marea",
+    "D'inverno di solito onde piccole",
+    "Caro"
+   ],
+   "airport": "HNL — Honolulu, ~25 min",
+   "best_wind_dir": "Aliseo E–NE (offshore)"
+  },
+  "da-nang-my-khe": {
+   "h": "f99ccae948",
+   "description": "My Khe è la lunga spiaggia sabbiosa cittadina di Da Nang, lo spot surf più costante del Vietnam centrale. Da settembre a marzo il monsone di nord-est e i tifoni portano un'onda da vento di 0,5–1,5 m, comoda per imparare; d'estate il mare è quasi sempre calmo. Facile da abbinare a una vacanza in città, a Hoi An e alle montagne di Ba Na.",
+   "rating_basis": "Un semplice beach break sabbioso con onda da vento del monsone di nord-est e rari swell dei tifoni. The Surf Atlas indica come stagione settembre–marzo (picco a settembre–novembre) e loda il line-up libero; l'onda è incostante e di periodo corto: una meta per principianti e vacanze surf, non per un surf trip",
+   "hazards": "Correnti di risacca (rip) con onde grandi, shorebreak, tifoni (settembre–novembre), meduse, acqua inquinata dopo gli acquazzoni",
+   "crowd_note": "Il line-up è libero e cordiale anche in stagione; a Nam O, con swell da tifone, a volte ci sono alcune decine di locali",
+   "region": "Vietnam centrale, Da Nang, Mar Cinese Meridionale",
+   "area_breaks": "Nei dintorni: Nam O (point sinistro vicino al frangiflutti, intermedi, serve swell grande), Man Thai (spiaggia riparata, tubi con la bassa marea e swell grande), Non Nuoc (picchi su sabbia, più potenti e ventosi), Hoi An – An Bang (onda piccola e morbida, 30 km a sud)",
+   "beginner_months": "Settembre–marzo: il morbido beach break sabbioso lungo tutta la spiaggia di My Khe è adatto alle prime lezioni; ad aprile–agosto quasi sempre flat",
+   "pros": [
+    "Morbido beach break sabbioso per principianti",
+    "Line-up libero",
+    "Aeroporto, città e tutti i servizi vicini",
+    "C'è una scuola in lingua russa"
+   ],
+   "cons": [
+    "Onda incostante, di periodo corto, spesso ventosa",
+    "Da aprile ad agosto quasi flat",
+    "Settembre–dicembre è la stagione delle piogge e dei tifoni",
+    "Poco interessante per surfisti esperti"
+   ],
+   "airport": "DAD — Da Nang, ~10–15 min",
+   "best_wind_dir": "W–NW (offshore, raro); di solito vento debole al mattino"
+  },
+  "cape-town-muizenberg": {
+   "h": "09a6f010d0",
+   "description": "Il principale posto di Città del Capo per imparare: spiaggia sabbiosa in dolce pendenza, lunga schiuma e onde morbide nella False Bay, decine di scuole e noleggi a Surfer's Corner. D'inverno (aprile–settembre) soffia offshore da nord-ovest e arriva uno swell costante; d'estate al mattino è calmo, di giorno c'è vento. I più esperti surfano sul lato atlantico della penisola: a Long Beach, a Kommetjie, e in decine di altri posti.",
+   "rating_basis": "Muizenberg in sé offre una lunga schiuma morbida e onde basse (surf-forecast valuta bassa la qualità dell'onda, 2/10), ma è uno dei posti migliori al mondo per le prime lezioni; Città del Capo nel suo insieme è tra le migliori città surf del mondo (decine di break, da Long Beach alla big wave di Dungeons)",
+   "hazards": "Squali bianchi nella False Bay (ci sono osservatori con bandiere e sirena), acqua fredda, correnti di risacca, d'inverno swell potente; sul lato atlantico kelp, rocce e acqua a 11–13 °C; piccoli furti",
+   "crowd_note": "D'estate e nel weekend a Surfer's Corner c'è molta gente (scuole, noleggi), ma la spiaggia lunga con diversi picchi distribuisce le persone; d'inverno è più tranquillo. A Long Beach, a Kommetjie, nei giorni buoni c'è ressa",
+   "region": "Provincia del Capo Occidentale, False Bay",
+   "area_breaks": "Nella False Bay: St James, il reef di Kalk Bay (sinistra potente su rocce, per esperti), Glen Corner. Sul lato atlantico (20–35 km): Long Beach a Kommetjie (il migliore per gli intermedi, funziona d'estate con vento da sud-est), Noordhoek, Scarborough, Llandudno, Glen Beach, Big Bay; Dungeons, vicino a Hout Bay, è una big wave per pro",
+   "beginner_months": "Tutto l'anno a Surfer's Corner, a Muizenberg; il periodo migliore è aprile–settembre (offshore da nord-ovest, onda pulita, meno gente). D'estate (ottobre–marzo) si impara al mattino: dopo pranzo soffia il «Cape Doctor» da sud-est",
+   "pros": [
+    "Spiaggia ideale per principianti, tante scuole e noleggi",
+    "C'è un servizio di avvistamento squali (Shark Spotters)",
+    "Città del Capo: decine di break per ogni vento e livello entro un'ora d'auto",
+    "Città con servizi sviluppati e cambio favorevole per i turisti"
+   ],
+   "cons": [
+    "Acqua fresca d'inverno (14–16 °C), sul lato atlantico 11–13 °C",
+    "Forte vento da sud-est d'estate nel pomeriggio",
+    "Muizenberg offre onde deboli agli avanzati",
+    "Problemi di sicurezza: furti, non lasciate le cose in spiaggia"
+   ],
+   "airport": "CPT — Città del Capo, ~30 min"
+  },
+  "durban-new-pier": {
+   "h": "70ab1d89c3",
+   "description": "Surf urbano nell'acqua calda (21–26 °C) dell'Oceano Indiano: i moli lungo il lungomare formano banchi di sabbia con picchi veloci e tubolari in entrambe le direzioni. La stagione migliore è l'autunno e l'inverno australe (marzo–settembre), quando arrivano gli swell da SSW e soffia offshore da ovest–nord-ovest; d'estate soffia più spesso il vento da nord-est, ma le onde ci sono quasi sempre.",
+   "rating_basis": "Durban è la «Surf City» del Sudafrica: acqua calda tutto l'anno, decine di picchi lungo il Golden Mile, patria di molti campioni (Jordy Smith); surf-forecast: spot «costante», con un voto di 4/10; difetti: acqua cittadina e folla",
+   "hazards": "Squali (le spiagge del Golden Mile sono protette da reti e drumline del KZN Sharks Board), correnti vicino ai moli, meduse, acqua inquinata dopo le piogge, furti in spiaggia",
+   "crowd_note": "Sui moli di New Pier, Dairy Beach (Wedge) e North Beach nei giorni buoni c'è ressa, soprattutto all'alba e nel weekend; ad Ansteys e sulle spiagge a sud c'è più spazio",
+   "region": "KwaZulu-Natal, Oceano Indiano (Golden Mile)",
+   "area_breaks": "Lungo il Golden Mile: North Beach (intermedi), Bay of Plenty (costante, sede di gare), Dairy Beach / Wedge (regge swell grandi), Snake Park, Addington (principianti, longboard), uShaka (principianti assoluti); più a sud Ansteys e Cave Rock (tubo potente su reef, solo esperti); più a nord Umhlanga e Ballito",
+   "beginner_months": "Tutto l'anno ad Addington Beach e a uShaka Beach, la più riparata (dietro il frangiflutti), meglio nei giorni morbidi al mattino, prima del vento da nord-est",
+   "pros": [
+    "Acqua calda tutto l'anno, si può fare a meno della muta",
+    "Molti picchi per ogni livello in piena città",
+    "Onde quasi ogni giorno",
+    "Alloggi economici e aeroporto internazionale vicino"
+   ],
+   "cons": [
+    "Acqua cittadina: dopo gli acquazzoni è inquinata e a volte le spiagge vengono chiuse",
+    "Localismo e folla sui moli migliori",
+    "Alto tasso di criminalità: non lasciate le cose incustodite",
+    "D'estate spesso onshore da nord-est"
+   ],
+   "airport": "DUR — Durban (King Shaka), ~35 km, ~30–40 min"
+  },
+  "jeffreys-bay-supertubes": {
+   "h": "4248314c38",
+   "description": "Un leggendario point destro: con swell da sud le sezioni Boneyards, Supertubes e Impossibles si collegano in una surfata di centinaia di metri, con tubi. Il periodo migliore è l'inverno australe (maggio–settembre), quando le tempeste dell'Oceano Australe portano uno swell costante di 1,5–3 m e offshore da ovest. D'estate le onde sono più piccole e soffia più spesso vento da est, ma a The Point e Main Beach si può surfare e imparare quasi tutto l'anno.",
+   "rating_basis": "Uno dei migliori point destri al mondo: tappa del Championship Tour WSL (J-Bay Open), presenza fissa in tutte le top list (Surfline, Stab, surf-forecast: spot «molto costante»); difetti: folla e squali",
+   "hazards": "Squali bianchi (il noto attacco a Mick Fanning durante la tappa WSL del 2015), rocce taglienti e cozze sul point, forte corrente lungo il point, upwelling freddo d'estate; furti dalle auto",
+   "crowd_note": "A Supertubes con un buono swell «raramente ci sono meno di 10 persone sul picco», d'inverno e durante la tappa WSL c'è moltissima ressa; a The Point, Albatross e Main Beach c'è più spazio",
+   "region": "Provincia del Capo Orientale, Oceano Indiano",
+   "area_breaks": "Lungo il point: Magna Tubes, Boneyards (sezione alta, localismo), Impossibles (solo per pro), Tubes, The Point (longboard, intermedi), Albatross (l'onda più morbida), Kitchen Windows (A-frame per intermedi), Main Beach (principianti); a 20 km St Francis Bay (Bruce's Beauties, Gunnels)",
+   "beginner_months": "Tutto l'anno sulla sabbiosa Main Beach / Dolphin Beach in centro città, meglio d'estate (novembre–marzo), quando le onde sono più piccole; a Supertubes i principianti non possono entrare",
+   "pros": [
+    "Onda di livello mondiale, surfate lunghissime",
+    "Quasi mai completamente flat",
+    "Diverse sezioni per livelli diversi nello stesso posto",
+    "Servizi surf sviluppati e shaper, alloggi economici"
+   ],
+   "cons": [
+    "Molta ressa sul picco principale",
+    "Squali (squalo bianco)",
+    "Acqua fresca: serve una muta 3/2–4/3",
+    "Lontano da un aeroporto internazionale"
+   ],
+   "airport": "PLZ — Gqeberha (Port Elizabeth), ~1 h (voli nazionali via Johannesburg/Città del Capo); da Città del Capo (CPT) ~8 h in auto"
   }
  }
 }
