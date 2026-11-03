@@ -278,7 +278,7 @@ function renderSurfForecast(host, spot) {
     const rows = h('div', { class: 'fc' });
     for (const d of days) {
       const date = new Date(d.date + 'T12:00:00');
-      const good = d.swell != null && d.swell >= 0.6 && (d.period || 0) >= 7;
+      const good = d.swell != null && d.swell >= 0.6 && (d.period || 0) >= 8;
       rows.append(h('div', { class: `fc-row ${good ? 'is-good' : ''}` },
         h('span', { class: 'fc-day' }, `${weekdayShort(date)} ${date.getDate()}`),
         d.dir != null ? h('span', { class: 'fc-dir', style: `transform: rotate(${Math.round(d.dir + 180)}deg)`, 'aria-label': t('card.fc_swell_dir', { d: Math.round(d.dir) }) }, '↑') : h('span', { class: 'fc-dir' }, ''),

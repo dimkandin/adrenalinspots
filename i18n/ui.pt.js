@@ -413,7 +413,7 @@ export default {
   'card.surf_days': "Dias com onda",
   'card.tide_range': "Amplitude da maré",
   'card.clean_mornings': "Manhãs sem maral",
-  'card.swell_source': "Colunas: altura média diária do swell no modelo de ondas Open-Meteo, {period}; dias com onda — swell de 0,6 m ou mais com período de pelo menos 7 s; manhãs sem maral — calmaria ou terral das 6 às 10 h.",
+  'card.swell_source': "Colunas: altura média diária do swell no modelo de ondas Open-Meteo, {period}; dias com onda — swell de 0,6 m ou mais com período de pico de pelo menos 8 s; manhãs sem maral — calmaria ou terral das 6 às 10 h.",
   'card.swell_pending': "O modelo de ondas deste spot ainda está sendo calculado; por enquanto mostramos a estimativa dos guias.",
   'card.wetsuit': "Roupa de neoprene",
   'card.swell_rose_note': "De onde vem o swell de 0,5 m ou mais: comprimento da pétala = parcela das horas ({p}% do tempo no total), {period}.",

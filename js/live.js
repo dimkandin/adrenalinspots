@@ -56,7 +56,7 @@ export async function surfForecast(lat, lng) {
   if (cache.has(key)) return cache.get(key);
   const url = 'https://marine-api.open-meteo.com/v1/marine?' + new URLSearchParams({
     latitude: lat.toFixed(4), longitude: lng.toFixed(4), cell_selection: 'sea', timezone: 'auto', forecast_days: '7',
-    daily: 'wave_height_max,swell_wave_height_max,swell_wave_period_max,swell_wave_direction_dominant,wave_period_max',
+    daily: 'wave_height_max,swell_wave_height_max,swell_wave_peak_period_max,swell_wave_period_max,swell_wave_direction_dominant,wave_period_max',
   });
   const p = fetch(url).then((r) => {
     if (!r.ok) throw new Error(t('err.forecast', { status: r.status }));
@@ -69,7 +69,7 @@ export async function surfForecast(lat, lng) {
         date,
         swell: swell ?? (d.wave_height_max ? d.wave_height_max[i] : null),
         wave: d.wave_height_max ? d.wave_height_max[i] : null,
-        period: (d.swell_wave_period_max && d.swell_wave_period_max[i]) ?? (d.wave_period_max ? d.wave_period_max[i] : null),
+        period: (d.swell_wave_peak_period_max && d.swell_wave_peak_period_max[i]) ?? (d.swell_wave_period_max && d.swell_wave_period_max[i]) ?? (d.wave_period_max ? d.wave_period_max[i] : null),
         dir: d.swell_wave_direction_dominant ? d.swell_wave_direction_dominant[i] : null,
       };
     });

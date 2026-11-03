@@ -413,7 +413,7 @@ export default {
   'card.surf_days': "Jours surfables",
   'card.tide_range': "Marnage",
   'card.clean_mornings': "Matins sans onshore",
-  'card.swell_source': "Colonnes : hauteur moyenne journalière de la houle selon le modèle de vagues Open-Meteo, {period} ; jours surfables — houle d’au moins 0,6 m et période d’au moins 7 s ; matins sans onshore — calme ou vent de terre entre 6 h et 10 h.",
+  'card.swell_source': "Colonnes : hauteur moyenne journalière de la houle selon le modèle de vagues Open-Meteo, {period} ; jours surfables — houle d’au moins 0,6 m et période de pic d’au moins 8 s ; matins sans onshore — calme ou vent de terre entre 6 h et 10 h.",
   'card.swell_pending': "Le modèle de vagues de ce spot est encore en calcul ; l’estimation des guides est affichée en attendant.",
   'card.wetsuit': "Combinaison",
   'card.swell_rose_note': "D’où vient la houle d’au moins 0,5 m : longueur du pétale = part des heures ({p} % du temps au total), {period}.",

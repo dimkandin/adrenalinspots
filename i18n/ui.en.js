@@ -413,7 +413,7 @@ export default {
   'card.surf_days': "Surf days",
   'card.tide_range': "Tidal range",
   'card.clean_mornings': "Clean mornings",
-  'card.swell_source': "Columns: average daily swell height from the Open-Meteo wave model, {period}; surf days — swell of 0.6 m or more with a period of at least 7 s; clean mornings — calm or offshore wind between 6 and 10 am.",
+  'card.swell_source': "Columns: average daily swell height from the Open-Meteo wave model, {period}; surf days — swell of 0.6 m or more with a peak period of at least 8 s; clean mornings — calm or offshore wind between 6 and 10 am.",
   'card.swell_pending': "The wave model for this spot is still being computed — the guide estimate is shown for now.",
   'card.wetsuit': "Wetsuit",
   'card.swell_rose_note': "Where swell of 0.5 m or more comes from: petal length = share of hours ({p}% of the time in total), {period}.",
