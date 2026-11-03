@@ -413,7 +413,7 @@ export default {
   'card.surf_days': "Días con olas",
   'card.tide_range': "Amplitud de marea",
   'card.clean_mornings': "Mañanas sin onshore",
-  'card.swell_source': "Columnas: altura media diaria del swell según el modelo de olas de Open-Meteo, {period}; días con olas — swell de 0,6 m o más con periodo pico de al menos 8 s; mañanas sin onshore — calma o viento de tierra de 6 a 10 h.",
+  'card.swell_source': "Columnas: altura media diaria del swell según el modelo de olas de Open-Meteo, {period}; días con olas — swell de 0,6 m o más con periodo de al menos 7 s; mañanas sin onshore — calma o viento de tierra de 6 a 10 h.",
   'card.swell_pending': "El modelo de olas de este spot aún se está calculando; por ahora se muestra la estimación de las guías.",
   'card.wetsuit': "Neopreno",
   'card.swell_rose_note': "De dónde llega el swell de 0,5 m o más: longitud del pétalo = proporción de horas ({p}% del tiempo en total), {period}.",

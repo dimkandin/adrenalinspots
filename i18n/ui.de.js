@@ -413,7 +413,7 @@ export default {
   'card.surf_days': "Surftage",
   'card.tide_range': "Tidenhub",
   'card.clean_mornings': "Morgens ohne Onshore",
-  'card.swell_source': "Säulen: mittlere tägliche Swellhöhe aus dem Wellenmodell von Open-Meteo, {period}; Surftage — Swell ab 0,6 m mit mindestens 8 s Spitzenperiode; morgens ohne Onshore — Flaute oder ablandiger Wind zwischen 6 und 10 Uhr.",
+  'card.swell_source': "Säulen: mittlere tägliche Swellhöhe aus dem Wellenmodell von Open-Meteo, {period}; Surftage — Swell ab 0,6 m mit mindestens 7 s Periode; morgens ohne Onshore — Flaute oder ablandiger Wind zwischen 6 und 10 Uhr.",
   'card.swell_pending': "Das Wellenmodell für diesen Spot wird noch berechnet — bis dahin wird die Schätzung der Guides gezeigt.",
   'card.wetsuit': "Neoprenanzug",
   'card.swell_rose_note': "Woher Swell ab 0,5 m kommt: Blattlänge = Anteil der Stunden (insgesamt {p} % der Zeit), {period}.",
