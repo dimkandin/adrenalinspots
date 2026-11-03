@@ -1,7 +1,7 @@
 // Portuguese, Brazilian (português do Brasil). Same keys as ui.ru.js; {name} are placeholders; {one, other} objects are plural forms ({n} is the number).
 export default {
   'meta.title': 'Adrenalin Spots — onde velejar mês a mês',
-  'meta.description': "Mapa mundial de onde ir em cada mês: kitesurf, surf, estações de esqui e escalada. Vento, ondas, neve, clima, escolas e agito.",
+  'meta.description': "Mapa mundial de onde ir em cada mês: kitesurf, surf, estações de esqui, escalada e parapente. Vento, ondas, neve, clima, escolas e agito.",
   'brand': 'Adrenalin Spots',
   'lang.label': 'Idioma',
 
@@ -603,7 +603,7 @@ export default {
   'n.problems': { one: "{n} boulder", other: "{n} boulders" },
   'n.sectors': { one: "{n} setor", other: "{n} setores" },
   // paragliding
-  'dd.activity.paragliding': "Parapente — em breve",
+  'dd.activity.paragliding': "Parapente",
   'dd.activity.paragliding_short': "Parapente",
   'qf.tandem': "Tandem",
   'qf.tandem_title': "Voos duplos com instrutor",

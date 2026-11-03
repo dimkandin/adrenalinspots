@@ -1,7 +1,7 @@
 // French (français). Same keys as ui.ru.js; {name} are placeholders; {one, many, other} objects are plural forms ({n} is the number).
 export default {
   'meta.title': 'Adrenalin Spots — où naviguer chaque mois',
-  'meta.description': "Carte du monde des destinations mois par mois : kitesurf, surf, stations de ski et escalade. Vent, vagues, neige, météo, écoles et ambiance.",
+  'meta.description': "Carte du monde des destinations mois par mois : kitesurf, surf, stations de ski, escalade et parapente. Vent, vagues, neige, météo, écoles et ambiance.",
   'brand': 'Adrenalin Spots',
   'lang.label': 'Langue',
 
@@ -603,7 +603,7 @@ export default {
   'n.problems': { one: "{n} bloc", many: "{n} blocs", other: "{n} blocs" },
   'n.sectors': { one: "{n} secteur", many: "{n} secteurs", other: "{n} secteurs" },
   // paragliding
-  'dd.activity.paragliding': "Parapente — bientôt",
+  'dd.activity.paragliding': "Parapente",
   'dd.activity.paragliding_short': "Parapente",
   'qf.tandem': "Tandem",
   'qf.tandem_title': "Baptêmes en biplace avec un moniteur",

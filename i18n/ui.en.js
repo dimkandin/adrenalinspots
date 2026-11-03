@@ -1,7 +1,7 @@
 // English. Same keys as ui.ru.js; {name} are placeholders; {one, other} objects are plural forms ({n} is the number).
 export default {
   'meta.title': 'Adrenalin Spots — where to ride every month',
-  'meta.description': "World map of where to go each month — kitesurfing, surfing, ski resorts and climbing. Wind, waves, snow, weather, schools and nightlife.",
+  'meta.description': "World map of where to go each month — kitesurfing, surfing, ski resorts, climbing and paragliding. Wind, waves, snow, weather, schools and nightlife.",
   'brand': 'Adrenalin Spots',
   'lang.label': 'Language',
 
@@ -603,7 +603,7 @@ export default {
   'n.problems': { one: "{n} boulder problem", other: "{n} boulder problems" },
   'n.sectors': { one: "{n} sector", other: "{n} sectors" },
   // paragliding
-  'dd.activity.paragliding': "Paragliding — coming soon",
+  'dd.activity.paragliding': "Paragliding",
   'dd.activity.paragliding_short': "Paragliding",
   'qf.tandem': "Tandem",
   'qf.tandem_title': "Tandem flights with an instructor",
