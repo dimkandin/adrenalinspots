@@ -50,8 +50,38 @@ function summarizeDays(hourly) {
   });
 }
 
-// ---- photos: only shots with kites (fallback when the database has none yet) ----------------
+/** 7-day surf forecast from the Open-Meteo marine model: daily max swell, its period and direction. */
+export async function surfForecast(lat, lng) {
+  const key = `s:${lat},${lng}`;
+  if (cache.has(key)) return cache.get(key);
+  const url = 'https://marine-api.open-meteo.com/v1/marine?' + new URLSearchParams({
+    latitude: lat.toFixed(4), longitude: lng.toFixed(4), cell_selection: 'sea', timezone: 'auto', forecast_days: '7',
+    daily: 'wave_height_max,swell_wave_height_max,swell_wave_period_max,swell_wave_direction_dominant,wave_period_max',
+  });
+  const p = fetch(url).then((r) => {
+    if (!r.ok) throw new Error(t('err.forecast', { status: r.status }));
+    return r.json();
+  }).then((j) => {
+    const d = j.daily || {};
+    return (d.time || []).map((date, i) => {
+      const swell = d.swell_wave_height_max ? d.swell_wave_height_max[i] : null;
+      return {
+        date,
+        swell: swell ?? (d.wave_height_max ? d.wave_height_max[i] : null),
+        wave: d.wave_height_max ? d.wave_height_max[i] : null,
+        period: (d.swell_wave_period_max && d.swell_wave_period_max[i]) ?? (d.wave_period_max ? d.wave_period_max[i] : null),
+        dir: d.swell_wave_direction_dominant ? d.swell_wave_direction_dominant[i] : null,
+      };
+    });
+  });
+  cache.set(key, p);
+  p.catch(() => cache.delete(key));
+  return p;
+}
+
+// ---- photos: only shots of the sport (fallback when the database has none yet) ----------------
 const KITE = /kite|kitesurf|kiteboard|кайт|kiter|flysurf/i;
+const SURF = /surf|surfer|surfing|сёрф|серф|wave|barrel|line-?up|longboard/i;
 const BAD = /\bmap\b|karte|carte|logo|flag|coat of arms|diagram|\.svg|\.tif|\.pdf|chart|stamp/i;
 
 export function placeNames(name) {
@@ -67,13 +97,13 @@ export function placeNames(name) {
   return [...new Set(out.length ? out : [name])];
 }
 
-async function openverse(q) {
+async function openverse(q, want = KITE) {
   const r = await fetch('https://api.openverse.org/v1/images/?' + new URLSearchParams({ q, page_size: '30', mature: 'false' }));
   if (!r.ok) throw new Error(`Openverse ${r.status}`);
   const j = await r.json();
   return (j.results || []).filter((x) => {
     const tags = (x.tags || []).map((t) => t.name).join(' ');
-    return KITE.test(`${x.title || ''} ${tags}`) && !BAD.test(x.title || '') && (x.width || 1000) >= 640;
+    return want.test(`${x.title || ''} ${tags}`) && !BAD.test(x.title || '') && (x.width || 1000) >= 640;
   }).map((x) => {
     const lic = (x.license || '').toUpperCase();
     const licText = lic && !['PDM', 'CC0'].includes(lic) ? `CC ${lic} ${x.license_version || ''}`.trim() : lic;
@@ -82,7 +112,7 @@ async function openverse(q) {
   }).filter((x) => x.url);
 }
 
-async function commons(q) {
+async function commons(q, want = KITE) {
   const params = {
     action: 'query', format: 'json', origin: '*', prop: 'imageinfo', iiprop: 'url|mime|size|extmetadata',
     iiurlwidth: '1024', iiextmetadatafilter: 'Artist|LicenseShortName',
@@ -90,21 +120,23 @@ async function commons(q) {
   };
   for (let i = 0; i < 3; i++) {
     const j = await fetch('https://commons.wikimedia.org/w/api.php?' + new URLSearchParams(params)).then((r) => r.json());
-    if (!j.error) return pagesToPhotos(j).filter((p) => KITE.test(p.title));
+    if (!j.error) return pagesToPhotos(j).filter((p) => want.test(p.title));
     await new Promise((res) => setTimeout(res, 1500 * (i + 1)));  // "search too busy"
   }
   return [];
 }
 
-export async function kitePhotos(name, snow = false) {
-  const key = `p:${name}:${snow}`;
+export async function kitePhotos(name, snow = false, activity = 'kite') {
+  const key = `p:${name}:${snow}:${activity}`;
   if (cache.has(key)) return cache.get(key);
+  const sport = activity === 'surf' ? 'surfing' : (snow ? 'snowkite' : 'kitesurfing');
+  const want = activity === 'surf' ? SURF : KITE;
   const p = (async () => {
     const out = []; const seen = new Set();
     const add = (list) => list.forEach((x) => { const k = x.url.split('?')[0]; if (!seen.has(k)) { seen.add(k); out.push(x); } });
     for (const n of placeNames(name).slice(0, 3)) {
-      try { add(await openverse(`${snow ? 'snowkite' : 'kitesurfing'} ${n}`)); } catch { /* Openverse unavailable */ }
-      if (out.length < 4) { try { add(await commons(`${snow ? 'snowkite' : 'kitesurfing'} ${n}`)); } catch { /* Commons unavailable */ } }
+      try { add(await openverse(`${sport} ${n}`, want)); } catch { /* Openverse unavailable */ }
+      if (out.length < 4) { try { add(await commons(`${sport} ${n}`, want)); } catch { /* Commons unavailable */ } }
       if (out.length >= 4) break;
     }
     return out.slice(0, 8);

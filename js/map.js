@@ -1,7 +1,7 @@
 // Map: basemap styles, flag markers, hover tooltip, selection.
 import { BASEMAPS, DEFAULT_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
-import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, rating, windText, vibeLabel } from './util.js';
+import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, metres, rating, windText, vibeLabel } from './util.js';
 import { isRu, lang, t } from './i18n.js';
 
 const INK = '#12303f';
@@ -175,7 +175,9 @@ function tipHtml(p) {
     <div class="tip-place">${flagEmoji(p.cc)} ${esc(p.country || '')}</div>
     <div class="tip-row"><span class="tip-rating">★ ${rating(p.rating)}</span>
       <span class="tip-season tip-${p.season}">${season.phrase || season.short} ${MONTHS_IN[m - 1]}</span></div>
-    <div class="tip-row tip-muted">${[p.wind != null ? t('tip.wind', { v: windText(p.wind) }) : '', p.air != null ? t('tip.air', { v: Math.round(p.air) }) : '', p.sea != null ? t('tip.sea', { v: Math.round(p.sea) }) : ''].filter(Boolean).join(', ')}</div>
+    <div class="tip-row tip-muted">${[
+    p.swell != null ? t('tip.swell', { v: metres(p.swell), s: p.period != null ? Math.round(p.period) : '—' }) : (p.wind != null ? t('tip.wind', { v: windText(p.wind) }) : ''),
+    p.air != null ? t('tip.air', { v: Math.round(p.air) }) : '', p.sea != null ? t('tip.sea', { v: Math.round(p.sea) }) : ''].filter(Boolean).join(', ')}</div>
     ${visa || p.vibe ? `<div class="tip-row">${visa ? `<span class="tip-visa tone-${visa.tone}">${esc(visa.label)}</span>` : ''}${p.vibe ? `<span class="tip-vibe">${esc(t('tip.vibe', { v: vibeLabel(p.vibe) }))}</span>` : ''}</div>` : ''}`;
 }
 

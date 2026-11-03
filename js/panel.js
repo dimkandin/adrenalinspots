@@ -1,11 +1,14 @@
 // Spot detail panel.
-import { tempChart, windChart, windRose } from './charts.js';
-import { forecast, kitePhotos, placeNames } from './live.js';
+import { swellChart, tempChart, windChart, windRose } from './charts.js';
+import { forecast, kitePhotos, placeNames, surfForecast } from './live.js';
 import { isRu, num, t, tn, weekdayShort } from './i18n.js';
 import {
-  LEVEL, MONTHS, MONTHS_IN, SCHOOLS, SEASON, SPOT_TYPE, VISA, WATER, WIND_TYPE,
-  deg, esc, flagEmoji, getUnit, h, rating, vibeLabel, windRangeText, windText, youtubeId,
+  BOTTOM, BREAK, LEVEL, MONTHS, MONTHS_IN, SCHOOLS, SEASON, SPOT_TYPE, TIDE, VISA, WATER, WIND_TYPE,
+  deg, esc, flagEmoji, getUnit, h, metres, rating, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
 } from './util.js';
+
+const SPORT_WORD = { kite: 'kitesurfing', surf: 'surfing' };
+const sportWord = (spot) => SPORT_WORD[spot.activity] || 'kitesurfing';
 
 const panel = () => document.querySelector('.panel');
 let current = null;   // spot detail currently shown
@@ -48,7 +51,7 @@ function renderPhotos(host, spot) {
     host.innerHTML = '';
     if (!photos.length) {
       host.append(h('div', { class: 'gallery-empty' }, h('span', {}, t('card.photos_none')),
-        h('a', { href: `https://www.google.com/search?tbm=isch&q=${encodeURIComponent('kitesurfing ' + placeNames(spot.name)[0])}`, target: '_blank', rel: 'noopener' }, t('card.photos_google'))));
+        h('a', { href: `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${sportWord(spot)} ${placeNames(spot.name)[0]}`)}`, target: '_blank', rel: 'noopener' }, t('card.photos_google'))));
       return;
     }
     const strip = h('div', { class: 'gallery', tabindex: '0', 'aria-label': t('card.photos_aria') });
@@ -69,7 +72,7 @@ function renderPhotos(host, spot) {
   if (stored.length >= 4) { show(stored); return; }
   // Few or no photos in the database yet: look them up from the browser and merge.
   if (stored.length) show(stored); else host.append(h('div', { class: 'gallery-empty' }, t('card.photos_searching')));
-  kitePhotos(spot.name, snow).then((ph) => {
+  kitePhotos(spot.name, snow, spot.activity).then((ph) => {
     if (!current || current.id !== spot.id) return;
     const seen = new Set(stored.map((x) => x.url.split('?')[0]));
     show(stored.concat(ph.filter((x) => !seen.has(x.url.split('?')[0]))).slice(0, 8));
@@ -152,7 +155,7 @@ function renderVideos(spot) {
     });
     list.append(card);
   }
-  list.append(h('a', { class: 'more-link', href: `https://www.youtube.com/results?search_query=${encodeURIComponent('kitesurfing ' + spot.name)}`, target: '_blank', rel: 'noopener' },
+  list.append(h('a', { class: 'more-link', href: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${sportWord(spot)} ${spot.name}`)}`, target: '_blank', rel: 'noopener' },
     (spot.videos || []).length ? t('card.video_more') : t('card.video_find')));
   return list;
 }
@@ -211,6 +214,85 @@ function climateBlock(spot, month) {
   return wrap;
 }
 
+// ---------- surf ------------------------------------------------------------------
+const localNum = (text) => String(text).replace(/\d+\.\d+/g, (x) => num(Number(x)));
+
+function waveDirText(dirs) {
+  const d = dirs || [];
+  if (d.includes('left') && d.includes('right')) return t('wdir.both');
+  if (d.includes('left')) return t('wdir.left');
+  if (d.includes('right')) return t('wdir.right');
+  return '—';
+}
+
+function surfFacts(spot) {
+  const a = spot.attrs || {};
+  return h('dl', { class: 'facts' },
+    fact(t('card.break_type'), BREAK[a.break_type] || '—', a.bottom ? h('small', {}, ` ${t('card.bottom_short', { b: BOTTOM[a.bottom] || a.bottom })}`) : null),
+    fact(t('card.wave_dir'), waveDirText(a.wave_direction)),
+    fact(t('card.level'), (spot.level || []).map((l) => LEVEL[l]).join(', ') || '—'),
+    fact(t('card.wave_size'), a.wave_size_m ? `${localNum(a.wave_size_m)} ${t('unit.m')}` : '—'),
+    fact(t('card.best_swell'), a.best_swell_dir || '—'),
+    fact(t('card.best_wind_surf'), a.best_wind_dir || '—'),
+    fact(t('card.best_tide'), TIDE[a.best_tide] || '—'),
+    fact(t('card.consistency'), meter(a.consistency, 5, t('card.consistency')), a.consistency ? h('small', {}, ` ${t(`consistency.${a.consistency}`)}`) : null),
+    fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),
+    fact(t('card.crowd'), meter(spot.crowd, 5, t('card.crowd_meter')), spot.crowd_note ? h('small', {}, ` ${spot.crowd_note}`) : null),
+    fact(t('card.localism'), meter(a.localism, 5, t('card.localism')), a.localism ? h('small', {}, ` ${t(`localism.${a.localism}`)}`) : null),
+    a.board_rental != null ? fact(t('card.board_rental'), t(a.board_rental ? 'card.yes' : 'card.no')) : null,
+    a.beginner_months_ru ? fact(t('card.beginners'), a.beginner_months_ru) : null,
+    a.area_breaks_ru ? fact(t('card.area_breaks'), a.area_breaks_ru) : null);
+}
+
+function swellBlock(spot, month) {
+  const guide = spot.climate.guide.map((g) => g || {});
+  const era5 = spot.climate.era5;
+  const e = era5 ? era5[month - 1] || {} : {};
+  const g = guide[month - 1] || {};
+  const wrap = h('div', {});
+  wrap.append(h('div', { class: 'legend' },
+    h('span', {}, h('i', { class: 'lg-bar' }), era5 ? t('card.lg_swell_model') : t('card.lg_swell_guide')),
+    era5 ? h('span', {}, h('i', { class: 'lg-dot' }), t('card.lg_swell_guide')) : null,
+    h('span', {}, h('i', { class: 'lg-threshold' }), t('card.lg_rideable'))));
+  const chartHost = h('div', { class: 'chart-host' });
+  wrap.append(chartHost);
+  swellChart(chartHost, { guide, era5, seasons: spot.seasons, month, onMonth: ctx.setMonth });
+  const pct = (v) => (v != null ? `${Math.round(v)}%` : '—');
+  wrap.append(h('dl', { class: 'facts facts-3' },
+    fact(t('card.swell_in', { in_month: MONTHS_IN[month - 1] }), metres(e.swell_m ?? g.wave_m)),
+    fact(t('card.period'), e.swell_s != null ? t('card.period_v', { s: Math.round(e.swell_s) }) : '—'),
+    fact(t('card.surf_days'), pct(e.surf_prob)),
+    fact(t('card.tide_range'), e.tide_m != null ? metres(e.tide_m) : '—'),
+    fact(t('card.clean_mornings'), pct(e.clean_prob))));
+  wrap.append(h('p', { class: 'source' }, era5 ? t('card.swell_source', { period: spot.climate_periods.era5 || '' }) : t('card.swell_pending')));
+  return wrap;
+}
+
+function renderSurfForecast(host, spot) {
+  host.innerHTML = '';
+  host.append(h('p', { class: 'muted' }, t('card.fc_loading')));
+  surfForecast(spot.lat, spot.lng).then((days) => {
+    if (!current || current.id !== spot.id) return;
+    host.innerHTML = '';
+    const max = Math.max(2, ...days.map((d) => d.swell || 0));
+    const rows = h('div', { class: 'fc' });
+    for (const d of days) {
+      const date = new Date(d.date + 'T12:00:00');
+      const good = d.swell != null && d.swell >= 0.6 && (d.period || 0) >= 7;
+      rows.append(h('div', { class: `fc-row ${good ? 'is-good' : ''}` },
+        h('span', { class: 'fc-day' }, `${weekdayShort(date)} ${date.getDate()}`),
+        d.dir != null ? h('span', { class: 'fc-dir', style: `transform: rotate(${Math.round(d.dir + 180)}deg)`, 'aria-label': t('card.fc_swell_dir', { d: Math.round(d.dir) }) }, '↑') : h('span', { class: 'fc-dir' }, ''),
+        h('span', { class: 'fc-bar' }, h('i', { class: 'fc-w', style: `width:${((d.swell || 0) / max) * 100}%` })),
+        h('span', { class: 'fc-val' }, metres(d.swell), d.period != null ? h('small', {}, ` · ${t('card.period_v', { s: Math.round(d.period) })}`) : null)));
+    }
+    host.append(rows, h('p', { class: 'source' }, t('card.fc_surf_source')));
+  }).catch((e) => {
+    if (!current || current.id !== spot.id) return;
+    host.innerHTML = '';
+    host.append(h('p', { class: 'muted' }, t('card.fc_error', { msg: e.message })));
+  });
+}
+
 export function renderPanel(spot, context) {
   current = spot; ctx = context;
   const month = ctx.month;
@@ -243,14 +325,16 @@ export function renderPanel(spot, context) {
     h('div', { class: 'chips' }, seasonChip(season, month), isRu ? visaChip(spot.visa) : null,
       isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null));
 
+  const isSurf = spot.activity === 'surf';
   const water = (spot.water || []).map((w) => h('span', { class: `tag water-${w}` }, WATER[w] || w));
   const era = spot.climate.era5 ? spot.climate.era5[month - 1] : null;
-  const facts = h('dl', { class: 'facts' },
+  const facts = isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
     fact(t('card.wind_range'), windRangeText(spot.wind_range) || '—'),
     fact(t('card.direction'), spot.wind_dir || '—', spot.wind_type ? h('small', {}, ` ${WIND_TYPE[spot.wind_type] || spot.wind_type}`) : null),
     fact(t('card.gustiness'), meter(spot.gustiness, 5, t('card.gustiness')), h('small', {}, ` ${gustText(spot.gustiness)}`), spot.gustiness_note ? h('small', { class: 'block' }, spot.gustiness_note) : null),
     fact(t('card.water'), h('span', { class: 'tags' }, ...water)),
     fact(t('card.waves'), spot.waves_note || '—', era && era.wave_m != null ? h('small', { class: 'block' }, t('card.waves_avg', { m: num(era.wave_m, 1), in_month: MONTHS_IN[month - 1] })) : null),
+    spot.wave_riding ? fact(t('card.wave_riding'), meter(spot.wave_riding, 3, t('card.wave_riding')), h('small', {}, ` ${t(`wave_riding.${spot.wave_riding}`)}`)) : null,
     fact(t('card.depth'), spot.depth ? t(`depth.${spot.depth}`) : '—'),
     fact(t('card.spot_type'), SPOT_TYPE[spot.spot_type] || spot.spot_type || '—'),
     fact(t('card.level'), (spot.level || []).map((l) => LEVEL[l]).join(', ') || '—'),
@@ -261,7 +345,7 @@ export function renderPanel(spot, context) {
   if (spot.description) body.append(h('p', { class: 'p-desc' }, spot.description));
   body.append(section(t('sec.conditions'), facts));
   body.append(section(t('sec.vibe'), vibeBlock(spot)));
-  body.append(section(t('sec.wind'), climateBlock(spot, month)));
+  body.append(isSurf ? section(t('sec.swell'), swellBlock(spot, month)) : section(t('sec.wind'), climateBlock(spot, month)));
 
   const tempHost = h('div', { class: 'chart-host' });
   const g = spot.climate.guide[month - 1] || {};
@@ -271,12 +355,18 @@ export function renderPanel(spot, context) {
     h('div', { class: 'legend' }, h('span', {}, h('i', { class: 'lg-line air' }), t('chart.air_day')),
       hasWater ? h('span', {}, h('i', { class: 'lg-line water' }), t('chart.water_cap')) : null),
     tempHost,
-    h('dl', { class: `facts ${hasWater ? 'facts-2' : 'facts-1'}` },
+    h('dl', { class: `facts ${isSurf && hasWater ? 'facts-3' : hasWater ? 'facts-2' : 'facts-1'}` },
       fact(t('card.air_in', { in_month: MONTHS_IN[month - 1] }), deg(g.air_c ?? (era && era.air_c))),
-      hasWater ? fact(t('card.water'), deg(g.water_c ?? (era && era.water_c))) : null)));
+      hasWater ? fact(t('card.water'), deg(g.water_c ?? (era && era.water_c))) : null,
+      isSurf && hasWater ? fact(t('card.wetsuit'), wetsuit((era && era.water_c) ?? g.water_c) || '—') : null)));
   tempChart(tempHost, { guide: spot.climate.guide, era5: spot.climate.era5, month });
 
-  if (!spot.era5_local_wind && era && era.rose && era.rose.some((x) => x > 0)) {
+  if (isSurf && era && era.swell_rose && era.swell_rose.some((x) => x > 0)) {
+    const roseHost = h('div', { class: 'rose-host' });
+    body.append(section(t('sec.swell_rose', { in_month: MONTHS_IN[month - 1] }), roseHost));
+    const share = windRose(roseHost, era.swell_rose);
+    roseHost.append(h('p', { class: 'source' }, t('card.swell_rose_note', { p: share, period: spot.climate_periods.era5 })));
+  } else if (!isSurf && !spot.era5_local_wind && era && era.rose && era.rose.some((x) => x > 0)) {
     const roseHost = h('div', { class: 'rose-host' });
     const sec = section(t('sec.rose', { in_month: MONTHS_IN[month - 1] }), roseHost);
     body.append(sec);
@@ -285,8 +375,8 @@ export function renderPanel(spot, context) {
   }
 
   const fcHost = oldForecast || h('div', { class: 'fc-host', 'data-unit': getUnit() });
-  body.append(section(t('sec.forecast'), fcHost));
-  if (!oldForecast) renderForecast(fcHost, spot);
+  body.append(section(isSurf ? t('sec.forecast_surf') : t('sec.forecast'), fcHost));
+  if (!oldForecast) (isSurf ? renderSurfForecast : renderForecast)(fcHost, spot);
 
   body.append(section(t('sec.video'), oldVideos || renderVideos(spot)));  // keep a playing video alive
 
@@ -324,9 +414,11 @@ export function renderPanel(spot, context) {
 
   const links = spot.links || {};
   const linkList = h('ul', { class: 'links' },
+    links.surf_forecast ? h('li', {}, h('a', { href: links.surf_forecast, target: '_blank', rel: 'noopener' }, 'Surf-Forecast')) : null,
+    links.surfline ? h('li', {}, h('a', { href: links.surfline, target: '_blank', rel: 'noopener' }, 'Surfline')) : null,
     links.windguru ? h('li', {}, h('a', { href: links.windguru, target: '_blank', rel: 'noopener' }, t('card.link_windguru'))) : null,
     links.windfinder ? h('li', {}, h('a', { href: links.windfinder, target: '_blank', rel: 'noopener' }, t('card.link_windfinder'))) : null,
-    h('li', {}, h('a', { href: `https://www.windy.com/${spot.lat.toFixed(3)}/${spot.lng.toFixed(3)}?${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},11`, target: '_blank', rel: 'noopener' }, t('card.link_windy'))),
+    h('li', {}, h('a', { href: isSurf ? `https://www.windy.com/-Waves-waves?waves,${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},9` : `https://www.windy.com/${spot.lat.toFixed(3)}/${spot.lng.toFixed(3)}?${spot.lat.toFixed(3)},${spot.lng.toFixed(3)},11`, target: '_blank', rel: 'noopener' }, isSurf ? t('card.link_windy_waves') : t('card.link_windy'))),
     h('li', {}, h('a', { href: `https://www.google.com/maps/search/?api=1&query=${spot.lat},${spot.lng}`, target: '_blank', rel: 'noopener' }, 'Google Maps')),
     ...(links.other || []).slice(0, 3).map((u) => h('li', {}, h('a', { href: u, target: '_blank', rel: 'noopener' }, new URL(u).hostname.replace('www.', '')))));
   body.append(section(t('sec.links'), linkList,

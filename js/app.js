@@ -5,14 +5,25 @@ import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, 
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, num, setLang, t, tn } from './i18n.js';
 import {
-  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, getUnit, h, rating, setUnit, spots as spotsText, windText,
+  MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
+
+// What each section (activity) shows: quick filters, dropdowns, season kinds, and the number in the list
+const ACT = {
+  kite: { qf: ['novisa', 'ru', 'flat', 'wave'], dd: ['minRating', 'pop', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'snow', 'off'], unit: true,
+    value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
+  surf: { qf: ['novisa', 'ru', 'beginner'], dd: ['minRating', 'pop', 'brk', 'dir', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.swell && s.swell[m - 1] != null ? metres(s.swell[m - 1]) : '') },
+};
+const DEFAULT_FILTERS = { novisa: false, ru: false, flat: false, wave: false, beginner: false, brk: null, dir: null, minRating: null, minAir: null, minWater: null, vibe: null, pop: null };
+const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
 
 const state = {
   month: new Date().getMonth() + 1,
-  activity: 'kite',
+  activity: ACT[savedActivity] ? savedActivity : 'kite',
+  activities: [{ id: 'kite', enabled: true }],
   seasons: { peak: true, shoulder: true, snow: true, off: false },
-  filters: { novisa: false, ru: false, flat: false, minRating: null, minAir: null, minWater: null, vibe: null, pop: null },
+  filters: { ...DEFAULT_FILTERS },
   sideAuto: false,
   query: '',
   selected: null,
@@ -48,8 +59,14 @@ async function getJSON(apiUrl, staticUrl) {
   if (!r2.ok) throw new Error(r2.status === 404 ? t('err.not_found') : t('err.no_data', { status: r2.status }));
   return r2.json();
 }
+const loadMeta = () => getJSON('/api/meta', 'data/meta.json');
 const loadSpots = () => getJSON(`/api/spots?activity=${state.activity}`, `data/spots-${state.activity}.json`);
-const loadSpot = async (id) => localizeSpot(await getJSON(`/api/spots/${encodeURIComponent(id)}`, `data/spot/${encodeURIComponent(id)}.json`));
+const loadSpot = async (id) => {
+  const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${state.activity}`, `data/spot/${encodeURIComponent(id)}.json`);
+  // a spot can belong to several sections: show the seasons of the one being browsed
+  if (spot.seasons_by && spot.seasons_by[state.activity]) { spot.seasons = spot.seasons_by[state.activity]; spot.activity = state.activity; }
+  return localizeSpot(spot);
+};
 
 // ---------- filtering -----------------------------------------------------------
 function passesFilters(s, m = state.month) {
@@ -57,6 +74,10 @@ function passesFilters(s, m = state.month) {
   if (f.novisa && state.spots.some((x) => x.visa) && !(s.visa && ['home', 'no_visa', 'visa_on_arrival', 'evisa'].includes(s.visa.status))) return false;
   if (f.ru && s.ru_schools !== 'yes') return false;
   if (f.flat && !(s.water || []).includes('flat')) return false;
+  if (f.wave && !((s.wave_riding || 0) >= 2)) return false;
+  if (f.beginner && !(s.level || []).includes('beginner')) return false;
+  if (f.brk && s.break_type !== f.brk && s.break_type !== 'mixed') return false;
+  if (f.dir && !(s.wave_direction || []).includes(f.dir)) return false;
   if (f.minRating != null && !((s.rating || 0) >= f.minRating)) return false;
   if (f.minAir != null && !(s.air && s.air[m - 1] != null && s.air[m - 1] >= f.minAir)) return false;
   if (f.minWater != null && !(s.sea && s.sea[m - 1] != null && s.sea[m - 1] >= f.minWater)) return false;
@@ -84,11 +105,9 @@ function passesFilters(s, m = state.month) {
 const normText = (x) => String(x).toLowerCase().replace(/ё/g, 'е').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[\s\-–—'’.,()]+/g, '');
 const seasonOf = (s, m = state.month) => s.seasons[m - 1] || 'off';
 const inSeason = (s, m = state.month) => seasonOf(s, m) !== 'off';
-const anyFilter = () => {
-  const f = state.filters;
-  const seasonsChanged = !state.seasons.peak || !state.seasons.shoulder || !state.seasons.snow || state.seasons.off;
-  return seasonsChanged || f.novisa || f.ru || f.flat || f.minRating != null || f.minAir != null || f.minWater != null || !!f.vibe || !!f.pop || !!state.query;
-};
+const seasonsChanged = () => ACT[state.activity].seasons.some((k) => state.seasons[k] !== (k !== 'off'));
+const filtersOn = () => Object.keys(DEFAULT_FILTERS).filter((k) => state.filters[k] !== DEFAULT_FILTERS[k]);
+const anyFilter = () => seasonsChanged() || filtersOn().length > 0 || !!state.query;
 
 function features() {
   return state.spots.filter((s) => passesFilters(s) || s.id === state.selected).map((s) => ({
@@ -97,7 +116,8 @@ function features() {
     geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
     properties: {
       id: s.id, name_ru: s.name_ru, cc: s.cc, country: s.country, rating: s.rating,
-      season: seasonOf(s), wind: s.wind[state.month - 1],
+      season: seasonOf(s), wind: s.wind ? s.wind[state.month - 1] : null,
+      swell: s.swell ? s.swell[state.month - 1] : null, period: s.period ? s.period[state.month - 1] : null,
       air: s.air ? s.air[state.month - 1] : null, sea: s.sea ? s.sea[state.month - 1] : null,
       visa_status: s.visa ? s.visa.status : null,
       vibe: s.vibe ? s.vibe.score : null,
@@ -137,9 +157,7 @@ function centreCurrentMonth() {
 }
 
 function activeFilterCount() {
-  const f = state.filters;
-  const seasonsChanged = !state.seasons.peak || !state.seasons.shoulder || !state.seasons.snow || state.seasons.off;
-  return [seasonsChanged, f.novisa, f.ru, f.flat, f.minRating != null, f.minAir != null, f.minWater != null, !!f.vibe, !!f.pop].filter(Boolean).length;
+  return (seasonsChanged() ? 1 : 0) + filtersOn().length;
 }
 
 function renderStrip() {
@@ -157,7 +175,7 @@ function renderStrip() {
       class: `m ${i + 1 === state.month ? 'is-current' : ''}`, role: 'radio', type: 'button',
       'aria-checked': i + 1 === state.month ? 'true' : 'false',
       'aria-label': t('strip.aria', { month: MONTHS[i], spots: spotsText(total), peak: c.peak }),
-      title: t('strip.title', { month: MONTHS[i], peak: c.peak, shoulder: c.shoulder, snow: c.snow }),
+      title: t(ACT[state.activity].seasons.includes('snow') ? 'strip.title' : 'strip.title_nosnow', { month: MONTHS[i], peak: c.peak, shoulder: c.shoulder, snow: c.snow }),
       tabindex: i + 1 === state.month ? '0' : '-1', 'data-fk': `m-${i + 1}`,
       onclick: () => setMonth(i + 1),
     },
@@ -176,7 +194,7 @@ function renderSeasons() {
   state.spots.forEach((s) => { if (passesFilters(s)) counts[seasonOf(s)] += 1; });
   const host = document.querySelector('.seasons');
   host.innerHTML = '';
-  for (const k of ['peak', 'shoulder', 'snow', 'off']) {
+  for (const k of ACT[state.activity].seasons) {
     host.append(h('button', {
       type: 'button', class: `sc sc-${k} ${state.seasons[k] ? 'is-on' : ''}`, 'aria-pressed': state.seasons[k] ? 'true' : 'false', 'data-fk': `sc-${k}`,
       title: t(state.seasons[k] ? 'sc.hide' : 'sc.show', { label: SEASON[k].label }),
@@ -188,7 +206,7 @@ function renderSeasons() {
 function listRow(s) {
   const k = seasonOf(s);
   const visa = isRu && s.visa ? VISA[s.visa.status] : null;
-  const w = s.wind[state.month - 1];
+  const value = ACT[state.activity].value(s, state.month);
   return h('li', {}, h('button', {
     type: 'button', class: `row row-${k} ${state.selected === s.id ? 'is-selected' : ''}`, 'data-fk': `row-${s.id}`,
     'aria-current': state.selected === s.id ? 'true' : null, onclick: (e) => select(s.id, { focusCard: true, from: e.currentTarget.dataset.fk }),
@@ -199,7 +217,7 @@ function listRow(s) {
   h('span', { class: 'row-main', title: `${s.name_ru}, ${s.country || ''}` }, h('span', { class: 'row-name' }, s.name_ru), h('span', { class: 'row-place' }, `${flagEmoji(s.cc)} ${s.country || ''}`)),
   h('span', { class: 'row-side' },
     h('span', { class: 'row-rating' }, `★ ${rating(s.rating)}`),
-    h('span', { class: 'row-wind' }, w != null ? windText(w) : ''),
+    h('span', { class: 'row-wind' }, value),
     visa ? h('span', { class: `row-visa tone-${visa.tone}`, title: visa.label }, h('span', { 'aria-hidden': 'true' }, visa.icon), h('span', { class: 'visually-hidden' }, `, ${visa.label}`)) : null)));
 }
 
@@ -287,7 +305,7 @@ function setMonth(m, { focusStrip = false } = {}) {
     else if (inCard && cur) document.querySelector('#panel-title')?.focus({ preventScroll: true });
   });
 }
-const panelCtx = () => ({ month: state.month, setMonth });
+const panelCtx = () => ({ month: state.month, setMonth, activity: state.activity });
 
 async function select(id, { focusCard = false, from = null } = {}) {
   if (!id) {
@@ -324,6 +342,7 @@ async function select(id, { focusCard = false, from = null } = {}) {
 // ---------- URL state ------------------------------------------------------------
 function writeHash() {
   const p = new URLSearchParams({ m: String(state.month) });
+  if (state.activity !== 'kite') p.set('a', state.activity);
   if (state.selected) p.set('spot', state.selected);
   const next = `#${p.toString()}`;
   if (location.hash !== next) history.replaceState(null, '', next);
@@ -332,6 +351,9 @@ function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const m = Number(p.get('m'));
   if (Number.isInteger(m) && m >= 1 && m <= 12) state.month = m;
+  const a = p.get('a');
+  if (a && ACT[a]) state.activity = a;
+  else if (p.has('m') && !a) state.activity = 'kite';   // a shared link without a= is a kite link
   return p.get('spot');
 }
 
@@ -348,12 +370,19 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 // ---------- dropdown filters (rating, temperatures, activity) -------------------------
 const DROPDOWNS = [
   {
-    key: 'activity', label: () => t('dd.activity.label'), title: t('dd.activity.title'),
-    options: [
-      { value: 'kite', text: t('dd.activity.kite') },
-      ...['windsurf', 'surf', 'snowboard', 'climbing'].map((v) => ({ value: v, text: t(`dd.activity.${v}`), disabled: true })),
-    ],
-    get: () => 'kite', set: () => {}, active: () => false,
+    key: 'activity', label: () => t(`dd.activity.${state.activity}_short`), title: t('dd.activity.title'),
+    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
+  },
+  {
+    key: 'brk', title: t('dd.break.title'),
+    label: (v) => (v ? t(`break.${v}`) : t('dd.break.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...['beach', 'reef', 'point', 'rivermouth'].map((v) => ({ value: v, text: t(`break.${v}`) }))],
+  },
+  {
+    key: 'dir', title: t('dd.dir.title'),
+    label: (v) => (v ? t(`dd.dir.${v}`) : t('dd.dir.label')),
+    options: [{ value: null, text: t('dd.any_f') }, ...['left', 'right'].map((v) => ({ value: v, text: t(`dd.dir.${v}`) }))],
   },
   {
     key: 'minRating', title: t('dd.rating.title'),
@@ -381,6 +410,53 @@ const DROPDOWNS = [
     options: [{ value: null, text: t('dd.any_f') }, ...[16, 20, 24, 27].map((v) => ({ value: v, text: t(`dd.water.${v}`) }))],
   },
 ];
+
+// show only the filters of the current section; sections without data are greyed out in the menu
+function applyActivityUI() {
+  const cfg = ACT[state.activity];
+  document.querySelectorAll('.qf').forEach((b) => { b.hidden = !cfg.qf.includes(b.dataset.filter); });
+  document.querySelectorAll('.dd[data-key]').forEach((d) => { if (d.dataset.key !== 'activity') d.hidden = !cfg.dd.includes(d.dataset.key); });
+  const enabled = new Set(state.activities.filter((a) => a.enabled && ACT[a.id]).map((a) => a.id));
+  document.querySelectorAll('.dd[data-key="activity"] .dd-opt').forEach((o) => {
+    const on = enabled.has(o.dataset.v);
+    o.disabled = !on;
+    o.title = on ? '' : t('dd.activity.soon');
+  });
+  document.querySelector('.unit')?.closest('.side-foot')?.classList.toggle('no-unit', !cfg.unit);
+  document.querySelector('.app').dataset.activity = state.activity;
+}
+
+async function switchActivity(a) {
+  if (!ACT[a] || a === state.activity) return;
+  state.activity = a;
+  try { localStorage.setItem('activity', a); } catch { /* ignore */ }
+  Object.assign(state.filters, DEFAULT_FILTERS);
+  Object.assign(state.seasons, { peak: true, shoulder: true, snow: true, off: false });
+  document.querySelectorAll('.qf').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+  if (state.selected) select(null);
+  state.spots = []; state.loadError = false;
+  applyActivityUI();
+  refresh();
+  await loadActivitySpots();
+}
+
+async function loadActivitySpots() {
+  const want = state.activity;
+  try {
+    const data = await loadSpots();
+    if (want !== state.activity) return;
+    state.spots = data.spots.map(localizeSpot);
+    state.loadError = false;
+    lastAnnounced = null;   // announce the real counts once the data is in
+    refresh();
+  } catch (e) {
+    if (want !== state.activity) return;
+    state.loadError = true;
+    refresh();
+    document.querySelector('.spot-list').innerHTML = `<li class="empty error">${esc(t('list.spots_error', { msg: e.message }))}</li>`;
+    throw e;
+  }
+}
 
 function renderDropdownLabels() {
   for (const d of DROPDOWNS) {
@@ -473,7 +549,7 @@ function initControls() {
   }
   initDropdowns();
   document.querySelector('.reset').addEventListener('click', () => {
-    Object.assign(state.filters, { novisa: false, ru: false, flat: false, minRating: null, minAir: null, minWater: null, vibe: null, pop: null });
+    Object.assign(state.filters, DEFAULT_FILTERS);
     Object.assign(state.seasons, { peak: true, shoulder: true, snow: true, off: false });
     state.query = ''; document.querySelector('#search').value = '';
     document.querySelectorAll('.qf').forEach((b) => b.setAttribute('aria-pressed', 'false'));
@@ -564,7 +640,13 @@ function initControls() {
   });
   window.addEventListener('hashchange', () => {
     const before = state.month;
+    const beforeAct = state.activity;
     const id = readHash();
+    if (state.activity !== beforeAct) {
+      const a = state.activity; state.activity = beforeAct;
+      switchActivity(a).then(() => { if (id) select(id); });
+      return;
+    }
     if (state.month !== before) { const m = state.month; state.month = before; setMonth(m); } else refresh();
     if (!id && state.selected) select(null);
     else if (id && id !== state.selected) select(id);
@@ -594,18 +676,18 @@ async function boot() {
   const spotFromHash = readHash();
   initMap(state, select);
   initControls();
+  applyActivityUI();
   refresh();
   try {
-    const [data] = await Promise.all([loadSpots(), loadSpotTexts()]);
-    state.spots = data.spots.map(localizeSpot);
-    lastAnnounced = null;   // announce the real counts once the data is in
-    refresh();
+    const meta = await loadMeta();
+    if (meta && Array.isArray(meta.activities)) state.activities = meta.activities;
+  } catch { /* old server or no meta: kite only */ }
+  if (!state.activities.some((a) => a.id === state.activity && a.enabled)) state.activity = 'kite';
+  applyActivityUI();
+  try {
+    await Promise.all([loadActivitySpots(), loadSpotTexts()]);
     if (spotFromHash) select(spotFromHash);
-  } catch (e) {
-    state.loadError = true;
-    refresh();
-    document.querySelector('.spot-list').innerHTML = `<li class="empty error">${esc(t('list.spots_error', { msg: e.message }))}</li>`;
-  }
+  } catch { /* the list shows the error */ }
 }
 
 boot();

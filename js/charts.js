@@ -192,3 +192,68 @@ export function windRose(host, rose) {
   host.append(s);
   return Math.round(total * 100);
 }
+
+/** Monthly swell (surf): columns = wave-model swell height coloured by season, dashed line = rideable size,
+ *  dots = the research estimate when both exist. */
+export function swellChart(host, { guide, era5, seasons, month, onMonth }) {
+  host.innerHTML = '';
+  const W = 440, H = 190, L = 34, R = 8, T = 18, B = 26;
+  const s = svg(W, H);
+  const model = (era5 || []).map((e) => (e && e.swell_m != null ? e.swell_m : null));
+  const est = guide.map((g) => (g && g.wave_m != null ? g.wave_m : null));
+  const hasModel = model.some((v) => v != null);
+  const bars = hasModel ? model : est;
+  const dots = hasModel ? est : [];
+  const all = [...bars, ...dots].filter((v) => v != null);
+  if (!all.length) { host.append(Object.assign(document.createElement('p'), { className: 'muted', textContent: t('chart.no_swell') })); return; }
+  const maxM = niceMax(Math.max(1.5, ...all) * 1.1, 0.5);
+  const step = (W - L - R) / 12;
+  const bw = Math.min(22, step - 6);
+  const y = (m) => T + (H - T - B) * (1 - m / maxM);
+  const tickStep = maxM > 4 ? 1 : 0.5;
+  for (let v = 0; v <= maxM + 0.001; v += tickStep) {
+    s.append(el('line', { x1: L, x2: W - R, y1: y(v), y2: y(v), class: v === 0 ? 'axis' : 'grid' }));
+    s.append(el('text', { x: L - 6, y: y(v) + 3.5, class: 'tick', 'text-anchor': 'end' }, String(v).replace('.', ',')));
+  }
+  s.append(el('text', { x: 2, y: 10, class: 'tick' }, t('unit.m')));
+  s.append(el('line', { x1: L, x2: W - R, y1: y(0.6), y2: y(0.6), class: 'threshold' }));
+  for (let i = 0; i < 12; i++) {
+    const cx = L + step * i + step / 2;
+    const v = bars[i];
+    const season = seasons[i] || 'off';
+    if (v != null) {
+      const top = y(v);
+      s.append(el('path', { d: roundTopRect(cx - bw / 2, top, bw, y(0) - top, 4), fill: BAR[season], class: `bar ${i + 1 === month ? 'is-current' : ''}` }));
+      if (i + 1 === month) s.append(el('text', { x: cx, y: top - 5, class: 'value', 'text-anchor': 'middle' }, v.toFixed(1).replace('.', ',')));
+    }
+    s.append(el('text', { x: cx, y: H - 8, class: `tick month ${i + 1 === month ? 'is-current' : ''}`, 'text-anchor': 'middle' }, MONTHS_SHORT[i]));
+  }
+  if (dots.some((v) => v != null)) {
+    dots.forEach((v, i) => {
+      if (v == null) return;
+      s.append(el('circle', { cx: L + step * i + step / 2, cy: y(v), r: 3.2, class: 'dot era5' }));
+    });
+  }
+  const tip = tooltip(host);
+  for (let i = 0; i < 12; i++) {
+    const hit = el('rect', { x: L + step * i, y: T - 10, width: step, height: H - T - B + 10, class: 'hit' });
+    hit.addEventListener('mousemove', (ev) => {
+      const e = era5 && era5[i] ? era5[i] : {};
+      const g = guide[i] || {};
+      const season = SEASON[seasons[i] || 'off'];
+      const rect = host.getBoundingClientRect();
+      const rows = [
+        bars[i] != null ? t('chart.swell', { m: bars[i].toFixed(1).replace('.', ',') }) : null,
+        e.swell_s != null ? t('chart.period', { s: Math.round(e.swell_s) }) : null,
+        e.surf_prob != null ? t('chart.surf_days', { p: Math.round(e.surf_prob) }) : null,
+        hasModel && g.wave_m != null ? `<span class="muted">${t('chart.swell_guide', { m: g.wave_m.toFixed(1).replace('.', ',') })}</span>` : null,
+      ].filter(Boolean);
+      tip.show(`<b>${MONTHS[i]}</b> — ${season.short}<br>${rows.join('<br>')}`, ev.clientX - rect.left, ev.clientY - rect.top);
+    });
+    hit.addEventListener('mouseleave', () => tip.hide());
+    hit.addEventListener('click', () => onMonth && onMonth(i + 1));
+    s.append(hit);
+  }
+  s.setAttribute('aria-label', t('chart.swell_aria'));
+  host.append(s);
+}

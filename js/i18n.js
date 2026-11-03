@@ -120,6 +120,10 @@ export function localizeSpot(s) {
     if (tr.cons && s.cons) s.cons = tr.cons;
     if (tr.vibe_note && s.vibe && s.vibe.note) s.vibe.note = tr.vibe_note;
     if (tr.school_notes && s.school_list) s.school_list.forEach((x, i) => { if (tr.school_notes[i]) x.note_ru = tr.school_notes[i]; });
+    if (s.attrs) {   // surf and other activity-specific texts
+      const map = { area_breaks: 'area_breaks_ru', beginner_months: 'beginner_months_ru', best_wind_dir: 'best_wind_dir', best_swell_dir: 'best_swell_dir', wave_size_m: 'wave_size_m' };
+      for (const [k, f] of Object.entries(map)) if (tr[k] && s.attrs[f] != null) s.attrs[f] = tr[k];
+    }
   }
   return s;
 }

@@ -18,7 +18,11 @@ export const VISA = Object.fromEntries(Object.entries(VISA_STYLE).map(([k, [tone
 
 const dictOf = (prefix, keys) => Object.fromEntries(keys.map((k) => [k, t(`${prefix}.${k}`)]));
 export const WATER = dictOf('water', ['flat', 'chop', 'waves', 'big_waves', 'snow', 'ice']);
-export const LEVEL = dictOf('level', ['beginner', 'intermediate', 'advanced']);
+export const LEVEL = dictOf('level', ['beginner', 'intermediate', 'advanced', 'expert']);
+// surf
+export const BREAK = dictOf('break', ['beach', 'reef', 'point', 'rivermouth', 'mixed']);
+export const BOTTOM = dictOf('bottom', ['sand', 'reef', 'rock', 'mixed']);
+export const TIDE = dictOf('tide', ['low', 'low_mid', 'mid', 'mid_high', 'high', 'all']);
 export const SCHOOLS = dictOf('schools', ['none', 'few', 'several', 'many']);
 export const WIND_TYPE = dictOf('wind_type', ['thermal', 'trade', 'monsoon', 'frontal', 'katabatic', 'mixed']);
 export const SPOT_TYPE = dictOf('spot_type', ['lagoon', 'beach', 'bay', 'lake', 'reservoir', 'river', 'sandbank', 'snow_plateau', 'frozen_lake']);
@@ -63,6 +67,13 @@ export function flagEmoji(cc) {
 export const spots = (n) => tn('n.spots', n);
 export const rating = (r) => num(r, 1);
 export const deg = (c) => (c == null ? '—' : `${Math.round(c)}°`);
+export const metres = (m, digits = 1) => (m == null ? '—' : `${num(m, digits)} ${t('unit.m')}`);
+/** Usual wetsuit for a water temperature (surf wetsuit charts). */
+export function wetsuit(c) {
+  if (c == null) return null;
+  const k = c >= 25 ? 'none' : c >= 22 ? 'top' : c >= 19 ? 'shorty' : c >= 16 ? '32' : c >= 13 ? '43' : c >= 10 ? '54' : '65';
+  return t(`wetsuit.${k}`);
+}
 
 export function h(tag, attrs = {}, ...children) {
   const el = document.createElement(tag);
