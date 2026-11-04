@@ -232,6 +232,20 @@ function fallBack(cfg) {
   notify(t('bm.fallback', { name: cfg.name }));
   setBasemap(FALLBACK_BASEMAP, { revertTo: FALLBACK_BASEMAP, remember: false });
 }
+/** fn() after `ms` of the page being visible: a background tab doesn't render, so the map requests no tiles there. */
+function afterVisible(ms, fn) {
+  let left = ms; let started = 0; let timer = null;
+  const onVis = () => {
+    if (document.hidden) {
+      if (timer) { clearTimeout(timer); timer = null; left -= performance.now() - started; }
+    } else if (!timer) {
+      started = performance.now();
+      timer = setTimeout(() => { document.removeEventListener('visibilitychange', onVis); fn(); }, Math.max(0, left));
+    }
+  };
+  document.addEventListener('visibilitychange', onVis);
+  onVis();
+}
 function watchTiles(cfg, token) {
   if (cfg.id === FALLBACK_BASEMAP || cfg.id === 'offline') return;
   const own = new Set(Object.keys(map.getStyle().sources || {}).filter((id) => id !== SRC));
@@ -239,11 +253,11 @@ function watchTiles(cfg, token) {
   let ok = false;
   const onData = (e) => { if (e.dataType === 'source' && e.tile && own.has(e.sourceId)) ok = true; };
   map.on('data', onData);
-  setTimeout(() => {
+  afterVisible(10000, () => {
     map.off('data', onData);
     if (ok || token !== bmToken) return;
     fallBack(cfg);
-  }, 10000);
+  });
 }
 
 export function setBasemap(id, { revertTo = null, remember = true } = {}) {
@@ -307,11 +321,11 @@ export function initMap(appState, selectHandler) {
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
   });
   // the style itself unreachable -> the default one, and if that is the one failing, the simple map from this site
-  setTimeout(() => {
+  afterVisible(10000, () => {
     if (loaded || token !== bmToken) return;
     if (cfg.id !== DEFAULT_BASEMAP && cfg.id !== FALLBACK_BASEMAP) setBasemap(DEFAULT_BASEMAP, { revertTo: DEFAULT_BASEMAP });
     else if (cfg.id !== FALLBACK_BASEMAP) fallBack(cfg);
-  }, 10000);
+  });
   bindEvents();
   window.__map = map;
   return map;
