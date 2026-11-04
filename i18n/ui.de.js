@@ -1,7 +1,7 @@
 // German (Deutsch). Same keys as ui.ru.js; {name} are placeholders; {one, other} objects are plural forms ({n} is the number).
 export default {
   'meta.title': 'Adrenalin Spots — wohin in jedem Monat',
-  'meta.description': "Weltkarte: wohin in welchem Monat — Kitesurfen, Windsurfen, Surfen, Skigebiete, Klettern und Gleitschirmfliegen. Wind, Wellen, Schnee, Wetter, Schulen und Nachtleben.",
+  'meta.description': "Weltkarte: wohin in welchem Monat — Kitesurfen, Windsurfen, Surfen, Skigebiete, Tauchen, Klettern und Gleitschirmfliegen. Wind, Wellen, Schnee, Wasser, Wetter, Schulen und Nachtleben.",
   'sport.kite': 'Kitesurfen',
   'sport.surf': 'Surfen',
   'sport.windsurf': 'Windsurfen',
