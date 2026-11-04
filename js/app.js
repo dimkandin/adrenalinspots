@@ -1,4 +1,5 @@
 // Kite Atlas — app entry: state, data loading, sidebar list, month strip.
+import { aboutTeaser, openAbout } from './about.js';
 import { initAnalytics, track, trackView } from './analytics.js';
 import { BASEMAPS } from './basemaps.js';
 import { injectFlagCSS } from './flags.js';
@@ -280,6 +281,7 @@ function renderList() {
     list.append(h('li', { class: 'list-sub' }, t('list.off', { in_month: MONTHS_IN[state.month - 1] })));
     off.forEach((s) => list.append(listRow(s)));
   }
+  list.append(aboutTeaser());
 }
 
 let opener = null;          // data-fk of the control that opened the card (focus returns there)
@@ -834,6 +836,7 @@ function toast(text) {
 
 function initLanguage() {
   applyStatic();
+  document.querySelector('.about-open')?.addEventListener('click', (e) => openAbout(e.currentTarget));
   // Russian-speaking schools only matter in the Russian interface; the visa filter needs a passport
   if (!isRu) document.querySelectorAll('.qf[data-filter="ru"]').forEach((b) => b.remove());
   if (!hasPassport()) document.querySelectorAll('.qf[data-filter="novisa"]').forEach((b) => b.remove());
