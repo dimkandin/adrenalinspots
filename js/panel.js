@@ -1,6 +1,6 @@
 // Spot detail panel.
 import { dryChart, pctChart, snowChart, swellChart, tempChart, windChart, windRose } from './charts.js';
-import { ICON, inRussia, openAbout } from './about.js';
+import { ICON, openAbout } from './about.js';
 import { track } from './analytics.js';
 import { climbForecast, flyForecast, forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
 import { countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
@@ -34,9 +34,8 @@ const dayMonthYear = (d) => {
 };
 
 /** One school in the «Schools» section: name → its site, lesson languages, contacts, «confirmed by the school». */
-function schoolItem(sc, ru) {
+function schoolItem(sc) {
   const links = [
-    sc.instagram && !ru ? contactLink('instagram', `https://www.instagram.com/${sc.instagram}/`, 'Instagram') : null,
     sc.telegram ? contactLink('telegram', `https://t.me/${sc.telegram}`, 'Telegram') : null,
     sc.whatsapp ? contactLink('whatsapp', `https://wa.me/${sc.whatsapp.replace(/\D/g, '')}`, 'WhatsApp') : null,
     sc.vk && isRu ? contactLink('vk', `https://vk.com/${sc.vk}`, 'VK') : null,
@@ -765,8 +764,7 @@ export function renderPanel(spot, context) {
     // schools that confirmed their listing first, then Russian-speaking ones (the list itself stays in seed order:
     // translated notes are matched to it by position)
     const list = [...spot.school_list].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
-    const ru = inRussia();
-    schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc, ru))));
+    schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc))));
   }
   schools.append(h('p', { class: 'sc-fix' },
     h('button', { type: 'button', onclick: (e) => { track('school_fix'); openAbout(e.currentTarget); } }, t('card.school_fix'))));

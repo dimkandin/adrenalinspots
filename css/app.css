@@ -640,7 +640,6 @@ a:hover { color: var(--sea-2); }
 .about-ico { display: inline-grid; place-items: center; }
 .about-ico svg { width: 18px; height: 18px; fill: currentColor; }
 .about-tg .about-ico { color: #2aa3df; }
-.about-ig .about-ico { color: #d6366e; }
 .about-ico.heart { color: #e0566b; }
 .about-ico.heart svg { width: 16px; height: 16px; }
 .about-pay { background: var(--sea-wash); border-color: #a9cad7; color: var(--sea-2); }
