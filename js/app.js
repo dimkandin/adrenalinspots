@@ -23,6 +23,8 @@ const ACT = {
     value: (s, m) => (s.air && s.air[m - 1] != null ? deg(s.air[m - 1]) : '') },
   windsurf: { qf: ['novisa', 'ru', 'beginner', 'flat', 'wave', 'rental'], dd: ['minRating', 'pop', 'wstyle', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: true,
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
+  diving: { qf: ['novisa', 'ru', 'beginner', 'shore', 'snorkel'], dd: ['minRating', 'pop', 'divetype', 'minWater', 'maxDive', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.sea && s.sea[m - 1] != null ? deg(s.sea[m - 1]) : ''), valueTitle: () => t('row.water_title') },
   paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
 };
@@ -32,6 +34,7 @@ const DEFAULT_FILTERS = {
   hard: false, rain: false, shade: false, style: null, rock: null,
   tandem: false, courses: false, xc: false, flytype: null, maxTandem: null,
   rental: false, wstyle: null,
+  shore: false, snorkel: false, divetype: null, maxDive: null,
 };
 const MAIN_ROCKS = ['limestone', 'granite', 'sandstone'];
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
@@ -102,6 +105,10 @@ function passesFilters(s, m = state.month) {
   if (f.style && !(s.styles || []).includes(f.style)) return false;
   if (f.wstyle && !(s.styles || []).includes(f.wstyle)) return false;
   if (f.rental && !s.rental) return false;
+  if (f.shore && !(s.access || []).includes('shore')) return false;
+  if (f.snorkel && !s.snorkeling) return false;
+  if (f.divetype && !(s.dive_types || []).includes(f.divetype)) return false;
+  if (f.maxDive != null && !(s.dive_price_eur != null && s.dive_price_eur <= f.maxDive)) return false;
   if (f.tandem && !s.tandem) return false;
   if (f.courses && !s.courses) return false;
   if (f.xc && !((s.xc || 0) >= 4)) return false;
@@ -421,9 +428,11 @@ function readHash() {
 }
 const sportName = (a = state.activity) => t(`sport.${a}`);
 function updateTitle(spot = currentSpot()) {
-  document.title = spot && state.selected === spot.id
-    ? t('meta.spot_title', { name: spot.name_ru, sport: sportName() })
-    : t('meta.month_title', { sport: sportName(), in_month: MONTHS_IN[state.month - 1] });
+  if (spot && state.selected === spot.id) {
+    const key = `meta.spot_title.${state.activity}`, vars = { name: spot.name_ru, sport: sportName() };
+    const title = t(key, vars);   // a search-friendly title per sport; the plain one if a language lacks it
+    document.title = title === key ? t('meta.spot_title', vars) : title;
+  } else document.title = t('meta.month_title', { sport: sportName(), in_month: MONTHS_IN[state.month - 1] });
 }
 
 // ---------- sidebar --------------------------------------------------------------
@@ -440,7 +449,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 const DROPDOWNS = [
   {
     key: 'activity', label: () => t(`sport.${state.activity}`), title: t('dd.activity.title'),
-    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
   {
@@ -472,6 +481,16 @@ const DROPDOWNS = [
     key: 'flytype', title: t('dd.flytype.title'),
     label: (v) => (v ? t(`flying.${v}`) : t('dd.flytype.label')),
     options: [{ value: null, text: t('dd.any_m') }, ...['thermal', 'soaring'].map((v) => ({ value: v, text: t(`flying.${v}`) }))],
+  },
+  {
+    key: 'divetype', title: t('dd.divetype.title'),
+    label: (v) => (v ? t(`divetype.${v}`) : t('dd.divetype.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...['reef', 'wall', 'wreck', 'drift', 'cave', 'muck', 'pelagic', 'kelp'].map((v) => ({ value: v, text: t(`divetype.${v}`) }))],
+  },
+  {
+    key: 'maxDive', title: t('dd.dive.title'),
+    label: (v) => (v == null ? t('dd.dive.label') : t('dd.dive.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_f') }, ...[30, 50, 80].map((v) => ({ value: v, text: t('dd.dive.opt', { v }) }))],
   },
   {
     key: 'maxTandem', title: t('dd.tandem.title'),
@@ -924,6 +943,7 @@ const PICK_ICONS = {
   windsurf: '<path d="M15 4c5 5 8 12 7 19H12z" /><path d="M15 4v19" /><path d="M7 26h20" /><path d="M4 29c3 0 4-1 6-1s3 1 6 1 4-1 6-1 3 1 6 1" />',
   snowboard: '<path d="M3 26l9-14 5 7 4-5 8 12z" /><path d="M9.5 16l2.5 2 2-1.5" /><path d="M21 14l2 3" />',
   climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
+  diving: '<path d="M4 11h20v6a4 4 0 0 1-4 4h-2.5l-2-3h-3l-2 3H8a4 4 0 0 1-4-4z" /><path d="M14 11v4" /><path d="M28 7v13a6 6 0 0 1-6 6h-3" />',
   paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
 };
 function showSportPicker({ change = false } = {}) {

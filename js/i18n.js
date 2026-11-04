@@ -141,17 +141,23 @@ export function localizeSpot(s) {
     if (tr.pros && s.pros) s.pros = tr.pros;
     if (tr.cons && s.cons) s.cons = tr.cons;
     if (tr.vibe_note && s.vibe && s.vibe.note) s.vibe.note = tr.vibe_note;
-    if (tr.school_notes && s.school_list) s.school_list.forEach((x, i) => { if (tr.school_notes[i]) x.note_ru = tr.school_notes[i]; });
+    if (tr.school_notes && s.school_list) {
+      const keyed = s.school_list.some((x) => 'i' in x);   // seed position; schools added or removed by hand shift the list
+      s.school_list.forEach((x, i) => { const k = keyed ? x.i : i; if (k != null && tr.school_notes[k]) x.note_ru = tr.school_notes[k]; });
+    }
     if (s.attrs) {   // surf and other activity-specific texts
       const map = { area_breaks: 'area_breaks_ru', beginner_months: 'beginner_months_ru', best_wind_dir: 'best_wind_dir', best_swell_dir: 'best_swell_dir', wave_size_m: 'wave_size_m',
         season: 'season_ru', transfer: 'transfer_ru',
         rock_note: 'rock_note_ru', approach: 'approach_ru', restrictions: 'restrictions_ru', guidebook: 'guidebook_ru', stay: 'stay_ru', famous_lines: 'famous_lines_ru',
         takeoffs: 'takeoffs_ru', wind_note: 'wind_ru', best_time: 'best_time_ru', access: 'access_ru', xc_note: 'xc_note_ru', rules: 'rules_ru', landing: 'landing_ru', events: 'events_ru',
-        launch: 'launch_ru', sail_note: 'sail_note_ru' };
+        launch: 'launch_ru', sail_note: 'sail_note_ru',
+        marine_life: 'marine_life_ru', signature_sites: 'signature_sites_ru', chamber: 'chamber_ru' };
       for (const [k, f] of Object.entries(map)) if (tr[k] && s.attrs[f] != null) s.attrs[f] = tr[k];
       if (tr.lift_pass_note && s.attrs.lift_pass && s.attrs.lift_pass.note_ru) s.attrs.lift_pass.note_ru = tr.lift_pass_note;
       if (tr.tandem_price_note && s.attrs.tandem_price && s.attrs.tandem_price.note_ru) s.attrs.tandem_price.note_ru = tr.tandem_price_note;
       if (tr.rental_price_note && s.attrs.rental_price && s.attrs.rental_price.note_ru) s.attrs.rental_price.note_ru = tr.rental_price_note;
+      for (const k of ['dive_price', 'course_price']) if (tr[`${k}_note`] && s.attrs[k] && s.attrs[k].note_ru) s.attrs[k].note_ru = tr[`${k}_note`];
+      if (tr.highlights && s.attrs.highlights) s.attrs.highlights.forEach((x, i) => { if (tr.highlights[i]) x.what_ru = tr.highlights[i]; });
     }
   }
   return s;

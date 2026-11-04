@@ -19,7 +19,9 @@ export const VISA = Object.fromEntries(Object.entries(VISA_STYLE).map(([k, [tone
 
 const dictOf = (prefix, keys) => Object.fromEntries(keys.map((k) => [k, t(`${prefix}.${k}`)]));
 export const WATER = dictOf('water', ['flat', 'chop', 'waves', 'big_waves', 'snow', 'ice']);
-export const LEVEL = dictOf('level', ['beginner', 'intermediate', 'advanced', 'expert']);
+export const LEVEL = dictOf('level', ['beginner', 'intermediate', 'advanced', 'expert', 'technical']);
+export const DIVETYPE = dictOf('divetype', ['reef', 'wall', 'wreck', 'drift', 'cave', 'muck', 'pelagic', 'kelp']);
+export const ACCESS = dictOf('access', ['shore', 'boat', 'liveaboard']);
 // surf
 export const BREAK = dictOf('break', ['beach', 'reef', 'point', 'rivermouth', 'mixed']);
 export const BOTTOM = dictOf('bottom', ['sand', 'reef', 'rock', 'mixed']);
@@ -103,6 +105,13 @@ export function wetsuit(c) {
   if (c == null) return null;
   const k = c >= 25 ? 'none' : c >= 22 ? 'top' : c >= 19 ? 'shorty' : c >= 16 ? '32' : c >= 13 ? '43' : c >= 10 ? '54' : '65';
   return t(`wetsuit.${k}`);
+}
+
+/** Usual dive suit for a water temperature. */
+export function diveSuit(c) {
+  if (c == null) return null;
+  const k = c >= 28 ? 'lycra' : c >= 25 ? '3' : c >= 22 ? '5' : c >= 18 ? '7' : c >= 12 ? '7hood' : 'dry';
+  return t(`divesuit.${k}`);
 }
 
 export function h(tag, attrs = {}, ...children) {

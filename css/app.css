@@ -612,6 +612,19 @@ a:hover { color: var(--sea-2); }
 @media (prefers-reduced-motion: reduce) { .picker { animation: none; } .picker-tile { transition: none; } .picker-tile:hover { transform: none; } }
 
 /* windsurf: sail size by month */
+/* diving: what to see by month */
+.life p { margin: 0 0 10px; }
+.hls { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 8px; }
+.hl { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 4px 10px; }
+.hl-name { font-weight: 500; }
+.hl:not(.is-here) .hl-name { color: var(--ink-3); }
+.hl-now { margin-left: 8px; padding: 1px 7px; border-radius: 999px; background: var(--sea-wash); color: var(--sea-2); font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.hl-all { font-size: 12px; color: var(--ink-3); white-space: nowrap; }
+.hl-strip { display: inline-grid; grid-template-columns: repeat(12, 9px); gap: 2px; }
+.hl-strip i { height: 14px; border-radius: 3px; background: var(--mist); }
+.hl-strip i.on { background: var(--good); opacity: .75; }
+.hl-strip i.now { outline: 2px solid var(--ink); outline-offset: 1px; }
+.life h4.sub { margin: 12px 0 6px; font-size: 13px; font-weight: 600; color: var(--ink-2); }
 .sail-strip { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; margin: 2px 0 6px; }
 .sail-m { display: grid; justify-items: center; gap: 2px; padding: 6px 0 5px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font-size: 11px; color: var(--ink-2); }
 .sail-m b { font-size: 12.5px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
