@@ -253,6 +253,7 @@ export default {
   'card.vibe_near': 'Entro {km} km: {list}.',
   'card.vibe_ring': 'Più lontano, fino a {km} km: {list}.',
   'card.vibe_manual': 'Corretto a mano: OpenStreetMap dava {auto} su 5, ma non tutti i locali della zona sono sulla mappa.',
+  'card.vibe_manual_down': 'Corretto a mano: OpenStreetMap dava {auto} su 5, ma i locali conteggiati sono lontani dallo spot.',
   'card.vibe_source': 'In base ai locali su OpenStreetMap: bar e discoteche pesano più dei caffè, i posti oltre 5 km meno di quelli vicini. Nelle zone remote la mappa può essere incompleta.',
   'card.video_watch': 'Guarda: {title}',
   'card.video': 'Video',

@@ -253,6 +253,7 @@ export default {
   'card.vibe_near': 'Within {km} km: {list}.',
   'card.vibe_ring': 'Further out, up to {km} km: {list}.',
   'card.vibe_manual': 'Adjusted by hand: OpenStreetMap gave {auto} of 5, but not every venue there is on the map.',
+  'card.vibe_manual_down': 'Adjusted by hand: OpenStreetMap gave {auto} of 5, but the venues it counted are far from the spot.',
   'card.vibe_source': 'Based on the venues in OpenStreetMap: bars and clubs weigh more than cafés, places beyond 5 km less than nearby ones. In remote areas the map can be incomplete.',
   'card.video_watch': 'Watch: {title}',
   'card.video': 'Video',

@@ -253,6 +253,7 @@ export default {
   'card.vibe_near': 'Num raio de {km} km: {list}.',
   'card.vibe_ring': 'Mais longe, até {km} km: {list}.',
   'card.vibe_manual': 'Ajustado manualmente: o OpenStreetMap dava {auto} de 5, mas nem todos os locais da região estão no mapa.',
+  'card.vibe_manual_down': 'Ajustado manualmente: o OpenStreetMap dava {auto} de 5, mas os locais contados ficam longe do pico.',
   'card.vibe_source': 'Com base nos locais do OpenStreetMap: bares e boates pesam mais que cafés, e lugares a mais de 5 km pesam menos que os próximos. Em áreas remotas o mapa pode estar incompleto.',
   'card.video_watch': 'Assistir: {title}',
   'card.video': 'Vídeo',

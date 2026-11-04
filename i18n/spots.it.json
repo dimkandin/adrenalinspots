@@ -2631,7 +2631,7 @@
    "best_wind_dir": "NW–N (offshore)"
   },
   "byron-bay-the-pass": {
-   "h": "ac900eef7e",
+   "h": "7162a8803b",
    "description": "Byron Bay è una cittadina del surf dall'atmosfera hippie, sul punto più orientale dell'Australia. The Pass è una destra lunga e morbida sotto Cape Byron, ideale per il longboard, e intorno alla baia ci sono spiagge e point per tutti i livelli. In estate e in autunno funzionano gli swell da est e quelli dei cicloni, d'inverno i grandi swell da sud-est sulle spiagge esposte.",
    "rating_basis": "Point da longboard iconico dell'Australia: una destra lunga e morbida (150–200 m) sotto Cape Byron, con una decina di spiagge e point nei dintorni. Nelle guide (The Surf Atlas) è uno degli spot più piacevoli del paese; le recensioni su surf-forecast danno ~3/5 per via della folla",
    "hazards": "Folla, longboard e SUP al take-off, rocce sotto il capo, forti correnti a Main Beach e Belongil con grandi swell invernali, squali (soprattutto a Tallows), caravelle portoghesi (bluebottle) d'estate",
@@ -2652,7 +2652,8 @@
     "In primavera spesso onshore da nord-est"
    ],
    "airport": "OOL — Gold Coast, ~50 min; BNK — Ballina, ~30 min",
-   "best_wind_dir": "SE–S (offshore / riparato dal capo)"
+   "best_wind_dir": "SE–S (offshore / riparato dal capo)",
+   "vibe_note": "Il centro di Byron Bay è a un paio di chilometri: pub, bar con musica dal vivo e feste negli ostelli, la sera c'è molta gente."
   },
   "gold-coast-snapper-rocks": {
    "h": "fc6d719dd9",
@@ -2827,7 +2828,7 @@
    "best_swell_dir": "W–SW (Playa Grande: S–SW)"
   },
   "montanita-la-punta": {
-   "h": "a2d0a0bdd2",
+   "h": "87cd868071",
    "description": "Montañita è un villaggio surf bohémien sulla costa dell'Ecuador, dove le onde ci sono quasi ogni giorno. La Punta è un point destro su reef e rocce all'estremità nord della spiaggia: con la bassa marea rompe più veloce e con tubi, e regge fino a 3–4 m. Davanti al villaggio c'è un lungo beach break sabbioso per principianti. Il periodo migliore è dicembre–maggio: caldo, sole e swell da nord; d'estate e in autunno fa più fresco ed è nuvoloso (garúa).",
    "rating_basis": "La principale località surf dell'Ecuador e sede di gare nazionali e internazionali (Wikipedia «Surfing in Ecuador», Perfect Wave, Surf-forecast): una destra giocosa su reef e un lungo beach break. I difetti segnalati da tutte le recensioni: la folla sul point, con una gerarchia rigida, e il villaggio rumoroso e festaiolo",
    "hazards": "Rocce e reef a La Punta (soprattutto con la bassa marea), correnti sul beach break con grandi swell, forte sole equatoriale, piccoli furti",
@@ -2849,7 +2850,8 @@
    ],
    "airport": "GYE — Guayaquil, ~2,5–3 h",
    "best_wind_dir": "NE–E (offshore)",
-   "best_swell_dir": "NW–N (dicembre–aprile), funzionano anche da SW"
+   "best_swell_dir": "NW–N (dicembre–aprile), funzionano anche da SW",
+   "vibe_note": "Il villaggio della movida sulla costa dell'Ecuador: una via di cocktail bar, discoteche e feste quasi ogni sera."
   },
   "fuerteventura-north-shore": {
    "h": "9298db421e",
@@ -3505,7 +3507,7 @@
    "airport": "INH — Inhambane, ~30 min (voli da Johannesburg); MPM — Maputo, ~7–8 h in auto"
   },
   "skeleton-bay-namibia": {
-   "h": "db88ed121e",
+   "h": "d2773c31f4",
    "description": "Un tubo sinistro veloce, basso e lunghissimo lungo una lingua di sabbia a nord-ovest di Walvis Bay, in mezzo al deserto del Namib. Funziona solo nell'inverno australe (maggio–settembre) con un grande swell da sud-ovest di lungo periodo, di solito per 1–3 giorni di fila, per cui ci si viene apposta seguendo una previsione precisa. Solo per esperti: l'onda rompe quasi sulla sabbia asciutta e la corrente trascina giù lungo il point.",
    "rating_basis": "Il tubo sinistro su sabbia più lungo del mondo (fino a ~2 km, surfate fino a 3 minuti): n. 1 nella lista delle onde più lunghe del mondo di Surf Europe, protagonista fisso di Stab e Surfertoday, se ne è discusso come tappa WSL; ma funziona solo pochi giorni a stagione ed è solo per esperti",
    "hazards": "Molto bassa (rompe su sabbia con l'acqua alla caviglia): infortuni e tavole rotte; forte corrente lungo la lingua di sabbia (~20 km/h), lunga camminata per tornare al picco (le regole locali vietano di tornare in auto); colonia di otarie a Pelican Point e acqua torbida: rischio squali; meduse; acqua fredda a 14–17 °C, nebbia, vento e polvere",
@@ -3525,7 +3527,8 @@
     "Serve un fuoristrada, acqua fredda e nebbia"
    ],
    "airport": "WVB — Walvis Bay, ~45 min in fuoristrada; WDH — Windhoek, ~5–6 h in auto",
-   "best_swell_dir": "SW–W (periodo lungo)"
+   "best_swell_dir": "SW–W (periodo lungo)",
+   "vibe_note": "L'onda rompe lungo una lingua di sabbia nel deserto del Namib: sullo spot non ci sono né caffè né bar. I locali conteggiati sono a Walvis Bay, dall'altra parte della laguna."
   },
   "popoyo-main-reef": {
    "h": "872665474a",
@@ -3625,7 +3628,7 @@
    "best_wind_dir": "SE (offshore) o bonaccia"
   },
   "mancora-point": {
-   "h": "56bc207756",
+   "h": "bf47435237",
    "description": "Máncora è una cittadina balneare festaiola nel soleggiato nord del Perù, dove si va per l'acqua calda e un'onda piccola e costante. Il point principale è una morbida sinistra su ciottoli, comoda per imparare e progredire; d'estate (dicembre–marzo) funzionano gli swell da nord-ovest, d'inverno quelli da sud. Da qui è comodo raggiungere le sinistre di livello mondiale di Lobitos e il tubo di Cabo Blanco.",
    "rating_basis": "La località balneare e surf più popolare del Perù: un morbido point sinistro per principianti e intermedi, acqua calda e sole tutto l'anno (The Surf Atlas, Surf-forecast, Culture Trip). Per qualità è «un bambino in confronto a Chicama», ma vicino ci sono le sinistre di livello mondiale di Lobitos e Cabo Blanco",
    "hazards": "Ciottoli sul fondo vicino al point, correnti con grandi swell, folla sul picco; a Cabo Blanco reef basso",
@@ -3647,7 +3650,8 @@
    ],
    "airport": "TYL — Talara, ~1,5–2 h; TBP — Tumbes, ~1,5–2 h; PIU — Piura, ~3 h",
    "best_wind_dir": "E–SE (offshore)",
-   "best_swell_dir": "NW (estate) e S–SW (inverno)"
+   "best_swell_dir": "NW (estate) e S–SW (inverno)",
+   "vibe_note": "Una cittadina festaiola: bar sulla via principale e in spiaggia, feste negli ostelli, soprattutto da dicembre a marzo."
   },
   "siargao-cloud-9": {
    "h": "5015da9841",
@@ -4243,7 +4247,7 @@
    "lift_pass_note": "1 giorno, adulto, alta stagione in biglietteria: sia il ghiacciaio dell'Hintertux sia il comprensorio di Mayrhofen costano 79 € ciascuno (skipass separati; lo Zillertal 3000 comune è solo plurigiornaliero). skiresort.com indica 82 € per il 2026/27"
   },
   "ischgl-samnaun": {
-   "h": "bfdd08e3a8",
+   "h": "0db29a34e9",
    "description": "Ischgl è una delle stazioni più famose d'Austria: 239 km di piste della Silvretta Arena tra 2000 e 2872 m, collegate con la svizzera Samnaun, zona duty free. Impianti moderni, innevamento programmato quasi totale e neve sicura da novembre a maggio. Celebre per le feste, i concerti Top of the Mountain e una vita notturna scatenata.",
    "rating_basis": "skiresort.com: 4,9/5, uno dei voti più alti al mondo, «top» in 18 categorie; famosa per i concerti Top of the Mountain e l'après-ski",
    "hazards": "Pericolo valanghe fuoripista e sugli itinerari sciistici; vento e gelo sui passi verso Samnaun; rientri tardivi dall'après-ski su piste al buio",
@@ -4264,7 +4268,8 @@
     "Rumorosa: non adatta a vacanze tranquille in famiglia"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 giorno, adulto, Silvretta Arena (Ischgl + Samnaun), alta stagione in biglietteria; per il 2026/27 skiresort.com indica 83 €"
+   "lift_pass_note": "1 giorno, adulto, Silvretta Arena (Ischgl + Samnaun), alta stagione in biglietteria; per il 2026/27 skiresort.com indica 83 €",
+   "vibe_note": "La capitale dell'après-ski delle Alpi: bar vicino agli impianti, club e concerti all'apertura e alla chiusura della stagione, si fa festa fino al mattino."
   },
   "kaprun-kitzsteinhorn": {
    "h": "ab055e0672",
@@ -4315,7 +4320,7 @@
    "lift_pass_note": "1 giorno, adulto, alta stagione (skiresort.com; panoramica dei prezzi in Austria 2025/26: 83 €); nel 2026/27 periodo premium dal 20.12 al 13.03, fuori da questo periodo costa meno"
   },
   "soelden": {
-   "h": "5f33f8a41e",
+   "h": "2dfe941e68",
    "description": "Sölden è la stazione glaciale dell'Ötztal con una delle stagioni più lunghe d'Austria: i ghiacciai Rettenbach e Tiefenbach aprono a ottobre e l'intero comprensorio funziona fino a maggio. 144 km di piste fino a 3340 m, tre cime panoramiche oltre i 3000 m (Big 3), le riprese di «Spectre» di James Bond sul Gaislachkogl e un après-ski animato. Molto amata dai turisti russofoni.",
    "rating_basis": "skiresort.com: 4,7/5 («di livello mondiale»), «top» in 17 categorie; tre cime oltre i 3000 m (Big 3), apertura della Coppa del Mondo FIS sul ghiacciaio Rettenbach",
    "hazards": "Quota fino a 3340 m: gelo e vento sui ghiacciai; crepacci fuoripista; pericolo valanghe sugli itinerari sciistici; la strada dell'Ötztal può essere chiusa per rischio valanghe",
@@ -4336,10 +4341,11 @@
     "La pista dal ghiacciaio a valle è spesso dura e affollata la sera"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 giorno, adulto, alta stagione secondo skiresort.com; prezzi dinamici: nel 2025/26 da 68 €"
+   "lift_pass_note": "1 giorno, adulto, alta stagione secondo skiresort.com; prezzi dinamici: nel 2025/26 da 68 €",
+   "vibe_note": "Una delle principali località dell'après-ski in Tirolo: bar vicino agli impianti e sulle piste, la sera club sulla via principale."
   },
   "st-anton-ski-arlberg": {
-   "h": "ef7078639f",
+   "h": "715505cede",
    "description": "St. Anton è la capitale del comprensorio Ski Arlberg: 300 km di piste collegate con Lech, Zürs, Stuben e Warth, più circa 200 km di itinerari fuoripista. Leggenda del freeride e dei pendii ripidi, culla della scuola di sci di Hannes Schneider e sede dell'après-ski più scatenato d'Austria (Mooserwirt, Krazy Kanguruh).",
    "rating_basis": "skiresort.com: 4,8/5 («di livello mondiale»), «top» in 18 categorie; il più grande comprensorio collegato d'Austria, culla della moderna tecnica sciistica (Hannes Schneider)",
    "hazards": "Alto pericolo valanghe sui fuoripista più frequentati (Valluga, Schindlerkar); piste ripide e gobbose; dopo l'après-ski, discesa in paese al crepuscolo",
@@ -4360,7 +4366,8 @@
     "Molte piste principali si riempiono di gobbe entro l'ora di pranzo"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 giorno, adulto, intero Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken), alta stagione (skiresort.com, schneehoehen.de); nel 2025/26: 81,50 €"
+   "lift_pass_note": "1 giorno, adulto, intero Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken), alta stagione (skiresort.com, schneehoehen.de); nel 2025/26: 81,50 €",
+   "vibe_note": "L'après-ski più rumoroso d'Austria: Mooserwirt e Krazy Kanguruh vicino alla stazione a valle, la sera bar e club in paese."
   },
   "thredbo": {
    "h": "9ce178187a",
@@ -4842,7 +4849,7 @@
    "lift_pass_note": "1 giorno, adulto, intero comprensorio Tignes – Val d'Isère, alta stagione (schneehoehen.de); skiresort.com indica 75 € (probabilmente stagione 2025/26)"
   },
   "val-thorens": {
-   "h": "5134bb3c4a",
+   "h": "64294383a8",
    "description": "Les 3 Vallées sono il più grande comprensorio sciistico collegato del mondo: Courchevel, Méribel, Les Menuires, Saint-Martin-de-Belleville, Orelle e Val Thorens con un solo skipass. Val Thorens (2300 m) è la stazione più alta d'Europa, con neve sicura da fine novembre a maggio. Adatta a tutti i livelli: chilometri di piste blu e rosse, ottimo freeride e un après-ski famoso.",
    "rating_basis": "skiresort.com: 4,7/5 («di livello mondiale»), «top» in 18 categorie; il più grande comprensorio collegato del mondo, Val Thorens più volte miglior stazione ai World Ski Awards",
    "hazards": "Pericolo valanghe fuoripista; sopra i 2300 m non ci sono alberi: con nevicate e nebbia si perde la visibilità; vento forte e gelo sulle cime; quote oltre i 3000 m",
@@ -4863,7 +4870,8 @@
     "Code durante le vacanze di febbraio"
    ],
    "airport": "CMF — Chambéry, ~2 h",
-   "lift_pass_note": "1 giorno, adulto, 3 Vallées, alta stagione (20.12–10.04); solo Val Thorens–Orelle: 71 €. skiresort.com indica 84,20 € (probabilmente già la stagione 2026/27)"
+   "lift_pass_note": "1 giorno, adulto, 3 Vallées, alta stagione (20.12–10.04); solo Val Thorens–Orelle: 71 €. skiresort.com indica 84,20 € (probabilmente già la stagione 2026/27)",
+   "vibe_note": "La località più festaiola della Francia: après-ski sulle piste a La Folie Douce, club in paese, si fa festa fino a notte fonda."
   },
   "bakuriani": {
    "h": "9900747da4",

@@ -2631,7 +2631,7 @@
    "best_wind_dir": "NW–N (offshore)"
   },
   "byron-bay-the-pass": {
-   "h": "ac900eef7e",
+   "h": "7162a8803b",
    "description": "Byron Bay is a surf town with a hippie vibe on the easternmost point of Australia. The Pass is a soft, long right off Cape Byron, perfect for longboarding, and around the bay there are beaches and points for every level. In summer and autumn easterly and cyclone swells arrive; in winter big SE swells hit the exposed beaches.",
    "rating_basis": "Australia's iconic longboard point: a soft, long right (150–200 m) off Cape Byron, with a dozen beaches and points nearby. Guides (The Surf Atlas) call it one of the most enjoyable spots in the country; Surf-forecast reviews ~3/5 because of the crowds",
    "hazards": "Crowds, longboards and SUPs on the take-off, rocks at the cape, strong currents at Main Beach and Belongil on a big winter swell, sharks (especially Tallows), bluebottles (Portuguese man o' war) in summer",
@@ -2652,7 +2652,8 @@
     "Frequent NE onshore in spring"
    ],
    "airport": "OOL — Gold Coast, ~50 min; BNK — Ballina, ~30 min",
-   "best_wind_dir": "SE–S (offshore / sheltered by the cape)"
+   "best_wind_dir": "SE–S (offshore / sheltered by the cape)",
+   "vibe_note": "Byron Bay's centre is a couple of kilometres away: pubs, bars with live music and hostel parties, busy in the evenings."
   },
   "gold-coast-snapper-rocks": {
    "h": "fc6d719dd9",
@@ -2827,7 +2828,7 @@
    "best_swell_dir": "W–SW (Playa Grande — S–SW)"
   },
   "montanita-la-punta": {
-   "h": "a2d0a0bdd2",
+   "h": "87cd868071",
    "description": "Montañita is a bohemian surf village on the Ecuadorian coast with waves almost every day. La Punta is a right-hand point over reef and rocks at the north end of the beach: at low tide it breaks faster and barrels, and it holds up to 3–4 m. In front of the village there's a long sandy beach break for beginners. The best time is December–May: warm, sunny and with N swells; summer and autumn are cooler and overcast (garúa).",
    "rating_basis": "Ecuador's main surf resort and a venue for national and international contests (Wikipedia “Surfing in Ecuador”, Perfect Wave, Surf-forecast): a playful right over reef and a long beach break. The downsides every review mentions are the crowd on the point with a strict pecking order and the noisy party village",
    "hazards": "Rocks and reef at La Punta (especially at low tide), currents on the beach break on big swells, strong equatorial sun, petty theft",
@@ -2849,7 +2850,8 @@
    ],
    "airport": "GYE — Guayaquil, ~2.5–3 h",
    "best_wind_dir": "NE–E (offshore)",
-   "best_swell_dir": "NW–N (December–April), SW also works"
+   "best_swell_dir": "NW–N (December–April), SW also works",
+   "vibe_note": "The party village of Ecuador's coast: a street of cocktail bars, discos and parties almost every night."
   },
   "fuerteventura-north-shore": {
    "h": "9298db421e",
@@ -3505,7 +3507,7 @@
    "airport": "INH — Inhambane, ~30 min (flights from Johannesburg); MPM — Maputo, ~7–8 h by car"
   },
   "skeleton-bay-namibia": {
-   "h": "db88ed121e",
+   "h": "d2773c31f4",
    "description": "A fast, shallow and extremely long left-hand barrel along a sand spit northwest of Walvis Bay in the middle of the Namib Desert. It only works in the southern winter (May–September) on a big, long-period SW swell — usually for 1–3 days in a row, so people come here on purpose for a specific forecast. Experts only: the wave breaks on almost dry sand, and the current sweeps you down the point.",
    "rating_basis": "The longest sand-bottom left-hand barrel in the world (up to ~2 km, rides of up to 3 minutes): No. 1 on Surf Europe's list of the world's longest waves, a regular star of Stab and Surfertoday, and once discussed as a WSL venue; but it works only a few days a season and is for experts only",
    "hazards": "Very shallow (breaks on ankle-deep sand) — injuries and broken boards; strong current along the spit (~20 km/h), a long walk back up to the peak (driving back is banned by local rules); a seal colony at Pelican Point and murky water — shark risk; jellyfish; cold water at 14–17 °C, fog, wind and dust",
@@ -3525,7 +3527,8 @@
     "You need a 4x4; cold water and fog"
    ],
    "airport": "WVB — Walvis Bay, ~45 min by 4x4; WDH — Windhoek, ~5–6 h by car",
-   "best_swell_dir": "SW–W (long period)"
+   "best_swell_dir": "SW–W (long period)",
+   "vibe_note": "The wave breaks along a desert sandspit in the Namib — no cafés or bars at the spot itself. The places in the count are in Walvis Bay, across the lagoon."
   },
   "popoyo-main-reef": {
    "h": "872665474a",
@@ -3625,7 +3628,7 @@
    "best_wind_dir": "SE (offshore) or glassy"
   },
   "mancora-point": {
-   "h": "56bc207756",
+   "h": "bf47435237",
    "description": "Máncora is a party beach town in sunny northern Peru that people visit for warm water and consistent small waves. The main point is a soft left over cobblestones, good for learning and progressing; in summer (December–March) NW swells work, in winter S swells. It's a convenient base for trips to the world-class lefts of Lobitos and the Cabo Blanco barrel.",
    "rating_basis": "Peru's most popular beach and surf resort: a soft left-hand point for beginners and intermediates, warm water and sun year-round (The Surf Atlas, Surf-forecast, Culture Trip). In quality it's “a baby compared to Chicama”, but the world-class lefts of Lobitos and Cabo Blanco are nearby",
    "hazards": "Cobblestones on the bottom at the point, currents on big swells, crowds on the peak; shallow reef at Cabo Blanco",
@@ -3647,7 +3650,8 @@
    ],
    "airport": "TYL — Talara, ~1.5–2 h; TBP — Tumbes, ~1.5–2 h; PIU — Piura, ~3 h",
    "best_wind_dir": "E–SE (offshore)",
-   "best_swell_dir": "NW (summer) and S–SW (winter)"
+   "best_swell_dir": "NW (summer) and S–SW (winter)",
+   "vibe_note": "A party town: bars on the main street and the beach, hostel parties, especially from December to March."
   },
   "siargao-cloud-9": {
    "h": "5015da9841",
@@ -4243,7 +4247,7 @@
    "lift_pass_note": "1 day, adult, high season at the ticket office: both the Hintertux Glacier and the Mayrhofen area cost €79 each (separate passes; the combined Zillertal 3000 is multi-day only). skiresort.com gives €82 for 2026/27"
   },
   "ischgl-samnaun": {
-   "h": "bfdd08e3a8",
+   "h": "0db29a34e9",
    "description": "Ischgl is one of Austria's best-known resorts: 239 km of pistes in the Silvretta Arena at 2000–2872 m, linked to duty-free Samnaun in Switzerland. Modern lifts, near-total snowmaking and reliable snow from November to May. Famous for its parties, Top of the Mountain concerts and buzzing nightlife.",
    "rating_basis": "skiresort.com: 4.9/5 — one of the highest scores in the world, “top” in 18 categories; famous for the Top of the Mountain concerts and après-ski",
    "hazards": "Avalanche danger on off-piste slopes and ski routes; wind and frost on the passes towards Samnaun; late returns from après-ski on dark pistes",
@@ -4264,7 +4268,8 @@
     "Noisy — not for a quiet family holiday"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 day, adult, Silvretta Arena (Ischgl + Samnaun), high season at the ticket office; skiresort.com gives €83 for 2026/27"
+   "lift_pass_note": "1 day, adult, Silvretta Arena (Ischgl + Samnaun), high season at the ticket office; skiresort.com gives €83 for 2026/27",
+   "vibe_note": "The après-ski capital of the Alps: bars by the lifts, clubs and concerts at the season opening and closing, partying until morning."
   },
   "kaprun-kitzsteinhorn": {
    "h": "ab055e0672",
@@ -4315,7 +4320,7 @@
    "lift_pass_note": "1 day, adult, high season (skiresort.com; Austrian price overview 2025/26 — €83); in 2026/27 the premium period is 20 Dec – 13 Mar, cheaper outside it"
   },
   "soelden": {
-   "h": "5f33f8a41e",
+   "h": "2dfe941e68",
    "description": "Sölden is a glacier resort in the Ötztal with one of the longest seasons in Austria: the Rettenbach and Tiefenbach glaciers open in October and the whole area runs until May. 144 km of pistes up to 3340 m, three panoramic peaks above 3000 m (Big 3), the Bond film “Spectre” shot on the Gaislachkogel, and lively après-ski. Popular with Russian-speaking travellers.",
    "rating_basis": "skiresort.com: 4.7/5 (“world class”), “top” in 17 categories; three peaks above 3000 m (Big 3), the FIS World Cup opener on the Rettenbach Glacier",
    "hazards": "Altitude up to 3340 m — frost and wind on the glaciers; glacier crevasses off-piste; avalanche danger on ski routes; the Ötztal road can close when avalanche risk is high",
@@ -4336,10 +4341,11 @@
     "The run from the glacier to the valley can be hard-packed and crowded in the evening"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 day, adult, high season per skiresort.com; dynamic pricing — from €68 in 2025/26"
+   "lift_pass_note": "1 day, adult, high season per skiresort.com; dynamic pricing — from €68 in 2025/26",
+   "vibe_note": "One of Tyrol's main après-ski resorts: bars by the lifts and on the slopes, clubs on the main street in the evening."
   },
   "st-anton-ski-arlberg": {
-   "h": "ef7078639f",
+   "h": "715505cede",
    "description": "St. Anton is the capital of the Ski Arlberg area: 300 km of pistes linked with Lech, Zürs, Stuben and Warth, plus around 200 km of off-piste routes. A legend for freeride and steep slopes, the birthplace of Hannes Schneider's ski school, and home to Austria's rowdiest après-ski (Mooserwirt, Krazy Kanguruh).",
    "rating_basis": "skiresort.com: 4.8/5 (“world class”), “top” in 18 categories; Austria's largest linked area, the cradle of modern ski technique (Hannes Schneider)",
    "hazards": "High avalanche danger on popular off-piste routes (Valluga, Schindler Kar); steep mogul runs; after après-ski — skiing down to the village at dusk",
@@ -4360,7 +4366,8 @@
     "Many of the main runs are mogulled by lunchtime"
    ],
    "airport": "INN — Innsbruck, ~1 h 15 min",
-   "lift_pass_note": "1 day, adult, all of Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken), high season (skiresort.com, schneehoehen.de); €81.50 in 2025/26"
+   "lift_pass_note": "1 day, adult, all of Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken), high season (skiresort.com, schneehoehen.de); €81.50 in 2025/26",
+   "vibe_note": "Austria's loudest après-ski: Mooserwirt and Krazy Kanguruh by the bottom station, bars and clubs in the village in the evening."
   },
   "thredbo": {
    "h": "9ce178187a",
@@ -4842,7 +4849,7 @@
    "lift_pass_note": "1 day, adult, the whole Tignes – Val d'Isère area, high season (schneehoehen.de); skiresort.com gives €75 (probably the 2025/26 season)"
   },
   "val-thorens": {
-   "h": "5134bb3c4a",
+   "h": "64294383a8",
    "description": "Les 3 Vallées is the world's largest linked ski area: Courchevel, Méribel, Les Menuires, Saint-Martin-de-Belleville, Orelle and Val Thorens on one lift pass. Val Thorens (2300 m) is Europe's highest resort, with reliable snow from late November to May. It suits every level: miles of blue and red runs, strong freeride and famous après-ski.",
    "rating_basis": "skiresort.com: 4.7/5 (“world class”), “top” in 18 categories; the world's largest linked area, Val Thorens repeatedly voted best resort at the World Ski Awards",
    "hazards": "Avalanche danger off-piste; there are no trees above 2300 m — visibility is lost in snowfall and fog; strong wind and frost on the summits; altitude above 3000 m",
@@ -4863,7 +4870,8 @@
     "Queues during the February holidays"
    ],
    "airport": "CMF — Chambéry, ~2 h",
-   "lift_pass_note": "1 day, adult, 3 Vallées, high season (20 Dec – 10 Apr); Val Thorens–Orelle only — €71. skiresort.com gives €84.20 (probably already the 2026/27 season)"
+   "lift_pass_note": "1 day, adult, 3 Vallées, high season (20 Dec – 10 Apr); Val Thorens–Orelle only — €71. skiresort.com gives €84.20 (probably already the 2026/27 season)",
+   "vibe_note": "France's biggest party resort: après-ski on the slopes at La Folie Douce, clubs in the village, partying late into the night."
   },
   "bakuriani": {
    "h": "9900747da4",

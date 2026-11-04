@@ -99,7 +99,7 @@ function vibeBlock(spot) {
           onerror: (e) => { const f = e.target.closest('figure'); if (f) f.remove(); } }))))));
   }
   wrap.append(h('p', { class: 'source' }, v.manual && v.auto_score
-    ? t('card.vibe_manual', { auto: v.auto_score })
+    ? t(v.score < v.auto_score ? 'card.vibe_manual_down' : 'card.vibe_manual', { auto: v.auto_score })
     : t('card.vibe_source')));
   return wrap;
 }
