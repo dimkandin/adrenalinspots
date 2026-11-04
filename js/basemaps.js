@@ -3,12 +3,28 @@
 
 import { t } from './i18n.js';
 
-const OFM_GLYPHS = 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf';
+// Fonts for the spot names come from this site (web/basemap/fonts, Noto Sans), so labels work even where
+// OpenFreeMap is unreachable (Russia throttles it since 2025).
+const OWN_GLYPHS = `${location.origin}/basemap/fonts/{fontstack}/{range}.pbf`;
+
+/** Simple map served by this site itself: country outlines (Natural Earth). The automatic fallback. */
+function lite() {
+  return {
+    version: 8,
+    glyphs: OWN_GLYPHS,
+    sources: { world: { type: 'geojson', data: `${location.origin}/basemap/world.geojson`, attribution: 'Natural Earth' } },
+    layers: [
+      { id: 'background', type: 'background', paint: { 'background-color': '#c9dfe6' } },
+      { id: 'land', type: 'fill', source: 'world', paint: { 'fill-color': '#f4f6f4' } },
+      { id: 'borders', type: 'line', source: 'world', paint: { 'line-color': '#c4d0cd', 'line-width': ['interpolate', ['linear'], ['zoom'], 1, 0.4, 6, 1] } },
+    ],
+  };
+}
 
 function satellite() {
   return {
     version: 8,
-    glyphs: OFM_GLYPHS,
+    glyphs: OWN_GLYPHS,
     sources: {
       esri: {
         type: 'raster', tileSize: 256, maxzoom: 19,
@@ -62,7 +78,15 @@ export const BASEMAPS = [
     labelFont: ['Noto Sans Regular'],
     dark: true,
   },
+  {
+    id: 'lite',
+    name: t('bm.lite'),
+    hint: t('bm.lite.hint'),
+    style: lite,
+    labelFont: ['Noto Sans Regular'],
+  },
 ];
+export const FALLBACK_BASEMAP = 'lite';
 
 // Developer mode: ?offline uses a local world outline (no network tiles) for testing.
 if (typeof location !== 'undefined' && new URLSearchParams(location.search).has('offline')) {
@@ -70,7 +94,7 @@ if (typeof location !== 'undefined' && new URLSearchParams(location.search).has(
     id: 'offline', name: t('bm.offline'), hint: t('bm.offline.hint'),
     style: () => ({
       version: 8,
-      sources: { world: { type: 'geojson', data: 'dev/world.geojson' } },
+      sources: { world: { type: 'geojson', data: '/dev/world.geojson' } },
       layers: [
         { id: 'background', type: 'background', paint: { 'background-color': '#c9dfe6' } },
         { id: 'land', type: 'fill', source: 'world', paint: { 'fill-color': '#f4f6f4', 'fill-outline-color': '#cfd8d6' } },

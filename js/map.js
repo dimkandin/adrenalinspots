@@ -1,5 +1,5 @@
 // Map: basemap styles, flag markers, hover tooltip, selection.
-import { BASEMAPS, DEFAULT_BASEMAP } from './basemaps.js';
+import { BASEMAPS, DEFAULT_BASEMAP, FALLBACK_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
 import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, metres, rating, windText, vibeLabel } from './util.js';
 import { isRu, lang, t } from './i18n.js';
@@ -218,22 +218,54 @@ let currentBasemap = DEFAULT_BASEMAP;
 let bmToken = 0;
 let notify = () => {};
 export function onMapNotice(fn) { notify = fn; }
-export function setBasemap(id, { revertTo = null } = {}) {
+
+// Where a tile server is blocked or throttled (OpenFreeMap from Russia), its style may still load while the tiles
+// never arrive, leaving flags on an empty background. If no basemap tile has loaded 10 s after the style, switch to
+// the simple map served by this site and remember that for 12 hours.
+const FAIL_KEY = 'basemapFail';
+const FAIL_HOURS = 12;
+function recentlyFailed() {
+  try { const v = Number(localStorage.getItem(FAIL_KEY)); return !!v && Date.now() - v < FAIL_HOURS * 3600e3; } catch { return false; }
+}
+function fallBack(cfg) {
+  try { localStorage.setItem(FAIL_KEY, String(Date.now())); } catch { /* ignore */ }
+  notify(t('bm.fallback', { name: cfg.name }));
+  setBasemap(FALLBACK_BASEMAP, { revertTo: FALLBACK_BASEMAP, remember: false });
+}
+function watchTiles(cfg, token) {
+  if (cfg.id === FALLBACK_BASEMAP || cfg.id === 'offline') return;
+  const own = new Set(Object.keys(map.getStyle().sources || {}).filter((id) => id !== SRC));
+  if (!own.size) return;
+  let ok = false;
+  const onData = (e) => { if (e.dataType === 'source' && e.tile && own.has(e.sourceId)) ok = true; };
+  map.on('data', onData);
+  setTimeout(() => {
+    map.off('data', onData);
+    if (ok || token !== bmToken) return;
+    fallBack(cfg);
+  }, 10000);
+}
+
+export function setBasemap(id, { revertTo = null, remember = true } = {}) {
   const cfg = BASEMAPS.find((b) => b.id === id) || BASEMAPS[0];
   const previous = currentBasemap;
   const token = ++bmToken;
   currentBasemap = cfg.id;
   map.setStyle(typeof cfg.style === 'function' ? cfg.style() : cfg.style, { diff: false });
-  // If the style can't be fetched (no internet, server down) go back to the previous one.
+  // If the style can't be fetched (no internet, server down) go back to the previous one, or to the simple map.
   const timer = setTimeout(() => {
     if (token !== bmToken) return;
+    if (cfg.id === FALLBACK_BASEMAP) { notify(t('bm.failed', { name: cfg.name })); return; }
+    if (revertTo) { fallBack(cfg); return; }
     notify(t('bm.failed', { name: cfg.name }));
-    if (!revertTo) setBasemap(previous, { revertTo: previous });
+    setBasemap(previous, { revertTo: previous });
   }, 10000);
   map.once('style.load', () => {
     if (token !== bmToken) return;   // a newer switch already happened
     clearTimeout(timer);
-    try { localStorage.setItem('basemap', cfg.id); } catch { /* ignore */ }
+    if (remember) { try { localStorage.setItem('basemap', cfg.id); } catch { /* ignore */ } }
+    if (cfg.id !== FALLBACK_BASEMAP && remember) { try { localStorage.removeItem(FAIL_KEY); } catch { /* ignore */ } }
+    watchTiles(cfg, token);
     russify(); tint(cfg); addSpotLayers(cfg);
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
     document.dispatchEvent(new CustomEvent('basemap-changed', { detail: cfg.id }));
@@ -246,8 +278,10 @@ export function initMap(appState, selectHandler) {
   onSelect = selectHandler;
   let saved = DEFAULT_BASEMAP;
   try { if (DEFAULT_BASEMAP !== 'offline') saved = localStorage.getItem('basemap') || DEFAULT_BASEMAP; } catch { /* ignore */ }
+  if (DEFAULT_BASEMAP !== 'offline' && recentlyFailed()) saved = FALLBACK_BASEMAP;   // tiles were unreachable a few hours ago
   const cfg = BASEMAPS.find((b) => b.id === saved) || BASEMAPS[0];
   currentBasemap = cfg.id;
+  const token = ++bmToken;
   map = new maplibregl.Map({
     container: 'map',
     style: typeof cfg.style === 'function' ? cfg.style() : cfg.style,
@@ -268,11 +302,16 @@ export function initMap(appState, selectHandler) {
   let loaded = false;
   map.once('style.load', () => {
     loaded = true;
+    if (token === bmToken) watchTiles(cfg, token);
     russify(); tint(cfg); addSpotLayers(cfg);
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
   });
-  // saved basemap unreachable -> fall back to the default one
-  setTimeout(() => { if (!loaded && cfg.id !== DEFAULT_BASEMAP) setBasemap(DEFAULT_BASEMAP, { revertTo: DEFAULT_BASEMAP }); }, 10000);
+  // the style itself unreachable -> the default one, and if that is the one failing, the simple map from this site
+  setTimeout(() => {
+    if (loaded || token !== bmToken) return;
+    if (cfg.id !== DEFAULT_BASEMAP && cfg.id !== FALLBACK_BASEMAP) setBasemap(DEFAULT_BASEMAP, { revertTo: DEFAULT_BASEMAP });
+    else if (cfg.id !== FALLBACK_BASEMAP) fallBack(cfg);
+  }, 10000);
   bindEvents();
   window.__map = map;
   return map;
