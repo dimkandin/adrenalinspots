@@ -160,8 +160,8 @@ a:hover { color: var(--sea-2); }
 .pp-menu[hidden] { display: none; }
 .pp-search { margin: 0 2px 4px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font: inherit; font-size: 13px; color: var(--ink); }
 .pp-search:focus { outline: 2px solid var(--sea-2); outline-offset: -1px; border-color: transparent; }
-.pp-list { display: grid; align-content: start; gap: 1px; flex: 1 1 auto; min-height: 0; max-height: 300px; overflow-y: auto; overscroll-behavior: contain; }
-.pp-opt { overflow: hidden; text-overflow: ellipsis; }
+.pp-list { display: grid; grid-auto-rows: max-content; align-content: start; gap: 1px; flex: 1 1 auto; min-height: 0; max-height: 300px; overflow-y: auto; overscroll-behavior: contain; }
+.pp-opt { overflow: hidden; text-overflow: ellipsis; min-height: max-content; }   /* overflow:hidden lets a grid row shrink to 0 (iOS squashed the list) */
 .pp-empty { margin: 6px 10px 8px; font-size: 13px; color: var(--ink-3); }
 .unit { display: inline-flex; background: var(--mist); border-radius: 999px; padding: 2px; }
 .unit button { border: 0; background: none; padding: 3px 9px; border-radius: 999px; font-size: 12px; color: var(--ink-2); }
@@ -384,7 +384,22 @@ a:hover { color: var(--sea-2); }
 .video-link { grid-column: 1 / -1; }
 
 .schools { list-style: none; padding: 0; margin: 8px 0 0; }
-.schools li { padding: 5px 0; border-bottom: 1px solid #edf2f3; }
+.schools li { padding: 7px 0; border-bottom: 1px solid #edf2f3; }
+.sc-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.sc-name { font-weight: 500; }
+.sc-ok { font-size: 11.5px; font-weight: 600; color: var(--good); white-space: nowrap; }
+.sc-kind { font-size: 11.5px; color: var(--ink-3); }
+.sc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 3px; }
+.sc-langs { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.sc-langs .chip-sm { margin-left: 0; }
+.sc-links { display: inline-flex; gap: 2px; }
+.sc-ct { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 8px; color: var(--ink-3); }
+.sc-ct svg { width: 16px; height: 16px; fill: currentColor; }
+.sc-ct:hover, .sc-ct:focus-visible { color: var(--ink); background: var(--mist); }
+.sc-note { display: block; margin-top: 2px; }
+.sc-fix { margin: 10px 0 0; }
+.sc-fix button { border: 0; background: none; padding: 2px 0; font-size: 12.5px; color: var(--ink-3); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
+.sc-fix button:hover { color: var(--ink); }
 .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .proscons ul { margin: 0; padding-left: 18px; }
 .proscons li { margin-bottom: 4px; }
