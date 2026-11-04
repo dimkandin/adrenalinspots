@@ -135,11 +135,17 @@ a:hover { color: var(--sea-2); }
 .row-wind { grid-column: 1; font-size: 11.5px; color: var(--ink-2); }
 .row-visa { grid-row: 1 / span 2; grid-column: 2; align-self: center; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; font-size: 10px; font-weight: 700; }
 
-.side-foot { padding: 8px 12px 10px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 6px 8px; }
-.side-foot.no-unit .unit, .side-foot.no-unit .foot-label { display: none; }
+.side-foot { padding: 8px 12px 10px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 6px 8px; }
+.side-foot.no-unit .foot-unit { display: none; }
+/* «Ветер в» and the unit switch stay together: on a narrow panel they move to their own line as one piece */
+.foot-unit { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; white-space: nowrap; }
 .qf[hidden], .dd[hidden] { display: none !important; }
 .foot-label { font-size: 12px; color: var(--ink-3); }
-.passport { margin-right: auto; }
+/* ♥ next to language and passport opens «О проекте» */
+.about-foot { display: grid; place-items: center; flex: none; width: 26px; height: 26px; padding: 0; border: 0; border-radius: 50%; background: var(--mist); color: #e0566b; }
+.about-foot:hover { background: #fde7ea; }
+.about-foot:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+.about-foot svg { width: 14px; height: 14px; fill: currentColor; }
 /* language: a native select with a globe drawn over its left edge (clicks pass through to the select) */
 .lang { position: relative; display: inline-flex; align-items: center; color: var(--ink-2); }
 .lang-ico { position: absolute; left: 8px; top: 50%; width: 14px; height: 14px; transform: translateY(-50%); pointer-events: none; fill: none; stroke: currentColor; stroke-width: 1.3; }
@@ -468,6 +474,8 @@ a:hover { color: var(--sea-2); }
   .lang select { padding: 8px 10px 8px 30px; font-size: 14px; max-width: 150px; }
   .lang-ico { left: 10px; width: 15px; height: 15px; }
   .pp-btn { padding: 8px 12px 8px 10px; font-size: 14px; max-width: 190px; }
+  .about-foot { width: 36px; height: 36px; }
+  .about-foot svg { width: 17px; height: 17px; }
   .pp-ico svg { width: 15px; height: 15px; }
   /* phones: the list hangs from the top so the keyboard doesn't cover the search field */
   .pp-menu { width: auto; max-width: none; top: calc(8px + var(--safe-t)); bottom: auto; max-height: min(60dvh, 520px); overflow: hidden; }

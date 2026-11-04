@@ -751,4 +751,5 @@ export default {
   'about.fix': "Found a mistake or know a great spot? Message me on Telegram and I'll fix it.",
   'about.close': "Close",
   'about.teaser': "Like the map? Invite me to ride — {handle}",
+  'about.like': "Like the map?",
 };

@@ -751,4 +751,5 @@ export default {
   'about.fix': "¿Has visto un error o conoces un buen spot? Escríbeme por Telegram y lo corrijo.",
   'about.close': "Cerrar",
   'about.teaser': "¿Te gusta el mapa? Invítame a navegar — {handle}",
+  'about.like': "¿Te gusta el mapa?",
 };
