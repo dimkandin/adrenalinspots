@@ -48,9 +48,9 @@
     <aside class="side" data-i18n-aria="side.aria">
       <header class="brand">
         <h1 data-i18n="brand"></h1>
-        <div class="dd-host" data-slot="activity"></div>
         <button type="button" class="side-toggle" data-i18n-aria="side.collapse" data-i18n-title="side.collapse">‹</button>
       </header>
+      <div class="sport-row"><div class="dd-host" data-slot="activity"></div></div>
 
       <div class="seasons" role="group" data-i18n-aria="seasons.aria"></div>
 
@@ -89,6 +89,7 @@
 
       <footer class="side-foot">
         <label class="lang"><span class="visually-hidden" data-i18n="lang.label"></span><select id="lang"></select></label>
+        <label class="passport"><span class="visually-hidden" data-i18n="passport.label"></span><select id="passport" data-i18n-title="passport.title"></select></label>
         <span class="foot-label" data-i18n="foot.wind_in"></span>
         <div class="unit" role="group" data-i18n-aria="unit.aria">
           <button type="button" data-unit="kn" data-i18n="unit.kn_btn"></button>
@@ -103,6 +104,7 @@
       <div class="month-head">
         <h2 class="month-title"></h2>
         <p class="month-sub"></p>
+        <button type="button" class="sport-pill"><span class="sport-ico" aria-hidden="true"></span><span class="sport-pill-name"></span><span class="caret" aria-hidden="true">▾</span></button>
       </div>
       <p id="status" class="visually-hidden" role="status" aria-live="polite"></p>
 

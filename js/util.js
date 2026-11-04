@@ -13,6 +13,7 @@ export const SEASON = Object.fromEntries(Object.entries(COLORS).map(([k, color])
 const VISA_STYLE = {
   home: ['neutral', '⌂'], no_visa: ['good', '✓'], visa_on_arrival: ['easy', '✓'], evisa: ['easy', '@'],
   visa_easy: ['warn', '!'], visa_hard: ['bad', '✕'], banned: ['bad', '⛔'],
+  eta: ['easy', '@'], visa_required: ['warn', '!'], no_entry: ['bad', '⛔'],   // other passports (Passport Index table)
 };
 export const VISA = Object.fromEntries(Object.entries(VISA_STYLE).map(([k, [tone, icon]]) => [k, { label: t(`visa.${k}`), tone, icon }]));
 

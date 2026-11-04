@@ -2,7 +2,7 @@
 import { BASEMAPS, DEFAULT_BASEMAP, FALLBACK_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
 import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, metres, rating, windText, vibeLabel } from './util.js';
-import { isRu, lang, t } from './i18n.js';
+import { lang, t } from './i18n.js';
 
 const INK = '#12303f';
 const SRC = 'spots';
@@ -170,7 +170,7 @@ export function updatePadding(animate = true) {
 function tipHtml(p) {
   const m = state.month;
   const season = SEASON[p.season] || SEASON.off;
-  const visa = isRu && p.visa_status ? VISA[p.visa_status] : null;
+  const visa = p.visa_status ? VISA[p.visa_status] : null;
   return `<div class="tip-name">${esc(p.name_ru)}</div>
     <div class="tip-place">${flagEmoji(p.cc)} ${esc(p.country || '')}</div>
     <div class="tip-row"><span class="tip-rating">★ ${rating(p.rating)}</span>

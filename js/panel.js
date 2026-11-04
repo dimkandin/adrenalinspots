@@ -1,7 +1,8 @@
 // Spot detail panel.
 import { dryChart, pctChart, snowChart, swellChart, tempChart, windChart, windRose } from './charts.js';
 import { climbForecast, flyForecast, forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
-import { isRu, num, t, tn, weekdayShort } from './i18n.js';
+import { countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
+import { hasPassport, isRuPassport, passport, visaTableDate } from './visa.js';
 import {
   BOLTING, BOTTOM, BREAK, FLYING, LEVEL, MONTHS, MONTHS_IN, MONTHS_SHORT, PARK, PG_LEVEL, ROCK, SCHOOLS, SEASON, SNOWMAKING, SPOT_TYPE, STYLE, TIDE, VISA, WATER, WIND_TYPE, WSTYLE,
   climbFeel, cm, compassText, deg, kmh, esc, flagEmoji, getUnit, h, metres, rating, sailSize, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
@@ -648,7 +649,7 @@ export function renderPanel(spot, context) {
         h('span', { class: 'p-score-label' }, t('card.vibe'), h('span', { class: 'visually-hidden' }, ':')),
         spot.vibe ? h('span', { class: 'stars' }, h('b', {}, String(spot.vibe.score)), t('card.vibe_short', { label: vibeLabel(spot.vibe.score) })) : h('span', { class: 'muted' }, t('card.vibe_none')))),
     spot.rating_basis ? h('p', { class: 'p-basis muted' }, spot.rating_basis) : null,
-    h('div', { class: 'chips' }, seasonChip(season, month), isRu ? visaChip(spot.visa) : null,
+    h('div', { class: 'chips' }, seasonChip(season, month), hasPassport() ? visaChip(spot.visa) : null,
       isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null));
 
   const isSurf = spot.activity === 'surf';
@@ -738,14 +739,24 @@ export function renderPanel(spot, context) {
   }
 
   const v = spot.visa;
-  if (isRu) {
+  if (hasPassport()) {
+    // Russian passport: hand-checked rules (their labels and notes are written in Russian, shown in the Russian interface);
+    // other passports: the Passport Index table
+    const ru = isRuPassport();
+    const detailed = ru && isRu;
+    const tableDate = visaTableDate();
+    let monthYear = tableDate || '';
+    try { if (tableDate) monthYear = new Date(tableDate).toLocaleDateString(lang, { month: 'long', year: 'numeric' }); } catch { /* keep the raw date */ }
     body.append(section(t('sec.visa'),
       h('dl', { class: 'facts' },
-        fact(t('card.visa_ru'), visaChip(v, true), v && v.stay_days && !/\d+\s*(дн|сут)/.test(v.label || '') ? h('small', {}, ` ${tn('n.days', v.stay_days)}`) : null),
-        v && v.notes ? fact(t('card.visa_notes'), v.notes) : null,
+        fact(ru ? t('card.visa_ru') : t('card.visa_for', { country: countryName(passport, passport) }), visaChip(v, detailed),
+          v && v.stay_days && !(detailed && /\d+\s*(дн|сут)/.test(v.label || '')) ? h('small', {}, ` ${tn('n.days', v.stay_days)}`) : null),
+        detailed && v && v.notes ? fact(t('card.visa_notes'), v.notes) : null,
         fact(t('card.airport'), spot.airport || '—')),
-      v && (v.source || v.checked) ? h('p', { class: 'source' }, t('card.visa_checked', { d: v.checked || '' }),
-        v.source ? h('a', { href: v.source, target: '_blank', rel: 'noopener' }, t('card.source')) : null, t('card.visa_consulate')) : null));
+      ru ? (v && (v.source || v.checked) ? h('p', { class: 'source' }, t('card.visa_checked', { d: v.checked || '' }),
+        v.source ? h('a', { href: v.source, target: '_blank', rel: 'noopener' }, t('card.source')) : null, t('card.visa_consulate')) : null)
+        : h('p', { class: 'source' }, t('card.visa_table', { d: monthYear }),
+          h('a', { href: 'https://www.passportindex.org/', target: '_blank', rel: 'noopener' }, 'Passport Index'), t('card.visa_consulate'))));
   } else if (spot.airport) {
     body.append(section(t('sec.airport'), h('dl', { class: 'facts' }, fact(t('card.airport'), spot.airport))));
   }

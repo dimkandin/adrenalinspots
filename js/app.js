@@ -5,6 +5,7 @@ import { injectFlagCSS } from './flags.js';
 import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, setData, setSelected, updatePadding } from './map.js';
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, PREFIX, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
+import { applyPassport, hasPassport, loadVisaTable, passport, passportList, setPassport } from './visa.js';
 import {
   MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, deg, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
@@ -81,13 +82,15 @@ const loadSpot = async (id) => {
   const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${state.activity}`, `/data/spot/${encodeURIComponent(id)}.json`);
   // a spot can belong to several sections: show the seasons of the one being browsed
   if (spot.seasons_by && spot.seasons_by[state.activity]) { spot.seasons = spot.seasons_by[state.activity]; spot.activity = state.activity; }
-  return localizeSpot(spot);
+  await visaReady;
+  return applyPassport(localizeSpot(spot));
 };
+const visaReady = loadVisaTable();   // rules for non-Russian passports and the list of passports
 
 // ---------- filtering -----------------------------------------------------------
 function passesFilters(s, m = state.month) {
   const f = state.filters;
-  if (f.novisa && state.spots.some((x) => x.visa) && !(s.visa && ['home', 'no_visa', 'visa_on_arrival', 'evisa'].includes(s.visa.status))) return false;
+  if (f.novisa && state.spots.some((x) => x.visa) && !(s.visa && ['home', 'no_visa', 'visa_on_arrival', 'evisa', 'eta'].includes(s.visa.status))) return false;
   if (f.ru && s.ru_schools !== 'yes') return false;
   if (f.flat && !(s.water || []).includes('flat')) return false;
   if (f.wave && !((s.wave_riding || 0) >= 2)) return false;
@@ -240,7 +243,7 @@ function renderSeasons() {
 
 function listRow(s) {
   const k = seasonOf(s);
-  const visa = isRu && s.visa ? VISA[s.visa.status] : null;
+  const visa = s.visa ? VISA[s.visa.status] : null;
   const value = ACT[state.activity].value(s, state.month);
   return h('li', {}, h('button', {
     type: 'button', class: `row row-${k} ${state.selected === s.id ? 'is-selected' : ''}`, 'data-fk': `row-${s.id}`,
@@ -428,7 +431,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 // ---------- dropdown filters (rating, temperatures, activity) -------------------------
 const DROPDOWNS = [
   {
-    key: 'activity', label: () => t(`dd.activity.${state.activity}_short`), title: t('dd.activity.title'),
+    key: 'activity', label: () => t(`sport.${state.activity}`), title: t('dd.activity.title'),
     options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
@@ -527,6 +530,14 @@ function applyActivityUI() {
   });
   document.querySelector('.unit')?.closest('.side-foot')?.classList.toggle('no-unit', !cfg.unit);
   document.querySelector('.app').dataset.activity = state.activity;
+  const icon = `<svg viewBox="0 0 32 32">${PICK_ICONS[state.activity] || PICK_ICONS.kite}</svg>`;
+  document.querySelectorAll('.sport-ico').forEach((el) => { el.innerHTML = icon; });
+  const pill = document.querySelector('.sport-pill');
+  if (pill) {
+    pill.querySelector('.sport-pill-name').textContent = t(`dd.activity.${state.activity}_short`);
+    pill.title = t('pick.change_title');
+    pill.setAttribute('aria-label', `${t('dd.activity.title')}: ${sportName()}`);
+  }
 }
 
 async function switchActivity(a) {
@@ -548,9 +559,9 @@ async function switchActivity(a) {
 async function loadActivitySpots() {
   const want = state.activity;
   try {
-    const data = await loadSpots();
+    const [data] = await Promise.all([loadSpots(), visaReady]);
     if (want !== state.activity) return;
-    state.spots = data.spots.map(localizeSpot);
+    state.spots = data.spots.map(localizeSpot).map(applyPassport);
     state.loadError = false;
     lastAnnounced = null;   // announce the real counts once the data is in
     refresh();
@@ -595,8 +606,18 @@ function menuKeys(menu, selector) {
     else if (e.key === 'Home') { opts[0].focus(); e.preventDefault(); }
     else if (e.key === 'End') { opts[opts.length - 1].focus(); e.preventDefault(); }
   });
-  // a click on the menu's heading or padding must not steal focus (that would close the menu)
-  menu.addEventListener('mousedown', (e) => { if (!e.target.closest('button')) e.preventDefault(); });
+  // A press inside the menu must not move focus: in WebKit (Safari, every iPhone browser incl. Arc) a tapped button
+  // doesn't take focus, so the focused option would blur to <body> and the menu would close before the click lands.
+  menu.addEventListener('mousedown', (e) => e.preventDefault());
+}
+/** Close a menu when keyboard focus leaves it, but not in the middle of a tap or click inside it. */
+function closeOnFocusLeave(wrap, menu, btn) {
+  let pressing = 0;
+  wrap.addEventListener('pointerdown', () => { pressing = Date.now(); });
+  wrap.addEventListener('focusout', (e) => {
+    if (wrap.contains(e.relatedTarget) || menu.hidden || Date.now() - pressing < 800) return;
+    menu.hidden = true; btn.setAttribute('aria-expanded', 'false');
+  });
 }
 
 function initDropdowns() {
@@ -604,6 +625,7 @@ function initDropdowns() {
   for (const d of DROPDOWNS) {
     const id = `dd-${d.key}`;
     const btn = h('button', { type: 'button', class: `dd-btn ${d.key === 'activity' ? 'dd-activity' : ''}`, title: d.title, 'aria-expanded': 'false', 'aria-controls': id },
+      d.key === 'activity' ? h('span', { class: 'sport-ico', 'aria-hidden': 'true' }) : null,
       h('span', { class: 'dd-label' }), h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
     const menu = h('div', { class: 'dd-menu', id, role: 'group', 'aria-label': d.title, hidden: true }, h('p', { class: 'dd-title', 'aria-hidden': 'true' }, d.title));
     for (const o of d.options) {
@@ -623,12 +645,55 @@ function initDropdowns() {
       if (open) (menu.querySelector('.dd-opt[aria-pressed="true"]') || menu.querySelector('.dd-opt:not(:disabled)'))?.focus();
     });
     const wrap = h('div', { class: 'dd', 'data-key': d.key }, btn, menu);
-    // close when keyboard focus leaves the dropdown
-    wrap.addEventListener('focusout', (e) => { if (!wrap.contains(e.relatedTarget) && !menu.hidden) { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); } });
+    closeOnFocusLeave(wrap, menu, btn);
     menuKeys(menu, '.dd-opt:not(:disabled)');
     (d.key === 'activity' ? document.querySelector('.dd-host[data-slot="activity"]') : host).append(wrap);
   }
   document.addEventListener('click', (e) => { if (!e.target.closest('.dd, .basemaps')) closeMenus(); });
+  // iPhone browsers often send no click for a tap on the map or empty space: close on the press itself
+  document.addEventListener('pointerdown', (e) => { if (!e.target.closest('.dd, .basemaps, .dd-menu, .bm-menu')) closeMenus(); }, true);
+}
+
+// ---------- phones: swipe the list sheet down to close it ------------------------------------
+// The drag starts anywhere in the sheet's head (title, season chips, filters, search) or in the list when it is
+// scrolled to the top; the sheet follows the finger and closes past ~90 px or on a quick flick.
+function initSheetSwipe() {
+  const side = document.querySelector('.side');
+  const list = side.querySelector('.spot-list');
+  let armed = false; let drag = false; let inList = false; let x0 = 0; let y0 = 0; let t0 = 0; let dy = 0;
+  side.addEventListener('touchstart', (e) => {
+    armed = isPhone() && isSideOpen() && e.touches.length === 1 && !e.target.closest('input, select, textarea, .dd-menu');
+    if (!armed) return;
+    inList = !!e.target.closest('.spot-list');
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now(); dy = 0; drag = false;
+  }, { passive: true });
+  side.addEventListener('touchmove', (e) => {
+    if (!armed) return;
+    const tt = e.touches[0];
+    const ddy = tt.clientY - y0; const ddx = tt.clientX - x0;
+    if (!drag) {
+      if (Math.abs(ddy) < 8 && Math.abs(ddx) < 8) return;
+      if (ddy <= 0 || Math.abs(ddx) > Math.abs(ddy) || (inList && list.scrollTop > 0)) { armed = false; return; }
+      drag = true;
+      side.style.transition = 'none';
+      closeMenus();
+    }
+    dy = Math.max(0, ddy);
+    side.style.transform = `translateY(${dy}px)`;
+    e.preventDefault();   // the sheet moves, the page and the list don't scroll
+  }, { passive: false });
+  const end = () => {
+    if (!armed) return;
+    armed = false;
+    if (!drag) return;
+    drag = false;
+    const flick = dy > 30 && dy / Math.max(1, Date.now() - t0) > 0.5;
+    side.style.transition = '';
+    side.style.transform = '';
+    if (dy > 90 || flick) { state.sideAuto = false; setSide(false, { persist: false }); }
+  };
+  side.addEventListener('touchend', end);
+  side.addEventListener('touchcancel', end);
 }
 
 // ---------- controls ---------------------------------------------------------------
@@ -640,6 +705,7 @@ function initControls() {
   document.querySelector('.side-open').addEventListener('click', () => { state.sideAuto = false; setSide(true, { moveFocus: true, persist: true }); });
   if (isPhone()) setSide(false);   // phones start with the map; the bar at the bottom opens the list
   else { try { if (localStorage.getItem('side') === 'closed') setSide(false); } catch { /* ignore */ } }
+  initSheetSwipe();
   const ft = document.querySelector('.filters-toggle');
   ft.addEventListener('click', () => {
     const open = document.querySelector('.side').classList.toggle('filters-open');
@@ -653,6 +719,7 @@ function initControls() {
     });
   }
   initDropdowns();
+  document.querySelector('.sport-pill')?.addEventListener('click', () => showSportPicker({ change: true }));
   document.querySelector('.reset').addEventListener('click', () => {
     Object.assign(state.filters, DEFAULT_FILTERS);
     Object.assign(state.seasons, { peak: true, shoulder: true, snow: true, off: false });
@@ -711,7 +778,7 @@ function initControls() {
     menu.hidden = !open; toggle.setAttribute('aria-expanded', String(open));
     if (open) menu.querySelector('[aria-pressed="true"]')?.focus();
   });
-  bm.addEventListener('focusout', (e) => { if (!bm.contains(e.relatedTarget) && !menu.hidden) { menu.hidden = true; toggle.setAttribute('aria-expanded', 'false'); } });
+  closeOnFocusLeave(bm, menu, toggle);
   menuKeys(menu, 'button');
   paintToggle();
   bm.append(toggle, menu);
@@ -767,11 +834,25 @@ function toast(text) {
 
 function initLanguage() {
   applyStatic();
-  // visas and Russian-speaking schools only matter to Russian travellers
-  if (!isRu) document.querySelectorAll('.qf[data-filter="novisa"], .qf[data-filter="ru"]').forEach((b) => b.remove());
+  // Russian-speaking schools only matter in the Russian interface; the visa filter needs a passport
+  if (!isRu) document.querySelectorAll('.qf[data-filter="ru"]').forEach((b) => b.remove());
+  if (!hasPassport()) document.querySelectorAll('.qf[data-filter="novisa"]').forEach((b) => b.remove());
   const select = document.querySelector('#lang');
   for (const l of LANGS) select.append(h('option', { value: l.code, selected: l.code === lang }, l.name));
   select.addEventListener('change', () => setLang(select.value));
+  select.addEventListener('input', () => setLang(select.value));
+  const pass = document.querySelector('#passport');
+  if (pass) {
+    const fill = () => {
+      pass.innerHTML = '';
+      pass.append(h('option', { value: '', selected: !passport }, t('passport.none')));
+      for (const p of passportList()) pass.append(h('option', { value: p.code, selected: p.code === passport }, `${flagEmoji(p.code)} ${p.name}`));
+    };
+    fill();
+    visaReady.then(fill);
+    pass.addEventListener('change', () => setPassport(pass.value));
+    pass.addEventListener('input', () => setPassport(pass.value));
+  }
 }
 
 // ---------- first visit: choose the sport ---------------------------------------------
@@ -783,18 +864,21 @@ const PICK_ICONS = {
   climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
   paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
 };
-function showSportPicker() {
+function showSportPicker({ change = false } = {}) {
   const acts = state.activities.filter((a) => a.enabled && ACT[a.id]);
   if (acts.length < 2 || document.querySelector('.picker')) return false;
-  const tiles = acts.map((a) => h('button', { type: 'button', class: 'picker-tile', 'data-a': a.id, onclick: () => close(a.id) },
+  const opener = document.activeElement;
+  const tiles = acts.map((a) => h('button', { type: 'button', class: `picker-tile${change && a.id === state.activity ? ' is-current' : ''}`, 'data-a': a.id,
+    'aria-pressed': change ? String(a.id === state.activity) : null, onclick: () => close(a.id) },
     h('span', { class: 'picker-icon', 'aria-hidden': 'true', html: `<svg viewBox="0 0 32 32">${PICK_ICONS[a.id] || PICK_ICONS.kite}</svg>` }),
     h('span', { class: 'picker-name' }, sportName(a.id)),
     h('span', { class: 'picker-meta' }, [a.spots ? spotsWord(a.spots) : null, t(`pick.tag.${a.id}`)].filter(Boolean).join(' · '))));
-  const skip = h('button', { type: 'button', class: 'picker-skip', onclick: () => close(null) }, t('pick.skip'));
-  const dlg = h('div', { class: 'picker', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'picker-title', 'aria-describedby': 'picker-sub' },
+  const skip = h('button', { type: 'button', class: 'picker-skip', onclick: () => close(null) }, t(change ? 'pick.cancel' : 'pick.skip'));
+  const dlg = h('div', { class: 'picker', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'picker-title', 'aria-describedby': 'picker-sub',
+    onclick: (e) => { if (change && e.target === dlg) close(null); } },
     h('div', { class: 'picker-card' },
-      h('h2', { id: 'picker-title' }, t('pick.title')),
-      h('p', { id: 'picker-sub', class: 'picker-sub' }, t('pick.sub')),
+      h('h2', { id: 'picker-title' }, t(change ? 'dd.activity.title' : 'pick.title')),
+      h('p', { id: 'picker-sub', class: 'picker-sub' }, t(change ? 'pick.sub_change' : 'pick.sub')),
       h('div', { class: 'picker-grid' }, ...tiles),
       skip));
   const focusables = () => [...dlg.querySelectorAll('button')];
@@ -809,15 +893,16 @@ function showSportPicker() {
     dlg.remove();
     document.removeEventListener('keydown', onKey, true);
     document.querySelector('.app').removeAttribute('inert');
-    track('pick_sport', { activity: a || 'skip' });
+    if (!change) track('pick_sport', { activity: a || 'skip' });
     if (a && a !== state.activity) switchActivity(a);
-    else { try { localStorage.setItem('activity', state.activity); } catch { /* ignore */ } writeHash(); }
-    document.querySelector('#search')?.focus({ preventScroll: true });
+    else if (!change) { try { localStorage.setItem('activity', state.activity); } catch { /* ignore */ } writeHash(); }
+    if (change && opener && opener.isConnected) opener.focus({ preventScroll: true });
+    else document.querySelector('#search')?.focus({ preventScroll: true });
   }
   document.addEventListener('keydown', onKey, true);
   document.querySelector('.app').setAttribute('inert', '');
   document.body.append(dlg);
-  (tiles.find((b) => b.dataset.a === state.activity) || tiles[0]).focus();
+  (tiles.find((b) => b.dataset.a === state.activity) || tiles[0]).focus({ preventScroll: true });
   return true;
 }
 const spotsWord = (n) => tn('n.spots', n);
