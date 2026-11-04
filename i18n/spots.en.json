@@ -2054,7 +2054,7 @@
    "airport": "IKT — Irkutsk, ~5–6 h by car (~250 km)"
   },
   "blagoveshchenskaya-anapa": {
-   "h": "cf72812933",
+   "h": "1b2a68801f",
    "description": "The Bugaz Spit, 100–300 m wide, between the Black Sea and the shallow Bugaz lagoon (liman) near the village of Blagoveshchenskaya, is southern Russia's main kite resort. Most riding is on the flat, shallow lagoon, which is easy to learn on; on the sea side there's chop and small waves in westerly winds. The season runs from May to October, the best months being June–September.",
    "rating_basis": "Russia's best-known kite spot (IKSURFMAG: 3.5/5); valued for its shallow flat lagoon and well-developed school infrastructure; downsides — moderate and not always steady wind",
    "waves_note": "Lagoon side of the spit — flat shallow water; sea side in westerly/southwesterly winds — chop and small waves",
@@ -2075,10 +2075,10 @@
     "Seaweed in the lagoon"
    ],
    "wind_dir": "SW–W (across the spit, side-off on the lagoon); in N–NE people ride at nearby flat-water sections",
-   "airport": "AAQ — Anapa, ~35 min (airport operations restricted since 2022 — check the status); Anapa railway station ~30 min"
+   "airport": "KRR — Krasnodar, ~2.5–3 h by car (Anapa airport has been closed to passenger flights since 2022); Anapa railway station ~30 min"
   },
   "dolzhanskaya-dolgaya-spit": {
-   "h": "db6e04b364",
+   "h": "7fd607da3f",
    "description": "Dolgaya Spit is an 18 km sandy spit near the village of Dolzhanskaya, separating the open Sea of Azov from the shallow Taganrog Bay. In almost any wind direction one side of the spit is flat and the other has waves, so beginners and freestylers alike love it. The season runs from May to September–October; every September the “Dolzhanka DA!” festival takes place.",
    "rating_basis": "A cult spot for windsurfers and kiters in southern Russia (the “Dolzhanka DA!” festival); valued for the choice between the flat and wavy sides of the spit; downsides — murky water and weak infrastructure",
    "waves_note": "The spit separates the Sea of Azov from Taganrog Bay: in a given wind one side is flat, the other has short wind waves of up to 1 m",
@@ -2099,7 +2099,7 @@
     "A thick wetsuit is needed in May and September"
    ],
    "wind_dir": "E–NE (Nizovka) and W–SW (Verkhovka); there's always a side of the spit with side-shore wind",
-   "airport": "ROV — Rostov-on-Don (Platov), ~3 h (closed under restrictions since 2022 — check); train to Yeysk (~40 km)"
+   "airport": "KRR — Krasnodar, ~3.5 h by car (Rostov and Anapa airports have been closed to passenger flights since 2022); train to Yeysk (~40 km)"
   },
   "pleshcheyevo-lake": {
    "h": "0058c90977",
@@ -10372,6 +10372,1796 @@
     "Tandems from Signal Hill and Lion's Head, also Sir Lowry's Pass and Hermanus",
     "Basic licence courses (~14 days)",
     "Pilot training"
+   ]
+  },
+  "geraldton-coronation-beach": {
+   "h": "42ec3590ce",
+   "description": "Coronation Beach near Geraldton is one of Western Australia's windiest and most famous windsurf spots: from November to March a 20–30-knot side-shore sea breeze blows almost every afternoon. The shallow, standing-depth lagoon by the shore suits learning, freeriding and first jumps, while the outer reef offers waves for bump & jump and wave riding. There's a basic campground right by the beach, and Geraldton has another dozen spots (Sunset Beach, Point Moore, Hell's Gate).",
+   "rating_basis": "Surf Magazin (the best wind statistics in Western Australia), Visit Geraldton (“one of the best places in the world for jumping”), Tourism WA and Kiteforum: a near-daily 20+ knot breeze, a standing-depth lagoon for learning and reef waves; downsides — remoteness, little rental, no water on site",
+   "waves_note": "The first ~800 m from shore is a shallow, mostly standing-depth lagoon with flat water, light chop and the occasional clean waist-high wave (ideal for first jumps and loops). On the outer reef and sandbar — 1–4 m waves: depending on the swell, anything from “a bad day on the Baltic” to “a good day on Tenerife”; far out it gets dangerous in big swells",
+   "hazards": "Reefs and rocks; dangerous waves on the outer reef in big swells, and no rescue service — if you break gear, you swim to shore; collisions with kiters (stay in your zone); sharks (this is Western Australia); strong sun; a dangerous downhill stretch on the access road",
+   "gustiness_note": "In the morning usually offshore and lighter (~15 knots); by lunchtime the 20–30-knot sea breeze sets in and holds until dark; one of the windiest spots in Western Australia",
+   "crowd_note": "A popular spot — in season you'll rarely have the water to yourself, and the campground is often full in summer; but there's plenty of room in the lagoon and on the reef",
+   "region": "Western Australia, ~30 km north of Geraldton (Howatharra)",
+   "events": "Wave Rally World Championships — figure-of-eight races on wave gear through the lagoon and the surf, based at the Geraldton Windsurfing Club (January; next edition 6–10 January 2027)",
+   "launch": "Sandy beach by the campground and car park (toilets, barbecues, lookout); windsurfers launch south of the car park, kiters in the northern part (kite zone 300 m downwind). No drinking water or electricity on site — the nearest water is at a petrol station 15 km away",
+   "sail_note": "Usually 4.2–5.3 m² (typically around 4.7), 3.7–4.2 on strong days; 5.5–6.5 in the mornings and on light days",
+   "pros": [
+    "One of the best wind statistics in Western Australia",
+    "Standing-depth lagoon and reef waves in one place",
+    "A great place for jumps and loops",
+    "Campground right on the beach, and a town nearby with spots for every wind direction"
+   ],
+   "cons": [
+    "No schools or proper rental — better bring your own gear",
+    "No water or electricity on site",
+    "Far from Perth, you need a car",
+    "Cool water in spring (~19 °C)"
+   ],
+   "wind_dir": "S–SW (sea breeze), side-shore; in the evening it veers slightly side-off",
+   "airport": "GET — Geraldton, ~30 km (about 30 minutes); PER — Perth, ~430 km (4.5–5 hours)",
+   "school_notes": [
+    "Private rental of basic windsurf kits (for confident riders) with delivery around Geraldton, plus camping gear and a caravan; prices on their Facebook page (Seabreeze listing, 2023)"
+   ]
+  },
+  "gnaraloo": {
+   "h": "4b87e3969a",
+   "description": "Gnaraloo is a remote pastoral station on the Ningaloo coast, where windsurfers from all over the world come for Tombstones — a long left-hand reef wave that a strong 25–30-knot side-shore breeze “switches on” in season. This is a place for experienced wave sailors: launching off the reef, side-off wind, no services, and accommodation at the 3 Mile campground. For a break from the waves there's flat water nearby in Gnaraloo Bay.",
+   "rating_basis": "Surf Magazin (Western Australia spot guide), Boards (“Epic Gnaraloo”), Severne and Seabreeze: one of the best windsurf waves in the world — a long, predictable left in a steady, strong breeze; downsides — extreme remoteness, no rental or services, sharp reef",
+   "waves_note": "Tombstones is a long, predictable, world-class left-hand reef wave (up to 15+ turns per ride); it works from 1.5–2 m, holds 4 m+ and is best in a big W / SW swell. After the ride you're flushed into the lagoon inside the reef, where the wave dies out. Flat water for freeriding is in Gnaraloo Bay a few kilometres north and in the bay by the shearing shed",
+   "hazards": "Sharp, shallow reef and sea urchins (booties are a must), especially at low tide; powerful, heavy waves and currents; side-offshore wind — if you break gear, you get blown out; sharks (tiger and bronze whaler) — this is Western Australia; heat and sun; remoteness — help is far away and there's often no phone signal",
+   "gustiness_note": "A strong summer breeze blows almost every day from late November to late February, usually 25–30 knots; it often picks up only after 14:00. The wind is side-off — there can be holes near the shore and behind the ledge",
+   "crowd_note": "On a good day up to 20–25 windsurfers and kiters on the wave, plus surfers in the morning; empty the rest of the time",
+   "region": "Western Australia, Gnaraloo Station (3 Mile campground), ~150 km north of Carnarvon",
+   "launch": "Launch from a small bay upwind of the wave, a few minutes from the 3 Mile campground; to reach the water you climb down a low (~2 m) ledge and cross the reef. At low tide you have to bear away sharply downwind right after launching to avoid being washed onto the reef. Booties are a must. No rental, lifeguards or shade",
+   "sail_note": "4.2–4.7 m² in the main season (for ~75 kg), 5.0–5.5 on lighter days; 5–6 m² for freeriding in the bay",
+   "pros": [
+    "World-class wave — a long, predictable left",
+    "Strong breeze almost daily from late November to February",
+    "Few people, wild nature (turtles, Ningaloo reefs)",
+    "Flat water nearby for freeride and freestyle"
+   ],
+   "cons": [
+    "Very remote: 12+ hours from Perth, the last 80 km on a dirt road",
+    "No rental, schools or shops (just a small shop at the campground)",
+    "Sharp reef and side-off wind — for experienced sailors only",
+    "Heat, flies, no shade or drinking water"
+   ],
+   "wind_dir": "S–SSW (sea breeze), side-offshore",
+   "airport": "CVQ — Carnarvon, ~150 km (about 2 hours, the last ~80 km on a dirt road); PER — Perth, ~1,100–1,200 km (12+ hours by car)"
+  },
+  "lancelin-windsurf": {
+   "h": "3250e9af53",
+   "description": "Lancelin is Western Australia's legendary windsurf town: from November to March a 20+ knot southerly sea breeze blows almost every day. The bay behind the reef forms a shallow, flat-water lagoon for learning, freestyle and speed, while the reef spots Main Break and South Passage offer quality left-hand waves. Since 1986 the town has hosted the Lancelin Ocean Classic, with wave contests and the Ledge Point → Lancelin marathon.",
+   "rating_basis": "Boards, Windsurf Magazine, Seabreeze and Big Salty: Western Australia's “windsurf capital” — a reliable 20+ knot summer breeze, a flat lagoon for learning and freestyle right next to reef waves, and the long-running Lancelin Ocean Classic. Downsides — remoteness, little rental, cool water in spring",
+   "waves_note": "Inside the bay, sheltered by a reef ~500 m offshore, the water is flat and shallow near the beach. Waves on the reefs: Main Break (punchy lefts right at the lagoon exit), South Passage (long, powerful lefts ~1 km offshore, for experienced sailors), and Back Beach beyond the point — shorebreak with no reef. The best swells come in October–November and March–April",
+   "hazards": "Shallow reef in the lagoon at low tide; at Main Break, if you go too far upwind you get washed onto the reef; at South Passage, rocks and Lancelin Island across the passage, big waves and a long swim to shore; sharks (this is Western Australia); very strong sun",
+   "gustiness_note": "The summer sea breeze (the “Fremantle Doctor”) blows on 70–80% of days, averaging 20–22 knots; it picks up by 10–12 o'clock and holds until dark. The wind is steady and stronger than in Perth",
+   "crowd_note": "In summer (especially in January and on public holidays) there are lots of windsurfers and kiters at Main Break and in the lagoon; kiters are advised to launch closer to the point, away from the windsurf zone and the swimming beach",
+   "region": "Western Australia, ~130 km north of Perth",
+   "events": "Lancelin Ocean Classic — Australia's biggest windsurf festival, held in January since 1986: reef wave sailing, slalom and a 20–25 km Ledge Point → Lancelin marathon (together with kiters); it returned in 2019 after a break",
+   "launch": "The main launch is the grassy rigging area by the car park in front of the campground (Grace Darling Park, the “windsurf park”): toilets, showers, a sandy beach and shallow water near the shore — handy for beginners. For Main Break you sail out of the lagoon downwind through the gap in the reef; for South Passage you launch from the Jetty in the northern part of town",
+   "sail_note": "Usually 4.5–5.8 m², around 5.2 on a good day; 4.0–4.7 on the wave in a strong breeze. On light days and for the marathon — race sails of 7–8.6 m²",
+   "pros": [
+    "Reliable summer breeze almost every day",
+    "Flat lagoon and reef waves in one place",
+    "Convenient grassy rigging area with showers and toilets",
+    "Ledge Point, Wedge Island, Cervantes and the Lancelin dunes nearby"
+   ],
+   "cons": [
+    "A long flight, and you need a car",
+    "Minimal rental, better bring your own gear",
+    "Cool water in spring (19–20 °C), you need a shorty wetsuit",
+    "Strong sun and heat"
+   ],
+   "wind_dir": "S–SSW (sea breeze), often offshore in the morning, side-onshore from the left during the day",
+   "airport": "PER — Perth, ~130 km (1.5–2 hours by car)",
+   "school_notes": [
+    "Rental and lessons from a trailer on the main beach (Starboard / Severne), season October–April, book 24 hours ahead, cash only; no recent confirmation that it's still operating — check in advance"
+   ]
+  },
+  "aruba-fishermans-huts-windsurf": {
+   "h": "e1686fbd5f",
+   "description": "Fisherman's Huts (Hadicurari Beach) is Aruba's main windsurf beach, at the northern end of Palm Beach. A strong north-easterly trade wind blows almost all year round, and the water is shallow and wave-free, making it a slalom and freestyle classic. Multiple freestyle world champion Sarah-Quita Offringa sails here too. The Aruba Hi-Winds contest has been held on this beach since 1987. The strongest wind is from May to July.",
+   "rating_basis": "Aruba's most popular windsurf beach. The PWA calls it a “legendary slalom venue”, and Aruba Hi-Winds has been held here since 1987. A strong trade wind about 350 days a year and shallow water; the downside is the gusty offshore wind",
+   "waves_note": "No waves: this is the island's lee shore. Shallow water with moderate chop, smooth near the beach",
+   "hazards": "Offshore wind: if you break gear or the wind drops, you get blown away from shore. Rocks and pebbles at the entry, kiters, fishing boats",
+   "gustiness_note": "The trade wind crosses the island and is a little gusty near the shore (offshore wind). It's steadier further out",
+   "crowd_note": "Several schools and kiters on the beach. Busy in season and during Hi-Winds, but there's plenty of water",
+   "region": "Northwest coast, between Palm Beach and Malmok",
+   "events": "Aruba Hi-Winds — an annual windsurf contest since 1987 (June–July). In 2025 (28 May – 2 June) the beach hosted the PWA Youth Slalom Championship on fin and foil",
+   "launch": "White sand with pebbles and rocks, next to the fishermen's huts and the centres (Vela is in a two-storey building behind the Ritz-Carlton). Shallow for more than 60 m from shore. Minimal current. Water shoes come in handy",
+   "sail_note": "Usually 4.7–5.7 m², 4.2–4.7 on strong days in May–July; 6.0–7.5 or foil in the lighter months (September–November)",
+   "pros": [
+    "Strong trade wind about 350 days a year",
+    "Shallow water near the shore, good for both beginners and slalom sailors",
+    "Warm water and a dry climate, outside the hurricane belt",
+    "Convenient centres, hotels and restaurants nearby"
+   ],
+   "cons": [
+    "Offshore wind: gusty near the beach, and if you break gear you get blown out to sea",
+    "Rocks and pebbles at the shore",
+    "Expensive resort",
+    "Noticeably lighter wind in September–November"
+   ],
+   "wind_dir": "E–ENE trade wind, side-off / offshore from the left",
+   "airport": "AUA — Aruba (Oranjestad), ~20 minutes",
+   "school_notes": [
+    "windsurf and kite school right at Fisherman's Huts, with a second base on Palm Beach",
+    "windsurf lessons and rental, recommended for beginners"
+   ]
+  },
+  "bonaire-lac-bay": {
+   "h": "ed9317fcb7",
+   "description": "Lac Bay is a huge shallow lagoon on the east side of Bonaire, sheltered by a reef. A steady trade wind blows in from the sea across the reef, and in the southern part the water is waist-deep or less. This is the “spiritual home of freestyle”: many top freestylers grew up here, and PWA events have been held here. It's the easiest place for beginners, while pros come to work on their tricks. Kites are banned; the best wind is from December to August.",
+   "rating_basis": "One of the world's best shallow flat-water spots (Surf Magazin, Carib Journal). It has hosted PWA freestyle events and is home to freestyle stars (the Frans brothers and others). Steady trade wind, kites banned",
+   "waves_note": "The water in the lagoon is smooth, with light chop in the deeper “blue” part for freestyle and slalom. Beyond the reef at the mouth of the bay there are waves for jumping on good days",
+   "hazards": "A sudden drop-off in the northern part of the lagoon, open sea and current beyond the reef, fragile mangroves and seagrass (stay within the marked zones), strong sun",
+   "gustiness_note": "The trade wind passes over the flat reef and blows steadily into the lagoon. Strongest from 11:00 to 15:00, easing off towards evening",
+   "crowd_note": "Kiting is banned in Lac Bay: only windsurfers, wing foilers and SUPs on the water. The lagoon is large (about 700 ha), but it can get busy near the centres in season",
+   "region": "Bonaire, southeast coast",
+   "events": "PWA Freestyle World Cup events. The most recent one described in the sources, the Forsa Bonaire PWA World Cup, was held on 9–13 April 2019 at Jibe City. The PWA calls Bonaire the “spiritual home of freestyle”",
+   "launch": "Sorobon sandy beach, with centres and bars right on the shore and rigged sails waiting on racks. In the southern part of the lagoon in front of Jibe City the depth averages about 80 cm, max about 1.2 m, over fine sand with no coral. The northern part drops off sharply into deep water (you can tell by the dark colour). You need the annual STINAPA nature fee ($40, available at the centres)",
+   "sail_note": "Most people use 4.7 and 5.4 m²; freestylers 4.2–5.7. 6.0–7.0 in the lighter months (September–November)",
+   "pros": [
+    "Shallow flat water with a sandy bottom, you can stand almost everywhere",
+    "Steady trade wind, an 8–9-month windy season",
+    "Kites banned, plenty of room on the water",
+    "Excellent centres and schools, warm water",
+    "Ideal for learning and freestyle"
+   ],
+   "cons": [
+    "Hardly any waves",
+    "Light wind in September–November",
+    "Expensive destination, you need a car",
+    "Mandatory STINAPA nature fee"
+   ],
+   "wind_dir": "E trade wind, side-onshore (from the sea across the reef into the lagoon)",
+   "airport": "BON — Bonaire (Kralendijk), ~15 minutes",
+   "rental_price_note": "per day of rental; about $490 for a week (10–15% discount), according to the Bonaire.com guide",
+   "school_notes": [
+    "the main centre in the southern part of the lagoon: 170 boards and 150+ rigged sails, lessons from $50, Hang Out bar",
+    "lessons from $50, freestyle; instructors include PWA freestyler Youp Schmit",
+    "rental and lessons on Sorobon beach"
+   ]
+  },
+  "ilha-do-guajiru": {
+   "h": "bd455b22b6",
+   "description": "Ilha do Guajiru is a village of a dozen pousadas on a sand spit near Itarema, between Fortaleza and Jericoacoara. It has a large, shallow flat-water lagoon, and from July to January a thermally boosted trade wind blows almost every day. It's primarily a kite spot, but conditions for freeride, freestyle and foil windsurfing are excellent too. Handy to stop off with your own gear on the way to or from Jeri.",
+   "rating_basis": "A well-known kite spot: Ceará's largest flat-water lagoon with reliable wind from July to January. Spot guides note that it suits windsurfing too. Rating lowered for the lack of windsurf infrastructure, the shallows at low tide and the wind shadow near the shore",
+   "waves_note": "Flat water or light chop in the lagoon. Small waves only outside, on the ocean side of the spit (at low tide you can walk there via a sandy islet)",
+   "hazards": "Shallows at low tide. Sharp shells on the bottom in places: wear shoes. Boats and fishermen's moorings in the lagoon. Gusts and wind shadow near the shore, slippery sand at low tide, strong sun",
+   "gustiness_note": "A trade wind boosted by the daytime thermal. In the lagoon the wind is gustier than on the ocean, especially near the built-up shore. Locals say the real wind is often 2–5 knots stronger than forecast",
+   "crowd_note": "Few windsurfers — the water is mostly full of kiters, especially by the pousadas. The lagoon is big, so there's room if you move downwind. Busy during GKA kite freestyle events (the World Championship final was also held here, in October)",
+   "region": "Itarema, Ceará, northeastern Brazil",
+   "launch": "Launch from the beach in front of the pousadas on the Guajiru spit, straight into the lagoon. The lagoon is large (about 5 km²) and shallow; at low tide it gets noticeably shallower and narrower and the beach becomes wide. Best sailed at high tide. At full high tide there's a wind shadow by the pousadas, so people launch a 5-minute walk upwind or downwind. At low tide the wet sand is very slippery",
+   "sail_note": "Usually 4.7–5.8 m² from August to November, 5.5–6.5 in July, December and January. Boards of 90–105 l suit flat-water freestyle",
+   "pros": [
+    "Huge flat-water lagoon with standing depth",
+    "Wind almost every day from August to December",
+    "Warm water all year round",
+    "Quiet village, accommodation right on the shore"
+   ],
+   "cons": [
+    "No windsurf centres or rental found, you need your own gear",
+    "At low tide the lagoon gets very shallow and the fin can touch the bottom",
+    "Wind shadow by the pousadas at high tide",
+    "Lots of kiters on the water",
+    "Rainy season and light wind from March to May"
+   ],
+   "wind_dir": "E–ESE (sometimes SE), side-onshore",
+   "airport": "JJD — Jericoacoara (Cruz), ~65 km, about 1.5 hours; or FOR — Fortaleza, ~235 km, 2.5–3 hours"
+  },
+  "jericoacoara-windsurf": {
+   "h": "73c74d4f66",
+   "description": "Jericoacoara (Jeri) is a village among the dunes in northern Ceará and one of Brazil's top windsurf spots. From July to January a thermally boosted trade wind blows almost every day, often at 25–35 knots from August to November. At the point in front of Club Ventos there are ramps and swell, in front of the dune there's flat water for freestyle, and upwind lies the Malhada wave spot.",
+   "rating_basis": "One of South America's best-known windsurf spots (Boards, Windsurf UK, Surf Magazin): wind almost every day from August to November, with both waves and flat water. Rating lowered for the gusts by the point, the current and the crowds",
+   "waves_note": "The waves depend on the tide. At low tide there are hardly any, just chop. At high tide it's smoother inside the bay, with ramps and big, rounded swell outside. The swell builds from September, with the biggest waves in November (sometimes mast-high). The Malhada wave spot is a few tacks upwind, in front of the rocks",
+   "hazards": "A constant left-to-right current, up to 6 knots at spring high tide. Shifting rocks by Club Ventos and rocks at Malhada (check them at low tide). Wind shadow at high tide, crowds on the wave, sand parasites (bicho-geográfico) — wear shoes; strong sun",
+   "gustiness_note": "The thermally boosted trade wind picks up from 10 am and peaks in the afternoon. At high tide there's wind shadow and gusts near the point and the new buildings, and it's gusty downwind in the bay. Forecasts underestimate the wind by 5–10 knots",
+   "crowd_note": "At the height of the season the wave at the main spot gets crowded. At Malhada windsurfers share the waves with kiters and surfers. Kiters are not allowed to launch from the main beach and go to Preá instead",
+   "region": "Ceará, northeastern Brazil",
+   "launch": "Launch from the village's main beach by Sunset Dune, in front of Club Ventos. Sand at low and mid tide, pebbles at full high tide, when the water reaches the centre's steps. There are rocks by the centre that shift position: carry your gear along the point and launch away from them. Beyond the first line of breakers you need a waterstart",
+   "sail_note": "Usually 4.0–4.7 m² from August to November, 3.5–4.0 on strong days; 4.7–5.5 in July, December and January. Boards of 75–95 l",
+   "pros": [
+    "Wind almost every day from August to November",
+    "Ramps, waves and flat water in one place",
+    "Warm water all year round",
+    "Atmospheric village with no tarmac, lagoons nearby"
+   ],
+   "cons": [
+    "Strong current and gusts by the point",
+    "Rainy season and light wind from March to May",
+    "Crowded on the water in season",
+    "Long journey, the last stretch over sand by 4×4"
+   ],
+   "wind_dir": "E–ESE trade wind, side-shore from the right",
+   "airport": "JJD — Jericoacoara (Cruz), ~40 minutes by 4×4; or FOR — Fortaleza, a ~4–5-hour transfer",
+   "rental_price_note": "about €515 for 15 days at Jeri250 (2016); Club Ventos is newer and pricier",
+   "school_notes": [
+    "Fabio Nobre's centre by Sunset Dune, right in front of The Point: JP and Starboard boards, NeilPryde sails, courses from beginner to wave",
+    "RRD board and sail rental, cheaper than Club Ventos (2016 data)",
+    "Tabou and Simmer board rental next to Club Ventos"
+   ]
+  },
+  "silvaplana": {
+   "h": "fb59bd0b81",
+   "description": "Silvaplana is a lake at about 1,800 m in the Upper Engadine near St. Moritz, famous for the Maloja thermal wind: on sunny days it arrives from the Italian-speaking Val Bregaglia shortly before noon and blows until evening at Force 4–6. Here you'll find the “highest windsurf school”, international regattas and Alpine scenery. The season is short — June to September — and the water is cold.",
+   "rating_basis": "The best-known high-altitude windsurf spot in the Alps: the Maloja thermal blows on almost every sunny summer day, the “highest windsurf school” (1790 m), international regattas; downsides — a short season and very cold water",
+   "waves_note": "High-altitude lake (~1790 m): light chop at Silvaplana in strong wind, flat water at Sils (station 2); no waves",
+   "hazards": "Cold water and rapid hypothermia; sudden weather changes and thunderstorms in the mountains; gusts when the thermal is unstable; lots of wing foilers and kiters on the water",
+   "gustiness_note": "The Maloja thermal spills over the Maloja Pass from Val Bregaglia: on sunny days it starts shortly before noon, quickly builds to Force 4–5 with gusts up to Force 6 and dies down by evening; cloud cover and a northerly airflow weaken it",
+   "crowd_note": "On good summer days there are lots of windsurfers, wing foilers and kiters on the water (kiters have their own zone by the Mulets sports centre); beginners and families head to the station in Sils",
+   "region": "Upper Engadine, Graubünden (near St. Moritz)",
+   "events": "Vanora EngadinWinD — an international regatta; in 2025 the iQFoil International Games, in 2026 on 17–28 August (around 150 athletes from 20 countries)",
+   "launch": "A south-facing pebble beach in the northern part of the lake by the village; some riders launch from the station's slipway in the small harbour. Station 2 in Sils (Sils Maria): offshore wind and flat water — for beginners, kids and families, with a free shuttle between the stations",
+   "sail_note": "Usually 5.0–6.0 m² (the air at 1800 m is thin — take a sail one size bigger than at sea), 4.5–4.8 on strong days; 6.5–7.5 or foil in light wind",
+   "pros": [
+    "Reliable thermal on almost every sunny summer day",
+    "Flat water and chop — freeride, slalom, freestyle, foil",
+    "Beginner zone with flat water at Sils",
+    "Stunning Alpine views"
+   ],
+   "cons": [
+    "Very cold water (10–14 °C) — you need a full wetsuit",
+    "Short season: the station runs roughly from late May to September",
+    "Expensive Switzerland (rental 110+ CHF a day)",
+    "Wind only in the afternoon and only in sunny weather"
+   ],
+   "wind_dir": "SW (Maloja), onshore / side-shore at the Silvaplana station, offshore at Sils",
+   "airport": "ZRH — Zurich, ~3 h; MXP — Milan Malpensa, ~3 h; BGY — Bergamo, ~2 h 45 min; local Samedan airfield (SMV) — 15 minutes",
+   "rental_price_note": "Windsurfing Silvaplana: freeride kit (board + rig) 110 CHF per day, 120 CHF with wetsuit and harness; beginner kit 80 CHF",
+   "school_notes": [
+    "two stations — Silvaplana (for advanced riders) and Sils (for beginners and kids), rental, courses, foil; 2025 season: 19 May – 21 September, 09:00–17:00"
+   ]
+  },
+  "matanzas": {
+   "h": "23d419d075",
+   "description": "Matanzas is a fishing village 160 km southwest of Santiago and one of South America's top wave capitals. From October to March the southerly surazo blows along the coast, and the Pacific swell breaks into a fast left for port-tack wave riding. It hosts PWA/IWT World Cup events, and Topocalma, Pupuya and Pichilemu are an hour's drive away.",
+   "rating_basis": "A PWA/IWT Wave World Cup venue since 2023. The PWA rates the port-tack conditions here among the best in South America, and pros compare the wave to Ho'okipa. Boards and Windsurf UK note the reliable surazo and a cluster of wave spots nearby (Topocalma, Pupuya). Rating lowered for the cold water, the current and the limited tourist infrastructure",
+   "waves_note": "A powerful, fast left-hand wave spot for port-tack riding. The first section breaks in front of the rocks, then the bottom turns to sand and the wave gets faster and steeper. Long-period Pacific swell: usually 1–3 m, mast-high and bigger during PWA finals. The shape depends on the tide and the sandbank, which shifts from year to year",
+   "hazards": "Rocks at the first section and by the point, gusts near the cliff, a strong current that drags you into the impact zone. Heavy wipeouts on the shallow sandbank in big swell. Cold water. Sea lions (harmless, but can give you a fright)",
+   "gustiness_note": "The southerly surazo usually arrives by 11:00–13:00 and holds until evening (around 20:00), often in spells of 3–4 days. Lighter near the shore than further out, gusty near the rocks",
+   "crowd_note": "Many pros spend their winter here, so the local level on the wave is high, with its own priority rules (what counts is who's deeper on the wave, not who arrived first). Lots of surfers at weekends. There are quieter spots nearby",
+   "region": "Navidad, O'Higgins Region, central coast of Chile",
+   "events": "Chile World Cup, a PWA/IWT Wave World Cup event (since 2023): late March – early April in 2024 and 2025, 14–29 November in 2026",
+   "launch": "The sandy beach of Matanzas village by the Surazo hotel; getting in and out is easy. You need to be confident getting through the surf: in a swell you head out through the shorebreak and a strong current. On small days the wave suits those just starting out in waves. Beginners sail on flat water at the Rapel river mouth (La Boca), a 10-minute drive away",
+   "sail_note": "Most often 4.5–5.3 m² and 76–93 l boards: at the PWA event the pros used 4.2–5.3. 3.7–4.0 in a strong surazo",
+   "pros": [
+    "World-class port-tack wave",
+    "Reliable side-shore wind from October to February",
+    "Plenty of wave spots within an hour",
+    "Flat water for learning at the nearby Rapel river mouth"
+   ],
+   "cons": [
+    "Cold water (12–15 °C) all year round, you need a 4/3–5/3 wetsuit",
+    "Strong current, heavy surf in a swell",
+    "Little rental of unknown quality: better bring your own",
+    "Many spots require a 4×4"
+   ],
+   "wind_dir": "S–SSW (surazo), side-shore from the left, side-onshore in places",
+   "airport": "SCL — Santiago, ~2–2.5 hours by car (about 160 km via Route 78)",
+   "rental_price_note": "25,000–30,000 pesos per day for a board, two sails, wetsuit and harness at the Olas de Matanzas campsite shop (Boards, 2012); gear is limited, better bring your own",
+   "school_notes": [
+    "campsite with cabins and a small shop: limited windsurf gear rental, best booked in advance (2012 data)"
+   ]
+  },
+  "lake-arenal": {
+   "h": "719b431cdf",
+   "description": "Lake Arenal is a large reservoir in the mountains of northern Costa Rica, at the foot of the Arenal volcano. From December to March the Caribbean trade wind accelerates between the ranges and blows 20–30 knots almost every day. On the north shore by the Tico Wind centre people sail 4–5 m² sails over the hard lake chop — classic bump & jump on warm fresh water.",
+   "rating_basis": "A legendary spot of the '80s and '90s: the wind here is said to be one of the strongest and most consistent in the northern hemisphere in winter. According to Tico Wind, it blows over 20 knots on about 75% of days in January and February; iWindsurf forum users praise the chop for bump & jump. Rating lowered because only one centre is left (it was temporarily closed in 2021), for the gusts near the shore and the short season",
+   "waves_note": "A freshwater reservoir about 30 km long: over a 10 km fetch the wind kicks up hard lake chop and wind swell over a metre high, great ramps for jumping. One tack is noticeably bumpier than the other",
+   "hazards": "The wind is slightly offshore: if you break gear or get tired, you drift to the middle of the lake and towards the volcano, and you may not make it back upwind (the centre keeps a rescue jet ski). Strong, gusty wind and waves over a metre high — steep for a lake; beginners find it hard to keep getting up after falling",
+   "gustiness_note": "The Caribbean trade wind accelerates between the mountains, with a steady direction (NE–ENE). The wind is slightly offshore, so it's gusty right by the shore. With passing cold fronts it can blow 30 knots for 4–5 days in a row. In winter it blows day and night",
+   "crowd_note": "Not many windsurfers: the spot's heyday was in the '80s and '90s, and now there are more kiters and wing foilers. Plenty of room on the water",
+   "region": "Tilarán, Guanacaste Province",
+   "launch": "A small area on the north shore by the Tico Wind centre: gear is rigged on the grass and you launch from a little beach. The centre is on Route 142, about 14 km from Tilarán towards Nuevo Arenal, with a dirt track down to the shore (no 4×4 needed). With your own gear you pay a water access fee. A rescue jet ski is on standby on the water",
+   "sail_note": "Most people use 4.0–5.0 m² and 76–95 l boards. 3.5 and smaller on strong days, 5.5–6.0 at the start and end of the season",
+   "pros": [
+    "Strong, reliable wind almost every day from December to March",
+    "Warm fresh water, a shorty is enough",
+    "Ramps on the chop, plenty of room on the water",
+    "Volcano, hot springs and rainforest nearby"
+   ],
+   "cons": [
+    "Effectively just one centre; it was temporarily closed in 2021 — check its status before you go",
+    "Expensive rental (about $109 a day in 2019–2020)",
+    "Slightly offshore wind, gusty near the shore",
+    "The wind is usually too strong for beginners",
+    "Rainy season and light wind from May to October"
+   ],
+   "wind_dir": "NE–ENE trade wind, side-shore / side-off from the left",
+   "airport": "LIR — Liberia, ~1.5–2 hours by car; SJO — San José, ~3.5 hours",
+   "rental_price_note": "per day of rental at Tico Wind, with lunch on the beach; a week costs $584–641. Newer price lists say “on request”",
+   "school_notes": [
+    "centre running since 1991: Fanatic boards, Duotone sails, a gear pool (you can swap boards and sails), windsurf, kite and foil lessons, rescue jet ski. Main season December–April; the rest of the year they open when there's wind"
+   ]
+  },
+  "sal-santa-maria": {
+   "h": "b99786b586",
+   "description": "Sal is Cape Verde's main windsurf destination: from November to May a steady north-easterly trade wind blows, and winter Atlantic swells bring waves. The base is Santa Maria bay with several centres (side-off from the left, freeride and foil); nearby are the easy wave at Ponta Leme and the legendary Ponta Preta, which has hosted PWA World Cup events.",
+   "rating_basis": "Surf Magazin, Windsurf Magazine and Waterwind: a steady winter trade wind and Ponta Preta — Cape Verde's “star wave” and a PWA venue; Santa Maria bay is good for freeride and foil. Downside — conditions are a bit tough for beginners (side-off, shorebreak)",
+   "waves_note": "In Santa Maria bay — chop and a small shorebreak, flat water beyond the pier, and further out swell for beginners in waves; Ponta Leme is the island's easiest wave, with flat water inside; Ponta Preta (5–10 minutes west) is a powerful, steep world-class wave by the rocks, 2–4 m+ in winter swells",
+   "hazards": "Side-offshore wind in the bay (don't sail alone — if you break gear, help is far away); shorebreak and rocks at Ponta Preta, frequent gear breakages; reefs and a strong current at Ponta Sino; sea urchins at the northern spots; sharks are sometimes seen on the east coast — stay out of the water at dusk",
+   "gustiness_note": "The trade wind is steady, usually 14–20 knots, 25–30 from mid-January to March–April; in the bay the wind is side-off — there can be holes and gusts near the shore and behind buildings; at Ponta Leme the wind is steadier",
+   "crowd_note": "Ponta Preta and Ponta Leme get crowded in a good swell (surfers, kiters; surfers have priority at Ponta Preta); the bay and Kite Beach are spacious",
+   "region": "Sal, south of the island (Santa Maria bay)",
+   "events": "PWA Wave World Cup events at Ponta Preta (2007–2010; in 2010 the season final in November); in 2025 a Wingfoil World Cup event (waves)",
+   "launch": "Sandy beach in the eastern part of Santa Maria bay by the centres (ION Club Ponta Leme, Club Angulo): a light shorebreak, and staff help you through it with your gear. From here you can sail upwind to Ponta Leme or downwind to Ponta Sino. At Ponta Preta you launch through the shorebreak, sometimes waiting up to 20 minutes for a lull, with rocks nearby",
+   "sail_note": "Usually 4.5–5.3 m², 3.7–4.5 m² in January–April at 25–30 knots; on the Ponta Preta wave most often 4.0–4.7",
+   "pros": [
+    "Steady trade wind from November to May",
+    "Warm water and sunshine in winter",
+    "World-class Ponta Preta wave within walking distance",
+    "Direct charters from Europe, several centres"
+   ],
+   "cons": [
+    "Side-off wind in the bay — if you break gear, you can be blown away from shore",
+    "Shorebreak and rocks at the wave spots, not for beginners",
+    "Almost no wind in summer (August–September)",
+    "Very crowded at Ponta Preta on good days"
+   ],
+   "wind_dir": "NE–ENE (trade wind), side-offshore / side-shore from the left",
+   "airport": "SID — Sal (Amílcar Cabral), ~20 minutes (17 km)",
+   "school_notes": [
+    "Two centres in Santa Maria; Fanatic / Duotone windsurf rental at Ponta Leme, help through the shorebreak, storage; 9:00–17:00",
+    "Josh Angulo's centre — the classic launch point in the bay, with a bar and café next door",
+    "Club hotel 5 minutes from Ponta Preta, gear included with your stay (certificate required)"
+   ]
+  },
+  "fehmarn-wulfener-hals": {
+   "h": "61ded0460d",
+   "description": "Wulfener Hals is a spit in the south of Fehmarn island between the open Baltic and the shallow Burger Binnensee lagoon, and one of Germany's most popular windsurf spots. You can stand almost everywhere in the lagoon and the water is flat — ideal for learning, freeriding and freestyle, while regattas are held on the sea side. It works best in an easterly, especially in spring, but the spot handles almost any direction, and the island has a dozen more spots.",
+   "rating_basis": "Fehmarn is Germany's most popular windsurf island, with a dozen spots for every wind direction; Surf Magazin calls Wulfener Hals “a paradise for all levels” with a huge shallow area; Windfinder lists it among Germany's most popular spots. Downsides — cool water and seaweed",
+   "waves_note": "Flat water on the Burger Binnensee lagoon, with short chop in strong wind; on the open Baltic (through the campsite) — chop and small wind waves, where regattas are held",
+   "hazards": "Long fins hit the bottom in the shallows; the small stretch of water by the marina is awkward to sail; chop on the sea side in strong wind; cold water outside summer",
+   "gustiness_note": "Low shoreline and open space — the wind is generally steady; slightly gustier near the shore in westerlies",
+   "crowd_note": "Lots of people on the water and in the car parks in summer and at weekends; quieter in spring and autumn, and on the island you can always move to another spot",
+   "region": "Fehmarn island, Schleswig-Holstein (Baltic Sea)",
+   "events": "Surf-Festival Fehmarn — a big windsurf test festival with the Racer of the Sea regatta and the German Freestyle Challenge, on Fehmarn's neighbouring South Beach (Südstrand); in 2026 on 14–17 May (possibly the last time at this venue)",
+   "launch": "Sandy shore and a “surf meadow” for rigging on the southern shore of the Burger Binnensee lagoon by the Wulfener Hals campsite (Wulfener-Hals-Weg); day parking in front of the campsite gates and on the meadow opposite the golf course (paid in season). You can stand almost everywhere; to reach the open Baltic, go through the campsite or carry your gear a few metres across the spit",
+   "sail_note": "Usually 5.5–7.0 m² on a freeride board, 4.5–5.3 in strong wind; 3.5–5.0 for beginners in the shallows",
+   "pros": [
+    "Huge flat-water shallows — ideal for beginners and practising tricks",
+    "Works in almost any wind direction",
+    "Big centre, campsite and car parks right by the water",
+    "An island with a dozen spots for different winds"
+   ],
+   "cons": [
+    "Cool water: up to 18–19 °C in summer, and you need a warm wetsuit in spring and autumn",
+    "Seaweed from May to November",
+    "Crowded in summer, paid parking",
+    "Shallow — long fins catch the bottom"
+   ],
+   "wind_dir": "E–SE and NE (a thermally boosted easterly in spring) are best; NW–N also work, with long runs towards Burg (Burg auf Fehmarn); SW–W are the most frequent",
+   "airport": "HAM — Hamburg, ~1 h 45 min (~150 km); CPH — Copenhagen, ~2.5–3 h with the Rødby – Puttgarden ferry",
+   "school_notes": [
+    "VDWS centre at the Wulfener Hals campsite (part of Windsurfing Hamburg): courses, rental, surf camps, shop; open April to October",
+    "school on South Beach opposite, across the lagoon"
+   ]
+  },
+  "sylt-westerland": {
+   "h": "c09fe0f6e4",
+   "description": "Westerland on Sylt is Germany's main wave spot and the stage for the most famous PWA World Cup event, which draws around 200,000 spectators every autumn. The North Sea delivers strong, steady low-pressure winds, a sandbar with waves and a hard shorebreak at high tide; side-shore winds from the southwest and north work best. This is a spot for experienced sailors: longshore currents, stone groynes and cold water.",
+   "rating_basis": "Germany's main wave spot and the venue of the most famous PWA World Cup event; Surf Magazin and local guides cite a powerful shorebreak, currents and groynes — “one of Germany's toughest spots”. For strong riders; the cold water and fickle shorebreak lower the rating",
+   "waves_note": "A beach break with a sandbar: at low tide the wave breaks on the bar, at high tide the sets reach the beach and the shorebreak gets hard; in storms during the World Cup the waves are 3–4 m, 1–2 m on ordinary windy days. Often flat in summer when there's no wind",
+   "hazards": "Strong currents along the shore and between the groynes; remains of stone groynes reach ~20 m out to sea every 100–200 m (poorly visible at high tide outside the season, marked with yellow crosses); a powerful shorebreak that snaps masts; a tidal range of ~2–3 m",
+   "gustiness_note": "The wind from Atlantic lows is steady and strong; right by the shore it's lighter than further out, so you need some extra power; squalls on stormy days",
+   "crowd_note": "On ordinary days there aren't many people on the water — the spot weeds out beginners; on good wave days and during the World Cup the beach is packed",
+   "region": "Sylt, North Frisia, Schleswig-Holstein (North Sea)",
+   "events": "Citroën Windsurf World Cup Sylt — the biggest annual PWA event (Grand Slam), on Brandenburger Strand; in 2026 on 25 September – 4 October: waves (men and women), freestyle, foil slalom; around 200,000 spectators",
+   "launch": "Launch straight from the beach by the promenade in southern Westerland (at the end of Brandenburger Straße), next to the Sunset Beach / Duotone Pro Center. Parking behind the dune on Brandenburger Straße (from free to ~€18 a day depending on the season); until 18:00 the guest card (Kurkarte) is checked at the beach entrance. Getting out through the shorebreak in an onshore wind is very hard",
+   "sail_note": "The spot works from 20 kn: usually 4.2–5.3 m², 3.7–4.2 in autumn storms; foil or 6–7 m² in light summer wind",
+   "pros": [
+    "Real North Sea waves and strong wind",
+    "Legendary PWA World Cup event every autumn",
+    "Launch straight from the town beach, with a centre and cafés nearby",
+    "Airport on the island"
+   ],
+   "cons": [
+    "Cold water even in summer (up to 17–18 °C), you need a wetsuit",
+    "Hard shorebreak at high tide, tough to get out in onshore wind",
+    "Currents and remains of stone groynes",
+    "Resort tax and paid parking"
+   ],
+   "wind_dir": "SW and N–NNE — side-shore (best); W–NW — onshore, tough to get out",
+   "airport": "GWT — Sylt (Westerland), ~10 minutes; HAM — Hamburg, ~3–3.5 h (train or car train across the Hindenburgdamm)",
+   "school_notes": [
+    "right on Brandenburger Strand: windsurfing, kite, surfing, SUP, rental; open 1 April to 31 October",
+    "in neighbouring Wenningstedt (~3 km north): surf centre with windsurfing"
+   ]
+  },
+  "cabarete": {
+   "h": "4e147be8ac",
+   "description": "Cabarete is the windsurf capital of the Caribbean, on the north coast of the Dominican Republic. In a wide, reef-protected bay a thermally boosted trade wind blows during the day: the inner bay is great for learning and bump & jump, while the reef 800 m offshore has waves. The best wind is from June to August; the best combination of wind and waves is from February to April.",
+   "rating_basis": "A Caribbean windsurfing classic since the 1980s: steady trade wind, a bay for all levels and reef waves. Covered in detail by Boards and Surf Magazin. Downsides — crowds of kiters and wing foilers, hectic traffic",
+   "waves_note": "Chop inside the bay. On the reef about 800 m from shore the waves are usually shoulder- to head-high; 2–5 m in a northerly swell from February to April. An ocean wave, fairly gentle, breaking at an angle to the wind",
+   "hazards": "Shallow by the reef (watch your fins); the reef in a big swell is no place for beginners or the unsure; sea urchins at Encuentro; kiters downwind; wind shadow at the upwind end of the bay. Don't walk on deserted beaches in the evening",
+   "gustiness_note": "The trade wind is boosted by the thermal: light in the morning, Force 5–6 by lunchtime. Windguru forecasts often underestimate the wind. In December–January the wind is stronger but gustier",
+   "crowd_note": "The bay is shared by windsurfers, kiters, wing foilers and SUPers. Kiters mostly keep to the downwind part (Bozo Beach and Kite Beach)",
+   "region": "Puerto Plata Province, north coast",
+   "launch": "Sandy beach in the centre of town, with the centres right by the water. Usually only a small shorebreak. The best place to launch is the middle of the bay: at the upwind end there's wind shadow near the shore, and the downwind part (Bozo Beach) is already the kite zone",
+   "sail_note": "Usually 4.7–5.7 m², 4.2–4.7 on strong days; 6.0–7.0 in the mornings and on light days",
+   "pros": [
+    "Steady, thermally boosted trade wind, 250–300 windy days a year",
+    "A bay for all levels, with reef waves nearby",
+    "Warm water, 26–29 °C all year round",
+    "Lots of centres, restaurants and accommodation right on the beach",
+    "Other spots nearby: flat-water La Boca and the Encuentro waves"
+   ],
+   "cons": [
+    "Crowded: kiters, wings and SUPs in the same bay",
+    "No wind in the morning, sailing is mostly in the afternoon",
+    "Chaotic traffic and petty theft"
+   ],
+   "wind_dir": "E–ENE trade wind, cross-shore from right to left (starboard tack), side-on in places",
+   "airport": "POP — Puerto Plata, ~25 minutes",
+   "school_notes": [
+    "the biggest centre, in the middle of the bay between two reefs: JP and Starboard boards, NeilPryde sails, windsurf and windfoil lessons",
+    "Bozo Beach, Villa Taina hotel, about 200 m downwind of Vela; rental, lessons for all levels"
+   ]
+  },
+  "dahab-lagoon-windsurf": {
+   "h": "52cdbe63cb",
+   "description": "Dahab in Sinai is one of the Red Sea's main windsurf resorts. A northerly wind off the mountains blows almost all year round, most often at 15–25 knots, and everything is in one place: a shallow lagoon for beginners, the smooth Speedy speed strip behind the sand spit and waves beyond Napoleon reef. There are several big centres, including Russian-speaking ones.",
+   "rating_basis": "One of the best-known windsurf resorts on the Red Sea (Boards, Windsurf UK): wind almost all year round (~20 knots on a typical day, ≥4 Bft on 77–87% of days in summer), three zones close together — a lagoon for beginners, the smooth Speedy speed strip and waves beyond the reef; gusts near the shore and summer heat",
+   "waves_note": "Flat water and light chop in the lagoon and at Speedy behind the sand spit; waves (swell up to 2–3 m on windy days) only outside, beyond Napoleon reef (the “Kamikaze” zone), for advanced sailors",
+   "hazards": "Offshore wind (without boat cover you get blown out), corals and reefs along the edges of the lagoon and outside, strong wind and swell in the “Kamikaze” zone beyond the reef, students in the lagoon, sun and heat",
+   "gustiness_note": "The wind blows off the mountains, so near the shore by the centres there's wind shadow and gusts; at Speedy and on the far side of the spit the wind is stronger and steadier",
+   "crowd_note": "Lots of students in the inner lagoon, dozens of riders at Speedy on a typical day; kiters ride in a separate kite lagoon",
+   "region": "South Sinai, Gulf of Aqaba (Red Sea)",
+   "launch": "A gently sloping sandy beach on the inner side of the lagoon (Lagoon Club, Swiss Inn, Safir and other hotels), no shorebreak; the inner part of the lagoon is standing depth — handy for learning. To Speedy (the smooth speed strip behind the sand spit) and Baby Bay the centres take you by boat, or you walk along the spit",
+   "sail_note": "Usually 4.7–5.8 m² (a typical day is ~20 knots); 4.0–4.5 on strong summer days at Speedy, 6.5–7.5 on light winter days. The centres have sails up to 8.5 m²",
+   "pros": [
+    "Wind almost all year round, planing almost every day in summer",
+    "Horseshoe lagoon: you drift onto the spit, safe for learning",
+    "Smooth Speedy for speed and freestyle, waves outside for advanced sailors",
+    "Warm water all year round, Russian-speaking instructors available"
+   ],
+   "cons": [
+    "Offshore wind: gusty and wind shadow by the centres",
+    "Summer heat up to 38 °C",
+    "In winter the wind is lighter and it's cool on the water (3/2 wetsuit)"
+   ],
+   "wind_dir": "N–NNE, offshore / side-offshore from the left; the horseshoe lagoon means you drift onto the spit rather than out to the open sea",
+   "airport": "SSH — Sharm El Sheikh, ~1 h (about 85–90 km)",
+   "school_notes": [
+    "on the grounds of the Swiss Inn Resort in the lagoon; courses in Russian, English and Arabic; RRD sails, slalom and foil available",
+    "windsurfing and kite in the lagoon; according to tonkosti.ru, most instructors speak Russian",
+    "two centres (Lagoon Club & Resort and Jaz Dahabeya), 300+ JP / NeilPryde boards and sails, all year round, boat rescue",
+    "at the Safir Dahab Resort, Fanatic boards and Duotone sails, boat shuttle to Speedy"
+   ]
+  },
+  "soma-bay-safaga": {
+   "h": "327cc285ea",
+   "description": "Soma Bay is a sheltered bay on the Ras Abu Soma peninsula north of Safaga, and one of the windiest places on Egypt's Red Sea coast. By midday the northerly wind swings round to side-shore from the left, averaging 22–27 knots in summer and 18–25 in winter. Near the shore there's a sandbank with flat, standing-depth water; further out — chop and wind waves for jumping.",
+   "rating_basis": "Surf Magazin: an average of 22–27 knots in summer and planing almost every day (June–October), more than 50% windy days in winter; the bay is ~1 Bft windier than Hurghada (CDWS); a large Surfmotion centre, GWA training camps; less well known among Russian-speaking riders",
+   "waves_note": "Flat water near the shore and on the sandbank, chop for jumping further out; wind waves up to ~1.5 m about 2 km offshore",
+   "hazards": "Offshore wind in the morning, reef banks and corals beyond the sandbank, sea urchins, shallow at low tide; occasional 30–35-knot storms",
+   "gustiness_note": "In the morning the wind is slightly offshore and gusty; from midday it swings round to side-shore and blows steadily at full strength; peaks of 30–35 knots only a few times a year",
+   "crowd_note": "The bay is spacious, and kiters have a separate lagoon; most of the crowd are German windsurfers",
+   "region": "Red Sea, between Hurghada and Safaga",
+   "events": "Annual slalom Raceweek at Surfmotion (coach Vincent Langer); the German Windsurfing Association (GWA) winter slalom and foil slalom training camps with a closing regatta on 2–9 January 2027",
+   "launch": "Wide sandy beach by the Surfmotion centre (Palm Royale hotel); in front of the centre there's a sheltered standing-depth zone of ~100×150 m (depending on the tide), and at low tide the sandbank creates a smooth speed strip; further out there are reef banks and deep water",
+   "sail_note": "Usually 4.2–5.3 m² in summer, 5.0–6.2 m² in winter; foil on light days",
+   "pros": [
+    "Wind all year round, almost daily in summer",
+    "Standing depth and flat water near the shore, chop for jumping nearby",
+    "Windier than Hurghada and roomier than the mass-market resorts",
+    "Warm water in winter (around 21–23 °C)"
+   ],
+   "cons": [
+    "Offshore and gusty wind in the morning",
+    "Depth near the shore depends on the tide",
+    "Few Russian-speaking centres, a resort zone with no town"
+   ],
+   "wind_dir": "NNW→N–NNE, side-shore from the left by midday; slightly offshore in the morning",
+   "airport": "HRG — Hurghada, ~45 min",
+   "school_notes": [
+    "Peter Müller's large centre by the Palm Royale hotel (~20 staff), zones for beginners and advanced sailors, slalom training",
+    "centre in Soma Bay: windsurfing, kite, wing, kids' lessons, rescue boat"
+   ]
+  },
+  "costa-teguise-las-cucharas": {
+   "h": "33eb8e24dc",
+   "description": "Las Cucharas is the sandy bay of the Costa Teguise resort, enclosed by two stone breakwaters, and Lanzarote's main spot for learning and freeriding. Inside there's flat, shallow water for beginners; further out — a steady trade wind and chop for freeride and slalom, and with a swell a 1–3 m wave works on the reef to the left. The season runs from April to September, peaking in July.",
+   "rating_basis": "One of the best spots in the Canaries for learning and progressing: a sheltered bay, steady trade wind, several centres; for advanced sailors — a reef with waves outside. Downsides — wind shadow from the hotels and summer crowds",
+   "waves_note": "Inside the bay, enclosed by two breakwaters, — flat water and light chop; 500 m from shore it's open sea, with a 1–3 m wave on the reef to the left (biggest in winter, with swell from Los Charcos)",
+   "hazards": "The reef outside the bay: in a winter swell the waves can exceed 3 m — stay inside the bay; stone breakwaters at either end; offshore gusts in a northerly wind; swimmers and students near the shore",
+   "gustiness_note": "Near the shore there's wind shadow from the hotels and gusts; 100–200 m out from the beach the wind is steady. When the wind goes further north than NE, the bay gets gusty and offshore",
+   "crowd_note": "In July–August the inner part of the bay is packed with swimmers and school students; it's best to go out before 11:00 or after 16:00",
+   "region": "Lanzarote, Canary Islands",
+   "events": "In the past the bay hosted windsurfing world championship events (in July)",
+   "launch": "A ~640 m sandy beach in the bay between the breakwaters with a gentle entry; the first ~100 m are chest-deep and in the hotels' wind shadow (the learning zone); exit corridors are marked with buoys. Sometimes a moderate shorebreak — centre staff help you launch",
+   "sail_note": "Usually 4.7–5.8 m² in summer, 4.2–4.5 on strong days; 6–7.5 in winter and in light wind. Beginners use 1–3.5 m² training sails in the sheltered zone",
+   "pros": [
+    "Sheltered shallow zone for beginners and kids",
+    "Steady trade wind from April to September",
+    "Several good centres with modern rental gear",
+    "Reef wave for advanced sailors, with the Los Charcos spot nearby"
+   ],
+   "cons": [
+    "Wind shadow and gusts near the shore because of the hotels",
+    "Crowded in the bay in summer",
+    "Less reliable wind in winter",
+    "Wetsuit needed from November to April"
+   ],
+   "wind_dir": "NE trade wind, side-shore / side-offshore from the left",
+   "airport": "ACE — Lanzarote (Arrecife), ~15 minutes (~12 km)",
+   "school_notes": [
+    "150 m from the water, courses for adults and kids aged 8–12, coaching for advanced sailors",
+    "on Las Cucharas beach, sails 3.0–8.2 m², 10-hour rental card, flexible booking from November to March",
+    "rental and group/private lessons, Las Cucharas"
+   ]
+  },
+  "el-medano": {
+   "h": "31be978671",
+   "description": "El Médano is a town in the south of Tenerife known as the island's windsurf capital: the trade wind accelerates through the channel between Tenerife and Gran Canaria and blows almost all year round, strongest in summer. The long sandy bay is used by beginners, freeriders and slalom sailors (pro racers train here in winter), while wave sailors head to neighbouring El Cabezo; a PWA event is held in August.",
+   "rating_basis": "“Tenerife's windsurf capital”: year-round pro training camps, a PWA Grand Slam event, spots for every level from the learning bay to the El Cabezo wave; downsides — gusts near the shore and lots of kiters",
+   "waves_note": "In the southern part of the bay — chop and small 0.5–1.5 m waves; at neighbouring El Cabezo (the northern end of town) a powerful 1–3 m+ wave in a swell, with side-onshore wind",
+   "hazards": "Rocks on the downwind shore and by the breakwater (current at the northern end of the bay); at El Cabezo — rock slabs with sea urchins and the “Godzilla” rock at low tide; strong gusts in summer",
+   "gustiness_note": "The wind accelerates between the mountains of Tenerife and Gran Canaria; it's gusty near the shore and by the breakwater at the northern end of the bay, steadier further out from the beach",
+   "crowd_note": "The bay is shared with lots of kiters; at El Cabezo there's a packed line-up of local pros when the waves are good",
+   "region": "Tenerife (south), Canary Islands",
+   "events": "PWA World Cup event (Tenerife Grand Slam, waves and Slalom X): 1–10 August in 2025",
+   "launch": "The main launch is the town's long sandy beach with a shallow entry and the centres right on the seafront; kiters are usually in the southern part of the bay, windsurfers further upwind. At El Cabezo — entry over rock slabs with sea urchins, shoes needed, experienced sailors only",
+   "sail_note": "Usually 4.5–5.5 m² in summer, 4.0–4.2 on strong days; 5.5–7.0 in winter and the shoulder seasons; slalom sailors train on 6.3–7.8 in winter",
+   "pros": [
+    "Wind almost all year round, warm water at 19–24 °C",
+    "Spots for every level: learning bay, freeride, slalom, waves",
+    "Strong centres with large gear fleets",
+    "Airport 10 minutes away"
+   ],
+   "cons": [
+    "Gusty near the shore",
+    "Lots of kiters in the bay",
+    "Expensive rental (€110 a day and up)",
+    "The downwind shore is rocky — few places to come ashore"
+   ],
+   "wind_dir": "NE trade wind, side-shore from the left at the main beach; side-onshore at El Cabezo",
+   "airport": "TFS — Tenerife South, ~10–15 minutes (~10 km)",
+   "rental_price_note": "TWS: 1 day Wave & Freeride €110 (slalom/foil €140), a week €451 (price list on the centre's website)",
+   "school_notes": [
+    "right on the beach, over 100 boards and 120 sails, slalom rental from November to April, clinics",
+    "open 365 days a year, a board reserved for you for your whole stay",
+    "courses and rental next to the Duotone Pro Center"
+   ]
+  },
+  "fuerteventura-sotavento-windsurf": {
+   "h": "d2a6ac0cb3",
+   "description": "Sotavento is a beach of sand stretching for kilometres on the southeast of Fuerteventura, with a huge tidal lagoon. The trade wind spills over the Jandía mountains and accelerates to 25–40 kn in summer; a PWA World Cup event has been held here at the René Egli centre since 1986. Beginners learn and freestylers train in the lagoon, while out at sea it's fast freeride and slalom on the chop.",
+   "rating_basis": "A long-standing PWA World Cup venue (slalom, freestyle), one of the world's biggest windsurf centres, strong summer trade wind; downsides — offshore wind and high rental prices",
+   "waves_note": "At sea it's mostly wind chop and a small shorebreak; at high tide a huge shallow flat-water lagoon fills up behind the sand spit; with a swell, waves up to ~2 m on the left side of the beach",
+   "hazards": "Offshore wind: if you break gear or get tired, you're carried out into the open ocean — only sail while the centres' rescue service is operating; gusts up to 40+ kn; part of the lagoon dries out at low tide",
+   "gustiness_note": "The trade wind spills over the Jandía ridge and speeds up (a double Venturi effect) — 30–40 kn is not unusual in summer; the wind is offshore and gusty near the shore, steadier further out to sea",
+   "crowd_note": "Busy by the René Egli centre in summer, but the beach and lagoon stretch for kilometres, so there's plenty of room on the water; kiters have their own section of beach",
+   "region": "Fuerteventura (Jandía peninsula), Canary Islands",
+   "events": "A PWA Windsurf World Cup event has been held at the René Egli centre since 1986 (18–27 July in 2025, Slalom X and freestyle); since 2023 also a GWA wingfoil event",
+   "launch": "Kilometres of wide sandy beach with no rocks; the René Egli centre is right in front of the Meliá hotels, with a second centre at Risco del Paso (5–10 minutes south). The lagoon is only usable at high tide; at low tide you have to carry your gear to the water",
+   "sail_note": "In summer most often 4.7–5.3 m² (the most used sizes are 4.8–5.2), 4.0–4.5 on strong days; 5.5–6.5 in winter and spring. Typical boards 85–105 l",
+   "pros": [
+    "Strong, steady summer trade wind",
+    "Huge shallow lagoon — ideal for learning and freestyle",
+    "Sand with no rocks, a wide beach",
+    "Big centres with excellent rental gear and a rescue service"
+   ],
+   "cons": [
+    "Offshore wind (side-offshore/offshore) — if you break gear, you're carried out to the ocean",
+    "Gusty near the shore",
+    "Expensive rental at René Egli",
+    "The lagoon only works at high tide; the trade wind is weaker in winter"
+   ],
+   "wind_dir": "N–NE trade wind, side-offshore / offshore from the left",
+   "airport": "FUE — Puerto del Rosario, ~1 h (~75 km)",
+   "rental_price_note": "René Egli Premium: full day €110, a week €502, 1–2 h €90 (price list on the centre's website)",
+   "school_notes": [
+    "one of the world's biggest centres, a PWA venue; licensed to teach in the lagoon, rescue service",
+    "centre 7 km south of Costa Calma, shallows and lagoon in front of the station, sails 1.0–7.3 m², shuttle from Costa Calma"
+   ]
+  },
+  "pozo-izquierdo": {
+   "h": "ede8a11d02",
+   "description": "Pozo Izquierdo is a legendary wave spot in southeast Gran Canaria and one of the world's “wind capitals”: in summer the trade wind accelerates along the coast to 25–40 kn almost every day. A PWA World Cup event has been held here for more than 30 years, and many champions grew up here. A spot for experienced sailors: jumps, waves and extremely small sails.",
+   "rating_basis": "A legendary PWA World Cup spot (more than 30 years), one of the windiest in Europe: a 25–40 kn summer trade wind almost daily; downside — a rocky launch and suitable for experienced sailors only",
+   "waves_note": "Without swell — small chop and ramps for jumping (especially at low tide); in a northerly swell the waves are usually 1–3 m, bigger on strong days; a right-hand wave with wind from the left",
+   "hazards": "Boulders and rocks in the surf zone (especially at high tide), strong, gusty wind up to 40+ kn, powerful shorebreak in a swell; if you break gear, you drift south along the shore",
+   "gustiness_note": "The trade wind accelerates along the east coast (a “deflector” effect), up to 40–50 kn in places; gusty near the shore, and south of Pozo there can be lulls in summer",
+   "crowd_note": "In summer the line-up is full of strong riders and local pros (Pozo is the home spot of many world champions); the beach is long, but there are few convenient launch spots",
+   "region": "Gran Canaria, Canary Islands",
+   "events": "A PWA World Cup event (Gran Canaria Windsurf World Cup) has been held here for more than 30 years; 5–13 July in 2025, wave discipline. The Wind & Waves festival also takes place in summer",
+   "launch": "A beach of big black boulders and pebbles: you launch and come in between the rocks, shoes needed; at high tide and in waves getting out is especially tricky — it's easy to smash your gear on the rocks",
+   "sail_note": "Usually 3.3–4.5 m² in summer, while riders at PWA events use 2.8–4.0; 4.7–5.3 in winter and on light days. You'll hardly ever need a sail bigger than 5.5",
+   "pros": [
+    "Strong wind almost every day in summer — 3.3–4.5 m²",
+    "Great bump & jump, and waves in a swell",
+    "World Cup atmosphere, you can watch top riders",
+    "Warm water all year round (18–23 °C)"
+   ],
+   "cons": [
+    "Boulder beach — a tough launch and landing, risk of damaging your gear",
+    "Advanced sailors only: strong, gusty wind",
+    "Little infrastructure compared with Tarifa or Fuerteventura",
+    "Beginners are better off at the calm bays nearby (Bahía de Formas, Salinetas)"
+   ],
+   "wind_dir": "NE (NE–NNE in summer, closer to E in winter), side-onshore from the left",
+   "airport": "LPA — Gran Canaria, ~20–25 minutes (~20 km)",
+   "rental_price_note": "LPWS Pozo: full kit for 1 day (2 h €48, a week €270), sails 2.7–7.5 m², boards 69–180 l",
+   "school_notes": [
+    "rental (sails 2.7–7.5 m², boards 69–180 l), courses, repairs, apartments; a second centre at Bahía de Formas",
+    "sports complex on the beach: windsurf school, hostel, pool, restaurant; base of the PWA event"
+   ]
+  },
+  "tarifa-valdevaqueros-windsurf": {
+   "h": "98a48338a6",
+   "description": "Tarifa is the southernmost point of continental Europe, where the strait accelerates the easterly Levante and the westerly Poniente. Valdevaqueros is a 4-km sandy beach 10 km from town and Tarifa's main windsurf spot: in summer the Levante brings fast freeride and bump & jump on small sails, while the Poniente and winter bring waves. The big Spin Out and Club Mistral centres are right on the beach.",
+   "rating_basis": "Europe's wind capital: in summer 60–80% of days with Force 4+ wind, two wind regimes, big centres (Spin Out, Club Mistral, Dos Mares); downsides — the gusty offshore Levante and summer crowds",
+   "waves_note": "In a Levante it's almost flat near the shore with chop further out (up to half-mast-high by the Hurricane in spring and summer); in a Poniente, especially from October to April, waves up to 1–2 m and a strong shorebreak",
+   "hazards": "The offshore Levante carries you into the strait (strong current, shipping): a rescue boat operates on the stretch from Campo de Fútbol to Dos Mares — a rescue card costs €50 for three rescues, or €100 per rescue without one; rocks at low tide, strong shorebreak in a Poniente and Sirocco; kiters",
+   "gustiness_note": "The Venturi effect in the strait: the Levante is often stronger than forecast (30+ kn), gusty and offshore; the Poniente is gentler (12–25 kn), steadier and brings waves",
+   "crowd_note": "In summer the beach is packed with holidaymakers and kiters, and zones apply; it's crowded on the water by the centres, but the beach is long",
+   "region": "Andalusia, Costa de la Luz (Strait of Gibraltar)",
+   "launch": "A 4-km sandy beach between Punta Paloma and Punta de la Peña, with rocks showing in places; parking behind the gates (fills up quickly in summer). For beginners — the sheltered section by Las Dunas. In summer there are separate zones for windsurfing and kiting",
+   "sail_note": "Usually 3.7–4.7 m² in a Levante (the most used sizes are 3.0–4.7), 5.0–6.5 in a Poniente; boards 90–106 l",
+   "pros": [
+    "Wind almost all year round, 60–80% windy days in summer",
+    "Two wind regimes — spots for every direction",
+    "Big centres with large rental fleets, shops and sail repair",
+    "Sandy beach, campsites and a lively scene"
+   ],
+   "cons": [
+    "The Levante is gusty, offshore and often too strong",
+    "Very crowded in summer, with kite and windsurf zones",
+    "Cool water (15–22 °C), you need a warm wetsuit from October to April",
+    "Hard for beginners — the spot is more for intermediates and up"
+   ],
+   "wind_dir": "E (Levante) — side-offshore from the left; W (Poniente) — side-onshore from the right",
+   "airport": "XRY — Jerez, ~1 h 30 min; AGP — Málaga, ~2 h; GIB — Gibraltar, ~45 min; SVQ — Seville, ~2 h",
+   "school_notes": [
+    "right on Valdevaqueros (N-340 km 75.5), 140 Tabou boards and 280 Gaastra sails; 2026 season: 23 March – 8 November",
+    "two stations — on Valdevaqueros and by the Hurricane hotel; Fanatic/Duotone"
+   ]
+  },
+  "hyeres-almanarre-windsurf": {
+   "h": "28ca64ce47",
+   "description": "L'Almanarre is a long beach on the western tombolo linking Hyères to the Giens peninsula, and one of France's most famous windsurf spots. The Mistral from the Rhône valley blows here from autumn to spring, often at 25–35 kn, bringing chop and small waves for jumping, while in an easterly the water turns flat. The peninsula has several spots for different directions (L'Almanarre, La Madrague, La Bergerie), and the shallows at La Bergerie are handy for learning.",
+   "rating_basis": "One of the best-known windsurf spots in France and the Mediterranean, a former PWA World Cup venue; Surf Magazin rates it a spot for confident riders (bump & jump, gybes, first waves), with planing wind on 30–40% of days according to the statistics and more according to locals. Downsides — summer crowds and the gusty Mistral",
+   "waves_note": "In a Mistral (NW) — chop and small wind waves for bump & jump, with a jumping wave by a small reef on the upwind side (not very powerful, a bit weak for riding); in an easterly the water at L'Almanarre is flat — for freestyle and speed; in summer calms there are hardly any waves",
+   "hazards": "Rocks to the right of the launch and a small reef; the strong, gusty Mistral; swimming zones in summer; don't leave valuables or keys in the car",
+   "gustiness_note": "The Mistral is strong (5–9 Bft) and gusty, but at L'Almanarre usually a little weaker than further south at La Madrague; the chop builds as the wind picks up. Summer breezes are gentler and steadier",
+   "crowd_note": "In summer and at weekends with a Mistral it's crowded both on the water and in the car park; noticeably quieter in spring and autumn",
+   "region": "Giens peninsula, Var, Provence-Alpes-Côte d'Azur",
+   "events": "In the past PWA World Cup events were held here regularly. The waters off Hyères (based at the port of Hyères) host the annual Semaine Olympique Française regatta for Olympic classes (April), including iQFOiL windsurfing",
+   "launch": "A long (≈4 km) sand-and-pebble beach on the western tombolo of the Giens peninsula; the main windsurf zone is in the northern part by the Route de l'Almanarre, with centres, rental, cafés and free parking. There are a few rocks to the right of the launch and a small reef at the upwind end; kiters have their own zone further south. Beginners are better off at the shallow La Bergerie spot on the eastern side of the peninsula",
+   "sail_note": "Usually 4.2–5.3 m² in a Mistral, 3.5–4.0 on strong days (small sails are a must); 5.5–7.0 in easterlies and breezes; 5.5–6.5 on a high-volume board for beginners",
+   "pros": [
+    "Lots of windy Mistral days from October to May",
+    "Several spots on the peninsula for different wind directions",
+    "Free parking, centres, a shop and cafés right on the beach",
+    "Toulon-Hyères airport 10 minutes away"
+   ],
+   "cons": [
+    "Very crowded in summer, with lighter wind",
+    "The Mistral is gusty, you need small sails",
+    "Water at 13–14 °C in winter — you need a 5/3 wetsuit",
+    "Thefts from cars in the car park"
+   ],
+   "wind_dir": "NW/W (Mistral) — cross-onshore from the right; SW (Libeccio) — onshore; E — along the shore, flat water",
+   "airport": "TLN — Toulon-Hyères, ~10 minutes (~6 km); NCE — Nice, ~1 h 40 min; MRS — Marseille, ~1 h 15 min",
+   "school_notes": [
+    "on L'Almanarre beach: rental of boards, sails, harnesses and wetsuits, courses from beginner to funboard",
+    "Route de l'Almanarre: windsurf and wingfoil courses, board rental; a week-long holiday course €200 (2026)",
+    "at Camping International at the southern end of L'Almanarre bay: windsurf lessons for all levels"
+   ]
+  },
+  "leucate-la-franqui-windsurf": {
+   "h": "fe2989fee3",
+   "description": "Leucate is one of France's main wind resorts: the Tramontane from the Pyrenees blows here for most of the year, often at 25–40 kn. On La Franqui beach in a Tramontane the water near the shore is flat — perfect for speed and freestyle, while the onshore Marin brings waves. Next door is the huge, shallow Étang de Leucate lagoon with spots for beginners and families; the Mondial du Vent festival has been held here since 1997.",
+   "rating_basis": "One of the windiest spots in France (the Tramontane blows most of the year), a set of sea and lagoon spots for every level, and the historic Mondial du Vent; downsides — gusty offshore wind and cold water in winter",
+   "waves_note": "In a Tramontane (offshore) the sea near the shore smooths out — flat water for speed and freestyle; in the onshore Marin (SE) — 1–2 m waves for wave sailing; in the lagoon (Le Goulet, Leucate-Plage) flat water and chop",
+   "hazards": "The offshore Tramontane carries you out to the open sea (also from Leucate-Plage and Port-Leucate); strong gusts; oyster beds and shallows in the lagoon; in the summer season swimming zones and a kite ban in the channel",
+   "gustiness_note": "The Tramontane is a strong, dry offshore wind (20–40+ kn), gusty near the shore, especially at sea; the summer Marin and sea thermals are lighter and steadier",
+   "crowd_note": "Busy at weekends with a Tramontane and during the Mondial du Vent, but the beaches and lagoon are huge; in summer zones apply, along with a 300-metre strip for swimmers",
+   "region": "Aude, Occitanie (Languedoc)",
+   "events": "Mondial du Vent — an international festival with kite and wingfoil World Cup events, held since 1997 on Le Coussoul / La Franqui beach (during the Easter holidays, in April). The Défi Wind takes place in neighbouring Gruissan (~40 km north), not in Leucate",
+   "launch": "A wide sandy beach by Cap Leucate, heading out via a channel; the windsurf zone is beyond the 300-metre mark and upwind (north) of the kite zone. Next door is the Étang de Leucate lagoon: the Le Goulet spot at the entrance to Leucate (big car park, shallow far out from shore) suits all levels",
+   "sail_note": "Usually 4.0–5.3 m² in a Tramontane, 3.5–4.0 on the strongest days; 5.5–7.0 in a Marin and summer thermals",
+   "pros": [
+    "A great many windy days, especially in autumn, winter and spring",
+    "Sea spots and a shallow lagoon — for every direction and level",
+    "Flat water in a Tramontane — speed and freestyle",
+    "Close to Perpignan, Barcelona and Montpellier"
+   ],
+   "cons": [
+    "The Tramontane is offshore and gusty",
+    "Cold in winter (water 12–14 °C)",
+    "Lighter wind and packed beaches in summer",
+    "Oyster farms in the lagoon"
+   ],
+   "wind_dir": "NW (Tramontane) — offshore / side-offshore; SE (Marin) — onshore",
+   "airport": "PGF — Perpignan, ~30 minutes (~35 km); BZR — Béziers, ~1 h; MPL — Montpellier, ~1 h 30 min",
+   "school_notes": [
+    "Le Goulet spot on the lagoon (Leucate-Village): lessons, rental, storage",
+    "La Franqui: windsurfing and wingfoil",
+    "La Franqui: windsurfing, wing, SUP",
+    "Port-Leucate, FFV school on the lagoon, courses for adults and kids"
+   ]
+  },
+  "karpathos-afiartis": {
+   "h": "0cc095b92a",
+   "description": "Afiartis in the south of Karpathos is three neighbouring bays under a powerful Meltemi: Devil's Bay for strong wind and speed, Gun Bay for freeride and Chicken Bay with shallows for learning. At the height of summer the wind blows almost every day, often over 30 knots. In 2009 Devil's Bay hosted the Speed Windsurfing World Championship.",
+   "rating_basis": "One of the windiest spots in the Mediterranean: ~90% windy days in July–August (Surf Magazin), the 2009 speed world championship; bays for every level 10 minutes from the airport",
+   "waves_note": "Three neighbouring bays: in Devil's Bay it's smooth or lightly choppy near the shore, with steep 0.5–1 m chop further out in a strong Meltemi; Gun Bay is smooth near the shore; Chicken Bay is almost standing water over the shallows",
+   "hazards": "Offshore wind: if you break gear, you're carried out to the open sea (rescue only near the centres); rock slabs along the shore of Devil's Bay; squalls of 40+ knots; steep chop beyond the bays",
+   "gustiness_note": "Gusty near the shore — the wind rolls down into the bay off the hills; steady further out. Days of 30–40+ knots are not uncommon in July–August",
+   "crowd_note": "August is the busiest month (the centres advise booking ahead), but the three bays spread people out; Chicken Bay gets a bit cramped because of the students",
+   "region": "Karpathos, Dodecanese",
+   "events": "ISWC Speed Windsurfing World Championship (Devil's Bay, 31 July – 5 August 2009), and earlier an ISA Speedsurfing Grand Prix event (2007)",
+   "launch": "Devil's Bay (Vatha): coarse sand and pebbles, a bay of ~900×500 m, with flat rock slabs near the shore (marked). Gun Bay — an easy pebble entry. Chicken Bay (Makris Gialos) — a knee- to waist-deep sandbank stretching almost 100 m, ideal for learning",
+   "sail_note": "Usually 4.0–5.2 m² in summer, 3.3–3.7 m² in a storm — small sails are a must; often 5.0–6.0 m² in May–June and September",
+   "pros": [
+    "About 90% windy days in July–August",
+    "Bays for every level within walking distance",
+    "Flat water near the shore in strong wind",
+    "Airport 10 minutes away"
+   ],
+   "cons": [
+    "The wind is often too strong, and gusty near the shore",
+    "Little infrastructure beyond the centres and tavernas",
+    "Side-off — dangerous without a centre's rescue cover"
+   ],
+   "wind_dir": "NW (Meltemi), diagonally offshore from the left (side-off)",
+   "airport": "AOK — Karpathos, ~10 minutes (charters from Europe in summer)",
+   "school_notes": [
+    "stations in Devil's Bay and Chicken Bay, Tabou/Goya/Gaastra/Duotone, season 15 May – 1 October",
+    "Gun Bay, new gear, wingfoil",
+    "by Makris Gialos beach (Chicken Bay)"
+   ]
+  },
+  "kos-kefalos": {
+   "h": "892fa74cf6",
+   "description": "Kefalos Bay in southwest Kos is historically the island's main windsurf spot and, according to the local centres, its windiest place. The Meltemi blows cross-offshore, so the two-kilometre bay has flat water for freeride, freestyle and speed; the light morning wind suits beginners. Alternatives on the island are Marmari in the north (cross-onshore, safe) and Psalidi in the east.",
+   "rating_basis": "“The windiest place on Kos” and one of Greece's first big windsurf bases in the 1980s (Boards, Surf Magazin); flat water for freeride and freestyle, but the wind is offshore and few centres are left",
+   "waves_note": "Flat water across the big bay, even far from shore; chop and a small swell by the private Robinson beach and at the mouth of the bay. In winter, southerly winds bring onshore surf for a handful of locals",
+   "hazards": "Cross-off: don't overestimate yourself — if you break gear, you drift out to the open sea (the centres have rescue boats); a marked reef; stronger wind and bigger waves at the mouth of the bay",
+   "gustiness_note": "Offshore wind: right by the beach there are holes and gusts, but further out it's remarkably steady; light in the morning (Force 2–3), Force 4 by midday, Force 4–6 towards evening",
+   "crowd_note": "Two centres are left in the bay, so the water is uncrowded; the neighbouring spots of Marmari and Psalidi are busier",
+   "region": "Kos, Dodecanese",
+   "launch": "The long sand-and-pebble Kamari beach; the bottom drops off steeply and there's almost no shorebreak; for the first ~100 m from the shore the wind is uneven (you have to slog out), then it's steady. The reef is marked with a flag",
+   "sail_note": "Usually 5.0–6.0 m² in the afternoon, 4.2–4.7 m² and freestyle boards on strong days; big sails for learning in the morning",
+   "pros": [
+    "Flat water in a big bay",
+    "The wind picks up towards evening almost every summer day",
+    "Uncrowded on the water",
+    "Close to the airport"
+   ],
+   "cons": [
+    "Offshore wind — uneven by the beach, and if you break gear you drift away from shore",
+    "Few centres",
+    "Often light wind in the morning"
+   ],
+   "wind_dir": "W–NW (Meltemi), cross-off from the right",
+   "airport": "KGS — Kos (Hippocrates), ~15 km, 20 minutes",
+   "school_notes": [
+    "centre in Kefalos Bay, F2/Fanatic/Sailloft Hamburg, rescue boats; instructors speak 7 languages (not Russian)",
+    "centres in Kefalos and Marmari"
+   ]
+  },
+  "naxos-mikri-vigla-windsurf": {
+   "h": "e3b00922dd",
+   "description": "Mikri Vigla is an open bay in southwest Naxos with sandy beaches on either side of a rocky headland. The summer Meltemi blows side-onshore from the right and accelerates out of the channel between Naxos and Paros, so it's windier here than near the island's capital. A good place for freeride and jumping on the chop, and family-friendly too.",
+   "rating_basis": "Reliable Meltemi and an easy sandy entry (Surf Magazin, windsurf.co.uk, boards.co.uk); Naxos's main backup spot when it's light at Agios Georgios",
+   "waves_note": "Open water with small to medium chop; in a strong Meltemi, a small wind swell for jumping",
+   "hazards": "Rocky stretches of the headland downwind, swimmers and kiters near the shore, debris in the water in onshore wind",
+   "gustiness_note": "The Meltemi blows steadily from morning to sunset; local acceleration out of the channel with Paros makes the spot a few knots stronger than its neighbours",
+   "crowd_note": "In summer windsurfers share the spot with lots of kiters, especially by Parthena beach; swimmers near the shore",
+   "region": "Naxos, Cyclades",
+   "launch": "Sandy beaches on either side of the Mikri Vigla headland: to the south, Mikri Vigla beach with the Flisvos centre; to the north, Parthena (more kiters). Easy sandy entry, with parking and tavernas nearby",
+   "sail_note": "Usually 4.7–5.8 m² in summer, 4.0–4.5 m² in a strong Meltemi (30+ knots) — it's best to always have a small sail with you",
+   "pros": [
+    "Steady and frequent summer Meltemi",
+    "Easy sandy entry, safe side-onshore",
+    "Beautiful beaches and a quiet village",
+    "Other Naxos spots nearby (Agios Georgios, Plaka)"
+   ],
+   "cons": [
+    "Lots of kiters at the height of the season",
+    "Few windsurf centres, limited rental",
+    "A strong Meltemi can blow 30+ knots"
+   ],
+   "wind_dir": "N (Meltemi), side-onshore from the right",
+   "airport": "JNX — Naxos, ~25 minutes; ferries from Piraeus and Rafina",
+   "school_notes": [
+    "station on Mikri Vigla beach, windsurf and kite rental and lessons, rescue boats; the main centre is in Agios Georgios",
+    "Parthena beach; small windsurf rental (JP 85–105 l, Duotone sails 3.7–5.8 m²), May–October"
+   ]
+  },
+  "paros-new-golden-beach": {
+   "h": "aebc238147",
+   "description": "New Golden Beach (Tserdakia) on the southeast coast of Paros is the island's windiest place: the Meltemi accelerates through the channel towards Naxos. There's flat water near the shore and swell for jumping further out, so the spot suits almost everyone — from school students to bump & jump fans. A PWA World Cup event was held here in the 1990s.",
+   "rating_basis": "A classic Cyclades spot and former PWA World Cup venue; Surf Magazin calls it the windiest on Paros (up to 70%+ planing days at the height of summer)",
+   "waves_note": "Flat water near the shore (the wind is slightly offshore), with chop and non-breaking swell further out, wrapping round the rocky headland — good ramps by the marked reef upwind. In winter, southerly storms bring onshore waves up to 2–3 m",
+   "hazards": "The wind is slightly offshore — if you break gear, you drift into the channel; rocks and a reef by the headland upwind; a very strong Meltemi (30+ knots) on some days",
+   "gustiness_note": "Near the shore the offshore wind is gusty; further out in the channel towards Naxos it blows steadily; the nozzle effect makes this the windiest spot on Paros",
+   "crowd_note": "The beach and the water are full in July–August, with lots of holidaymakers and schools; neighbouring Golden Beach has several more centres",
+   "region": "Paros, Cyclades",
+   "events": "In 1993–2001 PWA World Cup events (Paros Grand Prix) were held here, kicking off the island's windsurf boom",
+   "launch": "Sandy beach that gets deep quickly (within the first 30 m you can already waterstart); the centres are right on the beach. Parking is tight in summer",
+   "sail_note": "Usually 4.7–5.3 m² in July–August, 4.0–4.5 m² in a strong Meltemi; 5.5–6.5 m² in the shoulder seasons",
+   "pros": [
+    "Strong, frequent Meltemi in summer (nozzle effect)",
+    "Flat water near the shore and ramps further out",
+    "Centres right on the beach",
+    "Easy to combine with neighbouring Naxos"
+   ],
+   "cons": [
+    "The wind near the shore is gusty and offshore",
+    "Crowded in summer, little parking",
+    "A strong Meltemi can be too rough for beginners"
+   ],
+   "wind_dir": "N–NNW (Meltemi), side-shore from the left, slightly offshore",
+   "airport": "PAS — Paros, ~20–25 minutes; or a ferry from Piraeus/Rafina (3–6 h)",
+   "school_notes": [
+    "running since 1984, Tabou/Gaastra, rental and lessons, April–September",
+    "hotel centre, Goya gear, since 2014"
+   ]
+  },
+  "rhodes-prasonisi-windsurf": {
+   "h": "7022ad540a",
+   "description": "Prasonisi is a sandy isthmus at the very southern tip of Rhodes, where the island's terrain accelerates the Meltemi. On one side there's flat water for learning, freestyle and speed; on the other, onshore waves for jumping and wave riding. One of Europe's most reliable summer spots.",
+   "rating_basis": "One of Europe's windiest and best-known windsurf spots: “wind statistics unmatched in Europe” (windsurf.co.uk), detailed reviews in Boards; flat water and waves in one place",
+   "waves_note": "Two sides of the sandy isthmus: the eastern (Mediterranean) side has flat water near the shore and light chop further out; the western (Aegean) side has onshore waves from waist- to head-high, up to mast-high in strong wind, breaking on a sandbar",
+   "hazards": "Side-off on the flat side — if you break gear, you drift out to the open sea (centre rescue); on the wave side — broken gear and rip currents by the isthmus; sand eels in the shallow channel between the beaches; fast slalom sailors",
+   "gustiness_note": "The terrain of Rhodes accelerates the Meltemi, so the wind is usually stronger and steadier than on the rest of the island; on the flat side it's a little gusty near the shore because the wind blows off the land",
+   "crowd_note": "In summer lots of windsurfers from all over Europe (especially Poles on slalom gear) and kiters on the wave side; on the flat side it's crowded at high speeds",
+   "region": "Rhodes, Dodecanese",
+   "launch": "Sandy beach on the flat side of the isthmus, right by the centres; you cross the isthmus to reach the wave side. Sandy bottom, shallow near the shore on the flat side",
+   "sail_note": "Usually 5.0–6.0 m² in June and September, 4.0–5.0 m² in July–August; there are few calm days — even on light days a 6.5 m² on a freeride board is enough in the afternoon",
+   "pros": [
+    "Very high wind frequency from June to September",
+    "Flat water and waves a few minutes apart",
+    "Big centres with new gear and rescue",
+    "Warm water, sandy bottom"
+   ],
+   "cons": [
+    "Far from town and the airport (about 90 km), little infrastructure",
+    "The wind is often very strong in July–August",
+    "Crowded on the water at the height of the season"
+   ],
+   "wind_dir": "NW (Meltemi): side-off on the flat side, cross-onshore on the wave side",
+   "airport": "RHO — Rhodes (Diagoras), ~1 h 15 min (about 90 km)",
+   "rental_price_note": "ProCenter Kirschner, standard full kit for 1 day; a week costs €353 if booked in advance",
+   "school_notes": [
+    "the best-known centre, on the flat side; JP/NeilPryde, foils, open from May to early November; website available in Russian"
+   ]
+  },
+  "vassiliki-lefkada": {
+   "h": "a44a42cb56",
+   "description": "Vassiliki is a famous bay in the south of Lefkada and one of Europe's busiest windsurf bases. The daily pattern is a classic: a light onshore breeze for learning in the morning, then in the afternoon the side-shore thermal “Eric” at 15–25 knots over flat and choppy water. A place for freeriding, practising gybes and freestyle, and great for families.",
+   "rating_basis": "One of Europe's classic windsurf bases (reviews in Boards, Surf Magazin, Windsurf UK); downsides — gustiness and a drop in wind frequency in recent years (≈40% planing days in summer according to Surf Magazin)",
+   "waves_note": "No waves: the bay is enclosed on three sides; in the afternoon it ranges from flat water near the shore to small and medium chop at the mouth of the bay",
+   "hazards": "Gusts and a sudden drop in wind towards evening — you can get stranded in the bay; heavy board traffic; stronger wind and bigger waves at the mouth of the bay",
+   "gustiness_note": "The wind rolls down off the mountains and is noticeably gusty; on strong days gusts exceed 25–30 knots, and it can die off suddenly towards evening",
+   "crowd_note": "In summer there are hundreds of boards from several big clubs in the bay (mostly British), and it's especially crowded near the shore during morning lessons",
+   "region": "Lefkada, Ionian Islands",
+   "launch": "Pebble beach in the northern part of the bay with a sandy bottom; about 50 m from shore there's a waist-deep sandbar — handy for beach starts. The beach is narrow with little rigging space, and several centres with rental line the shore",
+   "sail_note": "Usually 5.0–6.0 m² in the afternoon, 4.2–4.7 m² on strong days; training sails and longboards in Force 1–2 in the morning",
+   "pros": [
+    "Reliable pattern: mornings for learning, afternoons for planing",
+    "Enclosed bay and centre rescue — safe for beginners",
+    "Lots of big clubs with new gear",
+    "Warm water in summer, you can sail in boardshorts"
+   ],
+   "cons": [
+    "The wind is gusty and less consistent in recent years",
+    "Crowded on the water in summer",
+    "Short season — mainly June–August",
+    "Narrow pebble beach"
+   ],
+   "wind_dir": "W–WSW (the local “Eric” wind), side-shore from the right; a light southerly onshore in the morning",
+   "airport": "PVK — Preveza (Aktion), ~1 hour",
+   "school_notes": [
+    "the biggest club in the bay, a beachfront hotel, hundreds of kits, RYA courses, package holidays",
+    "next to Club Vass, windsurfing and dinghies, package holidays",
+    "lessons for all levels and rental"
+   ]
+  },
+  "bol-zlatni-rat-windsurf": {
+   "h": "fc5275dea4",
+   "description": "Bol on the south coast of Brač is Croatia's main windsurf resort. On summer afternoons the channel between Brač and Hvar accelerates the westerly Maestral thermal to 12–20 knots, blowing side-shore from the right along the famous Zlatni Rat headland. A spot for freeride, slalom and foil; it has hosted PWA World Cup events.",
+   "rating_basis": "Croatia's best-known windsurf spot: a reliable summer thermal (45–60% of days >12 knots according to Surf Magazin), PWA Slalom World Cup events; moderate wind, crowded beach",
+   "waves_note": "Light chop and a small swell depending on the strength of the Maestral; real waves only in a strong southeasterly Sirocco outside the season",
+   "hazards": "Swimmers by Zlatni Rat, rocky shore (shoes), a gusty offshore Bora outside the season",
+   "gustiness_note": "The thermal is boosted by the channel between Brač and Hvar and blows steadily from about 50 m offshore; the Bora (NE) blows offshore here and is very gusty",
+   "crowd_note": "In summer the beach and Zlatni Rat are packed with swimmers; on the water there are several schools and foilers",
+   "region": "Brač, Split-Dalmatia County",
+   "events": "PWA Slalom World Cup events in the early 2020s (2021 — Zoo Station Bol PWA World Cup, 2022 — Croatia PWA World Tour, “for the third year running”)",
+   "launch": "Pebble beach between the Zlatni Rat headland and Borak beach (the Rat itself is upwind and mostly for swimmers); deep right from the shore with no standing-depth shallows — fine for long fins and foils. Shoes needed",
+   "sail_note": "Usually 5.5–7.0 m² on big freeride boards in summer, and foils are popular; 5.0 m² on strong days",
+   "pros": [
+    "Predictable afternoon thermal almost every summer day",
+    "Warm, clear water, a beautiful resort",
+    "Several schools with rental and rescue",
+    "Good for foil and slalom"
+   ],
+   "cons": [
+    "Moderate wind — you need big sails or a foil",
+    "No shallows for learning, pebbles",
+    "Crowded in summer; in August the wind starts later and dies off by 16:00"
+   ],
+   "wind_dir": "W (Maestral), side-shore from the right",
+   "airport": "SPU — Split + ferry to Supetar (~50 min) and ~45 min by car; in summer also Brač airport (BWK) near Bol",
+   "school_notes": [
+    "VDWS centre on Borak beach next to Zlatni Rat, about 40 boards, April–November, rental from €25 per hour",
+    "station that has hosted PWA events",
+    "including a station by the Aloa campsite 2 km upwind"
+   ]
+  },
+  "viganj-peljesac-windsurf": {
+   "h": "e95c4e8aaa",
+   "description": "Viganj in the south of the Pelješac peninsula is a cult campsite village for Central European windsurfers. On summer afternoons a steady 10–20-knot westerly thermal blows side-shore from the right in the channel with Korčula, over water with light chop — good for freeride, freestyle and foil. On sunny spring days the wind can be even stronger than in summer.",
+   "rating_basis": "One of Croatia's most popular thermal spots among Czechs, Slovaks, Poles and Germans (Surf Magazin, Croatia Week): steady wind, 50–70% planing or foiling days in summer; the wind isn't strong",
+   "waves_note": "Mostly light chop in summer, almost flat in neighbouring Kučište; in a southerly Jugo outside the season — chop up to half a metre",
+   "hazards": "Rocks and sea urchins near the shore (shoes), deep water close in, a gusty Bora and stormy Jugo outside the season",
+   "gustiness_note": "The thermal in the channel between Pelješac and Korčula blows steadily and is rarely gusty; there's ~50 m of wind shadow by the headland in the northwest, and the Bora is gusty near the shore",
+   "crowd_note": "In summer the campsites are full of Central European windsurfers, and it's crowded on the water near the shore; noticeably quieter in spring",
+   "region": "Pelješac peninsula, Dubrovnik-Neretva County",
+   "events": "Czech international windsurfing championships (since 2020, including slalom and foil slalom in July 2021); according to Croatia Week, Viganj has also hosted a Formula world championship",
+   "launch": "Small pebble-and-rock beaches and concrete piers along ~1 km of campsites (Antony Boy, Maestrale, Liberan, an autocamp by Ponta point); standing depth only for 2–3 m, then it's deep straight away. Shoes needed; a narrow road separates the campsites from the sea",
+   "sail_note": "Usually 5.5–7.5 m² or foil in summer; 5.0–5.6 m² on good days and in spring",
+   "pros": [
+    "Steady, barely gusty thermal almost every summer day",
+    "You stay at a campsite a few metres from the water",
+    "Good for freestyle and foil",
+    "Spring works too"
+   ],
+   "cons": [
+    "Moderate wind — you need big sails or a foil",
+    "Rocky entry, almost no shallows",
+    "Far from airports; crowded in summer with little parking"
+   ],
+   "wind_dir": "W–NW (Maestral thermal), side-shore from the right",
+   "airport": "DBV — Dubrovnik, ~2 hours; or SPU — Split, ~3 hours (via the Ploče – Trpanj ferry)",
+   "school_notes": [
+    "centre by Ponta point, windsurfing and kite, keeps its own wind statistics",
+    "at the Liberan and Antony Boy campsites, courses and rental, discounts for campsite guests",
+    "Polish school and rental"
+   ]
+  },
+  "garda-torbole": {
+   "h": "3520b09b7a",
+   "description": "Torbole at the northern tip of Lake Garda is the cradle of European windsurfing: the mountains act as a wind tunnel, and on sunny days the northerly Pelèr blows in the morning and the southerly Ora at 15–25 kn in the afternoon. Fresh water, centres for every level, regattas and training camps. The season runs from April to October.",
+   "rating_basis": "Europe's best-known lake windsurf spot: predictable thermal winds twice a day, a historic windsurfing centre (1980 World Championship), lots of centres and regattas; downsides — summer crowds and traffic jams",
+   "waves_note": "Fresh water; in a strong Ora — regular lake chop up to ~1 m, smoother water under the cliffs along the west shore",
+   "hazards": "Ferries and hydrofoils (motorboats are banned north of Malcesine, except scheduled services); sheer cliffs on the west shore — nowhere to come ashore; cold water in spring and autumn; heavy traffic of windsurfers and wing foilers",
+   "gustiness_note": "The Ora blows from March to October on sunny days from ~12:00–13:00 until evening, 20–25 kn on good days; the northerly morning Pelèr starts at sunrise and dies by midday. In cloudy weather and low pressure the thermal is weak and gusty",
+   "crowd_note": "In summer, especially at weekends and in August, it's very crowded in front of Conca d'Oro; it's quieter a few hundred metres upwind (to the south) or near the west shore. In spring the wind is better and there are fewer people",
+   "region": "Trentino, northern Lake Garda",
+   "events": "In 1980 Torbole hosted the Windsurfing World Championship; northern Garda regularly hosts international regattas (slalom, foil, European and Italian championships)",
+   "launch": "Conca d'Oro beach at the southern edge of Torbole: pebbles and lawn, a bar, platforms for getting into the water, a big car park (you carry your gear from the car); a second launch is by Circolo Surf Torbole and at the Sarca river mouth (Surf Segnana). The water gets deep quickly",
+   "sail_note": "5.0–6.0 m² in a good Ora, 6.5–7.5 (or foil) on light days; 4.5–5.3 in the morning Pelèr on strong days",
+   "pros": [
+    "Predictable thermal winds almost every sunny day",
+    "Two winds a day: the morning Pelèr and the afternoon Ora",
+    "Lots of centres, schools, shops and regattas",
+    "Alpine scenery, easy to reach by car from across Europe"
+   ],
+   "cons": [
+    "Very crowded in summer, parking is difficult",
+    "Almost no wind in winter — the season runs only from spring to autumn",
+    "Cold water in spring and autumn (9–16 °C)",
+    "The thermal doesn't work in overcast weather"
+   ],
+   "wind_dir": "S (Ora) in the afternoon — side-shore/side-onshore; N (Pelèr / Vento) in the morning — side-shore",
+   "airport": "VRN — Verona, ~1 h 15 min (~90 km); BGY — Bergamo, ~1 h 45 min; VCE — Venice, ~2 h",
+   "rental_price_note": "Surf Segnana: full kit for a day (1 h €39, 4 h €69, weekly pass €329), JP + NeilPryde",
+   "school_notes": [
+    "the biggest centre, at the Sarca river mouth (Foci del Sarca), JP + NeilPryde, simulators; 2026 season: 9 May – 1 November",
+    "Torbole's oldest windsurf club, launch spot by the campsites"
+   ]
+  },
+  "porto-pollo": {
+   "h": "fe8b7e0a86",
+   "description": "Porto Pollo (Isuledda) in northern Sardinia is the island's main windsurf spot and one of the best known in the Mediterranean. The Strait of Bonifacio accelerates the Mistral and westerly winds, and the isthmus leading to Isola dei Gabbiani splits the spot into two bays: flat water on the lee side for freeride and freestyle, and chop for jumping on the windward side. In almost any wind there's land downwind, so it's relaxed for beginners too.",
+   "rating_basis": "Sardinia's best-known windsurf spot and one of the main ones in the Mediterranean: Surf Magazin cites “the highest wind yield on the island” thanks to the Strait of Bonifacio, flat water and chop side by side, and centres for all levels; Windfinder calls it one of the Mediterranean's best-known spots. Downside — summer crowds",
+   "waves_note": "The isthmus to Isola dei Gabbiani splits the spot into two bays: in the eastern bay, Porto Pollo, the water is flat in a westerly (on the lee side) — for freeride and freestyle; in the western bay, Porto Liscia (Coluccia), a Mistral brings chop and waves up to ~1 m at 30 kn — for jumping, but not for wave riding",
+   "hazards": "In a southerly there's no land downwind — you get carried into the strait; gusts on the lee side of the isthmus; lots of kiters and swimmers in summer; a very strong Mistral (30–35 kn)",
+   "gustiness_note": "The Strait of Bonifacio accelerates the westerly wind — the windiest spot in Sardinia; in the eastern bay, on the lee side of the isthmus, it's gusty near the shore and steadier further out",
+   "crowd_note": "In July–August and at weekends it's crowded on the water and in the car parks, with lots of kiters (kiting is banned in the eastern bay during the day); quieter in spring and autumn",
+   "region": "Palau, Gallura, northern Sardinia (Strait of Bonifacio)",
+   "launch": "Sandy beaches on both sides of the isthmus; the main zone is the eastern bay by the southeastern end of the isthmus, between the Sporting Club Sardinia and MB Pro Center stations (the wind is steadier there). The main car park is by the centres (paid in summer); in almost any wind there's land downwind",
+   "sail_note": "Usually 4.2–5.3 m² in a Mistral, 3.7–4.2 on the strongest days (30–35 kn); 6.5–8.0 in light summer wind",
+   "pros": [
+    "Sardinia's windiest spot thanks to the Strait of Bonifacio",
+    "Flat water and chop in two bays a few steps apart",
+    "Suits all levels, with land downwind almost always",
+    "Several big centres, warm water in summer"
+   ],
+   "cons": [
+    "Very crowded in summer, lots of kiters",
+    "Gusty near the shore on the lee side of the isthmus",
+    "Paid parking in season",
+    "Centres closed in winter"
+   ],
+   "wind_dir": "W–NW (Mistral, Ponente) — best: offshore with flat water in the eastern bay, onshore in the western bay; E (Levante) and N (Tramontana) also work; S — dangerous, no land downwind",
+   "airport": "OLB — Olbia, ~1 h (~45 km); AHO — Alghero, ~2 h",
+   "school_notes": [
+    "VDWS centre by the main car park: rental, school from beginner to advanced, storage, bar; open from Easter to early November, 9:30–18:30",
+    "by the isthmus: over a hundred rental boards, lessons, bar, help with accommodation",
+    "base at the entrance to Isuledda: group courses of up to 4 people per instructor, from waterstart to freestyle"
+   ]
+  },
+  "dakhla": {
+   "h": "a0a77965a8",
+   "description": "Dakhla is a huge tidal bay on a peninsula in Western Sahara and one of the windiest and most consistent places in the world: the north-easterly trade wind blows about 300–330 days a year. Windsurfers get flat water and chop in the lagoon, the legendary Speed Spot with perfectly smooth water behind the sand spit at low tide, and several ocean wave spots half an hour's drive away.",
+   "rating_basis": "Surf Magazin and Windsurf Magazine describe Dakhla as one of the most wind-reliable places in the world (~300–330 windy days a year), with the legendary Speed Spot and wave spots nearby; downsides — the dominance of kiters and a strong dependence on the tide",
+   "waves_note": "In the lagoon — flat water near the shore and chop further out; at Speed Spot at low tide, a long strip of smooth water behind the sand spit. Ocean wave spots nearby: Point d'Or (for beginners in waves), Oum Lbouir / West Point (a long point break, cross-off wind from the right) and Lassarga (strong offshore, experienced sailors only)",
+   "hazards": "At Speed Spot, touching the bottom at speed means a catapult; offshore wind behind the spit; shallows at low tide; at the wave spots (Lassarga, West Point) strong offshore wind and rocks by the Oum Lbouir point",
+   "gustiness_note": "The trade wind is very consistent and often blows from sunrise to sunset; in summer (July–August) up to 30 knots, in winter 15–25 knots with occasional lulls lasting several days; at Speed Spot the wind is a couple of knots stronger and steadier, but offshore",
+   "crowd_note": "Kiters have taken over the lagoon and especially Speed Spot, and by local standards it can get crowded; there are noticeably fewer windsurfers. Quieter by the white dunes on the opposite shore and at the wave spots",
+   "region": "Dakhla Bay (PK25, Dakhla Attitude), Western Sahara (administered by Morocco)",
+   "events": "The legendary Windsurf Challenge at the West Point wave spot (2006)",
+   "launch": "Launch right in front of the centres on the western shore of the lagoon (Freak Windsurf Club at the Dakhla Attitude hotel, ION Club at Ocean Vagabond): sandy beach, large shallow areas for learning. The tide is strong: at high water the shallows extend ~200–300 m, while at low tide you have to carry your gear up to ~300 m to the water. Speed Spot is ~15 minutes upwind under your own steam or ~10 minutes by tractor/shuttle; the spit there is exposed for 4–6 hours around low tide",
+   "sail_note": "Usually 4.2–5.0 m² in summer (freestyle 4.0–4.8), more often 5.0–6.0 m² in winter; 97–135 l boards for freeride, slalom/speed boards and a small fin at Speed Spot",
+   "pros": [
+    "Wind almost all year round, most often from sunrise to sunset",
+    "Speed Spot with perfectly smooth water for speed and freestyle",
+    "Flat lagoon for learning plus wave spots nearby",
+    "Hotels and camps right on the water, no car needed"
+   ],
+   "cons": [
+    "Strong tidal dependence — shallow and a long carry at low tide",
+    "Lots of kiters, especially at Speed Spot",
+    "Remote: flights via Casablanca, little entertainment",
+    "Cool water in winter (18–19 °C), you need a wetsuit"
+   ],
+   "wind_dir": "NNE–NE (trade wind), side-shore from the right; offshore over the spit at Speed Spot",
+   "airport": "VIL — Dakhla, ~30–40 minutes to the camps on the lagoon",
+   "school_notes": [
+    "Centre at the Dakhla Attitude hotel — the best base for Speed Spot; JP / NeilPryde rental, storage, shuttle to Speed Spot for an extra fee",
+    "Large Fanatic / Duotone selection; a longer carry at low tide, waist-deep water the rest of the time"
+   ]
+  },
+  "essaouira-windsurf": {
+   "h": "768f8d1adc",
+   "description": "Essaouira is an old Atlantic port town and Morocco's “wind city”. From April to September a thermal boosts the northerly trade wind, and over the wide sandy bay south of the medina it blows side-onshore from the right almost every day. Good for learning, freeriding and jumping on the waves; for serious wave sailing people head to nearby Moulay Bouzerktoun and Sidi Kaouki.",
+   "rating_basis": "Boards, Sportif and Morocco guides call Essaouira the “wind city”: a consistent summer thermal, a big sandy beach for all levels and waves in the bay; downsides — cold water, summer crowds, and Moulay is better for real wave sailing",
+   "waves_note": "The swell wraps between Mogador Island and the shore: small waves near the town, bigger towards the south of the bay (downwind); Atlantic swells in winter, and for wave riding many go to Moulay Bouzerktoun (~20 km north, with the wind a Beaufort force stronger) and Sidi Kaouki",
+   "hazards": "Strong wind in the afternoon, hypothermia from the wind and cold water, crowds of schools and kiters at the launch in summer; rocks by the port and the island",
+   "gustiness_note": "Often calm in the morning; the thermal builds by lunchtime, peaking roughly from 13:00 to 17:00; up to Force 6–7 in summer, gustier in the southern part of the beach closer to the dunes",
+   "crowd_note": "In July–August the launch is crowded with schools, kiters and surfers; there's more room further from the medina",
+   "region": "Atlantic coast, Marrakesh-Safi",
+   "launch": "A long, wide sandy beach south of the medina, with the centres right by the water (ION Club / Ocean Vagabond is ~20 minutes' walk from the medina). The shorebreak is usually small, with no rocks or reefs in the main zone. Crowded at the launch in July",
+   "sail_note": "Usually 4.2–5.3 m² in summer (3.7–4.2 on strong days in July–August), 90–106 l boards; 6–7 m² on a wide training board for beginners in spring",
+   "pros": [
+    "Wind almost every day in summer, peaking in July–August",
+    "Big sandy beach with no rocks, suits all levels",
+    "Atmospheric town with a medina, cheap food",
+    "The Moulay and Sidi Kaouki wave spots nearby"
+   ],
+   "cons": [
+    "Cold water at 17–21 °C, you need a 3/2–4/3 wetsuit",
+    "Calm mornings, sailing is mostly in the afternoon",
+    "Crowded at the launch in summer",
+    "Unreliable wind in winter"
+   ],
+   "wind_dir": "N–NNE (trade wind + thermal), side-shore / side-onshore from the right",
+   "airport": "ESU — Essaouira, ~20 minutes; RAK — Marrakesh, ~2.5–3 h",
+   "rental_price_note": "day rental “from” according to the Ocean Vagabond / ION Club website (2 hours from €62)",
+   "school_notes": [
+    "Fanatic / Duotone, rental and lessons (2 h private from €147), gear storage",
+    "Rental from a trailer on the beach, also a base in Moulay, gear repair (per Boards, 2012)"
+   ]
+  },
+  "le-morne-windsurf": {
+   "h": "4e076cd036",
+   "description": "Le Morne is the southwestern tip of Mauritius by Le Morne Brabant mountain, and one of the best-known windsurf spots in the Indian Ocean. Inside the reef there's a warm, shallow lagoon for learning, freestyle and speed; on the reef — waves from the easy Little Reef and Manawa to the famous barrelling left of One Eye. The south-easterly trade wind blows side-shore from the left, strongest from May to November.",
+   "rating_basis": "Windsurf Magazine and Boards rank Le Morne among the world's best windsurf spots: a warm lagoon for learning and freestyle plus the One Eye and Manawa reef waves; downsides — dependence on the tide and inconsistent wind outside the season",
+   "waves_note": "Inside the reef — a flat or choppy lagoon (~600–800 m out to the reef); on the reef, Little Reef has small waves, Manawa big waves for experienced sailors, and One Eye is a fast, barrelling world-class left over shallow coral, for experts only and at high tide",
+   "hazards": "Shallow, sharp reef and sea urchins at One Eye; a strong current and waves inside the lagoon in a big swell (more often September–November); coral in the shallows; the reef is far out — beginners should go out with a boat",
+   "gustiness_note": "The trade wind blows almost all day, lighter in the morning; Le Morne Brabant mountain accelerates the wind by 5–10 knots, but near the mountain and close to the shore there can be gusts and holes",
+   "crowd_note": "In high season (July–November) the hotels are full and there's a queue of strong riders and surfers at One Eye; the lagoon is wide, with plenty of room",
+   "region": "Le Morne peninsula, southwest Mauritius",
+   "events": "Annual windsurf clinics with British coaches Peter Hart and Jem Hall (September–November, via Sportif)",
+   "launch": "A wide sandy beach with a gentle entry by the ION Club station (in front of the Riu Creole hotel), almost no shorebreak, side-shore wind from the left — an easy launch. The reef waves are far out, so beginners and groups are taken out by boat. At low tide parts of the lagoon are too shallow; One Eye works at high tide",
+   "sail_note": "The most used sails are 4.2–5.0 m² with 75–110 l boards; 3.6–4.2 m² on the wave on strong days (small rental sails get snapped up quickly), and heavier riders will want 5.3–5.5 m²",
+   "pros": [
+    "Lagoon and world-class waves in one place",
+    "Warm water all year round, a shorty or rash vest is enough",
+    "The mountain boosts the trade wind, which often blows all day",
+    "Good hotels right on the beach"
+   ],
+   "cons": [
+    "Strong tidal dependence: the lagoon is shallow at low tide, One Eye works at high tide",
+    "One Eye is for experts only, with shallow coral and urchins",
+    "Expensive destination, centres close around 16:30",
+    "Wind isn't guaranteed: there can be windless weeks even in season"
+   ],
+   "wind_dir": "SE–ESE (trade wind), side-shore from the left; cross / cross-onshore on the outer reefs, cross-offshore at One Eye",
+   "airport": "MRU — Mauritius (Sir Seewoosagur Ramgoolam), ~1 h (60 km)",
+   "school_notes": [
+    "The beach's main windsurf station, the former Club Mistral of The Indian Resort hotel; rental, courses, boat to the reef; according to reviews, open roughly 9:00–16:30",
+    "Station on the beach near the St Regis; North/Fanatic, kids' and morning lessons for beginners",
+    "An excursion-style offer from a team of Russian-speaking guides, not a station; €235 for 1.5–2 hours (price on the page)"
+   ]
+  },
+  "los-barriles": {
+   "h": "bb97518bb0",
+   "description": "Los Barriles is a town on the east coast of Baja (East Cape) where windsurfers from the US and Canada have been coming in winter for decades. From December to March the northerly El Norte blows, boosted by a thermal: 18–30 knots side-shore from the left, over the deep water of the Gulf of California. Ramps near the shore and long swell further out — a great place for bump & jump and freeriding on 4.5–6.5 m² sails.",
+   "rating_basis": "A classic winter spot for North American windsurfers: Wikipedia calls it the kite and windsurf capital of Baja, and it's covered by Surf Magazin, Sportif and iWindsurf. Steady 18–30-knot side-shore wind, deep water, ramps and swell. Rating lowered for the seasonality (November–March), the windless spells between El Norte episodes and the lack of beginner conditions",
+   "waves_note": "Chop and ramps for jumping near the shore, and further out a long-period wind swell 1–3 m high, ideal for bump & jump. The waves are smaller in the morning and build by lunchtime. Sometimes a small side-shore shorebreak",
+   "hazards": "Deep water right from the shore, a side-shore shorebreak, fishing boats and buoys. Rocks on parts of the beach. The wind along the shore pushes you downwind. Cows and goats on the highway at night",
+   "gustiness_note": "The winter northerly El Norte, boosted by the daytime thermal. It usually blows in spells of 4–8 days, with 2–4 days of light wind in between. Steady, with no wind shadows. Lighter in the morning, picking up towards midday (rarely before 11:00)",
+   "crowd_note": "The beach is about 15 km long, with plenty of room. In winter regulars from the US and Canada live here; there are more and more kiters, but the water is usually uncrowded",
+   "region": "East Cape, Baja California Sur (Baja)",
+   "events": "Vela–NeilPryde windsurf championship in January (per Sportif, undated — not verified whether it's still held)",
+   "launch": "Sandy beach in front of the Playa del Sol hotel, where Vela is based; the Palmas de Cortez hotel is about 300 m downwind. The beach is long and open, with deep water right from the shore. Waterstarting is the minimum level: there's practically no beginner zone",
+   "sail_note": "Usually 4.5–6.5 m²; according to Surf Magazin, 4.7–6.5 for an 85 kg rider. 4.2–4.7 on strong El Norte days",
+   "pros": [
+    "Steady side-shore wind with no wind shadows",
+    "Ramps and swell for jumping",
+    "Long open beach, uncrowded water",
+    "Dry, sunny winter, close to Los Cabos airport"
+   ],
+   "cons": [
+    "Short season: November to March",
+    "El Norte blows in spells, with 2–4 windless days in between",
+    "Deep water and waves, tough for beginners",
+    "Water around 21 °C in winter, you need a 3/2 wetsuit"
+   ],
+   "wind_dir": "N–NNE (El Norte), side-shore from the left",
+   "airport": "SJD — Los Cabos (San José del Cabo), ~1 hour by car",
+   "school_notes": [
+    "the oldest centre in Los Barriles (about 30 years), based at the Playa del Sol and Palmas de Cortez hotels from November to March: windsurf, kite and foil rental and lessons, packages with accommodation"
+   ]
+  },
+  "luderitz-speed-canal": {
+   "h": "95f63fdb72",
+   "description": "A man-made canal about 800 m long in the Second Lagoon near Lüderitz, the world's top speed course. Every year from October to early December it hosts the Lüderitz Speed Challenge, where windsurfers and kiters chase WSSRC records in 40–50 knots of wind. This is where Antoine Albeau raised the windsurf speed world record to 53.49 knots (~99 km/h) in 2024.",
+   "rating_basis": "The world's fastest windsurf course: the current 500 m speed world records (WSSRC) were set here. Rated as a unique speed spot for pros; not suitable for an ordinary holiday, as the canal only operates during the competition",
+   "waves_note": "An artificial narrow canal ~800 m long (the timed section is 500 m) in the lagoon; a wall of sandbags along the windward edge kills the chop, so the water is practically flat",
+   "hazards": "Wipeouts at 90–100 km/h in 30–50 cm of water; very strong, gusty wind and sandstorms; cold water; far from medical help, no water or food on site",
+   "gustiness_note": "The wind accelerates between the hills and is very gusty; runs below ~30 knots are pointless, and record days need 40–45 knots plus the right gust. The strong wind pushes the water out: at the start of the canal the level drops by about 20 cm",
+   "crowd_note": "About 35 participants per season and no more than 15 riders on the canal per day; runs are made one at a time",
+   "region": "Second Lagoon south of Lüderitz, ǁKaras Region",
+   "events": "Lüderitz Speed Challenge — held annually since 2007 (October to early December, ratified by the WSSRC). Windsurf 500 m world records set here: Antoine Albeau — 53.27 kn (2015) and 53.49 kn (December 2024, current), and Jenna Gibson's women's record — 48.02 kn (2024); in total, by 2021, 20 world and 146 national records",
+   "launch": "Start from the starting area at the head of the canal: 30–40 cm deep at the windward edge and about 1 m at the leeward edge, ~0.5 m in the run-up and slow-down zones. After each run riders are driven back to the start by pickup. Access is by sandy road; there's nothing on site except gear containers — bring your own food and water. The canal only operates during the Lüderitz Speed Challenge, with up to 15 riders a day allowed on the water",
+   "sail_note": "Speed sails of 4.5–5.7 m² (Albeau set the 2024 record on a 5.3 m² prototype and a ~40 cm wide speed board), short fin ~21 cm",
+   "pros": [
+    "The world's fastest course, with official WSSRC record ratification",
+    "Very strong, frequent wind in the southern hemisphere spring and summer",
+    "Not just pros — well-prepared amateurs can take part too (by registration)"
+   ],
+   "cons": [
+    "The canal only exists during the competition, there's nowhere to sail outside it",
+    "Experts only: 40–50 knots and 90+ km/h",
+    "Middle of nowhere: no cafés, no infrastructure, cold ocean",
+    "No rental or schools — only your own speed gear"
+   ],
+   "wind_dir": "S–SSW, at ~140° to the course (broad reach), blowing off the land across a plain",
+   "airport": "LUD — Lüderitz, ~15 minutes; ~7–8 h by car from Windhoek (WDH)"
+  },
+  "brouwersdam-windsurf": {
+   "h": "17dd19f5d2",
+   "description": "Brouwersdam is a dam between the North Sea and Lake Grevelingen in Zeeland, and the Netherlands' best-known windsurf spot. On the inner side there's a shallow flat-water basin where beginners learn and World Cup-level freestylers train, with chop further out for freeride and slalom; on the sea side — bump & jump. Atlantic lows bring strong, steady wind, and the centre is open all year round.",
+   "rating_basis": "The Netherlands' cult spot and one of Europe's main freestyle venues (World Cup pros train here); Surf Magazin named it spot of the month for progressing sailors, citing a huge year-round centre and plenty of options along the dam. Downsides — cold water and planing on only about a quarter of days in summer",
+   "waves_note": "No waves on Lake Grevelingen (the inner side of the dam): a shallow “pool” behind the pier with flat water for beginners and freestyle, then chop for freeride, slalom and jumping. On the sea side there's hardly any surf (a sandbank ~5 km out breaks up the swell): chop and small waves for bump & jump (the Perry's spot at the southern end of the dam)",
+   "hazards": "Sharp oyster shells — shoes needed; on the sea side a tidal range of up to ~4 m and a light current on the ebb; lots of beginners in the pool behind the pier; kiting allowed only in designated zones",
+   "gustiness_note": "Over the flat dam and the lake, onshore sea winds are steady; offshore (E) winds are lighter and gustier",
+   "crowd_note": "Very busy on windy weekends: thousands of windsurfers from the Netherlands, Germany and Belgium; beginners learn in the pool behind the pier — slalom sailors take care; quieter on weekdays and further along the dam",
+   "region": "Zeeland / South Holland (Grevelingen and North Sea)",
+   "launch": "Sandy shore by the Zeil- & Surfcentrum Brouwersdam (Ossenhoek 1, Kabbelaarsbank) on the inner side of the dam; free parking right by the water, usually with enough spaces. The shallow pool behind the pier is the learning and freestyle zone; along the dam there are plenty of launch spots for both the lake and the sea",
+   "sail_note": "Usually 5.0–6.5 m² (rental freestyle sails 4.8–5.2, freeride 5.5–8.2); 4.0–4.7 in autumn storms; 7–8 or foil in light summer wind",
+   "pros": [
+    "Flat water and shallows — ideal for learning and freestyle",
+    "Works in almost any wind direction, two bodies of water to choose from",
+    "Centre open all year round, free parking by the water",
+    "Easy drive from Germany and Belgium"
+   ],
+   "cons": [
+    "Cold water: a 3–5 mm wetsuit almost always, full winter kit in winter",
+    "Lighter wind in summer, planing on only about a quarter of days",
+    "Crowded on windy weekends",
+    "Sharp oysters on the lake bed"
+   ],
+   "wind_dir": "SW–W (the best and strongest, with lows), NW–N; works in almost any direction, including anticyclonic easterlies",
+   "airport": "RTM — Rotterdam, ~45 minutes; AMS — Amsterdam Schiphol, ~1 h 30 min; BRU — Brussels, ~1 h 45 min",
+   "rental_price_note": "full “advanced” kit for a day, with wetsuit/harness; €98 for beginners, €190 for pro, from €22 per hour; prices from the centre's website (November 2026, year not stated)",
+   "school_notes": [
+    "large centre since 1993, open all year round: courses for all levels and for kids, Severne rental, storage, restaurant, accommodation for 140 guests",
+    "a few metres north: windsurf, kite and SUP gear shop"
+   ]
+  },
+  "paracas-windsurf": {
+   "h": "63a4aef0f6",
+   "description": "Paracas is a town by a national reserve on the desert coast, 250 km south of Lima. Almost every afternoon a southerly thermal wind picks up in the bay, and the water is flat, so it hosts Peruvian and international slalom, Formula and Olympic-class races. The most reliable months are September to March, and in December the air warms up to 25–27 °C and the water to 20–21 °C.",
+   "rating_basis": "Peru's main racing venue: it has hosted the 2012 Formula Experience World Championship, RS:X, Techno and IFCA continental championships and the windsurfing at the 2019 Pan American Games. Organisers call the bay a flat-water “wind machine”. Rating lowered because no windsurf rental for visitors was found, for the windless mornings and the cool water in winter",
+   "waves_note": "An enclosed U-shaped bay: no waves, flat water or light chop. Noticeable chop in front of the main beach in strong wind. Tides and currents have almost no effect on sailing",
+   "hazards": "The wind is slightly offshore: if you break gear, you drift to the middle of the bay. Gusts near the shore. Sandstorms in winds over 30 knots (organisers advise bringing ski goggles). Small rays near the shore at times — shuffle your feet as you walk in",
+   "gustiness_note": "Almost calm in the morning. The southerly wind accelerates over the desert and arrives around 11:00–13:00, peaking around 15:00. In the first hours the direction shifts around; it becomes steadier towards evening. Sometimes it blows into the night and builds to 30+ knots, and then a sandstorm hangs over the bay. The wind is slightly offshore, so it's gusty near the beach",
+   "crowd_note": "The main beach is mostly kiters from several schools; there are few windsurfers — mainly local racers. The bay is big, with plenty of room",
+   "region": "Paracas, Ica Region, southern coast of Peru",
+   "events": "Formula Experience World Championship (17–22 December 2012), RS:X and Techno South American Championship (March 2018), IFCA South & Pan American Slalom Championship (15–19 December 2018), windsurfing at the Lima 2019 Pan American Games",
+   "launch": "Sandy beach in the southern part of the bay, by the La Reserva condominium on the road to Santo Domingo, a few minutes by taxi from Paracas town. Kite schools use the same beach. Sandy bottom, no shorebreak. The IFCA races were run from the Oasis Bahía de Paracas beach club",
+   "sail_note": "Usually 5.5–7.0 m² on a slalom or freeride board, 4.7–5.3 on strong days. During the IFCA and Formula Experience races the wind was 12–20 knots, gusting to 25",
+   "pros": [
+    "Flat water and almost daily afternoon wind",
+    "Well suited to slalom, freeride and foil",
+    "Big, safe bay with a sandy bottom",
+    "Sunshine and a desert climate with almost no rain"
+   ],
+   "cons": [
+    "No windsurf centres or rental for visitors found, you need your own gear",
+    "Calm in the morning, sailing only in the afternoon",
+    "Cool water (16–18 °C from May to November), you need a wetsuit",
+    "Sandstorms in strong wind"
+   ],
+   "wind_dir": "S–SSW, cross-off from the left",
+   "airport": "LIM — Lima, ~250 km, 3–4 hours by car or bus"
+  },
+  "boracay-bulabog-windsurf": {
+   "h": "7eb7a3d4aa",
+   "description": "Bulabog is Boracay's windward east-facing beach, sheltered by a reef: from November to April the north-easterly Amihan monsoon blows almost every day, and the waist-deep, warm lagoon makes it easy to learn and freeride. At high tide chop builds inside, and there are waves on the outer reef. From the late 1980s the Boracay International Funboard Cup was held here every year, and in 2012 the RS:One World Championship.",
+   "rating_basis": "Windsurf Magazine (micro guide, 2017), Boards and Langyaw: a reliable Amihan from November to April (~75% of days at Force 4+), a warm, shallow lagoon — a great place for learning and freeriding, and a long history of regattas. Downsides — crowded with kiters, coral at low tide, few windsurf centres",
+   "waves_note": "Inside the reef lagoon (about 2.5 km along the shore), at low and mid tide — waist-deep flat water; at high tide the water rises to 1.2–1.8 m, swell rolls in and there's bump & jump. On the outer reef (~500 m from shore) — waves, up to 2 m in storms, for experienced sailors only",
+   "hazards": "Coral and rocks in the lagoon at low tide (shoes, risk of breaking a fin); waves and current on the outer reef; collisions with kiters and their lines; a narrow beach at high tide; typhoons from June to November",
+   "gustiness_note": "The north-easterly Amihan monsoon blows steadily and almost daily; in December–February it can reach 25 knots and more. The summer south-westerly Habagat is gusty and comes with downpours and typhoons",
+   "crowd_note": "Bulabog is the Philippines' main kite beach: in season the lagoon is packed with kites, especially at low tide; windsurfers tend to go out closer to high tide",
+   "region": "Boracay Island, Aklan Province, Western Visayas",
+   "events": "Boracay International Funboard Cup — an annual regatta in January since the late 1980s (it drew about a hundred Asian windsurfers and was a stop on the Asian Windsurfing Tour); 10–15 December 2012 — the first RS:One class World Championship",
+   "launch": "Sandy beach on the island's east (windward) coast; centres line Bulabog Road, with the Funboard Center windsurf centre in the northern, upwind part of the beach. At high tide the beach becomes narrow and crowded; at low tide there's coral and rocks in parts of the lagoon — protect your fins and feet, shoes needed",
+   "sail_note": "Usually 5.0–6.5 m², 4.2–5.0 on strong days in December–February; big 7+ sails or a foil in the shoulder seasons",
+   "pros": [
+    "Steady Amihan from December to March",
+    "Warm, shallow lagoon — ideal for learning",
+    "Resort infrastructure nearby (White Beach is a 10-minute walk away)",
+    "Outer reef with waves for experienced sailors"
+   ],
+   "cons": [
+    "The beach and lagoon are overrun with kiters",
+    "Shallow at low tide, with coral and rocks",
+    "Few windsurf centres, limited rental fleet",
+    "May to October is Habagat and typhoon season, with unreliable wind"
+   ],
+   "wind_dir": "NE–ENE (Amihan), side-onshore",
+   "airport": "MPH — Caticlan (Godofredo P. Ramos), 10 minutes to the jetty + 15 minutes by boat and ~15 minutes to Bulabog; KLO — Kalibo, ~1.5–2 hours",
+   "school_notes": [
+    "Kite and windsurf school in the northern part of Bulabog; Tabou / Gaastra, instructors from the Philippine national team, café at the station. Listed as “temporarily closed” on Google Maps in 2026 — check before you go"
+   ]
+  },
+  "praia-do-guincho-windsurf": {
+   "h": "7c216280db",
+   "description": "Guincho is a wild beach between Cascais and Cabo da Roca, and the windiest in Portugal. In summer the northerly Nortada, boosted by the Sintra hills, blows side-shore almost every day, especially in the afternoon, and the northwesterly swell delivers 0.5–2 m waves — a classic wave spot half an hour from Lisbon. In winter the wind drops and swings west, and the waves get too big.",
+   "rating_basis": "Portugal's windiest beach (a Finisterra study: over the two summers of 2009–2010 there were 124 days with good windsurf conditions, i.e. about half of all summer days), a former PWA World Cup venue; Surfertoday calls Guincho Portugal's best windsurf spot. Downsides — uneven, gusty wind, shorebreak and few centres",
+   "waves_note": "In summer 0.5–2 m waves from the northwesterly swell — for wave sailing and jumping, flatter near the shore in places; in winter a 1.5–3 m swell, sometimes over 4 m, with a powerful shorebreak — hardly anyone sails",
+   "hazards": "Strong currents, a powerful shorebreak and quickly changing wind; in a westerly wind and big swell it's almost impossible to get out; rocks at the ends of the beach",
+   "gustiness_note": "The Nortada is strong and frequent but uneven: the Sintra hills accelerate the wind and create gusts; it usually freshens towards evening",
+   "crowd_note": "The beach is wide, and there are few swimmers because of the wind and currents — the water is usually uncrowded; on summer weekends windsurfers and kiters come out from Lisbon",
+   "region": "Cascais, Lisbon District (Sintra-Cascais Natural Park)",
+   "events": "In the 1990s and 2000s PWA Windsurfing World Cup events were held here",
+   "launch": "A sandy beach about 1 km long with dunes; windsurfers usually launch from the northern part of the beach by Bar do Guincho, where there's parking and space to rig. You need to be able to get out through the shorebreak; in a westerly (onshore) wind with swell getting out is almost impossible",
+   "sail_note": "Usually 4.2–5.3 m² in summer, 3.7–4.2 on strong days; you'll hardly ever need a sail bigger than 5.7",
+   "pros": [
+    "Strong Nortada almost every summer day",
+    "Good waves for wave sailing and jumping",
+    "Uncrowded water — few swimmers",
+    "Half an hour from Lisbon airport"
+   ],
+   "cons": [
+    "Gusty, uneven wind because of the Sintra hills",
+    "Powerful shorebreak and currents",
+    "Even in summer the water is 17–18 °C (upwelling) — you need a wetsuit",
+    "Few centres and little rental right on the beach"
+   ],
+   "wind_dir": "N–NNW (Nortada) — side-shore from the right; W — onshore, poor",
+   "airport": "LIS — Lisbon, ~30 minutes (~35 km)",
+   "school_notes": [
+    "school in Cascais (Rua da Torre): windsurf, kite and wingfoil courses (10-hour package with gear)",
+    "yacht club in Cascais bay (~8 km): windsurf courses on calm water"
+   ]
+  },
+  "viana-do-castelo-cabedelo-windsurf": {
+   "h": "012ed9ddb6",
+   "description": "Cabedelo beach, across from the town of Viana do Castelo at the mouth of the Lima river, is one of Portugal's best windsurf spots. From late April to September the thermal Nortada blows side-shore from morning to evening, bringing chop and jumping waves, and a westerly swell brings good waves. Nearby in the harbour there's shallow flat water for learning, and in 2018 the spot hosted a PWA Slalom and Freestyle World Cup event.",
+   "rating_basis": "Surf Magazin wonders whether this is Portugal's best spot (“as many options as three ordinary spots”); it hosted a PWA World Cup event in 2018; a consistent Nortada from late April to September, conditions for all levels and a sports hotel right by the spot. Downsides — cool water and small waves in summer",
+   "waves_note": "On Cabedelo beach — chop and waves; in a westerly swell over 2 m, quality waves over a firm sandy bottom (weaker as the tide rises, closing out in big swell); in summer the waves are often small. By the harbour's big breakwater — completely flat water for beginners and freeride",
+   "hazards": "A few rocks in the water — watch your fins; current at the Lima river mouth; the waves close out in big swell",
+   "gustiness_note": "The thermal Nortada is consistent, often blows from morning to sunset and strengthens during the day (often 25 kn); gusty in spring with swell",
+   "crowd_note": "Lots of windsurfers and kiters on the water in summer and at weekends, but the beach is big; quieter on weekdays",
+   "region": "Viana do Castelo, northern Portugal (Minho)",
+   "events": "In June 2018 — the first PWA World Cup event in Viana (slalom and freestyle) on Cabedelo beach",
+   "launch": "A big horseshoe-shaped sandy beach south of the Lima river mouth; parking behind the breakwater (~400 m to the water); windsurfers usually launch further south, by the campsite and the FeelViana water sports centre. The main zone is watched by lifeguards (boat and jet ski). Beginners learn on the shallow flat water by the harbour breakwater — all year round",
+   "sail_note": "Usually 4.5–5.5 m² in summer, 4.0–4.2 on strong days; 5.5–6.5 in the mornings and on light days",
+   "pros": [
+    "Reliable Nortada from late April to September, often all day",
+    "Several types of water close together: waves, chop and flat water by the breakwater",
+    "Suits all levels, lifeguards in the main zone",
+    "Sports hotel and water sports centre right at the spot"
+   ],
+   "cons": [
+    "Cool water (16–18 °C in summer) — you need a wetsuit",
+    "The waves are often small in summer",
+    "Unreliable wind and rain in winter",
+    "Few other centres"
+   ],
+   "wind_dir": "N–NNW (Nortada) — side-shore / side-offshore from the right",
+   "airport": "OPO — Porto, ~50 minutes (~70 km); VGO — Vigo (Spain), ~1 h",
+   "school_notes": [
+    "water sports centre and sports hotel on Cabedelo beach: courses for all levels, North Sails rental, kite, wing, surfing, SUP"
+   ]
+  },
+  "anapa-bugaz-spit": {
+   "h": "d4e7be7f0b",
+   "description": "The Bugaz Spit near the village of Blagoveshchenskaya, 20 km from Anapa, is the main wind spot on the Black Sea coast around Anapa. A narrow sand spit separates the shallow Bugaz lagoon (liman), where beginners learn and people sail on flat water, from the sea, where onshore winds bring chop and small waves. The best months are May, June and September.",
+   "rating_basis": "Anapa's main wind spot: a flat-water lagoon for learning and the sea for advanced sailors, ~10 kite schools and 2 windsurf schools (tonkosti); the best months are May, June and September (putevka.com), and the wind can be light in summer",
+   "waves_note": "On the Bugaz (Kiziltash) lagoon — flat water and light chop; at sea in onshore wind — chop and small waves with a gentle shorebreak",
+   "hazards": "Lots of kites, the offshore northeasterly (Bora) at sea, weed and shallows in the lagoon, sun with no shade, cold water in spring and October",
+   "gustiness_note": "The summer sea wind is fairly steady; the northeasterly (Bora) in autumn and winter is strong and gusty — and offshore at sea",
+   "crowd_note": "About a dozen kite schools: lots of kites on the water at weekends, and the roads to the spit are jammed with cars",
+   "region": "Anapa area, Krasnodar Krai (Black Sea)",
+   "launch": "A sand spit ~12 km long and 250–300 m wide between the lagoon and the sea: beginners learn on the shallow lagoon (lots of weed), advanced sailors head out to sea, with a gentle entry. Access to the spit is paid (~400 ₽), and the road is sandy — you need a high-clearance car; there's almost no shade or infrastructure",
+   "sail_note": "Usually 6.0–8.0 m² or foil in summer; 4.5–5.5 m² in strong wind in spring and autumn",
+   "pros": [
+    "Shallow flat-water lagoon for learning right next to the sea",
+    "Windier than the other Anapa beaches",
+    "Russian-speaking centres and schools"
+   ],
+   "cons": [
+    "The wind can be light in summer",
+    "Weed in the lagoon, no shade or services on the spit",
+    "Lots of kites, a bad road and paid access"
+   ],
+   "wind_dir": "SW–W (onshore at sea), NE — on the lagoon",
+   "airport": "KRR — Krasnodar, ~2.5–3 h by car (Anapa airport has been closed to passenger flights since 2022); Anapa railway station ~30 min",
+   "school_notes": [
+    "on the Bugaz Spit: windsurf rental and lessons, for adults and kids",
+    "windsurf station right in the village of Blagoveshchenskaya, with parking — no need to drive out to the spit",
+    "in Anapa itself, Malaya Bukhta beach: windsurf rental and lessons"
+   ]
+  },
+  "dolzhanskaya-kosa": {
+   "h": "36502b9fce",
+   "description": "The Dolzhanskaya Spit (Dolgaya Spit) by the village of Dolzhanskaya is one of Russia's main windsurfing and kiting places. The narrow sand spit separates Taganrog Bay from the Sea of Azov, so in almost any wind one side is side-shore with shallow, standing-depth water. In summer the wind is more often light; the best season is September.",
+   "rating_basis": "One of Russia's main windsurf and kite spots: two sides of the spit for different winds, shallows for learning, centres and the annual “Dolzhanka DA!” festival; the wind is often light in summer, with the best conditions in autumn (make-trip, tonkosti, reviews)",
+   "waves_note": "The spit is ~11 km long: flat water on the lee side, chop and short Azov waves of up to 1 m in strong wind on the windward side",
+   "hazards": "Shallows (fin/foil hitting the bottom), kiters, jellyfish and algal blooms in summer, squalls with passing fronts, cold water in spring and October",
+   "gustiness_note": "Over the steppe and the sea the wind is fairly unobstructed; light breezes blow in summer, while spring and autumn bring stronger, steadier northeasterlies, sometimes with squalls",
+   "crowd_note": "Lots of kiters and windsurfers in summer and during the festival, but the spit is long — you can move away from the crowd",
+   "region": "Dolzhanskaya village, Yeysk District, Krasnodar Krai (Sea of Azov)",
+   "events": "“Dolzhanka DA!” amateur kite and windsurf festival at the Surfpriyut base (traditionally in September; flat-water marathon races)",
+   "launch": "A sand spit a few hundred metres wide: Taganrog Bay on one side, the open Sea of Azov on the other; you pick the side according to the wind. Very shallow, with standing-depth water far out from the shore — ideal for learning, but use short fins and take care with a foil",
+   "sail_note": "Usually 6.5–8.5 m² on a wide board or foil in summer; 4.5–5.8 m² in a strong northeasterly in autumn and spring",
+   "pros": [
+    "Two sides of the spit — you can sail in different wind directions",
+    "Shallow and safe for learning",
+    "Russian-speaking centres and schools, warm sea in summer"
+   ],
+   "cons": [
+    "Often light wind in summer — you need big sails",
+    "Very shallow: fins and foils catch the bottom",
+    "A long way to get there, lots of kites in summer"
+   ],
+   "wind_dir": "NE–E and SW–W, along/across the spit — you choose the side where the wind is side-shore",
+   "airport": "KRR — Krasnodar, ~3.5 h by car (Rostov and Anapa airports have been closed to passenger flights since 2022); train to Yeysk (~40 km)",
+   "school_notes": [
+    "windsurf station at the Surfpriyut base on the Dolgaya Spit: windsurf, kite and wing lessons, rental; operates on both sides of the spit"
+   ]
+  },
+  "gulf-of-finland-solnechnoye": {
+   "h": "d2d609575e",
+   "description": "The beaches between Sestroretsk and Solnechnoye on the north shore of the Gulf of Finland are St Petersburg's main wind spot. With westerly and southwesterly lows the wind blows onshore here, and a short wind chop of up to 1–1.5 m builds over the shallow sandy bottom, while in light wind you can learn and sail on big sails. The season runs from May to October; autumn is the windiest period, but the water is cold by then.",
+   "rating_basis": "St Petersburg's main wind beach: a shallow sandy bottom, windsurf and kite stations, wind waves in westerlies (Vokrug Sveta, Delovoy Peterburg); the water is cold, and reliable wind comes mainly in autumn",
+   "waves_note": "Brackish water; in westerly and northwesterly winds, wind waves of up to 1–1.5 m with a short period (4–5 s); flat water and chop in light wind",
+   "hazards": "Cold water (risk of hypothermia in spring and autumn), boulders in the shallows, a sideways current, stormy onshore wind, kiters and surfers nearby",
+   "gustiness_note": "The wind comes in off the open water of the gulf and is fairly steady; good days come with low-pressure systems — more often in autumn, with lighter wind in summer",
+   "crowd_note": "On windy weekends windsurfers, kiters and surfers share the water; uncrowded on weekdays",
+   "region": "Kurortny District of St Petersburg, north shore of the Gulf of Finland",
+   "launch": "A wide sandy beach between Sestroretsky Kurort and Solnechnoye (the former “Dyuny” holiday centre, next to “Laskovy” beach); shallow — chest-deep about 20 m from the shore, with boulders in places. There's a slight sideways current",
+   "sail_note": "Usually 6.5–8.5 m² or foil in summer; 4.5–5.5 m² in stormy southwesterlies and westerlies in autumn",
+   "pros": [
+    "The closest sea spot to St Petersburg, with rental stations",
+    "Shallow sandy bottom — easy to learn",
+    "Wind waves for jumping in westerlies"
+   ],
+   "cons": [
+    "Cold water, you need a wetsuit all season",
+    "Often light wind in summer",
+    "Boulders in places, poor water quality for swimming"
+   ],
+   "wind_dir": "SW–W–NW, onshore / side-onshore",
+   "airport": "LED — Pulkovo, ~1 h; ~40–60 min from central St Petersburg",
+   "school_notes": [
+    "station on the beach of the former “Dyuny” holiday centre in Sestroretsk: windsurf lessons and rental",
+    "station by Primorskoye Highway (km 41), kite and windsurfing"
+   ]
+  },
+  "pirogovskoe-reservoir": {
+   "h": "3ff92b6257",
+   "description": "The Pirogovo Reservoir north of Moscow is the main place where Moscow windsurfers sail and learn. The Marabu surf club has been running here for years, with rental, a school and storage, and the Pirogovo yacht club is next door. The wind is mostly light and gusty, so this is a spot for learning, big sails and weekend foiling, rather than a destination in itself.",
+   "rating_basis": "The main windsurf venue near Moscow and where many Moscow windsurfers got started; but according to riders (T—Zh), in summer the wind is usually 5–7 m/s and very rarely over 10 m/s, so planing days are few",
+   "waves_note": "Fresh water, flat or short chop; small waves in strong wind and from motorboats",
+   "hazards": "Motorboats and their wake, yachts during regattas, cold water in May and September, wind holes near the shore, a dilapidated pier deck (according to reviews)",
+   "gustiness_note": "The reservoir is surrounded by forest and villages — the wind is light, gusty and patchy; good days come mainly with passing fronts, in spring and September",
+   "crowd_note": "Busy at weekends: yachts, motorboats, SUPs and wakeboarding; uncrowded on weekdays",
+   "region": "Mytishchi urban district, Moscow Oblast",
+   "launch": "Launch from the pier and shore by the Marabu surf club in the village of Boltino (Orekhovaya St., 2); there are containers for seasonal gear storage. Paid parking (according to reviews, 500 ₽ at weekends)",
+   "sail_note": "Most often 7.5–9.5 m² on wide 130–160 l boards or foil; 5.5–6.5 m² on the rare strong days. 4.7–5.5 m² is enough for learning",
+   "pros": [
+    "The closest windsurf spot to Moscow with rental and a school",
+    "Gear storage right by the water",
+    "Good for learning and foiling in light wind"
+   ],
+   "cons": [
+    "Light, gusty wind, planing is rare",
+    "Lots of motorboats and yachts at weekends",
+    "Short season: May to September, ice in winter"
+   ],
+   "wind_dir": "W, SW, S, N — depends on passing weather systems",
+   "airport": "SVO — Sheremetyevo, ~40 min; ~1 h from central Moscow",
+   "school_notes": [
+    "Boltino: windsurf rental and lessons, e-foil, wakeboarding; gear storage in containers",
+    "Pirogovo yacht club, which runs a “Windsurf Helmsman” programme",
+    "kids' windsurf school (Strogino and the Pirogovo Reservoir), snowkiting in winter"
+   ]
+  },
+  "pattaya-jomtien": {
+   "h": "55f3a5b1de",
+   "description": "Jomtien and neighbouring Na Jomtien beach south of Pattaya are the centre of Thai national windsurfing and a handy place to combine a beach holiday with sailing. The wind is moderate (8–18 knots on average), so people sail big sails and foils; the best months are July–August with the southwest monsoon. Warm, shallow water and a sandy bottom make the spot good for learning, and Pattaya has long been popular with Russian-speaking tourists.",
+   "rating_basis": "Older Gulf of Thailand spot guides, Unplug and Techno293.org: warm, shallow water and a sandy bottom — a good place for learning and big-sail sailing, and the centre of Thai national windsurfing. But the wind is light (8–18 knots) with no clear peak — as a dedicated windsurf destination it falls behind Mui Ne and Boracay",
+   "waves_note": "No swell: from flat water to chop and small wind waves in a strong southwesterly in summer",
+   "hazards": "In winter the northeasterly is offshore (it can blow you away from the shore); in a strong southwesterly there's a rip near the shore; jet skis and boats at Jomtien; strong sun",
+   "gustiness_note": "A light-wind spot: the average wind is 8–18 knots, and the best days come with the summer southwest monsoon (July–August, up to 18–20 knots onshore) and the daytime sea breeze; the winter northeasterly blows offshore and is gusty",
+   "crowd_note": "Uncrowded water: several centres, kiters and wing foilers; more locals at weekends",
+   "region": "Pattaya, Chonburi Province, Gulf of Thailand (Na Jomtien beach, ~12 km south of the centre)",
+   "events": "The Windsurfing Association of Thailand is based here (local races with up to 70 entrants); 25–30 November 2025 — the Techno 293 and Techno 293 Plus Asian Championships on Jomtien beach",
+   "launch": "The long (over 4 km) sandy Na Jomtien beach with no rocks, reefs or coral; by the centres (Clubloongchat, Amara Watersports) it's an easy launch straight off the beach, shallow near the shore — handy for learning. The beach is public, with parking, showers and cafés nearby",
+   "sail_note": "Main sails 6.0–8.5 m² with wide boards; 5.5–6.5 on the best summer days. A good place for foiling and big freeride kits",
+   "pros": [
+    "Warm water all year round, shallow sandy bottom",
+    "Great for learning and foiling",
+    "Huge tourist infrastructure and lots of Russian speakers",
+    "Close to Bangkok and U-Tapao airport"
+   ],
+   "cons": [
+    "Light, inconsistent wind, you need 6–8.5 m² sails",
+    "The winter northeasterly blows offshore",
+    "The water isn't the cleanest",
+    "No distinct world-class wind season"
+   ],
+   "wind_dir": "Summer: SW–S, onshore / side-onshore; winter: NE–N, side-offshore (in the mornings), with a side-onshore NW–W sea breeze during the day",
+   "airport": "UTP — U-Tapao, ~25–30 km (~35 minutes); BKK — Bangkok Suvarnabhumi, ~125 km (1.5–2 hours)",
+   "school_notes": [
+    "A family-run club now in its third generation, Na Jomtien (Soi 14): windsurf, kite, wing, Hobie Cat; freeride kit rental 700 baht/hour or 1,500 baht/3 hours (price list on the website, checked in November 2026), gear storage",
+    "School and shop of Amara, who represented Thailand's national windsurf team for 25 years, on Na Jomtien beach, running for over 30 years; Thailand's biggest windsurf gear supplier, over 100 boards",
+    "According to the Holiday Inn Pattaya guide — a school on Jomtien with lessons in English and Russian; check before you go"
+   ]
+  },
+  "alacati": {
+   "h": "dd49588812",
+   "description": "Alaçatı is a big, shallow bay on the Çeşme peninsula and Turkey's main windsurf resort. The northerly Meltemi blows side-shore from the left and accelerates between the hills, the water is flat, and the shallows stretch for hundreds of metres — paradise for freeride, slalom and learning. PWA World Cup events have been held here.",
+   "rating_basis": "One of the Mediterranean's best freeride and slalom spots: PWA World Cup events, up to 70% windy days in summer (Surf Magazin), huge shallows; downside — crowds in July–August",
+   "waves_note": "An almost enclosed bay with flat water and light chop; in spring and autumn the southerly Lodos pushes a small wave into the bay",
+   "hazards": "The yacht channel to the Port Alaçatı marina, heavy board and foil traffic, shallows and seaweed (dark patches), wind shadow by buildings",
+   "gustiness_note": "The Meltemi accelerates between the hills (up to +6 knots on the forecast) and blows fairly steadily, strengthening towards evening; wind shadow in places along the built-up shore",
+   "crowd_note": "In July–August the bay is very busy: hundreds of boards, foilers, wingers and students from the big schools",
+   "region": "Çeşme, İzmir Province",
+   "events": "PWA Slalom World Cup events (2006 — together with the IFCA Slalom World Championship, 2010 — Pegasus Airlines PWA World Cup); in October 2023 — the PWA Youth and Junior Slalom World Cup at the Alaçatı Windfest",
+   "launch": "Sandy shore on the west side of the bay right by the centres (ASPC and others); standing-depth shallows stretch for ~500 m — ideal for learning and beach starts. Kiters ride in the southeastern part of the bay",
+   "sail_note": "Usually 5.0–6.5 m² in summer, 4.5 m² on strong days; 7 m² and up in the morning at Force 2–4",
+   "pros": [
+    "Huge flat-water shallows",
+    "Steady summer Meltemi that strengthens towards evening",
+    "Big schools, including some with Russian-speaking instructors",
+    "You can sail almost all year round (in a wetsuit in winter)"
+   ],
+   "cons": [
+    "Very crowded in July–August",
+    "Heavy construction along the shore, wind shadow in places",
+    "Often light wind in the morning"
+   ],
+   "wind_dir": "N–NNE (Meltemi / “Poyraz”), side-shore from the left; in spring and autumn the southerly Lodos — side-shore from the right",
+   "airport": "ADB — İzmir, ~1 hour (about 80 km)",
+   "school_notes": [
+    "Turkey's biggest centre, JP/Gaastra/NeilPryde, open all year round; instructors speak Russian, and there's a Russian version of the website",
+    "geared towards Turkish customers, with English-speaking instructors"
+   ]
+  },
+  "bodrum-bitez": {
+   "h": "bcdc4f9615",
+   "description": "Bitez is a resort bay 7 km from Bodrum with a gently sloping sandy beach and shallows, long known as a place to learn windsurfing. In the afternoon the summer Meltemi blows with a thermal boost, but the wind comes off the land and is gusty in the bay. A good choice for beginners on a family holiday, not a trip for strong wind.",
+   "rating_basis": "A long-standing windsurf learning bay on the Bodrum peninsula (beachesforkings, Daily Sabah); for advanced sailors the wind is a bit light and gusty (kite-and-windsurfing-guide)",
+   "waves_note": "Flat water near the shore in the bay, with wind chop and small jumping waves further out",
+   "hazards": "Offshore wind — if you break gear, you drift towards the mouth of the bay; swimmers and dinghies; the wind is noticeably stronger at the mouth of the bay",
+   "gustiness_note": "Offshore wind: gusty and uneven in the bay itself, blowing properly only at the mouth of the bay; light in the morning, strengthening towards evening",
+   "crowd_note": "A resort bay: swimmers, dinghies and catamarans on the water, so you have to weave between them",
+   "region": "Bodrum peninsula, Muğla Province",
+   "launch": "A gently sloping beach of sand and fine pebbles with shallows — easy to launch and safe to fall; beach clubs and cafés along the shore",
+   "sail_note": "You need bigger sails: usually 6.0–7.5 m², 5.0–5.5 m² on windy days",
+   "pros": [
+    "Shallows and flat water for learning",
+    "Almost daily afternoon breeze in summer",
+    "Well-developed resort infrastructure, close to Bodrum"
+   ],
+   "cons": [
+    "Offshore wind, gusty and a bit light for advanced sailors",
+    "Lots of swimmers and boats",
+    "Little information on schools, no big windsurf centres"
+   ],
+   "wind_dir": "N–NW (Meltemi + daytime thermal), offshore / cross-off",
+   "airport": "BJV — Bodrum-Milas, ~45 minutes"
+  },
+  "bird-island-basin": {
+   "h": "c9ba1f0dd6",
+   "description": "Bird Island Basin is the windsurf area of Padre Island National Seashore on the shore of the Laguna Madre, about 40 minutes from Corpus Christi. It's a huge, shallow lagoon with a sandy bottom where you can stand almost everywhere. In spring and summer a steady southeasterly blows in off the Gulf. Kites are not allowed, so the water belongs to windsurfers: from beginners to freeriders and slalom sailors.",
+   "rating_basis": "The National Park Service calls it one of the best windsurf spots in the US. Reviews praise the endless shallow flat water and steady wind. Rated below the top spots because of the lack of waves and modest infrastructure",
+   "waves_note": "No waves: the shallow Laguna Madre, from flat water to moderate chop in strong wind",
+   "hazards": "Oyster shells on the bottom (cuts — water shoes needed), weed on the fin, hurricanes and storms from August to October. Further out in the lagoon — the Intracoastal Waterway shipping channel with barges",
+   "gustiness_note": "The southeasterly off the Gulf of Mexico is generally steady over the flat lagoon. Northerly fronts in winter are stronger and gustier",
+   "crowd_note": "Spacious: a huge lagoon, kites are banned in the National Seashore, and motorboats may not enter the windsurf area",
+   "region": "Padre Island, Laguna Madre, Texas",
+   "launch": "Sandy beach in the park's recreation area: rig right on the shore, parking on a gravel lot, toilets, shade shelters, primitive campground nearby. About 1–1.5 m deep over a huge area — you can stand almost everywhere. There are oyster shells on the bottom, so water shoes are needed. From late spring to early autumn a weed fin comes in handy. You need a park entrance pass and a day-use fee",
+   "sail_note": "Usually 5.0–6.5 m² in spring, 4.5–5.0 on strong days; 7.0–8.0 in summer and in light wind. Rental sails from 3.4 to 8.2",
+   "pros": [
+    "Shallow flat water over a huge area",
+    "Steady wind in spring and summer",
+    "Kites banned, no motorboats",
+    "Rental right on the shore, boards as small as 76 l and sails as small as 3.4 m²",
+    "Warm water from April to October"
+   ],
+   "cons": [
+    "No waves",
+    "Modest infrastructure: toilets, shade shelters, primitive campground",
+    "Weed in summer, sharp shells",
+    "Late summer and early autumn — light wind and hurricane season"
+   ],
+   "wind_dir": "SE (prevailing, spring–summer), N with winter fronts; almost all directions work",
+   "airport": "CRP — Corpus Christi, ~45 minutes",
+   "rental_price_note": "full rigged kit for a day at Worldwinds, sizes can be swapped; 7 days — $415",
+   "school_notes": [
+    "the park's official concessionaire right at the spot: rental (boards 76–250 l, sails 3.4–8.2), lessons, wingfoil. Open daily from 11:00 to 18:00"
+   ]
+  },
+  "cape-hatteras-canadian-hole": {
+   "h": "0c2fcdcf0c",
+   "description": "Canadian Hole (Haulover Day Use Area) is a legendary spot on Pamlico Sound on Hatteras Island, between Avon and Buxton. It was named after the Canadian windsurfers who came here in droves from the 1980s. There's shallow flat water for hundreds of metres, ideal for freeride, freestyle and learning, and across the road there's the ocean with waves. The best time is spring and autumn.",
+   "rating_basis": "The best-known windsurf spot on the US East Coast since the 1980s, covered by Boards and Outer Banks guidebooks. Shallow flat water for freeride and learning, but the wind isn't as reliable as at trade-wind spots",
+   "waves_note": "No waves: this is the Pamlico Sound side, facing the mainland. From 13 knots of wind, 30–60 cm chop builds. On the ocean side of the island, across the road, there are waves for wave sailing in strong wind",
+   "hazards": "Shells and rocks on the bottom (foot cuts), a very shallow bar to the right of the beach, weed, sudden wind shifts with fronts and thunderstorms in summer, hurricanes and storms in autumn. Take care crossing the NC-12 highway, where the speed limit is 88 km/h",
+   "gustiness_note": "The summer southwesterly breeze is steady but often light. In spring and autumn the frontal winds are stronger, with gusts and direction changes",
+   "crowd_note": "In spring and autumn windsurfers flock here from all over the East Coast and Canada, but there's plenty of water. In summer the beach is mostly families",
+   "region": "Hatteras Island, Outer Banks, North Carolina",
+   "events": "OBX-WIND — races (long distance, slalom, freestyle) and a festival in neighbouring Avon behind the OceanAir Sports shop, in October. Results have been published since 2019; in 2026 the races were cancelled because of a storm and evacuation",
+   "launch": "A big free car park by the NC-12 highway, showers and toilets (seasonal, from spring to late autumn), sandy beach. Shallow for hundreds of metres: ankle- or knee-deep near the shore, waist-deep further out. The bottom has shells and rocks in places, so water shoes are needed. There's a very shallow bar to the right of the beach. Pits left on the bottom by sand dredging after the 1960s gave the spot the “Hole” in its name",
+   "sail_note": "Usually 5.0–6.5 m² in spring and autumn, 4.2–5.0 in strong fronts; 6.5–8.0 or foil in the summer breeze",
+   "pros": [
+    "Shallow flat water, you can stand almost everywhere",
+    "Ocean waves across the road",
+    "Free parking, showers, toilets",
+    "Shops and rental nearby in Avon"
+   ],
+   "cons": [
+    "Less reliable wind than at trade-wind spots",
+    "Often light breeze in summer, cold in winter",
+    "Sharp shelly bottom, water shoes needed",
+    "Hurricane season (August–October) and storms",
+    "Far from major airports"
+   ],
+   "wind_dir": "SW (summer sea breeze) or NE with fronts, side-shore / slightly side-off",
+   "airport": "ORF — Norfolk, ~3 hours; the small Billy Mitchell airport (HSE) near Frisco is closer",
+   "school_notes": [
+    "Avon, a few minutes away: daily and weekly rental (Ezzy, Severne, North, Goya, Duotone, Pro package available), lessons, shallow water right behind the shop"
+   ]
+  },
+  "hood-river-event-site": {
+   "h": "b23e75beeb",
+   "description": "The Event Site is Hood River's main launch on the Columbia River, an hour's drive from Portland. From May to September a strong westerly thermal blows against the current almost every day, so there's chop, river swell and plenty of wind. It's a handy base for dozens of other Gorge spots, from flat water to swell (The Hatchery, The Wall).",
+   "rating_basis": "Hood River is called the “windsurfing capital of the world”: strong, reliable summer wind, dozens of spots in the Gorge and a well-developed industry. Rating lowered for the gusts, the cold water and the short season",
+   "waves_note": "The westerly wind blows against the Columbia's current and kicks up river swell. At the Event Site it's small, around 0.5–1 m, with constant chop. At neighbouring Gorge spots (The Hatchery, The Wall) the swell can reach 2 m and more in strong wind",
+   "hazards": "The river current carries you downstream if the wind drops or your gear breaks. Gusts, cold water in spring, barges and ships in the channel, rocks along the shore outside the sandy entry",
+   "gustiness_note": "A strong thermal in the Gorge: cool Pacific air is drawn towards the hot desert to the east. The wind is gusty, and 3.7 m² days come more often than you'd expect",
+   "crowd_note": "The busiest launch in the area, crowded in summer. It's also a social hub where racers and locals hang out",
+   "region": "Columbia River Gorge, Oregon",
+   "events": "Gorge Beach Bash — a festival with gear testing, free clinics and a swap meet (late June; per a 2018 guide)",
+   "launch": "A big rigging lawn right by downtown Hood River, a small sandy entry, and a rocky shore elsewhere. Paid parking: $2.50 an hour, max $15 a day, with a season pass available (2024 data). Not a spot for your first time: beginners learn nearby in the shallow lagoon at The Hook",
+   "sail_note": "Usually 4.2–5.3 m², 3.7–4.2 on strong days, 5.5–6.5 in light wind. The water is cool, so you need a wetsuit",
+   "pros": [
+    "Strong wind almost every day in summer",
+    "Convenient rigging lawn in the middle of town",
+    "Lots of Gorge spots to suit every taste",
+    "Well-developed windsurf industry: shops, repairs, schools"
+   ],
+   "cons": [
+    "Short season: cold in winter, with hardly any sailing",
+    "Gusty wind and current",
+    "Cool water, you need a wetsuit",
+    "Paid parking and summer crowds"
+   ],
+   "wind_dir": "W, side-shore (along the river, against the current)",
+   "airport": "PDX — Portland, ~1 hour",
+   "rental_price_note": "per day of rental at The Hook lagoon (Big Winds), per Club Locarno's 2018 guide; probably more expensive now",
+   "school_notes": [
+    "shop, repairs, rental and lessons at The Hook lagoon",
+    "windsurf and other water sports lessons",
+    "beginner lessons at The Hook",
+    "windsurf shop, daily and multi-day rental"
+   ]
+  },
+  "hookipa": {
+   "h": "58a07564e3",
+   "description": "Ho'okipa on Maui's north shore is the cult spot of wave windsurfing. A steady trade wind blows from the right, and powerful reef waves deliver classic starboard-tack down-the-line riding. Every autumn it hosts the Aloha Classic, the final of the world wave tour. Summer brings more wind and smaller waves; autumn and spring offer the best combination of wind and swell.",
+   "rating_basis": "One of the world's best-known wave spots, home spot of the pros and venue of the Wave World Cup final (Aloha Classic); rating lowered only for the crowds and the risk",
+   "waves_note": "Reef waves: in summer mostly 1–2 m wind swell, from autumn to spring 2–5 m and bigger in a northwesterly swell. The main break is The Point (a right-hander, starboard tack down-the-line); in the rare southwesterly Kona wind people sail at Lanes",
+   "hazards": "Lava rocks and shallow reef (especially at low tide), shorebreak, rips, big waves in winter, no wind on the inside, collisions in the crowd",
+   "gustiness_note": "The trade wind is steady, but near the shore and on the inside it's lighter and patchy, with wind shadow by the cliffs",
+   "crowd_note": "On good days there are dozens of windsurfers at the peak; the bay is small and collisions are frequent. Strict priority on the wave and respect for surfers",
+   "region": "Maui, Hawaii",
+   "events": "Aloha Classic — the final event of the PWA/IWT Wave World Cup (October; in 2025 it started in mid-October)",
+   "launch": "Not a beach but a small, cramped cove below the park: a short shorebreak, then current. It's surrounded by black lava rocks that wreck a board and rig in seconds. Before your first session ask the locals about getting in, getting out and the currents. Windsurfers only go out after 11:00 — mornings belong to the surfers",
+   "sail_note": "Minimum kit: a wave board and 4.2 and 4.7 m² sails. 3.7–4.2 in a strong trade wind, 5.0–5.3 on light days",
+   "pros": [
+    "World-class waves and a steady trade wind",
+    "You can watch the pros on the water — the atmosphere of the wave windsurfing “mecca”",
+    "Warm water all year round, you can sail in boardshorts",
+    "Paia nearby, with accommodation and windsurf shops"
+   ],
+   "cons": [
+    "For confident wave sailors only",
+    "Very crowded on the water, with a strict pecking order",
+    "Lava rocks and a tricky exit, frequent breakages",
+    "No rental on the beach itself: gear is rented in Kahului or Paia",
+    "Windsurfers can only go out after 11:00"
+   ],
+   "wind_dir": "E–ENE trade wind, side-shore from the right (starboard tack — down-the-line)",
+   "airport": "OGG — Kahului (Maui), ~20 minutes"
+  },
+  "kanaha": {
+   "h": "826c533811",
+   "description": "Kanaha is Maui's main windsurf beach, a few minutes from Kahului airport. It has a handy grassy rigging area and a steady trade wind from the right. Between the shore and the reef there's a channel for freeride and bump & jump, and on the outer reefs, Uppers and Lowers, there are waves, up to 3–5 m in winter. Beginners learn near the shore in the morning, and everyone else goes out in the afternoon.",
+   "rating_basis": "Maui's main windsurf beach according to reviews and guides (Boards, Surf Magazin, Waterwind): an easy launch, steady trade wind, reef waves and freeride in one place. Downsides — crowds and rocks",
+   "waves_note": "The reefs are about 300 m from shore: Uppers is trickier, while at Lowers the wave lines up more cleanly. 0.5–1.5 m waves in summer, 3–5 m in a northerly swell in winter. Between the shore and the reef there's a choppy channel for freeride",
+   "hazards": "Small rocks and coral (foot cuts), reef waves that break gear in a big swell, a current towards the Kahului harbour entrance if you drift downwind, kiters downwind, spiky tree seeds in the rigging area",
+   "gustiness_note": "The trade wind is fairly steady, picking up after 11:00, with the best sessions around 16:00–18:00. Less reliable wind in winter",
+   "crowd_note": "The island's busiest windsurf spot: on good waves, up to 7 people per wave. These days there are lots of wing foilers on the water, and kiters ride downwind at Kite Beach",
+   "region": "Maui, Hawaii",
+   "launch": "Grassy rigging lawns, sand, showers, toilets, a tap for rinsing gear and a big free car park. On the beach the wind is gentle and the sand doesn't blow. The water is shallow over rocks and coral: don't push off the bottom with your foot when waterstarting. Windsurfers can go out from 11:00, with beginner lessons near the shore from 9:00. If the wind drops, you can come ashore downwind at Kite Beach",
+   "sail_note": "Usually 4.7–5.7 m² in summer, 4.2 on strong days; 5.5–6.5 in winter and in a light trade wind. 4.2–5.0 on the Uppers waves",
+   "pros": [
+    "Steady trade wind, windy almost every day in summer",
+    "Convenient facilities: lawn, showers, parking",
+    "Something for everyone: from learning near the shore to serious reef waves",
+    "Rental and gear shops nearby in Kahului",
+    "Warm water all year round"
+   ],
+   "cons": [
+    "Crowded on the water, lots of wing foilers",
+    "Small rocks and coral near the shore",
+    "You can only go out from 11:00",
+    "Maui is an expensive destination (accommodation, car hire)"
+   ],
+   "wind_dir": "NE–ENE trade wind, side-shore from the right",
+   "airport": "OGG — Kahului (Maui), ~5 minutes",
+   "rental_price_note": "board and two sails for a day, Kanaha Kai (per a Seabreeze forum review, 2022)",
+   "school_notes": [
+    "windsurf school at Kanaha since 1998, group and private beginner lessons in the mornings",
+    "rental: Starboard boards, Hot Sails Maui sails, car racks included",
+    "rental (formerly Neil Pryde Maui): Pryde sails, JP boards"
+   ]
+  },
+  "el-yaque-windsurf": {
+   "h": "7ee5a51d9a",
+   "description": "El Yaque on the south coast of Margarita Island is a legendary spot for freestyle and learning. A steady trade wind blows along the shore, and waist-deep shallow water stretches for hundreds of metres, so you can repeat tricks without waterstarting. The airport is five minutes away. The best wind is from December to July, and the windiest month is March.",
+   "rating_basis": "A long-standing “freestyle mecca” (Boards): shallow flat water and a steady trade wind almost all year round; freestyle stars grew up here, including Ricardo Campello. Rating lowered because of the unstable situation in the country and declining infrastructure",
+   "waves_note": "No waves: this is the island's south coast. Flat, shallow water near the shore, and beyond 400 m chop that builds with the wind",
+   "hazards": "Beyond the shallows there's chop and open sea; don't sail to Coche Island (it's far, and there are sharks). After 17:00 the beach switches over to kiters. Street crime and outages of phone service and fuel — check the current situation before you go",
+   "gustiness_note": "The trade wind is steady, lighter in the morning and building by lunchtime",
+   "crowd_note": "In its heyday it was very crowded in season; now there are noticeably fewer tourists. Kiters have been moved to a separate beach",
+   "region": "Margarita Island, Nueva Esparta State",
+   "launch": "Sandy beach in front of the hotels (the former Club Margarita), about 500 m long up to the fishing pier, with the centres right on the sand. Shallow for about 400 m: you can stand waist-deep and repeat tricks. Sandy bottom. Kiters aren't allowed on the main beach before 17:00 and have their own Kite Beach",
+   "sail_note": "Locals most often sail 4.7, 5.3 and 5.7 m²; rental sails range from 4 to 8 m²",
+   "pros": [
+    "Shallow flat water, you can stand for hundreds of metres",
+    "Steady trade wind for most of the year",
+    "Airport 5–10 minutes away",
+    "Warm water and inexpensive accommodation",
+    "Direct flights from Moscow resumed in 2025 (Nordwind, Conviasa)"
+   ],
+   "cons": [
+    "Unstable political and economic situation, check the safety advice",
+    "Infrastructure and choice of centres poorer than in the 2000s",
+    "No waves",
+    "Light wind in September–November"
+   ],
+   "wind_dir": "E–ENE trade wind, side-shore",
+   "airport": "PMV — Margarita (Porlamar), ~5–10 minutes: the beach is right behind the airport"
+  },
+  "mui-ne-windsurf": {
+   "h": "bf5fdb4c14",
+   "description": "Mui Ne is Vietnam's main windsurf and kite resort and one of the windiest places in Southeast Asia: from November to March the northeast monsoon delivers 15–30 knots almost every day. Sailing is in the bay along the long sandy Ham Tien beach — strong chop and wind waves, good for bump & jump, freestyle and slalom; a PWA event was held here in 2011. The resort has long been popular with Russian-speaking tourists.",
+   "rating_basis": "Planet Windsurf Holidays, Sportif Travel and local guides: a steady 15–30-knot winter monsoon, warm water, a 2011 PWA event (freestyle and slalom). Downsides — strong chop and shorebreak, kiters have taken over the beach, few windsurf centres",
+   "waves_note": "Hardly any swell — the waves are wind-driven: at the height of the season (December–January) strong chop and short 1–2 m wind waves, with shorebreak near the beach. In the morning the water is smoother by the harbour wall (port wall) west of the main beach. Separate wave spots — Malibu and Suoi Nuoc (onshore, mast-high waves on windy days), Ke Ga (a left by the lighthouse, ~30 km southwest of Phan Thiet)",
+   "hazards": "Shorebreak when going out and coming in; gusts up to 35–40 knots in December–January; lots of kites on the water (risk of collisions and lines); fishermen's basket boats and nets in the bay; on a downwinder towards Phan Thiet — boats and changing conditions; strong sun",
+   "gustiness_note": "The northeast monsoon, boosted by the sea breeze: the wind arrives by late morning and holds until sunset, with gusts up to 35–40 knots in December–January. Right by the shore the wind is lighter and patchy — 200 m out from the beach it's noticeably stronger",
+   "crowd_note": "In season the main beach is packed with kiters in the afternoon (up to a hundred kites), and not everyone follows the right-of-way rules; windsurfers have more room by the harbour wall in the morning and at the neighbouring spots",
+   "region": "Phan Thiet, former Binh Thuan Province (Lam Dong since 2025), Ham Tien beach",
+   "events": "PWA Vietnam Grand Slam — a PWA Freestyle and Slalom World Cup event (February–March 2011)",
+   "launch": "The long sandy Ham Tien beach along Nguyen Dinh Chieu street, with centres right on the beach (Jibe's Beach Club, Surf4you and others). Sandy bottom, with hardly any reefs or rocks, but on windy days there's shorebreak — going out and coming in takes some skill. Beginners are better off in the morning, when the wind is lighter and the water calmer",
+   "sail_note": "Usually 4.2–5.3 m² in December–January, 5.0–6.0 in February–March; in the light morning hours and in summer (10–14-knot southerly) you need a big 6.5–7.5 m² sail or a foil",
+   "pros": [
+    "Reliable wind almost every day from November to March",
+    "Warm water all year round (25–29 °C)",
+    "Sandy bottom with no reefs at the main beach",
+    "Lots of Russian-speaking tourists and services, low cost of living",
+    "Wave spots (Malibu, Ke Ga) and Phan Rang nearby"
+   ],
+   "cons": [
+    "Strong chop and shorebreak — hard for beginners at the height of the season",
+    "The beach is packed with kiters",
+    "Few windsurf centres, and the gear isn't always new",
+    "Light, unreliable wind in summer and the shoulder months (May, October)",
+    "Long transfer from Ho Chi Minh City"
+   ],
+   "wind_dir": "NE–ENE, side-shore / side-onshore from the left (November–April); S–SW and lighter in summer",
+   "airport": "SGN — Ho Chi Minh City (Tan Son Nhat), ~200 km, 3–4 hours via the expressway; Phan Thiet airport is under construction (civil terminal groundbreaking in 2026)",
+   "school_notes": [
+    "Mui Ne's oldest windsurf centre (since 2000), 90 Nguyen Dinh Chieu; Starboard / Severne, year-round rental, courses, beach bar and restaurant",
+    "Surf hotel with a windsurf and wingfoil station and workshop; according to vietnamspot.ru, there are Russian-speaking instructors",
+    "10 Nguyen Dinh Chieu; mainly kite, but also windsurfing, surfing and SUP"
+   ]
+  },
+  "big-bay-bloubergstrand": {
+   "h": "ff00842586",
+   "description": "Big Bay is Cape Town's main windsurf bay, in Bloubergstrand, with a view of Table Mountain. In summer (November–March) the strong south-easterly “Cape Doctor” blows here side-shore / side-onshore: perfect for jumping, freestyle and wave riding. It hosted the Oxbow Big Bay Classic with the IFCA Slalom World Championship, and now hosts Freestyle Pro Tour events.",
+   "rating_basis": "Surf Magazin, Windsurfing UK and Boards describe Cape Town as one of the best winter (for Europeans) windsurf destinations, and Big Bay as its hub: strong, steady wind, jumping and waves with a view of Table Mountain; downsides — cold water and almost no rental",
+   "waves_note": "The bay is sheltered by rocks, so the water is smoother than at neighbouring Sunset and Doodles: in a small swell, waves up to 1 m (freestyle, jumping), in a medium swell 1.5–2.5 m; winter storms bring big waves",
+   "hazards": "Rocks at both ends of the bay; very strong, gusty wind towards evening (up to 40 knots); cold water — hypothermia if you break gear; crime — don't leave valuables in the car; great white sharks are rarely seen on the west coast",
+   "gustiness_note": "The south-easterly “Cape Doctor” blows in cycles of 3–4 days with 1–2 calm days in between; moderate in the morning, often 30–40 knots towards evening; slightly lighter at Big Bay than at Sunset Beach",
+   "crowd_note": "In December–February there are lots of windsurfers and especially kiters, and the car park is overflowing; in strong wind towards evening it's mostly experienced riders left on the water",
+   "region": "Bloubergstrand, Cape Town, Western Cape",
+   "events": "Oxbow Big Bay Classic (January 2009: IFCA Slalom World Championship and WSA Open Wave); Freestyle Pro Tour Cape Town events (January 2023–2024, with the sea round at Big Bay / Sunset / KFC depending on conditions)",
+   "launch": "Sandy beach by the lifeguard tower and the lawn in front of the promenade with cafés and shops; people rig on the lawn. The bay is bounded by rocks on both sides — keep well away from them; small shorebreak. The car park is jammed on windy days",
+   "sail_note": "4.2–5.0 m² in the morning and for freestyle, 3.4–4.2 m² in the afternoon; on strong days you need your smallest sail; you'll hardly ever need more than 5.5 m²",
+   "pros": [
+    "Strong, frequent wind from November to March",
+    "Excellent conditions for jumping and freestyle, with smoother waves in the bay than at the neighbouring spots",
+    "Another dozen spots nearby (Sunset, Doodles, Melkbos, Langebaan) — you can pick one to suit the wind",
+    "Strong local and visiting community, cafés right by the beach"
+   ],
+   "cons": [
+    "Cold water at 12–15 °C, you need a 4/3–5/3 wetsuit",
+    "Almost no windsurf rental in Cape Town — you need your own gear (there's rental in Langebaan)",
+    "Crowded because of the kiters, overflowing car park",
+    "In winter (May–September) the wind is rare and stormy"
+   ],
+   "wind_dir": "SSE–SE (“Cape Doctor”), side-shore / side-onshore",
+   "airport": "CPT — Cape Town, ~30 minutes"
+  },
+  "langebaan": {
+   "h": "a82acba699",
+   "description": "Langebaan is a big, shallow lagoon 1.5 hours north of Cape Town and the region's best flat water for learning, freestyle and fast freeriding. The summer south-easterly blows side-shore from the left, gentle in the morning and strengthening by midday. The Cape Sports Center on the main beach is effectively the only windsurf rental around Cape Town.",
+   "rating_basis": "Surf Magazin and Sportif call Langebaan the best place in the Cape Town region for flat water and learning, and the Cape Sports Center the only full-fledged windsurf rental in the area; the lagoon is considered one of the most wind-reliable",
+   "waves_note": "For the first ~200 m from shore by the centre the water is almost glassy (the point blocks the waves), with tide-dependent chop further out; in strong westerly and southwesterly swells there can be clean small waves by the points",
+   "hazards": "Currents at the lagoon mouth (especially at low tide), boats near the mouth, shallows at low tide, shells on the beach; the wind picks up quickly in the afternoon",
+   "gustiness_note": "Gentle wind in the morning, building by midday; at the height of the season up to 30–40 knots towards evening, and the weather changes quickly. In SW–NW winds the surrounding hills accelerate the wind",
+   "crowd_note": "Busy in December–February, especially with kiters at neighbouring Shark Bay; by the centre on the main beach there's usually enough room",
+   "region": "Langebaan Lagoon, West Coast, Western Cape",
+   "launch": "Langebaan's main beach by the Cape Sports Center: an even sandy entry with a gently sloping bottom and no shorebreak; at low tide there's a standing-depth area near the shore. There are shells on the beach — better to wear shoes",
+   "sail_note": "5.5–6.5 m² in the morning (training sails for beginners), 4.5–5.3 m² in the afternoon, 3.7–4.5 m² on strong days; foil sessions in light wind",
+   "pros": [
+    "Flat water near the shore, handy for learning and freestyle",
+    "The only proper windsurf rental in the Cape Town region",
+    "The lagoon water is warmer than the ocean",
+    "Works in a northwesterly when the other Cape Town spots are dead"
+   ],
+   "cons": [
+    "You need a wetsuit all year round",
+    "The wind can get too strong for beginners towards evening",
+    "Far from Cape Town, you need a car",
+    "Expensive rental by local standards"
+   ],
+   "wind_dir": "S–SSE (summer south-easterly), side-shore from the left; NW in winter — side-shore from the right",
+   "airport": "CPT — Cape Town, ~1.5 h by car (about 120 km)",
+   "rental_price_note": "board + rig for a day per the Cape Sports Center price list (a week is about 7,800 ZAR)",
+   "school_notes": [
+    "Station right on the beach, rental for all levels and foil, courses (2 h private — 2,200 ZAR, 2026/27 season), rooftop café; open roughly 9:00–17:00"
    ]
   }
  }

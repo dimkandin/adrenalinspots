@@ -180,6 +180,7 @@ const KITE = /kite|kitesurf|kiteboard|кайт|kiter|flysurf/i;
 const SURF = /surf|surfer|surfing|сёрф|серф|wave|barrel|line-?up|longboard/i;
 const SKI = /ski|snowboard|piste|slope|lift|gondola|cable car|télé|seilbahn|горнолыж|лыж|сноуборд|resort|powder/i;
 const CLIMB = /climb|boulder|crag|escalad|kletter|arrampic|скалолаз|боулдер|скал|sport route|multi-?pitch|belay|\brope\b/i;
+const WIND = /windsurf|wind-surf|boardsail|sailboard|planche à voile|tavola a vela|виндсёрф|виндсерф/i;
 const PARA = /paraglid|parapent|parapendio|gleitschirm|parapente|paraglider|параплан|tandem flight|paragliding/i;
 const BAD = /\bmap\b|karte|carte|logo|flag|coat of arms|diagram|\.svg|\.tif|\.pdf|chart|stamp/i;
 
@@ -196,8 +197,11 @@ export function placeNames(name) {
   return [...new Set(out.length ? out : [name])];
 }
 
+let openverseOff = false;   // anonymous requests may be refused (401): then Commons only, without asking again
 async function openverse(q, want = KITE) {
+  if (openverseOff) return [];
   const r = await fetch('https://api.openverse.org/v1/images/?' + new URLSearchParams({ q, page_size: '30', mature: 'false' }));
+  if (r.status === 401 || r.status === 403 || r.status === 429) openverseOff = true;
   if (!r.ok) throw new Error(`Openverse ${r.status}`);
   const j = await r.json();
   return (j.results || []).filter((x) => {
@@ -228,8 +232,8 @@ async function commons(q, want = KITE) {
 export async function kitePhotos(name, snow = false, activity = 'kite') {
   const key = `p:${name}:${snow}:${activity}`;
   if (cache.has(key)) return cache.get(key);
-  const sport = { surf: 'surfing', snowboard: 'ski resort', climbing: 'climbing', paragliding: 'paragliding' }[activity] || (snow ? 'snowkite' : 'kitesurfing');
-  const want = { surf: SURF, snowboard: SKI, climbing: CLIMB, paragliding: PARA }[activity] || KITE;
+  const sport = { surf: 'surfing', snowboard: 'ski resort', climbing: 'climbing', paragliding: 'paragliding', windsurf: 'windsurfing' }[activity] || (snow ? 'snowkite' : 'kitesurfing');
+  const want = { surf: SURF, snowboard: SKI, climbing: CLIMB, paragliding: PARA, windsurf: WIND }[activity] || KITE;
   const p = (async () => {
     const out = []; const seen = new Set();
     const add = (list) => list.forEach((x) => { const k = x.url.split('?')[0]; if (!seen.has(k)) { seen.add(k); out.push(x); } });

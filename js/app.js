@@ -19,6 +19,8 @@ const ACT = {
     value: (s, m) => (s.snow && s.snow[m - 1] != null ? cm(s.snow[m - 1]) : '') },
   climbing: { qf: ['novisa', 'ru', 'beginner', 'hard', 'rain', 'shade'], dd: ['minRating', 'pop', 'style', 'rock', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.air && s.air[m - 1] != null ? deg(s.air[m - 1]) : '') },
+  windsurf: { qf: ['novisa', 'ru', 'beginner', 'flat', 'wave', 'rental'], dd: ['minRating', 'pop', 'wstyle', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: true,
+    value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
   paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
 };
@@ -27,6 +29,7 @@ const DEFAULT_FILTERS = {
   minRating: null, minAir: null, minWater: null, vibe: null, pop: null, maxPass: null, minVert: null, minKm: null,
   hard: false, rain: false, shade: false, style: null, rock: null,
   tandem: false, courses: false, xc: false, flytype: null, maxTandem: null,
+  rental: false, wstyle: null,
 };
 const MAIN_ROCKS = ['limestone', 'granite', 'sandstone'];
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
@@ -93,6 +96,8 @@ function passesFilters(s, m = state.month) {
   if (f.rain && !((s.rain_ok || 0) >= 2)) return false;
   if (f.shade && !((s.shade || 0) >= 4)) return false;
   if (f.style && !(s.styles || []).includes(f.style)) return false;
+  if (f.wstyle && !(s.styles || []).includes(f.wstyle)) return false;
+  if (f.rental && !s.rental) return false;
   if (f.tandem && !s.tandem) return false;
   if (f.courses && !s.courses) return false;
   if (f.xc && !((s.xc || 0) >= 4)) return false;
@@ -441,6 +446,11 @@ const DROPDOWNS = [
     key: 'style', title: t('dd.style.title'),
     label: (v) => (v ? t(`style.${v}`) : t('dd.style.label')),
     options: [{ value: null, text: t('dd.any_m') }, ...['boulder', 'sport', 'multipitch', 'trad', 'dws'].map((v) => ({ value: v, text: t(`style.${v}`) }))],
+  },
+  {
+    key: 'wstyle', title: t('dd.wstyle.title'),
+    label: (v) => (v ? t(`wstyle.${v}`) : t('dd.wstyle.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...['freeride', 'bump_jump', 'wave', 'freestyle', 'slalom', 'speed', 'foil'].map((v) => ({ value: v, text: t(`wstyle.${v}`) }))],
   },
   {
     key: 'rock', title: t('dd.rock.title'),

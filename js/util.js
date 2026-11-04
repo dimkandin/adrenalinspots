@@ -44,6 +44,13 @@ export const PG_LEVEL = dictOf('pglevel', ['tandem', 'student', 'pilot', 'xc']);
 /** Compass points in the interface language: 'SW' -> 'ЮЗ' in Russian, 'SO' in Spanish… */
 export const compassText = (d) => String(d).split('').map((ch) => t('compass_letters')['NESW'.indexOf(ch)] || ch).join('');
 export const kmh = (kn) => (kn == null ? '—' : `${num(Math.round(kn * 1.852))} ${t('unit.kmh')}`);
+// windsurf
+export const WSTYLE = dictOf('wstyle', ['freeride', 'bump_jump', 'wave', 'freestyle', 'slalom', 'speed', 'foil']);
+/** Usual sail for a ~75 kg rider at a given wind (m², rule of thumb 1.34 × weight / knots); null below planing wind. */
+export function sailSize(kn) {
+  if (kn == null || kn < 10) return null;
+  return Math.max(3.3, Math.min(9.5, Math.round((1.34 * 75 / kn) * 10) / 10));
+}
 export const SCHOOLS = dictOf('schools', ['none', 'few', 'several', 'many']);
 export const WIND_TYPE = dictOf('wind_type', ['thermal', 'trade', 'monsoon', 'frontal', 'katabatic', 'mixed']);
 export const SPOT_TYPE = dictOf('spot_type', ['lagoon', 'beach', 'bay', 'lake', 'reservoir', 'river', 'sandbank', 'snow_plateau', 'frozen_lake']);
