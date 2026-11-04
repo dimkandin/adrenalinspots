@@ -13,9 +13,19 @@ export const LANGS = [
 ];
 const CODES = LANGS.map((l) => l.code);
 
+// Every page exists once per language: Russian without a prefix (/spot/tarifa), the others under /en/, /es/… (generated
+// by backend/seo.py for search engines and link previews). The language in the address wins; on a page without a prefix
+// a person's saved choice or browser language decides (and the address then switches to that language), while search
+// engines and link-preview robots always get the page's own language, Russian.
+const BOT = /bot|crawl|spider|slurp|yandex|google|bing|baidu|duckduck|facebookexternalhit|telegram|whatsapp|vkshare|skype|discord|slack|lighthouse/i;
+const segment = location.pathname.split('/')[1];
+const pathLang = CODES.includes(segment) && segment !== 'ru' ? segment : null;
+
 function detect() {
   const fromUrl = new URLSearchParams(location.search).get('lang');
   if (CODES.includes(fromUrl)) return fromUrl;
+  if (pathLang) return pathLang;
+  if (BOT.test(navigator.userAgent || '')) return 'ru';
   try {
     const saved = localStorage.getItem('lang');
     if (CODES.includes(saved)) return saved;
@@ -30,6 +40,14 @@ function detect() {
 
 export const lang = detect();
 export const isRu = lang === 'ru';
+/** Address prefix of the interface language: '' for Russian, '/en' for English… */
+export const PREFIX = isRu ? '' : `/${lang}`;
+/** The page address without the language prefix: '/', '/surf', '/spot/tarifa-valdevaqueros'. */
+export function logicalPath() {
+  let p = pathLang ? location.pathname.slice(pathLang.length + 1) || '/' : location.pathname;
+  p = p.replace(/\/index(\.html)?$/, '/').replace(/\.html$/, '');
+  return p || '/';
+}
 document.documentElement.lang = lang;
 
 const load = async (code) => {
@@ -42,7 +60,9 @@ export function setLang(code) {
   if (!CODES.includes(code) || code === lang) return;
   try { localStorage.setItem('lang', code); } catch { /* ignore */ }
   const url = new URL(location.href);
-  url.searchParams.set('lang', code);
+  url.searchParams.delete('lang');
+  const path = logicalPath();
+  url.pathname = (code === 'ru' ? '' : `/${code}`) + (path === '/' && code !== 'ru' ? '/' : path);
   location.replace(url.toString());
 }
 
@@ -85,8 +105,10 @@ export function applyStatic(root = document) {
   root.querySelectorAll('[data-i18n-aria]').forEach((el) => el.setAttribute('aria-label', t(el.dataset.i18nAria)));
   root.querySelectorAll('[data-i18n-title]').forEach((el) => el.setAttribute('title', t(el.dataset.i18nTitle)));
   root.querySelectorAll('[data-i18n-placeholder]').forEach((el) => el.setAttribute('placeholder', t(el.dataset.i18nPlaceholder)));
-  document.title = t('meta.title');
-  document.querySelector('meta[name="description"]')?.setAttribute('content', t('meta.description'));
+  if (!document.querySelector('link[rel="canonical"]')) {   // generated pages (backend/seo.py) keep their own description
+    document.title = t('meta.title');
+    document.querySelector('meta[name="description"]')?.setAttribute('content', t('meta.description'));
+  }
 }
 
 // ---------- translated spot texts --------------------------------------------------------
@@ -94,7 +116,7 @@ let pack = null;      // spot texts in the interface language
 let packEn = null;    // English, for spots not translated into that language yet
 async function fetchPack(code) {
   try {
-    const r = await fetch(`i18n/spots.${code}.json`);
+    const r = await fetch(`/i18n/spots.${code}.json`);
     return r.ok ? (await r.json()).spots || {} : null;
   } catch { return null; }
 }

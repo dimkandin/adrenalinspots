@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /setup.html
+
+Sitemap: https://adrenalinspots.com/sitemap.xml

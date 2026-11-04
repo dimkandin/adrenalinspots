@@ -4,7 +4,7 @@ import { BASEMAPS } from './basemaps.js';
 import { injectFlagCSS } from './flags.js';
 import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, setData, setSelected, updatePadding } from './map.js';
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
-import { LANGS, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, num, setLang, t, tn } from './i18n.js';
+import { LANGS, PREFIX, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
 import {
   MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, deg, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
@@ -72,10 +72,10 @@ async function getJSON(apiUrl, staticUrl) {
   if (!r2.ok) throw new Error(r2.status === 404 ? t('err.not_found') : t('err.no_data', { status: r2.status }));
   return r2.json();
 }
-const loadMeta = () => getJSON('/api/meta', 'data/meta.json');
-const loadSpots = () => getJSON(`/api/spots?activity=${state.activity}`, `data/spots-${state.activity}.json`);
+const loadMeta = () => getJSON('/api/meta', '/data/meta.json');
+const loadSpots = () => getJSON(`/api/spots?activity=${state.activity}`, `/data/spots-${state.activity}.json`);
 const loadSpot = async (id) => {
-  const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${state.activity}`, `data/spot/${encodeURIComponent(id)}.json`);
+  const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${state.activity}`, `/data/spot/${encodeURIComponent(id)}.json`);
   // a spot can belong to several sections: show the seasons of the one being browsed
   if (spot.seasons_by && spot.seasons_by[state.activity]) { spot.seasons = spot.seasons_by[state.activity]; spot.activity = state.activity; }
   return localizeSpot(spot);
@@ -361,6 +361,7 @@ async function select(id, { focusCard = false, from = null } = {}) {
     if (state.selected !== id) return;
     renderPanel(spot, panelCtx());
     setSelected(id, true);
+    updateTitle(spot);
     trackView(`${spot.name} — ${state.activity}`);
     track('open_spot', { spot: id, activity: state.activity });
     if (focusCard) document.querySelector('#panel-title')?.focus({ preventScroll: true });
@@ -372,21 +373,41 @@ async function select(id, { focusCard = false, from = null } = {}) {
 }
 
 // ---------- URL state ------------------------------------------------------------
+// The address is a real page: /surf (a section), /spot/<id> (a spot), with the language prefix (/en/spot/<id>).
+// Each of them exists as a static file (backend/seo.py) with its own title and link preview; the month and, for spots,
+// the section live in the hash: /spot/tarifa-valdevaqueros#m=7.
+const pageActivity = document.querySelector('meta[name="as:activity"]')?.content || null;
 function writeHash() {
   const p = new URLSearchParams({ m: String(state.month) });
-  if (state.activity !== 'kite') p.set('a', state.activity);
-  if (state.selected) p.set('spot', state.selected);
-  const next = `#${p.toString()}`;
-  if (location.hash !== next) history.replaceState(null, '', next);
+  let path = `/${state.activity}`;
+  if (state.selected) {
+    path = `/spot/${encodeURIComponent(state.selected)}`;
+    if (state.activity !== 'kite') p.set('a', state.activity);
+  }
+  const search = new URLSearchParams(location.search);
+  search.delete('lang');                       // the language is in the path now
+  const q = search.toString();
+  const next = `${PREFIX}${path}${q ? `?${q}` : ''}#${p.toString()}`;
+  if (`${location.pathname}${location.search}${location.hash}` !== next) history.replaceState(null, '', next);
+  updateTitle();
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const m = Number(p.get('m'));
   if (Number.isInteger(m) && m >= 1 && m <= 12) state.month = m;
-  const a = p.get('a');
-  if (a && ACT[a]) state.activity = a;
-  else if (p.has('m') && !a) state.activity = 'kite';   // a shared link without a= is a kite link
-  return p.get('spot');
+  const path = logicalPath();
+  const spotPath = path.match(/^\/spot\/([^/]+)$/);
+  const sectionPath = path.match(/^\/([a-z]+)$/);
+  const a = p.get('a') || (sectionPath && ACT[sectionPath[1]] ? sectionPath[1] : null) || pageActivity;
+  if (a && ACT[a]) { state.activity = a; state.activityFromUrl = true; }
+  else if (p.has('m') && !spotPath) { state.activity = 'kite'; state.activityFromUrl = true; }   // an old shared link without a= is a kite link
+  return spotPath ? decodeURIComponent(spotPath[1]) : p.get('spot');   // #spot= in links shared before November 2026
+}
+const sportName = (a = state.activity) => t(`sport.${a}`);
+function updateTitle(spot = currentSpot()) {
+  document.title = spot && state.selected === spot.id
+    ? t('meta.spot_title', { name: spot.name_ru, sport: sportName() })
+    : t('meta.section_title', { sport: sportName() });
 }
 
 // ---------- sidebar --------------------------------------------------------------
@@ -509,6 +530,7 @@ async function switchActivity(a) {
   if (state.selected) select(null);
   state.spots = []; state.loadError = false;
   applyActivityUI();
+  writeHash();
   refresh();
   await loadActivitySpots();
 }
@@ -742,7 +764,56 @@ function initLanguage() {
   select.addEventListener('change', () => setLang(select.value));
 }
 
+// ---------- first visit: choose the sport ---------------------------------------------
+const PICK_ICONS = {
+  kite: '<path d="M8 15c2-7 9-11 16-10-4 3-6 7-6 12" /><path d="M8 15c3 0 7 1 10 2" /><path d="M8 15l6 12M18 17l-4 10" /><path d="M11 27h6" />',
+  surf: '<path d="M4 22c4 0 6-3 8-7s5-7 10-7c3 0 6 2 6 5-3-2-7 0-7 4 0 3 3 5 7 5" /><path d="M4 27c3 0 4-1.5 6-1.5S13 27 16 27s4-1.5 6-1.5 3 1.5 6 1.5" />',
+  windsurf: '<path d="M15 4c5 5 8 12 7 19H12z" /><path d="M15 4v19" /><path d="M7 26h20" /><path d="M4 29c3 0 4-1 6-1s3 1 6 1 4-1 6-1 3 1 6 1" />',
+  snowboard: '<path d="M3 26l9-14 5 7 4-5 8 12z" /><path d="M9.5 16l2.5 2 2-1.5" /><path d="M21 14l2 3" />',
+  climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
+  paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
+};
+function showSportPicker() {
+  const acts = state.activities.filter((a) => a.enabled && ACT[a.id]);
+  if (acts.length < 2 || document.querySelector('.picker')) return false;
+  const tiles = acts.map((a) => h('button', { type: 'button', class: 'picker-tile', 'data-a': a.id, onclick: () => close(a.id) },
+    h('span', { class: 'picker-icon', 'aria-hidden': 'true', html: `<svg viewBox="0 0 32 32">${PICK_ICONS[a.id] || PICK_ICONS.kite}</svg>` }),
+    h('span', { class: 'picker-name' }, sportName(a.id)),
+    h('span', { class: 'picker-meta' }, [a.spots ? spotsWord(a.spots) : null, t(`pick.tag.${a.id}`)].filter(Boolean).join(' · '))));
+  const skip = h('button', { type: 'button', class: 'picker-skip', onclick: () => close(null) }, t('pick.skip'));
+  const dlg = h('div', { class: 'picker', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'picker-title', 'aria-describedby': 'picker-sub' },
+    h('div', { class: 'picker-card' },
+      h('h2', { id: 'picker-title' }, t('pick.title')),
+      h('p', { id: 'picker-sub', class: 'picker-sub' }, t('pick.sub')),
+      h('div', { class: 'picker-grid' }, ...tiles),
+      skip));
+  const focusables = () => [...dlg.querySelectorAll('button')];
+  const onKey = (e) => {
+    if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(null); return; }
+    if (e.key !== 'Tab') return;
+    const f = focusables(); const i = f.indexOf(document.activeElement);
+    if (e.shiftKey && i <= 0) { f[f.length - 1].focus(); e.preventDefault(); }
+    else if (!e.shiftKey && i === f.length - 1) { f[0].focus(); e.preventDefault(); }
+  };
+  function close(a) {
+    dlg.remove();
+    document.removeEventListener('keydown', onKey, true);
+    document.querySelector('.app').removeAttribute('inert');
+    track('pick_sport', { activity: a || 'skip' });
+    if (a && a !== state.activity) switchActivity(a);
+    else { try { localStorage.setItem('activity', state.activity); } catch { /* ignore */ } writeHash(); }
+    document.querySelector('#search')?.focus({ preventScroll: true });
+  }
+  document.addEventListener('keydown', onKey, true);
+  document.querySelector('.app').setAttribute('inert', '');
+  document.body.append(dlg);
+  (tiles.find((b) => b.dataset.a === state.activity) || tiles[0]).focus();
+  return true;
+}
+const spotsWord = (n) => tn('n.spots', n);
+
 async function boot() {
+  document.querySelector('#seo')?.remove();   // the static text for search engines: the app shows the same, live
   initAnalytics();
   initLanguage();
   injectFlagCSS();
@@ -758,6 +829,8 @@ async function boot() {
   } catch { /* old server or no meta: kite only */ }
   if (!state.activities.some((a) => a.id === state.activity && a.enabled)) state.activity = 'kite';
   applyActivityUI();
+  const picking = !spotFromHash && !state.activityFromUrl && !savedActivity && showSportPicker();
+  if (!spotFromHash && !picking) writeHash();   // the picker writes the address once a sport is chosen
   try {
     await Promise.all([loadActivitySpots(), loadSpotTexts()]);
     if (spotFromHash) select(spotFromHash);
