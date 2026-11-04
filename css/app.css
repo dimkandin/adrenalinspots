@@ -158,6 +158,8 @@ a:hover { color: var(--sea-2); }
 .pp-btn .caret { font-size: 10px; color: var(--ink-3); }
 .pp-menu { top: auto; bottom: calc(100% + 6px); left: 0; width: 270px; max-width: calc(100vw - 24px); display: flex; flex-direction: column; }
 .pp-menu[hidden] { display: none; }
+/* a menu opened inside the side panel must cover the map controls (the panel is its own stacking context) */
+.side:has(.dd-menu:not([hidden])) { z-index: 30; }
 .pp-search { margin: 0 2px 4px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font: inherit; font-size: 13px; color: var(--ink); }
 .pp-search:focus { outline: 2px solid var(--sea-2); outline-offset: -1px; border-color: transparent; }
 .pp-list { display: grid; grid-auto-rows: max-content; align-content: start; gap: 1px; flex: 1 1 auto; min-height: 0; max-height: 300px; overflow-y: auto; overscroll-behavior: contain; }
