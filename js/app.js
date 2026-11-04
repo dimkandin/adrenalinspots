@@ -383,21 +383,25 @@ async function select(id, { focusCard = false, from = null } = {}) {
 }
 
 // ---------- URL state ------------------------------------------------------------
-// The address is a real page: /surf (a section), /spot/<id> (a spot), with the language prefix (/en/spot/<id>).
-// Each of them exists as a static file (backend/seo.py) with its own title and link preview; the month and, for spots,
-// the section live in the hash: /spot/tarifa-valdevaqueros#m=7.
+// The address is a real page, with the language prefix (/en/…): /surf/november (a section with a month chosen —
+// the address to share and the one search engines and AI assistants link for «where to go surfing in November»),
+// /surf (the section; the app moves on to /surf/<current month>), /spot/<id>#m=7&a=surf (a spot; month and section
+// in the hash). Each exists as a static file (backend/seo.py) with its own title, link preview and text for robots.
+const MONTH_SLUGS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
 const pageActivity = document.querySelector('meta[name="as:activity"]')?.content || null;
 function writeHash() {
-  const p = new URLSearchParams({ m: String(state.month) });
-  let path = `/${state.activity}`;
+  const p = new URLSearchParams();
+  let path = `/${state.activity}/${MONTH_SLUGS[state.month - 1]}`;
   if (state.selected) {
     path = `/spot/${encodeURIComponent(state.selected)}`;
+    p.set('m', String(state.month));
     if (state.activity !== 'kite') p.set('a', state.activity);
   }
   const search = new URLSearchParams(location.search);
   search.delete('lang');                       // the language is in the path now
   const q = search.toString();
-  const next = `${PREFIX}${path}${q ? `?${q}` : ''}#${p.toString()}`;
+  const hash = p.toString();
+  const next = `${PREFIX}${path}${q ? `?${q}` : ''}${hash ? `#${hash}` : ''}`;
   if (`${location.pathname}${location.search}${location.hash}` !== next) history.replaceState(null, '', next);
   updateTitle();
 }
@@ -407,7 +411,9 @@ function readHash() {
   if (Number.isInteger(m) && m >= 1 && m <= 12) state.month = m;
   const path = logicalPath();
   const spotPath = path.match(/^\/spot\/([^/]+)$/);
-  const sectionPath = path.match(/^\/([a-z]+)$/);
+  const monthPath = path.match(/^\/([a-z]+)\/([a-z]+)$/);
+  if (monthPath && ACT[monthPath[1]] && MONTH_SLUGS.includes(monthPath[2])) state.month = MONTH_SLUGS.indexOf(monthPath[2]) + 1;
+  const sectionPath = path.match(/^\/([a-z]+)$/) || (monthPath && ACT[monthPath[1]] ? monthPath : null);
   const a = p.get('a') || (sectionPath && ACT[sectionPath[1]] ? sectionPath[1] : null) || pageActivity;
   if (a && ACT[a]) { state.activity = a; state.activityFromUrl = true; }
   else if (p.has('m') && !spotPath) { state.activity = 'kite'; state.activityFromUrl = true; }   // an old shared link without a= is a kite link
@@ -417,7 +423,7 @@ const sportName = (a = state.activity) => t(`sport.${a}`);
 function updateTitle(spot = currentSpot()) {
   document.title = spot && state.selected === spot.id
     ? t('meta.spot_title', { name: spot.name_ru, sport: sportName() })
-    : t('meta.section_title', { sport: sportName() });
+    : t('meta.month_title', { sport: sportName(), in_month: MONTHS_IN[state.month - 1] });
 }
 
 // ---------- sidebar --------------------------------------------------------------
