@@ -11,7 +11,8 @@ export const CONTACT = { handle: 'dim_kandin', telegram: 'https://t.me/dim_kandi
 export const DONATE = {
   ru: 'https://pay.cloudtips.ru/p/0b6bfbab',   // CloudTips (T-Bank): Russian cards, 49–5 000 ₽, paid out to Dim's Russian card
   paypal: 'https://paypal.me/DmitryKandin',
-  platform: { name: 'Boosty', url: 'https://boosty.to/adrenalinspots/donate' },   // opens the «Send tip» form; pays out to a foreign card
+  // lava.top donations: any amount, Visa / Mastercard / PayPal, paid out to a foreign card (8 %); no sign-up for the donor
+  platform: { label: 'about.pay_card', url: 'https://app.lava.top/dim_kandin?tabId=donate' },
   usdt: [{ net: 'TRON (TRC-20)', address: 'TFyvfZpSut7Q4xiYrpLqjcuFFmXfc4AtLz', qr: '/img/usdt-trc20.svg' }],
 };
 
@@ -74,7 +75,7 @@ export function openAbout(from) {
   const channels = ru ? 'Telegram' : 'Telegram, Instagram';
   const payRu = DONATE.ru ? link('about-pay', DONATE.ru, null, t('about.pay_ru'), 'donate_ru') : null;
   const payPal = DONATE.paypal ? link('about-pay', DONATE.paypal, null, 'PayPal', 'donate_paypal') : null;
-  const payPlatform = DONATE.platform.url ? link('about-pay', DONATE.platform.url, null, DONATE.platform.name, 'donate_platform') : null;
+  const payPlatform = DONATE.platform.url ? link('about-pay', DONATE.platform.url, null, t(DONATE.platform.label), 'donate_platform') : null;
   // from Russia the Russian card goes first and PayPal last (it doesn't work there); elsewhere the other way round
   const donate = (ru ? [payRu, payPlatform, payPal] : [payPal, payPlatform, payRu]).filter(Boolean);
   const hasDonate = donate.length || DONATE.usdt.length;

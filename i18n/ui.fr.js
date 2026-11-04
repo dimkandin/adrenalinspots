@@ -761,6 +761,7 @@ export default {
   'about.donate_head': "Soutenir le projet",
   'about.donate': "La carte est gratuite et sans publicité. Si elle vous a aidé à choisir un voyage, vous pouvez soutenir son développement.",
   'about.pay_ru': "Carte depuis la Russie",
+  'about.pay_card': "Carte (Visa, Mastercard)",
   'about.copy': "Copier",
   'about.copied': "Copié ✓",
   'about.qr_alt': "QR code de l'adresse USDT",

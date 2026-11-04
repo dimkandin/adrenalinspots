@@ -761,6 +761,7 @@ export default {
   'about.donate_head': "Apoie o projeto",
   'about.donate': "O mapa é gratuito e sem anúncios. Se ele ajudou a escolher uma viagem, você pode apoiar o seu desenvolvimento.",
   'about.pay_ru': "Cartão da Rússia",
+  'about.pay_card': "Cartão (Visa, Mastercard)",
   'about.copy': "Copiar",
   'about.copied': "Copiado ✓",
   'about.qr_alt': "QR code do endereço USDT",

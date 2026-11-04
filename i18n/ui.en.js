@@ -761,6 +761,7 @@ export default {
   'about.donate_head': "Support the project",
   'about.donate': "The map is free and ad-free. If it helped you pick a trip, you can support its development.",
   'about.pay_ru': "Card from Russia",
+  'about.pay_card': "Card (Visa, Mastercard)",
   'about.copy': "Copy",
   'about.copied': "Copied ✓",
   'about.qr_alt': "QR code of the USDT address",
