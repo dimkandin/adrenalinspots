@@ -43,15 +43,29 @@ export async function loadVisaTable() {
 }
 export const visaTableDate = () => (data && data.updated) || null;
 
-/** All passports of the table (ISO codes), for the selector; Russia is always there. */
+const regionNames = (l) => { try { return new Intl.DisplayNames([l], { type: 'region' }); } catch { return null; } };
+const nameIn = (names, cc) => { try { return (names && names.of(cc)) || cc; } catch { return cc; } };
+/** Lower case without accents (and ё → е), so «turkiye» finds «Türkiye» and «гренландия» any spelling. */
+export const fold = (s) => String(s || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+
+// what people type instead of the official name
+const ALIAS = { US: 'usa america америка сша', GB: 'uk britain england великобритания англия британия', AE: 'uae emirates эмираты оаэ',
+  KR: 'south korea корея южная', KP: 'north korea корея северная кндр', NL: 'holland голландия', CZ: 'czech чехия', CI: 'ivory coast',
+  CD: 'congo drc конго', CG: 'congo конго', MK: 'macedonia македония', SZ: 'swaziland свазиленд', MM: 'burma бирма', TR: 'turkey турция' };
+
+/** All passports of the table (ISO codes), for the selector; Russia is always there.
+ *  `find` holds the names to search by: the interface language, English and Russian, plus the ISO code. */
 export function passportList() {
   const codes = new Set(data ? Object.keys(data.p) : []);
   codes.add('RU');
   if (passport) codes.add(passport);
-  const names = (() => { try { return new Intl.DisplayNames([lang], { type: 'region' }); } catch { return null; } })();
-  const name = (cc) => { try { return (names && names.of(cc)) || cc; } catch { return cc; } };
-  return [...codes].map((cc) => ({ code: cc, name: name(cc) })).sort((a, b) => a.name.localeCompare(b.name, lang));
+  const names = regionNames(lang); const en = regionNames('en'); const ru = regionNames('ru');
+  return [...codes].map((cc) => {
+    const name = nameIn(names, cc);
+    return { code: cc, name, find: fold([name, nameIn(en, cc), nameIn(ru, cc), cc, ALIAS[cc] || ''].join(' ')) };
+  }).sort((a, b) => a.name.localeCompare(b.name, lang));
 }
+export const passportName = (cc) => nameIn(regionNames(lang), cc);
 
 const STATUS = { h: 'home', f: 'no_visa', o: 'visa_on_arrival', e: 'evisa', t: 'eta', v: 'visa_required', x: 'no_entry' };
 

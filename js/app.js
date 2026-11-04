@@ -5,7 +5,7 @@ import { injectFlagCSS } from './flags.js';
 import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, setData, setSelected, updatePadding } from './map.js';
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, PREFIX, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
-import { applyPassport, hasPassport, loadVisaTable, passport, passportList, setPassport } from './visa.js';
+import { applyPassport, fold, hasPassport, loadVisaTable, passport, passportList, setPassport } from './visa.js';
 import {
   MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, deg, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
 } from './util.js';
@@ -841,18 +841,69 @@ function initLanguage() {
   for (const l of LANGS) select.append(h('option', { value: l.code, selected: l.code === lang }, l.name));
   select.addEventListener('change', () => setLang(select.value));
   select.addEventListener('input', () => setLang(select.value));
-  const pass = document.querySelector('#passport');
-  if (pass) {
-    const fill = () => {
-      pass.innerHTML = '';
-      pass.append(h('option', { value: '', selected: !passport }, t('passport.none')));
-      for (const p of passportList()) pass.append(h('option', { value: p.code, selected: p.code === passport }, `${flagEmoji(p.code)} ${p.name}`));
-    };
-    fill();
-    visaReady.then(fill);
-    pass.addEventListener('change', () => setPassport(pass.value));
-    pass.addEventListener('input', () => setPassport(pass.value));
-  }
+  initPassportPicker();
+}
+
+// ---------- passport: a button with a searchable list (≈200 countries are too many to scroll) ----------
+const PASSPORT_ICON = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="1.5" width="10" height="13" rx="1.6"/><circle cx="8" cy="7" r="2.4"/><path d="M5.5 11.5h5"/></svg>';
+function initPassportPicker() {
+  const host = document.querySelector('.passport');
+  if (!host) return;
+  const btn = h('button', { type: 'button', class: 'pp-btn', title: t('passport.title'), 'aria-expanded': 'false', 'aria-controls': 'pp-menu' },
+    h('span', { class: 'pp-ico', html: PASSPORT_ICON }), h('span', { class: 'pp-label' }), h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
+  const input = h('input', { type: 'search', class: 'pp-search', placeholder: t('passport.search'), autocomplete: 'off', spellcheck: 'false', 'aria-label': t('passport.search') });
+  const list = h('div', { class: 'pp-list', role: 'group', 'aria-label': t('passport.label') });
+  const menu = h('div', { class: 'dd-menu pp-menu', id: 'pp-menu', role: 'dialog', 'aria-label': t('passport.label'), hidden: true },
+    h('p', { class: 'dd-title', 'aria-hidden': 'true' }, t('passport.title')), input, list);
+  host.replaceChildren(btn, menu);
+  host.classList.add('dd');
+
+  let all = [];
+  const label = () => {
+    const cur = all.find((p) => p.code === passport);
+    btn.querySelector('.pp-label').textContent = passport ? `${flagEmoji(passport)} ${cur ? cur.name : passport}` : t('passport.label');
+    btn.classList.toggle('is-off', !passport);
+  };
+  const option = (code, text) => h('button', { type: 'button', class: 'dd-opt pp-opt', 'aria-pressed': String(code === passport),
+    onclick: () => { closeMenus(); setPassport(code); } }, text);
+  const render = () => {
+    const q = fold(input.value).trim();
+    const words = q.split(/\s+/).filter(Boolean);
+    let found = all.filter((p) => words.every((w) => p.find.includes(w)));
+    // names that start with the typed text first: «ru» → Russia before Peru
+    if (q) found = [...found.filter((p) => p.find.split(' ').some((w) => w.startsWith(words[0]))), ...found.filter((p) => !p.find.split(' ').some((w) => w.startsWith(words[0])))];
+    list.replaceChildren(...[
+      q ? null : option('', t('passport.none')),
+      ...found.map((p) => option(p.code, `${flagEmoji(p.code)} ${p.name}`)),
+      found.length ? null : h('p', { class: 'pp-empty' }, t('passport.nothing')),
+    ].filter(Boolean));
+  };
+  const fill = () => { all = passportList(); label(); render(); };
+  fill();
+  visaReady.then(fill);
+
+  const open = () => {
+    closeMenus();
+    input.value = ''; render();
+    menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
+    input.focus();
+    list.querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: 'center' });
+  };
+  btn.addEventListener('click', (e) => { e.stopPropagation(); if (menu.hidden) open(); else closeMenus({ focusButton: true }); });
+  input.addEventListener('input', () => { render(); list.scrollTop = 0; });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') { e.preventDefault(); list.querySelector('.pp-opt')?.click(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); list.querySelector('.pp-opt')?.focus(); }
+  });
+  list.addEventListener('keydown', (e) => {
+    const opts = [...list.querySelectorAll('.pp-opt')];
+    const i = opts.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown') { (opts[i + 1] || opts[i])?.focus(); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { (i > 0 ? opts[i - 1] : input).focus(); e.preventDefault(); }
+  });
+  // taps on the list must not take focus away from the menu (WebKit), but the search field must stay tappable
+  menu.addEventListener('mousedown', (e) => { if (!e.target.closest('input')) e.preventDefault(); });
+  closeOnFocusLeave(host, menu, btn);
 }
 
 // ---------- first visit: choose the sport ---------------------------------------------

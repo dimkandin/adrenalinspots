@@ -648,7 +648,8 @@ export function renderPanel(spot, context) {
       h('div', { class: 'p-score', title: spot.vibe ? t('card.vibe_title') : t('card.vibe_pending') },
         h('span', { class: 'p-score-label' }, t('card.vibe'), h('span', { class: 'visually-hidden' }, ':')),
         spot.vibe ? h('span', { class: 'stars' }, h('b', {}, String(spot.vibe.score)), t('card.vibe_short', { label: vibeLabel(spot.vibe.score) })) : h('span', { class: 'muted' }, t('card.vibe_none')))),
-    spot.rating_basis ? h('p', { class: 'p-basis muted' }, spot.rating_basis) : null,
+    // why this rating: folded away, because it often retells the description below
+    spot.rating_basis ? h('details', { class: 'p-basis' }, h('summary', {}, t('card.rating_why', { r: rating(spot.rating) })), h('p', { class: 'muted' }, spot.rating_basis)) : null,
     h('div', { class: 'chips' }, seasonChip(season, month), hasPassport() ? visaChip(spot.visa) : null,
       isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null));
 
