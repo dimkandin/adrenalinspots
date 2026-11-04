@@ -1,5 +1,7 @@
 // Spot detail panel.
 import { dryChart, pctChart, snowChart, swellChart, tempChart, windChart, windRose } from './charts.js';
+import { ICON, inRussia, openAbout } from './about.js';
+import { track } from './analytics.js';
 import { climbForecast, flyForecast, forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
 import { countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
 import { hasPassport, isRuPassport, passport, visaTableDate } from './visa.js';
@@ -20,6 +22,38 @@ function meter(value, max = 5, label = '') {
   const wrap = h('span', { class: 'meter', role: 'meter', 'aria-valuemin': 1, 'aria-valuemax': max, 'aria-valuenow': value ?? 0, 'aria-label': label });
   for (let i = 1; i <= max; i++) wrap.append(h('i', { class: value != null && i <= value ? 'on' : '' }));
   return wrap;
+}
+
+function contactLink(kind, href, label) {
+  return h('a', { class: `sc-ct sc-${kind}`, href, target: '_blank', rel: 'noopener', title: label, 'aria-label': label,
+    html: ICON[kind], onclick: () => track('school_contact', { channel: kind }) });
+}
+
+const dayMonthYear = (d) => {
+  try { return new Date(`${d}T12:00:00`).toLocaleDateString(lang, { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; }
+};
+
+/** One school in the «Schools» section: name → its site, lesson languages, contacts, «confirmed by the school». */
+function schoolItem(sc, ru) {
+  const links = [
+    sc.instagram && !ru ? contactLink('instagram', `https://www.instagram.com/${sc.instagram}/`, 'Instagram') : null,
+    sc.telegram ? contactLink('telegram', `https://t.me/${sc.telegram}`, 'Telegram') : null,
+    sc.whatsapp ? contactLink('whatsapp', `https://wa.me/${sc.whatsapp.replace(/\D/g, '')}`, 'WhatsApp') : null,
+    sc.vk && isRu ? contactLink('vk', `https://vk.com/${sc.vk}`, 'VK') : null,
+  ].filter(Boolean);
+  const langs = sc.langs && sc.langs.length ? sc.langs : sc.ru ? ['ru'] : [];
+  return h('li', { class: 'school' },
+    h('div', { class: 'sc-head' },
+      sc.url ? h('a', { class: 'sc-name', href: sc.url, target: '_blank', rel: 'noopener', onclick: () => track('school_site') }, sc.name)
+        : h('span', { class: 'sc-name' }, sc.name),
+      sc.verified ? h('span', { class: 'sc-ok', title: t('card.school_verified_title', { date: dayMonthYear(sc.verified) }) },
+        h('b', { 'aria-hidden': 'true' }, '✓'), ' ', t('card.school_verified')) : null,
+      sc.kind && sc.kind !== 'school' ? h('span', { class: 'sc-kind' }, t(`card.school_kind.${sc.kind}`)) : null),
+    langs.length || links.length ? h('div', { class: 'sc-meta' },
+      langs.length ? h('span', { class: 'sc-langs', title: t('card.school_langs') },
+        langs.map((l) => h('span', { class: `chip chip-sm ${l === 'ru' ? 'tone-easy' : 'tone-neutral'}` }, l.toUpperCase()))) : null,
+      links.length ? h('span', { class: 'sc-links' }, links) : null) : null,
+    sc.note_ru ? h('small', { class: 'muted sc-note' }, sc.note_ru) : null);
 }
 
 function visaChip(v, long = false) {
@@ -339,7 +373,10 @@ function mountainFacts(spot) {
 
 function snowBlock(spot, month) {
   const guide = spot.climate.guide.map((g) => g || {});
-  const era5 = spot.climate.era5;
+  // where the snow model plainly misses the resort's snow, the guides' estimate stands in for it
+  const low = !!spot.climate.snow_model_low;
+  const era5 = low ? null : spot.climate.era5;
+  const sun = spot.climate.era5 ? (spot.climate.era5[month - 1] || {}).sun_h : null;
   const e = era5 ? era5[month - 1] || {} : {};
   const g = guide[month - 1] || {};
   const wrap = h('div', {});
@@ -353,11 +390,12 @@ function snowBlock(spot, month) {
   const pct = (v) => (v != null ? `${Math.round(v)}%` : '—');
   wrap.append(h('dl', { class: 'facts facts-3' },
     fact(t('card.snow_in', { in_month: MONTHS_IN[month - 1] }), cm(e.snow_cm ?? g.snow_cm)),
-    fact(t('card.snowfall'), e.snowfall_cm != null ? cm(e.snowfall_cm) : '—'),
-    fact(t('card.snow_days'), e.snow_days != null ? num(Math.round(e.snow_days)) : '—'),
-    fact(t('card.ski_days'), pct(e.ski_prob)),
-    fact(t('card.sun'), e.sun_h != null ? t('card.sun_v', { h: num(e.sun_h, 1) }) : '—')));
-  wrap.append(h('p', { class: 'source' }, era5 ? t('card.snow_source', { period: spot.climate_periods.era5 || '', h: num(Math.round(midHeight(spot.attrs || {}) || 0)) }) : t('card.snow_pending')));
+    low ? null : fact(t('card.snowfall'), e.snowfall_cm != null ? cm(e.snowfall_cm) : '—'),
+    low ? null : fact(t('card.snow_days'), e.snow_days != null ? num(Math.round(e.snow_days)) : '—'),
+    low ? null : fact(t('card.ski_days'), pct(e.ski_prob)),
+    fact(t('card.sun'), sun != null ? t('card.sun_v', { h: num(sun, 1) }) : '—')));
+  wrap.append(h('p', { class: 'source' }, low ? t('card.snow_model_low')
+    : era5 ? t('card.snow_source', { period: spot.climate_periods.era5 || '', h: num(Math.round(midHeight(spot.attrs || {}) || 0)) }) : t('card.snow_pending')));
   return wrap;
 }
 
@@ -724,11 +762,14 @@ export function renderPanel(spot, context) {
     h('p', {}, SCHOOLS[spot.schools] || t('card.schools_unknown'),
       !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.schools_ru_yes') : spot.ru_schools === 'no' ? t('card.schools_ru_no') : '.'));
   if (spot.school_list.length) {
-    schools.append(h('ul', { class: 'schools' }, ...spot.school_list.map((sc) => h('li', {},
-      sc.url ? h('a', { href: sc.url, target: '_blank', rel: 'noopener' }, sc.name) : sc.name,
-      sc.ru ? h('span', { class: 'chip tone-easy chip-sm', title: t('card.school_ru') }, 'RU') : null,
-      sc.note_ru ? h('small', { class: 'muted' }, ` ${sc.note_ru}`) : null))));
+    // schools that confirmed their listing first, then Russian-speaking ones (the list itself stays in seed order:
+    // translated notes are matched to it by position)
+    const list = [...spot.school_list].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
+    const ru = inRussia();
+    schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc, ru))));
   }
+  schools.append(h('p', { class: 'sc-fix' },
+    h('button', { type: 'button', onclick: (e) => { track('school_fix'); openAbout(e.currentTarget); } }, t('card.school_fix'))));
   body.append(section(t('sec.schools'), schools));
 
   if ((spot.pros || []).length || (spot.cons || []).length || spot.hazards) {
