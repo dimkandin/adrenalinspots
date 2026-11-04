@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Проверка карт — Adrenalin Spots</title>
+  <style>
+    :root { --ink: #12303f; --ink-2: #4f6874; --line: #dbe4e7; --good: #1a7448; --good-bg: #e2f3ea; --bad: #a8372b; --bad-bg: #f8e2df; }
+    body { margin: 0; padding: 16px; font: 15px/1.4 system-ui, -apple-system, 'Segoe UI', sans-serif; color: var(--ink); background: #f2f6f6; }
+    h1 { margin: 0 0 4px; font-size: 20px; }
+    p { margin: 0 0 12px; color: var(--ink-2); }
+    ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+    li { display: grid; grid-template-columns: 44px 1fr auto; align-items: center; gap: 10px; padding: 6px 10px 6px 6px; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
+    li img { width: 44px; height: 44px; border-radius: 6px; object-fit: cover; background: #eef2f2; }
+    .ph { width: 44px; height: 44px; border-radius: 6px; background: #eef2f2; display: grid; place-items: center; font-size: 11px; color: var(--ink-2); }
+    .name { font-weight: 600; font-size: 14px; }
+    .st { font-size: 13px; font-weight: 600; padding: 3px 8px; border-radius: 999px; white-space: nowrap; color: var(--ink-2); background: #eef2f2; }
+    .ok { color: var(--good); background: var(--good-bg); }
+    .no { color: var(--bad); background: var(--bad-bg); }
+    .sum { margin-top: 14px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>Какие карты открываются</h1>
+  <p>Страница пробует загрузить кусочек карты с разных серверов. Подождите 15 секунд и пришлите скриншот всей страницы.</p>
+  <ol id="list"></ol>
+  <p class="sum" id="sum">Проверяю…</p>
+  <script>
+    const T = { z: 4, x: 9, y: 5 };   // Восточная Европа и Москва
+    const R = [
+      ['OpenFreeMap — стиль', 'fetch', 'https://tiles.openfreemap.org/styles/positron'],
+      ['OpenFreeMap — тайл (сейчас на сайте)', 'ofm'],
+      ['OpenStreetMap', 'img', `https://tile.openstreetmap.org/${T.z}/${T.x}/${T.y}.png`],
+      ['OSM Германия', 'img', `https://tile.openstreetmap.de/${T.z}/${T.x}/${T.y}.png`],
+      ['OSM Франция', 'img', `https://a.tile.openstreetmap.fr/osmfr/${T.z}/${T.x}/${T.y}.png`],
+      ['CARTO светлая', 'img', `https://a.basemaps.cartocdn.com/light_all/${T.z}/${T.x}/${T.y}@2x.png`],
+      ['CARTO Voyager', 'img', `https://a.basemaps.cartocdn.com/rastertiles/voyager/${T.z}/${T.x}/${T.y}@2x.png`],
+      ['Esri топо', 'img', `https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/${T.z}/${T.y}/${T.x}`],
+      ['Esri спутник', 'img', `https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/${T.z}/${T.y}/${T.x}`],
+      ['Esri серая', 'img', `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/${T.z}/${T.y}/${T.x}`],
+      ['OpenTopoMap', 'img', `https://a.tile.opentopomap.org/${T.z}/${T.x}/${T.y}.png`],
+      ['Wikimedia', 'img', `https://maps.wikimedia.org/osm-intl/${T.z}/${T.x}/${T.y}.png`],
+      ['2ГИС', 'img', `https://tile2.maps.2gis.com/tiles?x=${T.x}&y=${T.y}&z=${T.z}&v=1`],
+      ['VersaTiles', 'fetch', `https://tiles.versatiles.org/tiles/osm/${T.z}/${T.x}/${T.y}`],
+      ['jsDelivr (большой файл)', 'fetch', 'https://cdn.jsdelivr.net/npm/maplibre-gl@5.6.0/dist/maplibre-gl.js'],
+      ['Yandex Cloud хранилище', 'fetch', 'https://storage.yandexcloud.net/'],
+      ['Этот сайт (большой файл)', 'fetch', '/vendor/maplibre-gl.js'],
+    ];
+    const list = document.getElementById('list');
+    let done = 0, good = 0;
+    const kb = (n) => (n >= 1024 ? `${Math.round(n / 1024)} КБ` : `${n} Б`);
+    function row(name) {
+      const li = document.createElement('li');
+      li.innerHTML = '<span class="ph">…</span><span class="name"></span><span class="st">…</span>';
+      li.querySelector('.name').textContent = name;
+      list.append(li);
+      return li;
+    }
+    function finish(li, ok, text) {
+      const st = li.querySelector('.st');
+      st.textContent = ok ? `✓ ${text}` : `✕ ${text}`;
+      st.className = `st ${ok ? 'ok' : 'no'}`;
+      done += 1; if (ok) good += 1;
+      if (done === R.length) document.getElementById('sum').textContent = `Готово: открылось ${good} из ${R.length}. Пришлите скриншот.`;
+    }
+    async function timedFetch(url, ms = 15000) {
+      const c = new AbortController(); const t0 = performance.now();
+      const timer = setTimeout(() => c.abort(), ms);
+      try {
+        const r = await fetch(url, { signal: c.signal, cache: 'no-store', mode: url.includes('storage.yandexcloud') ? 'no-cors' : 'cors' });
+        const b = await r.arrayBuffer();
+        return { ok: r.ok || r.type === 'opaque', size: b.byteLength, ms: Math.round(performance.now() - t0), status: r.status };
+      } catch (e) { return { ok: false, ms: Math.round(performance.now() - t0), err: e.name === 'AbortError' ? 'нет ответа 15 с' : 'ошибка' }; }
+      finally { clearTimeout(timer); }
+    }
+    for (const [name, kind, url] of R) {
+      const li = row(name);
+      if (kind === 'img') {
+        const img = new Image(); const t0 = performance.now();
+        const timer = setTimeout(() => { img.src = ''; finish(li, false, 'нет ответа 15 с'); }, 15000);
+        img.onload = () => { clearTimeout(timer); li.querySelector('.ph').replaceWith(img); finish(li, true, `${Math.round(performance.now() - t0)} мс`); };
+        img.onerror = () => { clearTimeout(timer); finish(li, false, 'ошибка'); };
+        img.referrerPolicy = 'origin';
+        img.src = `${url}${url.includes('?') ? '&' : '?'}t=${Date.now()}`;
+      } else if (kind === 'ofm') {
+        (async () => {
+          const tj = await timedFetch('https://tiles.openfreemap.org/planet');
+          if (!tj.ok) return finish(li, false, tj.err || 'ошибка');
+          let tpl;
+          try { tpl = (await (await fetch('https://tiles.openfreemap.org/planet')).json()).tiles[0]; } catch { return finish(li, false, 'ошибка'); }
+          const r = await timedFetch(tpl.replace('{z}', T.z).replace('{x}', T.x).replace('{y}', T.y));
+          finish(li, r.ok && r.size > 0, r.ok ? `${kb(r.size)}, ${r.ms} мс` : (r.err || `код ${r.status}`));
+        })();
+      } else {
+        timedFetch(url).then((r) => finish(li, r.ok, r.ok ? `${r.size ? kb(r.size) + ', ' : ''}${r.ms} мс` : (r.err || `код ${r.status}`)));
+      }
+    }
+  </script>
+</body>
+</html>
