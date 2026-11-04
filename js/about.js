@@ -11,7 +11,7 @@ export const CONTACT = { handle: 'dim_kandin', telegram: 'https://t.me/dim_kandi
 export const DONATE = {
   ru: 'https://pay.cloudtips.ru/p/0b6bfbab',   // CloudTips (T-Bank): Russian cards, 49–5 000 ₽, paid out to Dim's Russian card
   paypal: 'https://paypal.me/DmitryKandin',
-  platform: { name: '', url: '' },     // a donation platform paying out to a foreign card
+  platform: { name: 'Boosty', url: 'https://boosty.to/adrenalinspots/donate' },   // opens the «Send tip» form; pays out to a foreign card
   usdt: [{ net: 'TRON (TRC-20)', address: 'TFyvfZpSut7Q4xiYrpLqjcuFFmXfc4AtLz', qr: '/img/usdt-trc20.svg' }],
 };
 
