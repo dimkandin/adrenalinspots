@@ -10,7 +10,7 @@ export const CONTACT = { handle: 'dim_kandin', telegram: 'https://t.me/dim_kandi
 // Ways to support the project; an empty value hides the option.
 export const DONATE = {
   ru: 'https://pay.cloudtips.ru/p/0b6bfbab',   // CloudTips (T-Bank): Russian cards, 49–5 000 ₽, paid out to Dim's Russian card
-  paypal: '',                          // https://paypal.me/…
+  paypal: 'https://paypal.me/DmitryKandin',
   platform: { name: '', url: '' },     // a donation platform paying out to a foreign card
   usdt: [{ net: 'TRON (TRC-20)', address: 'TFyvfZpSut7Q4xiYrpLqjcuFFmXfc4AtLz', qr: '/img/usdt-trc20.svg' }],
 };
@@ -72,13 +72,11 @@ export function openAbout(from) {
   opener = from || document.activeElement;
   const ru = inRussia();
   const channels = ru ? 'Telegram' : 'Telegram, Instagram';
-  const donate = [
-    DONATE.ru ? link('about-pay', DONATE.ru, null, t('about.pay_ru'), 'donate_ru') : null,
-    DONATE.paypal ? link('about-pay', DONATE.paypal, null, 'PayPal', 'donate_paypal') : null,
-    DONATE.platform.url ? link('about-pay', DONATE.platform.url, null, DONATE.platform.name, 'donate_platform') : null,
-  ].filter(Boolean);
-  // from Russia the Russian card option goes first, PayPal last (it doesn't work there)
-  if (ru && DONATE.paypal) donate.push(donate.splice(donate.findIndex((a) => a.textContent === 'PayPal'), 1)[0]);
+  const payRu = DONATE.ru ? link('about-pay', DONATE.ru, null, t('about.pay_ru'), 'donate_ru') : null;
+  const payPal = DONATE.paypal ? link('about-pay', DONATE.paypal, null, 'PayPal', 'donate_paypal') : null;
+  const payPlatform = DONATE.platform.url ? link('about-pay', DONATE.platform.url, null, DONATE.platform.name, 'donate_platform') : null;
+  // from Russia the Russian card goes first and PayPal last (it doesn't work there); elsewhere the other way round
+  const donate = (ru ? [payRu, payPlatform, payPal] : [payPal, payPlatform, payRu]).filter(Boolean);
   const hasDonate = donate.length || DONATE.usdt.length;
 
   const card = h('div', { class: 'picker-card about-card', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'about-title' },
