@@ -9,7 +9,7 @@ export const CONTACT = { handle: 'dim_kandin', telegram: 'https://t.me/dim_kandi
 
 // Ways to support the project; an empty value hides the option.
 export const DONATE = {
-  ru: '',                              // card or SBP from Russia (a CloudTips / YooMoney / Boosty page)
+  ru: 'https://pay.cloudtips.ru/p/0b6bfbab',   // CloudTips (T-Bank): Russian cards, 49–5 000 ₽, paid out to Dim's Russian card
   paypal: '',                          // https://paypal.me/…
   platform: { name: '', url: '' },     // a donation platform paying out to a foreign card
   usdt: [{ net: 'TRON (TRC-20)', address: 'TFyvfZpSut7Q4xiYrpLqjcuFFmXfc4AtLz', qr: '/img/usdt-trc20.svg' }],
