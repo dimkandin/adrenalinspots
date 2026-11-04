@@ -3,7 +3,7 @@ import { dryChart, pctChart, snowChart, swellChart, tempChart, windChart, windRo
 import { ICON, openAbout } from './about.js';
 import { track } from './analytics.js';
 import { climbForecast, flyForecast, forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
-import { countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
+import { PREFIX, countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
 import { hasPassport, isRuPassport, passport, visaTableDate } from './visa.js';
 import {
   ACCESS, BOLTING, BOTTOM, BREAK, DIVETYPE, FLYING, LEVEL, MONTHS, MONTHS_IN, MONTHS_SHORT, PARK, PG_LEVEL, ROCK, SCHOOLS, SEASON, SNOWMAKING, SPOT_TYPE, STYLE, TIDE, VISA, WATER, WIND_TYPE, WSTYLE,
@@ -735,6 +735,62 @@ function renderParaForecast(host, spot) {
   });
 }
 
+function distKm(a, b) {
+  const r = Math.PI / 180;
+  const x = Math.sin(((b.lat - a.lat) * r) / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(((b.lng - a.lng) * r) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(x));
+}
+
+/** «Nearby and similar»: spots of the same sport within 500 km, and other places with a great season this month. */
+function nearbyBlock(spot, month, c) {
+  if (!c || !c.open || spot.activity !== c.activity || spot.lat == null) return null;
+  const all = (c.spots || []).filter((s) => s.id !== spot.id && s.lat != null);
+  const near = all.map((s) => ({ s, d: distKm(spot, s) })).filter((x) => x.d <= 500).sort((a, b) => a.d - b.d).slice(0, 5);
+  const nearIds = new Set(near.map((x) => x.s.id));
+  const countries = new Set([spot.cc]);   // one place per country, so the list shows other directions
+  const like = all.filter((s) => !nearIds.has(s.id) && (s.seasons || [])[month - 1] === 'peak')
+    .sort((a, b) => (b.rating || 0) - (a.rating || 0) || (b.popularity || 0) - (a.popularity || 0))
+    .filter((s) => !countries.has(s.cc) && countries.add(s.cc)).slice(0, 4);
+  if (!near.length && !like.length) return null;
+  const item = (s, d) => h('li', {}, h('button', {
+    type: 'button', class: 'nb-item', onclick: () => { track('open_related', { from: spot.id, to: s.id }); c.open(s.id); },
+  },
+  h('i', { class: `nb-dot nb-${(s.seasons || [])[month - 1] || 'off'}`, title: (SEASON[(s.seasons || [])[month - 1]] || SEASON.off).label }),
+  h('span', { class: 'nb-name' }, s.name_ru || s.name),
+  h('span', { class: 'nb-meta' }, [d != null ? t('card.km', { v: num(d < 50 ? Math.round(d) : Math.round(d / 10) * 10) }) : countryName(s.cc, s.country),
+    s.rating ? `★ ${rating(s.rating)}` : null].filter(Boolean).join(' · '))));
+  return h('div', { class: 'nearby' },
+    near.length ? h('h4', { class: 'sub' }, t('card.nearby')) : null,
+    near.length ? h('ul', { class: 'nb-list' }, ...near.map((x) => item(x.s, x.d))) : null,
+    like.length ? h('h4', { class: 'sub' }, t('card.also_peak', { in_month: MONTHS_IN[month - 1] })) : null,
+    like.length ? h('ul', { class: 'nb-list' }, ...like.map((s) => item(s, null))) : null);
+}
+
+const SHARE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" /></svg>';
+
+function miniToast(text) {
+  const el = h('div', { class: 'toast', role: 'status' }, text);
+  document.body.append(el);
+  setTimeout(() => el.remove(), 3000);
+}
+
+/** «Share»: the phone's share sheet where there is one, otherwise the link goes to the clipboard.
+ *  The link is the spot's own page (its link preview shows this spot) with the month the visitor is looking at. */
+function shareButton(spot, month, season) {
+  return h('button', {
+    type: 'button', class: 'chip chip-share', html: `${SHARE_ICON}<span>${t('card.share')}</span>`,
+    onclick: async () => {
+      const url = `${location.origin}${PREFIX}/spot/${encodeURIComponent(spot.id)}#m=${month}`;
+      const text = t(`share.text_${season === 'peak' ? 'peak' : season === 'off' ? 'off' : 'mid'}`, { name: spot.name_ru, in_month: MONTHS_IN[month - 1] });
+      track('share', { spot: spot.id, activity: spot.activity });
+      if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+        try { await navigator.share({ title: document.title, text, url }); return; } catch (e) { if (e && e.name === 'AbortError') return; }
+      }
+      try { await navigator.clipboard.writeText(`${text} ${url}`); miniToast(t('card.share_copied')); } catch { miniToast(url); }
+    },
+  });
+}
+
 export function renderPanel(spot, context) {
   current = spot; ctx = context;
   const month = ctx.month;
@@ -766,7 +822,8 @@ export function renderPanel(spot, context) {
     // why this rating: folded away, because it often retells the description below
     spot.rating_basis ? h('details', { class: 'p-basis' }, h('summary', {}, t('card.rating_why', { r: rating(spot.rating) })), h('p', { class: 'muted' }, spot.rating_basis)) : null,
     h('div', { class: 'chips' }, seasonChip(season, month), hasPassport() ? visaChip(spot.visa) : null,
-      isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null));
+      isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t('card.ru_schools_chip')) : null,
+      shareButton(spot, month, season)));
 
   const isSurf = spot.activity === 'surf';
   const isMtn = spot.activity === 'snowboard';
@@ -880,6 +937,9 @@ export function renderPanel(spot, context) {
   } else if (spot.airport) {
     body.append(section(t('sec.airport'), h('dl', { class: 'facts' }, fact(t('card.airport'), spot.airport))));
   }
+
+  const related = nearbyBlock(spot, month, ctx);
+  if (related) body.append(section(t('sec.nearby'), related));
 
   const links = spot.links || {};
   const linkList = h('ul', { class: 'links' },

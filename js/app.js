@@ -352,7 +352,7 @@ function setMonth(m, { focusStrip = false } = {}) {
     else if (inCard && cur) document.querySelector('#panel-title')?.focus({ preventScroll: true });
   });
 }
-const panelCtx = () => ({ month: state.month, setMonth, activity: state.activity });
+const panelCtx = () => ({ month: state.month, setMonth, activity: state.activity, spots: state.spots, open: (id) => select(id, { focusCard: true }) });
 
 async function select(id, { focusCard = false, from = null } = {}) {
   if (!id) {
