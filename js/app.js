@@ -709,8 +709,10 @@ function initControls() {
   document.querySelector('.prev').addEventListener('click', () => setMonth(state.month - 1));
   document.querySelector('.next').addEventListener('click', () => setMonth(state.month + 1));
   document.querySelector('.panel-close').addEventListener('click', () => select(null));
-  document.querySelector('.side-toggle').addEventListener('click', () => { state.sideAuto = false; setSide(false, { moveFocus: true, persist: true }); });
-  document.querySelector('.side-open').addEventListener('click', () => { state.sideAuto = false; setSide(true, { moveFocus: true, persist: true }); });
+  // focus follows only a keyboard press (click.detail is 0 for Enter/Space): after a tap, Safari would draw a
+  // focus ring around the arrow of the opened sheet
+  document.querySelector('.side-toggle').addEventListener('click', (e) => { state.sideAuto = false; setSide(false, { moveFocus: e.detail === 0, persist: true }); });
+  document.querySelector('.side-open').addEventListener('click', (e) => { state.sideAuto = false; setSide(true, { moveFocus: e.detail === 0, persist: true }); });
   if (isPhone()) setSide(false);   // phones start with the map; the bar at the bottom opens the list
   else { try { if (localStorage.getItem('side') === 'closed') setSide(false); } catch { /* ignore */ } }
   initSheetSwipe();

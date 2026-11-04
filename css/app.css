@@ -420,6 +420,7 @@ a:hover { color: var(--sea-2); }
   .sport-pill .sport-ico svg { width: 19px; height: 19px; }
   .sport-pill .caret { font-size: 11px; opacity: 0.85; }
   .sport-pill:active { background: var(--sea-2); }
+  .app:not(.side-collapsed) .sport-pill { display: none; }   /* the open list has its own sport button */
 
   .basemaps { top: calc(8px + var(--safe-t)); right: 8px; }
   .bm-toggle { width: 42px; height: 42px; padding: 0; justify-content: center; gap: 0; font-size: 0; }
