@@ -10,7 +10,7 @@ import {
   climbFeel, cm, compassText, deg, diveSuit, kmh, esc, flagEmoji, getUnit, h, metres, rating, sailSize, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
 } from './util.js';
 
-const SPORT_WORD = { kite: 'kitesurfing', surf: 'surfing', snowboard: 'skiing', climbing: 'climbing', paragliding: 'paragliding', windsurf: 'windsurfing', diving: 'scuba diving' };
+const SPORT_WORD = { kite: 'kitesurfing', surf: 'surfing', snowboard: 'skiing', climbing: 'climbing', paragliding: 'paragliding', windsurf: 'windsurfing', diving: 'scuba diving', sailing: 'sailing yacht charter' };
 const sportWord = (spot) => SPORT_WORD[spot.activity] || 'kitesurfing';
 
 const panel = () => document.querySelector('.panel');
@@ -347,6 +347,34 @@ function divingFacts(spot, month) {
     a.dive_price ? fact(t('card.dive_price'), priceLine(a.dive_price), note(a.dive_price)) : null,
     a.course_price ? fact(t('card.course_price'), priceLine(a.course_price), note(a.course_price)) : null,
     a.chamber_ru ? fact(t('card.chamber'), a.chamber_ru) : null,
+    fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),
+    fact(t('card.crowd'), meter(spot.crowd, 5, t('card.crowd_meter')), spot.crowd_note ? h('small', {}, ` ${spot.crowd_note}`) : null));
+}
+// ---------- sailing -----------------------------------------------------------------
+function sailingFacts(spot, month) {
+  const a = spot.attrs || {};
+  const tags = (list, prefix) => h('span', { class: 'tags' }, ...(list || []).map((x) => h('span', { class: 'tag' }, t(`${prefix}.${x}`))));
+  const note = (p) => (p && p.note_ru ? h('small', { class: 'block' }, p.note_ru) : null);
+  const cp = a.charter_price;
+  const charter = cp ? [`${num(cp.eur)} €`, cp.eur_low ? t('card.charter_low', { v: num(cp.eur_low) }) : null,
+    cp.year ? t('card.price_year', { y: cp.year }) : null].filter(Boolean).join(' · ') : null;
+  const events = (a.highlights || []).filter((x) => x && x.what_ru);
+  const monthsText = (ms) => (ms && ms.length ? ` (${ms.map((m) => MONTHS_SHORT[m - 1]).join(', ')})` : '');
+  return h('dl', { class: 'facts' },
+    (a.charter || []).length ? fact(t('card.charter'), tags(a.charter, 'charter')) : null,
+    (a.boats || []).length ? fact(t('card.boats'), tags(a.boats, 'boat')) : null,
+    fact(t('card.wind_range'), windRangeText(spot.wind_range) || '—', a.wind_note_ru ? h('small', { class: 'block' }, a.wind_note_ru) : null),
+    (a.waters || []).length ? fact(t('card.waters'), tags(a.waters, 'waters')) : null,
+    a.difficulty ? fact(t('card.sail_difficulty'), meter(a.difficulty, 5, t('card.sail_difficulty')), h('small', {}, ` ${t(`sdiff.n${a.difficulty}`)}`)) : null,
+    fact(t('card.level'), (spot.level || []).map((l) => LEVEL[l]).join(', ') || '—'),
+    a.hops_nm ? fact(t('card.hops'), t('card.nm_range', { v: a.hops_nm })) : null,
+    a.route_ru ? fact(t('card.route'), a.route_ru) : null,
+    a.mooring_ru ? fact(t('card.mooring'), a.mooring_ru) : null,
+    a.licence_ru ? fact(t('card.licence'), a.licence_ru) : null,
+    charter ? fact(t('card.charter_price'), charter, note(cp)) : null,
+    a.skipper_price ? fact(t('card.skipper_price'), priceLine(a.skipper_price), note(a.skipper_price)) : null,
+    a.course_price ? fact(t('card.sail_course'), priceLine(a.course_price), note(a.course_price)) : null,
+    events.length ? fact(t('card.sail_events'), h('span', {}, ...events.map((x) => h('span', { class: 'block' }, x.what_ru + monthsText(x.months))))) : null,
     fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),
     fact(t('card.crowd'), meter(spot.crowd, 5, t('card.crowd_meter')), spot.crowd_note ? h('small', {}, ` ${spot.crowd_note}`) : null));
 }
@@ -831,9 +859,10 @@ export function renderPanel(spot, context) {
   const isFly = spot.activity === 'paragliding';
   const isWind = spot.activity === 'windsurf';
   const isDive = spot.activity === 'diving';
+  const isSail = spot.activity === 'sailing';
   const water = (spot.water || []).map((w) => h('span', { class: `tag water-${w}` }, WATER[w] || w));
   const era = spot.climate.era5 ? spot.climate.era5[month - 1] : null;
-  const facts = isDive ? divingFacts(spot, month) : isWind ? windsurfFacts(spot, month) : isFly ? paraFacts(spot) : isClimb ? climbFacts(spot) : isMtn ? mountainFacts(spot) : isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
+  const facts = isSail ? sailingFacts(spot, month) : isDive ? divingFacts(spot, month) : isWind ? windsurfFacts(spot, month) : isFly ? paraFacts(spot) : isClimb ? climbFacts(spot) : isMtn ? mountainFacts(spot) : isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
     fact(t('card.wind_range'), windRangeText(spot.wind_range) || '—'),
     fact(t('card.direction'), spot.wind_dir || '—', spot.wind_type ? h('small', {}, ` ${WIND_TYPE[spot.wind_type] || spot.wind_type}`) : null),
     fact(t('card.gustiness'), meter(spot.gustiness, 5, t('card.gustiness')), h('small', {}, ` ${gustText(spot.gustiness)}`), spot.gustiness_note ? h('small', { class: 'block' }, spot.gustiness_note) : null),

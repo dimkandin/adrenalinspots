@@ -182,6 +182,7 @@ const SKI = /ski|snowboard|piste|slope|lift|gondola|cable car|télé|seilbahn|г
 const CLIMB = /climb|boulder|crag|escalad|kletter|arrampic|скалолаз|боулдер|скал|sport route|multi-?pitch|belay|\brope\b/i;
 const WIND = /windsurf|wind-surf|boardsail|sailboard|planche à voile|tavola a vela|виндсёрф|виндсерф/i;
 const PARA = /paraglid|parapent|parapendio|gleitschirm|parapente|paraglider|параплан|tandem flight|paragliding/i;
+const SAIL = /sailing|sailboat|yacht|catamaran|regatta|marina|anchorage|gulet|voile|vela|segel|velero|veleiro|яхт|парус|катамаран|марин/i;
 const DIVE = /scuba|diving|diver|dive site|underwater|reef|wreck|plongée|immersione|tauchen|buceo|mergulho|дайвинг|дайвер|подводн/i;
 const BAD = /\bmap\b|karte|carte|logo|flag|coat of arms|diagram|\.svg|\.tif|\.pdf|chart|stamp/i;
 
@@ -233,8 +234,8 @@ async function commons(q, want = KITE) {
 export async function kitePhotos(name, snow = false, activity = 'kite') {
   const key = `p:${name}:${snow}:${activity}`;
   if (cache.has(key)) return cache.get(key);
-  const sport = { surf: 'surfing', snowboard: 'ski resort', climbing: 'climbing', paragliding: 'paragliding', windsurf: 'windsurfing', diving: 'scuba diving' }[activity] || (snow ? 'snowkite' : 'kitesurfing');
-  const want = { surf: SURF, snowboard: SKI, climbing: CLIMB, paragliding: PARA, windsurf: WIND, diving: DIVE }[activity] || KITE;
+  const sport = { surf: 'surfing', snowboard: 'ski resort', climbing: 'climbing', paragliding: 'paragliding', windsurf: 'windsurfing', diving: 'scuba diving', sailing: 'sailing yacht' }[activity] || (snow ? 'snowkite' : 'kitesurfing');
+  const want = { surf: SURF, snowboard: SKI, climbing: CLIMB, paragliding: PARA, windsurf: WIND, diving: DIVE, sailing: SAIL }[activity] || KITE;
   const p = (async () => {
     const out = []; const seen = new Set();
     const add = (list) => list.forEach((x) => { const k = x.url.split('?')[0]; if (!seen.has(k)) { seen.add(k); out.push(x); } });
