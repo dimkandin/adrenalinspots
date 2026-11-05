@@ -107,10 +107,11 @@ export function wetsuit(c) {
   return t(`wetsuit.${k}`);
 }
 
-/** Usual dive suit for a water temperature. */
+/** Usual dive suit for a water temperature, for a 40–60-minute dive (dive centres' and shops' charts: Sinai Divers,
+ *  ScubaDiving.com, Mike's Dive Store — the warmer end, since a diver keeps still and does 2–3 dives a day). */
 export function diveSuit(c) {
   if (c == null) return null;
-  const k = c >= 28 ? 'lycra' : c >= 25 ? '3' : c >= 22 ? '5' : c >= 18 ? '7' : c >= 12 ? '7hood' : 'dry';
+  const k = c >= 29 ? '3' : c >= 27 ? '35' : c >= 24 ? '5' : c >= 21 ? '7' : c >= 18 ? '7hood' : c >= 14 ? 'semidry' : 'dry';
   return t(`divesuit.${k}`);
 }
 

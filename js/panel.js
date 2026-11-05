@@ -871,7 +871,8 @@ export function renderPanel(spot, context) {
       hasWater ? fact(t('card.water'), deg(g.water_c ?? (era && era.water_c))) : null,
       isSurf && hasWater ? fact(t('card.wetsuit'), wetsuit((era && era.water_c) ?? g.water_c) || '—') : null,
       isDive && hasWater ? fact(t('card.divesuit'), diveSuit(g.water_c ?? (era && era.water_c)) || '—') : null,
-      hasNight ? fact(t('card.night_in'), deg(era && era.tmin_c)) : null)));
+      hasNight ? fact(t('card.night_in'), deg(era && era.tmin_c)) : null),
+    isDive && hasWater ? h('p', { class: 'source' }, t('card.divesuit_note')) : null));
   tempChart(tempHost, { guide: spot.climate.guide, era5: spot.climate.era5, month, night: isMtn || isClimb || isFly });
 
   if (isSurf && era && era.swell_rose && era.swell_rose.some((x) => x > 0)) {
