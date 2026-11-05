@@ -247,6 +247,10 @@ export default {
   'dd.water.20': '20°+ — shorty ou 3/2',
   'dd.water.24': '24°+ — pas besoin de combi',
   'dd.water.27': '27°+ — chaude',
+  'dd.water.16_diving': '16°+ — semi-étanche 7 mm',
+  'dd.water.20_diving': '20°+ — 7 mm avec cagoule',
+  'dd.water.24_diving': '24°+ — 5 mm',
+  'dd.water.27_diving': '27°+ — 3–5 mm',
 
   // basemaps
   'bm.aria': 'Style de carte',

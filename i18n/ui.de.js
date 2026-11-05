@@ -247,6 +247,10 @@ export default {
   'dd.water.20': '20°+ — Shorty oder 3/2',
   'dd.water.24': '24°+ — kein Neo nötig',
   'dd.water.27': '27°+ — warm',
+  'dd.water.16_diving': '16°+ — Halbtrocken 7 mm',
+  'dd.water.20_diving': '20°+ — 7 mm mit Kopfhaube',
+  'dd.water.24_diving': '24°+ — 5 mm',
+  'dd.water.27_diving': '27°+ — 3–5 mm',
 
   // basemaps
   'bm.aria': 'Kartenstil',

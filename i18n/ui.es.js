@@ -247,6 +247,10 @@ export default {
   'dd.water.20': '20°+ — shorty o 3/2',
   'dd.water.24': '24°+ — sin neopreno',
   'dd.water.27': '27°+ — cálida',
+  'dd.water.16_diving': '16°+ — semiseco de 7 mm',
+  'dd.water.20_diving': '20°+ — 7 mm con capucha',
+  'dd.water.24_diving': '24°+ — 5 mm',
+  'dd.water.27_diving': '27°+ — 3–5 mm',
 
   // basemaps
   'bm.aria': 'Estilo del mapa',

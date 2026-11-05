@@ -248,6 +248,10 @@ export default {
   'dd.water.20': 'от 20° — шорти или 3/2',
   'dd.water.24': 'от 24° — можно без гидрика',
   'dd.water.27': 'от 27° — тёплая',
+  'dd.water.16_diving': 'от 16° — полусухой 7 мм',
+  'dd.water.20_diving': 'от 20° — 7 мм с капюшоном',
+  'dd.water.24_diving': 'от 24° — 5 мм',
+  'dd.water.27_diving': 'от 27° — 3–5 мм',
 
   // basemaps
   'bm.aria': 'Вид карты',

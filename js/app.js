@@ -549,6 +549,11 @@ function applyActivityUI() {
     else if (b.dataset.i18nTitle) b.title = t(b.dataset.i18nTitle);
   });
   document.querySelectorAll('.dd[data-key]').forEach((d) => { if (d.dataset.key !== 'activity') d.hidden = !cfg.dd.includes(d.dataset.key); });
+  document.querySelectorAll('.dd[data-key="minWater"] .dd-opt').forEach((o) => {   // divers read the scale in wetsuit mm
+    if (o.dataset.v === 'null') return;
+    const own = `dd.water.${o.dataset.v}_${state.activity}`;
+    o.textContent = t(own) !== own ? t(own) : t(`dd.water.${o.dataset.v}`);
+  });
   const enabled = new Set(state.activities.filter((a) => a.enabled && ACT[a.id]).map((a) => a.id));
   document.querySelectorAll('.dd[data-key="activity"] .dd-opt').forEach((o) => {
     const on = enabled.has(o.dataset.v);
