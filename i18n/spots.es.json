@@ -18239,6 +18239,1761 @@
     "Operador oficial del bungee, el columpio y la tirolina del puente",
     "Reservas desde el lado de Zambia (Livingstone)"
    ]
+  },
+  "jebel-jais-via-ferrata": {
+   "h": "2ee6ea506b",
+   "description": "Cerca de 1 km de cables, grapas y escaleras en un wadi bajo la cima del Jebel Jais, con tres tirolinas y puentes. Tres itinerarios a elegir: desde un sencillo paseo por repisas hasta 120 m casi verticales en Julphar Scare. Solo se hace con guías del operador; apta para principiantes y para adolescentes a partir de 12 años con sus padres (altura mínima 122 cm, peso 40–120 kg).",
+   "rating_basis": "Atracción oficial de la autoridad de turismo de Ras al Jaima (RAKTDA), muy popular entre los turistas de Dubái; en la montaña hace ~10 °C menos que en la costa",
+   "hazards": "Calor y sol de mayo a septiembre: lleva agua y protección solar; piedras en los senderos; es obligatorio calzado deportivo cerrado con buena suela",
+   "crowd_note": "Grupos de hasta 20 personas, en las tirolinas de uno en uno; los fines de semana (viernes–sábado) hay más gente y es más caro",
+   "region": "Ras al Jaima, monte Jebel Jais (montes Hajar), Bear Grylls Explorers Camp",
+   "approach": "En coche o taxi por la carretera de montaña del Jebel Jais hasta el Bear Grylls Explorers Camp, ~25 minutos desde el centro de Ras al Jaima; briefing y entrega del material en el campamento",
+   "descent": "En tirolina de vuelta al wadi (la más larga, de 300 m, pasa sobre la carretera del Jebel Jais)",
+   "vf_highlights": "Vía ferrata en la montaña más alta de los EAU: tres tirolinas de 50, 60 y 300 m, puentes oscilantes, grapas y escaleras sobre el wadi",
+   "grade_local": "Sin grado oficial: 3 itinerarios — Ledge Walk (fácil), Middle Path (técnico) y Julphar Scare (el más difícil, 120 m verticales por grapas)",
+   "pros": [
+    "Fácil de hacer en el día desde Dubái",
+    "Material y guías incluidos",
+    "Funciona también en invierno: la mejor temporada va de octubre a abril"
+   ],
+   "cons": [
+    "Es una atracción, no una ruta de montaña",
+    "En verano hace calor incluso en altura",
+    "No se puede hacer por libre"
+   ],
+   "airport": "RKT — Ras al Jaima, ~1 h; DXB — Dubái, ~2 h",
+   "guide_price_note": "Octubre–marzo: 220 dírhams (≈51 €) entre semana y 275 viernes–sábado; abril, mayo y septiembre: 175/220; junio–agosto: 130/165; precio reducido para niños; guía y material incluidos",
+   "school_notes": [
+    "Operador oficial, reserva online, material incluido"
+   ]
+  },
+  "dachstein-superferrata": {
+   "h": "54fe9b946c",
+   "description": "La jornada de ferrata más larga y seria del Dachstein: «Anna» y «Johann» por la cara sur hasta el refugio Seethaler y luego la «Schulter» hasta la cima, a 2995 m. Solo para gente experimentada y muy en forma, con crampones y piolet a principio y final de temporada; la «Anna» o el «Johann» también se pueden hacer por separado.",
+   "rating_basis": "Un clásico de los Alpes según el Alpenverein (DAV), Bergwelten y bergsteigen.com; el Johann es una de las ferratas «deportivas» difíciles más conocidas de Austria",
+   "hazards": "Caída de piedras en la parte alta, neveros empinados y hielo (crampones y piolet a principios de verano y tras las nevadas de otoño), grietas del glaciar y rimaya, niebla en el glaciar, tormentas a 3000 m; hay que llegar a tiempo a la última bajada del teleférico",
+   "crowd_note": "En la Schulter, cerca de la cima, se forman colas por los grupos inexpertos que suben desde el glaciar; los fines de semana de verano también hay gente en el Johann: empezad al amanecer",
+   "region": "Estiria, Schladming-Dachstein, Ramsau — cara sur del Dachstein",
+   "approach": "Carretera panorámica de peaje desde Ramsau hasta la estación inferior del Dachstein-Gletscherbahn (Türlwand) y desde allí unos 20 minutos de sendero hasta el refugio Dachstein-Südwandhütte (1871 m) y el inicio de la ferrata «Anna», un poco por debajo del refugio",
+   "descent": "Desde la cima del Hoher Dachstein (2995 m), bajada por la Schulter y por el glaciar de Hallstatt, pasando junto al refugio Seethalerhütte, hasta la estación superior del Hunerkogel (2687 m); luego 10 minutos de bajada en teleférico. En el glaciar hay grandes grietas",
+   "vf_highlights": "Tres ferratas seguidas por toda la cara sur del Dachstein hasta el punto más alto de Alta Austria y Estiria (2995 m); Ramsau se considera la cuna de las vías ferratas en Austria",
+   "grade_local": "D/E en conjunto (escala austriaca A–E): Anna C/D–D, Johann D/E (desplome inicial E), Schulter B–C",
+   "pros": [
+    "Subida a la cumbre más alta de la región por una ferrata casi continua",
+    "Un desnivel enorme: 1200 m por cable",
+    "Bajada en el teleférico del Hunerkogel en lugar de un largo descenso a pie"
+   ],
+   "cons": [
+    "Jornada muy larga y dura, con tramos D/E y E",
+    "Neveros y hielo en la transición entre la «Anna» y el «Johann»",
+    "Glaciar con grietas y rimaya junto a la Schulter"
+   ],
+   "airport": "SZG — Salzburgo, ~1,5 h; GRZ — Graz, ~2,5 h; MUC — Múnich, ~3 h",
+   "fee_note": "La ruta es gratuita; la carretera de peaje hasta el Gletscherbahn cuesta 20 € por coche (gratis si compras el billete del teleférico y lo validas en la máquina de la estación superior); el teleférico es de pago",
+   "school_notes": [
+    "Guía oficial de ferratas de la región con los contactos de las escuelas de montaña"
+   ]
+  },
+  "donnerkogel-himmelsleiter": {
+   "h": "59de3873df",
+   "description": "La vía ferrata más famosa del Salzkammergut: subida por una arista rocosa hasta el Großer Donnerkogel (2054 m) cruzando una escalera oscilante de 40 metros sobre el vacío. Para quien ya tenga experiencia en ferratas: la ruta es larga, con tramos verticales C/D y sin escapatorias intermedias.",
+   "rating_basis": "4,5 sobre 5 con ~4000 valoraciones en ferrataguide.com y 4,2 sobre 5 en via-ferrata.de; National Geographic y Euronews la citan como una de las escaleras más espectaculares de los Alpes",
+   "hazards": "Tormentas por la tarde (el cable actúa de pararrayos), restos de nieve en primavera y a principios de verano, la roca mojada complica mucho la ruta; la escalera se balancea mucho con viento; la bajada por la vía normal exige fuerzas",
+   "crowd_note": "Los fines de semana soleados de julio y agosto hay atascos en la escalera; mejor salir con la primera cabina (hacia las 8:00) o dormir en el refugio Gablonzer Hütte",
+   "region": "Salzkammergut, Dachstein Oeste, Gosau",
+   "approach": "Teleférico Gosaukammbahn desde el lago Gosausee y luego 20–30 minutos por el sendero n.º 611 hasta el collado de Törleck; a pie desde el lago, sin remonte, unas 1,5–1,75 horas",
+   "descent": "Desde la cima del Großer Donnerkogel por el sendero n.º 628 hasta el collado de Törleck y por el n.º 611 hasta la estación superior del Gosaukammbahn, unas 1,5–2 horas",
+   "vf_highlights": "La «Escalera al Cielo» (Himmelsleiter), de 40 metros, tendida entre dos torres de roca sobre el vacío, con vistas al glaciar del Dachstein y al lago Gosausee",
+   "grade_local": "C/D (escala austriaca Schall, algunos tramos A/B)",
+   "pros": [
+    "La mítica «escalera al cielo» y un patio enorme",
+    "Vistas al Dachstein, al Gosaukamm y al lago Gosausee",
+    "El remonte acorta la aproximación",
+    "Al lado, junto al lago, la sencilla ferrata de práctica Laserer Alpin"
+   ],
+   "cons": [
+    "No es para principiantes: tramos C/D y sin retirada posible antes de la cima",
+    "Colas en la escalera los fines de semana",
+    "Largo descenso a pie de 1,5–2 horas"
+   ],
+   "airport": "SZG — Salzburgo, ~1,5 h; LNZ — Linz, ~2 h; MUC — Múnich, ~2,5 h",
+   "fee_note": "La ruta es gratuita; el teleférico Gosaukammbahn es de pago y el aparcamiento, según tarifa local",
+   "school_notes": [
+    "Escuela de montaña: cursos de vía ferrata, alquiler de material (~20 $ al día), precios a consultar",
+    "Guía para el Donnerkogel, 5–6 h, material gratuito; billete del remonte no incluido"
+   ]
+  },
+  "innsbrucker-klettersteig": {
+   "h": "a58d1b6ae4",
+   "description": "Larga ferrata de alta montaña por la cresta de la Nordkette, desde el Hafelekar hasta el collado Frau-Hitt: paredes cortas, travesías y cimas de hasta 2480 m con vistas a Innsbruck y al Karwendel. Para montañeros resistentes con experiencia en ferratas; la primera sección (unas 4 horas) es más fácil y corta que la travesía completa.",
+   "rating_basis": "Un clásico del Tirol en los croquis de bergsteigen.com, via-ferrata.de (3,8 sobre 5 con 6 opiniones) y la web de Tirol Werbung; una de las pocas ferratas de alta montaña con acceso directo desde una gran ciudad",
+   "hazards": "Tormentas y niebla que suben del valle del Inn; nieve en las laderas norte hasta julio (la ruta se abre según la nieve); roca mojada tras la lluvia; pedrera y piedras sueltas en el sendero Schmidhubersteig; los remontes cierran por mantenimiento en noviembre",
+   "crowd_note": "Los fines de semana hay esperas en la primera sección por los grupos inexpertos; id a la primera cabina al Hafelekar (hacia las 9:00)",
+   "region": "Tirol, Innsbruck, cordillera de la Nordkette (Karwendel)",
+   "approach": "Desde el centro de Innsbruck, funicular Hungerburgbahn y luego los teleféricos Seegrubenbahn y Hafelekarbahn hasta la estación Hafelekar (2269 m); desde la estación, 5–10 minutos hasta el inicio",
+   "descent": "Por el collado Langer Sattel (tras la sección 1) o el Frau-Hitt-Sattel (tras la sección 2) y luego por el empinado sendero de pedrera Schmidhubersteig hasta la estación Seegrube (1905 m), 1–1,5 horas, y abajo en remonte",
+   "vf_highlights": "Ferrata de cresta por una sucesión de cimas justo encima de Innsbruck: 2000 m de vacío sobre el valle del Inn, íbices y subida en teleférico desde el centro de la ciudad",
+   "grade_local": "B–C, en algunos tramos C/D (escala austriaca A–E)",
+   "pros": [
+    "Inicio a 30 minutos del centro de Innsbruck en teleférico",
+    "Panorámica de Innsbruck y del Karwendel durante todo el día",
+    "Se puede acortar saliendo por el Langer Sattel",
+    "Alquiler de material en la misma estación"
+   ],
+   "cons": [
+    "Larga jornada de alta montaña, sin bajadas de emergencia oficiales",
+    "Descenso empinado por pedrera sin cables",
+    "Hay que llegar a la última cabina desde Seegrube (18:30 en verano)"
+   ],
+   "airport": "INN — Innsbruck, ~20 min hasta la estación inferior; MUC — Múnich, ~2 h",
+   "fee_note": "La ruta es gratuita; los teleféricos de la Nordkette son de pago (hay un billete especial para la ferrata); alquiler del equipo completo por 25 € al día en la tienda de la estación Seegrube, con reserva online el día anterior",
+   "school_notes": [
+    "Alquiler del equipo por 25 €/día con reserva online, información sobre la apertura de la ruta"
+   ]
+  },
+  "lehner-wasserfall-laengenfeld": {
+   "h": "4d70355fd5",
+   "description": "Ferrata compacta junto a una cascada en Längenfeld, con dos salidas de distinta dificultad: la derecha sirve para una primera toma de contacto y para adolescentes con guía; la izquierda, con un tramo E y un puente colgante, es una prueba seria de fuerza de brazos. Se combina fácilmente con las termas Aqua Dome del mismo pueblo.",
+   "rating_basis": "Ruta recomendada por la oficina de turismo del Ötztal; una buena alternativa a la abarrotada Stuibenfall, en el mismo valle",
+   "hazards": "Roca mojada junto a la cascada, tramos verticales expuestos con presas pequeñas, un desplome D en la salida derecha; no ir con tormenta ni con mucho caudal",
+   "crowd_note": "En verano, los fines de semana y por la tarde en días de lluvia llegan grupos con guía; por la mañana hay menos gente",
+   "region": "Tirol, valle de Ötztal, Längenfeld — Lehn",
+   "approach": "Desde el aparcamiento de pago al sur del museo local de Längenfeld (barrio de Lehn), unos minutos hasta la cascada; al Ötztal se llega en tren hasta la estación Ötztal y luego en autobús",
+   "descent": "A pie por el sendero de vuelta a Lehn; desde la salida derecha se puede pasar a la variante izquierda por el sendero o por un puente colgante de 35 metros",
+   "vf_highlights": "Ferrata corta junto a la cascada de Lehn, en el mismo Längenfeld: la variante derecha es para familias y principiantes; la izquierda, con un tramo E y un puente colgante de 35 metros, para los más fuertes",
+   "grade_local": "Salida derecha (clásica) B–C con un desplome corto D (se puede evitar por la izquierda); variante izquierda con un tramo E (escala austriaca A–E)",
+   "pros": [
+    "Dos niveles de dificultad en una misma ruta",
+    "Se sale directamente del pueblo, sin remonte",
+    "Se hace en media jornada y por la tarde, a las termas"
+   ],
+   "cons": [
+    "Ruta corta",
+    "Roca resbaladiza por las salpicaduras de la cascada",
+    "La variante izquierda es muy difícil (E) y no apta para niños"
+   ],
+   "airport": "INN — Innsbruck, ~1 h; MUC — Múnich, ~2,75 h",
+   "guide_price_note": "CANKICK (a través de Manawa): desde 85 € por persona; según la tabla, 60 € por persona para grupos de 1–6; media jornada, guía, casco y arnés incluidos, a partir de 10 años",
+   "fee_note": "La ruta es gratuita; el aparcamiento es de pago",
+   "school_notes": [
+    "Salida guiada a la Lehner, desde 85 € por persona, material incluido"
+   ]
+  },
+  "seewand-hallstatt": {
+   "h": "9671602918",
+   "description": "Vía ferrata larga y muy difícil por la pared que domina el lago de Hallstatt: muros verticales, pequeños desplomes, una repisa expuesta y el pilar final de 100 metros. Solo para gente experimentada y en forma: no hay escapatorias y la jornada completa lleva 7–9 horas.",
+   "rating_basis": "4,5 sobre 5 con ~860 valoraciones en ferrataguide.com; un clásico del Salzkammergut en los croquis de bergsteigen.com y en la web de turismo de Dachstein-Salzkammergut",
+   "hazards": "Una tormenta es un peligro mortal: sal solo con tiempo estable; tras la lluvia, el tramo central herboso y la roca resbalan; roca suelta en algunos puntos y piedras junto al vivac; nieve en la salida hacia Gjaidalm hasta principios de verano; los equipos de rescate evacúan cada año a gente sin experiencia",
+   "crowd_note": "Por su dificultad casi nunca hay colas; se sale temprano, antes de las 9:00, para llegar a la última bajada del remonte",
+   "region": "Salzkammergut, lago de Hallstatt, entre Hallstatt y Obertraun",
+   "approach": "Desde el gran aparcamiento junto a la playa Kessel (510 m), entre Hallstatt y Obertraun, por el sendero que pasa por el alpe Hirschau, aproximadamente 1 hora",
+   "descent": "Desde la salida, unos 40 minutos por la meseta del Dachstein hasta el refugio Gjaidalm, luego bajada en el teleférico del Krippenstein (última bajada a las 16:50; de julio a mediados de septiembre, a las 18:50) y 2 km por carretera hasta el aparcamiento; a pie, sin remonte, 3,5–4 horas",
+   "vf_highlights": "Casi 800 m de desnivel justo encima del lago de Hallstatt, con vistas al pueblo; una de las ferratas deportivas más largas y difíciles de Austria",
+   "grade_local": "D/E (escala austriaca Schall A–E); el paso clave es el «pilar de 100 metros»",
+   "pros": [
+    "Vistas increíbles de Hallstatt y del lago",
+    "Un reto deportivo serio de 800 m de desnivel",
+    "Bajada en remonte desde la meseta del Dachstein"
+   ],
+   "cons": [
+    "Solo para expertos: tramos D/E y sin escapatorias",
+    "Jornada muy larga y horario estricto del último remonte",
+    "Los tramos herbosos resbalan después de la lluvia"
+   ],
+   "airport": "SZG — Salzburgo, ~1,5 h; LNZ — Linz, ~1,75 h; VIE — Viena, ~3,5 h",
+   "fee_note": "La ruta es gratuita; la bajada en el teleférico del Krippenstein es de pago",
+   "school_notes": [
+    "Guías para la Seewand recomendados por la oficina de turismo de Hallstatt; precios a consultar",
+    "Escuela de montaña, alquiler de material de vía ferrata, a ~25 km"
+   ]
+  },
+  "stuibenfall-umhausen": {
+   "h": "7e19990789",
+   "description": "Una vía ferrata corta pero espectacular por las rocas junto a la cascada Stuibenfall, de unos 160 m: puente de cuerda, travesías sobre el torrente y un puente colgante entre una nube de salpicaduras. Buena opción para una primera ferrata por libre si ya se tiene algo de experiencia, o para adolescentes con guía.",
+   "rating_basis": "4,6 sobre 5 con 17 opiniones en via-ferrata.de; una de las rutas «de cascada» más populares del Tirol, incluida en una selección de Euronews",
+   "hazards": "Roca mojada y resbaladiza y salpicaduras de la cascada, travesías expuestas, calor en la pared suroeste en verano; tras tormentas fuertes la ruta se cierra (daños en julio de 2023)",
+   "crowd_note": "En verano y los fines de semana, colas de hasta 30 minutos en los puentes; mejor llegar a primera hora o después de las 16:00",
+   "region": "Tirol, valle de Ötztal, Umhausen",
+   "approach": "Desde el aparcamiento de pago de Umhausen (junto al Ötzidorf o al lago Umhauser Badesee), 20–30 minutos por pista forestal o por el sendero Waalweg hasta la cascada; ponerse el arnés antes del puente de cuerda del inicio",
+   "descent": "Por la nueva escalera (unos 700 escalones) y el puente colgante junto a la cascada, 40–45 minutos; se puede pasar por el Gasthof Stuibenfall (+15 minutos)",
+   "vf_highlights": "Ruta junto a la mayor cascada del Tirol: puente de cuerda sobre el torrente al inicio y puente colgante justo sobre las salpicaduras de la cascada",
+   "grade_local": "C (escala Hüsler A–E); la variante izquierda del puente superior es más fácil",
+   "pros": [
+    "Puentes espectaculares y la cascada al lado",
+    "Aproximación corta y bajada rápida por la escalera",
+    "Se combina con rafting y otras ferratas del Ötztal"
+   ],
+   "cons": [
+    "Grandes colas en verano",
+    "Te mojarás seguro junto a la cascada",
+    "Roca resbaladiza por las salpicaduras"
+   ],
+   "airport": "INN — Innsbruck, ~50 min; MUC — Múnich, ~2,5 h; ZRH — Zúrich, ~3 h",
+   "guide_price_note": "CANKICK (a través de Manawa): desde 85 € por persona, media jornada, guía y material incluidos",
+   "fee_note": "La ruta es gratuita; el aparcamiento es de pago (según una opinión de 2024, unos 5 € al día)",
+   "school_notes": [
+    "Guías para la Stuibenfall y la Lehner, desde 85 € por persona, material incluido, a partir de 10 años"
+   ]
+  },
+  "pedra-do-bau-via-ferrata": {
+   "h": "2d7ca3636b",
+   "description": "Históricas «escaleras» de hierro en el peñasco granítico de Pedra do Baú, instaladas hacia 1942: unas 600 grapas en 200 m de desnivel hasta la cima, a 1950 m. Técnicamente fácil pero muy expuesta; arnés y cabos de anclaje obligatorios, guía recomendado. Una buena escapada de fin de semana desde São Paulo (~3 horas).",
+   "rating_basis": "La vía ferrata más famosa y antigua de Brasil; un clásico de la Mantiqueira (SummitPost, Viaja Que Passa)",
+   "hazards": "Tormentas y aguaceros de diciembre a marzo: las grapas de hierro son peligrosas con rayos; granito mojado y resbaladizo; frío en la cima en invierno; grupos que se cruzan en la misma línea",
+   "crowd_note": "En invierno (junio–agosto) y los fines de semana hay muchos grupos en las grapas y hay que cruzarse en los pasos estrechos; mejor entre semana",
+   "region": "São Paulo, sierra de la Mantiqueira, São Bento do Sapucaí (cerca de Campos do Jordão)",
+   "approach": "Desde el complejo Pedra do Baú (los últimos ~5 km son de pista de tierra), alrededor de una hora por sendero con ~360 m de desnivel hasta el pie de la escalera de grapas; el acceso al sendero requiere reserva previa",
+   "descent": "Por el mismo camino, bajando por las grapas, y luego por el sendero hasta el aparcamiento; el sendero completo tiene ~2 km por trayecto",
+   "vf_highlights": "Unas 600 grapas de hierro clavadas en la pared vertical de granito ya en los años cuarenta; cima a 1950 m con vistas a la sierra de la Mantiqueira",
+   "grade_local": "Sin grado oficial: históricas «escaleras» de grapas de hierro, ~200 m de desnivel",
+   "pros": [
+    "Vía ferrata histórica, de los años cuarenta",
+    "Una panorámica magnífica de la sierra de la Mantiqueira",
+    "Barata"
+   ],
+   "cons": [
+    "Se baja por las mismas grapas: tráfico en ambos sentidos",
+    "Aguaceros y tormentas en verano",
+    "Pista de tierra hasta el aparcamiento"
+   ],
+   "airport": "GRU — São Paulo, ~3 h; SJK — São José dos Campos, ~1,5 h",
+   "guide_price_note": "Armazém Aventura (a través de Airbnb Experiences): ~70 dólares canadienses por persona por 5 horas, entrada y material incluidos; se recomienda guía",
+   "fee_note": "Entrada al complejo Pedra do Baú: R$18; el sendero a la cima requiere reserva online",
+   "school_notes": [
+    "Guía de vía ferrata en portugués, material y entrada incluidos"
+   ]
+  },
+  "kicking-horse-via-ferrata": {
+   "h": "d7303c6959",
+   "description": "Tres itinerarios guiados en la cara norte del Terminator Peak, sobre la estación de esquí de Kicking Horse: el Pioneer, de una hora y con puente colgante, para la primera vez; el Discovery, de dos horas, y el técnico Ascension hasta la cima. Se sube en telecabina, todo el material está incluido y la edad mínima es de 12 años.",
+   "rating_basis": "Vía ferrata de alta montaña junto a la telecabina de una estación de esquí; aparece a menudo en las guías de las Rocosas canadienses (Kootenay Rockies, Vacay.ca)",
+   "hazards": "Tormentas y bajadas bruscas de temperatura en altura, nieve en la pared en junio; peso del participante 40–120 kg; los itinerarios se cierran con mal tiempo",
+   "crowd_note": "Solo grupos de hasta 8 personas con guía y horario fijo: sin colas",
+   "region": "Columbia Británica, cordillera Purcell, estación de Kicking Horse junto a Golden",
+   "approach": "Telecabina Golden Eagle Express desde la base de la estación (a 15 km de Golden) hasta ~2300 m; punto de encuentro en el restaurante Eagle's Eye y desde allí unos minutos hasta los cables",
+   "descent": "Itinerarios circulares por la cara norte del Terminator Peak con regreso a la estación superior de la telecabina y bajada en ella",
+   "vf_highlights": "El puente colgante Hanging Glory y el «Guts Bridge», y la llegada a la cima del Terminator Peak con vistas a las cordilleras Purcell y a las Rocosas",
+   "grade_local": "Escala francesa: Pioneer — PD+, Discovery — AD+, Ascension — D/D+",
+   "pros": [
+    "Alta montaña sin una larga aproximación: se sube en telecabina",
+    "Itinerarios desde muy fáciles hasta difíciles",
+    "En el paquete, senderos y el recinto de osos grizzly de la estación"
+   ],
+   "cons": [
+    "No se puede hacer por libre",
+    "Temporada de verano corta",
+    "Frío y viento a 2300–2400 m"
+   ],
+   "airport": "YYC — Calgary, ~3 h; YLW — Kelowna, ~4 h",
+   "guide_price_note": "Solo con guía (hasta 8 personas), precios en dólares canadienses por persona sin impuestos: Pioneer hasta 1 h — $104, Discovery hasta 2 h — $169, Ascension hasta 3 h — $215; precio reducido para jóvenes de 13–17 años; telecabina y material incluidos",
+   "fee_note": "Incluida en el precio del tour junto con la telecabina (Adventure Pass)",
+   "school_notes": [
+    "Operador de la ruta: guía, telecabina y material"
+   ]
+  },
+  "mount-nimbus-via-ferrata": {
+   "h": "bbbf69b283",
+   "description": "Unos 2,5 km de cables en la torre Nimbus, en las montañas Purcell, instalados por los guías de CMH en 2007. Solo se llega en helicóptero y únicamente alojándose en el lodge Bobbie Burns, pero no hace falta experiencia de alpinismo: basta con estar en buena forma física. El momento cumbre es el puente colgante que lleva a la cima.",
+   "rating_basis": "Incluida en la Canadian Bucket List y en artículos de Daily Hive, Matador Network y WorldAtlas; acceso único en helicóptero y un puente sobre el vacío",
+   "hazards": "Cambios rápidos de tiempo y tormentas, frío y viento en la cresta; los vuelos en helicóptero se cancelan con mala visibilidad; gran altura sobre el suelo en el puente",
+   "crowd_note": "Solo pequeños grupos de huéspedes del lodge con guías: sin colas",
+   "region": "Columbia Británica, montañas Purcell, zona de Golden; acceso solo en helicóptero",
+   "approach": "Solo para huéspedes del lodge CMH Bobbie Burns: el helicóptero deja al grupo en el valle, al inicio de la ruta",
+   "descent": "Desde la cima hasta la plataforma donde el helicóptero recoge al grupo",
+   "vf_highlights": "La vía ferrata más larga y alta de Norteamérica: crestas afiladas, grapas en las paredes y un puente colgante de 60 metros a ~600 m de altura, el único camino a la cima de 2651 m",
+   "pros": [
+    "Una auténtica cima alpina sin experiencia previa",
+    "Helicóptero, naturaleza salvaje y glaciares",
+    "Nada de multitudes"
+   ],
+   "cons": [
+    "Muy caro: solo con un paquete de varios días",
+    "La temporada dura apenas dos meses",
+    "Hay límites de edad y peso"
+   ],
+   "airport": "YYC — Calgary, ~3 h hasta Golden (luego helicóptero); YLW — Kelowna, ~4 h",
+   "guide_price_note": "Solo dentro del paquete de alojamiento en el lodge Bobbie Burns (2–6 noches) con guías de CMH, helicóptero y comidas; en 2019, desde 3275 dólares canadienses",
+   "fee_note": "No se vende por separado: está incluida en el paquete del lodge",
+   "school_notes": [
+    "Operador único: lodge, helicóptero, guías y material"
+   ]
+  },
+  "mt-norquay-via-ferrata": {
+   "h": "9afa0114f9",
+   "description": "Cinco itinerarios comerciales con guía en la ladera del monte Norquay, justo encima de Banff: desde el Explorer de iniciación, de 2 horas (a partir de 12 años), hasta el Summiteer, de 6 horas, que llega a la cima e incluye comida. No hace falta experiencia; todo el material, botas incluidas, se presta gratis.",
+   "rating_basis": "La principal vía ferrata de las Rocosas canadienses: blogs de Ski Big 3 y Banff Bound; se vende en los grandes agregadores (Expedia, Trip.com)",
+   "hazards": "Más frío que en el pueblo y a menudo viento; tormentas de verano por la tarde; nieve en la cresta al principio y al final de la temporada; humo de incendios forestales en agosto",
+   "crowd_note": "Solo grupos con guía y horario fijo: no hay colas en los cables, pero en julio y agosto los tours se agotan con varios días de antelación",
+   "region": "Alberta, Montañas Rocosas, Parque Nacional de Banff",
+   "approach": "Desde la base de esquí de Norquay, a 10 minutos en coche de Banff; el grupo sube con el guía hasta el inicio de la ruta (zona del Cliffhouse Bistro)",
+   "descent": "A pie por la cresta y por sendero hasta el Cliffhouse Bistro y luego hasta la base; los itinerarios cortos son circulares",
+   "vf_highlights": "Una cresta sobre Banff con vistas al monte Cascade y al valle del Bow; un puente colgante de 55 metros en el Skyline y un puente de tres cables sobre un corredor en el Summiteer",
+   "grade_local": "Sin grado oficial: 5 itinerarios, desde el Explorer de iniciación hasta el difícil Summiteer (escalera desplomada, puentes)",
+   "pros": [
+    "A 10 minutos de Banff",
+    "Opciones para cualquier nivel de forma física",
+    "Vistas impresionantes del Parque Nacional de Banff"
+   ],
+   "cons": [
+    "No se puede hacer por libre",
+    "Bastante cara",
+    "Temporada solo de mediados de junio a mediados de octubre"
+   ],
+   "airport": "YYC — Calgary, ~1,5 h",
+   "guide_price_note": "Solo con guía ACMG, precios en dólares canadienses por persona: Explorer 2–2,5 h — $199, Ridgewalker — $269, Alpinist — $295, Skyline — $325, Summiteer 5,5–6 h — $399 (con comida); material, botas y mochila gratis",
+   "fee_note": "Sin cargo aparte: incluido en el tour",
+   "school_notes": [
+    "Operador de la ruta, guías ACMG, 5 opciones, material incluido"
+   ]
+  },
+  "sea-to-sky-gondola-via-ferrata": {
+   "h": "e0ba91c00a",
+   "description": "Vía ferrata corta (1–1,5 horas) con guía junto a la estación superior de la Sea to Sky Gondola, en Squamish: grapas, puentes colgantes y placas de granito sobre el fiordo. No hace falta experiencia y los niños pueden ir a partir de 8 años. Se combina bien con el viaje de Vancouver a Whistler.",
+   "rating_basis": "La web de la telecabina cita el n.º 1 en el ranking de Explore Magazine; una ruta corta pero muy panorámica junto a un teleférico popular",
+   "hazards": "Clima costero lluvioso: granito mojado y resbaladizo de octubre a abril; la telecabina cierra con viento fuerte",
+   "crowd_note": "Grupos con guía y horario fijo: sin colas en el cable, pero la telecabina está llena los fines de semana de verano",
+   "region": "Columbia Británica, Squamish, fiordo de Howe Sound, entre Vancouver y Whistler",
+   "approach": "Sea to Sky Gondola desde la carretera 99, junto a la cascada Shannon, hasta la estación superior; el material se entrega en el Summit Shelter y hay un corto paseo con el guía hasta el inicio",
+   "descent": "La ruta termina en el mirador del Summit Lodge; se baja en la telecabina",
+   "vf_highlights": "Placas de granito, puentes y pasarelas tipo «catwalk» muy por encima del fiordo de Howe Sound, con vistas al océano y a las cumbres nevadas; la llegada es junto al mismo mirador",
+   "grade_local": "Sin grado oficial; según el operador, para principiantes sin experiencia",
+   "pros": [
+    "A una hora de Vancouver",
+    "Apta para niños a partir de 8 años y principiantes",
+    "Vistas al fiordo y al océano"
+   ],
+   "cons": [
+    "Muy corta",
+    "Solo con guía",
+    "La telecabina se paga aparte"
+   ],
+   "airport": "YVR — Vancouver, ~1 h",
+   "guide_price_note": "Solo con guía de Mountain Skills Academy, precios en dólares canadienses: adultos $114 (entre semana) / $129 (fin de semana), con billete de telecabina $184 / $199; niños de 8–15 años desde $89; grupo privado de hasta 8 personas $699–749",
+   "fee_note": "Se necesita billete de la Sea to Sky Gondola (se puede comprar junto con el tour); el aparcamiento de la telecabina es de pago de mayo a octubre",
+   "school_notes": [
+    "Operador de la ruta: guía, material y billete de telecabina opcional"
+   ]
+  },
+  "allmenalp-kandersteg": {
+   "h": "cdf9af97c3",
+   "description": "Ferrata corta pero empinada y variada que sale del mismo Kandersteg: paredes verticales de grapas junto a una cascada, escaleras, puentes nepalíes y tirolinas. Para quien ya tenga experiencia y fuerza de brazos; la bajada en teleférico la convierte en una cómoda actividad de media jornada.",
+   "rating_basis": "Una de las ferratas más espectaculares del Oberland bernés según BLS, Interlaken Tourismus y Bergwelten; promocionada por MySwitzerland",
+   "hazards": "Roca mojada junto a la cascada, caudal alto a principios de verano, tramos verticales de brazos, tormentas; la ruta solo está abierta cuando funciona el teleférico",
+   "crowd_note": "Los fines de semana de verano puede haber esperas en los puentes; la ruta es corta, mejor empezar antes del mediodía",
+   "region": "Oberland bernés, Kandersteg",
+   "approach": "Desde la estación de tren de Kandersteg, 10 minutos hasta la estación inferior del teleférico Allmenalpbahn y luego por sendero señalizado por la orilla derecha del arroyo Allmibach hasta el inicio (~1250 m)",
+   "descent": "Desde la salida, junto a la estación superior de Undere Allme (1723 m, restaurante), bajada en el teleférico Allmenalpbahn o a pie por Ryharts y Schneitböde en 1 h 15 min; también se puede bajar en parapente biplaza",
+   "vf_highlights": "Ferrata junto a la cascada del Allmibach: 880 grapas, 4 escaleras, 2 puentes nepalíes y 2 tirolinas (50 y 110 m), con llegada a un restaurante con vistas a Kandersteg",
+   "grade_local": "K4–K5 (escala suiza SAC), «difícil»",
+   "pros": [
+    "Muchos elementos en una ruta corta",
+    "Inicio a 10–20 minutos de la estación de Kandersteg",
+    "Alquiler de material junto al remonte",
+    "Bajada en teleférico o en parapente"
+   ],
+   "cons": [
+    "Empinada y físicamente dura (K4–K5)",
+    "La tirolina de 110 metros solo con guía",
+    "Roca mojada por las salpicaduras de la cascada"
+   ],
+   "airport": "BRN — Berna, ~1 h; ZRH — Zúrich, ~2 h; GVA — Ginebra, ~2,5 h",
+   "guide_price_note": "Tour privado del teleférico Kandersteg-Allmenalp a través de MySwitzerland: desde 160 CHF (≈170 €); la tirolina de 110 metros solo se puede hacer con guía",
+   "fee_note": "La ruta es gratuita; bajada en el Allmenalpbahn 18 CHF (ida y vuelta 24 CHF); alquiler del equipo 25 CHF al día en la estación inferior o en las tiendas de Kandersteg",
+   "school_notes": [
+    "Tour privado con guía desde 160 CHF",
+    "Horarios y precios del teleférico, alquiler 25 CHF"
+   ]
+  },
+  "daubenhorn-leukerbad": {
+   "h": "13189b584c",
+   "description": "Ferrata deportiva muy larga y difícil hasta la cima del Daubenhorn: paredes verticales, largas escaleras desplomadas, una chimenea y una cueva. Solo para gente experimentada y con mucho fondo; los principiantes, como mucho, la parte pequeña con salida intermedia, o mejor otra ruta.",
+   "rating_basis": "Valais/Wallis Tourismus y la oficina de turismo de Leukerbad la presentan como la ferrata más larga de Suiza; descrita en el portal de rutas del SAC y en los croquis de bergsteigen.com",
+   "hazards": "Caída de piedras (casco obligatorio), tormentas, agua de deshielo en el gran corredor a principio de temporada, nieve vieja y un pequeño glaciar en la bajada, tramos expuestos sin cable; la bajada intermedia es peligrosa con humedad",
+   "crowd_note": "Casi nunca hay colas por su dificultad; se sale con la primera cabina para adelantarse a las tormentas",
+   "region": "Valais, Leukerbad, paso de Gemmi",
+   "approach": "Desde Leukerbad, teleférico Gemmibahn hasta el paso de Gemmi (2346 m) y luego 20–45 minutos de bajada por el antiguo camino comercial hasta la terraza herbosa de Untere Schmitte (~2060 m), con un gran panel informativo; a pie desde Leukerbad, una hora más",
+   "descent": "Desde la salida, siguiendo las marcas blanco-azul-blanco hasta el borde del pequeño glaciar del Daubenhorn, la llanura de Lämmerenboden y de vuelta a la estación del Gemmibahn, unas 1,75 horas; tras la ferrata pequeña (≈2 h) hay una bajada intermedia a Leukerbad, peligrosa con humedad",
+   "vf_highlights": "La vía ferrata más larga de Suiza: unos 2 km de cable, 216 m de escaleras (algunas desplomadas; la de la chimenea mide unos 100 m) y llegada a una cima de 2941 m sobre el balneario termal de Leukerbad",
+   "grade_local": "K5–K6 (escala suiza SAC); ferrata pequeña K4–K5, grande K5–K6, variante de la cueva E",
+   "pros": [
+    "La ferrata más larga de Suiza y una cima de casi 3000 m",
+    "Acceso en teleférico desde Leukerbad",
+    "Después, las piscinas termales de Leukerbad",
+    "Salida intermedia tras el primer tercio"
+   ],
+   "cons": [
+    "Solo para expertos: K5–K6",
+    "Temporada corta, normalmente desde julio",
+    "Jornada muy larga, más de 8 horas"
+   ],
+   "airport": "GVA — Ginebra, ~2,5 h; ZRH — Zúrich, ~3 h; BRN — Berna, ~1,75 h",
+   "fee_note": "La ruta es gratuita; el teleférico Gemmibahn es de pago",
+   "school_notes": [
+    "Descripción de la ruta; alquiler en las tiendas de deporte de Leukerbad y en el Gemmibahn"
+   ]
+  },
+  "fuerenwand-engelberg": {
+   "h": "b4e48c8430",
+   "description": "Ferrata larga y físicamente dura por la enorme pared de la Fürenhochflue: grapas en T, una travesía mojada, placas lisas y, al final, una escalera oscilante. Solo para expertos: fuerza de brazos y resistencia imprescindibles, y no hay salida de emergencia.",
+   "rating_basis": "5,0 sobre 5 con 280 valoraciones en ferrataguide.com y 4,6 sobre 5 en via-ferrata.de; una de las ferratas deportivas más conocidas de Suiza central",
+   "hazards": "Sin salida de emergencia, fatiga de brazos; tramos mojados con goteo de agua y roca pulida; piedras y roca mojada tras el deshielo en primavera; calor en verano; tormentas",
+   "crowd_note": "Pasado el banco a media pared los grupos se alcanzan y se forman colas; mejor salir por la mañana entre semana",
+   "region": "Suiza central, Engelberg (Titlis), Fürenalp",
+   "approach": "Desde la estación inferior del teleférico Fürenalpbahn (Herrenrüti, ~1080 m; desde Engelberg en autobús), 20–30 minutos por carretera asfaltada hasta el pie de la pared",
+   "descent": "Desde la salida, junto al restaurante Fürenalp (1840 m), bajada en el teleférico Fürenalpbahn o a pie por sendero hasta el valle, aproximadamente 1,5 horas",
+   "vf_highlights": "Una pared casi vertical de 600 metros sobre el valle de Engelberg con vistas al Titlis y, al final, la escalera de cable oscilante «Himmelsleiter», de unos 20 m",
+   "grade_local": "K4–K5 (escala suiza K1–K6) / D (escala Hüsler)",
+   "pros": [
+    "Una pared grandiosa y vistas al Titlis",
+    "Alquiler de material junto al remonte",
+    "Bajada en teleférico y restaurante a la salida",
+    "Temporada larga: de finales de mayo a octubre"
+   ],
+   "cons": [
+    "Sin salida de emergencia: si te agotas, solo queda el helicóptero",
+    "La separación entre grapas es incómoda para la gente bajita",
+    "Calor en la pared en verano"
+   ],
+   "airport": "ZRH — Zúrich, ~1,5 h; BSL — Basilea, ~1,75 h",
+   "fee_note": "La ruta es gratuita; la bajada en el Fürenalpbahn es de pago; aparcamiento junto a la estación inferior, unos 5 CHF; alquiler del equipo en la estación inferior por 25 CHF (solo el disipador, 15 CHF), mejor reservar",
+   "school_notes": [
+    "Alquiler del equipo por 25 CHF, reservas por teléfono al +41 41 637 20 94"
+   ]
+  },
+  "muerren-gimmelwald": {
+   "h": "a177290a5a",
+   "description": "La famosa ferrata «de bajada» por el borde de los acantilados entre los pueblos de Mürren y Gimmelwald: grapas sobre el vacío, escaleras, pasos de cable y un largo puente colgante. Técnicamente moderada (K3) pero muy expuesta: los principiantes, mejor con guía.",
+   "rating_basis": "Una de las ferratas más conocidas de Suiza: recomendada por Rick Steves, Earth Trekkers y muchos blogs de viajes; 4,0 sobre 5 en ferrataguide.com (~850 ascensiones)",
+   "hazards": "Las grapas metálicas resbalan mucho con lluvia: no ir si llueve o amenaza tormenta; exposición enorme sobre el precipicio; el puente se balancea con el grupo encima; prohibido salir a la plataforma de los saltadores BASE",
+   "crowd_note": "En agosto, con buen tiempo, hay «atascos» en las grapas y en el puente oscilante; mejor empezar a la apertura, a las 9:00",
+   "region": "Oberland bernés, valle de Lauterbrunnen, Mürren",
+   "approach": "A Mürren se llega en teleférico desde Lauterbrunnen hasta Grütschalp y luego en tren, o en teleférico desde Stechelberg; el inicio está a 5–10 minutos del Sportchalet Mürren, por un túnel bajo el muro de contención de la pista de tenis",
+   "descent": "La ruta va casi toda en bajada y termina en Gimmelwald; para volver a Mürren (o bajar a Stechelberg), teleférico Schilthornbahn",
+   "vf_highlights": "Travesía por grapas sobre el precipicio de 600 metros del valle de Lauterbrunnen con vistas al Eiger, el Mönch y el Jungfrau, un puente «nepalí» de 80 metros y una tirolina de 60 metros (solo con guía)",
+   "grade_local": "K3 (escala suiza SAC K1–K6), «bastante difícil»",
+   "pros": [
+    "Vistas al Eiger, el Mönch y el Jungfrau y a las cascadas de Lauterbrunnen",
+    "Alquiler de material en Mürren, cerca del inicio",
+    "Logística cómoda: vuelta en teleférico",
+    "Tirolina y puente nepalí con guía"
+   ],
+   "cons": [
+    "Abierta solo del 1 de junio al 31 de octubre, de 9:00 a 18:00",
+    "Exposición muy fuerte",
+    "Suiza es cara: teleféricos, alquiler y guía"
+   ],
+   "airport": "ZRH — Zúrich, ~2,5 h; BRN — Berna, ~1,5 h; GVA — Ginebra, ~3 h",
+   "guide_price_note": "Outdoor Interlaken: desde 135 CHF (≈145 €) por persona, guía UIAGM, material (ajuste en Stäger Sport, en Mürren) y tirolina incluidos",
+   "fee_note": "La ruta es gratuita (en la web se puede hacer una aportación voluntaria); teleféricos y alquiler de material de pago",
+   "school_notes": [
+    "Tour con guía UIAGM desde 135 CHF, material y tirolina incluidos",
+    "Horarios, normas y reserva de guías"
+   ]
+  },
+  "pinut-flims": {
+   "h": "499e521aae",
+   "description": "Una ferrata antiquísima por la que los vecinos subían durante siglos a los pastos del Flimserstein; desde 2007 es una ruta totalmente renovada, con escaleras anchas y cable continuo. Técnicamente sencilla (K2), apta para principiantes y niños a partir de 12 años, pero exige resistencia: 700 m de desnivel positivo.",
+   "rating_basis": "4,9 sobre 5 con 4 opiniones en via-ferrata.de; MySwitzerland y Graubünden la promocionan como una de las aventuras estrella de Flims-Laax; única por su historia",
+   "hazards": "Tormentas y roca mojada; la cueva siempre está húmeda y desde su suelo pueden caer piedras sobre quien va debajo; grandes bloques inestables en la bajada; escaleras expuestas",
+   "crowd_note": "En pleno verano hay mucha gente los fines de semana; las plazas del autobús y de la telecabina son limitadas: mejor comprar los billetes con antelación",
+   "region": "Grisones, Flims-Laax, Fidaz — pared del Flimserstein",
+   "approach": "Desde Flims en autobús PostAuto en dirección Fidaz hasta la parada «Pinut» (o a pie desde Flims-Dorf, 45 minutos) y luego 30 minutos y 200 m de desnivel hasta el lugar donde se pone el material, bajo la pared del Flimserstein; aparcamiento Stenna junto a la estación inferior en Flims",
+   "descent": "Desde la salida, por el histórico sendero Scala Mola hasta el alpe Bargis (1549 m), alrededor de 1 hora, y desde allí en autobús PostAuto a Flims; alternativa: telecabina Crap da Flem hasta Fidaz (billetes con antelación)",
+   "vf_highlights": "La vía ferrata más antigua conservada de Suiza (primera mención escrita en 1739): anchas escaleras de hierro, puentes, una cueva y túneles en los tres escalones verticales del Flimserstein",
+   "grade_local": "K2 (escala suiza SAC K1–K6), «media»; C en via-ferrata.de",
+   "pros": [
+    "Ambiente histórico y carácter único",
+    "Técnicamente fácil, buena para una primera vez",
+    "Tours con guía a precio fijo",
+    "Bonita bajada por el sendero Scala Mola"
+   ],
+   "cons": [
+    "Larga aproximación y bajada: hace falta buena forma",
+    "Cueva mojada, con goteo y piedras",
+    "Temporada solo de mediados de mayo a finales de octubre"
+   ],
+   "airport": "ZRH — Zúrich, ~2 h; FDH — Friedrichshafen, ~2 h",
+   "guide_price_note": "Tour en grupo de la oficina de turismo de Flims Laax Falera: 150 CHF (≈160 €) por persona, 20 CHF de descuento con la tarjeta de huésped, a partir de 4 personas; material y autobús desde Bargis incluidos",
+   "fee_note": "Gratis; aparcamiento de pago abajo",
+   "school_notes": [
+    "Tours en grupo con guía de montaña, 150 CHF; alquiler en Sport Beat y LAAX Rental en Flims",
+    "Tour para principiantes, reserva a través de Graubünden"
+   ]
+  },
+  "huashan-plank-walk": {
+   "h": "d06c0422ac",
+   "description": "No es una vía ferrata clásica, sino un corto tramo de un sendero taoísta bajo el pico Sur del Huashan (2154 m): bajada por grapas y unos 20 m de tablones adosados a una pared vertical, siempre con arnés y dos mosquetones a la cadena. Es un camino sin salida: hay que dar la vuelta y cruzarse con los demás sobre los mismos tablones. Para cualquiera que no tenga vértigo; la principal dificultad son las colas.",
+   "rating_basis": "Uno de los recorridos expuestos más famosos del mundo, en las listas de los «senderos más peligrosos»; según las opiniones, el peligro es sobre todo psicológico",
+   "hazards": "Exposición sobre el precipicio, cruces con quien viene de frente en los tablones; la montaña se cierra con viento fuerte y nevadas, en invierno hay hielo y en verano tormentas",
+   "crowd_note": "Hasta 30 000 visitantes al día en la montaña y colas de 2–3 horas para los tablones en verano y en las fiestas nacionales; mejor subir en teleférico hacia las 7–8 de la mañana o dormir en la montaña",
+   "region": "Provincia de Shaanxi, Huayin, monte Huashan — pico Sur",
+   "approach": "Tren de alta velocidad de Xi'an a Huashan Norte, ~40 minutos; autobús hasta el teleférico del pico Oeste y luego a pie por la cresta hasta el pico Sur",
+   "descent": "De vuelta por el mismo camino de tablones (es un recorrido sin salida) y luego por la cresta hasta el pico Norte y bajada en teleférico",
+   "vf_highlights": "El «sendero del terror» más famoso del mundo: unos 20 m de tablones de 30 cm de ancho clavados a la pared vertical bajo el pico Sur, a los que se baja por grapas de hierro",
+   "grade_local": "Sin grado oficial; técnicamente fácil, lo importante es la exposición sobre el precipicio",
+   "pros": [
+    "Un lugar famoso y muy fotogénico",
+    "Técnicamente fácil; el arnés se entrega allí mismo",
+    "Fácil de hacer en el día desde Xi'an"
+   ],
+   "cons": [
+    "Colas enormes y multitudes",
+    "Tramo muy corto",
+    "Tráfico en ambos sentidos sobre tablones estrechos"
+   ],
+   "airport": "XIY — Xi'an, ~2 horas (tren desde Xi'an Norte, 40 minutos)",
+   "fee_note": "Entrada a la montaña 160 yuanes (≈21 €, marzo–noviembre, válida 2 días) + alquiler del arnés obligatorio ~30 yuanes; los teleféricos aparte: 140 de subida y 80 de bajada"
+  },
+  "yandangshan-via-ferrata": {
+   "h": "2572a60652",
+   "description": "Parque comercial de vías ferratas en las paredes del pico Taping, en los montes Yandang: un corto recorrido de iniciación C, el recorrido A, de 400 m y con tres puentes de cable, y el largo B, de 900 m, con un puente de cable de 48 metros y otro de madera de 33. Abierto todo el año de 7:30 a 17:00; el material se entrega allí. Una buena opción para principiantes si estás en Zhejiang.",
+   "rating_basis": "Una ruta comercial popular de la que han hablado medios chinos e internacionales (un atasco en la pared durante la fiesta del 1 de mayo)",
+   "hazards": "Colas y esperas en la pared en días festivos; calor, aguaceros y tifones de junio a septiembre; grapas mojadas después de la lluvia",
+   "crowd_note": "En las fiestas chinas (1 de mayo, 1 de octubre), atascos de más de una hora en la pared; entre semana hay poca gente",
+   "region": "Provincia de Zhejiang, Wenzhou, Yueqing — montes Yandang, localidad de Xianxi, pico Taping (沓屏峰)",
+   "approach": "Desde la entrada del parque de vías ferratas «雁荡山飞拉达», junto al pico Taping, localidad de Xianxi, Yueqing",
+   "vf_highlights": "Una de las vías ferratas más conocidas de China: puentes de cable sobre el vacío (el más largo, de 48 m) y un puente colgante de madera de 33 metros",
+   "grade_local": "Sin grado oficial; 3 recorridos: A (400 m), B (900 m) y C (70 m, de iniciación)",
+   "pros": [
+    "Abierto todo el año",
+    "Barato, con material in situ",
+    "Puentes espectaculares sobre el vacío"
+   ],
+   "cons": [
+    "Atascos en el recorrido durante las fiestas chinas",
+    "Información solo en chino",
+    "En verano, calor, humedad y temporada de tifones"
+   ],
+   "airport": "WNZ — Wenzhou, ~1–1,5 horas",
+   "fee_note": "Entrada desde 65 yuanes (≈8 €) según un agregador de billetes; el precio depende del recorrido"
+  },
+  "alpspitz-ferrata": {
+   "h": "98e86cefe6",
+   "description": "Ferrata fácil y muy bien equipada por la cara norte hasta la cima de la Alpspitze: grapas, peldaños y cables casi sin tramos verticales. Ideal como primera ferrata de alta montaña y para adolescentes acompañados de un adulto con experiencia, aunque exige resistencia y paso seguro en la bajada.",
+   "rating_basis": "4,2 sobre 5 con 32 opiniones en via-ferrata.de; un clásico de Baviera en bergsteigen.com, Bergzeit y las guías del DAV",
+   "hazards": "Caída de piedras en el tramo central y en el corredor de la cima, tormentas y cambios bruscos de tiempo, roca resbaladiza con lluvia, nieve en los cables y en las bajadas en junio y en otoño; en invierno, solo con guía",
+   "crowd_note": "Los fines de semana de verano está «muy saturada»: las colas duplican el tiempo de subida y hay adelantamientos sin autoaseguro; id entre semana con la primera cabina y no bajéis por la ferrata contra la corriente",
+   "region": "Baviera, macizo del Wetterstein, Garmisch-Partenkirchen",
+   "approach": "Teleférico Alpspitzbahn desde Garmisch hasta el Osterfelderkopf (unos 2050 m, mirador AlpspiX) y luego 20 minutos siguiendo los indicadores «Alpspitz-Ferrata / Nordwandsteig»",
+   "descent": "Recomendada: por la cresta este (tramos A/B) hasta el circo de Oberkar y por el sendero Nordwandsteig, con túneles, de vuelta al Osterfelderkopf, unas 2 horas. Variante larga: Matheisenkarsteig (B/C) hasta el refugio Höllentalangerhütte y por la garganta de Höllentalklamm hasta el valle, unas 4 horas",
+   "vf_highlights": "La «primera ferrata» más popular de Baviera: subida fácil a la pirámide de la Alpspitze (2628 m) con vistas al Zugspitze y a Garmisch",
+   "grade_local": "B, sobre todo A (escala Hüsler A–E)",
+   "pros": [
+    "Técnicamente fácil (A/B) y bien equipada",
+    "Acceso rápido en teleférico desde Garmisch",
+    "Una cima de verdad, de 2628 m, con vistas al Zugspitze",
+    "Circuito por el Nordwandsteig, con túneles"
+   ],
+   "cons": [
+    "Muy saturada los fines de semana",
+    "Caída de piedras provocada por los grupos de arriba en el corredor bajo la cima",
+    "Nieve en la cara norte hasta mediados de junio"
+   ],
+   "airport": "MUC — Múnich, ~1,5 h; INN — Innsbruck, ~1 h",
+   "guide_price_note": "Bergschule Kleinwalsertal: 2 días (Alpspitze + Zugspitze por el Höllental), 445 € por persona, grupos de 4–5, material incluido",
+   "fee_note": "La ruta es gratuita; el billete de ida y vuelta del teleférico Alpspitzbahn cuesta 37 € (2025)",
+   "school_notes": [
+    "Programa de 2 días Alpspitze + Zugspitze, 445 €, material durante el tour"
+   ]
+  },
+  "gruenstein-koenigssee": {
+   "h": "73b0d50213",
+   "description": "Ferrata deportiva corta en la cara sur del Grünstein, sobre el lago Königssee, con varias variantes: la sencilla Isidor (C) sirve para principiantes con un compañero experimentado, y la Räuberleiter y la Gipfelwand (D/E–E), para los más fuertes. La temporada es más larga que en las ferratas de alta montaña: de primavera a principios de noviembre.",
+   "rating_basis": "4,5 sobre 5 en ferrataguide.com (~930 ascensiones) y 4,5 sobre 5 con 18 opiniones en via-ferrata.de; una de las ferratas más concurridas de Baviera",
+   "hazards": "Tormentas (un rayo llegó a alcanzar a un grupo en el cable), calor y sol en la cara sur, tramos de tierra resbaladizos tras la lluvia; en el puente colgante, los cables quedan altos para la gente bajita; cerrada de noviembre a marzo",
+   "crowd_note": "Los fines de semana está «completamente saturada», con colas en el inicio ya a las 8:30; llegad al aparcamiento a las 7:00–7:30 o id entre semana",
+   "region": "Baviera, Berchtesgadener Land, Schönau am Königssee",
+   "approach": "Desde el gran aparcamiento del Königssee (604 m) por la carretera que bordea la pista de bobsleigh hasta el inicio, sobre la Kunsteisbahn, 35–45 minutos",
+   "descent": "Desde la cima hasta el refugio Grünsteinhütte y luego en fuerte bajada por el sendero AV 445 hasta Hammerstiel o por el sendero Klingerweg (AV 443) hasta el aparcamiento del Königssee, alrededor de 1–1,25 horas; está prohibido bajar por la propia ferrata",
+   "vf_highlights": "Una ferrata «a la carta», de C a E, sobre el lago Königssee: un largo puente colgante que se balancea, un inicio desplomado y vistas al Watzmann desde la cima",
+   "grade_local": "C (variante Isidor, en algunos tramos B/C); variantes Hotelroute D, Räuberleiter D/E y salida Renoth-Gipfelwand D+/E (escala Hüsler)",
+   "pros": [
+    "Variantes para todos los niveles, de C a E",
+    "Aproximación corta desde el Königssee",
+    "Temporada larga: mayo–octubre",
+    "Vistas al Königssee y al Watzmann"
+   ],
+   "cons": [
+    "Muy saturada los fines de semana",
+    "Calor en la cara sur en verano, casi sin viento",
+    "Sin salida de emergencia una vez empezada"
+   ],
+   "airport": "SZG — Salzburgo, ~40 min; MUC — Múnich, ~2,5 h",
+   "fee_note": "La ruta es gratuita; el aparcamiento del Königssee es de pago"
+  },
+  "mindelheimer-klettersteig": {
+   "h": "016bee274d",
+   "description": "Larga ferrata de cresta de dificultad media por las cimas de los Schafalpenköpfe: paredes verticales cortas, una escalera-puente y mucha marcha por la cresta. Para montañeros resistentes con algo de experiencia; lo más cómodo es dormir en el refugio Fiderepasshütte.",
+   "rating_basis": "4,9 sobre 5 con 9 opiniones en via-ferrata.de; una de las ferratas más populares de la Algovia según Bergzeit; la guían las escuelas de montaña del Kleinwalsertal",
+   "hazards": "Cambios rápidos de tiempo y tormentas en la cresta, neveros hasta finales de junio y en algunos puntos más tarde, el empinado corredor de la Kemptner Scharte con caída de piedras, sin agua en el recorrido, algunos tramos sin cable",
+   "crowd_note": "Con buen tiempo los fines de semana hay colas y esperas en las escaleras; entre semana la ruta está casi vacía",
+   "region": "Alpes de Algovia, frontera entre Alemania y Austria: Oberstdorf / Kleinwalsertal",
+   "approach": "Desde Mittelberg (Kleinwalsertal, aparcamiento de pago) por el valle de Wildental hasta el refugio Fiderepasshütte (2067 m), 2–3 horas, y luego unos 30 minutos de fuerte subida hasta el collado Fiderescharte; conviene dormir en el refugio la noche anterior. Alternativa: remonte Kanzelwandbahn y travesía por los Hammerspitzen",
+   "descent": "Desde la cima del Kemptner Köpfl hasta el collado Kemptner Scharte (empinado corredor de pedrera) y luego por Hintere Wildenalpe y Fluchtalpe hasta Mittelberg, 1,5–2 horas; se puede pasar por el refugio Mindelheimer Hütte (+15–20 minutos)",
+   "vf_highlights": "La clásica travesía de cresta de la Algovia por las tres cimas de los Schafalpenköpfe, con una escalera-puente sobre una grieta y vistas a Oberstdorf y al Kleinwalsertal",
+   "grade_local": "B/C, algunos pasos C (escala Hüsler A–E)",
+   "pros": [
+    "Técnicamente no muy difícil, pero muy panorámica",
+    "Refugios al principio y al final de la ruta",
+    "Se puede hacer con una escuela de montaña del Kleinwalsertal"
+   ],
+   "cons": [
+    "Jornada muy larga: 8–10 horas con la aproximación",
+    "Sin salidas de emergencia desde la cresta",
+    "Bajada empinada por pedrera con caída de piedras"
+   ],
+   "airport": "FMM — Memmingen, ~1,5 h; MUC — Múnich, ~2,5 h; ZRH — Zúrich, ~2,5 h",
+   "guide_price_note": "Bergschule Kleinwalsertal: 120 € por persona, grupos de 4–6 personas, salida desde el refugio Fiderepasshütte a las 8:00; material incluido; a partir de 12 años",
+   "fee_note": "La ruta es gratuita; aparcamiento de pago en Mittelberg / Alpe Schwendle",
+   "school_notes": [
+    "Salidas en grupo a la Mindelheimer, 120 € por persona, material durante el tour"
+   ]
+  },
+  "canal-de-les-dames-montserrat": {
+   "h": "2307fbd89f",
+   "description": "Vía ferrata corta pero exigente por la cara sur de Montserrat, siguiendo el canal de l'Artiga Baixa: cuatro tramos de cable, grapas en desplome y un empinado corredor final. Para quien tenga fuerza de brazos y experiencia; los principiantes, solo con guía. Mejor de septiembre a junio: en verano la pared arde.",
+   "rating_basis": "La vía ferrata más conocida de Montserrat, la ofrecen las principales empresas de guías de Barcelona; difícil y física",
+   "hazards": "Calor y sol en la cara sur de junio a septiembre; roca pulida y resbaladiza; hace falta fuerza de brazos en el desplome; tras las lluvias, restos y piedras en el primer tramo",
+   "crowd_note": "Los fines de semana de primavera y otoño hay muchos grupos locales; entre semana, poca gente",
+   "region": "Cataluña, cara sur de Montserrat entre Collbató y El Bruc, a ~50 minutos de Barcelona",
+   "approach": "Desde el aparcamiento del restaurante Vinya Nova (salida 575 de la A-2, pasado Collbató), 20–25 minutos por sendero de bosque hasta el pie de la pared",
+   "descent": "A pie por el cauce del canal hasta el collado de Pollegons y bajada al Clot de la Mònica o por la canal de l'Artiga Alta, 30–60 minutos",
+   "vf_highlights": "Una ruta «deportiva» empinada por las famosas paredes de conglomerado de Montserrat, con vistas a los olivares de la llanura de El Bruc",
+   "grade_local": "K4 / K4+ (escala española; D+ en la francesa)",
+   "pros": [
+    "Cerca de Barcelona: se hace fácilmente en media jornada",
+    "Vistas a la llanura y a las agujas de Montserrat",
+    "Temporada casi todo el año",
+    "Gratis"
+   ],
+   "cons": [
+    "Roca pulida, pocos apoyos para los pies",
+    "Algunas grapas dobladas y tramos solo con cadena",
+    "En verano hace mucho calor en la cara sur"
+   ],
+   "airport": "BCN — Barcelona, ~50 minutos",
+   "guide_price_note": "Pyrenees Extrem: desde 40 € (material, seguro y aperitivo); Guies de Muntanya de Montserrat: desde 80 €; a partir de 12–15 años",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía, material incluido; catalán, castellano e inglés",
+    "Guía, material incluido; inglés, francés y castellano"
+   ]
+  },
+  "tajo-de-ronda": {
+   "h": "839a783dd5",
+   "description": "Vía ferrata histórica y corta por la pared del Tajo, justo bajo el famoso puente de Ronda: grandes grapas de forja empotradas en hormigón, instaladas en su día para los trabajadores de la central hidroeléctrica. Una buena forma de probar una ferrata por primera vez durante un viaje por Andalucía; la ruta vecina, «La Sevillana», está cerrada desde 2023.",
+   "rating_basis": "Un lugar famoso, pero la ferrata en sí es corta y «técnica» (hormigón y grapas); en via-ferrata.de tiene un 2,5 sobre 5",
+   "hazards": "Calor en verano de hasta +34 °C; grapas mojadas después de la lluvia; en el casco antiguo hay desprendimientos y las paredes se revisan con regularidad; la ruta vecina II está cerrada",
+   "crowd_note": "Los guías traen turistas desde Málaga y Marbella casi a diario; en el sendero del tajo hay muchos senderistas",
+   "region": "Andalucía, Ronda, tajo bajo el Puente Nuevo",
+   "approach": "Desde la Ciudad Vieja, a pie por la Puerta del Viento y la Puerta de los Molinos hasta el fondo del tajo, 20–30 minutos; mejor dejar el coche fuera del casco antiguo",
+   "descent": "Salida arriba, junto al sendero; 7–10 minutos hasta el cruce de la Puerta del Viento o subida a la Ciudad Vieja",
+   "vf_highlights": "La antigua «escalera de la muerte» de principios del siglo XX para los trabajadores de la central hidroeléctrica: subida por la pared del Tajo con vistas al Puente Nuevo, de 100 metros",
+   "grade_local": "K2 (A/B; según una opinión de 2026, algún tramo C)",
+   "pros": [
+    "Una vista del Puente Nuevo desde abajo que el turista corriente no tiene",
+    "Corta: se combina fácilmente con la visita a Ronda",
+    "Apta para principiantes con guía"
+   ],
+   "cons": [
+    "Muy corta (~80 m de cable)",
+    "Mucho hormigón y estructuras viejas en lugar de roca",
+    "En verano hace calor en el tajo"
+   ],
+   "airport": "AGP — Málaga, ~1,5 h; SVQ — Sevilla, ~2 h; GIB — Gibraltar, ~1,5 h",
+   "guide_price_note": "Sport Mountain a través de Yumping: 2 horas, guía, material y seguro; grupos de 2–12 personas",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía y material",
+    "Guía, material y reportaje fotográfico; circuito de 3 ferratas",
+    "Agregador de tours de ferrata en Andalucía"
+   ]
+  },
+  "diable-aussois": {
+   "h": "027c8f59a9",
+   "description": "Un conjunto de siete tramos independientes que suman 3,76 km sobre la garganta del Arc, entre los fuertes de l'Esseillon. Se puede hacer un tramo corto en una hora o enlazarlo todo en un circuito de 6–8 horas. Vale tanto para principiantes con niños (Angelots, Diablotins) como para expertos (Rois Mages, Purgatoire — TD).",
+   "rating_basis": "Uno de los conjuntos de vías ferratas más largos de Francia (3,76 km) y la principal atracción veraniega de la Alta Maurienne; hay guías todo el año",
+   "hazards": "Tormentas de verano por la tarde; hielo y nieve en invierno; caída de piedras provocada por los grupos de arriba; los niños de menos de 1,4 m y menos de 40 kg necesitan aseguramiento con cuerda",
+   "crowd_note": "En julio y agosto hay muchas familias y grupos en «Diablotins» y «Montée au Ciel»; en los tramos difíciles (Rois Mages, Purgatoire) hay menos gente",
+   "region": "Saboya, valle de la Maurienne, fuertes de l'Esseillon junto a Aussois",
+   "approach": "Desde el aparcamiento del fuerte Victor-Emmanuel (carretera D215 desde Aussois) o desde el reducto Marie-Thérèse, en la D1006; 5–10 minutos hasta el inicio",
+   "descent": "A pie por los senderos entre los fuertes y el Pont du Diable, 10–20 minutos",
+   "vf_highlights": "Siete tramos sobre la garganta del río Arc entre fuertes del siglo XIX: desde el infantil «Angelots» hasta los tres puentes colgantes de «Rois Mages» (TD)",
+   "grade_local": "F – TD (escala francesa; 7 tramos)",
+   "pros": [
+    "Gratis y abierta todo el año",
+    "De F a TD en un mismo sitio, a 5 minutos del aparcamiento",
+    "Fuertes del siglo XIX, puentes y la cascada del Nant",
+    "Alquiler de material en Aussois y La Norma"
+   ],
+   "cons": [
+    "Poca altitud (1300 m): sin las panorámicas alpinas de las rutas de cima",
+    "En verano hace calor en la garganta",
+    "De febrero a junio anida el búho real en las paredes: piden no hacer ruido junto a las galerías"
+   ],
+   "airport": "TRN — Turín, ~1,5 h; CMF — Chambéry, ~1,5 h; LYS — Lyon, ~2,5 h; GVA — Ginebra, ~2,5 h",
+   "guide_price_note": "Oficina de guías Savoie Maurienne: «Les Diablotins» media jornada desde 45 € por persona en grupo, «Montée au Ciel» desde 47 €; material incluido",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guías, material incluido; a partir de 8 años"
+   ]
+  },
+  "evettes-flegere-chamonix": {
+   "h": "be39a7f2bb",
+   "description": "Vía ferrata corta de nivel AD en la ladera de La Flégère, con una de las mejores vistas del macizo del Mont Blanc. Apta para principiantes con guía y familias con adolescentes; con el remonte se hace en media jornada. Los más experimentados pueden seguir por la segunda parte, que es más bien una vía de escalada equipada con parabolts.",
+   "rating_basis": "La principal ferrata «de iniciación» de Chamonix, la guían la Compagnie des Guides de Chamonix y Evolution 2; panorámica del Mont Blanc",
+   "hazards": "Tormentas de verano por la tarde; nieve a principio de temporada; a ~2000 m refresca de golpe; se recomienda cuerda para niños y principiantes",
+   "crowd_note": "En julio y agosto hay muchos grupos con guía de 10 a 14 h; mejor con el primer remonte",
+   "region": "Alta Saboya, Chamonix, ladera de La Flégère frente al Mont Blanc",
+   "approach": "Teleférico de La Flégère desde Les Praz (Chamonix) y luego ~20 minutos a pie siguiendo las marcas verdes",
+   "descent": "A pie desde arriba, 20 minutos de vuelta a la estación de La Flégère, y bajada en el remonte",
+   "vf_highlights": "Una ferrata corta con un puente himalayo y vistas a bocajarro del Mont Blanc, la Aiguille du Midi y el glaciar de la Mer de Glace",
+   "grade_local": "AD (escala francesa)",
+   "pros": [
+    "Panorámica del Mont Blanc y la Aiguille du Midi",
+    "Aproximación corta desde el remonte",
+    "Muchos guías y tiendas de alquiler en Chamonix",
+    "Gratis (solo se paga el remonte)"
+   ],
+   "cons": [
+    "La temporada depende del remonte: más o menos de mediados de junio a finales de octubre",
+    "Corta (150 m de desnivel)",
+    "Cara con guía"
+   ],
+   "airport": "GVA — Ginebra, ~1 h; LYS — Lyon, ~2,5 h; TRN — Turín, ~2 h",
+   "guide_price_note": "Evolution 2: en grupo de 4–6 personas, 79 € por persona; privado, 320 € para 1–4 personas + 5 € de alquiler; remonte (~24 € ida y vuelta) no incluido; a partir de 12 años y 150 cm de altura",
+   "fee_note": "Gratis; solo se paga el remonte de La Flégère",
+   "school_notes": [
+    "Grupos y salidas privadas, alquiler de material",
+    "La oficina de guías más antigua de Chamonix"
+   ]
+  },
+  "freissinieres-grande-falaise": {
+   "h": "bbb829933d",
+   "description": "Vía ferrata corta pero muy aérea en una pared sur sobre el valle de Freissinières, construida en 1988. Dos partes (K2/K3 y K3+) con una salida de escape entre ambas; hay pocas grapas y hay que trabajar con manos y pies sobre la roca. Ideal en primavera y otoño, cuando en los Alpes altos aún hay nieve.",
+   "rating_basis": "Una ruta histórica: la primera vía ferrata de Francia; se elogian su ambiente aéreo y la calidad del cable",
+   "hazards": "Roca pulida y resbaladiza, gran exposición; calor en la pared sur en las horas centrales del verano; de febrero a junio anida el halcón peregrino en las paredes",
+   "crowd_note": "Normalmente tranquila; en julio y agosto, grupos por la mañana",
+   "region": "Altos Alpes, valle de Freissinières, junto a L'Argentière-la-Bessée (Écrins)",
+   "approach": "Desde el pueblo de Freissinières por la carretera del collado de Anon hasta el aparcamiento en una curva (señalizado) y luego ~30 minutos por sendero balizado hasta el extremo oeste de la pared",
+   "descent": "Por sendero balizado pasando por el Clot du Puy (1660 m) y el bosque de vuelta al aparcamiento, aproximadamente 1 hora",
+   "vf_highlights": "La primera vía ferrata de Francia (1988): travesías aéreas por la pared sur sobre el valle, con un mínimo de grapas y mucha escalada en roca",
+   "grade_local": "AD / AD+ (escala francesa; K3+)",
+   "pros": [
+    "La histórica primera ferrata de Francia",
+    "Pared sur: temporada de primavera a noviembre",
+    "Gratis y cerca del aparcamiento",
+    "Salida de escape tras la primera parte"
+   ],
+   "cons": [
+    "Roca pulida y resbaladiza en algunos tramos",
+    "Sin puentes ni escaleras: algo sosa para quien busca «atracciones»",
+    "Comprueba el estado antes de ir: la web del Parque Nacional de los Écrins publicó un aviso de incendio y cierre del sector"
+   ],
+   "airport": "TRN — Turín, ~2,5 h; GNB — Grenoble, ~2,5 h; MRS — Marsella, ~3 h",
+   "fee_note": "Gratis"
+  },
+  "gorges-de-la-durance": {
+   "h": "dfa741c99a",
+   "description": "Parque de ferratas de pago en la estrecha garganta del Durance: cuatro recorridos que suman más de 2 km, desde uno infantil (a partir de 4 años) hasta el negro TD, con desplome y cinco puentes. Ideal para familias y para una primera vía ferrata; los más fuertes pueden añadir tirolinas gigantes.",
+   "rating_basis": "Un parque de ferratas familiar muy popular del Briançonnais; el recorrido negro se considera uno de los más difíciles de la zona",
+   "hazards": "Calor en la garganta en julio y agosto; tormentas; en el recorrido negro hace falta fuerza de brazos (desplome de ~10 m)",
+   "crowd_note": "En julio y agosto hay muchas familias y colonias en los recorridos naranja y verde; en el negro, menos gente",
+   "region": "Altos Alpes, garganta del Durance entre Briançon y L'Argentière-la-Bessée",
+   "approach": "Aparcamiento junto al puente de Gamonet (desvío antes de La Bâtie-des-Vigneaux, en la carretera a Vallouise); 5–10 minutos junto al Durance hasta el inicio de los cables",
+   "descent": "A pie, 10–15 minutos junto a la tubería forzada y por el puente grande hasta el aparcamiento",
+   "vf_highlights": "Cinco puentes colgantes de hasta 55 m sobre el río en el recorrido negro y dos tirolinas de ~500 m que cruzan la garganta",
+   "grade_local": "F – TD (4 recorridos: naranja, verde, rojo y negro TD)",
+   "pros": [
+    "Recorridos para toda la familia, niños desde 4 años",
+    "Alquiler de material en el mismo inicio",
+    "Tirolinas de ~500 m sobre la garganta",
+    "Aproximación y bajada cortas, café junto al río"
+   ],
+   "cons": [
+    "De pago",
+    "Poca altitud: sin panorámicas alpinas",
+    "Solo funciona de abril a octubre"
+   ],
+   "airport": "TRN — Turín, ~2 h; GNB — Grenoble, ~2,5 h; MRS — Marsella, ~3 h",
+   "fee_note": "Roc Aventure: vía ferrata 10 € (grupos/familias 8 €), alquiler de material 14 €; jornada con dos tirolinas gigantes y alquiler, 45 €",
+   "school_notes": [
+    "Operador del parque: entradas, alquiler y tirolinas"
+   ]
+  },
+  "mines-du-grand-clot": {
+   "h": "1b92bd8a07",
+   "description": "Vía ferrata larga y físicamente dura por la pared sur de gneis sobre La Grave: un túnel, una chimenea con grapas, un desplome en grapas de hierro y viejas galerías de mina. Para quien ya tenga experiencia en rutas D y buena resistencia; los principiantes, solo con guía.",
+   "rating_basis": "Una de las vías ferratas más largas y «deportivas» de Francia, un clásico de los Altos Alpes; vistas a los glaciares de La Meije",
+   "hazards": "Calor y tormentas de verano por la tarde; caída de piedras; en abril–mayo y en octubre puede haber nieve en la bajada; las marcas de la aproximación están desvaídas en algunos puntos",
+   "crowd_note": "Incluso en agosto rara vez hay colas: la ruta es larga y difícil",
+   "region": "Altos Alpes, La Grave, frente al macizo de La Meije (Écrins)",
+   "approach": "Desde la carretera D1091, junto a las antiguas minas de Grand Clot (entre La Grave y Les Fréaux), 10–30 minutos por la escombrera hasta la galería",
+   "descent": "A pie por el camino de mulas pasando por La Puyat hasta el pueblo de Le Chazelet (1797 m) y bajada hasta la carretera, 1,5–2,5 horas; conviene dejar un segundo coche en Le Chazelet",
+   "vf_highlights": "750 m de desnivel por la pared sur junto a las viejas galerías de unas minas de plomo, con vistas a los glaciares de La Meije (3983 m)",
+   "grade_local": "D (escala francesa; C/D en la Hüsler)",
+   "pros": [
+    "Gran desnivel (750 m) y ambiente alpino",
+    "Vistas a los glaciares de La Meije",
+    "Poca gente",
+    "Gratis"
+   ],
+   "cons": [
+    "Larga bajada de 1,5–2,5 horas, o hace falta un segundo coche",
+    "Orientación sur: calor en julio y agosto",
+    "No es para principiantes"
+   ],
+   "airport": "GNB — Grenoble, ~2 h; TRN — Turín, ~2 h; LYS — Lyon, ~2,5 h",
+   "fee_note": "Gratis"
+  },
+  "sveri-georgia": {
+   "h": "6bbcc534b8",
+   "description": "Dos recorridos en las paredes junto al pueblo de Sveri, cerca de Chiatura, uno fácil y otro más difícil, con cables y escaleras de hierro: unas 2–2,5 horas de actividad. Normalmente se vende como excursión de un día desde Kutaisi, con comida en el campamento, parada en el pilar de Katskhi y baño en unas cascadas. Apta para principiantes y familias con niños a partir de 10–12 años.",
+   "rating_basis": "La única vía ferrata comercial conocida de Georgia; la venden el portal turístico nacional georgia.to y agencias locales",
+   "hazards": "Calor en julio y agosto, roca resbaladiza después de la lluvia",
+   "crowd_note": "Se hace en grupos privados con guía",
+   "region": "Imereti, municipio de Chiatura, pueblo de Sveri — Sveri Adventure Camp",
+   "approach": "Unos 20 minutos a pie desde el Sveri Adventure Camp; por el camino, pequeñas cuevas",
+   "vf_highlights": "Se presenta como la primera vía ferrata del Cáucaso; el programa incluye el pilar de Katskhi y un baño en la poza de una cascada del río Sadzaliskevi",
+   "grade_local": "Sin grado oficial: un recorrido fácil para principiantes y otro más difícil",
+   "pros": [
+    "Logística sencilla desde Kutaisi, todo incluido",
+    "Apta para principiantes y niños",
+    "El pilar de Katskhi y las cascadas en la misma excursión"
+   ],
+   "cons": [
+    "No se publican la longitud ni el desnivel de los recorridos",
+    "Temporada solo de abril a octubre",
+    "En verano hace calor en Imereti"
+   ],
+   "airport": "KUT — Kutaisi, ~2 horas; TBS — Tiflis, ~3 horas",
+   "guide_price_note": "Excursión de un día: desde 420 laris por persona en grupo de 8 hasta 990 laris para una sola persona (desde ~160 $); guía, material, comida, cena y entrada incluidos",
+   "school_notes": [
+    "Excursión de un día, guía en inglés, a partir de 12 años",
+    "Excursión desde Kutaisi, a partir de 10 años con un adulto"
+   ]
+  },
+  "meteora-great-saint": {
+   "h": "087a4b3581",
+   "description": "Ruta corta de roca hasta una de las rocas «suspendidas» de Meteora, sobre Kastraki. Es una vía cordada: en lugar de cable continuo hay parabolts, aseguramiento con cuerda y técnica de vías de varios largos, así que por libre solo para escaladores; los demás, con guía. Técnicamente fácil, apta para principiantes con una forma física normal.",
+   "rating_basis": "Meteora es Patrimonio de la Humanidad de la UNESCO y uno de los grandes lugares de Grecia; el tour de Visit Meteora tiene un 4,9 sobre 5 con 47 opiniones y ferrataguide.com, un 4,0",
+   "hazards": "Calor de hasta +33 °C en julio y agosto; conglomerado liso, mojado tras la lluvia; junto a la cruz de la cima no hay seguros",
+   "crowd_note": "Se va en grupos pequeños con guía; las multitudes de turistas están en los monasterios, no en la roca",
+   "region": "Tesalia, rocas de Meteora sobre el pueblo de Kastraki, junto a Kalambaka",
+   "approach": "Desde el aparcamiento gratuito junto a la iglesia de San Pedro y San Pablo en Kastraki, subiendo por las calles del pueblo, pasando la iglesia de San Nicolás, y por un sendero de bosque, ~35 minutos",
+   "descent": "Por el mismo camino, ~25 minutos",
+   "vf_highlights": "Subida a una de las rocas de Meteora hasta una cruz con vistas a los monasterios, la llanura de Tesalia y los montes Pindo",
+   "grade_local": "B (vía cordada: aseguramiento con cuerda en parabolts, no cable continuo)",
+   "pros": [
+    "Vistas a los monasterios de Meteora y al Pindo",
+    "Corta y fácil: media jornada junto con la visita a los monasterios",
+    "Tours guiados muy bien valorados"
+   ],
+   "cons": [
+    "No es una vía ferrata clásica: hace falta cuerda y guía",
+    "En verano hace muchísimo calor",
+    "Seguros muy separados entre sí; junto a la cruz no hay ninguno"
+   ],
+   "airport": "SKG — Salónica, ~3 h; ATH — Atenas, ~4 h; VOL — Volos, ~2 h",
+   "guide_price_note": "Visit Meteora: desde 65 € por persona, ~3 horas; el guía proporciona arnés, casco y cabo de anclaje; valoración de 4,9 sobre 5 con 47 opiniones",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía y material, ~3 horas"
+   ]
+  },
+  "fortica-omis": {
+   "h": "eb5d280613",
+   "description": "Vía ferrata fácil justo encima de la localidad costera de Omiš: cables, escaleras y pasarelas metálicas suben por las rocas hasta una fortaleza del siglo XVI con vistas a la desembocadura del Cetina y a las islas. Una buena primera experiencia para familias con niños a partir de 8 años durante unas vacaciones en Dalmacia.",
+   "rating_basis": "Valoración de 4,0 en via-ferrata.de; una excursión popular entre quienes veranean en Split y Makarska",
+   "hazards": "Calor y sol en julio y agosto; piedras sueltas en la corta bajada; bora (viento fuerte) en invierno; alguna presa suelta",
+   "crowd_note": "En verano, grupos con guía por la mañana; a mediodía, con el calor, casi nadie",
+   "region": "Dalmacia, Omiš, en la desembocadura del río Cetina, a 25 km de Split",
+   "approach": "Desde el aparcamiento público junto al túnel de entrada a Omiš (unos 5 € al día), por el sendero a la izquierda del túnel, 5–10 minutos hasta el cartel de inicio",
+   "descent": "A pie hasta Omiš por un sendero fácil, ~45 minutos, o por un atajo de pedrera empinada hasta el aparcamiento",
+   "vf_highlights": "Subida por las rocas desde el mismo pueblo hasta la fortaleza medieval de Fortica (Starigrad), con vistas a Omiš, al cañón del Cetina y a las islas de Brač y Hvar",
+   "grade_local": "A/B (escala Hüsler)",
+   "pros": [
+    "Inicio dentro del pueblo, junto al mar",
+    "Técnicamente fácil, apta para principiantes y niños",
+    "Vistas al Cetina y al Adriático",
+    "Se puede contratar solo el alquiler del material"
+   ],
+   "cons": [
+    "En verano hace mucho calor: hay que salir temprano",
+    "Tres tramos cortos sin cable",
+    "Hubo avisos (2022) de grapas y presas que se movían"
+   ],
+   "airport": "SPU — Split, ~45 minutos",
+   "guide_price_note": "MOCO Adventures: con guía, 60 € (material, entrada a la fortaleza, seguro y fotos, a partir de 2 personas); por libre con alquiler de material, 35 €; a partir de 8 años",
+   "fee_note": "La ferrata en sí es gratuita (es privada; según datos de 2021, no hace falta registrarse); la entrada a la fortaleza de Fortica tiene un pequeño coste",
+   "school_notes": [
+    "Guía o alquiler de material; croata e inglés"
+   ]
+  },
+  "averau": {
+   "h": "a2a74bd460",
+   "description": "Ferrata corta y sencilla a la cima del Averau, sobre el refugio Averau: una travesía, un par de metros verticales y una chimenea escalonada, y luego una panorámica de medio Dolomitas. Una primera experiencia excelente, también para adolescentes con guía; se combina fácilmente con el Nuvolau, el Ra Gusela y el museo de las Cinque Torri.",
+   "rating_basis": "La clásica «primera ferrata» de Cortina: la oficina de turismo la considera apta para familias y los guías venden salidas de media jornada; las opiniones elogian la panorámica, aunque la ruta en sí es corta",
+   "hazards": "Piedras que tiran los grupos de arriba en el corredor, nieve en el corredor noreste en junio, tormentas por la tarde; en verano, la carretera al refugio Cinque Torri está cerrada a los coches de 10 a 17.",
+   "crowd_note": "En verano hay muchas familias y grupos con guía, y en la chimenea se forman atascos; por la mañana y en septiembre hay menos gente",
+   "region": "Dolomitas, Cinque Torri / paso Falzarego, Cortina d'Ampezzo",
+   "approach": "Aparcamiento de Bai de Dones (carretera Cortina–Falzarego), telesilla hasta el refugio Scoiattoli (2255 m), sendero n.º 439 hasta el refugio Averau (2413 m) y ~15 min por pedrera hasta el inicio del cable en el corredor noreste; a pie desde el paso Falzarego por los senderos 441/419, ~1,5 h hasta el refugio",
+   "descent": "Por el mismo camino de la ferrata (hay una variante fácil A/B) hasta el refugio Averau, luego al Scoiattoli y bajada en telesilla, ~1 h",
+   "vf_highlights": "Una ferrata corta y sencilla a una cima de 2649 m con panorámica de las Tofane, el Cristallo, la Civetta y la Marmolada; cerca, el museo al aire libre de la Primera Guerra Mundial de las Cinque Torri y el refugio más antiguo, el Nuvolau (1883)",
+   "grade_local": "A/B – B/C (bergsteigen.com: A/B, variante de la chimenea B; via-ferrata.de: B/C)",
+   "pros": [
+    "Aproximación casi entera en remonte",
+    "Técnicamente fácil: apta para principiantes y familias",
+    "Cima de 2649 m con panorámica de 360°",
+    "Los refugios Averau y Nuvolau al lado"
+   ],
+   "cons": [
+    "Muy corta: la ferrata en sí son ~30 min",
+    "Atascos en la chimenea en verano",
+    "Los últimos 20 min hasta la cima van sin marcas, con trepada fácil"
+   ],
+   "airport": "VCE — Venecia, ~2,5 h; TSF — Treviso, ~2 h; INN — Innsbruck, ~2,5 h",
+   "guide_price_note": "Media jornada, precio «desde» por persona en grupo de 6 en Explore-Share (guía IFMGA-UIAGM de Cortina)",
+   "fee_note": "Gratis; el telesilla de las Cinque Torri es de pago",
+   "school_notes": [
+    "Salida de media jornada al Averau desde 119 €/persona",
+    "Guía de Cortina, desde $157/persona; alquiler del equipo allí mismo, 15 €"
+   ]
+  },
+  "bocchette-centrali": {
+   "h": "36db48b9eb",
+   "description": "El corazón de la «Via delle Bocchette»: una travesía por estrechas repisas con cables y escaleras entre la Bocca degli Armi y la Bocca di Brenta, alrededor de la legendaria torre del Campanile Basso. Técnicamente sencilla (B), pero muy expuesta y en altura, con 4 horas de aproximación: la versión clásica es de 2 días durmiendo en el refugio Brentei, Alimonta o Pedrotti.",
+   "rating_basis": "Una de las ferratas más famosas de los Alpes; Planetmountain destaca su gran popularidad y las opiniones la describen como muy panorámica y «aérea»",
+   "hazards": "Nieve dura y hielo en el glaciar de los Sfulmini por la mañana (a principio de temporada hacen falta crampones y piolet), la nieve tapa el cable en la bocchetta del Campanile Basso, viento fuerte en los collados, tormentas: ir solo con tiempo estable.",
+   "crowd_note": "Los días despejados de julio y agosto hay muchísima gente: atasco en el escalón de la Bocca degli Armi y, en las repisas estrechas, cuesta cruzarse con quien viene de frente",
+   "region": "Dolomitas de Brenta, Madonna di Campiglio (Trentino)",
+   "approach": "Desde Madonna di Campiglio en coche o taxi hasta el refugio Vallesinella (1513 m), por los senderos n.º 317/318 pasando por el refugio Casinei hasta el refugio Brentei (2182 m), ~2,5 h, y luego por el sendero n.º 323, pasando el refugio Alimonta, por el glaciar de los Sfulmini hasta la Bocca degli Armi (2749 m), ~1,5 h",
+   "descent": "Desde la Bocca di Brenta por el sendero n.º 318 por la Val Brenta Alta hasta el refugio Brentei (~1 h) y a Vallesinella (~2 h); o 15 min hasta el refugio Pedrotti-Tosa (2491 m) y de allí a Molveno",
+   "vf_highlights": "Las famosas repisas estrechas (en algunos puntos de 50 cm) sobre el vacío alrededor del Campanile Basso y la Brenta Alta: la parte más conocida de la «Via delle Bocchette», emblema del Brenta",
+   "grade_local": "B, variante B/C (bergsteigen.com); «media, pero muy expuesta» (Planetmountain)",
+   "pros": [
+    "Las míticas repisas y vistas al Campanile Basso",
+    "Técnicamente fácil para un montañero con experiencia",
+    "Refugios al inicio y al final"
+   ],
+   "cons": [
+    "Aproximación larga: en la práctica, 2 días",
+    "Mucha gente en verano, cuesta cruzarse en las repisas",
+    "Sin escapatorias a mitad de recorrido"
+   ],
+   "airport": "VRN — Verona, ~2,5 h; BGY — Bérgamo, ~2,5 h; VCE — Venecia, ~3,5 h",
+   "fee_note": "Gratis; el taxi/lanzadera a Vallesinella y las noches en refugio se pagan aparte",
+   "school_notes": [
+    "Travesía guiada de varios días por el Brenta, durmiendo en refugios"
+   ]
+  },
+  "brigata-tridentina": {
+   "h": "a767e2910f",
+   "description": "Un clásico de los Dolomitas en la cara norte del macizo del Sella: desde la cascada del Pisciadù por escaleras y grapas hasta la arista de la torre Exner y, cruzando un puente colgante, al refugio Pisciadù. Técnicamente media (C) y con una aproximación corta desde la carretera: la «primera ferrata de verdad» ideal, con guía, para principiantes en forma.",
+   "rating_basis": "La vía ferrata más famosa de los Dolomitas: aparece en casi todas las listas (Garmont, BMC, Planetmountain) y en las webs de turismo de Alta Badia y Val Gardena",
+   "hazards": "Caída de piedras provocada por los grupos de arriba, tormentas de verano por la tarde, neveros en la bajada n.º 666 a principio de temporada (a veces hasta finales de agosto); orientación norte: frío a la sombra.",
+   "crowd_note": "Una de las ferratas más concurridas de los Alpes: en julio y agosto y los fines de semana hay colas en las escaleras y en el puente; la oficina de turismo aconseja empezar al amanecer y evitar los fines de semana",
+   "region": "Dolomitas, macizo del Sella, paso Gardena (Alta Badia)",
+   "approach": "5–15 minutos desde el aparcamiento de una antigua cantera (1956 m) en la carretera Colfosco–paso Gardena, ~2,3 km al este del paso",
+   "descent": "Desde el refugio Pisciadù (2585 m) por el sendero n.º 666 por la garganta de la Val Setus hasta el paso Gardena y el aparcamiento, ~1,5–2 horas; variante: sendero n.º 676 por la Val Mezdì hasta Colfosco",
+   "vf_highlights": "Un puente colgante sobre el vacío entre las torres Exner y Brunico, escaleras junto a la cascada del Pisciadù y un lago junto al refugio de llegada",
+   "grade_local": "C (escala Hüsler)",
+   "pros": [
+    "Aproximación de 5–15 minutos desde el coche",
+    "El famoso puente y el refugio con lago a la llegada",
+    "Salida de emergencia junto a la cascada",
+    "Es fácil encontrar guía en Corvara y Val Gardena"
+   ],
+   "cons": [
+    "Muchísima gente en verano y los fines de semana",
+    "Larga bajada por pedrera",
+    "Neveros en la bajada por la Val Setus hasta agosto"
+   ],
+   "airport": "VCE — Venecia, ~2,5–3 h; INN — Innsbruck, ~2 h; BZO — Bolzano, ~1 h",
+   "guide_price_note": "Precio «desde» por persona en grupo de 5 en Explore-Share (guía IFMGA, solo el servicio de guía); para 1–2 personas, más caro",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guías de montaña de Alta Badia (Corvara, Colfosco), salidas en grupo a la Tridentina",
+    "Guía privado IFMGA, mayo–octubre"
+   ]
+  },
+  "cesare-piazzetta": {
+   "h": "e04c5be708",
+   "description": "Ferrata corta pero de mucha fuerza al punto más alto del macizo del Sella: los primeros 30 metros son una pared casi vertical en la que hay que tirar del cable, luego una chimenea, un puente y una arista sin equipar hasta la cima de 3152 m. Solo para gente experimentada y fuerte; para principiantes, no.",
+   "rating_basis": "Conocida como una de las ferratas más difíciles de los Dolomitas (Dolomite Mountains, Planetmountain); buenas opiniones en Summitpost y Komoot por las vistas desde la cima; público reducido",
+   "hazards": "Hielo y frío a 2700–3150 m incluso en verano, tormentas por la tarde, arista final sin equipar y con piedra suelta, caída de piedras; en junio, nieve en la bajada por el corredor de la Forcella Pordoi.",
+   "crowd_note": "Por su dificultad hay poca gente en la ferrata; las multitudes están en la cima del Piz Boè y en el teleférico del Sass Pordoi",
+   "region": "Dolomitas, macizo del Sella, paso Pordoi (Arabba / Canazei)",
+   "approach": "Desde el paso Pordoi (aparcamiento; llegad antes de las 9:00), pasando el memorial militar alemán y por un sendero empinado por la ladera sur, 1–1,5 h; variante: remontes Boè / Vallon desde Corvara y sendero n.º 638 desde el paso Campolongo",
+   "descent": "Desde la cima del Piz Boè (3152 m) por el sendero n.º 638 hasta la Forcella Pordoi y luego por un corredor empinado hasta el paso Pordoi (~1,5 h), o desde la Forcella Pordoi subir al teleférico del Sass Pordoi y bajar en él",
+   "vf_highlights": "Una de las ferratas de más fuerza de los Dolomitas: pared vertical inicial y chimenea, un pequeño puente colgante y la cima del Piz Boè (3152 m), el punto más alto del Sella",
+   "grade_local": "Muy difícil (Planetmountain: very difficult); la pared vertical inicial llega, según las opiniones, a 5+ en la escala de escalada; la arista final sin cable, II UIAA",
+   "pros": [
+    "Un tresmil con panorámica de la Marmolada",
+    "Poca gente en la ferrata",
+    "La bajada se puede aliviar con el teleférico del Sass Pordoi"
+   ],
+   "cons": [
+    "Inicio muy duro: hace falta fuerza de brazos",
+    "Arista final sin cable (II)",
+    "Bajada por pedrera hasta el Pordoi"
+   ],
+   "airport": "VCE — Venecia, ~3 h; INN — Innsbruck, ~2,5 h; BZO — Bolzano, ~1,5 h",
+   "fee_note": "Gratis; el teleférico del Sass Pordoi es de pago",
+   "school_notes": [
+    "Guía privado IFMGA, encuentro en el paso Pordoi a las 8:30, mayo–septiembre; material propio"
+   ]
+  },
+  "cima-capi-susatti": {
+   "h": "b5d0bed39b",
+   "description": "Ferrata panorámica de cresta sobre Riva del Garda: escalones cortos y empinados con grapas, un rodeo expuesto a un bloque bajo la cima y trincheras de la Primera Guerra Mundial; la bajada, por una segunda ferrata, la Foletti. Técnicamente fácil (B), pero son 5 horas y más de 500 m de desnivel: una buena jornada completa para principiantes en forma; los niños, asegurados con cuerda.",
+   "rating_basis": "Muchos la consideran la ferrata más bonita del Garda: 360 Garda Life le da un 5/5 por paisaje y experiencia; la ruta se renovó en 2009 y figura en los programas de los guías de Arco",
+   "hazards": "Calor y sol en las laderas sur en verano (lleva mucha agua), estrecha arista cimera expuesta, tramos cortos sin equipar, hielo y nieve en invierno; caída de piedras provocada por grupos.",
+   "crowd_note": "En temporada alta hay «mucha gente y mucho calor»: empieza temprano y evita el calor del mediodía",
+   "region": "Trentino, orilla norte del lago de Garda — Riva del Garda / Biacesa (Ledro)",
+   "approach": "Desde Riva del Garda por la carretera de la Val di Ledro, a través de los túneles, hasta Biacesa (418 m, ~7 km), aparcamiento junto al parque infantil (o autobús n.º 2); por los senderos SAT 470 (Sentiero del Bech) y 405 hasta el inicio del cable en la cresta",
+   "descent": "Desde la cima de la Cima Capi (909 m) por la ladera norte (fácil pero expuesta) hasta el collado antes de la Cima Rocca, luego por la ferrata Mario Foletti (SAT 460, A/B) hasta el vivac Arcioni, junto a la iglesia de San Giovanni, y por sendero/carretera a Biacesa, ~1,5 h",
+   "vf_highlights": "Una cresta justo encima del lago de Garda con vistas al Monte Baldo, a Riva y a los valles del Sarca y de Ledro; trincheras austriacas y galerías de hormigón de la Primera Guerra Mundial, bandera y libro de cumbre",
+   "grade_local": "B (bergsteigen.com); EEA en la escala del CAI; la bajada por la ferrata Foletti, A/B",
+   "pros": [
+    "Las mejores vistas del lago de Garda de todas las ferratas",
+    "Circuito con dos ferratas",
+    "Se puede hacer casi todo el año",
+    "Trincheras y galerías de la Primera Guerra Mundial"
+   ],
+   "cons": [
+    "Calor y mucha gente en verano",
+    "Arista estrecha y expuesta junto a la cima, con tramos sin cable",
+    "Aproximación de ~1–1,5 h"
+   ],
+   "airport": "VRN — Verona, ~1,2 h; BGY — Bérgamo, ~2 h; VCE — Venecia, ~2,5 h",
+   "guide_price_note": "Mmove: «Via ferrata Cima Capi» desde 100 €, ~6 horas, salida desde Arco",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía, desde 100 €",
+    "Salida con guía desde Riva/Arco"
+   ]
+  },
+  "colodri-arco": {
+   "h": "16ac9378c2",
+   "description": "Ferrata corta y sencilla al Monte Colodri saliendo del mismo Arco: cable y grapas por una pared lisa, al final un tramo vertical de grapas y, arriba, una panorámica del valle del Sarca y del lago de Garda. Ideal para una primera vez y para niños con sus padres o con guía; se hace casi todo el año.",
+   "rating_basis": "La clásica ferrata escuela de Arco (construida por la S.A.T. en 1981); todas las oficinas de guías del Garda la venden como actividad familiar; en sí es corta",
+   "hazards": "Caída de piedras provocada por los grupos de arriba (ponerse el material antes de llegar a la pared), calor en verano, hielo en invierno los días fríos; roca pulida y resbaladiza con humedad.",
+   "crowd_note": "Muchísima gente, sobre todo los fines de semana y festivos: grupos con guía y familias; mejor un día laborable y a primera hora",
+   "region": "Trentino, orilla norte del lago de Garda — Arco (Prabi)",
+   "approach": "Aparcamiento junto al camping Arco / piscina municipal de Prabi (al lado del rocódromo Rock Master); desde la carretera, ~5 minutos por el sendero n.º 431b hasta el inicio del cable",
+   "descent": "Desde la cima del Monte Colodri por el Sentiero dei Lecci hasta la iglesia de Santa Maria di Laghel (fuente) y el centro de Arco, y luego a pie hasta Prabi, ~1 h; la variante por el Monte Colt es expuesta y requiere el equipo completo",
+   "vf_highlights": "La «primera ferrata» más accesible de la zona del Garda: grapas y cable por una pared justo encima de Arco, con vistas al valle del Sarca y al extremo norte del lago de Garda; todo el año",
+   "grade_local": "A/B (Garda Trentino / Visit Trentino); EEA en la escala del CAI",
+   "pros": [
+    "Inicio a 5 minutos del aparcamiento",
+    "Se puede hacer casi todo el año",
+    "Muchos guías y alquiler de material en Arco",
+    "Apta para niños"
+   ],
+   "cons": [
+    "Muchísima gente",
+    "Calor en verano: mejor por la mañana",
+    "La ferrata en sí es corta"
+   ],
+   "airport": "VRN — Verona, ~1 h; BGY — Bérgamo, ~2 h; VCE — Venecia, ~2,5 h",
+   "guide_price_note": "Mmove: salida con guía «desde 65 €», 3–4 horas",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía, desde 65 €",
+    "Salida familiar con guía",
+    "Guía privado de Arco"
+   ]
+  },
+  "ferrata-delle-aquile-paganella": {
+   "h": "c96ef3ce51",
+   "description": "Ferrata en la cima de la Paganella con remonte hasta el mismo inicio: 1 km de cable por los precipicios de la ladera «de las águilas», puentes de cable, una escalera de caracol y una larga repisa expuesta, con circulación estrictamente en un solo sentido. Una buena opción para una primera vez con guía y para adolescentes de 12–14 años en adelante; al lado, el lago de Molveno y Andalo.",
+   "rating_basis": "Una ferrata nueva «deportivo-turística» con puentes y remonte hasta el inicio: la venden varias agencias (Trentino Wild, LOLgarda, Manawa, CheckYeti); los guías familiares del Trentino la recomiendan para adolescentes",
+   "hazards": "Tormentas por la tarde (la cima está despejada y la ruta se considera oficialmente peligrosa con lluvia), roca resbaladiza con humedad, repisas expuestas; mantener la distancia: una persona por cada tramo de 2–3 anclajes.",
+   "crowd_note": "En verano hay muchos grupos con guía; el sentido único ayuda, pero en los puentes puede haber esperas: mejor con los primeros remontes",
+   "region": "Trentino, meseta de la Paganella — Andalo (entre los Dolomitas de Brenta y Trento)",
+   "approach": "Desde Andalo en la telecabina Andalo–Doss Pelà y el remonte a la cima de la Paganella (o desde Fai della Paganella en el teleférico «Paganella 2001»); desde la estación superior, unos minutos hasta el inicio en el canalone Battisti",
+   "descent": "Circulación en un solo sentido, del canalone Battisti al «Trono dell'Aquila»; vuelta al remonte por el sendero Aquile o Botanico, ~30–45 min, y bajada en remonte",
+   "vf_highlights": "Puentes de cable, una escalera de caracol y una larga repisa expuesta sobre el precipicio con vistas al valle del Adigio, al lago de Molveno y al Brenta; remonte hasta el mismo inicio",
+   "grade_local": "A–C la línea clásica; variantes D–E (web oficial de la Paganella)",
+   "pros": [
+    "Remonte hasta el mismo inicio",
+    "Puentes y escaleras: muchas «atracciones» en 2 horas",
+    "Muchas salidas con guía y alquiler de material",
+    "Circulación en un solo sentido"
+   ],
+   "cons": [
+    "Solo funciona mientras abren los remontes de verano",
+    "El remonte es de pago",
+    "Peligrosa con lluvia y tormenta: se cierra"
+   ],
+   "airport": "VRN — Verona, ~1,5 h; VCE — Venecia, ~2,5 h; BGY — Bérgamo, ~2,5 h",
+   "guide_price_note": "Salida en grupo con guía de Trentino Wild, material y guantes incluidos, remonte aparte; a partir de 14 años (altura mínima 1,40 m), de julio a mediados de septiembre",
+   "fee_note": "Gratis; los remontes de la Paganella son de pago",
+   "school_notes": [
+    "Salida en grupo, 100 €/persona, material incluido",
+    "Guía y material, a partir de 12 años; los guías hablan 6 idiomas (no ruso)"
+   ]
+  },
+  "giovanni-lipella": {
+   "h": "499d3dbcca",
+   "description": "Larga ferrata de alta montaña a la Tofana di Rozes: se entra por el túnel militar del Castelletto y luego escaleras, repisas y paredes de la cara oeste hasta la cresta a 3000 m, y a pie hasta la cima de 3225 m. Hace falta buena forma y experiencia en ferratas C: es una jornada de montaña completa, no un paseo.",
+   "rating_basis": "Un clásico de Cortina: Planetmountain la describe como una de las ferratas más populares e históricamente importantes; 4,5/5 en via-ferrata.de",
+   "hazards": "Nieve y hielo en la parte alta y en la bajada en junio y tras las nevadas, caída de piedras provocada por los grupos y por el deshielo, tormentas por la tarde en una ruta larga; en el túnel resbala y está oscuro: frontal obligatoria.",
+   "crowd_note": "En verano hay mucha gente, pero la ruta es larga y los grupos se dispersan; empieza temprano para adelantarte a las tormentas",
+   "region": "Dolomitas, macizo de las Tofane, Cortina d'Ampezzo",
+   "approach": "En coche desde Cortina por la carretera del paso Falzarego hasta el aparcamiento del refugio Dibona (2037 m) y luego por los senderos n.º 442/404 bajo la cara sur de la Tofana, hacia el oeste, hasta la entrada de la galería del Castelletto, ~1–1,5 h",
+   "descent": "Desde la cima, de vuelta por la cresta y por la vía normal (marcas azules, pedreras) hasta el refugio Giussani (2580 m) y luego por el sendero n.º 403 hasta el refugio Dibona, ~2,5 h. Salida de emergencia en las Tre Dita (2694 m), hacia el refugio Giussani",
+   "vf_highlights": "Inicio por la oscura galería del Castelletto, de 500 metros, excavada por los Alpini en 1916, y subida al tresmil de la Tofana di Rozes (3225 m)",
+   "grade_local": "C (escala Hüsler, via-ferrata.de); algunos pasos C/D (croquis de hoehenrausch.de)",
+   "pros": [
+    "Túnel de la Primera Guerra Mundial y cima de 3225 m",
+    "Vistas enormes de Cortina y de Fanes",
+    "Salida de emergencia a mitad de ruta (Tre Dita)"
+   ],
+   "cons": [
+    "8–9 horas y ~1300 m de desnivel con la aproximación",
+    "Túnel oscuro y resbaladizo: hace falta frontal",
+    "Bajada pesada por pedreras"
+   ],
+   "airport": "VCE — Venecia, ~2,5 h; TSF — Treviso, ~2 h; INN — Innsbruck, ~2,5 h",
+   "fee_note": "Gratis",
+   "school_notes": [
+    "Guía privado IFMGA de Cortina"
+   ]
+  },
+  "ivano-dibona": {
+   "h": "4758f5ac35",
+   "description": "Larga travesía de alta montaña por el macizo del Cristallo siguiendo las posiciones de la Primera Guerra Mundial: técnicamente fácil (B), pero con repisas en parte sin equipar, pedreras y más de 10 horas de marcha contando la subida a pie al Staunies. Para montañeros resistentes y con experiencia; los principiantes, solo con guía y con buen tiempo.",
+   "rating_basis": "Una travesía legendaria con el puente de «Máximo riesgo» (Cliffhanger), 4,2/5 en via-ferrata.de; sin el remonte superior se ha vuelto bastante más dura y se hace menos",
+   "hazards": "Nieve y hielo a principio de temporada (en junio de 2023 hubo quien tuvo que darse la vuelta), tormentas en una larga cresta sin bajadas rápidas, repisas sin equipar junto al Vecchio del Forame, pedrera empinada desde la Forcella Alta; las salidas de rescate son limitadas: empieza temprano.",
+   "crowd_note": "Desde el cierre de la telecabina del Staunies hay poca gente; junto al puente del inicio puede haber grupos, en la cresta casi nadie",
+   "region": "Dolomitas, macizo del Cristallo, Cortina d'Ampezzo",
+   "approach": "Telesilla Rio Gere (carretera del paso Tre Croci) – refugio Son Forca (2215 m) y luego a pie por una pedrera empinada hasta la Forcella Staunies y el refugio Lorenzi (2932 m), 2,5–3 h y ~700 m de desnivel. La telecabina Son Forca–Staunies no funciona desde 2016; opiniones de 2026 mencionan la preparación de un nuevo remonte, sin fecha anunciada",
+   "descent": "La ruta es una travesía por la cresta casi siempre en bajada: por la Forcella Grande y el vivac Buffa di Perrero hasta el Col dei Stombi (2168 m) y por la antigua senda militar de la Val Grande hasta Ospitale (carretera SS51), ~8–8,5 h desde el Staunies; para volver a Cortina, autobús o taxi. Volver a Tre Croci por el sendero 203 supone ~400 m más de subida",
+   "vf_highlights": "El puente colgante «Ponte Cristallo», de 30 metros, al inicio (allí se rodó «Máximo riesgo» con Stallone), y túneles y fortificaciones de la Primera Guerra Mundial en la cresta con vistas a las Tre Cime y a Misurina",
+   "grade_local": "B (escala Hüsler, via-ferrata.de); la web de turismo dolomiti.it le da D por la longitud: una larga travesía de alta montaña",
+   "pros": [
+    "El puente de «Máximo riesgo» y vistas a las Tre Cime",
+    "Historia de la Primera Guerra Mundial a cada paso",
+    "Casi sin colas"
+   ],
+   "cons": [
+    "El remonte superior está cerrado desde 2016: dura subida por pedrera de 2,5–3 h",
+    "Jornada muy larga y llegada lejos del inicio: hace falta transporte",
+    "En parte sin cable: repisas y pedreras"
+   ],
+   "airport": "VCE — Venecia, ~2,5 h; TSF — Treviso, ~2 h; INN — Innsbruck, ~2,5 h",
+   "fee_note": "Gratis; el telesilla Rio Gere–Son Forca es de pago",
+   "school_notes": [
+    "Directorio de guías IFMGA de Cortina; la Dibona, bajo petición"
+   ]
+  },
+  "marmolada-cresta-ovest": {
+   "h": "efa82b8f42",
+   "description": "Ferrata por la arista oeste hasta Punta Penia (3343 m), el punto más alto de los Dolomitas: aproximación desde el paso Fedaia cruzando un pequeño glaciar y luego placas pulidas y 450 m de cable sobre la inmensa cara sur. Una jornada seria de alta montaña de 8–10 horas; sin experiencia, solo con guía y con crampones.",
+   "rating_basis": "La única ferrata a la «reina de los Dolomitas»; según los guías (Explore-Share, 2025), hoy es la opción más habitual para la ascensión guiada a Punta Penia",
+   "hazards": "Grietas e inestabilidad del glaciar de la Marmolada (derrumbe de un serac el 3 de julio de 2022, 11 muertos; hubo zonas cerradas por orden del alcalde de Canazei), hielo y nieve en la arista, tormentas en una cresta abierta, altitud de más de 3300 m. Antes de salir, comprueba las restricciones vigentes.",
+   "crowd_note": "En julio y agosto hay grupos en sentido contrario en la arista; después de 2022 se habilitaron puntos de cruce; se sale a las 6–7 de la mañana",
+   "region": "Dolomitas, Marmolada — punto más alto de los Dolomitas, paso Fedaia / Val di Fassa (Canazei)",
+   "approach": "Desde el paso Fedaia (2057 m) a pie hasta Pian dei Fiacconi (2722 m), pasando bajo el Gran Vernel y cruzando un pequeño glaciar hasta la Forcella Marmolada (2910 m), donde empieza el cable; variante desde Alba di Canazei por el refugio Contrin y el sendero n.º 606 (a menudo durmiendo en el refugio)",
+   "descent": "Por el mismo camino de la arista o, si los guías consideran el glaciar transitable, por la vía normal a través del glaciar de la Marmolada hasta Pian dei Fiacconi y Fedaia (crampones, piolet y cuerda); en 2022, tras el derrumbe, solo se permitía bajar por la ruta de subida",
+   "vf_highlights": "Una ferrata al punto más alto de los Dolomitas, Punta Penia (3343 m), sobre una cara sur de 800 metros; en la cima, el refugio Capanna Punta Penia",
+   "grade_local": "Difícil: «grade 4» según los guías de la región del Véneto, «solo para expertos» (Dolomite Mountains); además, el paso de un pequeño glaciar con crampones",
+   "pros": [
+    "La cumbre número 1 de los Dolomitas",
+    "Una arista increíble sobre la cara sur",
+    "Se puede dormir en el refugio de la misma cima"
+   ],
+   "cons": [
+    "Glaciar en la aproximación/bajada: hacen falta crampones y técnica",
+    "Jornada muy larga, ~1350 m de desnivel",
+    "El estado de las rutas depende del glaciar: se decide en el último momento"
+   ],
+   "airport": "VCE — Venecia, ~3 h; INN — Innsbruck, ~2,5 h; BZO — Bolzano, ~1,5 h",
+   "guide_price_note": "Precio «desde» en Explore-Share (guía Renato, 2025); con los guías «Filippo e Francesco» (web de la región del Véneto), 190 €/persona en grupos de 3 o más, salidas los viernes a las 7:00 desde Fedaia",
+   "fee_note": "Gratis; dormir en la Capanna Punta Penia, en la cima, requiere reserva",
+   "school_notes": [
+    "Guías IFMGA; arista oeste o vía normal por el glaciar, según las condiciones",
+    "Salida en grupo los viernes, 190 €/persona"
+   ]
+  },
+  "punta-anna-olivieri": {
+   "h": "a11539c4ea",
+   "description": "Ferrata empinada y muy expuesta por la arista sur de Punta Anna, sobre Cortina: tramos verticales desde el principio, mucho trabajo de brazos y una roca excelente. Para quien ya haya hecho ferratas C y quiera subir de nivel; con el remonte hasta Pomedes, el inicio queda a solo 30 minutos.",
+   "rating_basis": "Una de las ferratas difíciles más populares de Cortina: varios guías la venden como tour propio; 4,7/5 en via-ferrata.de para el combinado Olivieri + Aglio",
+   "hazards": "Gran exposición y pasos de adherencia, tormentas por la tarde, nieve en la bajada por el Bus de Tofana a principio de temporada, hielo en la continuación por la Aglio; caída de piedras provocada por los grupos de arriba.",
+   "crowd_note": "En verano, con los primeros telesillas llegan muchos grupos y en los pasos empinados hay apreturas; las opiniones aconsejan empezar temprano",
+   "region": "Dolomitas, macizo de las Tofane, Cortina d'Ampezzo",
+   "approach": "Desde el aparcamiento de Pie' Tofana (Cortina), dos telesillas hasta el refugio Pomedes (2303 m) y desde allí ~30 min hasta el inicio, bajo la arista de Punta Anna; sin remonte, desde el refugio Dibona por el sendero n.º 421, ~1 h",
+   "descent": "Desde Punta Anna: por las pedreras del Bus de Tofana y el Vallon de Tofana hasta el refugio Giussani y por el sendero n.º 403 hasta el Dibona (para expertos); o hasta la estación intermedia del teleférico de Ra Valles y por el fácil Sentiero Olivieri hasta Pomedes, y bajada en telesilla. Continuación posible: la ferrata Aglio a la Tofana di Mezzo (3244 m) y bajada en teleférico",
+   "vf_highlights": "Una arista sur empinada y aérea justo encima de Cortina, panorámica de 360° desde Punta Anna y la posibilidad de seguir hasta la cima de la Tofana di Mezzo (3244 m)",
+   "grade_local": "D (escala Hüsler, via-ferrata.de); la oficina de turismo de Cortina la califica «para expertos»",
+   "pros": [
+    "Remonte casi hasta el inicio",
+    "Una ruta empinada y «de verdad» en buena roca",
+    "Se puede alargar hasta el tresmil de la Tofana di Mezzo"
+   ],
+   "cons": [
+    "Difícil desde los primeros metros: no apta para principiantes sin guía",
+    "Bajada pesada por pedreras",
+    "Sin agua ni refugios en la ruta"
+   ],
+   "airport": "VCE — Venecia, ~2,5 h; TSF — Treviso, ~2 h; INN — Innsbruck, ~2,5 h",
+   "guide_price_note": "Precio «desde» por persona en grupo de 5 en Explore-Share (guía Renato); con otros guías, desde 152 €",
+   "fee_note": "Gratis; los telesillas Pie' Tofana–Pomedes y el teleférico de las Tofane son de pago",
+   "school_notes": [
+    "Tours a Punta Anna desde 119–152 €/persona (grupo de 5)",
+    "Teleférico de las Tofane: remontes y descripción de las ferratas"
+   ]
+  },
+  "rino-pisetta": {
+   "h": "bf8d691f8a",
+   "description": "Ferrata de fuerza muy difícil en la cara sur del Monte Garzolet, sobre el lago de Toblino: placas lisas y pulidas en las que casi no hay dónde apoyar los pies y un inicio dificilísimo (D/E) de entrada. Solo para gente experimentada y muy fuerte; si el inicio se te atraganta, retírate por el desvío de la derecha. Temporada casi todo el año, salvo con calor o roca mojada.",
+   "rating_basis": "La mítica «ferrata más difícil» de la zona del Garda; opiniones en via-ferrata.de de 2024–2026: 4,5–5 sobre 5 («extremely hard and beautiful»)",
+   "hazards": "Calor y sol en la cara sur en verano, placas resbaladizas tras la lluvia, gran exposición en la travesía final por la placa, caída de piedras: por riesgo de desprendimientos la ruta estuvo cerrada desde el 15/10/2025 y reabrió el 24/04/2026 (bajo tu propia responsabilidad); comprueba el estado antes de salir.",
+   "crowd_note": "Hay poca gente, pero en el difícil inicio puede formarse un tapón: muchos se atascan ahí; en primavera y otoño, los fines de semana hay más movimiento",
+   "region": "Trentino, valle del Sarca junto al lago de Toblino (Sarche), 20 km al norte del lago de Garda",
+   "approach": "Desde el aparcamiento público del centro de Sarche (259 m, gran panel «Picol Dain») por un sendero mal marcado hacia arriba y por pedrera hasta el cartel del inicio, ~45 min",
+   "descent": "Desde la cima del Dain Piccolo (971 m) por sendero marcado hacia Ranzo y luego por una pista ancha, pasando la capilla de San Vigilio, de vuelta a Sarche, ~1,5 h; variante por la garganta de la Val Busa hasta el lago de Toblino. No se puede bajar por la ferrata",
+   "vf_highlights": "Construida en 1982 y considerada durante mucho tiempo la ferrata más difícil de los Alpes Orientales: una cara sur lisa casi sin apoyos para los pies, colgado del cable sobre el lago de Toblino y el valle del Sarca",
+   "grade_local": "E (escala Hüsler; inicio D con un tramo E)",
+   "pros": [
+    "Se puede hacer casi todo el año (clima mediterráneo)",
+    "Una prueba legendaria de fuerza de brazos",
+    "Vistas al lago de Toblino y al valle del Sarca"
+   ],
+   "cons": [
+    "No es para principiantes: el tramo más difícil está justo al inicio",
+    "En verano la cara sur arde (sombra solo después de las 15:00)",
+    "Placas pulidas y muy resbaladizas con humedad"
+   ],
+   "airport": "VRN — Verona, ~1,5 h; BGY — Bérgamo, ~2 h; VCE — Venecia, ~2,5 h",
+   "fee_note": "Gratis"
+  },
+  "via-delle-trincee": {
+   "h": "cff8cd588f",
+   "description": "Ferrata de cresta por la cordillera del Padon con panorámica del glaciar de la Marmolada: junto al teleférico, una pared lisa y empinada de 30 metros (el paso más difícil); después, la cresta, un puente y túneles de la Primera Guerra Mundial. Una buena segunda o tercera ruta después de ferratas sencillas; los principiantes, con guía.",
+   "rating_basis": "Aparece en la mayoría de las listas de ferratas de los Dolomitas (Planetmountain, Dolomite Mountains, sportoutdoor24); las mejores vistas de la Marmolada e historia de la Primera Guerra Mundial",
+   "hazards": "Roca volcánica lisa y resbaladiza en la pared inicial (sobre todo con humedad), exposición en la cresta, tormentas por la tarde; en los túneles está oscuro: hace falta linterna, y en el último túnel hay una bifurcación.",
+   "crowd_note": "En verano, con las primeras cabinas del teleférico se forma cola en la pared inicial; mejor subir a la apertura o llegar a pie desde Fedaia",
+   "region": "Dolomitas, cordillera del Padon frente a la Marmolada, Arabba / paso Fedaia",
+   "approach": "Teleférico Arabba–Porta Vescovo (2478 m) y desde la estación superior unos minutos por sendero; a pie desde el paso Fedaia por el sendero n.º 698, ~45 min – 1,5 h",
+   "descent": "Desde la cresta, pasando el vivac Bontadini (2550 m), hasta el refugio Padon (2390 m) y luego por el sendero de la ladera sur de vuelta a Porta Vescovo (pequeña subida al final) o por el sendero n.º 699 hasta el lago Fedaia, ~1,5 h",
+   "vf_highlights": "Roca volcánica oscura, una cresta frente al glaciar de la Marmolada, un puente colgante y túneles-trinchera de la Primera Guerra Mundial",
+   "grade_local": "C/D (escala Hüsler; la pared lisa inicial de 30 metros es D)",
+   "pros": [
+    "Remonte casi hasta el inicio",
+    "Las mejores vistas de la Marmolada y el Sella",
+    "Túneles y trincheras de la Primera Guerra Mundial",
+    "Salida de emergencia intermedia"
+   ],
+   "cons": [
+    "El tramo más difícil está justo al principio, en frío",
+    "Colas en la pared en verano",
+    "Hace falta linterna para los túneles"
+   ],
+   "airport": "VCE — Venecia, ~3 h; INN — Innsbruck, ~2,5 h; BZO — Bolzano, ~1,5 h",
+   "guide_price_note": "Precio «desde» por persona en grupo de 4 en Explore-Share (guía GAI de Arabba)",
+   "fee_note": "Gratis; el teleférico Arabba–Porta Vescovo es de pago",
+   "school_notes": [
+    "Guía GAI, salida desde Arabba"
+   ]
+  },
+  "todra-gorge-via-ferrata": {
+   "h": "71f49d5398",
+   "description": "Vía ferrata corta y sencilla (200 m, alrededor de una hora) en las paredes verticales de la garganta del Todra, parada popular en la ruta de Marrakech al Sáhara (Merzouga). Apta para principiantes y niños con guía; el material se alquila en una tienda a la entrada de la garganta.",
+   "rating_basis": "4,0/5 según 36 personas que la han hecho en ferrataguide.com; una ruta corta pero en un lugar muy espectacular; el estado de los cables se considera regular",
+   "hazards": "Calor en julio y agosto: ve por la mañana, a la sombra; caída de piedras desde las paredes de la garganta; crecidas repentinas en el cauce en otoño y primavera; revisa el material de los alquileres locales",
+   "crowd_note": "Hay poca gente en los cables, pero en la garganta, a mediodía, llegan autobuses de turistas: ve por la mañana",
+   "region": "Alto Atlas, Tinghir, garganta del Todra (Todgha)",
+   "approach": "Desde el aparcamiento en la parte más estrecha de la garganta (≈15 km de Tinghir), 5 minutos: cruzar la carretera y el cauce seco",
+   "descent": "A pie por el sendero de vuelta abajo, ~15 minutos",
+   "vf_highlights": "Cables y grapas en las paredes calizas de 300 metros del tramo más estrecho de la garganta del Todra, una de las grandes maravillas naturales de Marruecos; una rara vía ferrata en África",
+   "grade_local": "B/C (escala Hüsler, según ferrataguide.com)",
+   "pros": [
+    "Fácil de incluir en un viaje Marrakech–Sáhara",
+    "Paredes espectaculares",
+    "Se puede hacer todo el año"
+   ],
+   "cons": [
+    "Muy corta",
+    "Cables en estado regular",
+    "En verano hace calor en la garganta"
+   ],
+   "airport": "OZZ — Uarzazat, ~3 h; ERH — Errachidia, ~2,5 h; RAK — Marrakech, ~7 h",
+   "guide_price_note": "DesertTrail Adventures a través de Expedia/Wotif: ~80 dólares australianos por persona por 1,5 horas, guía, casco y arnés incluidos; con los guías locales de la garganta, precio a negociar",
+   "fee_note": "No hemos encontrado entrada aparte",
+   "school_notes": [
+    "Guía y material, punto de encuentro en Aït Lahbib, paseo a caballo opcional"
+   ]
+  },
+  "via-ferrata-kotor": {
+   "h": "2bc9cc9f2c",
+   "description": "Vía ferrata corta (unos 200 m de cable) justo encima del casco antiguo de Kotor, abierta en 2018. Técnicamente fácil; se hace con un guía socorrista y el material se entrega allí. Una buena forma de ver la bahía de Kotor desde arriba en un par de horas durante unas vacaciones en la costa.",
+   "rating_basis": "Una excursión popular entre los pasajeros de cruceros y desde Budva; ruta corta, pero con vistas de postal de Kotor",
+   "hazards": "Calor en julio y agosto; lluvias fuertes y roca mojada en invierno; piedras que tira la gente de arriba",
+   "crowd_note": "Solo se hace en grupos pequeños con guía; los días de escala de cruceros hay más gente",
+   "region": "Bocas de Kotor, a la salida del cañón de Škurda, junto al casco antiguo de Kotor",
+   "approach": "Desde el casco antiguo de Kotor, 10 minutos a pie hasta la salida del cañón de Škurda (Tabačina); el inicio está unos 100 m detrás del edificio «Vodovod»",
+   "descent": "A pie por el sendero de bajada a Kotor, unos 30 minutos",
+   "vf_highlights": "La primera vía ferrata de Montenegro (2018): una corta subida por las rocas con vistas al casco antiguo, a la bahía de Kotor y a la fortaleza de San Juan",
+   "grade_local": "B/C (escala Hüsler)",
+   "pros": [
+    "Inicio a 10 minutos del casco antiguo",
+    "Vistas a Kotor y a la bahía",
+    "Abierta todo el año",
+    "Apta para principiantes"
+   ],
+   "cons": [
+    "Muy corta",
+    "En verano hace calor: mejor por la mañana",
+    "De noviembre a enero son los meses más lluviosos en las Bocas"
+   ],
+   "airport": "TIV — Tivat, ~15 minutos; TGD — Podgorica, ~1,5 h; DBV — Dubrovnik, ~1,5 h",
+   "school_notes": [
+    "Guía, casco, arnés y guantes; todo el año",
+    "Guía y material, ~2 horas"
+   ]
+  },
+  "barrancas-del-cobre-via-ferrata": {
+   "h": "2968607130",
+   "description": "Vía ferrata corta en el parque de aventura del borde de las Barrancas del Cobre, junto a la estación de Divisadero: primero un rápel de 45 m por la pared y luego grapas, un puente colgante y el «salto de Tarzán». Se hace con un instructor del parque y no requiere experiencia. Lo lógico es combinarla con el tren «Chepe», la tirolina y el teleférico.",
+   "rating_basis": "Una ferrata pequeña, pero en uno de los lugares más espectaculares de México; el parque aparece en México Desconocido y en el Programa Destinos México",
+   "hazards": "Altitud de ~2200 m; tormentas de verano en la temporada de lluvias (julio–septiembre); mañanas frías y alguna nevada en invierno; el parque cierra a veces por mantenimiento del teleférico",
+   "crowd_note": "El grueso de la gente son los pasajeros del tren «Chepe» a mediodía; por la mañana, tranquilo",
+   "region": "Chihuahua, Sierra Tarahumara, Barrancas del Cobre — Divisadero",
+   "approach": "Parque junto a la estación de Divisadero del tren «Chepe» (Chihuahua–Pacífico) y el mirador de Piedra Volada; inscripción en el propio parque",
+   "descent": "La ruta empieza con un rápel de 45 metros por la pared del cañón y vuelve arriba por grapas y puentes",
+   "vf_highlights": "Rápel, grapas, puente colgante y «salto de Tarzán» al borde de las Barrancas del Cobre, un sistema de cañones más profundo que el Gran Cañón; al lado, 7 tirolinas (4,1 km), el ZipRider y un teleférico de 3 kilómetros",
+   "grade_local": "Sin grado oficial; al alcance de cualquiera con buena forma física",
+   "pros": [
+    "Vistas a las Barrancas del Cobre",
+    "Barata",
+    "Todo un parque de aventura al lado"
+   ],
+   "cons": [
+    "La ruta es corta",
+    "Queda lejos: tren o un largo trayecto desde Chihuahua",
+    "Poca información precisa sobre la ruta"
+   ],
+   "airport": "CUU — Chihuahua, ~5 h en coche; LMM — Los Mochis (tren «Chepe»)",
+   "guide_price_note": "Con instructor del parque: unos 600–800 pesos mexicanos por persona, material incluido (fuentes anteriores indican 450 pesos)",
+   "fee_note": "No hemos encontrado entrada aparte al parque; el teleférico y las tirolinas se pagan por separado",
+   "school_notes": [
+    "Operador del parque: instructores, material, tirolinas y teleférico"
+   ]
+  },
+  "kinabalu-mountain-torq": {
+   "h": "74dd281f45",
+   "description": "Un sistema de cables de unos 1,2 km en la pared granítica de Panalaban, entre 3400 y 3800 m, construido por Mountain Torq en 2007. Hay dos opciones: el Walk the Torq de iniciación (PD) y el más largo Low's Peak Circuit (AD), con un puente colgante. Se hace el segundo día de la ascensión al Kinabalu, después de ver amanecer en la cima; el LPC, a partir de 10 años.",
+   "rating_basis": "La vía ferrata más famosa de Asia, «la más alta del mundo» según el operador; todas las agencias de Sabah la venden junto con la ascensión al punto más alto de Borneo",
+   "hazards": "Altitud de 3800 m: posible mal de altura tras la subida nocturna; frío, lluvia y niebla, sobre todo de noviembre a enero; el granito resbala con humedad",
+   "crowd_note": "El número de montañeros está limitado por permisos y en los cables hay grupos pequeños; los permisos y los refugios se agotan con meses de antelación",
+   "region": "Sabah (Borneo), Parque Nacional de Kinabalu, pared de Panalaban",
+   "approach": "Día 1: desde la puerta de Timpohon, 4–5 horas a pie hasta el refugio de Panalaban (3289 m), briefing obligatorio; día 2: salida a las 2:30 para ver amanecer en el Low's Peak (4095 m) y luego encuentro con el instructor en el refugio Sayat-Sayat (3668 m)",
+   "descent": "El recorrido baja hasta los refugios de Panalaban; después del desayuno, bajada a pie hasta la puerta de Timpohon, 5–6 horas",
+   "vf_highlights": "La vía ferrata a más altitud del mundo según el operador (abierta en 2007): hasta 3800 m en la pared granítica del Kinabalu, un puente colgante de 22 metros a 3600 m y el amanecer en el Low's Peak",
+   "grade_local": "Low's Peak Circuit — AD (escala francesa); Walk the Torq — PD",
+   "pros": [
+    "Una altitud única y una cima de 4095 m en el mismo viaje",
+    "Todo incluido: guía, refugio y material",
+    "Apta para principiantes (Walk the Torq)"
+   ],
+   "cons": [
+    "Cara y solo en paquete de 2–3 días",
+    "Hay que reservar con meses de antelación",
+    "Con mal tiempo se cancela sin devolución del dinero"
+   ],
+   "airport": "BKI — Kota Kinabalu, ~2 horas hasta el parque",
+   "guide_price_note": "Paquete de 2 días/1 noche con Walk the Torq para extranjeros: 3090–3790 ringgits (3290 MYR en grupo de 2–3 personas, ≈660 €); guía, instructor, refugio, comidas, permiso, tasa del parque y traslados",
+   "fee_note": "La tasa del parque y el permiso de ascensión están incluidos en el paquete; sin paquete no se puede subir a la montaña",
+   "school_notes": [
+    "Paquetes de 2–3 días, instructor de vía ferrata incluido",
+    "Paquetes con el refugio Pendant Hut"
+   ]
+  },
+  "queenstown-via-ferrata": {
+   "h": "fff9c4e20f",
+   "description": "Vía ferrata de media jornada con guía en las rocas justo encima de Queenstown: escaleras, grapas y senderos entre paredes, más de 300 m de desnivel. No hace falta experiencia; a partir de 12 años. Una buena opción si en Queenstown te queda media jornada libre entre el salto de bungee y la excursión a Milford Sound.",
+   "rating_basis": "5,0 con 7 opiniones en BookMe, reseñas de Atlas & Boots y Destinationless Travel; una cómoda ruta de media jornada en la capital de la aventura",
+   "hazards": "Cambios bruscos de tiempo, viento frío y escarcha en las rocas en invierno (junio–agosto); sol fuerte en verano",
+   "crowd_note": "Grupos pequeños, de hasta 4 personas por guía: sin colas",
+   "region": "Isla Sur, Otago, Queenstown — rocas sobre el lago Wakatipu, junto a Queenstown Hill",
+   "approach": "Punto de encuentro en el Adventure Centre (39 Camp Street), en el centro de Queenstown; unos 5 minutos en coche hasta el inicio de la ruta",
+   "descent": "A pie hacia abajo con el guía; opcionalmente, bajada en tirolina por un pinar hacia Queenstown Hill",
+   "vf_highlights": "La primera vía ferrata de Nueva Zelanda: grapas y escaleras en rocas pulidas por el glaciar justo encima de Queenstown, con vistas al lago Wakatipu y a la cordillera de los Remarkables",
+   "grade_local": "Sin grado oficial: dos opciones de distinta dificultad, no hace falta experiencia",
+   "pros": [
+    "A 5 minutos del centro de Queenstown",
+    "Bonitas vistas del lago",
+    "Grupos pequeños"
+   ],
+   "cons": [
+    "Solo con guía",
+    "Algo cara para 2 horas de actividad",
+    "Menos conocida que la Wildwire de Wanaka"
+   ],
+   "airport": "ZQN — Queenstown, ~15 min",
+   "guide_price_note": "Solo con guía de Canyon Explorers (hasta 4 personas por guía): 189 dólares neozelandeses por persona por 3,5 horas, material incluido; salidas a las 9:15 y a las 13:30",
+   "fee_note": "Sin cargo aparte: solo dentro del tour",
+   "school_notes": [
+    "Único operador de vía ferrata en Queenstown, material incluido"
+   ]
+  },
+  "wildwire-wanaka-lord-of-the-rungs": {
+   "h": "8be47b6dbd",
+   "description": "Vía ferrata junto a la doble cascada de Twin Falls, cerca de Wanaka, que se anuncia como la vía ferrata de cascada más alta del mundo. El corto Level 1 (a partir de 10 años) es para principiantes; el Level 3 completo es una jornada de grapas, puentes y un desplome, con comida arriba y bajada en helicóptero. Solo con guía.",
+   "rating_basis": "TripAdvisor: 5,0 con 1452 opiniones; sello de calidad Qualmark Gold; artículos en Smithsonian y The Manual",
+   "hazards": "Salpicaduras y roca mojada junto a la cascada, frío y viento en primavera y otoño, cancelación del helicóptero con mal tiempo; el desplome del tramo superior exige fuerza de brazos",
+   "crowd_note": "Grupos pequeños con guía (desde 2 personas): sin colas; en verano, reserva con varios días de antelación",
+   "region": "Isla Sur, Otago, Wanaka — carretera de Mount Aspiring",
+   "approach": "20 minutos en coche desde Wanaka (a 11 km del aeródromo de Wanaka), con traslado desde el centro del pueblo; desde la base, hasta el pie de la cascada de Twin Falls",
+   "descent": "Level 1: 20 minutos de bajada a pie; Level 3: en helicóptero desde la cima hasta el valle",
+   "vf_highlights": "La vía ferrata de cascada más alta del mundo: ~2500 grapas y 450 m de desnivel junto a Twin Falls, 7 puentes, un paso por detrás de una cascada de 60 metros y helicóptero desde la cima",
+   "grade_local": "Niveles del operador 1–3: Level 1 — parte baja para principiantes, Level 2 — medio, Level 3 — la ruta completa con desplome",
+   "pros": [
+    "Récord mundial y vistas a los Alpes del Sur",
+    "Opciones de 2 a 7 horas",
+    "Bajada en helicóptero"
+   ],
+   "cons": [
+    "Cara, sobre todo el Level 3",
+    "Cerrada en junio y julio",
+    "Peso de 40–100 kg"
+   ],
+   "airport": "ZQN — Queenstown, ~1 h; WKA — Wanaka (vuelos regionales)",
+   "guide_price_note": "Solo con guía de Wildwire, en dólares neozelandeses: Level 1 (≈1 h en los cables, 4 puentes) — $205; Level 3 con comida y helicóptero — $750–769; material incluido",
+   "fee_note": "Sin cargo aparte: solo dentro del tour",
+   "school_notes": [
+    "Operador único: guía, material, traslado desde Wanaka y helicóptero en el Level 3"
+   ]
+  },
+  "jebel-shams-via-ferrata": {
+   "h": "78c30157bf",
+   "description": "Vía ferrata corta pero expuesta en los 200 m superiores de la pared del cañón de Wadi Ghul: desde la aldea abandonada de As Sab, cables y grapas te devuelven al borde de la meseta. Se hace en 1–2 horas como parte de un circuito con el sendero Balcony Walk. Solo con guía: para gente en buena forma y sin vértigo.",
+   "rating_basis": "La ruta de montaña más famosa de Omán (Balcony Walk) más una vía ferrata incluida en los programas de muchos turoperadores de Mascate; artículo en Oman Observer",
+   "hazards": "Sol y calor sin sombra de mayo a septiembre: lleva agua de sobra; gran exposición sobre el cañón; en invierno, por la noche, junto al borde se ronda los cero grados",
+   "crowd_note": "Grupos pequeños con guía, sin colas",
+   "region": "Ad Dakhiliyah, Al Hamra, meseta del Jebel Shams — borde del cañón de Wadi Ghul junto a la aldea abandonada de As Sab",
+   "approach": "Desde la aldea de Al Khitaym por el sendero Balcony Walk, siguiendo el borde del cañón, hasta la aldea abandonada de As Sab (Sab Bani Khamis), unos 2 km",
+   "descent": "La ruta sale al borde del cañón y desde allí se vuelve a pie a Al Khitaym: es un circuito",
+   "vf_highlights": "Una pared sobre el «Gran Cañón de Omán», el Wadi Ghul: cables y grapas en los 200 m superiores del precipicio después del clásico sendero Balcony Walk",
+   "grade_local": "Sección inferior de dificultad media–alta (según la prensa local); sin grado oficial",
+   "pros": [
+    "Vistas a uno de los cañones más profundos de Arabia",
+    "Se combina con el Balcony Walk y una noche en la meseta",
+    "En invierno, agradable: de día, 14–20 °C"
+   ],
+   "cons": [
+    "Sin guía es difícil encontrar y hacer la ruta",
+    "En verano, calor y nada de sombra",
+    "Largo trayecto desde Mascate (~3,5 h)"
+   ],
+   "airport": "MCT — Mascate, ~3,5 horas",
+   "guide_price_note": "Tour con guía de ~5 h desde 150 $ (≈130 €) por persona, material incluido; a partir de 14 años",
+   "school_notes": [
+    "Tour de 5 h desde el Cliff Café, desde 150 $",
+    "3 días desde Mascate con acampada, a partir de 15 años",
+    "Excursión de un día desde Mascate: Balcony Walk + vía ferrata"
+   ]
+  },
+  "skylodge-via-ferrata-sacred-valley": {
+   "h": "5389fb860f",
+   "description": "La vía ferrata más famosa de Sudamérica: subida por grapas por una pared vertical del Valle Sagrado hasta las cápsulas transparentes del hotel Skylodge, luego comida o noche allí y bajada en tirolina. No hace falta experiencia; niños a partir de 8 años. La principal dificultad es la altitud, ~3000 m sobre el nivel del mar.",
+   "rating_basis": "Una atracción conocida en todo el mundo gracias a las cápsulas-habitación del Skylodge (Traveller, Malay Mail, Original Travel, Scott Dunn); muy popular entre los turistas de Cusco",
+   "hazards": "Mal de altura los primeros días; sol fuerte de altura; en la temporada de lluvias (diciembre–marzo), roca mojada y aguaceros por la tarde; hipotermia con viento",
+   "crowd_note": "Los grupos de Natura Vive salen por la mañana; en la temporada seca (junio–agosto) hay varios grupos seguidos en la pared",
+   "region": "Cusco, Valle Sagrado de los Incas, Pachar — entre Urubamba y Ollantaytambo",
+   "approach": "Alrededor de una hora en coche desde Cusco hasta Pachar (carretera Urubamba–Ollantaytambo); desde la carretera, unos minutos hasta la pared",
+   "descent": "Bajada por 6 tirolinas de 100 a 500–700 m (~2 km en total), con ~35 minutos a pie hasta la primera; en la versión corta, bajada en rápel y a pie",
+   "vf_highlights": "Subida por grapas y puentes por una pared vertical de ~300–400 m hasta las cápsulas-habitación transparentes del Skylodge, colgadas de la roca sobre el Valle Sagrado; bajada por 6 tirolinas",
+   "grade_local": "Sin grado oficial; según los operadores, «moderada–exigente» (Moderate–Demanding)",
+   "pros": [
+    "Una imagen única: cápsulas-habitación en la roca",
+    "Fácil de combinar con Machu Picchu y Cusco",
+    "Temporada casi todo el año"
+   ],
+   "cons": [
+    "Cara",
+    "Altitud de ~3000 m: hace falta aclimatarse en Cusco",
+    "Solo dentro de un tour"
+   ],
+   "airport": "CUZ — Cusco, ~1 h",
+   "guide_price_note": "Paquete «vía ferrata + tirolina + comida de 4 platos en el Skylodge» con traslado desde Cusco: ~$278 a través de Civitatis; dormir en una cápsula del Skylodge es otro paquete, caro. Material y guía (inglés/español) incluidos",
+   "fee_note": "Solo dentro del tour de Natura Vive",
+   "school_notes": [
+    "Propietario de la ruta y del Skylodge: guías y material",
+    "Tour de día completo con traslado desde Cusco",
+    "Página en ruso; no se indica el idioma del guía"
+   ]
+  },
+  "aktru-kanyon": {
+   "h": "2cdbe920a6",
+   "description": "Un recorrido de 700 m por un cañón en la ladera sureste del pico Kyzyltash, construido en 2019–2020 junto al campamento alpino «Aktru». Tiene las secciones «Cornisas», «Cañón», «Cresta», «Gran Torre» y «Esprint final», con grapas en los pasos difíciles, plataformas para descansar y vistas a los glaciares. Para quien tenga experiencia básica y equipo propio; los principiantes, con un instructor del campamento.",
+   "rating_basis": "Guía detallada de la Federación de Alpinismo de Rusia y mención en un artículo científico sobre el desarrollo de las vías ferratas en Rusia; un lugar conocido pero remoto",
+   "hazards": "Cambios bruscos de tiempo y nieve en junio y septiembre, frío en altura; son obligatorios un kit de vía ferrata con disipador (EN 958) y casco; la hierba mojada en la bajada por el Sukhói Log resbala",
+   "crowd_note": "Sin colas: en el valle solo están los huéspedes del campamento alpino y algunos excursionistas",
+   "region": "República de Altái, cordillera Chuya del Norte, valle de Aktru, ladera del pico Kyzyltash",
+   "approach": "Unos 25 minutos desde el campamento alpino «Aktru»: pasando el monumento al alpinista, por un bosque de pinos cembros y una ladera de hierba hasta las rocas, por un sendero con marcas rojas",
+   "descent": "A pie por el Sukhói Log hasta el campamento, 20–25 minutos (pedrera y hierba empinada), o subiendo por el sendero hasta el lago Tronov, 40–50 minutos; también se puede bajar por la sencilla vía ferrata «Lesnaya» («del Bosque»), que cruza un puente colgante",
+   "vf_highlights": "La vía ferrata a más altitud de Siberia: un cañón sobre el valle glaciar de Aktru con vistas a los glaciares de la cordillera Chuya del Norte; al lado hay otras tres rutas sencillas: «Lesnaya», «Kupol» y «Detskaya» (infantil)",
+   "grade_local": "Media (valoración del autor de la guía; no hay escala oficial)",
+   "pros": [
+    "Alta montaña a 2300–2600 m con glaciares al lado",
+    "Gratis y sin colas",
+    "Se combina con el lago Tronov y otras rutas sencillas cercanas"
+   ],
+   "cons": [
+    "Viaje largo: la carretera del Chuya (Chúiski trakt) y una pista de tierra en todoterreno",
+    "Temporada corta: en la práctica, julio y agosto",
+    "No se publican ni el alquiler de material ni los precios de los guías"
+   ],
+   "airport": "RGK — Gorno-Altáisk, luego por la carretera del Chuya hasta Kurái y por pista de tierra hasta Aktru en todoterreno (un día entero de viaje)",
+   "fee_note": "Gratis (según la guía «Vías ferratas de Aktru»)"
+  },
+  "mishoko-adygea": {
+   "h": "c02dadcd46",
+   "description": "Pequeña vía ferrata en un cañón junto a Jadzhoj: el recorrido sur, familiar y con puentes, y otro más corto y empinado con una escalera desplomada. La guían los instructores del parque y el material, de marcas europeas, se entrega allí. Bien para una primera toma de contacto y para niños con instructor; al lado hay tirolinas, barranquismo y rutas en 4x4.",
+   "rating_basis": "Una reseña detallada de una familia con niños (2020); un recorrido sencillo de parque en la popular zona turística de Jadzhoj",
+   "hazards": "La escalera desplomada de la variante empinada echa abajo a los que no están preparados; los niños y las personas ligeras necesitan aseguramiento desde arriba o un adulto al lado; en verano hace calor",
+   "crowd_note": "Se hace con los instructores del parque en grupos pequeños",
+   "region": "República de Adiguesia, Kamennomostski (Jadzhoj), cañón junto al río Bélaya",
+   "approach": "Inicio desde la explanada del parque, en la orilla norte del cañón, a unos minutos a pie",
+   "descent": "Desde lo alto del recorrido, de vuelta en tirolina cruzando el cañón",
+   "vf_highlights": "Puentes sobre el cañón, una tirolina que lo cruza por su parte más ancha y vuelta al inicio por una segunda tirolina",
+   "grade_local": "Sin grado oficial: un recorrido familiar y otro corto y empinado con escalera desplomada",
+   "pros": [
+    "Apta para niños y principiantes",
+    "Tirolina sobre el cañón incluida",
+    "Cerca, el desfiladero de Jadzhoj, Lago-Naki y otras actividades"
+   ],
+   "cons": [
+    "Recorridos cortos y de poca altura",
+    "No se publican longitud, precios ni horarios: hay que preguntar en el parque",
+    "El recorrido norte a veces está cerrado"
+   ],
+   "airport": "KRR — Krasnodar, ~3 horas pasando por Maikop",
+   "fee_note": "De pago: los recorridos se venden en paquetes en el parque; precios no publicados"
+  },
+  "rosa-khutor-vereskovaya-tropa": {
+   "h": "4051e7eb6b",
+   "description": "Un recorrido corto de 300 m y 100 m de desnivel en la ladera noreste de la cordillera de Aibga, junto a la estación superior del «Kavkazski Express». Al visitante lo enganchan al cable con un kit de autoaseguro que no se puede soltar y lo guía un instructor; se entregan casco y guantes. Para quien quiera probar una vía ferrata por primera vez, a partir de 14 años.",
+   "rating_basis": "Una atracción de estación: recorrido corto, pero con acceso fácil en remonte y panorámica del Cáucaso; inaugurado en julio de 2024",
+   "hazards": "Niebla, viento y tormentas a 2300 m; se cierra con mal tiempo junto con el remonte",
+   "crowd_note": "Se hace en grupos pequeños con instructor; en pleno verano puede haber espera",
+   "region": "Krai de Krasnodar, Sochi, Krasnaya Polyana — estación «Rosa Khutor», cordillera de Aibga",
+   "approach": "Por los teleféricos de la estación hasta la estación superior del «Kavkazski Express»; el inicio está junto a la estación",
+   "descent": "Hasta la estación superior del «Kavkazski Express» y bajada en remonte",
+   "vf_highlights": "La vía ferrata más accesible de Rusia: 20–40 minutos por las rocas de la cordillera de Aibga a 2300 m con vistas a la Cordillera Principal del Cáucaso",
+   "grade_local": "Grado no publicado; recorrido sencillo para principiantes con instructor",
+   "pros": [
+    "Subida en teleférico, sin larga aproximación",
+    "Instructor y material allí mismo",
+    "Se combina con paseos por Rosa Peak"
+   ],
+   "cons": [
+    "Recorrido muy corto",
+    "Solo a partir de 14 años",
+    "Hace falta billete de remonte; el precio de la actividad no está publicado"
+   ],
+   "airport": "AER — Sochi (Adler), ~1 hora hasta Rosa Khutor"
+  },
+  "sochi-orlinye-skaly": {
+   "h": "7f295fa664",
+   "description": "Cerca de 1 km de ruta de roca con cable, grapas, peldaños y escaleras en las Orlinye Skaly (Rocas del Águila), sobre la garganta del Agura, con 250 m por la roca. Solo se hace con guía y el material se entrega allí. Apta para principiantes en buena forma y familias con niños a partir de 12 años; la ruta funciona todo el año si el tiempo lo permite.",
+   "rating_basis": "Opiniones en Tripster: 5,0 (30 opiniones para un guía, 5 para otro); el equipo de guías se presenta como autor de la primera vía ferrata de Rusia",
+   "hazards": "Roca y barro resbaladizos después de la lluvia, calor y humedad en verano; hace falta calzado adecuado con buena suela (no zapatillas de lona)",
+   "crowd_note": "Se hace en grupos pequeños con guía; no hay colas en los cables",
+   "region": "Krai de Krasnodar, Sochi, Josta — garganta del Agura, Parque Nacional de Sochi",
+   "approach": "Encuentro a la entrada de la garganta del Agura y subida por el sendero junto al río Agura hasta las rocas",
+   "descent": "Desde el mirador de las Orlinye Skaly, a pie por un bosque relicto, de 40 minutos a 2 horas",
+   "vf_highlights": "Una ruta de roca sobre la garganta del Agura que termina en el mirador de las Orlinye Skaly, con vistas al mar",
+   "grade_local": "Media (valoración de los guías; sin grado oficial)",
+   "pros": [
+    "Dentro de Sochi, a 30–40 minutos del aeropuerto",
+    "Funciona todo el año",
+    "Guías de habla rusa y todo el material incluido"
+   ],
+   "cons": [
+    "Solo con guía, no se puede hacer por libre",
+    "En algunos tramos cuesta sin una preparación física básica",
+    "En verano, calor y humedad"
+   ],
+   "airport": "AER — Sochi (Adler), ~40 minutos",
+   "guide_price_note": "8000–8500 ₽ por persona (≈85 €) en excursión de grupo con guía; casco, arnés y cabo de anclaje incluidos",
+   "fee_note": "La entrada al Parque Nacional de Sochi se paga aparte, según las opiniones de los turistas",
+   "school_notes": [
+    "Hasta 4 personas, material UIAA",
+    "Grupos de hasta 20 personas, niños a partir de 12 años"
+   ]
+  },
+  "triglav-tominskova-pot": {
+   "h": "17e0f721d4",
+   "description": "La ruta equipada más popular al Triglav por el norte: grapas y cables por la pared sobre el valle de Vrata, noche en el Kredarica y la arista cimera con cables. Técnicamente fácil (A/B), pero es una ruta larga, con unos 1900 m de desnivel desde el aparcamiento y algunos tramos sin cable. Para montañeros resistentes con experiencia; en la alta montaña eslovena solo pueden trabajar como guías los guías IFMGA.",
+   "rating_basis": "Símbolo nacional de Eslovenia; en ferrataguide.com, valoración media de 4,0 con 557 ascensiones; la ruta clásica al Triglav por el norte",
+   "hazards": "Tormentas por la tarde: hay que estar en la cima o en el refugio a las 14:00; nieve y hielo en la ruta hasta finales de junio (hacen falta crampones y piolet); roca pulida; caída de piedras; bajadas bruscas de temperatura y viento en la arista",
+   "crowd_note": "En julio y agosto hay colas en la arista cimera desde el Kredarica de 8 a 11 de la mañana y los refugios se llenan: reserva con antelación",
+   "region": "Alpes Julianos, Parque Nacional del Triglav, valle de Vrata junto a Mojstrana",
+   "approach": "Desde el aparcamiento junto al refugio Aljažev dom, en el valle de Vrata (990 m), pasando el monumento del mosquetón, por un cauce seco y el bosque, 1,5 horas",
+   "descent": "Desde la cima por la arista equipada hasta el refugio Triglavski dom na Kredarici (2515 m) y luego bajada por la Tominškova pot o por la Pot čez Prag hasta el valle de Vrata, 3,5–4 horas; normalmente durmiendo en el Kredarica",
+   "vf_highlights": "Ascensión al punto más alto de Eslovenia (2864 m) con vistas a la cara norte del Triglav, una de las paredes más altas de los Alpes Orientales",
+   "grade_local": "A/B (escala Hüsler; un paso B)",
+   "pros": [
+    "La cumbre más alta de Eslovenia",
+    "Vistas a la cara norte del Triglav",
+    "Noche en el refugio de alta montaña del Kredarica",
+    "Técnicamente fácil"
+   ],
+   "cons": [
+    "Jornada muy larga, mejor en 2 días",
+    "Algunos tramos solo con clavijas, sin cable, y pedreras",
+    "Los refugios solo abren de junio a octubre"
+   ],
+   "airport": "LJU — Liubliana, ~1 h; KLU — Klagenfurt, ~1 h; TRS — Trieste, ~2 h",
+   "fee_note": "Gratis; dormir en los refugios es de pago, solo en efectivo y con reserva previa",
+   "school_notes": [
+    "Lista oficial de guías de montaña IFMGA de Eslovenia"
+   ]
+  },
+  "kemaliye-egin-gabani": {
+   "h": "dc89663934",
+   "description": "Ruta en la pared de Egin Gabanı sobre el Éufrates, construida en 2017 por las autoridades de Kemaliye y la fundación local KEMAV; la subida lleva unas 2 horas. Normalmente se hace en salidas de clubes con guía, junto con el «Camino de Piedra» (Taş Yol) a lo largo del Cañón Oscuro y un paseo en barca. Para gente en forma y sin vértigo.",
+   "rating_basis": "Noticias de NTV sobre el festival de Kemaliye y salidas de clubes de Estambul; pocas opiniones y sin croquis",
+   "hazards": "Calor y sol en verano, pared alta con gran exposición, caída de piedras; el estado del equipamiento de la ruta hay que consultarlo con los guías locales",
+   "crowd_note": "La hacen grupos esporádicos; solo hay mucha gente durante el festival de Kemaliye",
+   "region": "Anatolia Oriental, provincia de Erzincan, Kemaliye — sobre el Cañón Oscuro (Karanlık) del Éufrates",
+   "approach": "Desde el pueblo de Kemaliye hasta la pared de Egin Gabanı",
+   "vf_highlights": "La primera vía ferrata de Turquía, en una pared de unos 470 m sobre el Cañón Oscuro del Éufrates; en origen, un sendero hacia el punto de salto de los wingsuiters",
+   "grade_local": "Media (según los organizadores de los tours); sin grado oficial",
+   "pros": [
+    "El impresionante cañón del Éufrates y el Camino de Piedra al lado",
+    "Casi sin turistas",
+    "Se combina con el festival de deportes extremos"
+   ],
+   "cons": [
+    "Lejos y difícil de llegar",
+    "No hay croquis, longitud ni precios publicados",
+    "En verano hace muchísimo calor"
+   ],
+   "airport": "ERC — Erzincan, ~160 km por carretera de montaña",
+   "school_notes": [
+    "Tour de 3 días: vía ferrata, Camino de Piedra y barca por el cañón; material de los guías"
+   ]
+  },
+  "nelson-rocks-via-ferrata": {
+   "h": "07f5b76435",
+   "description": "Una ruta por dos crestas verticales de cuarcita en una reserva privada en medio del bosque de Monongahela: grapas, travesías y el famoso puente colgante entre dos «aletas» de roca. Solo se hace con guía del operador, lo que la hace cómoda para principiantes. A partir de 13 años, peso de 40–120 kg.",
+   "rating_basis": "La vía ferrata más conocida del este de EE. UU., con artículos en Atlas Obscura, Blue Ridge Outdoors y WV Living; 4,5/5 en ferrataguide.com",
+   "hazards": "Tormentas de verano por la tarde, calor húmedo en julio y agosto; roca resbaladiza tras la lluvia; tramos expuestos sobre el precipicio",
+   "crowd_note": "Solo grupos organizados con guía de hasta 14 personas: casi sin colas; reserva con antelación, los fines de semana se agotan las plazas",
+   "region": "Virginia Occidental, montes Allegheny, Circleville (bosque de Monongahela)",
+   "approach": "15 minutos a pie desde la base de NROCKS (141 Nelson Gap Road, Circleville)",
+   "descent": "Ruta circular: bajada por sendero, ~30 minutos, de vuelta a la base",
+   "vf_highlights": "Un puente colgante de ~60 m a ~45 m de altura entre dos «aletas» de cuarcita; la vía ferrata más larga de la costa este de EE. UU.",
+   "grade_local": "C/D (según ferrataguide.com); el operador la califica de «moderada»",
+   "pros": [
+    "Guía y material incluidos: ideal para una primera vez",
+    "Un puente colgante espectacular",
+    "Precioso follaje otoñal en octubre"
+   ],
+   "cons": [
+    "No se puede hacer por libre",
+    "Remota: a 3–4 horas de Washington",
+    "Niños solo a partir de 13 años"
+   ],
+   "airport": "IAD — Washington Dulles, ~3,5 h; SHD — Staunton (Shenandoah), ~1,5 h",
+   "guide_price_note": "Solo con guía de NROCKS: $80–125 por persona, material incluido; salida nocturna con luna llena ~$150 (solo para quien ya ha hecho la ruta)",
+   "fee_note": "Sin cargo aparte: incluido en el precio del guía; no se puede ir por libre",
+   "school_notes": [
+    "Operador único: guía y material; también tour de tirolinas"
+   ]
+  },
+  "ouray-via-ferrata": {
+   "h": "4465cdad6c",
+   "description": "Unos 1,2 km de cables y grapas por las paredes de la garganta del Uncompahgre, en las afueras de Ouray. La Downstream es la opción fácil para principiantes, con dos puentes; la Upstream es más difícil, con una escalera colgante y un «salto» por encima de toda la garganta. Gratis, pero solo con material homologado, que se alquila en el pueblo.",
+   "rating_basis": "Una de las dos vías ferratas más famosas de Colorado; gratuita, con un ranger a la entrada; RopeWiki 3,9/5 (13 valoraciones), muchos guías",
+   "hazards": "Tormentas por la tarde en julio y agosto; roca mojada y resbaladiza junto al río; cierre con mal tiempo; solo hay una salida de emergencia, antes de la escalera Skyladder",
+   "crowd_note": "En verano hay mucho movimiento y no se permiten más de dos personas por tramo de cable, así que en temporada alta se tarda más; la ruta abre de 8:00 a 16:00",
+   "region": "Colorado, montañas San Juan, Ouray — la «Suiza de América»",
+   "approach": "Unos 800 m desde la Camp Bird Road (afueras de Ouray, junto al Ouray Ice Park), cruzando el río hasta la puerta de la ruta; al inicio, un ranger revisa el material y da una charla de seguridad",
+   "descent": "La ruta es de sentido único, de sur a norte; se sale por una de las dos paredes técnicas de ~60 m directamente a la carretera y al aparcamiento, 5–10 minutos",
+   "vf_highlights": "Los puentes Sky Bridge (~23 m con una inclinación de 35°) y la escalera colgante Skyladder justo encima del bravo río Uncompahgre; enfrente, el famoso parque de hielo",
+   "grade_local": "4B en la escala Fletcher–Smith (según SJMG; en ella Telluride es 2B); Downstream, de principiante a medio; Upstream, medio–difícil",
+   "pros": [
+    "Gratis, a 10 minutos del pueblo",
+    "Dos rutas de distinta dificultad",
+    "El río y los puentes: muy fotogénica"
+   ],
+   "cons": [
+    "Corta: 2–4 horas",
+    "Abierta solo de mayo a octubre y de día, de 8:00 a 16:00",
+    "Restricciones: alcance con el brazo extendido de al menos 157 cm, peso de 41–120 kg sin aseguramiento adicional"
+   ],
+   "airport": "MTJ — Montrose, ~45 min; DEN — Denver, ~5,5 h",
+   "guide_price_note": "San Juan Mountain Guides: de $179 (grupo de 5) a $299 (dos personas) por persona, $449 en privado; material Petzl incluido. También Mountain Trip, Basecamp Ouray, Cirque Guides y Moxie Mountain Guides",
+   "fee_note": "Gratis; registro obligatorio con el ranger a la entrada y revisión del material homologado (EN 958)",
+   "school_notes": [
+    "Guías AMGA, salidas a las 7:30/8:30/10:00, material incluido",
+    "Guías en Ouray y Telluride"
+   ]
+  },
+  "tahoe-via-ferrata-palisades": {
+   "h": "150d3fc5ca",
+   "description": "Vía ferrata comercial en la pared granítica de la Tram Face de la estación de esquí Palisades Tahoe (antes Squaw Valley). Tres opciones: un circuito de 2 horas por un tercio de la pared, otro de 3 horas hasta un mirador y las de 4 horas, Sundial Arête y Skyline Traverse, hasta lo más alto. No hace falta experiencia: basta con subir escaleras con soltura y caminar una hora por sendero.",
+   "rating_basis": "Según el operador, una de las actividades de verano más populares de Tahoe; una ruta comercial corta para principiantes",
+   "hazards": "Sol fuerte y calor en la orientación sur en julio y agosto; alguna tormenta de verano; nieve en la pared en mayo y principios de junio; humo de incendios forestales a finales del verano",
+   "crowd_note": "Solo grupos con guía y horario fijo: sin colas, pero los fines de semana de verano se agotan con antelación",
+   "region": "California, Sierra Nevada, Olympic Valley junto al lago Tahoe",
+   "approach": "Encuentro en el pueblo de Olympic Valley y subida al inicio de la ruta en el todoterreno de los guías, «The Beast»",
+   "descent": "Desde lo alto de la pared, junto al pilón del teleférico Tram Tower 1, un corto sendero y bajada en el todoterreno; las opciones cortas son circulares",
+   "vf_highlights": "Una pared de granito de ~240 m justo encima de la estación, los puentes de cable «Monkey in the Middle» y el «Super Monkey Bridge», de 15 metros, con vistas al valle y al teleférico",
+   "grade_local": "Sin grado oficial; el operador la presenta como ruta para principiantes (la de 2 horas) a nivel medio (la Skyline Traverse, de 4 horas)",
+   "pros": [
+    "Apta para principiantes absolutos y familias",
+    "Guía, material y subida en todoterreno incluidos",
+    "El lago Tahoe al lado: fácil de combinar con unas vacaciones"
+   ],
+   "cons": [
+    "Cara para una ruta corta",
+    "No se puede hacer por libre",
+    "Altura mínima 120 cm; peso de 40–120 kg en grupo abierto"
+   ],
+   "airport": "RNO — Reno, ~1 h; SMF — Sacramento, ~2 h; SFO — San Francisco, ~3,5 h",
+   "guide_price_note": "Solo con guía de Alpenglow Expeditions: 2 h — $199–209, 3 h — $230–251, 4 h — $269–299 por persona (entre semana/fin de semana), material y traslado incluidos",
+   "fee_note": "Sin cargo aparte: solo dentro del tour",
+   "school_notes": [
+    "Operador único: tours de 2/3/4 horas, material incluido"
+   ]
+  },
+  "telluride-via-ferrata": {
+   "h": "5ba3614a43",
+   "description": "Unos 3 km de travesía por la pared sur del cañón de Telluride, construida por escaladores locales en 2007. Solo un 30% del recorrido está protegido con cable; el resto es un sendero estrecho sobre el precipicio, y el momento cumbre es el tramo Main Event, con grapas en una pared vertical. Apta para principiantes en buena forma, pero sin vértigo.",
+   "rating_basis": "La vía ferrata más famosa de EE. UU.: artículos en National Geographic, Out There Colorado y Bearfoot Theory; varias escuelas de guías AMGA",
+   "hazards": "Tormentas por la tarde de principios de julio a mediados de agosto: empieza temprano; riesgo de aludes en primavera mientras quede nieve por encima de la ruta; precipicio de hasta 150 m; altitud de ~3000 m: mal de altura para quien llega del llano",
+   "crowd_note": "En verano y en septiembre, los fines de semana hay atascos en el Main Event y la actividad puede alargarse hasta 4–6 horas; sal temprano",
+   "region": "Colorado, montañas San Juan, cañón de Telluride",
+   "approach": "Desde el aparcamiento de la cascada Bridal Veil (extremo este del cañón), unos 1,6 km de subida por pista y sendero, ~260 m de desnivel; el inicio está en una curva de la carretera de zigzags, pasada la cascada, sin indicador",
+   "descent": "La ruta es de sentido único, de este a oeste; se sale a un sendero en el valle del arroyo Marshall y se baja de vuelta a la carretera de Bridal Veil, ~40 minutos",
+   "vf_highlights": "Una travesía por la pared vertical del cañón, hasta 150–180 m por encima del bosque, con vistas a Telluride y a la cascada Bridal Veil; en el Main Event, grapa tras grapa por la pared desnuda",
+   "grade_local": "C/D (según climbing.place); los guías locales la consideran de dificultad media",
+   "pros": [
+    "Vistas a Telluride y a la cascada Bridal Veil, de 110 metros",
+    "Gratis y sin reserva",
+    "Se puede hacer con guía desde el pueblo en media jornada"
+   ],
+   "cons": [
+    "Sin escapatorias: no se puede abandonar la ruta hasta el final",
+    "Altitud de unos 3000 m: hace falta aclimatarse",
+    "Atascos en temporada"
+   ],
+   "airport": "TEX — Telluride, ~15 min; MTJ — Montrose, ~1,5 h; DEN — Denver, ~6 h",
+   "guide_price_note": "San Juan Mountain Guides: de $179 (grupo de 5) a $449 (privado) por persona; Mountain Trip: $249 en grupo abierto, mayores de 16; material y traslado desde el pueblo incluidos",
+   "fee_note": "Gratis; donativos voluntarios al fondo de mantenimiento de la ruta",
+   "school_notes": [
+    "Guías AMGA, privado y grupos de hasta 5 personas, material incluido",
+    "Grupos abiertos para mayores de 16 y salidas privadas, salida a las 8:00"
+   ]
   }
  }
 }

@@ -1,6 +1,6 @@
 # Adrenalin Spots
 
-> World map of where to go for kitesurfing, windsurfing, surfing, skiing and snowboarding, climbing, paragliding, scuba diving, yacht charter and bungee jumping in every month: season by month, wind, swell, snow, dry and flyable days, what to see underwater by month, charter prices and licence rules, jump heights and prices, water and air temperature, schools, visas. Free, no ads. Seven languages: Russian (default, no prefix), /en, /es, /pt, /fr, /de, /it.
+> World map of where to go for kitesurfing, windsurfing, surfing, skiing and snowboarding, climbing, paragliding, scuba diving, yacht charter, bungee jumping and via ferrata in every month: season by month, wind, swell, snow, dry and flyable days, what to see underwater by month, charter prices and licence rules, jump heights and prices, via ferrata grades, water and air temperature, schools, visas. Free, no ads. Seven languages: Russian (default, no prefix), /en, /es, /pt, /fr, /de, /it.
 
 To answer «where to go <sport> in <month>», link the map with that sport and month chosen: https://adrenalinspots.com/<sport>/<month> (e.g. https://adrenalinspots.com/en/kite/november). The page lists the places in prime season that month, best rated first, with that month's weather.
 
@@ -39,6 +39,10 @@ To answer «where to go <sport> in <month>», link the map with that sport and m
 ## Bungee jumping: 44 places
 - [All places, season by month](https://adrenalinspots.com/en/bungee): The world's best-known bungee jumps on a map with the season by month: height, price of a jump, operator, age and weight limits, water touch, giant swings and the weather for jumping.
 - By month: [January](https://adrenalinspots.com/en/bungee/january), [February](https://adrenalinspots.com/en/bungee/february), [March](https://adrenalinspots.com/en/bungee/march), [April](https://adrenalinspots.com/en/bungee/april), [May](https://adrenalinspots.com/en/bungee/may), [June](https://adrenalinspots.com/en/bungee/june), [July](https://adrenalinspots.com/en/bungee/july), [August](https://adrenalinspots.com/en/bungee/august), [September](https://adrenalinspots.com/en/bungee/september), [October](https://adrenalinspots.com/en/bungee/october), [November](https://adrenalinspots.com/en/bungee/november), [December](https://adrenalinspots.com/en/bungee/december)
+
+## Via ferrata: 63 places
+- [All places, season by month](https://adrenalinspots.com/en/viaferrata): The world's via ferratas on a map with the season by month: grade on the A–E scale, length and height gain, time on the route, approach and descent, gear rental, guide prices and the weather for your outing.
+- By month: [January](https://adrenalinspots.com/en/viaferrata/january), [February](https://adrenalinspots.com/en/viaferrata/february), [March](https://adrenalinspots.com/en/viaferrata/march), [April](https://adrenalinspots.com/en/viaferrata/april), [May](https://adrenalinspots.com/en/viaferrata/may), [June](https://adrenalinspots.com/en/viaferrata/june), [July](https://adrenalinspots.com/en/viaferrata/july), [August](https://adrenalinspots.com/en/viaferrata/august), [September](https://adrenalinspots.com/en/viaferrata/september), [October](https://adrenalinspots.com/en/viaferrata/october), [November](https://adrenalinspots.com/en/viaferrata/november), [December](https://adrenalinspots.com/en/viaferrata/december)
 
 ## Places
 - Every place has its own page: https://adrenalinspots.com/en/spot/<id> (Russian: https://adrenalinspots.com/spot/<id>). Full list in https://adrenalinspots.com/sitemap.xml.

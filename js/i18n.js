@@ -153,12 +153,13 @@ export function localizeSpot(s) {
         launch: 'launch_ru', sail_note: 'sail_note_ru',
         marine_life: 'marine_life_ru', signature_sites: 'signature_sites_ru', chamber: 'chamber_ru',
         wind_desc: 'wind_note_ru', route: 'route_ru', mooring: 'mooring_ru', licence: 'licence_ru',
-        booking: 'booking_ru', record: 'record_ru' };
+        booking: 'booking_ru', record: 'record_ru',
+        descent: 'descent_ru', vf_highlights: 'highlights_ru', grade_local: 'grade_local' };
       for (const [k, f] of Object.entries(map)) if (tr[k] && s.attrs[f] != null) s.attrs[f] = tr[k];
       if (tr.lift_pass_note && s.attrs.lift_pass && s.attrs.lift_pass.note_ru) s.attrs.lift_pass.note_ru = tr.lift_pass_note;
       if (tr.tandem_price_note && s.attrs.tandem_price && s.attrs.tandem_price.note_ru) s.attrs.tandem_price.note_ru = tr.tandem_price_note;
       if (tr.rental_price_note && s.attrs.rental_price && s.attrs.rental_price.note_ru) s.attrs.rental_price.note_ru = tr.rental_price_note;
-      for (const k of ['dive_price', 'course_price', 'charter_price', 'skipper_price', 'price']) if (tr[`${k}_note`] && s.attrs[k] && s.attrs[k].note_ru) s.attrs[k].note_ru = tr[`${k}_note`];
+      for (const k of ['dive_price', 'course_price', 'charter_price', 'skipper_price', 'price', 'guide_price', 'fee']) if (tr[`${k}_note`] && s.attrs[k] && s.attrs[k].note_ru) s.attrs[k].note_ru = tr[`${k}_note`];
       if (tr.highlights && s.attrs.highlights) s.attrs.highlights.forEach((x, i) => { if (tr.highlights[i]) x.what_ru = tr.highlights[i]; });
     }
   }

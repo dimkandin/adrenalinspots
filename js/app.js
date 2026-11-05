@@ -29,6 +29,8 @@ const ACT = {
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
   bungee: { qf: ['novisa', 'ru', 'high', 'dip', 'swing'], dd: ['minRating', 'pop', 'platform', 'minHeight', 'maxJump', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s) => (s.height_m ? `${num(s.height_m)} ${t('unit.m')}` : ''), valueTitle: () => t('row.height_title') },
+  viaferrata: { qf: ['novisa', 'ru', 'beginner', 'kids', 'vfbridge', 'kitrent'], dd: ['minRating', 'pop', 'vfdiff', 'maxGuide', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s) => (s.difficulty ? VF_GRADE[s.difficulty - 1] : ''), valueTitle: () => t('row.vf_title') },
   paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
 };
@@ -41,8 +43,10 @@ const DEFAULT_FILTERS = {
   shore: false, snorkel: false, divetype: null, maxDive: null,
   bareboat: false, flotilla: false, catamaran: false, sdiff: null, maxCharter: null,
   high: false, dip: false, swing: false, platform: null, minHeight: null, maxJump: null,
+  kids: false, vfbridge: false, kitrent: false, vfdiff: null, maxGuide: null,
 };
 const MAIN_PLATFORMS = ['bridge', 'dam', 'tower', 'cable_car'];
+const VF_GRADE = ['A', 'B', 'C', 'D', 'E'];   // the 1–5 via ferrata scale read as the Hüsler letters most topos use
 const MAIN_ROCKS = ['limestone', 'granite', 'sandstone'];
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
 
@@ -121,6 +125,11 @@ function passesFilters(s, m = state.month) {
   if (f.catamaran && !(s.boats || []).includes('catamaran')) return false;
   if (f.sdiff && !(s.difficulty != null && (f.sdiff === 'easy' ? s.difficulty <= 2 : f.sdiff === 'medium' ? s.difficulty === 3 : s.difficulty >= 4))) return false;
   if (f.maxCharter != null && !(s.charter_price_eur != null && s.charter_price_eur <= f.maxCharter)) return false;
+  if (f.kids && !s.kids) return false;
+  if (f.vfbridge && !(s.features || []).some((x) => x === 'bridge' || x === 'tibetan')) return false;
+  if (f.kitrent && !s.kit_rental) return false;
+  if (f.vfdiff && !(s.difficulty != null && (f.vfdiff === 'easy' ? s.difficulty <= 2 : f.vfdiff === 'medium' ? s.difficulty === 3 : s.difficulty >= 4))) return false;
+  if (f.maxGuide != null && !(s.guide_price_eur != null && s.guide_price_eur <= f.maxGuide)) return false;
   if (f.high && !((s.height_m || 0) >= 100)) return false;
   if (f.dip && !s.water_touch) return false;
   if (f.swing && !(s.extras || []).includes('swing')) return false;
@@ -467,7 +476,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 const DROPDOWNS = [
   {
     key: 'activity', label: () => t(`sport.${state.activity}`), title: t('dd.activity.title'),
-    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing', 'bungee'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing', 'bungee', 'viaferrata'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
   {
@@ -514,6 +523,16 @@ const DROPDOWNS = [
     key: 'maxCharter', title: t('dd.charter.title'),
     label: (v) => (v == null ? t('dd.charter.label') : t('dd.charter.label_v', { v: num(v) })),
     options: [{ value: null, text: t('dd.any_f') }, ...[2000, 3000, 4500].map((v) => ({ value: v, text: t('dd.charter.opt', { v: num(v) }) }))],
+  },
+  {
+    key: 'vfdiff', title: t('dd.vfdiff.title'),
+    label: (v) => (v ? t(`vfdiff.${v}`) : t('dd.vfdiff.label')),
+    options: [{ value: null, text: t('dd.any_f') }, ...['easy', 'medium', 'hard'].map((v) => ({ value: v, text: t(`vfdiff.${v}`) }))],
+  },
+  {
+    key: 'maxGuide', title: t('dd.guide.title'),
+    label: (v) => (v == null ? t('dd.guide.label') : t('dd.guide.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_m') }, ...[80, 120, 180].map((v) => ({ value: v, text: t('dd.guide.opt', { v }) }))],
   },
   {
     key: 'platform', title: t('dd.platform.title'),
@@ -1046,6 +1065,7 @@ const PICK_ICONS = {
   climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
   diving: '<path d="M4 11h20v6a4 4 0 0 1-4 4h-2.5l-2-3h-3l-2 3H8a4 4 0 0 1-4-4z" /><path d="M14 11v4" /><path d="M28 7v13a6 6 0 0 1-6 6h-3" />',
   sailing: '<path d="M15 4v19" /><path d="M15 5c4 4 7 10 7 16h-7z" /><path d="M13 8c-3 4-5 8-6 13h6z" /><path d="M5 23h20l-3 4H8z" />',
+  viaferrata: '<path d="M4 28h6v-6h6v-6h6v-6h6" /><path d="M4 20L26 4" /><circle cx="10" cy="15.6" r="1.4" /><circle cx="19" cy="9.1" r="1.4" />',
   bungee: '<path d="M6 5h20" /><path d="M10 5v4M22 5v4" /><path d="M16 5c-3 4 3 6 0 10s3 6 0 8" /><circle cx="16" cy="26" r="2.2" />',
   paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
 };
