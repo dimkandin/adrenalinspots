@@ -356,8 +356,9 @@ function sailingFacts(spot, month) {
   const tags = (list, prefix) => h('span', { class: 'tags' }, ...(list || []).map((x) => h('span', { class: 'tag' }, t(`${prefix}.${x}`))));
   const note = (p) => (p && p.note_ru ? h('small', { class: 'block' }, p.note_ru) : null);
   const cp = a.charter_price;
-  const charter = cp ? [`${num(cp.eur)} €`, cp.eur_low ? t('card.charter_low', { v: num(cp.eur_low) }) : null,
+  const charter = cp ? [cp.eur != null ? `${num(cp.eur)} €` : null, cp.eur_low ? t('card.charter_low', { v: num(cp.eur_low) }) : null,
     cp.year ? t('card.price_year', { y: cp.year }) : null].filter(Boolean).join(' · ') : null;
+  const priceOrNote = (p) => (p && p.eur != null ? priceLine(p) : null);
   const events = (a.highlights || []).filter((x) => x && x.what_ru);
   const monthsText = (ms) => (ms && ms.length ? ` (${ms.map((m) => MONTHS_SHORT[m - 1]).join(', ')})` : '');
   return h('dl', { class: 'facts' },
@@ -371,9 +372,9 @@ function sailingFacts(spot, month) {
     a.route_ru ? fact(t('card.route'), a.route_ru) : null,
     a.mooring_ru ? fact(t('card.mooring'), a.mooring_ru) : null,
     a.licence_ru ? fact(t('card.licence'), a.licence_ru) : null,
-    charter ? fact(t('card.charter_price'), charter, note(cp)) : null,
-    a.skipper_price ? fact(t('card.skipper_price'), priceLine(a.skipper_price), note(a.skipper_price)) : null,
-    a.course_price ? fact(t('card.sail_course'), priceLine(a.course_price), note(a.course_price)) : null,
+    cp ? fact(t('card.charter_price'), charter || '', note(cp)) : null,
+    a.skipper_price ? fact(t('card.skipper_price'), priceOrNote(a.skipper_price) || '', note(a.skipper_price)) : null,
+    a.course_price ? fact(t('card.sail_course'), priceOrNote(a.course_price) || '', note(a.course_price)) : null,
     events.length ? fact(t('card.sail_events'), h('span', {}, ...events.map((x) => h('span', { class: 'block' }, x.what_ru + monthsText(x.months))))) : null,
     fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),
     fact(t('card.crowd'), meter(spot.crowd, 5, t('card.crowd_meter')), spot.crowd_note ? h('small', {}, ` ${spot.crowd_note}`) : null));

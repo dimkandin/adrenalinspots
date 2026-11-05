@@ -1,7 +1,7 @@
 // Italian (italiano). Same keys as ui.ru.js; {name} are placeholders; {one, other} objects are plural forms ({n} is the number).
 export default {
   'meta.title': 'Adrenalin Spots — dove andare ogni mese',
-  'meta.description': "Mappa del mondo: dove andare ogni mese — kitesurf, windsurf, surf, stazioni sciistiche, immersioni, arrampicata e parapendio. Vento, onde, neve, acqua, meteo, scuole e vita notturna.",
+  'meta.description': "Mappa del mondo: dove andare ogni mese — kitesurf, windsurf, surf, stazioni sciistiche, immersioni, vela, arrampicata e parapendio. Vento, onde, neve, acqua, meteo, scuole e vita notturna.",
   'sport.kite': 'Kitesurf',
   'sport.surf': 'Surf',
   'sport.windsurf': 'Windsurf',
