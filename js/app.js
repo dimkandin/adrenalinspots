@@ -863,7 +863,8 @@ function toast(text) {
 
 function initLanguage() {
   applyStatic();
-  document.querySelectorAll('.about-open, .about-foot').forEach((b) => b.addEventListener('click', (e) => openAbout(e.currentTarget)));
+  document.querySelectorAll('.about-open, .about-foot').forEach((b) => b.addEventListener('click',
+    (e) => openAbout(e.currentTarget, e.currentTarget.classList.contains('about-foot') ? 'heart' : 'info')));
   // Russian-speaking schools only matter in the Russian interface; the visa filter needs a passport
   if (!isRu) document.querySelectorAll('.qf[data-filter="ru"]').forEach((b) => b.remove());
   if (!hasPassport()) document.querySelectorAll('.qf[data-filter="novisa"]').forEach((b) => b.remove());

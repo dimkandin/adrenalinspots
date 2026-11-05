@@ -29,6 +29,7 @@ export const ICON = {
 
 let box = null;
 let opener = null;
+let source = 'other';   // where the window was opened from: heart, info, teaser, school
 
 function close() {
   if (!box) return;
@@ -41,7 +42,7 @@ function onKey(e) {
 }
 
 function link(cls, href, icon, text, event) {
-  return h('a', { class: `about-link ${cls}`, href, target: '_blank', rel: 'noopener', onclick: () => track(event) },
+  return h('a', { class: `about-link ${cls}`, href, target: '_blank', rel: 'noopener', onclick: () => track(event, { from: source }) },
     icon ? h('span', { class: 'about-ico', html: icon }) : null, text);
 }
 
@@ -54,7 +55,7 @@ function usdtBlock(w) {
       try { document.execCommand('copy'); } catch { /* the address stays selected for a manual copy */ }
     }
     copy.textContent = t('about.copied'); setTimeout(() => { copy.textContent = t('about.copy'); }, 2000);
-    track('donate_copy_usdt');
+    track('donate_copy_usdt', { from: source });
   });
   return h('div', { class: 'about-usdt' },
     w.qr ? h('img', { class: 'about-qr', src: w.qr, alt: t('about.qr_alt'), width: 104, height: 104 }) : null,
@@ -64,10 +65,11 @@ function usdtBlock(w) {
       h('div', { class: 'about-usdt-foot' }, copy, h('span', { class: 'about-warn' }, t('about.usdt_warn', { net: w.net })))));
 }
 
-/** Open the «О проекте» window. */
-export function openAbout(from) {
+/** Open the «О проекте» window. `src` = what opened it (heart, info, teaser, school) — a separate goal for each. */
+export function openAbout(from, src = 'other') {
   if (box) return;
   opener = from || document.activeElement;
+  source = src;
   const ru = inRussia();
   const channels = 'Telegram';
   const payRu = DONATE.ru ? link('about-pay', DONATE.ru, null, t('about.pay_ru'), 'donate_ru') : null;
@@ -85,7 +87,7 @@ export function openAbout(from) {
     h('p', { class: 'about-p' }, t('about.ride', { handle: `@${CONTACT.handle}`, channels })),
     h('div', { class: 'about-links' },
       link('about-tg', CONTACT.telegram, ICON.telegram, `@${CONTACT.handle}`, 'contact_telegram')),
-    hasDonate ? h('h3', {}, h('span', { class: 'about-ico heart', html: ICON.heart }), t('about.donate_head')) : null,
+    hasDonate ? h('h3', { class: 'about-donate-head' }, h('span', { class: 'about-ico heart', html: ICON.heart }), t('about.donate_head')) : null,
     hasDonate ? h('p', { class: 'about-p' }, t('about.donate')) : null,
     donate.length ? h('div', { class: 'about-links' }, ...donate) : null,
     ...DONATE.usdt.map(usdtBlock),
@@ -95,11 +97,20 @@ export function openAbout(from) {
   document.body.append(box);
   document.addEventListener('keydown', onKey, true);
   card.querySelector('.about-close').focus();
-  track('open_about');
+  track('open_about', { from: source });
+  track(`open_about_${source}`);
+  // the donation block was actually on screen (on a phone it is below the fold): once per opening
+  const head = card.querySelector('.about-donate-head');
+  if (head && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      if (entries.some((x) => x.isIntersecting)) { track('about_donate_seen', { from: source }); io.disconnect(); }
+    }, { threshold: 0.9 });
+    io.observe(head);
+  }
 }
 
 /** The line under the spot list and the ⓘ button in the header. */
 export function aboutTeaser() {
   return h('li', { class: 'about-teaser' },
-    h('button', { type: 'button', onclick: (e) => openAbout(e.currentTarget) }, t('about.teaser', { handle: `@${CONTACT.handle}` })));
+    h('button', { type: 'button', onclick: (e) => openAbout(e.currentTarget, 'teaser') }, t('about.teaser', { handle: `@${CONTACT.handle}` })));
 }

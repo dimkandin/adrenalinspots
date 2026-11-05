@@ -904,7 +904,7 @@ export function renderPanel(spot, context) {
     schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc))));
   }
   schools.append(h('p', { class: 'sc-fix' },
-    h('button', { type: 'button', onclick: (e) => { track('school_fix'); openAbout(e.currentTarget); } }, t('card.school_fix'))));
+    h('button', { type: 'button', onclick: (e) => { track('school_fix'); openAbout(e.currentTarget, 'school'); } }, t('card.school_fix'))));
   body.append(section(t('sec.schools'), schools));
 
   if ((spot.pros || []).length || (spot.cons || []).length || spot.hazards) {
