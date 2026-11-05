@@ -746,6 +746,54 @@ function initSheetSwipe() {
   side.addEventListener('touchcancel', end);
 }
 
+// ---------- phones: swipe the spot card down to close it --------------------------------------
+// Anywhere on the card (photos, title, facts…) when it is scrolled to the top: the card follows the finger and closes
+// past ~90 px or on a quick flick, like the × button. Sideways swipes stay with the photo strip; a card scrolled down
+// scrolls back up first.
+function initPanelSwipe() {
+  const panel = document.querySelector('.panel');
+  const body = panel.querySelector('.panel-body');
+  let armed = false; let drag = false; let x0 = 0; let y0 = 0; let dy = 0; let trail = [];
+  panel.addEventListener('touchstart', (e) => {
+    armed = isPhone() && panel.classList.contains('is-open') && e.touches.length === 1
+      && body.scrollTop <= 0 && !e.target.closest('input, select, textarea, .lightbox');
+    if (!armed) return;
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; dy = 0; drag = false; trail = [];
+  }, { passive: true });
+  panel.addEventListener('touchmove', (e) => {
+    if (!armed) return;
+    const tt = e.touches[0];
+    const ddy = tt.clientY - y0; const ddx = tt.clientX - x0;
+    if (!drag) {
+      if (Math.abs(ddy) < 8 && Math.abs(ddx) < 8) return;
+      if (ddy <= 0 || Math.abs(ddx) > Math.abs(ddy) || body.scrollTop > 0) { armed = false; return; }
+      drag = true;
+      panel.style.transition = 'none';
+    }
+    dy = Math.max(0, ddy);
+    panel.style.transform = `translateY(${dy}px)`;
+    const now = Date.now();
+    trail.push([now, dy]);
+    while (trail.length > 2 && now - trail[0][0] > 100) trail.shift();   // the finger's speed over the last ~0.1 s
+    if (e.cancelable) e.preventDefault();   // the card moves, its content doesn't scroll
+  }, { passive: false });
+  const end = () => {
+    if (!armed) return;
+    armed = false;
+    if (!drag) return;
+    drag = false;
+    // a flick: released while still moving down fast (a slow pull that ends in a quick throw counts too)
+    const [first, last] = [trail[0], trail[trail.length - 1]];
+    const speed = first && last !== first && Date.now() - last[0] < 100 ? (last[1] - first[1]) / Math.max(1, last[0] - first[0]) : 0;
+    const flick = dy > 30 && speed > 0.4;
+    panel.style.transition = '';
+    panel.style.transform = '';
+    if (dy > 90 || flick) select(null);
+  };
+  panel.addEventListener('touchend', end);
+  panel.addEventListener('touchcancel', end);
+}
+
 // ---------- controls ---------------------------------------------------------------
 function initControls() {
   document.querySelector('.prev').addEventListener('click', () => setMonth(state.month - 1));
@@ -758,6 +806,7 @@ function initControls() {
   if (isPhone()) setSide(false);   // phones start with the map; the bar at the bottom opens the list
   else { try { if (localStorage.getItem('side') === 'closed') setSide(false); } catch { /* ignore */ } }
   initSheetSwipe();
+  initPanelSwipe();
   const ft = document.querySelector('.filters-toggle');
   ft.addEventListener('click', () => {
     const open = document.querySelector('.side').classList.toggle('filters-open');

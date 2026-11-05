@@ -503,8 +503,10 @@ a:hover { color: var(--sea-2); }
 
   /* spot card: a tall sheet over everything, a strip of map stays visible on top */
   .panel { top: calc(44px + var(--safe-t)); left: 0; right: 0; bottom: 0; width: auto; max-width: none; border-radius: 18px 18px 0 0; transform: translateY(calc(100% + 24px)); z-index: 6; }
-  .panel-body { padding-bottom: calc(40px + var(--safe-b)); }
+  .panel-body { padding-bottom: calc(40px + var(--safe-b)); overscroll-behavior-y: contain; }
   .panel-close { width: 42px; height: 42px; }
+  /* grab handle: the card closes with a swipe down (initPanelSwipe); drawn over the photos, so light with a shadow */
+  .panel::before { content: ''; position: absolute; top: 7px; left: 50%; z-index: 3; width: 40px; height: 5px; margin-left: -20px; border-radius: 3px; background: rgba(255, 255, 255, 0.92); box-shadow: 0 0 0 0.5px rgba(18, 48, 63, 0.25), 0 1px 4px rgba(18, 48, 63, 0.35); pointer-events: none; }
   .gallery figure { flex-basis: min(86%, 420px); max-height: 34dvh; aspect-ratio: auto; height: min(57vw, 34dvh); }
   .panel-body > :not(.gallery-host) { max-width: 720px; }
 
