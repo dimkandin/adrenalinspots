@@ -17066,6 +17066,1179 @@
     "Base à Road Town, flottilles, règles et frais",
     "Base à Hodges Creek (Tortola), prix par saison chez le courtier Virgin Island Sailing"
    ]
+  },
+  "hells-canyon-armenia-rope-jump": {
+   "h": "2fca6ad415",
+   "description": "Saut pendulaire depuis le bord du canyon de l'Enfer : environ 4 secondes de chute libre, puis un grand balancier, encordé dans un baudrier d'escalade. La même équipe emmène aussi au saut de 120 m dans le canyon du Dragon (Vayots Dzor) et fait du canyoning. Facile à combiner avec une visite de Khor Virap.",
+   "rating_basis": "Le seul saut commercial régulier d'Arménie que nous ayons pu confirmer ; roches rouges du canyon de l'Aratso ; l'équipe travaille depuis plus de 13 ans",
+   "hazards": "C'est un saut pendulaire sur corde statique, pas un saut à l'élastique : renseignez-vous auprès de l'équipe sur le montage et la certification du matériel. Contre-indications : tension artérielle, cœur, colonne vertébrale, grossesse. Le canyon est proche de la frontière avec le Nakhitchevan — ne vous écartez pas de l'itinéraire. Les sauts sont annulés en cas de pluie et de vent fort.",
+   "crowd_note": "Petits groupes sur réservation, pas de file d'attente",
+   "region": "Province d'Ararat, canyon de la rivière Aratso près du village de Tigranashen, ~80 km d'Erevan (coordonnées approximatives)",
+   "booking": "Réservation par téléphone auprès de l'opérateur (+374 93 835959), acompte de 30 % ; sauts surtout le week-end. Sur la plupart des sites, en général à partir de 18 ans (plus jeune avec l'accord des parents) et pour un poids d'environ 45–100 kg",
+   "pros": [
+    "Bon marché : ~56 € le saut",
+    "Roches rouges et vue sur l'Ararat en chemin",
+    "Une option de 120 m pour les sauteurs expérimentés"
+   ],
+   "cons": [
+    "Pas de site web, réservation par téléphone",
+    "Surtout le week-end",
+    "En été, il fait chaud dans la plaine de l'Ararat — mieux vaut mai–juin et septembre–octobre"
+   ],
+   "airport": "EVN — Erevan (Zvartnots), ~1,5 h de route",
+   "price_note": "25 000 drams (~56 € au taux de ~450 AMD/€) pour le saut de 65 m. Le saut phare de 120 m dans le canyon du Dragon (Vayots Dzor, ~2 h d'Erevan) coûte 40 000 drams (~89 €). Acompte de 30 % ; transfert depuis Erevan en sus",
+   "school_notes": [
+    null,
+    "Description, prix et téléphone de l'opérateur ; aussi du canyoning près du pont du Diable (Syunik)"
+   ]
+  },
+  "europabruecke": {
+   "h": "a4f326bde6",
+   "description": "Saut depuis une plateforme au milieu du pont de l'autoroute A13 du col du Brenner — l'un des plus hauts ponts d'Europe — au-dessus de la vallée de la Sill. 192 m de chute libre, puis on vous remonte sur le pont. À seulement 20 minutes d'Innsbruck.",
+   "rating_basis": "N° 5 du top 15 des plus hauts sauts du monde selon CNN ; 5/5 sur 48 avis sur Manawa ; en activité depuis 1993",
+   "hazards": "Selon le règlement de l'opérateur, interdit en cas d'hypertension, de maladies cardiaques et vasculaires, de traumatisme crânien, d'épilepsie, de glaucome, d'ostéoporose, de stimulateur cardiaque, de thrombose, de grossesse et de troubles psychiatriques. Alcoolémie strictement à 0,0 ‰. Pas de sauts par mauvais temps.",
+   "crowd_note": "Environ 60 jours par an et uniquement le week-end — les créneaux se réservent à l'avance, il peut y avoir de l'attente sur le pont",
+   "region": "Tyrol, vallée de la Wipptal près de Schönberg, ~20 minutes d'Innsbruck",
+   "booking": "Uniquement les samedis et dimanches, environ de fin mai à fin octobre (pour 2027, dates annoncées : 22 mai – 23 octobre), principalement de 10:00 à 16:00. Réservation préalable obligatoire. Sur le pont, alcoolémie strictement à 0,0 ‰. En cas de mauvais temps, le saut est reporté à une autre date, sans remboursement.",
+   "record": "L'un des plus hauts sauts depuis un pont en Europe — 192 m ; le premier saut a été effectué par Rupert Hirner le 3 octobre 1993",
+   "pros": [
+    "192 m — l'un des plus hauts sites de saut d'Europe",
+    "Innsbruck et son aéroport tout proches",
+    "Moins cher en ligne : 199 € au lieu de 239 €"
+   ],
+   "cons": [
+    "Uniquement le week-end, environ 60 jours par an",
+    "Le pont porte une autoroute en service : bruit de la circulation tout autour",
+    "Limites strictes : poids 50–105 kg, à partir de 16 ans"
+   ],
+   "airport": "INN — Innsbruck, ~20 min ; MUC — Munich, ~2 h",
+   "price_note": "199 € en réservant en ligne, 239 € sur place ; vidéo 31 € en ligne (34 € sur place), accompagnateur jusqu'au point de saut 9 € en ligne",
+   "school_notes": [
+    "Opérateur ; moins cher en ligne que sur place. Site en allemand, anglais et italien",
+    "Agrégateur, à partir de 239 €"
+   ]
+  },
+  "koelnbrein-dam": {
+   "h": "e2cbe0176f",
+   "description": "Saut depuis la crête du plus haut barrage d'Autriche, à environ 1900 m d'altitude, au milieu des sommets des Hohe Tauern. 165 m de chute libre le long d'un mur de béton. À côté : un skywalk-belvédère au-dessus du vide et un lac de retenue d'altitude.",
+   "rating_basis": "N° 8 du top 15 des plus hauts sauts du monde selon CNN (qui indique 169 m) ; panoramas de haute montagne des Hohe Tauern",
+   "hazards": "Mêmes contre-indications qu'à l'Europabrücke : hypertension, maladies cardiaques, épilepsie, glaucome, ostéoporose, thrombose, grossesse, etc. En altitude, la météo change vite : en cas d'orage, de vent ou de brouillard, le saut est reporté.",
+   "crowd_note": "Les sauts n'ont lieu que 4 jours par an — tout le monde vient ces jours-là, réservez à l'avance",
+   "region": "Carinthie, vallée de la Malta, au bout de la route d'altitude Malta-Hochalmstraße",
+   "booking": "Sauts seulement quelques week-ends par an : pour 2027, dates annoncées 31 juillet – 1er août et 7–8 août, à partir de 9:00. Réservation en ligne obligatoire. La route du barrage est ouverte environ de mai à fin octobre. En cas de mauvais temps, le saut est reporté, sans remboursement.",
+   "record": "Le plus haut barrage d'Autriche (200 m) ; l'opérateur le présente comme le site de saut à l'élastique le plus élevé du monde — à plus de 2000 m d'altitude ; sauts depuis 1998",
+   "pros": [
+    "Site de haute montagne avec vue sur les Alpes",
+    "165 m de chute libre",
+    "La route Malta-Hochalmstraße vaut le détour à elle seule"
+   ],
+   "cons": [
+    "Seulement deux week-ends par an",
+    "Loin des grandes villes",
+    "À 1900 m, il fait frais même en août"
+   ],
+   "airport": "KLU — Klagenfurt, ~1 h 45 min ; SZG — Salzbourg, ~2 h",
+   "price_note": "199 € en réservant en ligne, 229 € sur place ; péage de la route Malta-Hochalmstraße en sus",
+   "school_notes": [
+    "Opérateur (le même qu'à l'Europabrücke) ; site en allemand, anglais et italien"
+   ]
+  },
+  "skypark-cairns": {
+   "h": "6842ea22e0",
+   "description": "Tour AJ Hackett sur un versant couvert de forêt tropicale (site UNESCO), à 20 minutes de Cairns : 50 m de chute libre et 16 styles de saut, dont une option avec touché de l'eau. À côté, une balançoire géante lancée jusqu'à 120 km/h et le plus haut belvédère de Cairns. Facile à combiner avec une excursion sur la Grande Barrière de corail.",
+   "rating_basis": "Le seul saut à l'élastique du pays et plus de 30 ans d'activité (Tourism Queensland), 16 styles de saut ; hauteur et vue plus modestes que sur les sites néo-zélandais",
+   "hazards": "Contre-indications habituelles : grossesse, cœur, tension, dos. À la saison des pluies, les sauts peuvent être annulés à cause des orages et des cyclones ; en été, chaleur et forte humidité — buvez de l'eau.",
+   "crowd_note": "Rarement de l'attente ; le plus de monde en saison sèche (juin–octobre) et pendant les vacances scolaires",
+   "region": "Queensland, Smithfield (au bout de McGregor Road), ~20 min au nord de Cairns",
+   "booking": "Réservation en ligne sur book.skyparkcairns.com ou par tél. au (07) 4057 7188 ; ouvert tous les jours environ 10:00–17:00, créneaux jusqu'à 16:00. Transfert gratuit depuis Cairns et les Northern Beaches sur réservation",
+   "record": "Le seul saut à l'élastique d'Australie ; tour au-dessus de la forêt tropicale avec vue sur la côte",
+   "pros": [
+    "Le seul saut à l'élastique d'Australie",
+    "Transfert gratuit depuis Cairns",
+    "Sauts en tandem et 16 styles de saut",
+    "Près de la Barrière de corail et de Palm Cove"
+   ],
+   "cons": [
+    "Peu haut comparé à la Nouvelle-Zélande",
+    "À la saison des pluies (décembre–mars), chaleur, humidité et risque de cyclones"
+   ],
+   "airport": "CNS — Cairns, ~15–20 min",
+   "price_note": "Saut à partir de 189 AUD (~229 AUD avec pack photo-vidéo chez les partenaires) ; balançoire géante à partir de 109 AUD, combo saut + balançoire à partir de 269 AUD ; transfert gratuit depuis Cairns et les Northern Beaches",
+   "school_notes": [
+    null,
+    "Site officiel : saut à l'élastique, balançoire géante, belvédère"
+   ]
+  },
+  "great-canadian-bungee": {
+   "h": "d510abf42b",
+   "description": "Saut de 61 m (environ 20 étages) au-dessus d'un lagon d'eau de source, dans la carrière de calcaire inondée de Morrison, à une demi-heure d'Ottawa. Sur demande, le moniteur peut régler le saut pour que vous touchiez l'eau de la tête ou que vous plongiez jusqu'à la taille. À côté : la tyrolienne RIPRIDE d'environ 310 m, qui part de 200 pieds de haut, une plage et une aire de pique-nique.",
+   "rating_basis": "Le plus haut saut du Canada, au-dessus d'un lagon turquoise dans une carrière de calcaire, avec la rare possibilité de plonger dans l'eau ; 35e saison en 2026",
+   "hazards": "Contre-indications : grossesse, hypertension, épilepsie, asthme sévère, problèmes d'articulations, de ligaments et de colonne vertébrale, état d'ébriété. Les sauts sont interrompus en cas d'orage.",
+   "crowd_note": "L'été, le week-end, beaucoup d'habitants d'Ottawa et de Montréal — réservez à l'avance",
+   "region": "Québec, Chelsea (Outaouais), ~30 min au nord d'Ottawa",
+   "booking": "Réservation sur le site ou par téléphone ; saison de fin avril – début mai à début novembre, sauts presque tous les jours ; moins de 18 ans avec l'accord des parents",
+   "record": "Le plus haut saut à l'élastique du Canada (61 m) ; selon l'opérateur, le seul saut des Amériques avec immersion de la tête dans l'eau ; en 2022, le Premier ministre Justin Trudeau y a sauté",
+   "pros": [
+    "Le plus haut saut à l'élastique du Canada",
+    "Possibilité de plonger dans l'eau",
+    "Superbe lagon turquoise",
+    "Tout près d'Ottawa"
+   ],
+   "cons": [
+    "Ouvert seulement de mai à début novembre",
+    "Le touché de l'eau n'est pas garanti",
+    "Plus cher que la plupart des sauts d'Amérique latine"
+   ],
+   "airport": "YOW — Ottawa, ~40 min",
+   "price_note": "Premier saut 178,30 CAD + taxes ; second saut le même jour 89,58 CAD ; tyrolienne 34,79 CAD ; entrée de la carrière Morrison en sus",
+   "school_notes": [
+    "Site officiel : saut à l'élastique et tyrolienne RIPRIDE au-dessus du lagon"
+   ]
+  },
+  "whistler-bungee": {
+   "h": "fb7f74c39d",
+   "description": "Saut depuis une passerelle piétonne de 50 m au-dessus de la Cheakamus, rivière glaciaire, dans un canyon aux colonnes de basalte bordé d'une vieille forêt de conifères. Le site est à 15 minutes de route de Whistler et fonctionne toute l'année — en hiver, on peut sauter entre deux journées de ski. Saut à deux possible si le poids total ne dépasse pas 136 kg.",
+   "rating_basis": "Excellentes notes dans les avis (environ 4,8 sur 5 sur les sites agrégateurs), beau canyon aux falaises de basalte avec vue sur le Black Tusk ; en hauteur, dans la moyenne",
+   "hazards": "Contre-indications : problèmes cardiaques, de tension, de dos et de cou, grossesse. Sauts annulés en cas d'orage ; en hiver, le chemin vers le pont peut être verglacé.",
+   "crowd_note": "L'été et le week-end, les créneaux partent à l'avance — réservez plusieurs jours avant",
+   "region": "Colombie-Britannique, 15 km au sud de Whistler Village",
+   "booking": "Réservation en ligne au moins 3–4 jours à l'avance, ensuite par téléphone ; ouvert tous les jours toute l'année, environ 12:00–17:00 en été et 12:00–15:00 en hiver",
+   "record": "Le plus haut des deux sauts à l'élastique de Colombie-Britannique ; élu par les habitants « activité la plus extrême de Whistler »",
+   "pros": [
+    "Ouvert tous les jours, toute l'année",
+    "Très beau canyon et vue sur les montagnes",
+    "Près de la station de ski de Whistler",
+    "Saut en tandem possible"
+   ],
+   "cons": [
+    "Hauteur modeste face aux records mondiaux",
+    "En hiver, il fait froid et les horaires sont courts",
+    "Réservation en ligne seulement plusieurs jours à l'avance"
+   ],
+   "airport": "YVR — Vancouver, ~2 h par la Sea-to-Sky Highway",
+   "price_note": "Un saut à partir de 141 CAD (selon Tourism Whistler) ; 15 % de réduction en réservant 15+ jours à l'avance ; photos 45 CAD",
+   "school_notes": [
+    "Site officiel de l'opérateur, réservation en ligne",
+    "Réservation via le portail touristique de Whistler"
+   ]
+  },
+  "wildplay-nanaimo-bungy": {
+   "h": "6c2c7880c0",
+   "description": "Pont de 46 m au-dessus de la rivière Nanaimo, sur l'île de Vancouver — le premier pont légal d'Amérique du Nord construit spécialement pour le saut à l'élastique. 16 styles de saut sur six niveaux de difficulté ; à côté, la balançoire géante Primal Swing jusqu'à 140 km/h et des tyroliennes au-dessus du canyon. Chaque février a lieu un saut à l'élastique caritatif « tout nu ».",
+   "rating_basis": "Premier pont de saut à l'élastique d'Amérique du Nord, lieu historique, grand parc d'aventure ; hauteur moyenne, décor de canyon forestier",
+   "hazards": "Contre-indications : maladies cardiaques, hypertension, blessures au dos et au cou, grossesse. Activité tributaire de la météo — sauts suspendus par orage et vent fort.",
+   "crowd_note": "De l'attente seulement le week-end en été ; en semaine, c'est généralement libre",
+   "region": "Colombie-Britannique, île de Vancouver, ~10 km au sud de Nanaimo",
+   "booking": "On peut venir sans réservation, mais réserver en ligne garantit un créneau ; en été (juillet – début septembre), ouvert tous les jours, en juin et septembre presque tous les jours, en octobre du vendredi au lundi, de novembre à mi-décembre le samedi et le dimanche ; fermé en hiver",
+   "record": "Le premier pont légal d'Amérique du Nord construit spécialement pour le saut à l'élastique ; plus de 265 000 personnes en ont sauté",
+   "pros": [
+    "Lieu historique",
+    "Nombreux styles de saut et activités dans un même parc",
+    "Possible sans réservation",
+    "Pratique sur la route de l'île de Vancouver"
+   ],
+   "cons": [
+    "Saut peu haut à l'échelle mondiale",
+    "Fermé en hiver, seulement le week-end au printemps et à l'automne"
+   ],
+   "airport": "YCD — Nanaimo, ~10 min ; ferry de Vancouver à Nanaimo ~1 h 40 min",
+   "price_note": "Un saut 139,99–164,99 CAD (moins cher le matin et en fin de journée) ; combo saut + Primal Swing à partir de 199,99 CAD",
+   "school_notes": [
+    null,
+    "Site officiel : saut à l'élastique, Primal Swing, tyroliennes, parcours aventure dans les arbres"
+   ]
+  },
+  "niouc-bridge": {
+   "h": "5a8e851aaa",
+   "description": "Une passerelle suspendue de 1922, large de seulement 50 cm, tendue au-dessus d'une gorge à l'entrée du val d'Anniviers. 190 m jusqu'au fond, et la passerelle oscille sous les pieds : on a peur avant même d'arriver au point de saut. Sur place, tout un parc : pendule géant, saut pendulaire, tyrolienne et bar au-dessus du vide.",
+   "rating_basis": "N° 6 du top 15 des plus hauts sauts du monde selon CNN ; format rare — une passerelle suspendue qui se balance ; nombreuses activités sur un même site",
+   "hazards": "La passerelle se balance sous l'effet du vent et des pas. Contre-indications : grossesse, maladies cardiaques et hypertension, blessures de la colonne vertébrale, épilepsie ; après 60 ans, certificat médical. Sauts interrompus en cas d'orage et de vent fort.",
+   "crowd_note": "De l'attente possible le week-end en été ; en semaine, le site n'est pas toujours ouvert",
+   "region": "Valais, entrée du val d'Anniviers, ~15 minutes de Sierre",
+   "booking": "Saison 2026 : du 4 avril au 31 octobre, au minimum tous les week-ends, 10:00–18:00, davantage de jours en été — voir le calendrier sur le site. Pour les groupes de 5 personnes ou plus, jours supplémentaires sur appel. Après 60 ans, certificat médical obligatoire.",
+   "record": "L'un des plus hauts sauts depuis un pont au monde (190 m, top 15 CNN) ; étroite passerelle suspendue de 1922, sauts depuis 1997",
+   "pros": [
+    "190 m — l'un des plus hauts sauts depuis un pont au monde",
+    "Pendule, saut pendulaire et tyrolienne sur un même site",
+    "Climat ensoleillé et sec du Valais"
+   ],
+   "cons": [
+    "Prix non publiés sur le site",
+    "Seulement à partir de 16 ans",
+    "Surtout le week-end"
+   ],
+   "airport": "GVA — Genève, ~2 h ; SIR — Sion, ~30 min (peu de vols)",
+   "price_note": "210 CHF le saut (≈221 €) selon un article de SwitzerLanding de 2023 ; prix non publiés sur le site de l'opérateur — à vérifier lors de la réservation",
+   "school_notes": [
+    null,
+    "Site en français, allemand et anglais ; en plus du saut à l'élastique : pendule en solo ou à deux, saut pendulaire, tyrolienne et bar « Le Perchoir »"
+   ]
+  },
+  "verzasca-dam": {
+   "h": "bd151f6037",
+   "description": "Le saut du début de « GoldenEye » : 220 m de chute libre le long du mur en béton d'un barrage-voûte au-dessus de la gorge de la Verzasca. Après le saut, on vous remonte sur la crête. À proximité : la Verzasca aux eaux émeraude et le village de Lavertezzo avec son vieux pont de pierre.",
+   "rating_basis": "N° 2 du top 15 des plus hauts sauts du monde selon CNN (après la tour de Macao) ; record Guinness pour la cascade de « GoldenEye » ; l'opérateur compte plus de 10 000 sauts",
+   "hazards": "Interdit en cas de grossesse, d'hypertension, de maladies cardiaques, d'épilepsie, de blessures de l'appareil locomoteur, de troubles neurologiques, de glaucome, d'opération récente des yeux et de maladies chroniques des oreilles ; refusé sous l'emprise de l'alcool. Sauts interrompus en cas d'orage, de brouillard épais et de lâcher d'eau du barrage.",
+   "crowd_note": "L'été, le week-end, les créneaux partent à l'avance et l'on attend son tour sur la crête du barrage ; en semaine, l'après-midi est plus calme",
+   "region": "Tessin, val Verzasca, ~15 minutes de Locarno",
+   "booking": "Saison de Pâques au 31 octobre, sauts uniquement l'après-midi. En 2026, du mercredi au dimanche ; pour 2027, annoncé : avril — sam–dim, mai–octobre — ven–dim, juin – mi-septembre — mer–dim. Les week-ends d'été partent vite, réservez en ligne. Pas d'âge minimum (il faut peser au moins 45 kg), autorisation parentale avant 18 ans, certificat médical après 65 ans. Sauts de nuit à partir de 10 personnes ; saut en arrière à partir du deuxième saut, « Ultimo » à partir du troisième.",
+   "record": "Le saut de James Bond dans « GoldenEye » (1995) — selon le Livre Guinness des records, le plus haut saut à l'élastique depuis une structure au cinéma ; l'un des plus hauts sauts commerciaux du monde",
+   "pros": [
+    "L'un des plus hauts sauts du monde — 220 m",
+    "Lieu mythique du film de James Bond",
+    "À 15 minutes de Locarno, près du lac Majeur",
+    "À combiner avec du canyoning chez le même opérateur"
+   ],
+   "cons": [
+    "Cher : à partir de 255 CHF",
+    "Sauts seulement l'après-midi et pas tous les jours",
+    "Fermé de novembre à mars"
+   ],
+   "airport": "MXP — Milan-Malpensa, ~1 h 30 min ; ZRH — Zurich, ~2 h 30 min",
+   "price_note": "Saut classique 255 CHF pour 1–2 personnes (≈268 €), 235 CHF en groupe à partir de 3 personnes, 195 CHF pour les moins de 19 ans et les étudiants. Second saut le même jour 125 CHF, vidéo GoPro 39 CHF. Briefing, boisson et certificat compris",
+   "school_notes": [
+    null,
+    "Seul opérateur sur le barrage ; site en allemand, anglais, français et italien. Forfaits « saut à l'élastique + canyoning »"
+   ]
+  },
+  "zhangjiajie-glass-bridge-bungee": {
+   "h": "18c580756d",
+   "description": "Saut depuis le milieu du pont de verre de 430 m au-dessus du Grand Canyon de Zhangjiajie — 260 m jusqu'au fond de la gorge. Le site a ouvert fin 2020 ; c'est le plus haut saut à l'élastique de Chine. À combiner avec la traversée du pont de verre, une tyrolienne et une visite des rochers « d'Avatar » de Wulingyuan.",
+   "rating_basis": "L'un des plus hauts sites de saut à l'élastique du monde, au-dessus d'un canyon dans la région de Wulingyuan, classée à l'UNESCO ; peu d'avis de visiteurs étrangers",
+   "hazards": "Interdit en cas de maladies cardiaques ou de tension, de problèmes de dos, de grossesse ; uniquement à partir de 16 ans. Le pont ferme en cas d'orage, de vent fort et de verglas ; en juin, pluies de la saison du meiyu.",
+   "crowd_note": "Peu de sauteurs (~20 sauts par jour en 2021), mais le pont lui-même est envahi de touristes chinois pendant les fêtes (1er mai, 1er–7 octobre) et en été",
+   "region": "Hunan, Grand Canyon de Zhangjiajie (district de Cili), ~40 km de la ville de Zhangjiajie",
+   "booking": "Le billet de saut s'achète sur place ou via les services chinois (Ctrip/Trip.com) ; ouvert toute l'année, 9:00–16:00. Le pont ferme par mauvais temps — vérifiez la veille",
+   "record": "260 m — le plus haut saut à l'élastique de Chine et, selon l'opérateur, le plus haut saut du monde depuis une passerelle piétonne (plus haut que les 233 m de la tour de Macao)",
+   "pros": [
+    "L'un des plus hauts sites de saut à l'élastique de la planète",
+    "Pont de verre et canyon spectaculaires",
+    "À combiner avec le parc de Wulingyuan"
+   ],
+   "cons": [
+    "Cher : ~2000 CNY plus l'entrée du canyon",
+    "Peu d'informations en anglais, pas de site officiel pour les étrangers",
+    "En été, chaleur et foule sur le pont"
+   ],
+   "airport": "DYG — Zhangjiajie Hehua, ~1 h de route",
+   "price_note": "1998 CNY (≈241 €) le saut ; billet d'entrée du canyon avec le pont (itinéraire B) : 175 CNY en plus"
+  },
+  "san-gil-colombia-bungee": {
+   "h": "459b055f28",
+   "description": "Saut de 70 m depuis la nacelle d'une grue au-dessus de la rivière Fonce, à 10 minutes de San Gil — la capitale colombienne du rafting, du parapente et de la spéléologie. En activité depuis 2007 ; saut à deux possible, photos comprises. Quand la rivière est haute, on peut effleurer l'eau en bas.",
+   "rating_basis": "Excellents avis (4,9 sur 5 sur plus de 1500 avis Google), prix très bas ; hauteur moyenne, la plateforme est une grue au-dessus de la rivière",
+   "hazards": "Interdit aux femmes enceintes, aux personnes récemment blessées et aux cardiaques ; contre-indiqué en cas d'hypertension et de problèmes de dos. Aux saisons des pluies (avril–mai, octobre–novembre), les sauts sont interrompus à cause des orages.",
+   "crowd_note": "Une seule plateforme, ~15 minutes par personne — le week-end et pendant les fêtes colombiennes, il peut y avoir de l'attente",
+   "region": "Santander, à 2 km de San Gil sur la route de Charalá",
+   "booking": "On peut venir en taxi depuis San Gil (~10 min) sans réservation ou réserver via son auberge ou une agence ; ouvert 8:30–16:30, sauf le mercredi ; une seule plateforme — prévoyez du temps pour l'attente",
+   "record": "La plus haute tour de saut à l'élastique de Colombie selon l'opérateur ; San Gil est la « capitale de l'aventure » du pays",
+   "pros": [
+    "Très bon marché",
+    "Excellent service selon les avis",
+    "Facile à combiner avec le rafting et le parapente à San Gil",
+    "Climat chaud toute l'année"
+   ],
+   "cons": [
+    "Une grue, pas un pont ni une gorge",
+    "Une seule plateforme — il y a parfois la queue",
+    "Fermé le mercredi"
+   ],
+   "airport": "BGA — Bucaramanga, ~3 h via le canyon du Chicamocha",
+   "price_note": "Un saut à partir de 90 000 COP (≈19 EUR ; en 2025, le prix annoncé était de 80 000 COP) ; photos comprises, vidéo en supplément",
+   "school_notes": [
+    "Site officiel, réservation de saut solo ou en duo",
+    "Réservation en ligne à partir de 90 000 COP"
+   ]
+  },
+  "monteverde-extremo-bungee": {
+   "h": "67b1fa2729",
+   "description": "Une petite cabine de téléphérique vous emmène au milieu d'un canyon au-dessus de la forêt de nuages de Monteverde — 143 m jusqu'au fond, environ 60 m de chute libre. C'est le plus haut saut à l'élastique du Costa Rica et, selon le parc, de toute l'Amérique centrale. Dans le même parc : l'une des plus hautes balançoires Tarzan du monde et 4 km de tyroliennes, dont le parcours « Superman ».",
+   "rating_basis": "Le plus haut saut de la région, plateforme insolite — une cabine au-dessus de la forêt de nuages ; excellents avis (5/5 sur Manawa)",
+   "hazards": "Contre-indications : grossesse, blessures au dos et au cou, maladies cardiaques et vasculaires, diabète, hypertension, épilepsie, opérations récentes. Sauts suspendus par vent fort et orage ; à la saison des pluies (mai–novembre), averses fréquentes en journée.",
+   "crowd_note": "En saison sèche et pendant les fêtes, il y a parfois la queue pour la cabine — venez dès l'ouverture",
+   "region": "Puntarenas, Monteverde, ~3 km au nord-ouest de Santa Elena",
+   "booking": "Réservation sur le site du parc, via les hôtels de Monteverde ou les agrégateurs ; mieux vaut y aller le matin — l'après-midi, les nuages et le vent peuvent arrêter les sauts ; comptez ~45 minutes en tout",
+   "record": "Le plus haut saut à l'élastique d'Amérique centrale (selon le parc) : saut depuis une cabine au-dessus d'un canyon de 143 m de profondeur",
+   "pros": [
+    "Le plus haut saut d'Amérique centrale",
+    "Saut au-dessus de la forêt de nuages",
+    "Balançoire Tarzan et tyroliennes dans le même parc",
+    "Ouvert toute l'année"
+   ],
+   "cons": [
+    "Chute libre nettement inférieure aux 143 m annoncés",
+    "Nuages et vent fréquents, surtout en journée",
+    "La route de Monteverde est lente et en partie non goudronnée"
+   ],
+   "airport": "LIR — Liberia, ~2,5 h ; SJO — San José, ~3,5 h",
+   "price_note": "À partir de 98 EUR sur l'agrégateur Manawa, ~100 USD sur les sites locaux ; photos et vidéo +40 USD",
+   "school_notes": [
+    "Site officiel : saut à l'élastique, méga-balançoire Tarzan, 4 km de tyroliennes",
+    "Réservation en ligne avec prix en euros",
+    "Plateforme de réservation de la Chambre de tourisme de Monteverde"
+   ]
+  },
+  "banos-san-francisco-bridge": {
+   "h": "b1dc926edd",
+   "description": "Le « puenting » — saut pendulaire sur cordes d'assurage depuis le pont routier San Francisco, au-dessus de la gorge du Pastaza, aux portes de la ville. Environ 80 m de haut, un saut court mais très brutal. Un classique de Baños, au même titre que la « balançoire du bout du monde », le rafting, le canyoning et les tyroliennes.",
+   "rating_basis": "Populaire chez les backpackers pour son prix bas et la gorge du Pastaza ; c'est un saut pendulaire sur cordes, pas un saut à l'élastique classique, et les standards de sécurité sont plus sommaires",
+   "hazards": "Choisissez une agence avec de bons avis et vérifiez le matériel. Le balancier sollicite fortement le dos et le cou — contre-indiqué en cas de blessures, de problèmes cardiaques ou de tension, de grossesse. La ville est à ~1800 m d'altitude, près du volcan actif Tungurahua — suivez les bulletins.",
+   "crowd_note": "De l'attente le week-end et les jours fériés, quand arrivent les touristes de Quito",
+   "region": "Tungurahua, périphérie nord de Baños de Agua Santa, au-dessus du Pastaza",
+   "booking": "Réservation dans n'importe quelle agence des rues de Baños ou en ligne via Civitatis ; le saut lui-même prend ~20 minutes, on va au pont à pied depuis le centre",
+   "record": "L'un des sauts depuis un pont les plus abordables ; Baños est surnommée la capitale de l'aventure de l'Équateur",
+   "pros": [
+    "Très bon marché",
+    "Pont accessible à pied depuis le centre",
+    "Plein d'autres activités en ville, et des sources thermales"
+   ],
+   "cons": [
+    "C'est un saut pendulaire sur cordes, pas un saut à l'élastique",
+    "Beaucoup de petits opérateurs — qualité du matériel variable",
+    "Pluie et brouillard fréquents"
+   ],
+   "airport": "UIO — Quito, ~3,5 h en bus ou en voiture",
+   "price_note": "À partir de 27 USD sur Civitatis (≈24 EUR sur Central de Reservas) ; prix similaires dans les agences en ville, photos et vidéo en sus",
+   "school_notes": [
+    null,
+    "Réservation en ligne à partir de 27 USD, moniteur hispanophone et anglophone",
+    "Fiche descriptive (temporairement indisponible lors de la vérification)"
+   ]
+  },
+  "artuby-bridge": {
+   "h": "151c87bd05",
+   "description": "Pont en arc au-dessus des gorges de l'Artuby, tout près du Grand Canyon du Verdon — 182 m jusqu'au fond. Saut face aux parois calcaires, puis 30 minutes de remontée à pied par un sentier. Un classique du saut à l'élastique en France, facile à combiner avec un voyage en Provence.",
+   "rating_basis": "Le plus haut saut de France, présent dans tous les classements français des meilleurs sauts à l'élastique ; paysages célèbres des gorges du Verdon",
+   "hazards": "Remontée de la gorge par un sentier — chaussures confortables et eau indispensables, il fait chaud en été ; le treuil de remontée n'accepte que jusqu'à 90 kg. Contre-indications classiques : cœur, tension, dos, grossesse ; certificat médical à partir de 55 ans. Les sauts dépendent de la météo.",
+   "crowd_note": "Sauts à la file toute la journée, un coupe-file est vendu en supplément — en saison, l'attente peut durer des heures",
+   "region": "Var, Grand Canyon du Verdon, près des Balcons de la Mescla (Aiguines)",
+   "booking": "D'avril à mi-novembre. D'avril à mi-juin et de mi-septembre à mi-novembre, uniquement le dimanche ; de mi-juin à mi-septembre, le week-end ; de mi-juillet à mi-août, du vendredi au dimanche. Comptez la journée entière : rendez-vous entre 9:00 et 12:00, et après le saut, 30 minutes de marche pour sortir du canyon. Autorisation parentale avant 18 ans, certificat médical à partir de 55 ans.",
+   "record": "L'un des plus hauts sauts d'Europe — 182 m au-dessus d'un affluent du Verdon, près du Grand Canyon",
+   "pros": [
+    "L'un des plus hauts sauts d'Europe — 182 m",
+    "Paysages du Grand Canyon du Verdon",
+    "Moins cher qu'en Suisse et en Autriche"
+   ],
+   "cons": [
+    "Prend toute la journée, longue attente",
+    "Remontée à pied du canyon après le saut",
+    "Au printemps et à l'automne, uniquement le dimanche"
+   ],
+   "airport": "NCE — Nice, ~2 h ; MRS — Marseille, ~2 h 15 min",
+   "price_note": "140 € le saut selon l'office de tourisme de Provence (tarif valable jusqu'en 2027), réduction pour les groupes à partir de 4 personnes ; sur Manawa, à partir de 105 €, coupe-file et vidéo à 30 € chacun",
+   "school_notes": [
+    "Opérateur ; briefing en français et en anglais",
+    "Agrégateur, à partir de 105 €"
+   ]
+  },
+  "ponsonnas-bridge": {
+   "h": "4201957787",
+   "description": "Pont en arc de pierre de 1941 au-dessus des gorges du Drac — 103 m jusqu'à l'eau. L'un des premiers sites permanents de saut à l'élastique d'Europe, en activité depuis 1988. Prix abordable, saut à deux possible, chaque saut est filmé.",
+   "rating_basis": "Site historique (depuis 1988) ; 4,9/5 sur 206 avis sur Funbooker et 4,95/5 sur 75 avis sur Cap Adrénaline",
+   "hazards": "Contre-indications classiques : cœur, tension, blessures au dos, grossesse ; certificat médical à partir de 55 ans, refusé au-delà de 60 ans. Les sauts dépendent de la météo.",
+   "crowd_note": "Petits groupes, rarement d'attente ; en 2026, peu de dates à cause des travaux",
+   "region": "Isère, plateau de la Matheysine près de La Mure, ~40 km au sud de Grenoble",
+   "booking": "D'habitude d'avril à novembre le week-end, en juillet–août presque tous les jours (en 2026 : lun, mer, jeu et week-end, 10:00–17:00). En 2026, le pont est en travaux : une partie des dates est annulée, la réouverture complète est prévue en 2027 — les dates 2027 sont déjà ouvertes sur les agrégateurs. Âge 13–60 ans, certificat médical à partir de 55 ans.",
+   "record": "L'un des plus anciens sites de saut à l'élastique d'Europe : on y saute depuis 1988",
+   "pros": [
+    "L'un des plus anciens sites d'Europe",
+    "Abordable — 98 €",
+    "Sauts en tandem",
+    "Dès 13 ans"
+   ],
+   "cons": [
+    "Travaux sur le pont en 2026 — peu de dates",
+    "Hauteur plus modeste que les géants alpins",
+    "Limite de poids stricte pour les femmes"
+   ],
+   "airport": "LYS — Lyon-Saint-Exupéry, ~1 h 45 min ; GNB — Grenoble-Isère, ~1 h 15 min",
+   "price_note": "98 € le saut ; tandem 214 € pour deux ; groupes à partir de 4 personnes 88 €, à partir de 10 personnes 75 € ; vidéo 28 €",
+   "school_notes": [
+    null,
+    "Réservation, prix et réductions de groupe",
+    "Réservation ; signale les travaux sur le pont en 2026"
+   ]
+  },
+  "souleuvre-viaduct": {
+   "h": "0eb846b5b8",
+   "description": "Les piles en pierre d'un viaduc conçu par Gustave Eiffel — tout ce qui reste d'une ligne de chemin de fer du XIXe siècle. AJ Hackett a installé un site de saut sur la plus haute : 61 m au-dessus de la Souleuvre, et l'on peut demander à toucher l'eau. À côté : balançoire géante, pendule, tyrolienne de 400 m et cube de verre au-dessus de la vallée.",
+   "rating_basis": "Site historique d'AJ Hackett ; 5/5 sur 25 avis sur Manawa ; pas très haut, mais beaucoup d'activités",
+   "hazards": "Contre-indications classiques : maladies cardiaques et hypertension, blessures au dos et au cou, grossesse, épilepsie. Sauts suspendus par vent fort et orage. Touché de l'eau sur demande — l'eau est froide.",
+   "crowd_note": "L'été et le week-end, beaucoup de familles et de groupes — réservez un créneau à l'avance",
+   "region": "Normandie, Calvados, ~35 minutes de Caen",
+   "booking": "Saison 2026 : du 4 avril au 30 novembre ; au printemps et à l'automne, les week-ends et jours fériés 10:00–17:00, du 13 juin au 31 août tous les jours 10:00–18:00. Réservation en ligne. Les mineurs ont besoin d'une autorisation parentale écrite.",
+   "record": "Premier site AJ Hackett d'Europe (1990) — sur une pile du viaduc construit d'après les plans de Gustave Eiffel en 1887–1889",
+   "pros": [
+    "L'opérateur légendaire AJ Hackett",
+    "Possibilité de toucher l'eau",
+    "Balançoire, pendule et tyrolienne pour toute la bande",
+    "Dès 12 ans"
+   ],
+   "cons": [
+    "Pas très haut — 61 m",
+    "Cher pour cette hauteur : 179 €",
+    "Météo normande changeante"
+   ],
+   "airport": "CFR — Caen-Carpiquet, ~45 min ; CDG — Paris, ~3 h 30 min",
+   "price_note": "179 € en solo ; étudiants et moins de 18 ans 119 € ; second saut 99 € ; tandem à partir de 198 € ; photo ou vidéo 40 € chacune",
+   "school_notes": [
+    null,
+    "Opérateur ; site en français"
+   ]
+  },
+  "stockhorn-cable-car": {
+   "h": "a1aecd53a8",
+   "description": "On ne saute pas d'un pont, mais de la cabine ouverte du téléphérique du Stockhorn : 134 m de chute libre au-dessus du lac de montagne de Hinterstockensee. Le programme comprend la montée en téléphérique et le transfert depuis Interlaken ; après le saut, une boisson et la vue sur les Alpes bernoises.",
+   "rating_basis": "Le saut le plus connu de la région d'Interlaken, présent dans les sélections des meilleurs sauts à l'élastique de Suisse ; site insolite — une cabine de téléphérique au-dessus d'un lac",
+   "hazards": "Contre-indications classiques : grossesse, maladies cardiaques et hypertension, blessures au dos et au cou, épilepsie. En montagne, la météo change vite : en cas de vent fort, d'orage ou de nuages bas, le départ est reporté.",
+   "crowd_note": "Départs à heure fixe en petits groupes — pas d'attente, mais mieux vaut réserver à l'avance pour le week-end",
+   "region": "Oberland bernois, au-dessus du lac de Hinterstockensee ; station inférieure à Erlenbach, ~40 minutes d'Interlaken",
+   "booking": "D'avril à octobre, départ à 15:45 les lundis, mercredis, samedis et dimanches (en pleine saison, aussi à 18:30 le samedi). Rendez-vous à la base OUTDOOR de Wilderswil (Interlaken) ou à la station inférieure du téléphérique à Erlenbach. Le programme complet dure environ 5 heures depuis Interlaken. Jusqu'à deux spectateurs peuvent monter jusqu'à la station intermédiaire. À partir de 14 ans, sans exception.",
+   "record": "Saut depuis la cabine ouverte d'un téléphérique au-dessus d'un lac de montagne à ~1600 m d'altitude — un format rare en Europe",
+   "pros": [
+    "Format insolite — saut depuis une cabine de téléphérique",
+    "Téléphérique et transfert depuis Interlaken compris",
+    "Lac de montagne et vues alpines"
+   ],
+   "cons": [
+    "Seulement 4 jours par semaine, un ou deux départs par jour",
+    "Strictement à partir de 14 ans",
+    "Le programme prend une demi-journée"
+   ],
+   "airport": "BRN — Berne, ~40 min ; ZRH — Zurich, ~1 h 45 min",
+   "price_note": "239 CHF par personne (≈251 €), groupes à partir de 10 personnes 215 CHF ; téléphérique, équipement, transfert depuis Interlaken et boisson compris. Photos 49 CHF, vidéo 59 CHF, les deux 99 CHF ; spectateur 60 CHF",
+   "school_notes": [
+    null,
+    "Opérateur ; guides germanophones et anglophones",
+    "Réservation avec interface en russe, à partir de 239 CHF ; briefing en anglais ou en allemand"
+   ]
+  },
+  "jumpin-heights-rishikesh": {
+   "h": "6389e0c710",
+   "description": "Saut depuis une plateforme en porte-à-faux, avancée de 25 m au-dessus de la falaise des gorges de la Hiunl, dans les contreforts de l'Himalaya — 83 m jusqu'au lit rocheux de la rivière. C'est le principal site de saut à l'élastique d'Inde et une étape incontournable après le rafting et le yoga à Rishikesh. Sur le même site : une balançoire géante au-dessus de la gorge et un flying fox de près d'un kilomètre.",
+   "rating_basis": "Le site le plus connu d'Inde, note moyenne de 4,7–4,8 sur des milliers d'avis ; hauteur moyenne à l'échelle mondiale",
+   "hazards": "Interdit en cas de maladies cardiaques, d'hypertension, de problèmes de dos et de cou, d'épilepsie, de grossesse. Pendant la mousson, l'activité est suspendue à cause des pluies torrentielles, des crues et du vent ; la route de montagne est ravinée.",
+   "crowd_note": "Très populaire auprès des touristes indiens : le week-end, les jours fériés et en mai–juin, jusqu'à plusieurs heures d'attente ; le matin en semaine est la meilleure option",
+   "region": "Uttarakhand, village de Mohan Chatti, ~25 km (45 min) de Tapovan, à Rishikesh",
+   "booking": "Réservation en ligne obligatoire ; le week-end et les jours fériés, les places partent à l'avance. Navette depuis le bureau de Tapovan à 9:15 et 13:15. Âge 12–45 ans, avant 18 ans uniquement accompagné d'un parent. Généralement fermé le mardi — à vérifier",
+   "record": "Le plus haut saut à l'élastique d'Inde depuis une plateforme fixe (83 m) ; en activité depuis 2010 selon les normes néo-zélandaises",
+   "pros": [
+    "Opérateur professionnel aux normes néo-zélandaises",
+    "Bon marché",
+    "Trois attractions au même endroit",
+    "Facile à combiner avec le rafting et le yoga à Rishikesh"
+   ],
+   "cons": [
+    "Longues files d'attente le week-end et les jours fériés",
+    "Âge limité à 45 ans",
+    "Fermé au cœur de la mousson (environ mi-juillet – mi-septembre)",
+    "En mai–juin, chaleur jusqu'à 37 °C"
+   ],
+   "airport": "DED — Dehradun (Jolly Grant), ~1,5 h",
+   "price_note": "3700 INR (≈36 €) GST comprise ; balançoire géante 3700 INR, flying fox 2000–3500 INR, vidéo à partir de 900 INR, navette depuis Tapovan 500 INR, entrée spectateurs 100 INR",
+   "school_notes": [
+    "Site officiel et réservation en ligne ; également un site à Goa (~60 m)"
+   ]
+  },
+  "ponte-colossus": {
+   "h": "333069f46e",
+   "description": "Viaduc en béton de 152 m de haut au-dessus d'une vallée des Préalpes, près de Biella — le premier centre permanent de saut à l'élastique d'Italie. Environ 5 secondes de chute libre jusqu'à 110 km/h, puis on vous descend au fond de la vallée. On saute même sous la pluie — seul un fort vent latéral fait annuler.",
+   "rating_basis": "Top 15 CNN ; le plus ancien centre permanent d'Italie ; 4,9/5 sur Manawa",
+   "hazards": "Déconseillé en cas de maladies cardiaques graves, de troubles neurologiques et articulaires, de maladies de la rétine, d'épilepsie, de luxation récidivante de l'épaule, de grossesse, de blessures et d'opérations récentes. Poids 45–120 kg habillé.",
+   "crowd_note": "Les week-ends d'été se remplissent à l'avance, surtout avec les groupes",
+   "region": "Piémont, province de Biella, Veglio — ~1 h de Milan et de Turin",
+   "booking": "Sauts le week-end du printemps à l'automne (avril–octobre selon l'office de tourisme de Biella) ; le calendrier du site couvre mars – décembre. Réservation obligatoire, en ligne jusqu'à 8:00 le jour du saut. Mineurs : autorisation parentale écrite ; après 60 ans, certificat médical à fournir à l'avance. Après le saut, on vous descend au fond de la vallée et l'on remonte à pied par un sentier ; le programme complet dure ~1,5 h.",
+   "record": "Premier centre permanent de saut à l'élastique d'Italie (depuis le milieu des années 1990), n° 10 du top 15 des plus hauts sauts du monde selon CNN",
+   "pros": [
+    "152 m — l'un des plus hauts sauts d'Europe",
+    "Abordable — 110 €",
+    "On saute même sous la pluie",
+    "À une heure de Milan et de Turin"
+   ],
+   "cons": [
+    "Uniquement le week-end",
+    "Remontée à pied après le saut, pas d'ascenseur",
+    "Pas de transports en commun jusqu'au pont — navette ou voiture indispensable"
+   ],
+   "airport": "MXP — Milan-Malpensa, ~1 h 15 min ; TRN — Turin, ~1 h 15 min",
+   "price_note": "110 € le saut ; saut suivant (avec la Bungee Card ou un certificat) 90 € ; pour les groupes à partir de 7 personnes, un saut offert ; vidéo 20–30 €",
+   "school_notes": [
+    null,
+    "Opérateur ; calendrier et prix, site en italien et en anglais"
+   ]
+  },
+  "valgadena-bridge": {
+   "h": "2f14502a1d",
+   "description": "Pont en béton de 1990 sur le plateau d'Asiago, au-dessus de la profonde gorge de la Valgadena : selon l'opérateur, avec ses 175 m, c'est le plus haut saut depuis un pont en Italie. C'est une association, pas une attraction : on saute selon un calendrier, on paie en espèces et un certificat médical est exigé. En revanche, c'est moins cher qu'en Suisse et en Autriche.",
+   "rating_basis": "Top 15 CNN ; 4,9/5 sur 63 avis sur CheckYeti ; plus de 20 ans d'existence",
+   "hazards": "Les contre-indications sont détaillées sur le site de l'opérateur (cœur, tension, dos, etc.) ; sans certificat médical, pas de saut. La météo du plateau est changeante : en cas d'orage et de vent fort, les sauts sont reportés.",
+   "crowd_note": "Sauts selon un calendrier, petits groupes les jours de saut",
+   "region": "Vénétie, plateau d'Asiago (Sette Comuni), entre Enego et Foza",
+   "booking": "Sauts à dates fixes, surtout le week-end, de mi-mars à novembre (environ 45 dates en 2026). La demande via le formulaire du site n'est confirmée qu'après un contact sur WhatsApp. Le jour du saut, il faut un certificat médical d'aptitude au sport. Avant 18 ans, présence d'un parent ou autorisation écrite.",
+   "record": "Selon l'opérateur, le plus haut pont d'Italie ; n° 7 du top 15 des plus hauts sauts du monde selon CNN (175 m)",
+   "pros": [
+    "L'un des plus hauts sauts d'Europe",
+    "Abordable — environ 110 € avec la cotisation",
+    "Excellentes notes sur les agrégateurs"
+   ],
+   "cons": [
+    "Certificat médical d'aptitude au sport exigé",
+    "Espèces uniquement et confirmation via WhatsApp",
+    "Dates fixes, surtout le week-end"
+   ],
+   "airport": "VCE — Venise, ~1 h 45 min ; VRN — Vérone, ~1 h 45 min",
+   "price_note": "90 € le saut + 20 € de cotisation à l'association ; photo ou vidéo 15 €, les deux 25 € ; paiement en espèces uniquement",
+   "school_notes": [
+    null,
+    "Opérateur associatif ; dates et formulaire de demande, site en italien et en anglais",
+    "Agrégateur, 4,9/5 sur 63 avis"
+   ]
+  },
+  "gifu-bungy-shin-tabisoko": {
+   "h": "3a5c275a97",
+   "description": "Saut depuis le pont routier Shin-Tabisoko, long de 462 m et tendu à environ 200 m au-dessus de la vallée de la Tabisoko, dans les montagnes de Gifu — 215 m de chute libre. C'est le plus haut saut à l'élastique du Japon, ouvert en 2020. Plus pratique en voiture depuis Nagoya ; du parking, on rejoint l'accueil à pied par un tunnel.",
+   "rating_basis": "215 m — record du Japon et top mondial des sauts depuis un pont ; pont à ~200 m au-dessus de la gorge, opérateur Bungy Japan",
+   "hazards": "Restrictions médicales : cœur, tension, dos, grossesse. Activité suspendue par mauvais temps — orages, typhons (août–octobre), vent fort.",
+   "crowd_note": "Inscription par créneaux d'une heure ; le week-end et les jours fériés japonais, les créneaux partent à l'avance",
+   "region": "Préfecture de Gifu, Yaotsu, pont Shin-Tabisoko au-dessus de la vallée de la Tabisoko ; ~1,5–2 h de Nagoya",
+   "booking": "Réservation en ligne ou par téléphone au 0278-72-8133, créneaux de 60 minutes. Annulation la veille : 50 % de pénalité, le jour du saut : 100 %. Ouvert toute l'année : avril–septembre 9:00–17:30, octobre–mars 8:30–17:00. ~700 m à pied depuis le parking, par un tunnel",
+   "record": "Le plus haut saut à l'élastique du Japon (215 m, ouvert en août 2020) et l'un des plus hauts sauts depuis un pont au monde",
+   "pros": [
+    "215 m, record du Japon",
+    "Ouvert toute l'année",
+    "Gorge de montagne pittoresque",
+    "Réduction si vous avez déjà sauté d'un autre pont Bungy Japan"
+   ],
+   "cons": [
+    "Cher — 28 000 JPY",
+    "Difficile sans voiture : train jusqu'à Mino-Ota puis ~30 minutes de taxi",
+    "Règles d'annulation strictes",
+    "Poids limité à 100 kg"
+   ],
+   "airport": "NGO — Nagoya (Chubu), ~1,5 h de route",
+   "price_note": "Premier saut 28 000 JPY (≈161 €), deuxième le même jour 13 000 JPY, 18 000 JPY pour les « habitués » munis d'un certificat ; 1000 JPY de réduction si vous avez déjà sauté sur un autre site Bungy Japan. Espèces uniquement",
+   "school_notes": [
+    null,
+    "Site en anglais et en japonais"
+   ]
+  },
+  "minakami-suwakyo-bungy": {
+   "h": "d60c9a9acc",
+   "description": "Saut depuis le pont Suwakyo, à 42 m au-dessus de la Tone, en plein centre de Minakami — la capitale japonaise du rafting et du canyoning. On y va depuis Tokyo en shinkansen (1,5 heure), puis en bus. Le même jour, on peut aussi sauter du second pont de l'opérateur, Sarugakyo (62 m), à 20 minutes de route.",
+   "rating_basis": "Saut peu haut mais pittoresque au-dessus de la Tone, au cœur d'une station d'activités de plein air ; un classique de Bungy Japan",
+   "hazards": "Restrictions médicales : cœur, tension, dos, grossesse. Sauts suspendus quand la rivière est haute (fonte des neiges, pluies de la saison tsuyu en juin) et en cas de typhon.",
+   "crowd_note": "Ouvert seulement 2 jours par semaine : le week-end et les jours fériés, les créneaux partent à l'avance ; sans réservation, l'attente peut durer des heures",
+   "region": "Préfecture de Gunma, ville de Minakami, ~1 km au sud de la gare de Minakami ; ~2 h de Tokyo",
+   "booking": "Réservation en ligne ou par téléphone au 0278-72-8133 indispensable pour obtenir un horaire pratique. Saison 2026 : avril – 31 octobre, uniquement le vendredi et le samedi ; 9:00–17:30 (jusqu'à 17:00 en octobre). Avant 18 ans, avec un parent ou une autorisation signée",
+   "record": "Le plus ancien site de saut à l'élastique depuis un pont encore en activité au Japon (depuis 2007)",
+   "pros": [
+    "Facile d'accès depuis Tokyo",
+    "À combiner avec le rafting et le canyoning à Minakami",
+    "Combo avec le pont Sarugakyo, plus haut"
+   ],
+   "cons": [
+    "Seulement 42 m",
+    "Ouvert uniquement d'avril à octobre, et seulement le vendredi et le samedi",
+    "Espèces uniquement"
+   ],
+   "airport": "HND / NRT — Tokyo, ~2,5–3 h en train",
+   "price_note": "Premier saut 12 000 JPY (≈69 €), deuxième le même jour 6000 JPY, nouveau saut un autre jour 7000 JPY ; combo avec le pont Sarugakyo (62 m) le même jour 19 000 JPY. Espèces uniquement",
+   "school_notes": [
+    null,
+    "Site en anglais et en japonais"
+   ]
+  },
+  "ryujin-bridge-bungy": {
+   "h": "a22bc7463b",
+   "description": "Saut depuis le milieu du pont suspendu Ryujin, long de 375 m, dans la préfecture d'Ibaraki — 100 m jusqu'au lac de retenue, dans une gorge boisée. Ce fut longtemps le plus haut saut à l'élastique du Japon ; après le saut, un treuil électrique vous remonte sur le pont. En automne, les érables colorent la gorge : c'est la plus belle période pour sauter.",
+   "rating_basis": "100 m au-dessus d'un lac dans une gorge boisée, plus de 10 000 sauts par an ; particulièrement beau en novembre, à la saison des érables",
+   "hazards": "Restrictions médicales : cœur, tension, dos, grossesse. Sauts suspendus en cas de typhon (août–octobre) et d'orage ; en hiver, il fait froid et il y a du vent sur le pont.",
+   "crowd_note": "Plus de 10 000 sauteurs par an : le week-end, les jours fériés et à la saison des érables rouges (novembre), jusqu'à 3 heures d'attente sans réservation",
+   "region": "Préfecture d'Ibaraki, ville de Hitachiota, grand pont suspendu Ryujin au-dessus du lac de retenue ; ~2,5 h de Tokyo",
+   "booking": "Réservation obligatoire, surtout pour le week-end et les jours fériés : sans elle, jusqu'à 3 heures d'attente. Ouvert toute l'année, 9:00–11:00 et 12:00–17:30 ; vérifiez les jours d'ouverture par téléphone au 0278-72-8133. Un accompagnateur peut regarder depuis la plateforme moyennant un supplément",
+   "record": "100 m — le deuxième plus haut saut à l'élastique permanent du Japon (après Gifu, 215 m) ; avec ses 375 m, le pont est l'un des plus longs ponts suspendus piétons du pays",
+   "pros": [
+    "100 m de chute libre",
+    "Belle gorge, surtout en novembre",
+    "Ouvert toute l'année",
+    "Vidéo GoPro comprise"
+   ],
+   "cons": [
+    "Peu pratique sans voiture : le bus depuis la gare de Hitachiota passe 3–4 fois par jour",
+    "Files d'attente le week-end",
+    "Espèces uniquement"
+   ],
+   "airport": "IBR — Ibaraki, ~1,5 h de route ; NRT / HND — Tokyo, ~2,5 h",
+   "price_note": "Premier saut 19 000 JPY (≈109 €), deuxième le même jour 8000 JPY, nouveau saut un autre jour 11 000 JPY ; vidéo GoPro comprise. Espèces uniquement",
+   "school_notes": [
+    null,
+    "Site en anglais et en japonais"
+   ]
+  },
+  "macau-tower": {
+   "h": "f7e02412b0",
+   "description": "Saut depuis l'anneau extérieur de la tour de Macao, à 233 m de hauteur — environ 4–5 secondes de chute libre jusqu'à 200 km/h, freinage à 30 m du sol. Des câbles de guidage sécurisent la chute : le saut est à la fois extrême et très technique. Sur le même site : le SkyJump (descente sur câble), la promenade en bordure SkyWalk et l'ascension de la flèche de la tour.",
+   "rating_basis": "Record Guinness, toujours dans le top 3 des plus hauts sauts à l'élastique commerciaux du monde, opérateur légendaire AJ Hackett",
+   "hazards": "Interdit en cas de problèmes cardiaques et de tension, d'épilepsie, de grossesse, d'opérations et de blessures récentes, d'antécédents de luxation. Sauts suspendus en cas de typhon, de vent fort, d'orage et d'averse — la saison des typhons va de juin à octobre.",
+   "crowd_note": "Le week-end et pendant les fêtes chinoises, file d'attente sur la plateforme ; en semaine, le matin, c'est plus calme (réduction sur les créneaux matinaux)",
+   "region": "Péninsule de Macao, Macau Tower, plateforme à 233 m de hauteur",
+   "booking": "Réservation sur le site de Skypark ou via des agrégateurs (Klook, LocalTours en russe) ; ouvert tous les jours : lun–ven 11:00–19:00, sam–dim 10:30–19:30. Avant 18 ans, uniquement avec un parent qui signe la décharge de responsabilité",
+   "record": "Record Guinness : le plus haut site commercial de saut à l'élastique depuis un bâtiment (233 m) ; l'un des plus hauts sauts à l'élastique du monde",
+   "pros": [
+    "L'un des plus hauts sauts à l'élastique du monde",
+    "Ouvert toute l'année, tous les jours",
+    "À combiner avec le SkyWalk et l'ascension de la flèche",
+    "Facile d'accès depuis Hong Kong en ferry ou par le pont"
+   ],
+   "cons": [
+    "Cher : ≈330 € sans photos ni vidéo",
+    "Vue sur la ville et les chantiers, pas sur la nature",
+    "En été, chaleur, orages et typhons — les sauts sont suspendus"
+   ],
+   "airport": "MFM — Macao, ~15 min ; HKG — Hong Kong, ~45 min par le pont HZMB",
+   "price_note": "Saut solo 3088 MOP (≈330 €) : billet d'entrée de la tour, t-shirt, certificat électronique ; photos et vidéo en pack séparé. Tandem 5488 MOP, SkyJump 2188 MOP, SkyWalk 788 MOP, ascension de la flèche (Tower Climb) 2688 MOP",
+   "school_notes": [
+    null,
+    "Opérateur officiel, site en anglais et en chinois",
+    "Revendeur de billets russophone ; sur place, le personnel parle anglais et chinois"
+   ]
+  },
+  "kushma-bungee": {
+   "h": "3dec42556a",
+   "description": "Saut depuis un pont suspendu de 520 m, à 228 m au-dessus de la gorge de la Kali Gandaki, entre Kushma et Balewa — selon l'opérateur, le deuxième plus haut saut à l'élastique de la planète après Macao. La chute libre dure environ 5–7 secondes. Sur le site The Cliff : balançoire géante, « vélo céleste » sur câble, café au-dessus du vide et nuits en tente ou en bungalow.",
+   "rating_basis": "228 m — selon l'opérateur et Wikipédia, le deuxième plus haut saut du monde après Macao ; populaire sur les réseaux sociaux, environ 300 visiteurs par jour",
+   "hazards": "Interdit en cas de maladies cardiaques et de tension, de problèmes de dos, de grossesse. Activités suspendues en cas d'orage et de vent fort ; pendant la mousson (juin–septembre), la route Pokhara–Kushma est emportée par des glissements de terrain.",
+   "crowd_note": "Jusqu'à 300 visiteurs par jour, surtout le week-end et pendant les fêtes népalaises (Dashain, Tihar) ; arrivez dès l'ouverture",
+   "region": "Parbat, gorge de la Kali Gandaki, à 62 km de Pokhara",
+   "booking": "Réservation par téléphone/WhatsApp ou via les agences de Pokhara (excursion d'une journée avec transfert). Pas de saut à deux ; tentes et bungalows sur place pour passer la nuit",
+   "record": "Le deuxième plus haut saut à l'élastique du monde (228 m) et le plus haut du Népal ; sur le même pont, « la plus haute balançoire du monde »",
+   "pros": [
+    "Une hauteur quasi record pour un prix dérisoire",
+    "La gorge sauvage de la Kali Gandaki",
+    "Excursion d'une journée depuis Pokhara",
+    "Balançoire et autres attractions sur le même pont"
+   ],
+   "cons": [
+    "Uniquement à partir de 18 ans et jusqu'à 105 kg",
+    "~2 heures de route de montagne depuis Pokhara",
+    "Pas de saut à deux",
+    "Brouillard et glissements de terrain pendant la mousson"
+   ],
+   "airport": "PKR — Pokhara, ~2 h de route",
+   "price_note": "8000 NPR (≈49 €) — prix unique pour les Népalais et les étrangers ; photos, vidéo et t-shirt en sus ; second saut le même jour 4000 NPR. Dans la presse en 2023 : 7500 NPR",
+   "school_notes": [
+    null,
+    "Prix, règles et contacts (WhatsApp/Viber)"
+   ]
+  },
+  "last-resort-bhote-koshi": {
+   "h": "b4a693f8e4",
+   "description": "Saut depuis une passerelle suspendue de 166 m tendue au-dessus de la gorge de la Bhote Koshi, tout près de la frontière tibétaine : 160 m et environ 5 secondes de chute libre vers l'eau tumultueuse. C'est le premier et le plus célèbre site de saut à l'élastique du Népal. À côté : canyon swing, tandem swing, canyoning et rafting, et sur la rive, un camp de tentes où passer la nuit.",
+   "rating_basis": "Un classique du Népal : 160 m au-dessus d'une rivière tumultueuse dans une gorge étroite, pont de conception suisse, bons retours sur la sécurité ; figure dans les listes des plus hauts sauts depuis un pont",
+   "hazards": "Interdit en cas de maladies cardiaques, d'hypertension, d'épilepsie, d'asthme, d'opérations récentes, de problèmes orthopédiques et neurologiques, de grossesse et en état d'ébriété. Pendant la mousson (juin–septembre), la route Araniko est coupée par des glissements de terrain et le trajet peut s'éterniser ou être annulé : en août 2025, la route a été fermée 11 jours à cause de glissements de terrain.",
+   "crowd_note": "Sauts en groupes selon l'horaire des excursions d'une journée ; peu d'attente, mais en octobre–novembre, mieux vaut réserver à l'avance les excursions depuis Katmandou",
+   "region": "Sindhupalchok, route Araniko, ~100 km de Katmandou et ~12 km de la frontière tibétaine",
+   "booking": "Réservation sur le site ou au bureau de Mandala Street à Thamel (paiement au moins 3 jours avant) ; le bus part de Thamel vers 6:00, 3,5–4,5 heures de route. On peut passer la nuit au camp de tentes près du pont. Avant 18 ans, avec un parent",
+   "record": "Premier site de saut à l'élastique du Népal ; 160 m au-dessus de la rivière — l'un des plus hauts sauts depuis un pont au monde ; sur le même site, l'un des plus longs canyon swings",
+   "pros": [
+    "Saut très haut dans une vraie gorge de montagne",
+    "Bon marché pour cette hauteur",
+    "À combiner avec le canyon swing, le canyoning et le rafting",
+    "Nuit au camp près du pont"
+   ],
+   "cons": [
+    "Longue route de montagne depuis Katmandou",
+    "Limite de poids stricte pour le saut à l'élastique — 98 kg maximum",
+    "En été, la mousson : brouillard, averses et glissements de terrain sur la route Araniko"
+   ],
+   "airport": "KTM — Katmandou, ~3,5–4,5 h en bus",
+   "price_note": "Saut seul 92 USD (≈79 €) ; excursion d'une journée depuis Katmandou avec transfert et déjeuner 108 USD, saut + canyon swing 137 USD, second saut ou swing 55 USD",
+   "school_notes": [
+    "Opérateur officiel, prix en USD, site en anglais"
+   ]
+  },
+  "pokhara-highground-bungee": {
+   "h": "de868370e9",
+   "description": "Saut depuis une tour en porte-à-faux de 80 m dans la vallée de Hemja, près de Pokhara (les guides parlent de 70–75 m de chute), avec vue sur les sommets de l'Himalaya. C'est le moyen le plus simple de sauter au Népal sans longue route : 20 minutes de transfert depuis Lakeside. Saut en tandem possible ; le même opérateur propose aussi le ZipFlyer depuis Sarangkot et des vols en parapente.",
+   "rating_basis": "Tour en porte-à-faux peu haute, mais vue sur l'Annapurna et le Machapuchare, à 20 minutes de Pokhara ; bons avis comme « premier saut à l'élastique »",
+   "hazards": "Restrictions médicales : cœur, tension, dos, grossesse, opérations récentes. Sauts suspendus en cas d'orage et d'averse ; Pokhara est la ville la plus pluvieuse du Népal (juin–septembre).",
+   "crowd_note": "Créneaux sur réservation, généralement pas d'attente ; plus de touristes en octobre–novembre",
+   "region": "Vallée de Hemja, ~20 min de Lakeside (Pokhara)",
+   "booking": "Réservation en ligne instantanée sur le site ou au bureau de Lakeside Road (Barahi Chowk) ; pièce d'identité avec photo exigée. Ouvert tous les jours ; chaussures fermées obligatoires, jupes et tongs interdites",
+   "record": "Le seul site de saut à l'élastique depuis une tour au Népal",
+   "pros": [
+    "À 20 minutes de Pokhara",
+    "Bon marché",
+    "Vue sur l'Annapurna par temps clair",
+    "Saut à deux possible"
+   ],
+   "cons": [
+    "Hauteur modeste pour le Népal",
+    "Une tour, pas une gorge",
+    "Pendant la mousson, les nuages cachent les montagnes et les averses sont fréquentes"
+   ],
+   "airport": "PKR — Pokhara, ~30 min",
+   "price_note": "À partir de 5000 NPR (≈31 €) le saut solo selon le site de l'opérateur ; tandem 9500 NPR avec transfert depuis Lakeside. Dans les anciens guides, 8700–13000 NPR selon la nationalité — à vérifier",
+   "school_notes": [
+    null,
+    "Opérateur de la tour ; aussi ZipFlyer, parapente et quads"
+   ]
+  },
+  "auckland-harbour-bridge": {
+   "h": "3401fbf356",
+   "description": "Saut depuis une capsule sous le tablier du Harbour Bridge d'Auckland — 40 m jusqu'aux eaux du port de Waitemata. On peut demander à plonger la tête dans l'océan (selon la marée) ou sauter à deux. Facile à combiner avec l'ascension guidée du pont (Bridge Climb).",
+   "rating_basis": "Saut urbain avec vue sur le panorama d'Auckland et le port, touché de l'océan ; peu haut, mais pratique pour les voyageurs en transit",
+   "hazards": "Contre-indications habituelles : grossesse, épilepsie photosensible, cœur, tension, dos. Par temps venteux et pluvieux (surtout en hiver), les sauts peuvent être reportés.",
+   "crowd_note": "En général pas d'attente ; plus de groupes le week-end en été",
+   "region": "Auckland, pont sur le port de Waitemata ; départ à la marina de Westhaven, 5–10 min du centre",
+   "booking": "Réservation sur bungy.co.nz ; rendez-vous au 105 Curran Street, marina de Westhaven (parking gratuit). Ouvert tous les jours 9:00–16:30, sauf à Noël. Pour le touché de l'eau, demandez au jump master lors de l'enregistrement",
+   "record": "Le seul saut à l'élastique d'Auckland — un saut vers la mer depuis le principal pont de la ville",
+   "pros": [
+    "En ville, pratique avant un vol au départ d'Auckland",
+    "Touché de l'eau de l'océan",
+    "Sauts en tandem",
+    "Combo avec l'ascension guidée du pont"
+   ],
+   "cons": [
+    "Seulement 40 m",
+    "Touché de l'eau non garanti — dépend de la marée"
+   ],
+   "airport": "AKL — Auckland, ~30–40 min",
+   "price_note": "Un saut à partir de 260 NZD (enfant à partir de 220 NZD), photos, vidéo et t-shirt compris en réservant directement ; combo avec l'ascension du pont 325 NZD ; spectateurs 20 NZD",
+   "school_notes": [
+    null,
+    "Réservation officielle ; combo avec le Bridge Climb"
+   ]
+  },
+  "kawarau-bridge": {
+   "h": "ccc2aea942",
+   "description": "Pont suspendu historique de 1880 au-dessus de la Kawarau aux eaux émeraude — c'est ici qu'a ouvert en 1988 le premier site commercial de saut à l'élastique au monde. 43 m jusqu'à l'eau ; on peut demander à toucher la rivière (selon le niveau de l'eau, non garanti) ou sauter à deux. À côté : une balançoire au-dessus de la gorge, une courte tyrolienne et les domaines viticoles de la vallée de Gibbston.",
+   "rating_basis": "« Berceau du saut à l'élastique » et premier site commercial (Wikipédia, AJ Hackett), rivière Kawarau turquoise, étape incontournable à Queenstown",
+   "hazards": "Interdit aux femmes enceintes et en cas d'épilepsie photosensible ; en cas d'ostéoporose, de scoliose ou de commotion récente, certificat médical exigé. En hiver, il fait froid au bord de la rivière — prenez une veste. Avec le touché de l'eau, la tête et les épaules peuvent plonger dans la rivière froide.",
+   "crowd_note": "L'été et pendant les vacances, file d'attente sur le pont et beaucoup de spectateurs ; les créneaux du matin sont plus libres",
+   "region": "Otago, vallée de Gibbston, à 23 km de Queenstown par la SH6",
+   "booking": "Réservez directement sur bungy.co.nz ; en été (décembre–février), quelques jours à l'avance. Par vos propres moyens, comptez 1,5 h ; en bus depuis le centre de Queenstown, 2,5 h. Horaires : octobre–avril 8:30–17:00, mai–septembre 9:00–16:30, tous les jours sauf à Noël. Gratuit pour les spectateurs",
+   "record": "Le premier site commercial de saut à l'élastique au monde — ouvert par AJ Hackett en 1988",
+   "pros": [
+    "Lieu historique — « berceau du saut à l'élastique »",
+    "Touché de l'eau et sauts en tandem",
+    "Photos et vidéo comprises en réservant directement",
+    "À 20–25 minutes de Queenstown, accessible par ses propres moyens"
+   ],
+   "cons": [
+    "Cher pour 43 m",
+    "Bondé en été",
+    "Quand l'eau est haute, la limite de poids descend à 130 kg"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min",
+   "price_note": "Un saut à partir de 320 NZD (enfant à partir de 280 NZD) ; en réservant directement, photos, vidéo, t-shirt et bus depuis Queenstown compris. Balançoire 240 NZD, tyrolienne 50 NZD",
+   "school_notes": [
+    null,
+    "Réservation officielle ; combo possible avec le Nevis"
+   ]
+  },
+  "ledge-bungy": {
+   "h": "1dedc5a0a2",
+   "description": "Plateforme au-dessus de la pente, près du sommet de la télécabine Skyline, à 400 m au-dessus de Queenstown et du lac Wakatipu. Ici, on saute avec élan, attaché par un harnais à la taille — on peut plonger, faire un salto ou simplement faire un pas dans le vide. Le plus spectaculaire : le saut du soir dans l'obscurité, au-dessus des lumières de la ville.",
+   "rating_basis": "La plus belle vue sur Queenstown et le lac Wakatipu, sauts du soir au-dessus des lumières de la ville ; hauteur modeste",
+   "hazards": "Contre-indications habituelles : grossesse, problèmes cardiaques, de dos, de tension. En hiver, le soir, il fait froid et venteux là-haut ; les sentiers de Bob's Peak sont déconseillés en hiver.",
+   "crowd_note": "En général pas de longue attente ; à la télécabine Skyline, il y a parfois la queue en été",
+   "region": "Queenstown, Bob's Peak, près de la station supérieure de la télécabine Skyline, 400 m au-dessus de la ville",
+   "booking": "Site temporairement fermé faute de personnel ; AJ Hackett promet de le rouvrir pour l'été 2026/27 (sur newzealand.com : « à partir de novembre 2026 »), réservation pour l'instant via une liste d'attente. D'habitude ouvert tous les jours 13:00–20:00 ; on monte par la télécabine Skyline depuis Brecon St",
+   "record": "Saut à l'élastique avec élan et harnais à la taille au-dessus des lumières de Queenstown ; le saut le plus proche du centre",
+   "pros": [
+    "Cinq minutes à pied du centre, plus la télécabine",
+    "Saut avec élan et en style libre",
+    "Sauts du soir au-dessus des lumières de Queenstown",
+    "Ouvert l'après-midi jusqu'à 20:00"
+   ],
+   "cons": [
+    "Temporairement fermé — vérifiez avant d'y aller",
+    "Télécabine payante en sus",
+    "Seulement 47 m"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min jusqu'à la station inférieure de la télécabine",
+   "price_note": "Un saut 240 NZD, billet de télécabine Skyline non compris, à acheter séparément ; balançoire 210 NZD",
+   "school_notes": [
+    null,
+    "Page officielle ; liste d'attente en attendant la réouverture"
+   ]
+  },
+  "nevis-bungy": {
+   "h": "f3c67be7e4",
+   "description": "Une cabine-capsule suspendue à des câbles au-dessus du canyon de la Nevis, à laquelle on accède par une petite nacelle sur câble. 134 m et 8,5 secondes de chute — le plus haut saut de Nouvelle-Zélande. Sur le même site : le Nevis Swing (la plus grande balançoire du monde) et une catapulte ; on y va à travers des terres privées, en bus tout-terrain.",
+   "rating_basis": "Le plus haut saut du pays et l'une des plus hautes plateformes de saut à l'élastique au monde (Wikipédia), canyon sauvage, statut culte chez les visiteurs de Queenstown",
+   "hazards": "Interdit aux femmes enceintes et en cas d'épilepsie photosensible ; ostéoporose, scoliose ou commotion récente : certificat médical. On retire ses lunettes (des lunettes de protection à la vue sont prêtées gratuitement). Chaussures fermées obligatoires, en hiver des couches chaudes. Annulation possible en cas de vent fort.",
+   "crowd_note": "Le flux est régulé par les bus, donc peu d'attente, mais en été les places partent à l'avance",
+   "region": "Otago, vallée de la Nevis, ~45 min en bus de Queenstown",
+   "booking": "Uniquement sur réservation (modification et annulation possibles jusqu'à 48 h avant). Impossible d'y aller par ses propres moyens : bus 4×4 depuis le Queenstown Bungy Centre (angle de Shotover et Camp St), l'excursion complète dure environ 4 heures. Les départs dépendent de la saison — en août 2026, le bus circulait du jeudi au lundi à 8:40, 10:00 et 12:00",
+   "record": "Le plus haut saut à l'élastique de Nouvelle-Zélande — 134 m et 8,5 secondes de chute ; sur place aussi, la plus grande balançoire du monde et la première catapulte",
+   "pros": [
+    "Le plus haut saut du pays",
+    "Canyon de montagne sauvage, sans foule de spectateurs",
+    "Transfert, photos et vidéo compris",
+    "Possibilité de faire la « trilogie » : saut, balançoire et catapulte"
+   ],
+   "cons": [
+    "Cher",
+    "Âge minimum 13 ans, poids à partir de 45 kg",
+    "Comptez environ 4 heures pour l'excursion",
+    "En hiver, moins de départs, et il fait froid"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min jusqu'au centre, puis ~45 min en bus",
+   "price_note": "Un saut 395 NZD (même prix pour adultes et enfants) ; bus 4×4 depuis Queenstown, photos, vidéo et t-shirt compris. Balançoire 325 NZD, catapulte 295 NZD, combo des trois 805 NZD",
+   "school_notes": [
+    null,
+    "Réservation officielle ; combos avec la balançoire, la catapulte et le Kawarau",
+    "Réservation via une interface en russe ; sur place, accueil en anglais"
+   ]
+  },
+  "taupo-bungy": {
+   "h": "b29ce54648",
+   "description": "Une plateforme en porte-à-faux avance depuis une falaise au-dessus du Waikato, à quelques minutes du lac Taupo : 47 m jusqu'à une eau turquoise. On peut demander à toucher la rivière ou sauter à deux ; à côté, une balançoire au-dessus de la même gorge. Une bonne option pour ceux qui voyagent sur l'île du Nord et n'iront pas jusqu'à Queenstown.",
+   "rating_basis": "Belle rivière turquoise, touché de l'eau, facile à combiner avec les autres activités de Taupo (saut en parachute, jet-boat)",
+   "hazards": "Contre-indications habituelles : grossesse, épilepsie photosensible, cœur, tension, dos. En hiver, il fait frais ; par vent fort, les sauts peuvent être reportés.",
+   "crowd_note": "Animé en été et pendant les vacances scolaires, mais généralement sans longue attente",
+   "region": "Taupo, île du Nord, falaise au-dessus du Waikato (202 Spa Road), 5–10 min du centre",
+   "booking": "Réservation sur bungy.co.nz ; annulation gratuite jusqu'à 48 h avant. À l'automne 2026, le site a fermé pour travaux — réouverture du saut à l'élastique le 12 novembre, de la balançoire le 5 novembre. Horaires : en semaine 9:30–16:00, le week-end jusqu'à 17:00 (en été jusqu'à 17:00), fermé à Noël",
+   "record": "Le seul saut à l'élastique de Nouvelle-Zélande depuis le bord d'une falaise — une plateforme en porte-à-faux au-dessus du Waikato turquoise",
+   "pros": [
+    "Touché de l'eau et sauts en tandem",
+    "En ville, à côté du saut en parachute et du jet-boat",
+    "Belle gorge turquoise"
+   ],
+   "cons": [
+    "Hauteur d'un site urbain",
+    "Touché de l'eau non garanti",
+    "Après les travaux de l'automne 2026, vérifiez les horaires"
+   ],
+   "airport": "TUO — Taupo, ~15 min ; AKL — Auckland, ~3,5 h de route",
+   "price_note": "Un saut à partir de 275 NZD (enfant à partir de 235 NZD), photos, vidéo et t-shirt compris en réservant directement ; balançoire 240 NZD ; combos avec jet-boat, rafting ou saut en parachute 361–785 NZD",
+   "school_notes": [
+    null,
+    "Réservation officielle, combos avec la balançoire et le saut en parachute",
+    "Prix, horaires, tarif famille 785 NZD (2 adultes + 2 enfants de 10–14 ans)"
+   ]
+  },
+  "action-valley-cusco": {
+   "h": "42a3382006",
+   "description": "Parc d'aventure dans une vallée près de Poroy, à 20 minutes de Cuzco : saut depuis une plateforme avec 122 m de chute libre — l'un des plus hauts d'Amérique du Sud. Sur place aussi : la catapulte Slingshot, qui vous propulse jusqu'à 130 m de haut en 4 secondes, des balançoires et un « vélo céleste ». Facile à combiner avec une excursion au Machu Picchu.",
+   "rating_basis": "L'un des plus hauts sauts du continent, à 3600 m d'altitude, près de Cuzco et du Machu Picchu ; 4,6 sur 5 dans les avis Google (117 avis)",
+   "hazards": "Acclimatez-vous d'abord 1–2 jours à Cuzco : l'altitude de 3600 m accroît la charge sur le cœur. Interdit aux femmes enceintes et aux personnes épileptiques ; en cas d'ostéoporose, de scoliose ou de commotion récente, certificat médical exigé ; contre-indiqué aussi en cas de maladies cardiaques et d'hypertension. À la saison des pluies, orages possibles et sauts annulés.",
+   "crowd_note": "Peu d'attente ; en saison sèche (juin–août), davantage de groupes venus de Cuzco",
+   "region": "Cuzco, district de Poroy, à 11 km (~20 min) du centre de Cuzco",
+   "booking": "Réservation au bureau d'Action Valley, calle Santa Teresa 325 à Cuzco, ou via les agences ; départ le matin (~9:00), comptez environ 3 heures en tout",
+   "record": "Le plus haut saut à l'élastique d'Amérique latine selon l'opérateur : 122 m de chute libre ; parc ouvert depuis 2001, plus de 500 000 sauts",
+   "pros": [
+    "Hauteur de chute libre énorme",
+    "À 20 minutes de Cuzco",
+    "Catapulte Slingshot — une attraction rare",
+    "Bon marché pour cette hauteur"
+   ],
+   "cons": [
+    "Altitude de 3600 m — acclimatation nécessaire",
+    "Pluies de novembre à mars",
+    "Site officiel sans tarifs en ligne"
+   ],
+   "airport": "CUZ — Cuzco, ~25 min",
+   "price_note": "Saut seul ~74 USD, saut + catapulte 105–120 USD (Civitatis, Nomades) ou 600 PEN chez Condor Xtreme ; transfert depuis Cuzco 40 PEN, photos et vidéo 20 USD",
+   "school_notes": [
+    "Site officiel du parc : saut à l'élastique, catapulte Slingshot, « vélo céleste »",
+    "Agence à Cuzco : saut + catapulte avec transfert, 600 PEN",
+    "Réservation en ligne saut + catapulte à partir de 105 USD, transfert compris"
+   ]
+  },
+  "skypark-sochi-bungy-207": {
+   "h": "22620a04d2",
+   "description": "Saut depuis une capsule au centre du pont suspendu Skybridge, à 207 m au-dessus de la gorge d'Akhchtyr — environ 7 secondes de chute libre. Dans le même parc : le Bungy 69 depuis le début du pont (dès 10 ans, tandem possible), le Bungy 207 PRO depuis le toit de la capsule, la balançoire SochiSwing au-dessus du vide, une tyrolienne et le trolley MegaTroll, jusqu'à 120 km/h.",
+   "rating_basis": "L'un des plus hauts sauts à l'élastique du monde et le plus haut de Russie ; vue sur la gorge d'Akhchtyr, la vallée de la Mzymta et la mer ; le site de saut le plus connu de Russie (Lenta.ru)",
+   "hazards": "Contre-indications : tension, cœur, colonne vertébrale, blessures et opérations récentes, grossesse (liste complète sur le site du parc). En cas de vent fort et d'orage, les sauts sont suspendus ; par mauvais temps, la limite de poids peut être abaissée. En hiver, les passerelles sont glissantes — prévoyez des chaussures à bonne semelle.",
+   "crowd_note": "Pic de fréquentation en juillet–septembre ; le pont est étroit, mieux vaut arriver à l'ouverture. L'heure du saut est fixée par le moniteur ; réservation en ligne obligatoire en saison",
+   "region": "Kraï de Krasnodar, Sotchi, village de Kazatchi Brod, gorge d'Akhchtyr (route de Krasnaïa Poliana)",
+   "booking": "Billets en ligne, par téléphone ou par e-mail (en ligne jusqu'à la veille) ; arrivez au moins 30 minutes avant. Attractions ouvertes du mercredi au dimanche, 10:30–17:00, avec une pause déjeuner ; sauts suspendus par vent fort et orage",
+   "record": "Le plus haut saut à l'élastique de Russie (207 m, selon l'opérateur) ; avec ses 439 m, le pont Skybridge est l'une des plus longues passerelles suspendues piétonnes du monde",
+   "pros": [
+    "Le plus haut saut à l'élastique de Russie, ~7 s de chute libre",
+    "Tout en russe, réservation en ligne",
+    "Ouvert toute l'année, à 30–40 minutes de l'aéroport de Sotchi",
+    "Beaucoup d'autres attractions dans le même parc"
+   ],
+   "cons": [
+    "Cher : 24 000 ₽, plus le billet d'entrée et la vidéo",
+    "Uniquement à partir de 18 ans",
+    "Fermé le lundi et le mardi, pause en milieu de journée",
+    "En hiver, attractions fermées en cas de chute de neige et de vent"
+   ],
+   "airport": "AER — Sotchi (Adler), ~30 min de route",
+   "price_note": "Bungy 207 — 24 000 ₽ (~250 € au taux de ~95 ₽/€) + billet d'entrée obligatoire au parc ; pack média 3000 ₽ en prépaiement ou 3500 ₽ après le saut. Bungy 207 PRO depuis le toit de la capsule (210 m, uniquement après un saut classique) — 15 000 ₽ ; Bungy 69 depuis le début du pont — 12 000 ₽ (14–17 ans 8000 ₽, 10–13 ans 5000 ₽) ; SochiSwing — 9000 ₽",
+   "school_notes": [
+    null,
+    "Page officielle du saut, prix et règles en russe",
+    "Saut de 69 m depuis le début du pont, dès 10 ans, tandem possible"
+   ]
+  },
+  "sulak-canyon-nokhyo-tarzanka": {
+   "h": "3600d220f5",
+   "description": "Saut au-dessus du canyon du Soulak — l'un des plus profonds d'Europe — dans l'ancien complexe de tunnels de Nokhyo, où les grottes sont reliées par un pont suspendu de 70 m. À côté : une balançoire géante au-dessus du vide et une tyrolienne de 500 m avec 250 m de dénivelé. Le format (élastique ou corde avec balancier) et la hauteur sont à vérifier sur place.",
+   "rating_basis": "Le canyon du Soulak est l'un des principaux sites du Daghestan, et le complexe de Nokhyo est très prisé des touristes ; la hauteur du saut et l'opérateur ne sont pas décrits publiquement",
+   "hazards": "Aucune donnée publique sur la certification du matériel ; en 2021, au Daghestan, deux touristes sont tombées d'une balançoire défectueuse au-dessus du canyon (elles ont survécu par miracle) — vérifiez le matériel et renseignez-vous sur l'assurance. Contre-indications comme pour le saut à l'élastique : tension, cœur, colonne vertébrale, grossesse. Activité suspendue par temps de pluie et de vent fort.",
+   "crowd_note": "Le week-end et en journée, plusieurs heures d'attente pour le saut pendulaire et la balançoire ; en payant le double, on passe sans attendre",
+   "region": "Daghestan, canyon du Soulak près du village de Doubki, ~70 km de Makhatchkala (coordonnées approximatives)",
+   "booking": "Achat sur place ; venez à l'ouverture ou en semaine — le week-end et en milieu de journée, plusieurs heures d'attente. Généralement inclus dans les excursions « Canyon du Soulak et grottes de Nokhyo » au départ de Makhatchkala, Kaspiisk, Izberbach et Derbent (bateau dans le canyon en sus)",
+   "pros": [
+    "Vue spectaculaire sur le Soulak turquoise au fond d'un canyon profond",
+    "Facile à combiner avec le bateau, la tyrolienne et les belvédères de Doubki",
+    "Tout en russe, à 1,5 heure de Makhatchkala"
+   ],
+   "cons": [
+    "Des heures d'attente en saison",
+    "Pas de site officiel, ni de règles d'âge et de poids, ni de données sur la hauteur",
+    "En été, il fait chaud dans le canyon ; mieux vaut avril–mai et septembre–octobre"
+   ],
+   "airport": "MCX — Makhatchkala (Ouïtach), ~1,5 h de route",
+   "price_note": "Saut pendulaire à partir de 7000 ₽ (~74 € au taux de ~95 ₽/€), ~14 000 ₽ sans attente ; balançoire géante au-dessus du vide à partir de 5000 ₽ (10 000 ₽ sans attente) ; entrée du complexe des grottes de Nokhyo 500 ₽ ; assurance et casque obligatoires"
+  },
+  "tobot-waterfall-tarzanka": {
+   "h": "fb1b26ed81",
+   "description": "Saut pendulaire (sur une corde ordinaire avec absorbeurs d'énergie d'alpinisme, et non sur un élastique) depuis le bord du canyon de Tsolotli, près de la cascade de Tobot. D'abord environ 70 m de chute libre, puis un balancier au-dessus du vide. À côté, une balançoire au bord de la falaise.",
+   "rating_basis": "Saut très haut à côté d'une cascade de 70 m, au bord d'un immense canyon ; étape prisée des circuits dans le Daghestan montagneux ; opérateur et règles non décrits publiquement",
+   "hazards": "Aucune information publique sur la certification du matériel — choisissez un organisateur qui a des avis et renseignez-vous sur l'assurance. Contre-indications comme pour le saut à l'élastique : tension, cœur, colonne vertébrale, grossesse. Ne sautez pas sous la pluie ni par vent fort ; la route de montagne est dangereuse après les averses.",
+   "crowd_note": "L'essentiel du flux : les groupes d'excursion en été, en journée ; tôt le matin et en semaine, c'est plus calme",
+   "region": "Daghestan, district de Khounzakh, bord du canyon de Tsolotli près du village d'Arani, ~3 km de Khounzakh, ~140 km de Makhatchkala (coordonnées approximatives)",
+   "booking": "Sauts sur place, généralement dans le cadre d'une excursion vers Khounzakh et Matlas au départ de Makhatchkala, Kaspiisk ou Izberbach ; route de montagne, restrictions possibles par temps de pluie à cause des glissements de terrain",
+   "record": "Le plus haut saut pendulaire du Daghestan : saut depuis une falaise de 100 m, chute d'environ 70–75 m (selon « T—J »)",
+   "pros": [
+    "L'un des sauts les plus spectaculaires du Caucase : cascade et canyon",
+    "Facile à combiner avec une excursion à Khounzakh et sur le plateau de Matlas",
+    "Tout en russe"
+   ],
+   "cons": [
+    "Pas de site officiel ni de règles publiées sur l'âge et le poids",
+    "Loin de Makhatchkala : ~3 heures de route de montagne",
+    "Saison d'activité non confirmée — à vérifier avant le voyage"
+   ],
+   "airport": "MCX — Makhatchkala (Ouïtach), ~3 h de route",
+   "price_note": "À partir de 10 000 ₽ (~105 € au taux de ~95 ₽/€), selon nashaplaneta.net ; prix et opérateur à vérifier sur place. Un site similaire de saut pendulaire existe sur le plateau voisin de Matlas (à partir de 5000 ₽)"
+  },
+  "solkan-bridge": {
+   "h": "86fd5295f8",
+   "description": "Saut depuis un pont routier de 55 m au-dessus de la Soča émeraude — juste à côté du pont de pierre de Solkan. Pas très haut, mais bon marché et très photogénique. Facile à combiner avec du kayak sur la Soča et une virée dans la ville italienne voisine de Gorizia.",
+   "rating_basis": "Saut peu haut, mais lieu très pittoresque : la Soča émeraude et le célèbre pont de pierre",
+   "hazards": "Bonne santé requise : contre-indications classiques (cœur, tension, dos, grossesse). Sauts annulés en cas d'orage et de vent fort.",
+   "crowd_note": "Quasiment pas d'attente, mais uniquement le week-end",
+   "region": "Goriška, vallée de la Soča, en périphérie de Nova Gorica",
+   "booking": "De mi-mai à mi-octobre, uniquement les samedis et dimanches (selon Yumping, 10:00–15:30). Réservation préalable nécessaire ; prochaine date sur le site de l'opérateur : mai 2027. Les mineurs ont besoin de la signature d'un parent.",
+   "record": "Seul opérateur de saut à l'élastique de Slovénie, en activité depuis 1993 ; à côté, le pont de Solkan, avec la plus grande arche ferroviaire en pierre du monde (85 m)",
+   "pros": [
+    "Bon marché — environ 70 €",
+    "La Soča émeraude et la vue sur le pont de pierre",
+    "Kayak et parc d'aventure à proximité"
+   ],
+   "cons": [
+    "Seulement 55 m",
+    "Uniquement le week-end, de mai à octobre",
+    "Peu d'informations et pas de prix en ligne sur le site"
+   ],
+   "airport": "TRS — Trieste, ~45 min ; LJU — Ljubljana, ~1 h 15 min",
+   "price_note": "70 € le saut selon le portail touristique de la vallée de la Vipava ; bon cadeau sur Yumping à partir de 150 €",
+   "school_notes": [
+    null,
+    "Opérateur ; site en slovène, anglais et italien"
+   ]
+  },
+  "chiang-mai-x-centre": {
+   "h": "e6b1d52320",
+   "description": "Saut depuis une tour de 50 m au-dessus d'un étang, dans la verte vallée de Mae Rim, près de Chiang Mai. Vous pouvez choisir de toucher l'eau ou non. Le site fonctionne depuis 1992 et passe pour le plus « jungle » de Thaïlande ; facile à combiner avec les cascades et les parcs à éléphants de la route de Samoeng.",
+   "rating_basis": "Site soigné avec de bons avis, mais seulement 50 m au-dessus d'un étang ; apprécié pour sa sécurité et la verdure alentour",
+   "hazards": "Interdit en cas de grossesse, d'hypertension, de maladies cardiaques, de troubles neurologiques, d'épilepsie, d'asthme, d'antécédents de luxation de l'épaule et après avoir bu de l'alcool. En mars–avril, fort smog (saison des brûlis agricoles) ; à la saison des pluies, sauts interrompus en cas d'orage.",
+   "crowd_note": "Quasiment pas d'attente ; plus animé en décembre–janvier et au Nouvel An chinois",
+   "region": "Chiang Mai, district de Mae Rim, route Mae Rim – Samoeng, ~30 min du centre",
+   "booking": "En ligne via des agrégateurs (Pelago, Ticket2Attraction) ou dans les agences de Chiang Mai ; tous les jours 9:00–18:00, le saut avec briefing prend 20–30 minutes. Transfert depuis la ville en sus",
+   "record": "Le seul saut à l'élastique de Chiang Mai ; en activité depuis 1992 selon les normes néo-zélandaises",
+   "pros": [
+    "Belle vallée verdoyante",
+    "Possibilité de toucher l'eau",
+    "Bon marché, souvent des réductions en ligne",
+    "Cascades et parcs de Mae Rim à proximité"
+   ],
+   "cons": [
+    "Seulement 50 m",
+    "Transfert payant",
+    "Février–avril : brume des feux de forêt ; mai–octobre : pluies"
+   ],
+   "airport": "CNX — Chiang Mai, ~35 min",
+   "price_note": "2500 THB (≈66 €) au tarif officiel, à partir de 1990 THB avec réduction chez les agents en ligne : saut, assurance, certificat ; transfert non compris",
+   "school_notes": [
+    null,
+    "Réservation en ligne ; moniteurs anglophones",
+    "Billets à prix réduit, contact via WhatsApp/Line"
+   ]
+  },
+  "pattaya-xbungy": {
+   "h": "257f778ca0",
+   "description": "Saut depuis une plateforme de 60 m au-dessus d'un lac, en périphérie de Pattaya — le plus haut saut à l'élastique de Thaïlande. Saut à deux possible ; à côté, la « fronde humaine », le paintball et le karting du parc Sanook. Une bonne option pour « sauter entre deux plages » : 15–20 minutes de taxi depuis le centre.",
+   "rating_basis": "Le plus haut de Thaïlande, 4,5/5 sur ~400 avis Google ; mais c'est un saut au-dessus d'un lac artificiel dans un parc de loisirs urbain",
+   "hazards": "Interdit en cas de grossesse, d'hypertension, de maladies cardiaques, d'épilepsie, d'asthme, de blessures au cou, au dos et aux yeux, en état d'ébriété ; ne mangez pas copieusement avant le saut. Sauts interrompus en cas d'orage.",
+   "crowd_note": "Quasiment jamais d'attente ; plus de monde le week-end et en décembre–février",
+   "region": "Pattaya, Thepprasit Road, soi 9, Sanook Park",
+   "booking": "On peut venir sans réservation ou acheter en ligne ; tous les jours à partir de 10:00, dernier saut à 17:30. Passeport nécessaire pour l'assurance. Avant 16 ans, avec un adulte",
+   "record": "Le plus haut saut à l'élastique de Thaïlande (60 m) ; site en activité depuis 1989 selon l'opérateur",
+   "pros": [
+    "Le plus haut saut à l'élastique de Thaïlande",
+    "Vidéo et certificat compris dans le prix",
+    "Saut à deux possible",
+    "Proche du centre de Pattaya"
+   ],
+   "cons": [
+    "Vue urbaine sur le lac et les chantiers",
+    "De mai à octobre, averses et orages",
+    "Transfert depuis l'hôtel non compris"
+   ],
+   "airport": "UTP — U-Tapao, ~40 min ; BKK — Bangkok-Suvarnabhumi, ~1,5 h",
+   "price_note": "2500 THB (≈66 €) : saut, vidéo, certificat et assurance ; fronde humaine (2 lancers) 1400 THB. Transfert depuis l'hôtel non compris",
+   "school_notes": [
+    null,
+    "Site officiel, achat en ligne",
+    "Page de l'agrégateur en russe ; lors de la vérification, billets temporairement indisponibles"
+   ]
+  },
+  "phuket-jungle-bungy": {
+   "h": "bb008a0863",
+   "description": "Saut depuis une plateforme de 50 m au-dessus du lagon vert d'une ancienne mine d'étain, dans la jungle de Kathu, à 10 minutes de Patong. L'opérateur travaille depuis 1992 selon les normes néo-zélandaises ; après le saut, on vous descend dans un bateau. En plus du saut classique : tandem, saut en arrière, « catapulte » et saut avec touché de l'eau.",
+   "rating_basis": "Le plus ancien opérateur, fiable et bien noté, mais hauteur modeste (50 m) et saut au-dessus du lagon artificiel d'une ancienne mine d'étain",
+   "hazards": "Interdit en cas de problèmes cardiaques, de tension, de dos et de cou, de grossesse, d'épilepsie. À la saison des pluies (mai–octobre), sauts interrompus à cause des orages.",
+   "crowd_note": "Généralement pas d'attente ; plus de groupes d'agences en décembre–février",
+   "region": "Phuket, district de Kathu, route Wichitsongkram — ~10 min de Patong",
+   "booking": "On peut venir sans réservation ou réserver via une agence avec transfert (non compris dans le prix). Tous les jours 9:00–18:00, derniers sauts vers 17:30. Avant 18 ans, avec l'accord des parents",
+   "record": "Le plus ancien saut à l'élastique de Thaïlande : depuis 1992, équipe néo-zélandaise, plus de 25 ans sans accident mortel",
+   "pros": [
+    "Près de Patong",
+    "L'opérateur le plus ancien et le plus expérimenté",
+    "Touché de l'eau, saut à deux ou en arrière possibles",
+    "Ouvert toute l'année"
+   ],
+   "cons": [
+    "Peu haut à l'échelle mondiale",
+    "Transfert et vidéo en supplément",
+    "De mai à octobre, mousson du sud-ouest et averses"
+   ],
+   "airport": "HKT — Phuket, ~40 min",
+   "price_note": "À partir de 2200 THB (≈58 €) le saut avec certificat et assurance ; formules avec t-shirt, photos et vidéo jusqu'à ~3000 THB ; selon les guides de 2026, saut solo ~2800–3200 THB. Second saut le même jour moins cher",
+   "school_notes": [
+    null,
+    "Réservation en ligne ; pas de site officiel trouvé, tél. +66 76 321 351"
+   ]
+  },
+  "jinja-nile-bungee": {
+   "h": "1a2a9b9637",
+   "description": "Tour de 44 m sur la rive du Nil Blanc, près des chutes de Kalagala, non loin de Jinja — la ville où le Nil sort du lac Victoria. On peut choisir un saut avec touché de l'eau ou sauter à deux. On combine généralement le saut avec l'un des meilleurs raftings de classe 5 au monde.",
+   "rating_basis": "Site unique au-dessus du Nil Blanc, touché de l'eau, populaire chez les voyageurs en overland et les rafteurs ; hauteur modeste",
+   "hazards": "Interdit en cas de grossesse, de maladies cardiaques, d'hypertension, d'asthme et de problèmes de dos ; sobriété obligatoire. Pas de sauts en cas d'orage et de vent fort. Les sangles aux chevilles peuvent irriter la peau. Zone impaludée — prophylaxie nécessaire.",
+   "crowd_note": "Quasiment jamais d'attente ; ce sont surtout les participants au rafting et les hôtes du camp qui sautent",
+   "region": "Chutes de Kalagala, Kangulumira, ~30 km au nord de Jinja (rive du Nil Blanc)",
+   "booking": "Réservez à l'avance via Adrift ; arrivez 30 minutes avant le saut. Ouvert 7 jours sur 7 toute l'année, sauf en cas de tempête et d'orage. On le combine généralement avec un rafting de classe 5 sur le Nil et une nuit au camp de Kalagala Falls",
+   "record": "La seule tour de saut à l'élastique construite à cet effet en Afrique de l'Est — un saut vers les sources du Nil",
+   "pros": [
+    "Touché de l'eau du Nil",
+    "Sauts en tandem",
+    "Bon marché à l'échelle mondiale",
+    "Se combine parfaitement avec le rafting et une nuit au bord du fleuve"
+   ],
+   "cons": [
+    "Hauteur modeste",
+    "Loin de la capitale : plus de 3 heures depuis l'aéroport d'Entebbe",
+    "Les informations sur l'emplacement du saut divergent (la tour se trouvait auparavant à Jinja) — à vérifier lors de la réservation"
+   ],
+   "airport": "EBB — Entebbe, ~3–3,5 h via Kampala",
+   "price_note": "Un saut 115 USD pour les étrangers (moins cher pour les résidents d'Afrique de l'Est) ; combo « rafting + saut à l'élastique » disponible",
+   "school_notes": [
+    null,
+    "Réservation en ligne ; tandems et touché de l'eau sont la spécialité maison",
+    "Voyagiste avec transfert depuis Jinja/Kampala"
+   ]
+  },
+  "bridge-to-nowhere-bungee": {
+   "h": "57bcb942e4",
+   "description": "Pont en arc en béton de 1936 au-dessus de la gorge de l'East Fork de la San Gabriel : la route qui y menait a été emportée par la crue de 1938, et l'on y accède désormais par environ 8 km de canyon avec des passages à gué. On saute de 37 m vers la rivière. C'est plutôt une randonnée d'une journée avec saut : on peut sauter plusieurs fois, il existe des styles techniques (salto arrière, « bûcheron ») et des sorties avec nuit sur place et sauts nocturnes.",
+   "rating_basis": "Lieu culte : un pont en arc abandonné dans une gorge, accessible uniquement à pied ; saut peu haut, mais toute l'excursion est une aventure",
+   "hazards": "Gués à hauteur de genou et plus : après les pluies et au printemps, le courant peut être rapide et dangereux (des personnes se sont noyées sur le sentier). En été, chaleur jusqu'à +35 °C, prévoyez 2–3 l d'eau. Le sentier a été fermé après le Bridge Fire de 2024 et rouvert à l'été 2025 ; vérifiez son statut auprès de l'Angeles National Forest avant d'y aller. Contre-indications habituelles du saut à l'élastique.",
+   "crowd_note": "Les groupes sont grands, on peut passer plusieurs heures à attendre sur le pont — prenez un déjeuner et de l'eau",
+   "region": "Californie, forêt nationale d'Angeles, ~1,5 h de Los Angeles + 8 km à pied",
+   "booking": "Uniquement sur réservation préalable sur le site ; sorties les samedis et dimanches toute l'année, en semaine pour les groupes à partir de 1000 USD ; ~8 km (environ 2 h) à pied jusqu'au pont, avec plus de 6 passages à gué",
+   "record": "Un pont abandonné de 1936 en pleine nature : la route qui y menait a été emportée par la crue de 1938",
+   "pros": [
+    "Ambiance unique : un pont en pleine nature",
+    "Sauts supplémentaires bon marché",
+    "Belle randonnée dans le canyon",
+    "Proche de Los Angeles"
+   ],
+   "cons": [
+    "Uniquement le week-end",
+    "8 km à pied par trajet, avec des gués",
+    "En été, forte chaleur et risque d'incendies de forêt",
+    "Saut peu haut"
+   ],
+   "airport": "LAX — Los Angeles, ~1,5 h jusqu'au parking d'East Fork ; ONT — Ontario, ~1 h",
+   "price_note": "Un saut 150 USD ; chaque saut suivant +50 USD, forfait 4 sauts 240 USD ; spectateurs 20 USD ; parking : Forest Adventure Pass ~5 USD",
+   "school_notes": [
+    "Seul opérateur ; réservation sur reservations.bungeeamerica.com"
+   ]
+  },
+  "bloukrans-bridge": {
+   "h": "b13965dff3",
+   "description": "Saut depuis le milieu du pont en arc au-dessus de la gorge de la Bloukrans, sur la N2 — 216 m jusqu'au fond de la vallée, avec un élastique à système pendulaire. On rejoint le point de saut par une tyrolienne et une passerelle grillagée sous la chaussée ; après le saut, un treuil vous remonte. Autour : forêts et canyons du parc national de Tsitsikamma ; le pont est la principale attraction à sensations de la Route des Jardins.",
+   "rating_basis": "Record de hauteur pour les sauts depuis un pont (Wikipédia, TheTravel), étape incontournable de la Route des Jardins, de nombreux avis enthousiastes",
+   "hazards": "Contre-indications : problèmes cardiaques, de tension et de dos, grossesse, opérations récentes. Sauts suspendus en cas de vent de tempête et d'orage. La passerelle grillagée sous la chaussée effraie ceux qui ont le vertige — prenez un pull chaud, il fait frais et venteux sur le pont.",
+   "crowd_note": "En décembre–janvier (vacances sud-africaines) et le week-end, file d'attente sur le pont et à la boutique vidéo ; en semaine, en hiver, c'est calme",
+   "region": "Route des Jardins (Garden Route), province du Cap-Oriental, ~40 km à l'est de Plettenberg Bay",
+   "booking": "Réservez à l'avance en ligne ou par WhatsApp ; arrivez une heure avant votre créneau (pour le premier saut à 09:00, à 08:30). Ouvert tous les jours toute l'année ; formule « tout en un jour » : saut + tyrolienne + SkyWalk + Hangout",
+   "record": "Le plus haut saut à l'élastique commercial depuis un pont au monde — 216 m, en activité depuis 1997",
+   "pros": [
+    "Le plus haut saut depuis un pont au monde",
+    "Ouvert tous les jours, toute l'année",
+    "Facile à combiner avec un voyage sur la Route des Jardins",
+    "Possibilité de faire le SkyWalk sur le pont sans sauter"
+   ],
+   "cons": [
+    "Âge minimum 14 ans",
+    "Photos et vidéo payantes en sus",
+    "Les spectateurs n'ont pas accès au pont sans billet SkyWalk"
+   ],
+   "airport": "GRJ — George, ~1 h 45 min (≈130 km) ; PLZ — Gqeberha (Port Elizabeth), ~2 h",
+   "price_note": "Un saut ~1 899 ZAR (prix normal selon le bon FOMO ; le prix n'est pas indiqué sur le site de l'opérateur). Tyrolienne jusqu'à l'arche et remontée au treuil comprises ; photos et vidéo en sus",
+   "school_notes": [
+    null,
+    "Site officiel ; réservation en ligne via bloukransbungy.activitar.com, tél. +27 42 281 1458",
+    "Formule Full Adventure ; SkyWalk seul 400 ZAR"
+   ]
+  },
+  "victoria-falls-bridge": {
+   "h": "1f2b67655b",
+   "description": "Saut tête la première depuis le milieu du pont historique qui enjambe la gorge de Batoka — exactement sur la frontière entre le Zimbabwe et la Zambie, à 111 m au-dessus du Zambèze bouillonnant et à quelques centaines de mètres des chutes Victoria. Environ quatre secondes de chute libre, puis on vous remonte sur le pont. Sur place aussi : une balançoire au-dessus de la gorge et une tyrolienne côté zambien.",
+   "rating_basis": "Site légendaire près des chutes Victoria (UNESCO), toujours présent dans les listes des sauts à l'élastique les plus pittoresques, énormément d'avis",
+   "hazards": "Contre-indications : maladies cardiaques, problèmes de dos, hypertension, grossesse. Sauts suspendus en cas de pluie et de vent fort — à la saison des pluies (décembre–mars), interruptions possibles à cause des orages. En octobre–novembre, chaleur jusqu'à +33 °C. Un cas est connu en 2011 : avec l'ancien opérateur, l'élastique a cédé.",
+   "crowd_note": "Pic touristique en juillet–octobre ; le matin, peu d'attente, vers midi arrivent les groupes des lodges",
+   "region": "Frontière Zimbabwe–Zambie, gorge de Batoka, ~3 km de la ville de Victoria Falls",
+   "booking": "Enregistrement au bureau de Shearwater près du pont, côté zimbabwéen ; passeport nécessaire — au poste-frontière, on vous remet un laissez-passer pour le pont (Bridge Pass), pas besoin de visa pour accéder au pont. Pont ouvert 9:00–17:00, avec une pause 13:00–14:00",
+   "record": "L'un des sauts les plus célèbres du monde : un pont de 1905 à 111 m au-dessus du Zambèze, avec vue sur les chutes Victoria",
+   "pros": [
+    "Vue sur les chutes Victoria et les arcs-en-ciel dans les embruns",
+    "Balançoire, tyrolienne et visite du pont sur un même site",
+    "Facile à combiner avec un safari et du rafting sur le Zambèze"
+   ],
+   "cons": [
+    "Cher pour 111 m",
+    "Uniquement en solo, pas de saut à l'élastique en tandem (tandem seulement sur la balançoire et la tyrolienne)",
+    "Il faut passer le contrôle frontalier, même sans entrer dans le pays voisin",
+    "Pause déjeuner 13:00–14:00"
+   ],
+   "airport": "VFA — Victoria Falls (Zimbabwe), ~25 min ; LVI — Livingstone (Zambie), ~20 min",
+   "price_note": "Un saut 194 USD selon les tarifs de Shearwater (une promotion à 160 USD a été observée) ; formule Big Air (saut + tyrolienne + balançoire) 250 USD ; balançoire 137 USD, tyrolienne 58 USD",
+   "school_notes": [
+    null,
+    "Opérateur officiel du saut à l'élastique, de la balançoire et de la tyrolienne sur le pont",
+    "Réservation côté zambien (Livingstone)"
+   ]
   }
  }
 }

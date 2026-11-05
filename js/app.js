@@ -27,6 +27,8 @@ const ACT = {
     value: (s, m) => (s.sea && s.sea[m - 1] != null ? deg(s.sea[m - 1]) : ''), valueTitle: () => t('row.water_title') },
   sailing: { qf: ['novisa', 'ru', 'beginner', 'bareboat', 'flotilla', 'catamaran'], dd: ['minRating', 'pop', 'sdiff', 'maxCharter', 'minWater', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: true,
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
+  bungee: { qf: ['novisa', 'ru', 'high', 'dip', 'swing'], dd: ['minRating', 'pop', 'platform', 'minHeight', 'maxJump', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s) => (s.height_m ? `${num(s.height_m)} ${t('unit.m')}` : ''), valueTitle: () => t('row.height_title') },
   paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
 };
@@ -38,7 +40,9 @@ const DEFAULT_FILTERS = {
   rental: false, wstyle: null,
   shore: false, snorkel: false, divetype: null, maxDive: null,
   bareboat: false, flotilla: false, catamaran: false, sdiff: null, maxCharter: null,
+  high: false, dip: false, swing: false, platform: null, minHeight: null, maxJump: null,
 };
+const MAIN_PLATFORMS = ['bridge', 'dam', 'tower', 'cable_car'];
 const MAIN_ROCKS = ['limestone', 'granite', 'sandstone'];
 const savedActivity = (() => { try { return localStorage.getItem('activity'); } catch { return null; } })();
 
@@ -117,6 +121,12 @@ function passesFilters(s, m = state.month) {
   if (f.catamaran && !(s.boats || []).includes('catamaran')) return false;
   if (f.sdiff && !(s.difficulty != null && (f.sdiff === 'easy' ? s.difficulty <= 2 : f.sdiff === 'medium' ? s.difficulty === 3 : s.difficulty >= 4))) return false;
   if (f.maxCharter != null && !(s.charter_price_eur != null && s.charter_price_eur <= f.maxCharter)) return false;
+  if (f.high && !((s.height_m || 0) >= 100)) return false;
+  if (f.dip && !s.water_touch) return false;
+  if (f.swing && !(s.extras || []).includes('swing')) return false;
+  if (f.platform && !(f.platform === 'other' ? s.platform && !MAIN_PLATFORMS.includes(s.platform) : s.platform === f.platform)) return false;
+  if (f.minHeight != null && !((s.height_m || 0) >= f.minHeight)) return false;
+  if (f.maxJump != null && !(s.price_eur != null && s.price_eur <= f.maxJump)) return false;
   if (f.tandem && !s.tandem) return false;
   if (f.courses && !s.courses) return false;
   if (f.xc && !((s.xc || 0) >= 4)) return false;
@@ -457,7 +467,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 const DROPDOWNS = [
   {
     key: 'activity', label: () => t(`sport.${state.activity}`), title: t('dd.activity.title'),
-    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing', 'bungee'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
   {
@@ -504,6 +514,21 @@ const DROPDOWNS = [
     key: 'maxCharter', title: t('dd.charter.title'),
     label: (v) => (v == null ? t('dd.charter.label') : t('dd.charter.label_v', { v: num(v) })),
     options: [{ value: null, text: t('dd.any_f') }, ...[2000, 3000, 4500].map((v) => ({ value: v, text: t('dd.charter.opt', { v: num(v) }) }))],
+  },
+  {
+    key: 'platform', title: t('dd.platform.title'),
+    label: (v) => (v ? t(`platform.${v}`) : t('dd.platform.label')),
+    options: [{ value: null, text: t('dd.any_m') }, ...[...MAIN_PLATFORMS, 'other'].map((v) => ({ value: v, text: t(v === 'other' ? 'dd.platform.other' : `platform.${v}`) }))],
+  },
+  {
+    key: 'minHeight', title: t('dd.height.title'),
+    label: (v) => (v == null ? t('dd.height.label') : t('dd.height.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_f') }, ...[50, 100, 150, 200].map((v) => ({ value: v, text: t('dd.height.opt', { v }) }))],
+  },
+  {
+    key: 'maxJump', title: t('dd.jump.title'),
+    label: (v) => (v == null ? t('dd.jump.label') : t('dd.jump.label_v', { v })),
+    options: [{ value: null, text: t('dd.any_f') }, ...[80, 120, 180].map((v) => ({ value: v, text: t('dd.jump.opt', { v }) }))],
   },
   {
     key: 'maxDive', title: t('dd.dive.title'),
@@ -562,9 +587,12 @@ function applyActivityUI() {
   const cfg = ACT[state.activity];
   document.querySelectorAll('.qf').forEach((b) => {
     b.hidden = !cfg.qf.includes(b.dataset.filter);
+    const ownLabel = `qf.${b.dataset.filter}_${state.activity}`;   // e.g. «Russian school» reads «in Russian» for bungee operators
+    if (b.dataset.i18n) b.textContent = t(ownLabel) !== ownLabel ? t(ownLabel) : t(b.dataset.i18n);
     const own = `qf.${b.dataset.filter}_title_${state.activity}`;   // e.g. «beginner» means different things in surf and skiing
     if (t(own) !== own) b.title = t(own);
     else if (b.dataset.i18nTitle) b.title = t(b.dataset.i18nTitle);
+    else b.removeAttribute('title');
   });
   document.querySelectorAll('.dd[data-key]').forEach((d) => { if (d.dataset.key !== 'activity') d.hidden = !cfg.dd.includes(d.dataset.key); });
   document.querySelectorAll('.dd[data-key="minWater"] .dd-opt').forEach((o) => {   // divers read the scale in wetsuit mm
@@ -1018,6 +1046,7 @@ const PICK_ICONS = {
   climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
   diving: '<path d="M4 11h20v6a4 4 0 0 1-4 4h-2.5l-2-3h-3l-2 3H8a4 4 0 0 1-4-4z" /><path d="M14 11v4" /><path d="M28 7v13a6 6 0 0 1-6 6h-3" />',
   sailing: '<path d="M15 4v19" /><path d="M15 5c4 4 7 10 7 16h-7z" /><path d="M13 8c-3 4-5 8-6 13h6z" /><path d="M5 23h20l-3 4H8z" />',
+  bungee: '<path d="M6 5h20" /><path d="M10 5v4M22 5v4" /><path d="M16 5c-3 4 3 6 0 10s3 6 0 8" /><circle cx="16" cy="26" r="2.2" />',
   paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
 };
 function showSportPicker({ change = false } = {}) {

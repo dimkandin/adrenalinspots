@@ -17066,6 +17066,1179 @@
     "Base in Road Town, flotillas, rules and fees",
     "Base at Hodges Creek (Tortola), seasonal prices from broker Virgin Island Sailing"
    ]
+  },
+  "hells-canyon-armenia-rope-jump": {
+   "h": "2fca6ad415",
+   "description": "Rope jumping from the rim of Hell's Canyon: about 4 seconds of free fall, then a big pendulum swing in a climbing harness. The same team also runs a 120-metre jump in Dragon Canyon (Vayots Dzor) and canyoning trips. Easy to combine with a visit to Khor Virap.",
+   "rating_basis": "The only regular commercial jump in Armenia we could confirm; the red cliffs of the Aratso canyon; the team has been operating for more than 13 years",
+   "hazards": "This is rope jumping on a static rope with a pendulum swing, not bungee — ask the team about the rigging and equipment certification. Contraindications: blood pressure, heart conditions, spine problems, pregnancy. The canyon is near the border with Nakhchivan — don't stray from the route. Jumps are cancelled in rain and strong wind.",
+   "crowd_note": "Small groups by appointment, no queues",
+   "region": "Ararat Province, the Aratso river canyon near the village of Tigranashen, ~80 km from Yerevan (approximate coordinates)",
+   "booking": "Book by phone with the operator (+374 93 835959), 30% deposit; jumps mostly at weekends. At most sites the usual limits are 18+ (younger with parental consent) and a weight of roughly 45–100 kg",
+   "pros": [
+    "Cheap: ~€56 per jump",
+    "Red cliffs and views of Ararat on the way",
+    "A 120 m option for experienced jumpers"
+   ],
+   "cons": [
+    "No website of its own, booking by phone",
+    "Mostly at weekends",
+    "The Ararat Valley is hot in summer — May–June and September–October are better"
+   ],
+   "airport": "EVN — Yerevan (Zvartnots), ~1.5 h by car",
+   "price_note": "25,000 drams (~€56 at ~450 AMD/€) for the 65 m jump. The flagship 120 m jump in Dragon Canyon (Vayots Dzor, ~2 h from Yerevan) — 40,000 drams (~€89). 30% deposit; transfer from Yerevan extra",
+   "school_notes": [
+    null,
+    "Description, prices and the operator's phone number; also canyoning at Devil's Bridge (Syunik)"
+   ]
+  },
+  "europabruecke": {
+   "h": "a4f326bde6",
+   "description": "A jump from a platform in the middle of the A13 motorway bridge on the Brenner Pass route — one of the highest bridges in Europe — over the Sill valley. 192 m of free flight, after which you're hauled back up to the bridge. Just 20 minutes from Innsbruck.",
+   "rating_basis": "No. 5 in CNN's top 15 highest jumps in the world; 5/5 from 48 reviews on Manawa; operating since 1993",
+   "hazards": "The operator's rules exclude people with high blood pressure, heart and vascular disease, skull injuries, epilepsy, glaucoma, osteoporosis, a pacemaker, thrombosis, pregnancy or mental illness. Strictly 0.0 per mille alcohol. No jumps in bad weather.",
+   "crowd_note": "Around 60 days a year and only at weekends — slots are booked in advance, and there can be a wait on the bridge",
+   "region": "Tyrol, the Wipptal valley near Schönberg, ~20 minutes from Innsbruck",
+   "booking": "Saturdays and Sundays only, roughly from late May to late October (22 May – 23 October announced for 2027), main hours 10:00–16:00. Advance booking is mandatory. Strictly 0.0 per mille alcohol on the bridge. In bad weather the jump is moved to another date; no refunds.",
+   "record": "One of the highest bridge jumps in Europe — 192 m; Rupert Hirner made the first jump on 3 October 1993",
+   "pros": [
+    "192 m — one of the highest sites in Europe",
+    "Innsbruck and its airport are close by",
+    "Cheaper online: €199 instead of €239"
+   ],
+   "cons": [
+    "Weekends only, around 60 days a year",
+    "The bridge is a working motorway, with traffic noise all around",
+    "Strict limits: 50–105 kg, age 16+"
+   ],
+   "airport": "INN — Innsbruck, ~20 min; MUC — Munich, ~2 h",
+   "price_note": "€199 when booked online, €239 on site; video — €31 online (€34 on site), a companion to the jump point — €9 online",
+   "school_notes": [
+    "Operator; cheaper online than on site. Website in German, English and Italian",
+    "Aggregator, from €239"
+   ]
+  },
+  "koelnbrein-dam": {
+   "h": "e2cbe0176f",
+   "description": "A jump from the crest of Austria's highest dam at about 1,900 m above sea level, among the peaks of the Hohe Tauern. 165 m of free fall alongside the concrete wall. Nearby there's a skywalk viewing platform over the drop and a high-altitude reservoir.",
+   "rating_basis": "No. 8 in CNN's top 15 highest jumps in the world (listed there as 169 m); high-alpine views of the Hohe Tauern",
+   "hazards": "The same contraindications as at the Europabrücke: high blood pressure, heart disease, epilepsy, glaucoma, osteoporosis, thrombosis, pregnancy, etc. At altitude the weather changes fast: in a thunderstorm, wind or fog the jump is postponed.",
+   "crowd_note": "Jumps run on just 4 days a year — everyone comes on those days, so book ahead",
+   "region": "Carinthia, the Malta valley, at the end of the Malta Hochalmstraße mountain road",
+   "booking": "Jumps happen on only a few weekends a year: 31 July – 1 August and 7–8 August announced for 2027, from 9:00. Online booking is mandatory. The road to the dam is open roughly from May to the end of October. In bad weather the jump is postponed; no refunds.",
+   "record": "Austria's highest dam (200 m); the operator calls it the highest-altitude bungee site in the world — over 2,000 m above sea level; jumps since 1998",
+   "pros": [
+    "High-alpine site with Alpine views",
+    "165 m of free fall",
+    "The Malta Hochalmstraße road is a sight in itself"
+   ],
+   "cons": [
+    "Only a couple of weekends a year",
+    "Far from major cities",
+    "Chilly at 1,900 m even in August"
+   ],
+   "airport": "KLU — Klagenfurt, ~1 h 45 min; SZG — Salzburg, ~2 h",
+   "price_note": "€199 when booked online, €229 on site; the Malta Hochalmstraße road toll is extra",
+   "school_notes": [
+    "Operator (the same as at the Europabrücke); website in German, English and Italian"
+   ]
+  },
+  "skypark-cairns": {
+   "h": "6842ea22e0",
+   "description": "An AJ Hackett tower on a rainforest-covered hillside (a UNESCO site), 20 minutes from Cairns: 50 m of free fall and 16 jump styles, including a water-touch option. Next to it are a giant swing reaching up to 120 km/h and the highest viewing deck in Cairns. Easy to combine with a trip to the Great Barrier Reef.",
+   "rating_basis": "The country's only bungee and 30+ years of operation (Tourism Queensland), 16 jump styles; the height and the view are more modest than at the New Zealand sites",
+   "hazards": "The usual contraindications: pregnancy, heart conditions, blood pressure, back problems. In the wet season jumps may be cancelled because of thunderstorms and cyclones; summer is hot and very humid — drink plenty of water.",
+   "crowd_note": "Queues are rare; busiest in the dry season (June–October) and during school holidays",
+   "region": "Queensland, Smithfield (end of McGregor Road), ~20 min north of Cairns",
+   "booking": "Book online at book.skyparkcairns.com or by phone on (07) 4057 7188; open daily roughly 10:00–17:00, last slots at 16:00. Free transfers from Cairns and the Northern Beaches by prior arrangement",
+   "record": "The only bungee jump in Australia; a tower above the rainforest with views of the coast",
+   "pros": [
+    "The only bungee in Australia",
+    "Free transfer from Cairns",
+    "Tandems and 16 jump styles",
+    "Close to the reef and Palm Cove"
+   ],
+   "cons": [
+    "Low compared with New Zealand",
+    "In the wet season (December–March) it's hot and humid, and cyclones are possible"
+   ],
+   "airport": "CNS — Cairns, ~15–20 min",
+   "price_note": "Jump from AUD 189 (with a media package via partners ~AUD 229); giant swing from AUD 109, bungee + swing combo from AUD 269; free transfer from Cairns and the Northern Beaches",
+   "school_notes": [
+    null,
+    "Official website: bungee, giant swing, viewing deck"
+   ]
+  },
+  "great-canadian-bungee": {
+   "h": "d510abf42b",
+   "description": "A 61 m jump (about 20 storeys) over a spring-fed lagoon in the flooded Morrison limestone quarry, half an hour from Ottawa. On request the jump master can set the cord so that you touch the water with your head or dip in up to your waist. Nearby are the ~310 m RIPRIDE zipline starting from 200 feet up, a beach and a picnic area.",
+   "rating_basis": "Canada's highest jump, over a turquoise lagoon in a limestone quarry, with the rare chance of a water dip; 35th season in 2026",
+   "hazards": "Contraindications: pregnancy, hypertension, epilepsy, severe asthma, joint, ligament and spine problems, being under the influence of alcohol. Jumps are suspended during thunderstorms.",
+   "crowd_note": "Summer weekends draw lots of people from Ottawa and Montreal — book ahead",
+   "region": "Quebec, Chelsea (Outaouais), ~30 min north of Ottawa",
+   "booking": "Book online or by phone; the season runs from late April – early May to early November, with jumps almost every day; under-18s need parental consent",
+   "record": "Canada's highest bungee (61 m); according to the operator, the only jump in the Americas where you can dunk your head in the water; Prime Minister Justin Trudeau jumped here in 2022",
+   "pros": [
+    "Canada's highest bungee",
+    "You can dip into the water",
+    "A beautiful turquoise lagoon",
+    "Close to Ottawa"
+   ],
+   "cons": [
+    "Open only from May to early November",
+    "A water touch isn't guaranteed",
+    "Pricier than most jumps in Latin America"
+   ],
+   "airport": "YOW — Ottawa, ~40 min",
+   "price_note": "First jump CAD 178.30 + taxes; a repeat jump the same day CAD 89.58; zipline CAD 34.79; entry to the Morrison quarry is extra",
+   "school_notes": [
+    "Official website: bungee and the RIPRIDE zipline over the lagoon"
+   ]
+  },
+  "whistler-bungee": {
+   "h": "fb7f74c39d",
+   "description": "A jump from a 50 m footbridge over the glacial Cheakamus River, in a canyon of basalt columns and old-growth conifer forest. The site is 15 minutes' drive from Whistler and open year-round — in winter you can jump between ski days. Tandem jumps are possible if the combined weight is up to 136 kg.",
+   "rating_basis": "High review scores (around 4.8 out of 5 on aggregator sites), a beautiful canyon with basalt cliffs and a view of the Black Tusk; mid-range in terms of height",
+   "hazards": "Contraindications: heart, blood pressure, back and neck problems, pregnancy. Jumps are cancelled during thunderstorms; in winter the path to the bridge can be icy.",
+   "crowd_note": "In summer and at weekends slots go early — book a few days ahead",
+   "region": "British Columbia, 15 km south of Whistler Village",
+   "booking": "Online booking at least 3–4 days ahead, after that by phone; open every day year-round, roughly 12:00–17:00 in summer and 12:00–15:00 in winter",
+   "record": "The higher of British Columbia's two bungee jumps; voted by locals “Whistler's most extreme activity”",
+   "pros": [
+    "Open every day, year-round",
+    "A very beautiful canyon and mountain views",
+    "Close to the Whistler ski resort",
+    "Tandem jumps available"
+   ],
+   "cons": [
+    "The height is modest next to the world record-holders",
+    "Cold in winter, with short opening hours",
+    "Online booking only a few days ahead"
+   ],
+   "airport": "YVR — Vancouver, ~2 h via the Sea-to-Sky Highway",
+   "price_note": "A single jump from CAD 141 (per Tourism Whistler); 15% off when booked 15+ days ahead; photos CAD 45",
+   "school_notes": [
+    "The operator's official website, online booking",
+    "Booking via the Whistler tourism portal"
+   ]
+  },
+  "wildplay-nanaimo-bungy": {
+   "h": "6c2c7880c0",
+   "description": "A 46 m bridge over the Nanaimo River on Vancouver Island — North America's first legal bridge built specifically for bungee. There are 16 jump styles across six difficulty levels, and next door the Primal Swing giant swing reaching up to 140 km/h and ziplines over the canyon. Every February there's a charity naked bungee jump.",
+   "rating_basis": "North America's historic first bungee bridge and a big adventure park; average height, forest-canyon scenery",
+   "hazards": "Contraindications: heart disease, high blood pressure, back and neck injuries, pregnancy. Operation depends on the weather — jumps stop in thunderstorms and strong wind.",
+   "crowd_note": "Queues only on summer weekends; usually quiet on weekdays",
+   "region": "British Columbia, Vancouver Island, ~10 km south of Nanaimo",
+   "booking": "You can turn up without booking, but an online booking guarantees a slot; open daily in summer (July – early September), almost every day in June and September, Fri–Mon in October, Sat–Sun from November to mid-December; closed in winter",
+   "record": "North America's first legal bridge built specifically for bungee; more than 265,000 people have jumped from it",
+   "pros": [
+    "A historic site",
+    "Lots of jump styles and activities in one park",
+    "No advance booking needed",
+    "Handy on a Vancouver Island road trip"
+   ],
+   "cons": [
+    "A low jump by world standards",
+    "Closed in winter, weekends only in spring and autumn"
+   ],
+   "airport": "YCD — Nanaimo, ~10 min; ferry from Vancouver to Nanaimo ~1 h 40 min",
+   "price_note": "A single jump CAD 139.99–164.99 (cheaper in the morning and late in the day); jump + Primal Swing combo from CAD 199.99",
+   "school_notes": [
+    null,
+    "Official website: bungee, Primal Swing, ziplines, ropes courses"
+   ]
+  },
+  "niouc-bridge": {
+   "h": "5a8e851aaa",
+   "description": "A narrow — just 50 cm wide — pedestrian suspension bridge from 1922, strung across a gorge at the entrance to the Val d'Anniviers. It's 190 m to the bottom, and the bridge itself sways underfoot, so the fear starts on the walk out. The site is a whole park: a pendulum swing, rope jumping, a zipline and a bar above the abyss.",
+   "rating_basis": "No. 6 in CNN's top 15 highest jumps in the world; a rare format — a swaying suspension bridge; lots of activities at one site",
+   "hazards": "The bridge sways in the wind and as people walk. Contraindications: pregnancy, heart disease and blood pressure, spinal injuries, epilepsy; over-60s need a doctor's certificate. Jumps are suspended in thunderstorms and strong wind.",
+   "crowd_note": "Queues on summer weekends; on weekdays the site isn't always open",
+   "region": "Valais, the entrance to the Val d'Anniviers, ~15 minutes from Sierre",
+   "booking": "2026 season — 4 April to 31 October: at least every weekend, 10:00–18:00, with more days in summer — see the calendar on the website. Extra days are opened for groups of 5+ by phone. Over-60s need a medical certificate.",
+   "record": "One of the highest bridge jumps in the world (190 m, CNN top 15); a narrow pedestrian suspension bridge from 1922, with jumps since 1997",
+   "pros": [
+    "190 m — one of the highest bridge jumps in the world",
+    "Pendulum swing, rope jumping and zipline at one site",
+    "The sunny, dry climate of Valais"
+   ],
+   "cons": [
+    "Prices aren't published on the website",
+    "Age 16+ only",
+    "Mostly at weekends"
+   ],
+   "airport": "GVA — Geneva, ~2 h; SIR — Sion, ~30 min (few flights)",
+   "price_note": "CHF 210 per jump (≈€221) according to a 2023 SwitzerLanding review; the operator's website doesn't publish prices — check when booking",
+   "school_notes": [
+    null,
+    "Website in French, German and English; besides bungee — solo and tandem pendulum swing, rope jumping, zipline and the “Le Perchoir” bar"
+   ]
+  },
+  "stockhorn-cable-car": {
+   "h": "a1aecd53a8",
+   "description": "Not a bridge jump but a jump from the open cabin of the Stockhorn cable car: 134 m of free fall above the mountain lake Hinterstockensee. The package includes the cable-car ride and transfer from Interlaken, and after the jump a drink and views of the Bernese Alps.",
+   "rating_basis": "The best-known jump in the Interlaken area, featured in round-ups of Switzerland's best bungee; an unusual setting — a cable-car cabin above a lake",
+   "hazards": "Standard contraindications: pregnancy, heart disease and blood pressure, back and neck injuries, epilepsy. Mountain weather changes fast: in strong wind, a thunderstorm or low cloud the trip is postponed.",
+   "crowd_note": "Fixed departures in small groups — no queues, but weekend places are best booked ahead",
+   "region": "Bernese Oberland, above the Hinterstockensee; the valley station is in Erlenbach, ~40 minutes from Interlaken",
+   "booking": "April–October, departure at 15:45 on Mondays, Wednesdays, Saturdays and Sundays (in peak season also at 18:30 on Saturdays). Meeting point at the OUTDOOR base in Wilderswil (Interlaken) or at the cable car's valley station in Erlenbach. The whole programme takes about 5 hours from Interlaken. Up to two spectators can come along as far as the middle station. Age 14+, no exceptions.",
+   "record": "A jump from an open cable-car cabin above a mountain lake at ~1,600 m — a rare format in Europe",
+   "pros": [
+    "An unusual format — jumping from a cable-car cabin",
+    "Cable car and transfer from Interlaken included",
+    "A mountain lake and Alpine views"
+   ],
+   "cons": [
+    "Only 4 days a week, one or two departures a day",
+    "Strictly 14+",
+    "The programme takes half a day"
+   ],
+   "airport": "BRN — Bern, ~40 min; ZRH — Zurich, ~1 h 45 min",
+   "price_note": "CHF 239 per person (≈€251), groups of 10+ — CHF 215; includes the cable car, equipment, transfer from Interlaken and a drink. Photos — CHF 49, video — CHF 59, both — CHF 99; spectator — CHF 60",
+   "school_notes": [
+    null,
+    "Operator; guides speak German and English",
+    "Booking site with a Russian-language interface, from CHF 239; briefing in English or German"
+   ]
+  },
+  "verzasca-dam": {
+   "h": "bd151f6037",
+   "description": "The very jump from the opening of the film GoldenEye: 220 m of free flight down the concrete wall of an arch dam above the Verzasca gorge. After the jump you're hauled back up to the crest. Nearby are the emerald Verzasca river and the village of Lavertezzo with its old stone bridge.",
+   "rating_basis": "No. 2 in CNN's top 15 highest jumps in the world (after the Macau Tower); a Guinness record for the GoldenEye stunt; the operator counts more than 10,000 jumps",
+   "hazards": "Not allowed with pregnancy, high blood pressure, heart disease, epilepsy, musculoskeletal injuries, neurological disorders, glaucoma, recent eye surgery or chronic ear conditions; no one under the influence of alcohol is allowed to jump. Jumps are suspended in thunderstorms, thick fog and when water is released from the dam.",
+   "crowd_note": "On summer weekends slots sell out in advance and people wait their turn on the dam crest; weekday afternoons are quieter",
+   "region": "Ticino, the Verzasca valley, ~15 minutes from Locarno",
+   "booking": "The season runs from Easter to 31 October, with jumps in the afternoons only. In 2026 — Wednesday to Sunday; announced for 2027: April — Sat–Sun, May–October — Fri–Sun, June – mid-September — Wed–Sun. Summer weekends sell out early, so book online. There's no minimum age (what matters is a weight of 45 kg+); under-18s need parental consent, over-65s a doctor's certificate. Night jumps run for groups of 10+; the backwards jump is available from your second jump, the “Ultimo” from your third.",
+   "record": "James Bond's jump in GoldenEye (1995) — according to Guinness World Records, the highest bungee jump from a structure in a film; one of the highest commercial jumps in the world",
+   "pros": [
+    "One of the highest jumps in the world — 220 m",
+    "A legendary location from a Bond film",
+    "15 minutes from Locarno, close to Lake Maggiore",
+    "Can be combined with canyoning with the same operator"
+   ],
+   "cons": [
+    "Expensive: from CHF 255",
+    "Afternoon jumps only, and not every day",
+    "Closed from November to March"
+   ],
+   "airport": "MXP — Milan Malpensa, ~1 h 30 min; ZRH — Zurich, ~2 h 30 min",
+   "price_note": "Classic jump — CHF 255 for 1–2 people (≈€268), in a group of 3+ — CHF 235, under-19s and students — CHF 195. A second jump the same day — CHF 125, GoPro video — CHF 39. The price includes the briefing, a drink and a certificate",
+   "school_notes": [
+    null,
+    "The only operator on the dam; website in German, English, French and Italian. “Bungee + canyoning” packages available"
+   ]
+  },
+  "zhangjiajie-glass-bridge-bungee": {
+   "h": "18c580756d",
+   "description": "A jump from the middle of the 430-metre glass bridge over the Zhangjiajie Grand Canyon — 260 m to the bottom of the gorge. The platform opened at the end of 2020 and is China's highest bungee. The jump is easy to combine with a walk across the glass bridge, a zipline and a trip to the “Avatar” pillars of Wulingyuan.",
+   "rating_basis": "One of the highest bungee sites in the world, above a canyon in the Wulingyuan UNESCO area; few reviews from foreigners",
+   "hazards": "Not allowed with heart disease, blood pressure or back problems, or pregnancy; age 16+ only. The bridge closes in thunderstorms, strong wind and icy conditions; June brings the meiyu rains.",
+   "crowd_note": "Few people jump (~20 jumps a day in 2021), but the bridge itself is packed with Chinese tourists on holidays (1 May, 1–7 October) and in summer",
+   "region": "Hunan, Zhangjiajie Grand Canyon (Cili County), ~40 km from Zhangjiajie city",
+   "booking": "Jump tickets are bought on site or via Chinese services (Ctrip/Trip.com); the platform operates year-round, 9:00–16:00. The bridge closes in bad weather — check the day before",
+   "record": "260 m — China's highest bungee and, according to the operator, the world's highest jump from a footbridge (higher than the 233 m Macau Tower)",
+   "pros": [
+    "One of the highest bungee points on the planet",
+    "A spectacular glass bridge and canyon",
+    "Can be combined with Wulingyuan park"
+   ],
+   "cons": [
+    "Expensive: ~CNY 2,000 plus canyon entry",
+    "Little information in English, no official website for foreigners",
+    "Heat and crowds on the bridge in summer"
+   ],
+   "airport": "DYG — Zhangjiajie Hehua, ~1 h by car",
+   "price_note": "CNY 1,998 (≈€241) per jump; the entry ticket to the canyon with the bridge (route B) is another CNY 175"
+  },
+  "san-gil-colombia-bungee": {
+   "h": "459b055f28",
+   "description": "A 70 m jump from a crane basket over the Fonce river, 10 minutes from San Gil — Colombia's capital of rafting, paragliding and caving. Operating since 2007; tandem jumps are possible and photos are included in the price. When the river is high you can get a light dip at the bottom.",
+   "rating_basis": "Excellent reviews (4.9 out of 5 from 1,500+ Google reviews), a very low price; average height, the platform is a crane over the river",
+   "hazards": "Not open to pregnant women or people with recent injuries or heart disease; contraindicated with hypertension and back problems. In the rainy seasons (April–May, October–November) jumps are suspended for thunderstorms.",
+   "crowd_note": "One platform, ~15 minutes per person — at weekends and on Colombian public holidays you may have to wait",
+   "region": "Santander, 2 km from San Gil on the road to Charalá",
+   "booking": "You can take a taxi from San Gil (~10 min) without booking or book through a hostel/agency; open 8:30–16:30, except Wednesdays; there's only one platform — allow time for the queue",
+   "record": "Colombia's highest bungee tower according to the operator; San Gil is the country's “adventure capital”",
+   "pros": [
+    "Very cheap",
+    "Excellent service according to reviews",
+    "Easy to combine with rafting and paragliding in San Gil",
+    "Warm climate year-round"
+   ],
+   "cons": [
+    "A crane, not a bridge or a gorge",
+    "One platform — queues happen",
+    "Closed on Wednesdays"
+   ],
+   "airport": "BGA — Bucaramanga, ~3 h via the Chicamocha Canyon",
+   "price_note": "A single jump from COP 90,000 (≈EUR 19; COP 80,000 was quoted in 2025); photos included, video extra",
+   "school_notes": [
+    "Official website, booking for solo and tandem jumps",
+    "Online booking from COP 90,000"
+   ]
+  },
+  "monteverde-extremo-bungee": {
+   "h": "67b1fa2729",
+   "description": "A small cable-car gondola carries you out to the middle of a canyon above the Monteverde cloud forest — it's 143 m to the bottom, with about 60 m of free fall. It's the highest bungee in Costa Rica and, according to the park, in all of Central America. The same park has one of the world's highest Tarzan swings and 4 km of ziplines, including the “Superman” line.",
+   "rating_basis": "The highest jump in the region, an unusual gondola platform above the cloud forest; excellent reviews (5/5 on Manawa)",
+   "hazards": "Contraindications: pregnancy, back and neck injuries, heart and vascular disease, diabetes, high blood pressure, epilepsy, recent surgery. Jumps stop in strong wind and thunderstorms; in the rainy season (May–November) there are often afternoon downpours.",
+   "crowd_note": "In the dry season and on holidays there can be queues for the gondola — arrive at opening time",
+   "region": "Puntarenas, Monteverde, ~3 km northwest of Santa Elena",
+   "booking": "Book via the park's website, Monteverde hotels or aggregators; better to go in the morning — in the afternoon cloud and wind can stop the jumps; the whole thing takes ~45 minutes",
+   "record": "The highest bungee in Central America (according to the park): a jump from a gondola above a 143 m-deep canyon",
+   "pros": [
+    "The highest jump in Central America",
+    "A jump above the cloud forest",
+    "Tarzan swing and ziplines in the same park",
+    "Open year-round"
+   ],
+   "cons": [
+    "The free fall is noticeably shorter than the advertised 143 m",
+    "Frequent cloud and wind, especially in the afternoon",
+    "The road to Monteverde is slow and partly unpaved"
+   ],
+   "airport": "LIR — Liberia, ~2.5 h; SJO — San José, ~3.5 h",
+   "price_note": "From EUR 98 on the Manawa aggregator, ~USD 100 on local sites; photos and video +USD 40",
+   "school_notes": [
+    "Official website: bungee, mega Tarzan swing, 4 km of ziplines",
+    "Online booking with prices in euros",
+    "Marketplace of the Monteverde Chamber of Tourism"
+   ]
+  },
+  "banos-san-francisco-bridge": {
+   "h": "b1dc926edd",
+   "description": "Puenting — a pendulum jump on safety ropes from the San Francisco road bridge over the Pastaza river gorge, right by the town. The height is about 80 m; the jump is short but very sharp. It's a Baños classic alongside the “Swing at the End of the World”, rafting, canyoning and ziplines.",
+   "rating_basis": "Popular with backpackers for its low price and the Pastaza gorge; it's a pendulum jump on ropes, not classic bungee, and the safety standards are more basic",
+   "hazards": "Choose an agency with good reviews and check the equipment. The pendulum puts a heavy load on the back and neck — contraindicated with injuries, heart and blood pressure problems, pregnancy. The town is at ~1,800 m and the active Tungurahua volcano is nearby — keep an eye on the bulletins.",
+   "crowd_note": "Queues at weekends and on holidays, when tourists come from Quito",
+   "region": "Tungurahua, the northern edge of Baños de Agua Santa, above the Pastaza river",
+   "booking": "Book at any agency on the streets of Baños or online via Civitatis; the jump itself takes ~20 minutes, and you walk to the bridge from the centre",
+   "record": "One of the most affordable bridge jumps; Baños is called Ecuador's adventure capital",
+   "pros": [
+    "Very cheap",
+    "The bridge is within walking distance of the centre",
+    "Lots of other activities in town, plus hot springs"
+   ],
+   "cons": [
+    "It's a pendulum jump on ropes, not an elastic bungee",
+    "Many small operators — equipment quality varies",
+    "Frequent rain and fog"
+   ],
+   "airport": "UIO — Quito, ~3.5 h by bus or car",
+   "price_note": "From USD 27 on Civitatis (≈EUR 24 on Central de Reservas); agencies in town charge similar prices, photos and video extra",
+   "school_notes": [
+    null,
+    "Online booking from USD 27, the instructor speaks Spanish and English",
+    "Listing with a description (temporarily unavailable when checked)"
+   ]
+  },
+  "artuby-bridge": {
+   "h": "151c87bd05",
+   "description": "An arch bridge over the Artuby gorge right by the Grand Canyon du Verdon — 182 m to the bottom. A jump with a view of limestone walls, followed by a 30-minute hike back up the trail. A classic of French bungee that's easy to combine with a trip around Provence.",
+   "rating_basis": "France's highest jump, in every French round-up of the best bungee; the famous scenery of the Verdon Gorge",
+   "hazards": "The climb out of the gorge is on a trail — you need comfortable shoes and water, and it's hot in summer; the winch lift is only for up to 90 kg. Standard contraindications: heart, blood pressure, back, pregnancy; from 55 a medical certificate is required. Jumps depend on the weather.",
+   "crowd_note": "People jump in turn all day and a fast pass is sold for an extra fee — in season the wait stretches to hours",
+   "region": "Var, Grand Canyon du Verdon, near the Balcons de la Mescla (Aiguines)",
+   "booking": "April to mid-November. From April to mid-June and from mid-September to mid-November — Sundays only; from mid-June to mid-September — weekends; from mid-July to mid-August — Fri–Sun. It's a full-day event: check-in 9:00–12:00, and after the jump a 30-minute walk out of the canyon. Under-18s need parental permission, from 55 a medical certificate.",
+   "record": "One of the highest jumps in Europe — 182 m above a tributary of the Verdon by the Grand Canyon",
+   "pros": [
+    "One of the highest jumps in Europe — 182 m",
+    "Grand Canyon du Verdon scenery",
+    "Cheaper than in Switzerland and Austria"
+   ],
+   "cons": [
+    "Takes a whole day, long waits",
+    "A hike out of the canyon after the jump",
+    "Sundays only in spring and autumn"
+   ],
+   "airport": "NCE — Nice, ~2 h; MRS — Marseille, ~2 h 15 min",
+   "price_note": "€140 per jump according to the Provence tourist office (rate valid until 2027), discount for groups of 4+; on Manawa — from €105, fast pass and video — €30 each",
+   "school_notes": [
+    "Operator; briefing in French and English",
+    "Aggregator, from €105"
+   ]
+  },
+  "ponsonnas-bridge": {
+   "h": "4201957787",
+   "description": "A 1941 stone arch bridge over the Drac river gorge — 103 m to the water. One of Europe's first permanent bungee sites, operating since 1988. Affordable, tandem jumps are possible, and every jump is filmed.",
+   "rating_basis": "A historic site (since 1988); 4.9/5 from 206 reviews on Funbooker and 4.95/5 from 75 reviews on Cap Adrénaline",
+   "hazards": "Standard contraindications: heart, blood pressure, back injuries, pregnancy; from 55 a medical certificate is required, over-60s are not accepted. Jumps depend on the weather.",
+   "crowd_note": "Small groups, rarely queues; few dates in 2026 because of repairs",
+   "region": "Isère, the Matheysine plateau near La Mure, ~40 km south of Grenoble",
+   "booking": "Usually April–November at weekends, almost daily in July–August (in 2026 — Mon, Wed, Thu and weekends, 10:00–17:00). The bridge is under repair in 2026: some dates are cancelled and full reopening is expected in 2027 — 2027 dates are already open on aggregators. Ages 13–60; from 55 a medical certificate is required.",
+   "record": "One of Europe's oldest bungee sites: jumps here since 1988",
+   "pros": [
+    "One of Europe's oldest sites",
+    "Inexpensive — €98",
+    "Tandem jumps",
+    "From age 13"
+   ],
+   "cons": [
+    "Bridge repairs in 2026 — few dates",
+    "The height is modest next to the Alpine giants",
+    "Strict weight limit for women"
+   ],
+   "airport": "LYS — Lyon-Saint Exupéry, ~1 h 45 min; GNB — Grenoble-Isère, ~1 h 15 min",
+   "price_note": "€98 per jump; tandem — €214 for two; groups of 4+ — €88, of 10+ — €75; video — €28",
+   "school_notes": [
+    null,
+    "Booking, prices and group discounts",
+    "Booking; warns about the bridge repairs in 2026"
+   ]
+  },
+  "souleuvre-viaduct": {
+   "h": "0eb846b5b8",
+   "description": "The stone piers of a viaduct designed by Gustave Eiffel are all that's left of a 19th-century railway. AJ Hackett built a platform on the tallest of them: 61 m above the Souleuvre river, and you can ask for a water dip. Nearby are a giant swing, a pendulum swing, a 400 m zipline and a glass cube above the valley.",
+   "rating_basis": "A historic AJ Hackett site; 5/5 from 25 reviews on Manawa; not very high, but lots of activities",
+   "hazards": "Standard contraindications: heart disease and blood pressure, back and neck injuries, pregnancy, epilepsy. Jumps stop in strong wind and thunderstorms. The water touch is optional — the water is cold.",
+   "crowd_note": "Lots of families and groups in summer and at weekends — book a slot ahead",
+   "region": "Normandy, Calvados, ~35 minutes from Caen",
+   "booking": "2026 season — 4 April to 30 November: in spring and autumn at weekends and on public holidays 10:00–17:00, from 13 June to 31 August — daily 10:00–18:00. Online booking. Minors need written parental permission.",
+   "record": "AJ Hackett's first site in Europe (1990) — on a pier of a viaduct built to a design by Gustave Eiffel in 1887–1889",
+   "pros": [
+    "The legendary operator AJ Hackett",
+    "You can touch the water",
+    "Swing, pendulum and zipline for the whole group",
+    "From age 12"
+   ],
+   "cons": [
+    "Not high — 61 m",
+    "Expensive for the height: €179",
+    "Changeable Normandy weather"
+   ],
+   "airport": "CFR — Caen-Carpiquet, ~45 min; CDG — Paris, ~3 h 30 min",
+   "price_note": "€179 solo; students and under-18s — €119; a repeat jump — €99; tandem — from €198; photos or video — €40 each",
+   "school_notes": [
+    null,
+    "Operator; website in French"
+   ]
+  },
+  "jumpin-heights-rishikesh": {
+   "h": "6389e0c710",
+   "description": "A jump from a cantilever platform jutting out 25 m over the cliff edge of the Hiunl river gorge in the Himalayan foothills — 83 m down to the rocky riverbed. It's India's main bungee site and a must after rafting and yoga in Rishikesh. The same site has a giant swing over the gorge and a flying fox almost a kilometre long.",
+   "rating_basis": "India's best-known site, with an average rating of 4.7–4.8 from thousands of reviews; average height by world standards",
+   "hazards": "Not allowed with heart disease, hypertension, back and neck problems, epilepsy or pregnancy. In the monsoon operations stop because of downpours, floods and wind; the mountain road gets washed out.",
+   "crowd_note": "Very popular with Indian tourists: at weekends, on holidays and in May–June the wait can be several hours; a weekday morning is the best bet",
+   "region": "Uttarakhand, Mohan Chatti village, ~25 km (45 min) from Tapovan in Rishikesh",
+   "booking": "Online booking on the website is mandatory; at weekends and on holidays places go early. Shuttle from the Tapovan office at 9:15 and 13:15. Ages 12–45; under-18s only with a parent. Usually closed on Tuesdays — check",
+   "record": "India's highest bungee from a fixed platform (83 m); operating since 2010 to New Zealand standards",
+   "pros": [
+    "A professional operator with New Zealand standards",
+    "Inexpensive",
+    "Three attractions in one place",
+    "Easy to combine with rafting and yoga in Rishikesh"
+   ],
+   "cons": [
+    "Long queues at weekends and on holidays",
+    "Age limit of 45",
+    "Closed at the height of the monsoon (roughly mid-July to mid-September)",
+    "Heat of up to 37 °C in May–June"
+   ],
+   "airport": "DED — Dehradun (Jolly Grant), ~1.5 h",
+   "price_note": "INR 3,700 (≈€36) including GST; giant swing — INR 3,700, flying fox INR 2,000–3,500, video from INR 900, shuttle from Tapovan INR 500, spectator entry INR 100",
+   "school_notes": [
+    "Official website and online booking; also a site in Goa (~60 m)"
+   ]
+  },
+  "ponte-colossus": {
+   "h": "333069f46e",
+   "description": "A 152 m concrete viaduct above a valley in the Alpine foothills near Biella — Italy's first permanent bungee centre. About 5 seconds of free fall at up to 110 km/h, after which you're lowered to the valley floor. They jump even in the rain — only a strong crosswind cancels it.",
+   "rating_basis": "CNN top 15; Italy's oldest permanent centre; 4.9/5 on Manawa",
+   "hazards": "Not recommended with serious heart disease, neurological or joint problems, retinal disease, epilepsy, recurrent shoulder dislocation, pregnancy, or recent injuries and surgery. Weight 45–120 kg clothed.",
+   "crowd_note": "Summer weekends fill up early, especially with groups",
+   "region": "Piedmont, province of Biella, Veglio — ~1 h from Milan and Turin",
+   "booking": "Jumps run at weekends from spring to autumn (April–October according to the Biella tourist office); the calendar on the website covers March to December. Booking is mandatory, online until 8:00 on the day of the jump. Minors need written parental consent, over-60s a medical certificate in advance. After the jump you're lowered to the valley floor and walk back up a trail; the whole programme takes ~1.5 h.",
+   "record": "Italy's first permanent bungee centre (since the mid-1990s), No. 10 in CNN's top 15 highest jumps in the world",
+   "pros": [
+    "152 m — one of the highest jumps in Europe",
+    "Inexpensive — €110",
+    "They jump even in the rain",
+    "An hour's drive from Milan and Turin"
+   ],
+   "cons": [
+    "Weekends only",
+    "A walk back up after the jump, no lift",
+    "No public transport to the bridge — you need a shuttle or a car"
+   ],
+   "airport": "MXP — Milan Malpensa, ~1 h 15 min; TRN — Turin, ~1 h 15 min",
+   "price_note": "€110 per jump; a repeat jump (with a Bungee Card or certificate) — €90; for groups of 7+ one jump is free; video — €20–30",
+   "school_notes": [
+    null,
+    "Operator; calendar and prices, website in Italian and English"
+   ]
+  },
+  "valgadena-bridge": {
+   "h": "2f14502a1d",
+   "description": "A 1990 concrete bridge on the Asiago plateau over the deep Valgadena gorge: according to the operator, at 175 m it's the highest bridge jump in Italy. It's a club-association, not an attraction: jumps run to a schedule, payment is in cash, and you need a medical certificate. In return, it's cheaper than in Switzerland and Austria.",
+   "rating_basis": "CNN top 15; 4.9/5 from 63 reviews on CheckYeti; the site has been running for more than 20 years",
+   "hazards": "Contraindications are listed on the operator's website (heart, blood pressure, back, etc.); no one is allowed to jump without a medical certificate. Weather on the plateau is changeable: in thunderstorms and strong wind jumps are postponed.",
+   "crowd_note": "Jumps run to a schedule, with small groups on jump dates",
+   "region": "Veneto, the Asiago plateau (Sette Comuni), between Enego and Foza",
+   "booking": "Jumps on fixed dates, mostly at weekends from mid-March to November (about 45 dates in 2026). An application via the form on the website is confirmed only after contact on WhatsApp. On the day of the jump you need a medical certificate of fitness for sport. Under-18s need a parent present or their written permission.",
+   "record": "According to the operator, Italy's highest bridge; No. 7 in CNN's top 15 highest jumps in the world (175 m)",
+   "pros": [
+    "One of the highest jumps in Europe",
+    "Inexpensive — about €110 including the membership fee",
+    "High ratings on aggregators"
+   ],
+   "cons": [
+    "You need a medical certificate of fitness for sport",
+    "Cash only, and confirmation via WhatsApp",
+    "Fixed dates, mostly at weekends"
+   ],
+   "airport": "VCE — Venice, ~1 h 45 min; VRN — Verona, ~1 h 45 min",
+   "price_note": "€90 per jump + €20 association membership fee; photos or video — €15, both — €25; cash only",
+   "school_notes": [
+    null,
+    "Operator (an association); dates and application form, website in Italian and English",
+    "Aggregator, 4.9/5 from 63 reviews"
+   ]
+  },
+  "gifu-bungy-shin-tabisoko": {
+   "h": "3a5c275a97",
+   "description": "A jump from the 462 m Shin-Tabisoko road bridge, spanning the Tabisoko river valley in the Gifu mountains at a height of about 200 m — 215 m of free flight. It's Japan's highest bungee, opened in 2020. It's easiest to get there by car from Nagoya; from the car park you walk through a tunnel to the check-in desk.",
+   "rating_basis": "215 m — a Japanese record and among the world's top bridge jumps; a bridge ~200 m above a gorge, operated by Bungy Japan",
+   "hazards": "Health restrictions: heart, blood pressure, back, pregnancy. Operations are suspended in bad weather — thunderstorms, typhoons (August–October), strong wind.",
+   "crowd_note": "Bookings in hourly blocks; at weekends and on Japanese public holidays slots sell out in advance",
+   "region": "Gifu Prefecture, Yaotsu, the Shin-Tabisoko Bridge over the Tabisoko river valley; ~1.5–2 h from Nagoya",
+   "booking": "Book online or by phone on 0278-72-8133, in 60-minute blocks. Cancelling the day before costs 50%, on the day of the jump 100%. Open year-round: April–September 9:00–17:30, October–March 8:30–17:00. ~700 m on foot from the car park through a tunnel",
+   "record": "Japan's highest bungee (215 m, opened in August 2020) and one of the highest bridge jumps in the world",
+   "pros": [
+    "A Japanese-record 215 m",
+    "Open year-round",
+    "A scenic mountain gorge",
+    "A discount if you've already jumped from another Bungy Japan bridge"
+   ],
+   "cons": [
+    "Expensive — JPY 28,000",
+    "Hard without a car: train to Mino-Ōta and a ~30-minute taxi",
+    "Strict cancellation rules",
+    "Weight limit of 100 kg"
+   ],
+   "airport": "NGO — Nagoya (Chubu), ~1.5 h by car",
+   "price_note": "First jump JPY 28,000 (≈€161), a second the same day JPY 13,000, for “regular jumpers” with a certificate — JPY 18,000; JPY 1,000 off if you've already jumped at another Bungy Japan site. Cash only",
+   "school_notes": [
+    null,
+    "Website in English and Japanese"
+   ]
+  },
+  "minakami-suwakyo-bungy": {
+   "h": "d60c9a9acc",
+   "description": "A jump from the Suwakyo Bridge, 42 m above the Tone river right in the middle of Minakami — Japan's rafting and canyoning capital. You can get there from Tokyo in 1.5 hours by shinkansen plus a bus. On the same day you can also jump from the operator's second bridge — Sarugakyo (62 m), a 20-minute drive away.",
+   "rating_basis": "A low but scenic jump over the Tone river in the middle of an outdoor-activity resort; a Bungy Japan classic",
+   "hazards": "Health restrictions: heart, blood pressure, back, pregnancy. Jumps stop when the river is high (snowmelt, the tsuyu rains in June) and during typhoons.",
+   "crowd_note": "Open only 2 days a week, so at weekends and on holidays slots go early; without a booking you can wait for hours",
+   "region": "Gunma Prefecture, Minakami town, ~1 km south of Minakami station; ~2 h from Tokyo",
+   "booking": "Booking online or by phone on 0278-72-8133 is essential for a convenient time. 2026 season: April – 31 October, Fridays and Saturdays only; 9:00–17:30 (until 17:00 in October). Under-18s with a parent or signed consent",
+   "record": "Japan's oldest operating bridge bungee site (since 2007)",
+   "pros": [
+    "Easy to reach from Tokyo",
+    "Can be combined with rafting and canyoning in Minakami",
+    "A combo with the higher Sarugakyo Bridge"
+   ],
+   "cons": [
+    "Only 42 m",
+    "Open only April–October, and only on Fridays and Saturdays",
+    "Cash only"
+   ],
+   "airport": "HND / NRT — Tokyo, ~2.5–3 h by train",
+   "price_note": "First jump JPY 12,000 (≈€69), a second the same day JPY 6,000, a repeat on another day JPY 7,000; combo with the Sarugakyo Bridge (62 m) on the same day — JPY 19,000. Cash only",
+   "school_notes": [
+    null,
+    "Website in English and Japanese"
+   ]
+  },
+  "ryujin-bridge-bungy": {
+   "h": "a22bc7463b",
+   "description": "A jump from the middle of the 375 m Ryujin suspension bridge in Ibaraki Prefecture — 100 m down to a reservoir in a wooded gorge. For a long time it was Japan's highest bungee; after the jump an electric winch hauls you back up to the bridge. In autumn the gorge turns red with maples, and that's the most beautiful time to jump.",
+   "rating_basis": "100 m above a lake in a wooded gorge, more than 10,000 jumps a year; especially beautiful in November during the maple season",
+   "hazards": "Health restrictions: heart, blood pressure, back, pregnancy. Jumps stop during typhoons (August–October) and thunderstorms; in winter the bridge is cold and windy.",
+   "crowd_note": "More than 10,000 jumpers a year: at weekends, on holidays and in the red-maple season (November) the wait without a booking is up to 3 hours",
+   "region": "Ibaraki Prefecture, Hitachiota city, the Ryujin Great Suspension Bridge over a reservoir; ~2.5 h from Tokyo",
+   "booking": "Booking is essential, especially for weekends and holidays: without one the wait is up to 3 hours. Open year-round, 9:00–11:00 and 12:00–17:30; check operating days by phone on 0278-72-8133. One companion can watch from the platform for an extra fee",
+   "record": "100 m — Japan's second-highest permanent bungee (after Gifu, 215 m); the 375 m bridge is one of the country's longest pedestrian suspension bridges",
+   "pros": [
+    "100 m of free flight",
+    "A beautiful gorge, especially in November",
+    "Open year-round",
+    "GoPro video included"
+   ],
+   "cons": [
+    "Awkward without a car: the bus from Hitachiota station runs 3–4 times a day",
+    "Queues at weekends",
+    "Cash only"
+   ],
+   "airport": "IBR — Ibaraki, ~1.5 h by car; NRT / HND — Tokyo, ~2.5 h",
+   "price_note": "First jump JPY 19,000 (≈€109), a second the same day JPY 8,000, a repeat on another day JPY 11,000; GoPro video included. Cash only",
+   "school_notes": [
+    null,
+    "Website in English and Japanese"
+   ]
+  },
+  "macau-tower": {
+   "h": "f7e02412b0",
+   "description": "A jump from the outer rim of the Macau Tower at 233 m — about 4–5 seconds of free fall at up to 200 km/h, braking 30 m above the ground. Guide cables secure the fall, so the jump is both extreme and very high-tech. The same platform offers the SkyJump (a cable-controlled descent), the SkyWalk around the edge and a climb up the tower's mast.",
+   "rating_basis": "A Guinness record, consistently in the top 3 highest commercial bungee jumps in the world, the legendary operator AJ Hackett",
+   "hazards": "Not allowed with heart or blood pressure problems, epilepsy, pregnancy, recent surgery and injuries, or a history of dislocations. Jumps stop in typhoons, strong wind, thunderstorms and downpours — typhoon season is June–October.",
+   "crowd_note": "Queues on the platform at weekends and on Chinese holidays; weekday mornings are quieter (there's a discount for early slots)",
+   "region": "Macau Peninsula, the Macau Tower, platform at 233 m",
+   "booking": "Book on the Skypark website or via aggregators (Klook, LocalTours in Russian); open daily: Mon–Fri 11:00–19:00, Sat–Sun 10:30–19:30. Under-18s only with a parent, who signs a liability waiver",
+   "record": "Guinness record: the highest commercial bungee jump from a building (233 m); one of the highest bungee jumps in the world",
+   "pros": [
+    "One of the highest bungee jumps in the world",
+    "Open daily, year-round",
+    "Can be combined with the SkyWalk and the mast climb",
+    "Easy to reach from Hong Kong by ferry or via the bridge"
+   ],
+   "cons": [
+    "Expensive: ≈€330 without photos and video",
+    "Views of the city and construction sites, not nature",
+    "Heat, thunderstorms and typhoons in summer — jumps get suspended"
+   ],
+   "airport": "MFM — Macau, ~15 min; HKG — Hong Kong, ~45 min via the HZMB bridge",
+   "price_note": "Solo jump MOP 3,088 (≈€330): tower entry ticket, T-shirt, e-certificate; photos and video as a separate package. Tandem MOP 5,488, SkyJump MOP 2,188, SkyWalk MOP 788, Tower Climb MOP 2,688",
+   "school_notes": [
+    null,
+    "Official operator, website in English and Chinese",
+    "Russian-language ticket reseller; staff on site speak English and Chinese"
+   ]
+  },
+  "kushma-bungee": {
+   "h": "3dec42556a",
+   "description": "A jump from a 520 m suspension bridge 228 m above the Kali Gandaki gorge between Kushma and Balewa — according to the operator, the second-highest bungee on the planet after Macau. The free fall lasts about 5–7 seconds. The Cliff site also has a giant swing, a “sky cycle” on a cable, a café above the abyss and overnight stays in tents and cottages.",
+   "rating_basis": "228 m — according to the operator and Wikipedia, the second-highest jump in the world after Macau; popular on social media, around 300 visitors a day",
+   "hazards": "Not allowed with heart disease, blood pressure or back problems, or pregnancy. Operations stop in thunderstorms and strong wind; in the monsoon (June–September) landslides wash out the Pokhara–Kushma road.",
+   "crowd_note": "Up to 300 visitors a day, busiest at weekends and during Nepali festivals (Dashain, Tihar); arrive at opening time",
+   "region": "Parbat, the Kali Gandaki river gorge, 62 km from Pokhara",
+   "booking": "Book by phone/WhatsApp or through agencies in Pokhara (a day tour with transfer). No tandem jumps; there are tents and cottages nearby for an overnight stay",
+   "record": "The second-highest bungee jump in the world (228 m) and the highest in Nepal; the same bridge has the “world's highest swing”",
+   "pros": [
+    "Near-record height for next to nothing",
+    "The wild Kali Gandaki gorge",
+    "A day trip from Pokhara",
+    "A swing and other attractions on the same bridge"
+   ],
+   "cons": [
+    "Age 18+ and up to 105 kg only",
+    "~2 hours from Pokhara on a mountain road",
+    "No tandem jumps",
+    "Fog and landslides in the monsoon"
+   ],
+   "airport": "PKR — Pokhara, ~2 h by car",
+   "price_note": "NPR 8,000 (≈€49) — the same price for Nepalis and foreigners; photos, video and T-shirt extra; a repeat jump the same day NPR 4,000. Press reports from 2023 quoted NPR 7,500",
+   "school_notes": [
+    null,
+    "Prices, rules and contacts (WhatsApp/Viber)"
+   ]
+  },
+  "last-resort-bhote-koshi": {
+   "h": "b4a693f8e4",
+   "description": "A jump from a 166 m pedestrian suspension bridge strung across the Bhote Koshi river gorge right by the Tibetan border: 160 m and about 5 seconds of free fall towards the churning water. It's Nepal's first and best-known bungee site. Nearby are a canyon swing, a tandem swing, canyoning and rafting, and on the riverbank a tented camp where you can stay the night.",
+   "rating_basis": "A Nepal classic: 160 m above a wild river in a narrow gorge, a Swiss-designed bridge, good reviews on safety; features on lists of the highest bridge jumps",
+   "hazards": "Not allowed with heart disease, hypertension, epilepsy, asthma, recent surgery, orthopaedic or neurological problems, pregnancy, or when intoxicated. In the monsoon (June–September) landslides block the Araniko Highway, and the trip can drag on or fall through: in August 2025 the highway was closed by landslides for 11 days.",
+   "crowd_note": "People jump in groups on the day-tour schedule; queues are short, but in October–November tours from Kathmandu are best booked ahead",
+   "region": "Sindhupalchok, the Araniko Highway, ~100 km from Kathmandu and ~12 km from the Tibetan border",
+   "booking": "Book on the website or at the office on Mandala Street in Thamel (pay at least 3 days ahead); the bus leaves Thamel around 6:00 and the drive takes 3.5–4.5 hours. You can stay overnight in the tented camp by the bridge. Under-18s with a parent",
+   "record": "Nepal's first bungee site; 160 m above the river — one of the highest bridge jumps in the world, and the same site has one of the longest canyon swings",
+   "pros": [
+    "A very high jump in a real mountain gorge",
+    "Inexpensive for the height",
+    "Can be combined with the canyon swing, canyoning and rafting",
+    "Overnight stay in the camp by the bridge"
+   ],
+   "cons": [
+    "A long drive from Kathmandu on a mountain road",
+    "Strict bungee weight limit — up to 98 kg",
+    "Monsoon in summer: fog, downpours and landslides on the Araniko Highway"
+   ],
+   "airport": "KTM — Kathmandu, ~3.5–4.5 h by bus",
+   "price_note": "Jump only USD 92 (≈€79); a day tour from Kathmandu with transfer and lunch — USD 108, bungee + canyon swing — USD 137, a second jump or swing — USD 55",
+   "school_notes": [
+    "Official operator, prices in USD, website in English"
+   ]
+  },
+  "pokhara-highground-bungee": {
+   "h": "de868370e9",
+   "description": "A jump from an 80 m cantilever tower in the Hemja valley near Pokhara (guidebooks quote 70–75 m of flight), with views of Himalayan peaks. It's the easiest way to jump in Nepal without a long drive: the transfer from Lakeside takes 20 minutes. Tandems are available, and the same operator runs the ZipFlyer from Sarangkot and paragliding flights.",
+   "rating_basis": "A modest cantilever tower, but with views of Annapurna and Machapuchare and just 20 minutes from Pokhara; good reviews as a “first bungee”",
+   "hazards": "Health restrictions: heart, blood pressure, back, pregnancy, recent surgery. Jumps stop in thunderstorms and downpours; Pokhara is Nepal's rainiest city (June–September).",
+   "crowd_note": "Slots by booking, usually no queues; more tourists in October–November",
+   "region": "Hemja valley, ~20 min from Lakeside (Pokhara)",
+   "booking": "Instant online booking on the website or at the office on Lakeside Road (Barahi Chowk); photo ID required. Open daily; closed-toe shoes are mandatory, skirts and flip-flops are not allowed",
+   "record": "The only tower bungee site in Nepal",
+   "pros": [
+    "20 minutes from Pokhara",
+    "Cheap",
+    "Views of Annapurna in clear weather",
+    "Tandem jumps available"
+   ],
+   "cons": [
+    "Modest height for Nepal",
+    "A tower, not a gorge",
+    "In the monsoon clouds hide the mountains, frequent downpours"
+   ],
+   "airport": "PKR — Pokhara, ~30 min",
+   "price_note": "From NPR 5,000 (≈€31) for a solo jump per the operator's website; tandem NPR 9,500 with transfer from Lakeside. Older guidebooks quote NPR 8,700–13,000 depending on nationality — check",
+   "school_notes": [
+    null,
+    "Tower operator; also ZipFlyer, paragliding and quad bikes"
+   ]
+  },
+  "auckland-harbour-bridge": {
+   "h": "3401fbf356",
+   "description": "A jump from a pod under the deck of Auckland Harbour Bridge — 40 m down to the waters of the Waitematā Harbour. You can ask to dunk your head in the ocean (depending on the tide) or jump in tandem. The jump is easy to combine with the Bridge Climb tour.",
+   "rating_basis": "A city jump with a panorama of Auckland and the harbour, plus an ocean touch; low, but convenient for travellers passing through",
+   "hazards": "The usual contraindications: pregnancy, photosensitive epilepsy, heart, blood pressure, back. In windy and rainy weather (especially in winter) jumps may be rescheduled.",
+   "crowd_note": "Usually no queues; more groups on summer weekends",
+   "region": "Auckland, the bridge over the Waitematā Harbour; starts at Westhaven Marina, 5–10 min from the centre",
+   "booking": "Book on bungy.co.nz; meeting point at 105 Curran Street, Westhaven Marina (free parking). Open daily 9:00–16:30, except Christmas Day. For a water touch, ask the jump master at check-in",
+   "record": "Auckland's only bungee — a jump towards the sea from the city's main bridge",
+   "pros": [
+    "Within the city, handy before a flight out of Auckland",
+    "An ocean water touch",
+    "Tandem jumps",
+    "Combo with the Bridge Climb tour"
+   ],
+   "cons": [
+    "Only 40 m",
+    "A water touch isn't guaranteed — it depends on the tide"
+   ],
+   "airport": "AKL — Auckland, ~30–40 min",
+   "price_note": "A single jump from NZD 260 (child from NZD 220), photos, video and T-shirt included when booked direct; combo with the Bridge Climb — NZD 325; spectators — NZD 20",
+   "school_notes": [
+    null,
+    "Official booking; combo with the Bridge Climb"
+   ]
+  },
+  "kawarau-bridge": {
+   "h": "ccc2aea942",
+   "description": "A historic 1880 suspension bridge over the emerald Kawarau River — this is where the world's first commercial bungee site opened in 1988. It's 43 m to the water; you can ask for a river touch (depending on the water level, not guaranteed) or jump in tandem. Nearby are a swing over the gorge, a short zipline and the wineries of the Gibbston Valley.",
+   "rating_basis": "The “home of bungee” and the first commercial site (Wikipedia, AJ Hackett), the turquoise Kawarau River, a must-do in Queenstown",
+   "hazards": "Not for pregnant women or people with photosensitive epilepsy; with osteoporosis, scoliosis or a recent concussion you need a doctor's certificate. It's cold by the river in winter — bring a jacket. With a water touch your head and shoulders may go into the cold river.",
+   "crowd_note": "In summer and on holidays there's a queue on the bridge and lots of spectators; morning slots are quieter",
+   "region": "Otago, the Gibbston Valley, 23 km from Queenstown on SH6",
+   "booking": "Book direct on bungy.co.nz; in summer (December–February) a few days ahead. Allow 1.5 h if you drive yourself, 2.5 h by bus from central Queenstown. Hours: October–April 8:30–17:00, May–September 9:00–16:30, daily except Christmas Day. Spectators watch for free",
+   "record": "The world's first commercial bungee site — AJ Hackett opened it in 1988",
+   "pros": [
+    "A historic site — the “home of bungee”",
+    "Water touch and tandem jumps",
+    "Photos and video included when booked direct",
+    "20–25 minutes from Queenstown, reachable under your own steam"
+   ],
+   "cons": [
+    "Expensive for 43 m",
+    "Crowded in summer",
+    "When the water is high the weight limit drops to 130 kg"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min",
+   "price_note": "A single jump from NZD 320 (child from NZD 280); booking direct includes photos and video, a T-shirt and the bus from Queenstown. Swing NZD 240, zipline NZD 50",
+   "school_notes": [
+    null,
+    "Official booking; combo with the Nevis available"
+   ]
+  },
+  "ledge-bungy": {
+   "h": "1dedc5a0a2",
+   "description": "A platform above the slope near the top of the Skyline gondola, 400 m above Queenstown and Lake Wakatipu. Here you jump with a run-up in a waist harness — you can dive, do a flip or simply step off. The most spectacular option is an evening jump into the darkness above the city lights.",
+   "rating_basis": "The best view of Queenstown and Lake Wakatipu, evening jumps above the city lights; not very high",
+   "hazards": "The usual contraindications: pregnancy, heart, back and blood pressure problems. On winter evenings it's cold and windy at the top; the walking tracks up Bob's Peak aren't recommended in winter.",
+   "crowd_note": "Usually no long queues; the Skyline gondola can have queues in summer",
+   "region": "Queenstown, Bob's Peak by the top station of the Skyline gondola, 400 m above the town",
+   "booking": "The site is temporarily closed because of staff shortages; AJ Hackett promises to reopen it in summer 2026/27 (newzealand.com says “from November 2026”), for now booking is via a waiting list. Normally open daily 13:00–20:00; up via the Skyline gondola from Brecon St",
+   "record": "Run-up bungee in a waist harness above the lights of Queenstown; the jump closest to the town centre",
+   "pros": [
+    "Five minutes' walk from the centre plus the gondola",
+    "You can jump with a run-up and freestyle",
+    "Evening jumps above the lights of Queenstown",
+    "Open in the afternoon until 20:00"
+   ],
+   "cons": [
+    "Temporarily closed — check the status before you go",
+    "The gondola is paid for separately",
+    "Only 47 m"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min to the gondola's bottom station",
+   "price_note": "A single jump NZD 240; the Skyline gondola ticket isn't included and is bought separately; swing NZD 210",
+   "school_notes": [
+    null,
+    "Official page; currently a waiting list until it reopens"
+   ]
+  },
+  "nevis-bungy": {
+   "h": "f3c67be7e4",
+   "description": "A pod cabin hangs on cables above the Nevis River canyon, and you reach it in a small cable car. 134 m and 8.5 seconds of fall — the highest jump in New Zealand. The same site has the Nevis Swing (the world's biggest swing) and a catapult, and the road there crosses private land in an off-road bus.",
+   "rating_basis": "The country's highest jump and one of the highest bungee platforms in the world (Wikipedia), a wild canyon, cult status among Queenstown visitors",
+   "hazards": "Not for pregnant women or people with photosensitive epilepsy; with osteoporosis, scoliosis or a recent concussion — a doctor's certificate. Glasses come off (free protective goggles with prescription lenses are provided). Closed-toe shoes required, warm layers in winter. May be cancelled in strong wind.",
+   "crowd_note": "The flow is regulated by the buses, so there's little queuing, but in summer places go early",
+   "region": "Otago, the Nevis River valley, ~45 min by bus from Queenstown",
+   "booking": "Booking only (changes and cancellations up to 48 h ahead). You can't drive there yourself: a 4×4 bus from the Queenstown Bungy Centre (corner of Shotover and Camp St); the whole trip takes about 4 hours. Departures vary by season — in August 2026 the bus ran Thursday–Monday at 8:40, 10:00 and 12:00",
+   "record": "New Zealand's highest bungee jump — 134 m and 8.5 seconds of flight; also home to the world's biggest swing and the first catapult",
+   "pros": [
+    "The highest jump in the country",
+    "A wild mountain canyon without crowds of spectators",
+    "Transfer, photos and video included",
+    "You can do the “trilogy”: jump, swing and catapult"
+   ],
+   "cons": [
+    "Expensive",
+    "Minimum age 13, weight from 45 kg",
+    "The trip takes about 4 hours",
+    "Fewer departures and cold in winter"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min to the centre, then ~45 min by bus",
+   "price_note": "A single jump NZD 395 (same price for adults and children); includes the 4×4 bus from Queenstown, photos and video, T-shirt. Swing NZD 325, catapult NZD 295, combo of all three — NZD 805",
+   "school_notes": [
+    null,
+    "Official booking; combos with the swing, catapult and Kawarau",
+    "Booking via a Russian-language interface; service on site in English"
+   ]
+  },
+  "taupo-bungy": {
+   "h": "b29ce54648",
+   "description": "A cantilever platform juts out from a cliff above the Waikato River a few minutes from Lake Taupō: 47 m down to turquoise water. You can ask for a river touch or jump in tandem, and next door there's a swing over the same gorge. A good option for those travelling around the North Island who won't make it to Queenstown.",
+   "rating_basis": "A beautiful turquoise river, a water touch, easy to combine with other Taupō activities (skydiving, jetboating)",
+   "hazards": "The usual contraindications: pregnancy, photosensitive epilepsy, heart, blood pressure, back. Chilly in winter; in strong wind jumps may be rescheduled.",
+   "crowd_note": "Busy in summer and during school holidays, but there are usually no long queues",
+   "region": "Taupō, North Island, a cliff above the Waikato River (202 Spa Road), 5–10 min from the centre",
+   "booking": "Book on bungy.co.nz; free cancellation up to 48 h ahead. In autumn 2026 the site closed for rebuilding — the bungee reopens on 12 November, the swing on 5 November. Hours: weekdays 9:30–16:00, weekends until 17:00 (until 17:00 in summer), closed on Christmas Day",
+   "record": "New Zealand's only cliff-edge bungee — a cantilever platform above the turquoise Waikato",
+   "pros": [
+    "Water touch and tandem jumps",
+    "Within the town, close to skydiving and jetboating",
+    "A beautiful turquoise gorge"
+   ],
+   "cons": [
+    "The height of a city site",
+    "A water touch isn't guaranteed",
+    "Check the schedule after the autumn 2026 rebuild"
+   ],
+   "airport": "TUO — Taupō, ~15 min; AKL — Auckland, ~3.5 h by car",
+   "price_note": "A single jump from NZD 275 (child from NZD 235), photos, video and T-shirt when booked direct; swing NZD 240; combos with jetboating, rafting or skydiving NZD 361–785",
+   "school_notes": [
+    null,
+    "Official booking, combos with the swing and skydiving",
+    "Prices, hours, family rate NZD 785 (2 adults + 2 children aged 10–14)"
+   ]
+  },
+  "action-valley-cusco": {
+   "h": "42a3382006",
+   "description": "An adventure park in the valley near Poroy, 20 minutes from Cusco: a platform jump with 122 m of free fall — one of the highest in South America. The same park has the Slingshot catapult, which launches you up to 130 m in 4 seconds, a swing and a “sky bike”. Easy to combine with a trip to Machu Picchu.",
+   "rating_basis": "One of the highest jumps on the continent, at 3,600 m above sea level near Cusco and Machu Picchu; 4.6 out of 5 in Google reviews (117 reviews)",
+   "hazards": "Acclimatise in Cusco for 1–2 days first: the 3,600 m altitude puts extra strain on the heart. Not open to pregnant women or people with epilepsy; with osteoporosis, scoliosis or a recent concussion you need a doctor's certificate; also contraindicated with heart disease and hypertension. In the rainy season thunderstorms and cancellations are possible.",
+   "crowd_note": "Short queues; more groups from Cusco in the dry season (June–August)",
+   "region": "Cusco, Poroy district, 11 km (~20 min) from central Cusco",
+   "booking": "Book at the Action Valley office at Calle Santa Teresa 325 in Cusco or through agencies; departure in the morning (~9:00), the whole thing takes about 3 hours",
+   "record": "Latin America's highest bungee according to the operator: 122 m of free fall; the park has been running since 2001, with more than 500,000 jumps",
+   "pros": [
+    "A huge free-fall height",
+    "20 minutes from Cusco",
+    "The Slingshot catapult — a rare attraction",
+    "Inexpensive for the height"
+   ],
+   "cons": [
+    "3,600 m altitude — acclimatisation needed",
+    "Rain from November to March",
+    "Its own website has no online price list"
+   ],
+   "airport": "CUZ — Cusco, ~25 min",
+   "price_note": "Bungee only ~USD 74, bungee + catapult USD 105–120 (Civitatis, Nomades) or PEN 600 with Condor Xtreme; transfer from Cusco PEN 40, photos and video USD 20",
+   "school_notes": [
+    "The park's official website: bungee, Slingshot catapult, “sky bike”",
+    "Cusco agency: bungee + catapult with transfer, PEN 600",
+    "Online booking for bungee with catapult from USD 105, with transfer"
+   ]
+  },
+  "skypark-sochi-bungy-207": {
+   "h": "22620a04d2",
+   "description": "A jump from a pod in the middle of the Skybridge suspension bridge, 207 m above the Akhshtyr Gorge — about 7 seconds of free fall. The same park has Bungy 69 from the start of the bridge (age 10+, tandem available), Bungy 207 PRO from the roof of the pod, the SochiSwing over the abyss, a zipline and the MegaTroll trolley at up to 120 km/h.",
+   "rating_basis": "One of the highest bungee jumps in the world and the highest in Russia; views of the Akhshtyr Gorge, the Mzymta valley and the sea; Russia's best-known jump site (Lenta.ru)",
+   "hazards": "Contraindications: blood pressure, heart, spine, recent injuries and surgery, pregnancy (full list on the park's website). Jumps are suspended in strong wind and thunderstorms, and in bad weather the weight limit may be tightened. In winter the walkways are slippery — wear shoes with good soles.",
+   "crowd_note": "Peak season is July–September; the bridge is narrow, so it's best to arrive at opening time. The jump time is assigned by the instructor; online booking is essential in season",
+   "region": "Krasnodar Krai, Sochi, Kazachiy Brod village, the Akhshtyr Gorge (on the road to Krasnaya Polyana)",
+   "booking": "Tickets online, by phone or by e-mail (online until the day before); arrive at least 30 minutes early. Attractions operate Wed–Sun 10:30–17:00 with a lunch break; jumps are suspended in strong wind and thunderstorms",
+   "record": "Russia's highest bungee jump (207 m, according to the operator); the 439 m Skybridge is one of the longest pedestrian suspension bridges in the world",
+   "pros": [
+    "Russia's highest bungee, ~7 s of free fall",
+    "Everything in Russian, online booking",
+    "Open year-round, 30–40 minutes from Sochi airport",
+    "Lots of other attractions in the same park"
+   ],
+   "cons": [
+    "Expensive: 24,000 ₽ plus the entry ticket and video",
+    "Age 18+ only",
+    "Closed Mon–Tue, a break in the middle of the day",
+    "In winter attractions close during snowfall and wind"
+   ],
+   "airport": "AER — Sochi (Adler), ~30 min by car",
+   "price_note": "Bungy 207 — 24,000 ₽ (~€250 at ~95 ₽/€) + a compulsory park entry ticket; media package 3,000 ₽ if prepaid or 3,500 ₽ after the jump. Bungy 207 PRO from the pod roof (210 m, only after a classic jump) — 15,000 ₽; Bungy 69 from the start of the bridge — 12,000 ₽ (ages 14–17 8,000 ₽, ages 10–13 5,000 ₽); SochiSwing — 9,000 ₽",
+   "school_notes": [
+    null,
+    "Official jump page, prices and rules in Russian",
+    "A 69 m jump from the start of the bridge, age 10+, tandem available"
+   ]
+  },
+  "sulak-canyon-nokhyo-tarzanka": {
+   "h": "3600d220f5",
+   "description": "A jump over the Sulak Canyon — one of the deepest in Europe — at the former Nokhyo tunnel complex, where caves are linked by a 70 m suspension bridge. Nearby are a giant swing over the abyss and a 500 m zipline with a 250 m drop. Check the format (elastic cord or rope with a pendulum swing) and the height on site.",
+   "rating_basis": "The Sulak Canyon is one of Dagestan's main sights, and the Nokhyo complex is very popular with tourists; the jump height and operator aren't publicly documented",
+   "hazards": "No public data on equipment certification; in 2021 two tourists in Dagestan fell from a faulty swing above the canyon (they miraculously survived) — check the gear and ask about insurance. Contraindications as for bungee: blood pressure, heart, spine, pregnancy. Operations are suspended in rain and strong wind.",
+   "crowd_note": "At weekends and in the middle of the day the queue for the Tarzan swing and the swings is several hours; for double the price you can skip the queue",
+   "region": "Dagestan, the Sulak Canyon near the village of Dubki, ~70 km from Makhachkala (approximate coordinates)",
+   "booking": "Pay on site; arrive at opening time or on a weekday — at weekends and in the middle of the day the queue is several hours. Usually part of “Sulak Canyon and Nokhyo caves” excursions from Makhachkala, Kaspiysk, Izberbash and Derbent (the boat trip through the canyon is extra)",
+   "pros": [
+    "A spectacular view of the turquoise Sulak in a deep canyon",
+    "Easy to combine with a boat trip, the zipline and the viewpoints at Dubki",
+    "Everything in Russian, 1.5 hours from Makhachkala"
+   ],
+   "cons": [
+    "Queues lasting hours in season",
+    "No official website, no age or weight rules and no data on the height",
+    "Hot in the canyon in summer — April–May and September–October are better"
+   ],
+   "airport": "MCX — Makhachkala (Uytash), ~1.5 h by car",
+   "price_note": "Tarzan swing from 7,000 ₽ (~€74 at ~95 ₽/€), queue-skip ~14,000 ₽; giant swing over the abyss from 5,000 ₽ (queue-skip 10,000 ₽); entry to the Nokhyo cave complex 500 ₽; insurance and a helmet are compulsory"
+  },
+  "tobot-waterfall-tarzanka": {
+   "h": "fb1b26ed81",
+   "description": "Rope jumping (a jump on an ordinary rope with climbing shock absorbers, not an elastic cord) from the edge of the Tsolotl Canyon next to the Tobot waterfall. First about 70 m of free fall, then a pendulum swing over the abyss. There's also a swing over the cliff nearby.",
+   "rating_basis": "A high jump next to a 70 m waterfall on the edge of a huge canyon; a popular stop on tours of mountainous Dagestan; the operator and rules aren't publicly documented",
+   "hazards": "No public information on equipment certification — choose an organiser with reviews and ask about insurance. Contraindications as for bungee: blood pressure, heart, spine, pregnancy. Don't jump in rain or strong wind; the mountain road is dangerous after downpours.",
+   "crowd_note": "Most visitors are summer tour groups in the daytime; early mornings and weekdays are quieter",
+   "region": "Dagestan, Khunzakh District, the edge of the Tsolotl Canyon near the village of Arani, ~3 km from Khunzakh, ~140 km from Makhachkala (approximate coordinates)",
+   "booking": "Pay and jump on site, usually as part of an excursion from Makhachkala, Kaspiysk or Izberbash to Khunzakh and Matlas; it's a mountain road, and after rain there can be restrictions because of landslides",
+   "record": "Dagestan's highest Tarzan swing: a jump from a 100 m cliff with a fall of about 70–75 m (according to T—Zh)",
+   "pros": [
+    "One of the most spectacular jumps in the Caucasus: a waterfall and a canyon",
+    "Easy to combine with an excursion to Khunzakh and the Matlas plateau",
+    "Everything in Russian"
+   ],
+   "cons": [
+    "No official website and no published age or weight rules",
+    "Far from Makhachkala: ~3 hours on a mountain road",
+    "Operating season not confirmed — check before you go"
+   ],
+   "airport": "MCX — Makhachkala (Uytash), ~3 h by car",
+   "price_note": "From 10,000 ₽ (~€105 at ~95 ₽/€), according to nashaplaneta.net; check the price and operator on site. There's a similar rope-jumping site on the neighbouring Matlas plateau (Tarzan swing from 5,000 ₽)"
+  },
+  "solkan-bridge": {
+   "h": "86fd5295f8",
+   "description": "A jump from a 55 m road bridge over the emerald Soča — right next to the stone Solkan Bridge. Not high, but cheap and very photogenic. Easy to combine with kayaking on the Soča and a trip to neighbouring Gorizia in Italy.",
+   "rating_basis": "A low jump, but a very scenic location: the emerald Soča and the famous stone bridge",
+   "hazards": "You need to be in good health: standard contraindications (heart, blood pressure, back, pregnancy). Jumps are cancelled in thunderstorms and strong wind.",
+   "crowd_note": "Almost no queues, but it operates only at weekends",
+   "region": "Goriška, the Soča valley, on the outskirts of Nova Gorica",
+   "booking": "Mid-May to mid-October, Saturdays and Sundays only (according to Yumping, 10:00–15:30). Advance booking required; the next date on the operator's website is May 2027. Minors need a parent's signature.",
+   "record": "Slovenia's only bungee operator, running since 1993; next door is the Solkan Bridge, with the world's largest stone railway arch (85 m)",
+   "pros": [
+    "Inexpensive — about €70",
+    "The emerald Soča and a view of the stone bridge",
+    "Kayaking and an adventure park nearby"
+   ],
+   "cons": [
+    "Only 55 m",
+    "Weekends only, May to October",
+    "Little information and no online prices on the website"
+   ],
+   "airport": "TRS — Trieste, ~45 min; LJU — Ljubljana, ~1 h 15 min",
+   "price_note": "€70 per jump according to the Vipava Valley tourism portal; a gift voucher on Yumping — from €150",
+   "school_notes": [
+    null,
+    "Operator; website in Slovenian, English and Italian"
+   ]
+  },
+  "chiang-mai-x-centre": {
+   "h": "e6b1d52320",
+   "description": "A jump from a 50 m tower over a pond in the green Mae Rim valley near Chiang Mai. You can choose whether or not to touch the water. The site has been running since 1992 and is considered the most “jungly” in Thailand; easy to combine with a trip to the waterfalls and elephant parks on the road to Samoeng.",
+   "rating_basis": "A well-run site with good reviews, but only 50 m above a pond; valued for its safety and the greenery around it",
+   "hazards": "Not allowed with pregnancy, hypertension, heart disease, neurological disorders, epilepsy, asthma, a history of shoulder dislocation, or after drinking alcohol. In March–April there's heavy smog (field-burning season); in the rainy season jumps are suspended during thunderstorms.",
+   "crowd_note": "Almost no queues; busier in December–January and over Chinese New Year",
+   "region": "Chiang Mai, Mae Rim district, the Mae Rim – Samoeng road, ~30 min from the centre",
+   "booking": "Online via aggregators (Pelago, Ticket2Attraction) or at Chiang Mai tour agencies; daily 9:00–18:00, the jump itself with the briefing takes 20–30 minutes. Transfer from town extra",
+   "record": "Chiang Mai's only bungee; operating since 1992 to New Zealand standards",
+   "pros": [
+    "A beautiful green valley",
+    "You can touch the water",
+    "Inexpensive, often discounted online",
+    "Close to the waterfalls and parks of Mae Rim"
+   ],
+   "cons": [
+    "Only 50 m",
+    "Transfer costs extra",
+    "February–April — haze from forest fires, May–October — rain"
+   ],
+   "airport": "CNX — Chiang Mai, ~35 min",
+   "price_note": "THB 2,500 (≈€66) list price, discounted by online agents from THB 1,990: jump, insurance, certificate; transfer not included",
+   "school_notes": [
+    null,
+    "Online booking; instructors speak English",
+    "Discounted tickets, contact via WhatsApp/Line"
+   ]
+  },
+  "pattaya-xbungy": {
+   "h": "257f778ca0",
+   "description": "A jump from a 60 m platform over a lake on the outskirts of Pattaya — the highest bungee in Thailand. Tandem jumps are possible, and next door Sanook park has a human slingshot, paintball and go-karts. A handy way to “jump between beach days”: 15–20 minutes by taxi from the centre.",
+   "rating_basis": "The highest in Thailand, 4.5/5 from ~400 Google reviews; but it's a jump over an artificial lake in a city amusement park",
+   "hazards": "Not allowed with pregnancy, hypertension, heart disease, epilepsy, asthma, neck, back or eye injuries, or when intoxicated; don't eat a heavy meal before jumping. Jumps are suspended during thunderstorms.",
+   "crowd_note": "Hardly ever any queues; busier at weekends and in December–February",
+   "region": "Pattaya, Thepprasit Road, Soi 9, Sanook Park",
+   "booking": "You can turn up without booking or buy online; daily from 10:00, last jump at 17:30. You need your passport for the insurance. Under-16s with an adult",
+   "record": "Thailand's highest bungee (60 m); the site has been running since 1989 according to the operator",
+   "pros": [
+    "Thailand's highest bungee",
+    "Video and certificate included in the price",
+    "Tandem jumps available",
+    "Close to central Pattaya"
+   ],
+   "cons": [
+    "An urban view of a lake and construction sites",
+    "Downpours and thunderstorms from May to October",
+    "Hotel transfer not included"
+   ],
+   "airport": "UTP — U-Tapao, ~40 min; BKK — Bangkok Suvarnabhumi, ~1.5 h",
+   "price_note": "THB 2,500 (≈€66): jump, video, certificate and insurance; human slingshot (2 launches) — THB 1,400. Hotel transfer not included",
+   "school_notes": [
+    null,
+    "Official website, online purchase",
+    "Russian-language aggregator page; tickets temporarily unavailable when checked"
+   ]
+  },
+  "phuket-jungle-bungy": {
+   "h": "bb008a0863",
+   "description": "A jump from a 50 m platform over the green lagoon of a former tin mine in the Kathu jungle, 10 minutes from Patong. The operator has been running since 1992 to New Zealand standards; after the jump you're lowered into a boat. Besides the classic jump there are tandems, a backwards jump, a “catapult” and a water-touch jump.",
+   "rating_basis": "A reliable, long-established operator with good reviews, but the height is modest (50 m) and the jump is over the artificial lagoon of a former tin mine",
+   "hazards": "Not allowed with heart, blood pressure, back or neck problems, pregnancy or epilepsy. In the rainy season (May–October) jumps are suspended for thunderstorms.",
+   "crowd_note": "Usually no queues; more tour-agency groups in December–February",
+   "region": "Phuket, Kathu district, Wichitsongkram Road — ~10 min from Patong",
+   "booking": "You can turn up without booking or book through a tour agency with transfer (not included in the price). Daily 9:00–18:00, last jumps around 17:30. Under-18s need parental consent",
+   "record": "Thailand's oldest bungee: since 1992, a New Zealand team, more than 25 years without a fatality",
+   "pros": [
+    "Close to Patong",
+    "The oldest and most experienced operator",
+    "You can touch the water, jump in tandem or backwards",
+    "Open year-round"
+   ],
+   "cons": [
+    "Low by world standards",
+    "Transfer and video cost extra",
+    "May to October — southwest monsoon and downpours"
+   ],
+   "airport": "HKT — Phuket, ~40 min",
+   "price_note": "From THB 2,200 (≈€58) per jump with certificate and insurance; packages with T-shirt, photos and video — up to ~THB 3,000; according to 2026 guides a solo jump is ~THB 2,800–3,200. A second jump the same day is cheaper",
+   "school_notes": [
+    null,
+    "Online booking; no official website found, phone +66 76 321 351"
+   ]
+  },
+  "jinja-nile-bungee": {
+   "h": "1a2a9b9637",
+   "description": "A 44 m tower on the bank of the White Nile at Kalagala Falls, not far from Jinja — the town where the Nile flows out of Lake Victoria. You can choose a water-touch jump or jump in tandem. Bungee is usually combined with some of the world's best grade 5 rafting.",
+   "rating_basis": "A unique location above the White Nile, a water touch, popular with overlanders and rafters; modest height",
+   "hazards": "Not allowed with pregnancy, heart disease, high blood pressure, asthma or back problems; you must be sober. No jumps in thunderstorms or strong wind. The ankle harness straps can chafe. Malaria zone — prophylaxis needed.",
+   "crowd_note": "Hardly ever any queues; most jumpers are rafting clients and camp guests",
+   "region": "Kalagala Falls, Kangulumira, ~30 km north of Jinja (on the bank of the White Nile)",
+   "booking": "Book ahead through Adrift; arrive 30 minutes before your jump. Open 7 days a week year-round, except in gale-force wind and thunderstorms. Usually combined with grade 5 rafting on the Nile and a night at the Kalagala Falls camp",
+   "record": "The only purpose-built bungee tower in East Africa — a jump towards the source of the Nile",
+   "pros": [
+    "A Nile water touch",
+    "Tandem jumps",
+    "Inexpensive by world standards",
+    "Combines perfectly with rafting and a night by the river"
+   ],
+   "cons": [
+    "Modest height",
+    "Far from the capital: 3+ hours from Entebbe airport",
+    "Information on the jump location varies (the tower used to stand near Jinja) — check when booking"
+   ],
+   "airport": "EBB — Entebbe, ~3–3.5 h via Kampala",
+   "price_note": "A single jump USD 115 for foreigners (cheaper for East African residents); “rafting + bungee” combos available",
+   "school_notes": [
+    null,
+    "Online booking; tandems and water touches are its signature",
+    "Tour operator with transfers from Jinja/Kampala"
+   ]
+  },
+  "bridge-to-nowhere-bungee": {
+   "h": "57bcb942e4",
+   "description": "A 1936 concrete arch bridge over the gorge of the East Fork of the San Gabriel River: the road to it was washed away by the 1938 flood, and now you reach it on a hike of about 8 km up the canyon with river crossings. From the bridge you jump 37 m down towards the river. It's really a day hike with a jump: you can jump several times, there are advanced styles (backflip, “the lumberjack”) and overnight trips with night jumps.",
+   "rating_basis": "A cult location: an abandoned arch bridge in a gorge, accessible only on foot; the jump isn't high, but the whole trip is an adventure",
+   "hazards": "River crossings knee-deep and deeper: after rain and in spring the water can be fast and dangerous (people have drowned on the trail). Summer heat up to 35 °C — you need 2–3 litres of water. The trail was closed after the 2024 Bridge Fire and reopened in summer 2025; check the status with Angeles National Forest before you go. Standard bungee contraindications.",
+   "crowd_note": "Groups are large and you can spend several hours in the queue on the bridge — bring lunch and water",
+   "region": "California, Angeles National Forest, ~1.5 h from Los Angeles + 8 km on foot",
+   "booking": "Advance booking on the website only; trips on Saturdays and Sundays year-round, weekdays for groups from USD 1,000; ~8 km (about 2 h) on foot to the bridge with 6+ river crossings",
+   "record": "An abandoned 1936 bridge in the middle of the wilderness: the road to it was washed away by the 1938 flood",
+   "pros": [
+    "A unique atmosphere: a bridge in the middle of the wilderness",
+    "Cheap repeat jumps",
+    "A beautiful canyon hike",
+    "Close to Los Angeles"
+   ],
+   "cons": [
+    "Weekends only",
+    "8 km on foot each way with river crossings",
+    "Intense summer heat and wildfire risk",
+    "A low jump"
+   ],
+   "airport": "LAX — Los Angeles, ~1.5 h to the East Fork car park; ONT — Ontario, ~1 h",
+   "price_note": "A single jump USD 150; each additional jump +USD 50, a 4-jump package USD 240; spectators USD 20; parking — Forest Adventure Pass ~USD 5",
+   "school_notes": [
+    "The only operator; booking at reservations.bungeeamerica.com"
+   ]
+  },
+  "bloukrans-bridge": {
+   "h": "b13965dff3",
+   "description": "A jump from the middle of the arch bridge over the Bloukrans River gorge on the N2 — 216 m to the valley floor, on a pendulum bungee. You reach the jump point via a zipline and a mesh walkway under the road deck, and after the jump a winch hauls you back up. All around are the forests and canyons of Tsitsikamma National Park, and the bridge itself is the Garden Route's top adrenaline attraction.",
+   "rating_basis": "The height record for bridge jumps (Wikipedia, TheTravel), a must-stop on the Garden Route, lots of rave reviews",
+   "hazards": "Contraindications: heart, blood pressure and back problems, pregnancy, recent surgery. Jumps stop in gale-force wind and thunderstorms. The mesh walkway under the road deck is unnerving for anyone afraid of heights — bring a warm top, as it's cool and windy on the bridge.",
+   "crowd_note": "In December–January (South African school holidays) and at weekends there are queues on the bridge and at the video shop; quiet on winter weekdays",
+   "region": "Garden Route, Eastern Cape, ~40 km east of Plettenberg Bay",
+   "booking": "Book ahead online or via WhatsApp; arrive an hour before your slot (for the first jump at 09:00 — by 08:30). Open daily year-round; there's an “all in one day” package: jump + zipline + SkyWalk + Hangout",
+   "record": "The highest commercial bridge bungee jump in the world — 216 m, operating since 1997",
+   "pros": [
+    "The highest bridge jump in the world",
+    "Open every day, year-round",
+    "Easy to combine with a Garden Route road trip",
+    "You can do the SkyWalk along the bridge separately without jumping"
+   ],
+   "cons": [
+    "Minimum age 14",
+    "Photos and video cost extra",
+    "Spectators can't go onto the bridge itself without a SkyWalk ticket"
+   ],
+   "airport": "GRJ — George, ~1 h 45 min (≈130 km); PLZ — Gqeberha (Port Elizabeth), ~2 h",
+   "price_note": "A single jump ~ZAR 1,899 (the regular price per a FOMO voucher; the operator's website doesn't give a price). Includes the zipline to the arch and the winch back up; photos and video extra",
+   "school_notes": [
+    null,
+    "Official website; online booking via bloukransbungy.activitar.com, tel. +27 42 281 1458",
+    "Full Adventure package; SkyWalk separately — ZAR 400"
+   ]
+  },
+  "victoria-falls-bridge": {
+   "h": "1f2b67655b",
+   "description": "A head-first jump from the middle of the historic bridge across the Batoka Gorge — right over the Zimbabwe–Zambia border, 111 m above the churning Zambezi and a couple of hundred metres from Victoria Falls. About four seconds of free fall, then you're hauled back up to the bridge. The same site has a gorge swing and a zipline on the Zambian side.",
+   "rating_basis": "A legendary location next to Victoria Falls (a UNESCO site), a regular on lists of the most scenic bungee jumps, lots of reviews",
+   "hazards": "Contraindications: heart disease, back problems, high blood pressure, pregnancy. Jumps stop in rain and strong wind — in the rainy season (December–March) there may be breaks for thunderstorms. Heat up to 33 °C in October–November. There's a known 2011 incident in which the cord snapped under the previous operator.",
+   "crowd_note": "Peak tourist season is July–October; short queues in the morning, groups from the lodges by lunchtime",
+   "region": "Zimbabwe–Zambia border, the Batoka Gorge, ~3 km from the town of Victoria Falls",
+   "booking": "Check in at the Shearwater office by the bridge on the Zimbabwean side; you need your passport — the border post issues a Bridge Pass, and no visa is needed to go onto the bridge. The bridge is open 9:00–17:00 with a break from 13:00 to 14:00",
+   "record": "One of the most famous jumps in the world: a 1905 bridge 111 m above the Zambezi with a view of Victoria Falls",
+   "pros": [
+    "Views of Victoria Falls and rainbows in the spray",
+    "Swing, zipline and a bridge tour at one site",
+    "Easy to combine with a safari and rafting on the Zambezi"
+   ],
+   "cons": [
+    "Expensive for 111 m",
+    "Solo only, no tandem bungee (tandems only on the swing and zipline)",
+    "You have to go through border control even without entering the neighbouring country",
+    "Lunch break 13:00–14:00"
+   ],
+   "airport": "VFA — Victoria Falls (Zimbabwe), ~25 min; LVI — Livingstone (Zambia), ~20 min",
+   "price_note": "A single jump USD 194 per the Shearwater price list (a USD 160 promotion has been seen); Big Air package (bungee + zipline + swing) USD 250; swing USD 137, zipline USD 58",
+   "school_notes": [
+    null,
+    "Official operator of the bungee, swing and zipline on the bridge",
+    "Booking from the Zambian side (Livingstone)"
+   ]
   }
  }
 }

@@ -17066,6 +17066,1179 @@
     "Base en Road Town, flotillas, normas y tasas",
     "Base en Hodges Creek (Tortola), precios por temporada en el bróker Virgin Island Sailing"
    ]
+  },
+  "hells-canyon-armenia-rope-jump": {
+   "h": "2fca6ad415",
+   "description": "Rope jumping desde el borde del Cañón del Infierno: unos 4 segundos de caída libre y después un gran péndulo con arnés de escalada. El mismo equipo organiza el salto de 120 m en el Cañón del Dragón (Vayots Dzor) y salidas de barranquismo. Se combina bien con una visita a Khor Virap.",
+   "rating_basis": "El único salto comercial regular de Armenia que hemos podido confirmar; las rocas rojas del cañón del Aratso; el equipo lleva más de 13 años en activo",
+   "hazards": "Es rope jumping con cuerda estática y péndulo, no bungee: conviene preguntar al equipo por el sistema y la certificación del material. Contraindicaciones: tensión arterial, corazón, columna, embarazo. El cañón está junto a la frontera con Najicheván: no hay que apartarse de la ruta. Los saltos se cancelan con lluvia y viento fuerte.",
+   "crowd_note": "Grupos pequeños con reserva previa, sin colas",
+   "region": "Provincia de Ararat, cañón del río Aratso junto al pueblo de Tigranashen, ~80 km de Ereván (coordenadas aproximadas)",
+   "booking": "Reserva por teléfono con el operador (+374 93 835959), anticipo del 30 %; los saltos son sobre todo los fines de semana. En la mayoría de los sitios suele exigirse tener 18 años (los menores, con permiso de los padres) y pesar aproximadamente 45–100 kg",
+   "pros": [
+    "Barato: ~56 € por salto",
+    "Rocas rojas y vistas al Ararat por el camino",
+    "Opción de 120 m para los más experimentados"
+   ],
+   "cons": [
+    "Sin web propia, se reserva por teléfono",
+    "Sobre todo los fines de semana",
+    "En verano hace calor en el valle del Ararat: mejor mayo–junio y septiembre–octubre"
+   ],
+   "airport": "EVN — Ereván (Zvartnots), ~1,5 h en coche",
+   "price_note": "25 000 drams (~56 € al cambio de ~450 AMD/€) por el salto de 65 m. El salto estrella de 120 m en el Cañón del Dragón (Vayots Dzor, ~2 h de Ereván) cuesta 40 000 drams (~89 €). Anticipo del 30 %; el traslado desde Ereván se paga aparte",
+   "school_notes": [
+    null,
+    "Descripción, precios y teléfono del operador; también barranquismo junto al Puente del Diablo (Syunik)"
+   ]
+  },
+  "europabruecke": {
+   "h": "a4f326bde6",
+   "description": "Salto desde una plataforma en el centro del puente de la autopista A13 hacia el paso del Brennero —uno de los puentes más altos de Europa— sobre el valle del río Sill. 192 m de vuelo libre, y después izan al saltador de vuelta al puente. A solo 20 minutos de Innsbruck.",
+   "rating_basis": "N.º 5 del top 15 de los saltos más altos del mundo de la CNN; 5/5 con 48 opiniones en Manawa; en funcionamiento desde 1993",
+   "hazards": "Según las normas del operador, no pueden saltar personas con hipertensión, enfermedades cardíacas o vasculares, lesiones craneales, epilepsia, glaucoma, osteoporosis, marcapasos, trombosis, embarazo o enfermedades mentales. Tasa de alcohol estrictamente de 0,0 ‰. Con mal tiempo no hay saltos.",
+   "crowd_note": "Unos 60 días al año y solo los fines de semana: las franjas se reservan con antelación y en el puente puede haber espera",
+   "region": "Tirol, valle de Wipptal junto a Schönberg, ~20 minutos de Innsbruck",
+   "booking": "Solo sábados y domingos, aproximadamente de finales de mayo a finales de octubre (para 2027 se ha anunciado del 22 de mayo al 23 de octubre), horario principal de 10:00 a 16:00. Reserva previa obligatoria. En el puente, tasa de alcohol estrictamente de 0,0 ‰. Con mal tiempo el salto se pasa a otra fecha y no se devuelve el dinero.",
+   "record": "Uno de los saltos desde puente más altos de Europa, 192 m; el primer salto lo hizo Rupert Hirner el 3 de octubre de 1993",
+   "pros": [
+    "192 m: una de las plataformas más altas de Europa",
+    "Innsbruck y su aeropuerto, a un paso",
+    "Más barato online: 199 € en lugar de 239 €"
+   ],
+   "cons": [
+    "Solo fines de semana, unos 60 días al año",
+    "El puente es una autopista en uso, con el ruido del tráfico alrededor",
+    "Límites estrictos: 50–105 kg de peso, desde los 16 años"
+   ],
+   "airport": "INN — Innsbruck, ~20 min; MUC — Múnich, ~2 h",
+   "price_note": "199 € con reserva online, 239 € en el lugar; vídeo, 31 € online (34 € en el lugar); acompañante hasta el punto de salto, 9 € online",
+   "school_notes": [
+    "Operador; online sale más barato que en el lugar. Web en alemán, inglés e italiano",
+    "Agregador, desde 239 €"
+   ]
+  },
+  "koelnbrein-dam": {
+   "h": "e2cbe0176f",
+   "description": "Salto desde la coronación de la presa más alta de Austria, a unos 1900 m sobre el nivel del mar, entre las cumbres de los Hohe Tauern. 165 m de caída libre a lo largo del muro de hormigón. Al lado hay una pasarela mirador (skywalk) sobre el vacío y un embalse de alta montaña.",
+   "rating_basis": "N.º 8 del top 15 de los saltos más altos del mundo de la CNN (allí figura con 169 m); vistas de alta montaña de los Hohe Tauern",
+   "hazards": "Las mismas contraindicaciones que en el Europabrücke: hipertensión, enfermedades cardíacas, epilepsia, glaucoma, osteoporosis, trombosis, embarazo, etc. En altura el tiempo cambia deprisa: con tormenta, viento o niebla el salto se aplaza.",
+   "crowd_note": "Solo hay saltos 4 días al año y todos los interesados se concentran en esas fechas: hay que reservar con antelación",
+   "region": "Carintia, valle de Malta, al final de la carretera de alta montaña Malta-Hochalmstraße",
+   "booking": "Solo se salta unos pocos fines de semana al año: para 2027 se han anunciado el 31 de julio–1 de agosto y el 7–8 de agosto, desde las 9:00. Reserva online obligatoria. La carretera a la presa está abierta aproximadamente de mayo a finales de octubre. Con mal tiempo el salto se aplaza y no se devuelve el dinero.",
+   "record": "La presa más alta de Austria (200 m); el operador la presenta como la plataforma de bungee a mayor altitud del mundo, a más de 2000 m sobre el nivel del mar; saltos desde 1998",
+   "pros": [
+    "Plataforma de alta montaña con vistas alpinas",
+    "165 m de caída libre",
+    "La carretera Malta-Hochalmstraße es un atractivo en sí misma"
+   ],
+   "cons": [
+    "Solo un par de fines de semana al año",
+    "Lejos de las grandes ciudades",
+    "A 1900 m hace fresco incluso en agosto"
+   ],
+   "airport": "KLU — Klagenfurt, ~1 h 45 min; SZG — Salzburgo, ~2 h",
+   "price_note": "199 € con reserva online, 229 € en el lugar; el peaje de la carretera Malta-Hochalmstraße se paga aparte",
+   "school_notes": [
+    "Operador (el mismo que en el Europabrücke); web en alemán, inglés e italiano"
+   ]
+  },
+  "skypark-cairns": {
+   "h": "6842ea22e0",
+   "description": "Torre de AJ Hackett en una ladera cubierta de selva tropical (Patrimonio de la UNESCO), a 20 minutos de Cairns: 50 m de caída libre y 16 estilos de salto, con opción de tocar el agua. Al lado hay un columpio gigante que alcanza los 120 km/h y el mirador más alto de Cairns. Se combina fácilmente con una excursión a la Gran Barrera de Coral.",
+   "rating_basis": "El único bungee del país y más de 30 años en funcionamiento (Tourism Queensland), 16 estilos de salto; la altura y las vistas son más modestas que en Nueva Zelanda",
+   "hazards": "Contraindicaciones habituales: embarazo, corazón, tensión arterial, espalda. En la temporada de lluvias los saltos pueden cancelarse por tormentas y ciclones; en verano hace calor y hay mucha humedad: hay que beber agua.",
+   "crowd_note": "Rara vez hay colas; hay más gente en la estación seca (junio–octubre) y en las vacaciones escolares",
+   "region": "Queensland, Smithfield (al final de McGregor Road), ~20 min al norte de Cairns",
+   "booking": "Reserva online en book.skyparkcairns.com o por teléfono en el (07) 4057 7188; abre a diario aproximadamente de 10:00 a 17:00, con franjas hasta las 16:00. Traslado gratuito desde Cairns y las Northern Beaches con reserva previa",
+   "record": "El único salto bungee de Australia; torre sobre la selva tropical con vistas a la costa",
+   "pros": [
+    "El único bungee de Australia",
+    "Traslado gratuito desde Cairns",
+    "Saltos en tándem y 16 estilos de salto",
+    "Cerca del arrecife y de Palm Cove"
+   ],
+   "cons": [
+    "Poca altura comparado con Nueva Zelanda",
+    "En la temporada de lluvias (diciembre–marzo), calor, humedad y posibles ciclones"
+   ],
+   "airport": "CNS — Cairns, ~15–20 min",
+   "price_note": "Salto desde 189 AUD (con paquete de fotos y vídeo en agencias asociadas, ~229 AUD); columpio gigante desde 109 AUD, combo bungee + columpio desde 269 AUD; traslado gratuito desde Cairns y las Northern Beaches",
+   "school_notes": [
+    null,
+    "Web oficial: bungee, columpio gigante, mirador"
+   ]
+  },
+  "great-canadian-bungee": {
+   "h": "d510abf42b",
+   "description": "Salto de 61 m (unos 20 pisos) sobre una laguna de agua de manantial en la cantera de caliza inundada de Morrison, a media hora de Ottawa. Si se le pide, el instructor ajusta el salto para tocar el agua con la cabeza o sumergirse hasta la cintura. Al lado hay una tirolina, la RIPRIDE, de ~310 m con salida a 200 pies de altura, una playa y una zona de pícnic.",
+   "rating_basis": "El salto más alto de Canadá, sobre una laguna turquesa en una cantera de caliza, con la rara posibilidad de sumergirse; 35.ª temporada en 2026",
+   "hazards": "Contraindicaciones: embarazo, hipertensión, epilepsia, asma grave, problemas de articulaciones, ligamentos y columna, embriaguez. Los saltos se interrumpen si hay tormenta.",
+   "crowd_note": "Los fines de semana de verano viene mucha gente de Ottawa y Montreal: conviene reservar con antelación",
+   "region": "Quebec, Chelsea (Outaouais), ~30 min al norte de Ottawa",
+   "booking": "Reserva en la web o por teléfono; la temporada va de finales de abril–principios de mayo a principios de noviembre, con saltos casi a diario; los menores de 18 años, con permiso de los padres",
+   "record": "El bungee más alto de Canadá (61 m); según el operador, el único salto de América con inmersión de la cabeza en el agua; en 2022 saltó aquí el primer ministro Justin Trudeau",
+   "pros": [
+    "El bungee más alto de Canadá",
+    "Posibilidad de sumergirse en el agua",
+    "Una bonita laguna turquesa",
+    "Cerca de Ottawa"
+   ],
+   "cons": [
+    "Solo abre de mayo a principios de noviembre",
+    "No se garantiza tocar el agua",
+    "Más caro que la mayoría de los saltos de Latinoamérica"
+   ],
+   "airport": "YOW — Ottawa, ~40 min",
+   "price_note": "Primer salto, 178,30 CAD + impuestos; segundo salto el mismo día, 89,58 CAD; tirolina, 34,79 CAD; la entrada a la cantera de Morrison se paga aparte",
+   "school_notes": [
+    "Web oficial: bungee y tirolina RIPRIDE sobre la laguna"
+   ]
+  },
+  "whistler-bungee": {
+   "h": "fb7f74c39d",
+   "description": "Salto desde una pasarela peatonal de 50 m sobre el río glaciar Cheakamus, en un cañón de columnas basálticas y bosque antiguo de coníferas. Está a 15 minutos en coche de Whistler y abre todo el año: en invierno se puede saltar entre dos días de esquí. Se puede saltar en pareja si el peso total no supera los 136 kg.",
+   "rating_basis": "Muy buenas valoraciones (unos 4,8 sobre 5 en los agregadores de opiniones), un bonito cañón de roca basáltica con vistas al Black Tusk; altura media",
+   "hazards": "Contraindicaciones: problemas de corazón, tensión arterial, espalda y cuello, embarazo. Los saltos se cancelan si hay tormenta; en invierno puede haber hielo en el acceso al puente.",
+   "crowd_note": "En verano y los fines de semana las franjas se agotan pronto: conviene reservar con unos días de antelación",
+   "region": "Columbia Británica, 15 km al sur de Whistler Village",
+   "booking": "Reserva online con al menos 3–4 días de antelación; después, por teléfono; abre todos los días del año, en verano aproximadamente de 12:00 a 17:00 y en invierno de 12:00 a 15:00",
+   "record": "El más alto de los dos saltos bungee de Columbia Británica; según una votación de los lugareños, «la actividad más extrema de Whistler»",
+   "pros": [
+    "Abierto todos los días del año",
+    "Un cañón precioso y vistas a las montañas",
+    "Junto a la estación de esquí de Whistler",
+    "Se puede saltar en tándem"
+   ],
+   "cons": [
+    "Altura modesta frente a los récords mundiales",
+    "En invierno hace frío y el horario es corto",
+    "La reserva online solo es posible con unos días de antelación"
+   ],
+   "airport": "YVR — Vancouver, ~2 h por la carretera Sea-to-Sky",
+   "price_note": "Un salto desde 141 CAD (según Tourism Whistler); 15 % de descuento reservando con 15 días o más de antelación; fotos, 45 CAD",
+   "school_notes": [
+    "Web oficial del operador, reserva online",
+    "Reserva a través del portal turístico de Whistler"
+   ]
+  },
+  "wildplay-nanaimo-bungy": {
+   "h": "6c2c7880c0",
+   "description": "Puente de 46 m sobre el río Nanaimo, en la isla de Vancouver: el primer puente legal de Norteamérica construido expresamente para el bungee. Hay 16 estilos de salto en seis niveles de dificultad y, al lado, el columpio gigante Primal Swing, que llega a 140 km/h, y tirolinas sobre el cañón. Cada febrero se celebra un bungee benéfico «desnudo».",
+   "rating_basis": "El histórico primer puente de bungee de Norteamérica, un gran parque de aventura; altura media, paisaje de cañón boscoso",
+   "hazards": "Contraindicaciones: enfermedades cardíacas, hipertensión, lesiones de espalda y cuello, embarazo. Depende del tiempo: con tormenta o viento fuerte se suspenden los saltos.",
+   "crowd_note": "Solo hay colas los fines de semana de verano; entre semana suele haber sitio",
+   "region": "Columbia Británica, isla de Vancouver, ~10 km al sur de Nanaimo",
+   "booking": "Se puede ir sin reserva, pero la reserva online garantiza la franja; en verano (julio–principios de septiembre) abre a diario, en junio y septiembre casi todos los días, en octubre de viernes a lunes y de noviembre a mediados de diciembre, sábados y domingos; cerrado en invierno",
+   "record": "El primer puente legal de Norteamérica construido expresamente para el bungee; han saltado desde él más de 265 000 personas",
+   "pros": [
+    "Un lugar histórico",
+    "Muchos estilos de salto y actividades en un mismo parque",
+    "Se puede ir sin reserva previa",
+    "Queda de paso en un viaje por la isla de Vancouver"
+   ],
+   "cons": [
+    "Salto bajo para los estándares mundiales",
+    "Cerrado en invierno; en primavera y otoño, solo fines de semana"
+   ],
+   "airport": "YCD — Nanaimo, ~10 min; ferri de Vancouver a Nanaimo, ~1 h 40 min",
+   "price_note": "Un salto, 139,99–164,99 CAD (más barato por la mañana y al final del día); combo salto + Primal Swing desde 199,99 CAD",
+   "school_notes": [
+    null,
+    "Web oficial: bungee, Primal Swing, tirolinas, parques de cuerdas"
+   ]
+  },
+  "niouc-bridge": {
+   "h": "5a8e851aaa",
+   "description": "Un puente colgante peatonal de 1922, de solo 50 cm de ancho, tendido sobre la garganta a la entrada del valle de Anniviers. Hay 190 m hasta el fondo y el puente se balancea bajo los pies, así que el miedo empieza ya al acercarse. Es todo un parque: péndulo, rope jumping, tirolina y un bar sobre el abismo.",
+   "rating_basis": "N.º 6 del top 15 de los saltos más altos del mundo de la CNN; un formato poco habitual, el de un puente colgante que se balancea; muchas actividades en un mismo sitio",
+   "hazards": "El puente se balancea con el viento y los pasos. Contraindicaciones: embarazo, enfermedades cardíacas e hipertensión, lesiones de columna, epilepsia; a partir de los 60 años, certificado médico. Los saltos se interrumpen con tormenta y viento fuerte.",
+   "crowd_note": "Puede haber colas los fines de semana de verano; entre semana no siempre abre",
+   "region": "Valais, entrada del valle de Anniviers, ~15 minutos de Sierre",
+   "booking": "Temporada 2026: del 4 de abril al 31 de octubre, como mínimo todos los fines de semana, de 10:00 a 18:00; en verano hay más días, consultar el calendario en la web. Para grupos de 5 o más personas se abren días adicionales llamando por teléfono. A partir de los 60 años se necesita certificado médico.",
+   "record": "Uno de los saltos desde puente más altos del mundo (190 m, top 15 de la CNN); estrecho puente colgante peatonal de 1922, con saltos desde 1997",
+   "pros": [
+    "190 m: uno de los saltos desde puente más altos del mundo",
+    "Péndulo, rope jumping y tirolina en el mismo sitio",
+    "El clima soleado y seco del Valais"
+   ],
+   "cons": [
+    "Los precios no se publican en la web",
+    "Solo a partir de 16 años",
+    "Sobre todo los fines de semana"
+   ],
+   "airport": "GVA — Ginebra, ~2 h; SIR — Sion, ~30 min (pocos vuelos)",
+   "price_note": "210 CHF por salto (≈221 €) según la reseña de SwitzerLanding de 2023; el operador no publica los precios en su web: hay que consultarlos al reservar",
+   "school_notes": [
+    null,
+    "Web en francés, alemán e inglés; además del bungee, péndulo individual y en pareja, rope jumping, tirolina y el bar «Le Perchoir»"
+   ]
+  },
+  "stockhorn-cable-car": {
+   "h": "a1aecd53a8",
+   "description": "Aquí no se salta desde un puente, sino desde la cabina abierta del teleférico del Stockhorn: 134 m de caída libre sobre el lago de montaña Hinterstockensee. El programa incluye la subida en teleférico y el traslado desde Interlaken, y después del salto, una bebida con vistas a los Alpes berneses.",
+   "rating_basis": "El salto más conocido de la zona de Interlaken, presente en las listas de los mejores bungee de Suiza; una plataforma insólita: la cabina de un teleférico sobre un lago",
+   "hazards": "Contraindicaciones habituales: embarazo, enfermedades cardíacas e hipertensión, lesiones de espalda y cuello, epilepsia. En la montaña el tiempo cambia deprisa: con viento fuerte, tormenta o nubes bajas la salida se aplaza.",
+   "crowd_note": "Salidas fijas en grupos pequeños: no hay colas, pero para los fines de semana conviene reservar con antelación",
+   "region": "Oberland bernés, sobre el lago Hinterstockensee; estación inferior en Erlenbach, ~40 minutos de Interlaken",
+   "booking": "De abril a octubre, salida a las 15:45 los lunes, miércoles, sábados y domingos (en plena temporada, los sábados también a las 18:30). Punto de encuentro en la base de OUTDOOR en Wilderswil (Interlaken) o en la estación inferior del teleférico en Erlenbach. El programa completo dura unas 5 horas desde Interlaken. Se puede llevar hasta dos espectadores a la estación intermedia. Desde los 14 años, sin excepciones.",
+   "record": "Salto desde la cabina abierta de un teleférico sobre un lago de montaña a ~1600 m de altitud, un formato poco común en Europa",
+   "pros": [
+    "Formato insólito: salto desde la cabina de un teleférico",
+    "Teleférico y traslado desde Interlaken incluidos",
+    "Lago de montaña y vistas alpinas"
+   ],
+   "cons": [
+    "Solo 4 días a la semana, una o dos salidas al día",
+    "Estrictamente desde los 14 años",
+    "El programa ocupa medio día"
+   ],
+   "airport": "BRN — Berna, ~40 min; ZRH — Zúrich, ~1 h 45 min",
+   "price_note": "239 CHF por persona (≈251 €), grupos de 10 o más, 215 CHF; incluye teleférico, equipo, traslado desde Interlaken y una bebida. Fotos, 49 CHF; vídeo, 59 CHF; ambos, 99 CHF; espectador, 60 CHF",
+   "school_notes": [
+    null,
+    "Operador; los guías hablan alemán e inglés",
+    "Reserva con interfaz en ruso, desde 239 CHF; instrucciones en inglés o alemán"
+   ]
+  },
+  "verzasca-dam": {
+   "h": "bd151f6037",
+   "description": "El mismísimo salto del arranque de «GoldenEye»: 220 m de vuelo libre a lo largo del muro de hormigón de una presa de arco sobre la garganta del Verzasca. Después del salto izan al saltador de vuelta a la coronación. Cerca están las aguas esmeralda del río Verzasca y el pueblo de Lavertezzo, con su viejo puente de piedra.",
+   "rating_basis": "N.º 2 del top 15 de los saltos más altos del mundo de la CNN (después de la torre de Macao); récord Guinness por la escena de «GoldenEye»; el operador contabiliza más de 10 000 saltos",
+   "hazards": "No se puede saltar con embarazo, hipertensión, enfermedades cardíacas, epilepsia, lesiones del aparato locomotor, trastornos neurológicos, glaucoma, operaciones oculares recientes o enfermedades crónicas de oído; no se admite a nadie bajo los efectos del alcohol. Los saltos se interrumpen con tormenta, niebla espesa y durante los desembalses de la presa.",
+   "crowd_note": "Los fines de semana de verano las franjas se agotan con antelación y en la coronación de la presa hay que esperar turno; entre semana, por la tarde, hay más calma",
+   "region": "Tesino, valle de Verzasca, ~15 minutos de Locarno",
+   "booking": "Temporada de Semana Santa al 31 de octubre, saltos solo por la tarde. En 2026, de miércoles a domingo; para 2027 se ha anunciado: abril, sábados y domingos; mayo–octubre, de viernes a domingo; de junio a mediados de septiembre, de miércoles a domingo. Los fines de semana de verano se agotan pronto: hay que reservar online. No hay edad mínima (lo que cuenta es pesar al menos 45 kg); menores de 18 años, con permiso de los padres; mayores de 65, con certificado médico. Saltos nocturnos para grupos a partir de 10 personas; el salto de espaldas, a partir del segundo salto; el «Ultimo», a partir del tercero.",
+   "record": "El salto de James Bond en «GoldenEye» (1995), según el Libro Guinness de los Récords el salto bungee desde una estructura más alto de la historia del cine; uno de los saltos comerciales más altos del mundo",
+   "pros": [
+    "Uno de los saltos más altos del mundo: 220 m",
+    "Lugar legendario de una película de Bond",
+    "A 15 minutos de Locarno, cerca del lago Mayor",
+    "Se puede combinar con barranquismo con el mismo operador"
+   ],
+   "cons": [
+    "Caro: desde 255 CHF",
+    "Saltos solo por la tarde y no todos los días",
+    "Cerrado de noviembre a marzo"
+   ],
+   "airport": "MXP — Milán-Malpensa, ~1 h 30 min; ZRH — Zúrich, ~2 h 30 min",
+   "price_note": "Salto clásico, 255 CHF para 1–2 personas (≈268 €); en grupos de 3 o más, 235 CHF; jóvenes menores de 19 años y estudiantes, 195 CHF. Segundo salto el mismo día, 125 CHF; vídeo GoPro, 39 CHF. El precio incluye la sesión informativa, una bebida y un certificado",
+   "school_notes": [
+    null,
+    "Único operador en la presa; web en alemán, inglés, francés e italiano. Ofrece paquetes «bungee + barranquismo»"
+   ]
+  },
+  "zhangjiajie-glass-bridge-bungee": {
+   "h": "18c580756d",
+   "description": "Salto desde el centro del puente de cristal de 430 m sobre el Gran Cañón de Zhangjiajie: 260 m hasta el fondo de la garganta. La plataforma se abrió a finales de 2020 y es el bungee más alto de China. El salto se combina fácilmente con un paseo por el puente de cristal, una tirolina y una excursión a las rocas «de Avatar» de Wulingyuan.",
+   "rating_basis": "Una de las plataformas de bungee más altas del mundo, sobre un cañón en la zona de Wulingyuan, Patrimonio de la UNESCO; pocas opiniones de extranjeros",
+   "hazards": "No se puede saltar con enfermedades cardíacas o de tensión arterial, problemas de espalda o embarazo; solo a partir de 16 años. El puente se cierra con tormenta, viento fuerte o hielo; en junio, lluvias de la temporada meiyu.",
+   "crowd_note": "Saltan pocas personas (en 2021, ~20 saltos al día), pero el propio puente se llena de turistas chinos en los festivos (1 de mayo, 1–7 de octubre) y en verano",
+   "region": "Hunan, Gran Cañón de Zhangjiajie (distrito de Cili), ~40 km de la ciudad de Zhangjiajie",
+   "booking": "La entrada para el salto se compra en el lugar o a través de servicios chinos (Ctrip/Trip.com); la plataforma funciona todo el año, de 9:00 a 16:00. El puente cierra con mal tiempo: conviene comprobarlo la víspera",
+   "record": "260 m: el bungee más alto de China y, según el operador, el salto desde un puente peatonal más alto del mundo (por encima de los 233 m de la torre de Macao)",
+   "pros": [
+    "Uno de los puntos de bungee más altos del planeta",
+    "Un puente de cristal y un cañón espectaculares",
+    "Se puede combinar con el parque de Wulingyuan"
+   ],
+   "cons": [
+    "Caro: ~2000 CNY más la entrada al cañón",
+    "Poca información en inglés, sin web oficial para extranjeros",
+    "En verano, calor y multitudes en el puente"
+   ],
+   "airport": "DYG — Zhangjiajie Hehua, ~1 h en coche",
+   "price_note": "1998 CNY (≈241 €) por salto; la entrada al cañón con el puente (ruta B) cuesta otros 175 CNY"
+  },
+  "san-gil-colombia-bungee": {
+   "h": "459b055f28",
+   "description": "Salto de 70 m desde la cesta de una grúa sobre el río Fonce, a 10 minutos de San Gil, la capital colombiana del rafting, el parapente y la espeleología. Funciona desde 2007, se puede saltar en pareja y las fotos están incluidas en el precio. Cuando el río va crecido, abajo se puede tocar ligeramente el agua.",
+   "rating_basis": "Opiniones excelentes (4,9 sobre 5 con más de 1500 reseñas en Google), precio muy bajo; altura media, la plataforma es una grúa sobre el río",
+   "hazards": "No se admite a embarazadas ni a personas con lesiones recientes o enfermedades cardíacas; contraindicado con hipertensión y problemas de espalda. En las temporadas de lluvias (abril–mayo, octubre–noviembre) los saltos se interrumpen por tormentas.",
+   "crowd_note": "Una sola plataforma, ~15 minutos por persona: en los fines de semana y festivos colombianos puede tocar esperar",
+   "region": "Santander, a 2 km de San Gil por la carretera a Charalá",
+   "booking": "Se puede llegar en taxi desde San Gil (~10 min) sin reserva o contratarlo a través del hostal o de una agencia; abre de 8:30 a 16:30, excepto los miércoles; solo hay una plataforma, así que hay que contar con tiempo de espera",
+   "record": "La torre de bungee más alta de Colombia, según el operador; San Gil es la «capital de la aventura» del país",
+   "pros": [
+    "Muy barato",
+    "Servicio excelente según las opiniones",
+    "Fácil de combinar con rafting y parapente en San Gil",
+    "Clima cálido todo el año"
+   ],
+   "cons": [
+    "Es una grúa, no un puente ni una garganta",
+    "Una sola plataforma: puede haber colas",
+    "Cierra los miércoles"
+   ],
+   "airport": "BGA — Bucaramanga, ~3 h por el cañón del Chicamocha",
+   "price_note": "Un salto desde 90 000 COP (≈19 EUR; en 2025 se hablaba de 80 000 COP); fotos incluidas, vídeo con suplemento",
+   "school_notes": [
+    "Web oficial, reserva de salto individual y en pareja",
+    "Reserva online desde 90 000 COP"
+   ]
+  },
+  "monteverde-extremo-bungee": {
+   "h": "67b1fa2729",
+   "description": "Una pequeña cabina de teleférico lleva al saltador hasta el centro de un cañón sobre el bosque nuboso de Monteverde: 143 m hasta el fondo y unos 60 m de caída libre. Es el bungee más alto de Costa Rica y, según el parque, de toda Centroamérica. En el mismo parque hay uno de los columpios Tarzán más altos del mundo y 4 km de tirolinas, entre ellas la «Superman».",
+   "rating_basis": "El salto más alto de la región, con una plataforma insólita, una cabina sobre el bosque nuboso; opiniones excelentes (5/5 en Manawa)",
+   "hazards": "Contraindicaciones: embarazo, lesiones de espalda y cuello, enfermedades cardíacas y vasculares, diabetes, hipertensión, epilepsia, operaciones recientes. Los saltos se suspenden con viento fuerte y tormenta; en la temporada de lluvias (mayo–noviembre) suele haber chaparrones por la tarde.",
+   "crowd_note": "En la temporada seca y en festivos puede haber colas para la cabina: mejor llegar a la hora de apertura",
+   "region": "Puntarenas, Monteverde, ~3 km al noroeste de Santa Elena",
+   "booking": "Reserva en la web del parque, en los hoteles de Monteverde o en agregadores; mejor ir por la mañana, porque por la tarde las nubes y el viento pueden detener los saltos; en total, ~45 minutos",
+   "record": "El bungee más alto de Centroamérica (según el parque): salto desde una cabina sobre un cañón de 143 m de profundidad",
+   "pros": [
+    "El salto más alto de Centroamérica",
+    "Salto sobre el bosque nuboso",
+    "Columpio Tarzán y tirolinas en el mismo parque",
+    "Abierto todo el año"
+   ],
+   "cons": [
+    "La caída libre es bastante menor que los 143 m anunciados",
+    "Nubes y viento frecuentes, sobre todo por la tarde",
+    "La carretera a Monteverde es lenta y en parte de tierra"
+   ],
+   "airport": "LIR — Liberia, ~2,5 h; SJO — San José, ~3,5 h",
+   "price_note": "Desde 98 EUR en el agregador Manawa, ~100 USD en las webs locales; fotos y vídeo, +40 USD",
+   "school_notes": [
+    "Web oficial: bungee, megacolumpio Tarzán, 4 km de tirolinas",
+    "Reserva online con precio en euros",
+    "Plataforma de reservas de la Cámara de Turismo de Monteverde"
+   ]
+  },
+  "banos-san-francisco-bridge": {
+   "h": "b1dc926edd",
+   "description": "Puenting: salto pendular con cuerdas de seguridad desde el puente de carretera de San Francisco, sobre la garganta del río Pastaza, junto a la misma ciudad. Unos 80 m de altura; el salto es corto pero muy brusco. Es un clásico de Baños, junto con el Columpio del Fin del Mundo, el rafting, el barranquismo y las tirolinas.",
+   "rating_basis": "Popular entre mochileros por su bajo precio y la garganta del Pastaza; es un salto pendular con cuerdas, no un bungee clásico, y los estándares de seguridad son más básicos",
+   "hazards": "Conviene elegir una agencia con buenas opiniones y revisar el equipo. El péndulo somete la espalda y el cuello a mucha carga: contraindicado con lesiones, problemas de corazón o de tensión arterial y embarazo. La ciudad está a ~1800 m de altitud y cerca del volcán activo Tungurahua: hay que seguir los partes.",
+   "crowd_note": "Puede haber cola los fines de semana y festivos, cuando llegan turistas de Quito",
+   "region": "Tungurahua, extremo norte de la ciudad de Baños de Agua Santa, sobre el río Pastaza",
+   "booking": "Reserva en cualquier agencia de las calles de Baños u online a través de Civitatis; el salto en sí lleva ~20 minutos y al puente se va a pie desde el centro",
+   "record": "Uno de los saltos desde puente más asequibles; a Baños la llaman la capital de la aventura de Ecuador",
+   "pros": [
+    "Muy barato",
+    "El puente está a un paseo del centro",
+    "Montones de actividades más y aguas termales en la ciudad"
+   ],
+   "cons": [
+    "Es un salto pendular con cuerdas, no un bungee elástico",
+    "Muchos operadores pequeños: la calidad del equipo varía",
+    "Lluvias y niebla frecuentes"
+   ],
+   "airport": "UIO — Quito, ~3,5 h en autobús o en coche",
+   "price_note": "Desde 27 USD en Civitatis (≈24 EUR en Central de Reservas); en las agencias de la ciudad, precios similares, fotos y vídeo aparte",
+   "school_notes": [
+    null,
+    "Reserva online desde 27 USD, el instructor habla español e inglés",
+    "Ficha con descripción (en el momento de la comprobación, temporalmente no disponible)"
+   ]
+  },
+  "artuby-bridge": {
+   "h": "151c87bd05",
+   "description": "Puente de arco sobre la garganta del Artuby, junto al mismísimo Gran Cañón del Verdon: 182 m hasta el fondo. Se salta con vistas a las paredes de caliza y después toca subir 30 minutos a pie por un sendero. Un clásico del bungee francés que se combina bien con un viaje por la Provenza.",
+   "rating_basis": "El salto más alto de Francia, presente en todas las listas francesas de los mejores bungee; los célebres paisajes de las gargantas del Verdon",
+   "hazards": "La subida desde la garganta es por un sendero: hace falta calzado cómodo y agua, y en verano hace calor; el cabrestante para subir solo admite hasta 90 kg. Contraindicaciones habituales: corazón, tensión arterial, espalda, embarazo; a partir de los 55 años, certificado médico. Los saltos dependen del tiempo.",
+   "crowd_note": "Se salta por turnos durante todo el día y se vende un fast pass con suplemento: en temporada la espera se alarga horas",
+   "region": "Var, Gran Cañón del Verdon, junto a los Balcons de la Mescla (Aiguines)",
+   "booking": "De abril a mediados de noviembre. De abril a mediados de junio y de mediados de septiembre a mediados de noviembre, solo los domingos; de mediados de junio a mediados de septiembre, los fines de semana; de mediados de julio a mediados de agosto, de viernes a domingo. Es una actividad de un día entero: encuentro de 9:00 a 12:00 y, tras el salto, 30 minutos a pie para salir del cañón. Menores de 18 años, con autorización de los padres; a partir de los 55, certificado médico.",
+   "record": "Uno de los saltos más altos de Europa: 182 m sobre un afluente del Verdon junto al Gran Cañón",
+   "pros": [
+    "Uno de los saltos más altos de Europa: 182 m",
+    "Los paisajes del Gran Cañón del Verdon",
+    "Más barato que en Suiza y Austria"
+   ],
+   "cons": [
+    "Ocupa todo el día, con largas esperas",
+    "Subida a pie desde el cañón después del salto",
+    "En primavera y otoño, solo los domingos"
+   ],
+   "airport": "NCE — Niza, ~2 h; MRS — Marsella, ~2 h 15 min",
+   "price_note": "140 € por salto según la oficina de turismo de Provenza (tarifa válida hasta 2027), con descuento para grupos de 4 o más; en Manawa, desde 105 €; fast pass y vídeo, 30 € cada uno",
+   "school_notes": [
+    "Operador; instrucciones en francés e inglés",
+    "Agregador, desde 105 €"
+   ]
+  },
+  "ponsonnas-bridge": {
+   "h": "4201957787",
+   "description": "Puente de arco de piedra de 1941 sobre la garganta del río Drac: 103 m hasta el agua. Una de las primeras plataformas de bungee permanentes de Europa, en funcionamiento desde 1988. Precio asequible, se puede saltar en pareja y todos los saltos se graban en vídeo.",
+   "rating_basis": "Una plataforma histórica (desde 1988); 4,9/5 con 206 opiniones en Funbooker y 4,95/5 con 75 opiniones en Cap Adrénaline",
+   "hazards": "Contraindicaciones habituales: corazón, tensión arterial, lesiones de espalda, embarazo; a partir de los 55 años, certificado médico, y no se admite a mayores de 60. Los saltos dependen del tiempo.",
+   "crowd_note": "Grupos pequeños, rara vez hay colas; en 2026 hay pocas fechas por las obras",
+   "region": "Isère, meseta de la Matheysine junto a La Mure, ~40 km al sur de Grenoble",
+   "booking": "Normalmente de abril a noviembre los fines de semana, y en julio–agosto casi a diario (en 2026, lunes, miércoles, jueves y fines de semana, de 10:00 a 17:00). En 2026 el puente está en obras: parte de las fechas se han cancelado y la reapertura completa se espera en 2027; las fechas de 2027 ya están abiertas en los agregadores. Edad, de 13 a 60 años; a partir de los 55, certificado médico.",
+   "record": "Una de las plataformas de bungee más antiguas de Europa: aquí se salta desde 1988",
+   "pros": [
+    "Una de las plataformas más antiguas de Europa",
+    "Barato: 98 €",
+    "Saltos en tándem",
+    "Desde los 13 años"
+   ],
+   "cons": [
+    "En 2026, obras en el puente y pocas fechas",
+    "Altura más modesta que la de los gigantes alpinos",
+    "Límite de peso estricto para las mujeres"
+   ],
+   "airport": "LYS — Lyon-Saint-Exupéry, ~1 h 45 min; GNB — Grenoble-Isère, ~1 h 15 min",
+   "price_note": "98 € por salto; tándem, 214 € para dos; grupos de 4 o más, 88 €; de 10 o más, 75 €; vídeo, 28 €",
+   "school_notes": [
+    null,
+    "Reservas, precios y descuentos para grupos",
+    "Reservas; avisa de las obras del puente en 2026"
+   ]
+  },
+  "souleuvre-viaduct": {
+   "h": "0eb846b5b8",
+   "description": "Los pilares de piedra de un viaducto diseñado por Gustave Eiffel son todo lo que queda de un ferrocarril del siglo XIX. AJ Hackett montó en el más alto una plataforma: 61 m sobre el río Souleuvre, con la opción de pedir tocar el agua. Al lado hay columpios gigantes, péndulo, una tirolina de 400 m y un cubo de cristal sobre el valle.",
+   "rating_basis": "Plataforma histórica de AJ Hackett; 5/5 con 25 opiniones en Manawa; no es muy alta, pero ofrece muchas actividades",
+   "hazards": "Contraindicaciones habituales: enfermedades cardíacas e hipertensión, lesiones de espalda y cuello, embarazo, epilepsia. Con viento fuerte y tormenta se suspenden los saltos. Tocar el agua es opcional, y el agua está fría.",
+   "crowd_note": "En verano y los fines de semana hay muchas familias y grupos: conviene reservar franja con antelación",
+   "region": "Normandía, Calvados, ~35 minutos de Caen",
+   "booking": "Temporada 2026: del 4 de abril al 30 de noviembre; en primavera y otoño, fines de semana y festivos de 10:00 a 17:00; del 13 de junio al 31 de agosto, a diario de 10:00 a 18:00. Reserva online. Los menores necesitan autorización escrita de los padres.",
+   "record": "La primera plataforma de AJ Hackett en Europa (1990), en un pilar del viaducto construido según el proyecto de Gustave Eiffel en 1887–1889",
+   "pros": [
+    "El legendario operador AJ Hackett",
+    "Se puede tocar el agua",
+    "Columpios, péndulo y tirolina para todo el grupo",
+    "Desde los 12 años"
+   ],
+   "cons": [
+    "Poca altura: 61 m",
+    "Caro para su altura: 179 €",
+    "El tiempo cambiante de Normandía"
+   ],
+   "airport": "CFR — Caen-Carpiquet, ~45 min; CDG — París, ~3 h 30 min",
+   "price_note": "179 € individual; estudiantes y menores de 18 años, 119 €; segundo salto, 99 €; tándem, desde 198 €; fotos o vídeo, 40 € cada uno",
+   "school_notes": [
+    null,
+    "Operador; web en francés"
+   ]
+  },
+  "jumpin-heights-rishikesh": {
+   "h": "6389e0c710",
+   "description": "Salto desde una plataforma en voladizo que sobresale 25 m sobre el cortado de la garganta del río Hiunl, en las estribaciones del Himalaya: 83 m hasta el lecho pedregoso. Es la principal plataforma de bungee de la India y una parada obligada tras el rafting y el yoga en Rishikesh. En el mismo sitio hay un columpio gigante sobre la garganta y un flying fox de casi un kilómetro.",
+   "rating_basis": "La plataforma más conocida de la India, con una nota media de 4,7–4,8 en miles de opiniones; altura media para los estándares mundiales",
+   "hazards": "No se puede saltar con enfermedades cardíacas, hipertensión, problemas de espalda y cuello, epilepsia o embarazo. Durante el monzón se suspende la actividad por las lluvias torrenciales, las crecidas y el viento; la carretera de montaña se desmorona.",
+   "crowd_note": "Muy popular entre los turistas indios: los fines de semana, en festivos y en mayo–junio se espera hasta varias horas; la mañana de un día laborable es la mejor opción",
+   "region": "Uttarakhand, pueblo de Mohan Chatti, ~25 km (45 min) de Tapovan, en Rishikesh",
+   "booking": "La reserva online en la web es obligatoria, y los fines de semana y festivos las plazas se agotan con antelación. Lanzadera desde la oficina de Tapovan a las 9:15 y a las 13:15. Edad, de 12 a 45 años; menores de 18, solo con uno de los padres. Los martes suele cerrar: conviene confirmarlo",
+   "record": "El bungee desde plataforma fija más alto de la India (83 m); funciona desde 2010 con estándares neozelandeses",
+   "pros": [
+    "Operador profesional con estándares neozelandeses",
+    "Barato",
+    "Tres atracciones en un mismo sitio",
+    "Fácil de combinar con rafting y yoga en Rishikesh"
+   ],
+   "cons": [
+    "Largas colas los fines de semana y festivos",
+    "Edad máxima de 45 años",
+    "Cerrado en pleno monzón (aproximadamente de mediados de julio a mediados de septiembre)",
+    "En mayo–junio, calor de hasta 37 °C"
+   ],
+   "airport": "DED — Dehradun (Jolly Grant), ~1,5 h",
+   "price_note": "3700 INR (≈36 €) con GST; columpio gigante, 3700 INR; flying fox, 2000–3500 INR; vídeo, desde 900 INR; lanzadera desde Tapovan, 500 INR; entrada para espectadores, 100 INR",
+   "school_notes": [
+    "Web oficial y reserva online; también tiene una plataforma en Goa (~60 m)"
+   ]
+  },
+  "ponte-colossus": {
+   "h": "333069f46e",
+   "description": "Viaducto de hormigón de 152 m de altura sobre un valle de las estribaciones alpinas, cerca de Biella: el primer centro de bungee permanente de Italia. Unos 5 segundos de caída libre a hasta 110 km/h, y después bajan al saltador al fondo del valle. Se salta incluso con lluvia; solo se cancela con fuerte viento lateral.",
+   "rating_basis": "Top 15 de la CNN; el centro permanente más antiguo de Italia; 4,9/5 en Manawa",
+   "hazards": "No se recomienda con enfermedades cardíacas graves, problemas neurológicos o articulares, enfermedades de la retina, epilepsia, luxación recurrente del hombro, embarazo, lesiones u operaciones recientes. Peso de 45–120 kg con ropa.",
+   "crowd_note": "Los fines de semana de verano se llenan con antelación, sobre todo con grupos",
+   "region": "Piamonte, provincia de Biella, Veglio, ~1 h de Milán y Turín",
+   "booking": "Se salta los fines de semana de primavera a otoño (de abril a octubre, según la oficina de turismo de Biella); el calendario de la web abarca de marzo a diciembre. Reserva obligatoria, online hasta las 8:00 del día del salto. Los menores necesitan consentimiento escrito de los padres; los mayores de 60, un certificado médico presentado con antelación. Tras el salto bajan al saltador al fondo del valle y se vuelve a pie por un sendero; el programa completo dura ~1,5 h.",
+   "record": "El primer centro de bungee permanente de Italia (desde mediados de los años 90), n.º 10 del top 15 de los saltos más altos del mundo según la CNN",
+   "pros": [
+    "152 m: uno de los saltos más altos de Europa",
+    "Barato: 110 €",
+    "Se salta también con lluvia",
+    "A una hora en coche de Milán y Turín"
+   ],
+   "cons": [
+    "Solo fines de semana",
+    "Subida a pie después del salto, sin ascensor",
+    "Sin transporte público hasta el puente: hace falta lanzadera o coche"
+   ],
+   "airport": "MXP — Milán-Malpensa, ~1 h 15 min; TRN — Turín, ~1 h 15 min",
+   "price_note": "110 € por salto; salto repetido (con Bungee Card o certificado), 90 €; en grupos de 7 o más, un salto gratis; vídeo, 20–30 €",
+   "school_notes": [
+    null,
+    "Operador; calendario y precios, web en italiano e inglés"
+   ]
+  },
+  "valgadena-bridge": {
+   "h": "2f14502a1d",
+   "description": "Puente de hormigón de 1990 en la meseta de Asiago sobre la profunda garganta de Valgadena: según el operador, con 175 m es el salto desde puente más alto de Italia. Es un club asociativo, no una atracción: se salta según calendario, se paga en efectivo y se necesita certificado médico. A cambio, es más barato que en Suiza y Austria.",
+   "rating_basis": "Top 15 de la CNN; 4,9/5 con 63 opiniones en CheckYeti; la plataforma tiene más de 20 años",
+   "hazards": "Las contraindicaciones figuran en la web del operador (corazón, tensión arterial, espalda, etc.); sin certificado médico no se admite a nadie. El tiempo en la meseta es cambiante: con tormenta y viento fuerte los saltos se aplazan.",
+   "crowd_note": "Se salta según calendario, con grupos pequeños en las fechas de salto",
+   "region": "Véneto, meseta de Asiago (Sette Comuni), entre Enego y Foza",
+   "booking": "Saltos en fechas fijas, sobre todo los fines de semana de mediados de marzo a noviembre (en 2026, unas 45 fechas). La solicitud se hace con el formulario de la web y solo queda confirmada tras contactar por WhatsApp. El día del salto hace falta un certificado médico de aptitud deportiva. Menores de 18 años, con la presencia de uno de los padres o su autorización escrita.",
+   "record": "Según el operador, el puente más alto de Italia; n.º 7 del top 15 de los saltos más altos del mundo de la CNN (175 m)",
+   "pros": [
+    "Uno de los saltos más altos de Europa",
+    "Barato: unos 110 € con la cuota",
+    "Notas altas en los agregadores"
+   ],
+   "cons": [
+    "Hace falta certificado médico de aptitud deportiva",
+    "Solo efectivo y confirmación por WhatsApp",
+    "Fechas fijas, sobre todo fines de semana"
+   ],
+   "airport": "VCE — Venecia, ~1 h 45 min; VRN — Verona, ~1 h 45 min",
+   "price_note": "90 € por salto + 20 € de cuota de socio de la asociación; fotos o vídeo, 15 €; ambos, 25 €; pago solo en efectivo",
+   "school_notes": [
+    null,
+    "Operador asociativo; fechas y formulario de solicitud, web en italiano e inglés",
+    "Agregador, 4,9/5 con 63 opiniones"
+   ]
+  },
+  "gifu-bungy-shin-tabisoko": {
+   "h": "3a5c275a97",
+   "description": "Salto desde el puente de carretera Shin-Tabisoko, de 462 m de largo, tendido a unos 200 m de altura sobre el valle del río Tabisoko en las montañas de Gifu: 215 m de vuelo libre. Es el bungee más alto de Japón, inaugurado en 2020. Lo más cómodo es llegar en coche desde Nagoya; desde el aparcamiento se va a pie por un túnel hasta el mostrador de registro.",
+   "rating_basis": "215 m: récord de Japón y entre los mejores saltos desde puente del mundo; puente a ~200 m sobre la garganta, operador Bungy Japan",
+   "hazards": "Restricciones de salud: corazón, tensión arterial, espalda, embarazo. Se suspende la actividad con mal tiempo: tormentas, tifones (agosto–octubre), viento fuerte.",
+   "crowd_note": "Reserva por bloques de una hora; los fines de semana y festivos japoneses las franjas se agotan con antelación",
+   "region": "Prefectura de Gifu, Yaotsu, puente Shin-Tabisoko sobre el valle del río Tabisoko; ~1,5–2 h de Nagoya",
+   "booking": "Reserva online o por teléfono en el 0278-72-8133, en bloques de 60 minutos. Cancelar la víspera supone una penalización del 50 %; el mismo día del salto, del 100 %. Abre todo el año: abril–septiembre, de 9:00 a 17:30; octubre–marzo, de 8:30 a 17:00. Desde el aparcamiento, ~700 m a pie por un túnel",
+   "record": "El bungee más alto de Japón (215 m, inaugurado en agosto de 2020) y uno de los saltos desde puente más altos del mundo",
+   "pros": [
+    "215 m, récord en Japón",
+    "Abierto todo el año",
+    "Una garganta de montaña pintoresca",
+    "Descuento si ya se ha saltado desde otro puente de Bungy Japan"
+   ],
+   "cons": [
+    "Caro: 28 000 JPY",
+    "Complicado sin coche: tren hasta Mino-Ōta y ~30 minutos de taxi",
+    "Política de cancelación estricta",
+    "Peso máximo de 100 kg"
+   ],
+   "airport": "NGO — Nagoya (Chūbu), ~1,5 h en coche",
+   "price_note": "Primer salto, 28 000 JPY (≈161 €); segundo el mismo día, 13 000 JPY; «saltadores habituales» con certificado, 18 000 JPY; 1000 JPY de descuento si ya se ha saltado en otra plataforma de Bungy Japan. Solo efectivo",
+   "school_notes": [
+    null,
+    "Web en inglés y japonés"
+   ]
+  },
+  "minakami-suwakyo-bungy": {
+   "h": "d60c9a9acc",
+   "description": "Salto desde el puente Suwakyo, a 42 m sobre el río Tone, en pleno centro de Minakami, la capital japonesa del rafting y el barranquismo. Se llega en shinkansen desde Tokio en 1,5 horas más un autobús. El mismo día se puede saltar también desde el otro puente del operador, el Sarugakyo (62 m), a 20 minutos en coche.",
+   "rating_basis": "Un salto bajo pero pintoresco sobre el río Tone, en el centro de un destino de turismo activo; un clásico de Bungy Japan",
+   "hazards": "Restricciones de salud: corazón, tensión arterial, espalda, embarazo. Los saltos se suspenden cuando el río baja crecido (deshielo, lluvias de la temporada tsuyu en junio) y con tifones.",
+   "crowd_note": "Solo abre 2 días a la semana, así que los fines de semana y festivos las franjas se agotan con antelación; sin reserva se puede esperar horas",
+   "region": "Prefectura de Gunma, ciudad de Minakami, ~1 km al sur de la estación de Minakami; ~2 h de Tokio",
+   "booking": "Para conseguir una buena hora es imprescindible reservar online o por teléfono en el 0278-72-8133. Temporada 2026: de abril al 31 de octubre, solo viernes y sábados; de 9:00 a 17:30 (en octubre, hasta las 17:00). Menores de 18 años, con uno de los padres o con consentimiento firmado",
+   "record": "La plataforma de bungee desde puente en activo más antigua de Japón (desde 2007)",
+   "pros": [
+    "Fácil acceso desde Tokio",
+    "Se puede combinar con rafting y barranquismo en Minakami",
+    "Combo con el puente Sarugakyo, más alto"
+   ],
+   "cons": [
+    "Solo 42 m",
+    "Abre solo de abril a octubre, y únicamente viernes y sábados",
+    "Solo efectivo"
+   ],
+   "airport": "HND / NRT — Tokio, ~2,5–3 h en tren",
+   "price_note": "Primer salto, 12 000 JPY (≈69 €); segundo el mismo día, 6000 JPY; repetición otro día, 7000 JPY; combo con el puente Sarugakyo (62 m) el mismo día, 19 000 JPY. Solo efectivo",
+   "school_notes": [
+    null,
+    "Web en inglés y japonés"
+   ]
+  },
+  "ryujin-bridge-bungy": {
+   "h": "a22bc7463b",
+   "description": "Salto desde el centro del puente colgante Ryujin, de 375 m, en la prefectura de Ibaraki: 100 m hasta el embalse de una garganta boscosa. Durante mucho tiempo fue el bungee más alto de Japón; tras el salto, un cabrestante eléctrico sube al saltador de vuelta al puente. En otoño los arces tiñen la garganta de rojo y es el momento más bonito para saltar.",
+   "rating_basis": "100 m sobre un lago en una garganta boscosa, más de 10 000 saltos al año; especialmente bonito en noviembre, en la temporada de los arces",
+   "hazards": "Restricciones de salud: corazón, tensión arterial, espalda, embarazo. Los saltos se suspenden con tifones (agosto–octubre) y tormentas; en invierno hace frío y viento en el puente.",
+   "crowd_note": "Más de 10 000 saltadores al año: los fines de semana, festivos y en la temporada de los arces rojos (noviembre), sin reserva se espera hasta 3 horas",
+   "region": "Prefectura de Ibaraki, ciudad de Hitachiōta, gran puente colgante Ryujin sobre el embalse; ~2,5 h de Tokio",
+   "booking": "Reserva obligatoria, sobre todo para fines de semana y festivos: sin ella, hasta 3 horas de espera. Abre todo el año, de 9:00 a 11:00 y de 12:00 a 17:30; los días de apertura hay que confirmarlos por teléfono en el 0278-72-8133. Un acompañante puede mirar desde la plataforma pagando un suplemento",
+   "record": "100 m: el segundo bungee permanente más alto de Japón (después de Gifu, 215 m); con 375 m de largo, uno de los puentes colgantes peatonales más largos del país",
+   "pros": [
+    "100 m de vuelo libre",
+    "Una garganta preciosa, sobre todo en noviembre",
+    "Abierto todo el año",
+    "Vídeo GoPro incluido"
+   ],
+   "cons": [
+    "Incómodo sin coche: el autobús desde la estación de Hitachiōta pasa 3–4 veces al día",
+    "Colas los fines de semana",
+    "Solo efectivo"
+   ],
+   "airport": "IBR — Ibaraki, ~1,5 h en coche; NRT / HND — Tokio, ~2,5 h",
+   "price_note": "Primer salto, 19 000 JPY (≈109 €); segundo el mismo día, 8000 JPY; repetición otro día, 11 000 JPY; vídeo GoPro incluido. Solo efectivo",
+   "school_notes": [
+    null,
+    "Web en inglés y japonés"
+   ]
+  },
+  "macau-tower": {
+   "h": "f7e02412b0",
+   "description": "Salto desde el anillo exterior de la torre de televisión de Macao, a 233 m de altura: unos 4–5 segundos de caída libre a hasta 200 km/h y frenada a 30 m del suelo. La caída va asegurada con cables guía, así que el salto es a la vez extremo y muy tecnológico. En la misma plataforma están el SkyJump (descenso con cable), el paseo por el borde SkyWalk y la subida a la aguja de la torre.",
+   "rating_basis": "Récord Guinness, siempre en el top 3 de los bungee comerciales más altos del mundo, el legendario operador AJ Hackett",
+   "hazards": "No se puede saltar con problemas de corazón o de tensión arterial, epilepsia, embarazo, operaciones o lesiones recientes, ni con antecedentes de luxaciones. Los saltos se suspenden con tifón, viento fuerte, tormenta y lluvia intensa; la temporada de tifones va de junio a octubre.",
+   "crowd_note": "Los fines de semana y en los festivos chinos hay cola en la plataforma; entre semana por la mañana hay menos gente (y descuento en las primeras franjas)",
+   "region": "Península de Macao, Macau Tower, plataforma a 233 m de altura",
+   "booking": "Reserva en la web de Skypark o en agregadores (Klook, LocalTours en ruso); abre a diario: lunes a viernes, de 11:00 a 19:00; sábados y domingos, de 10:30 a 19:30. Menores de 18 años, solo con uno de los padres, que firma la renuncia de responsabilidad",
+   "record": "Récord Guinness: la plataforma de bungee comercial más alta en un edificio (233 m); uno de los saltos bungee más altos del mundo",
+   "pros": [
+    "Uno de los bungee más altos del mundo",
+    "Abierto todo el año y a diario",
+    "Se puede combinar con el SkyWalk y la subida a la aguja",
+    "Fácil acceso desde Hong Kong en ferri o por el puente"
+   ],
+   "cons": [
+    "Caro: ≈330 € sin fotos ni vídeo",
+    "Vistas a la ciudad y a las obras, no a la naturaleza",
+    "En verano, calor, tormentas y tifones que obligan a suspender los saltos"
+   ],
+   "airport": "MFM — Macao, ~15 min; HKG — Hong Kong, ~45 min por el puente HZMB",
+   "price_note": "Salto individual, 3088 MOP (≈330 €): entrada a la torre, camiseta y certificado electrónico; fotos y vídeo en un paquete aparte. Tándem, 5488 MOP; SkyJump, 2188 MOP; SkyWalk, 788 MOP; subida a la aguja (Tower Climb), 2688 MOP",
+   "school_notes": [
+    null,
+    "Operador oficial, web en inglés y chino",
+    "Revendedor de entradas en ruso; en la plataforma el personal habla inglés y chino"
+   ]
+  },
+  "kushma-bungee": {
+   "h": "3dec42556a",
+   "description": "Salto desde un puente colgante de 520 m tendido a 228 m de altura sobre la garganta del Kali Gandaki, entre Kushma y Balewa: según el operador, el segundo bungee más alto del planeta después de Macao. La caída libre dura unos 5–7 segundos. En la plataforma The Cliff hay un columpio gigante, una «bicicleta aérea» sobre cable, un café sobre el abismo y alojamiento en tiendas y cabañas.",
+   "rating_basis": "228 m: según el operador y Wikipedia, el segundo salto más alto del mundo después de Macao; popular en redes sociales, unos 300 visitantes al día",
+   "hazards": "No se puede saltar con enfermedades cardíacas o de tensión arterial, problemas de espalda o embarazo. La actividad se suspende con tormenta y viento fuerte; durante el monzón (junio–septiembre) los corrimientos de tierra cortan la carretera Pokhara–Kushma.",
+   "crowd_note": "Hasta 300 visitantes al día, sobre todo los fines de semana y en las fiestas nepalíes (Dashain, Tihar): mejor llegar a la hora de apertura",
+   "region": "Parbat, garganta del río Kali Gandaki, a 62 km de Pokhara",
+   "booking": "Reserva por teléfono/WhatsApp o a través de agencias de Pokhara (excursión de un día con traslado). No hay saltos en pareja; al lado hay tiendas y cabañas para pasar la noche",
+   "record": "El segundo salto bungee más alto del mundo (228 m) y el más alto de Nepal; en el mismo puente, el «columpio más alto del mundo»",
+   "pros": [
+    "Altura casi de récord por cuatro perras",
+    "La salvaje garganta del Kali Gandaki",
+    "Excursión de un día desde Pokhara",
+    "Columpio y otras atracciones en el mismo puente"
+   ],
+   "cons": [
+    "Solo a partir de 18 años y hasta 105 kg",
+    "~2 horas de carretera de montaña desde Pokhara",
+    "Sin saltos en pareja",
+    "Durante el monzón, niebla y corrimientos de tierra"
+   ],
+   "airport": "PKR — Pokhara, ~2 h en coche",
+   "price_note": "8000 NPR (≈49 €), precio único para nepalíes y extranjeros; fotos, vídeo y camiseta aparte; segundo salto el mismo día, 4000 NPR. En la prensa de 2023 figuraban 7500 NPR",
+   "school_notes": [
+    null,
+    "Precios, normas y contactos (WhatsApp/Viber)"
+   ]
+  },
+  "last-resort-bhote-koshi": {
+   "h": "b4a693f8e4",
+   "description": "Salto desde un puente colgante peatonal de 166 m tendido sobre la garganta del río Bhote Koshi, junto a la frontera con el Tíbet: 160 m y unos 5 segundos de caída libre hacia el agua embravecida. Es la primera y más famosa plataforma de bungee de Nepal. Al lado hay un canyon swing, columpio en tándem, barranquismo y rafting, y en la orilla, un campamento de tiendas donde se puede pasar la noche.",
+   "rating_basis": "Un clásico de Nepal: 160 m sobre un río bravo en una garganta estrecha, puente de diseño suizo y buenas opiniones sobre la seguridad; figura en las listas de los saltos desde puente más altos",
+   "hazards": "No se puede saltar con enfermedades cardíacas, hipertensión, epilepsia, asma, operaciones recientes, problemas ortopédicos o neurológicos, embarazo ni en estado de embriaguez. Durante el monzón (junio–septiembre) los corrimientos de tierra cortan la carretera de Arniko y el viaje puede alargarse o frustrarse: en agosto de 2025 estuvo cerrada 11 días por desprendimientos.",
+   "crowd_note": "Se salta en grupos según el horario de las excursiones de un día; las colas son cortas, pero en octubre–noviembre conviene reservar con antelación las excursiones desde Katmandú",
+   "region": "Sindhupalchok, carretera de Arniko, ~100 km de Katmandú y ~12 km de la frontera con el Tíbet",
+   "booking": "Reserva en la web o en la oficina de Mandala Street, en Thamel (pago con al menos 3 días de antelación); el autobús sale de Thamel hacia las 6:00 y el trayecto dura 3,5–4,5 horas. Se puede pasar la noche en el campamento de tiendas junto al puente. Menores de 18 años, con uno de los padres",
+   "record": "La primera plataforma de bungee de Nepal; con 160 m sobre el río, uno de los saltos desde puente más altos del mundo, y en el mismo lugar, uno de los canyon swings más largos",
+   "pros": [
+    "Un salto altísimo en una auténtica garganta de montaña",
+    "Barato para su altura",
+    "Se puede combinar con canyon swing, barranquismo y rafting",
+    "Noche en el campamento junto al puente"
+   ],
+   "cons": [
+    "Largo trayecto desde Katmandú por carretera de montaña",
+    "Límite de peso estricto para el bungee: hasta 98 kg",
+    "En verano, monzón: niebla, lluvias torrenciales y corrimientos de tierra en la carretera de Arniko"
+   ],
+   "airport": "KTM — Katmandú, ~3,5–4,5 h en autobús",
+   "price_note": "Solo el salto, 92 USD (≈79 €); excursión de un día desde Katmandú con traslado y almuerzo, 108 USD; bungee + canyon swing, 137 USD; segundo salto o columpio, 55 USD",
+   "school_notes": [
+    "Operador oficial, precios en USD, web en inglés"
+   ]
+  },
+  "pokhara-highground-bungee": {
+   "h": "de868370e9",
+   "description": "Salto desde una torre en voladizo de 80 m en el valle de Hemja, cerca de Pokhara (las guías hablan de 70–75 m de vuelo), con vistas a las cumbres del Himalaya. Es la forma más sencilla de saltar en Nepal sin un largo viaje: el traslado desde Lakeside lleva 20 minutos. Hay salto en tándem, y el mismo operador ofrece el ZipFlyer desde Sarangkot y vuelos en parapente.",
+   "rating_basis": "Torre en voladizo poco alta, pero con vistas al Annapurna y al Machapuchare y a 20 minutos de Pokhara; buenas opiniones como «primer bungee»",
+   "hazards": "Restricciones de salud: corazón, tensión arterial, espalda, embarazo, operaciones recientes. Los saltos se suspenden con tormenta y lluvia intensa; Pokhara es la ciudad más lluviosa de Nepal (junio–septiembre).",
+   "crowd_note": "Franjas con reserva, normalmente sin colas; en octubre–noviembre hay más turistas",
+   "region": "Valle de Hemja, ~20 min de Lakeside (Pokhara)",
+   "booking": "Reserva online instantánea en la web o en la oficina de Lakeside Road (Barahi Chowk); se necesita un documento con foto. Abre a diario; calzado cerrado obligatorio, prohibidas las faldas y las chanclas",
+   "record": "La única plataforma de bungee en torre de Nepal",
+   "pros": [
+    "A 20 minutos de Pokhara",
+    "Barato",
+    "Vistas al Annapurna con tiempo despejado",
+    "Se puede saltar en pareja"
+   ],
+   "cons": [
+    "Altura modesta para Nepal",
+    "Es una torre, no una garganta",
+    "Durante el monzón las nubes tapan las montañas y llueve a menudo"
+   ],
+   "airport": "PKR — Pokhara, ~30 min",
+   "price_note": "Desde 5000 NPR (≈31 €) el salto individual según la web del operador; tándem, 9500 NPR con traslado desde Lakeside. En guías antiguas, 8700–13000 NPR según la nacionalidad: conviene confirmarlo",
+   "school_notes": [
+    null,
+    "Operador de la torre; también ZipFlyer, parapente y quads"
+   ]
+  },
+  "auckland-harbour-bridge": {
+   "h": "3401fbf356",
+   "description": "Salto desde una cápsula bajo la calzada del Harbour Bridge de Auckland: 40 m hasta las aguas de la bahía de Waitematā. Se puede pedir meter la cabeza en el océano (según la marea) o saltar en pareja. El salto se combina fácilmente con la subida guiada al puente (Bridge Climb).",
+   "rating_basis": "Salto urbano con vistas al skyline de Auckland y a la bahía, con opción de tocar el océano; poco alto, pero cómodo para turistas en tránsito",
+   "hazards": "Contraindicaciones habituales: embarazo, epilepsia fotosensible, corazón, tensión arterial, espalda. Con viento y lluvia (sobre todo en invierno) los saltos pueden aplazarse.",
+   "crowd_note": "Normalmente sin colas; los fines de semana de verano hay más grupos",
+   "region": "Auckland, puente sobre la bahía de Waitematā; salida junto a la marina de Westhaven, a 5–10 min del centro",
+   "booking": "Reserva en bungy.co.nz; punto de encuentro en 105 Curran Street, marina de Westhaven (aparcamiento gratuito). Abre a diario de 9:00 a 16:30, excepto en Navidad. Para tocar el agua hay que pedírselo al jump master al registrarse",
+   "record": "El único bungee de Auckland: un salto hacia el mar desde el puente principal de la ciudad",
+   "pros": [
+    "Dentro de la ciudad, ideal antes de volar desde Auckland",
+    "Se puede tocar el agua del océano",
+    "Saltos en tándem",
+    "Combo con la subida guiada al puente"
+   ],
+   "cons": [
+    "Solo 40 m",
+    "No se garantiza tocar el agua: depende de la marea"
+   ],
+   "airport": "AKL — Auckland, ~30–40 min",
+   "price_note": "Un salto desde 260 NZD (niños desde 220 NZD), con fotos, vídeo y camiseta incluidos si se reserva directamente; combo con la subida al puente, 325 NZD; espectadores, 20 NZD",
+   "school_notes": [
+    null,
+    "Reserva oficial; combo con Bridge Climb"
+   ]
+  },
+  "kawarau-bridge": {
+   "h": "ccc2aea942",
+   "description": "Histórico puente colgante de 1880 sobre las aguas esmeralda del río Kawarau: aquí abrió en 1988 la primera plataforma de bungee comercial del mundo. 43 m hasta el agua; se puede pedir tocar el río (según el nivel del agua, sin garantía) o saltar en pareja. Al lado hay un columpio sobre la garganta, una tirolina corta y las bodegas del valle de Gibbston.",
+   "rating_basis": "La «cuna del bungee» y la primera plataforma comercial (Wikipedia, AJ Hackett), el río turquesa Kawarau; parada obligada en Queenstown",
+   "hazards": "No pueden saltar embarazadas ni personas con epilepsia fotosensible; con osteoporosis, escoliosis o una conmoción reciente hace falta certificado médico. En invierno hace frío junto al río: conviene llevar chaqueta. Al tocar el agua, la cabeza y los hombros pueden hundirse en el río frío.",
+   "crowd_note": "En verano y en festivos hay cola en el puente y muchos espectadores; las franjas de la mañana están más libres",
+   "region": "Otago, valle de Gibbston, a 23 km de Queenstown por la carretera SH6",
+   "booking": "Reserva directa en bungy.co.nz; en verano (diciembre–febrero), con unos días de antelación. Por cuenta propia hay que calcular 1,5 h, y en el autobús desde el centro de Queenstown, 2,5 h. Horario: octubre–abril, de 8:30 a 17:00; mayo–septiembre, de 9:00 a 16:30; a diario excepto en Navidad. Los espectadores miran gratis",
+   "record": "La primera plataforma de bungee comercial del mundo, abierta por AJ Hackett en 1988",
+   "pros": [
+    "Un lugar histórico, la «cuna del bungee»",
+    "Se puede tocar el agua y saltar en tándem",
+    "Fotos y vídeo incluidos si se reserva directamente",
+    "A 20–25 minutos de Queenstown, se puede llegar por cuenta propia"
+   ],
+   "cons": [
+    "Caro para 43 m",
+    "Mucha gente en verano",
+    "Con el río alto, el peso máximo baja a 130 kg"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min",
+   "price_note": "Un salto desde 320 NZD (niños desde 280 NZD); reservando directamente se incluyen fotos y vídeo, camiseta y autobús desde Queenstown. Columpio, 240 NZD; tirolina, 50 NZD",
+   "school_notes": [
+    null,
+    "Reserva oficial; hay combo con el Nevis"
+   ]
+  },
+  "ledge-bungy": {
+   "h": "1dedc5a0a2",
+   "description": "Plataforma sobre la ladera junto a la estación superior de la góndola Skyline, a 400 m sobre Queenstown y el lago Wakatipu. Aquí se salta con carrerilla y arnés de cintura: se puede tirar de cabeza, hacer un mortal o simplemente dar un paso al vacío. Lo más espectacular es el salto nocturno hacia la oscuridad sobre las luces de la ciudad.",
+   "rating_basis": "Las mejores vistas de Queenstown y el lago Wakatipu, saltos nocturnos sobre las luces de la ciudad; poca altura",
+   "hazards": "Contraindicaciones habituales: embarazo, problemas de corazón, espalda o tensión arterial. En invierno, por la tarde-noche, arriba hace frío y viento; no se recomiendan los senderos a pie a Bob's Peak en invierno.",
+   "crowd_note": "Normalmente sin grandes colas; en verano puede haberlas en la góndola Skyline",
+   "region": "Queenstown, Bob's Peak, junto a la estación superior de la góndola Skyline, a 400 m sobre la ciudad",
+   "booking": "La plataforma está cerrada temporalmente por falta de personal; AJ Hackett promete reabrirla en el verano austral 2026/27 (en newzealand.com, «a partir de noviembre de 2026»); de momento, se reserva por lista de espera. Normalmente abre a diario de 13:00 a 20:00; se sube en la góndola Skyline desde Brecon St",
+   "record": "Bungee con carrerilla y arnés de cintura sobre las luces de Queenstown; el salto más cercano al centro",
+   "pros": [
+    "Cinco minutos a pie desde el centro más la góndola",
+    "Se puede saltar con carrerilla y en estilo libre",
+    "Saltos nocturnos sobre las luces de Queenstown",
+    "Abre por la tarde, hasta las 20:00"
+   ],
+   "cons": [
+    "Cerrada temporalmente: hay que comprobar su estado antes del viaje",
+    "La góndola se paga aparte",
+    "Solo 47 m"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min hasta la estación inferior de la góndola",
+   "price_note": "Un salto, 240 NZD; el billete de la góndola Skyline no está incluido y se compra aparte; columpio, 210 NZD",
+   "school_notes": [
+    null,
+    "Página oficial; ahora, lista de espera hasta la reapertura"
+   ]
+  },
+  "nevis-bungy": {
+   "h": "f3c67be7e4",
+   "description": "Una cabina-cápsula cuelga de cables sobre el cañón del río Nevis, y se llega a ella en una pequeña vagoneta de cable. 134 m y 8,5 segundos de caída: el salto más alto de Nueva Zelanda. En la misma plataforma están el Nevis Swing (el columpio más grande del mundo) y una catapulta, y se llega por terrenos privados en un autobús todoterreno.",
+   "rating_basis": "El salto más alto del país y una de las plataformas de bungee más altas del mundo (Wikipedia), un cañón salvaje y estatus de culto entre los turistas de Queenstown",
+   "hazards": "No pueden saltar embarazadas ni personas con epilepsia fotosensible; con osteoporosis, escoliosis o una conmoción reciente, certificado médico. Hay que quitarse las gafas (dan gratis unas protectoras graduadas). Se necesita calzado cerrado y, en invierno, ropa de abrigo por capas. Puede cancelarse con viento fuerte.",
+   "crowd_note": "El flujo de gente se regula con los autobuses, así que hay pocas colas, pero en verano las plazas se agotan con antelación",
+   "region": "Otago, valle del río Nevis, ~45 min en autobús desde Queenstown",
+   "booking": "Solo con reserva (se puede cambiar o cancelar con 48 h de antelación). No se puede llegar por cuenta propia: autobús 4×4 desde el Queenstown Bungy Centre (esquina de Shotover y Camp St); la excursión completa dura unas 4 horas. Las salidas dependen de la temporada: en agosto de 2026 el autobús salía de jueves a lunes a las 8:40, 10:00 y 12:00",
+   "record": "El salto bungee más alto de Nueva Zelanda: 134 m y 8,5 segundos de vuelo; en el mismo lugar, el columpio más grande del mundo y la primera catapulta",
+   "pros": [
+    "El salto más alto del país",
+    "Un cañón de montaña salvaje sin multitudes de espectadores",
+    "Traslado, fotos y vídeo incluidos",
+    "Se puede hacer la «trilogía»: salto, columpio y catapulta"
+   ],
+   "cons": [
+    "Caro",
+    "Edad mínima de 13 años, peso desde 45 kg",
+    "La excursión lleva unas 4 horas",
+    "En invierno hay menos salidas y hace frío"
+   ],
+   "airport": "ZQN — Queenstown, ~20 min hasta el centro y después ~45 min en autobús",
+   "price_note": "Un salto, 395 NZD (mismo precio para adultos y niños); incluye el autobús 4×4 desde Queenstown, fotos y vídeo y camiseta. Columpio, 325 NZD; catapulta, 295 NZD; combo de los tres, 805 NZD",
+   "school_notes": [
+    null,
+    "Reserva oficial; combos con columpio, catapulta y Kawarau",
+    "Reserva con interfaz en ruso; atención en el lugar en inglés"
+   ]
+  },
+  "taupo-bungy": {
+   "h": "b29ce54648",
+   "description": "Una plataforma en voladizo sobresale del acantilado sobre el río Waikato, a pocos minutos del lago Taupo: 47 m hasta un agua de color turquesa. Se puede pedir tocar el río o saltar en pareja, y al lado hay un columpio sobre la misma garganta. Buena opción para quien viaja por la Isla Norte y no llegará a Queenstown.",
+   "rating_basis": "Un bonito río turquesa, posibilidad de tocar el agua y fácil de combinar con otras actividades de Taupo (paracaidismo, jet boat)",
+   "hazards": "Contraindicaciones habituales: embarazo, epilepsia fotosensible, corazón, tensión arterial, espalda. En invierno hace fresco; con viento fuerte los saltos pueden aplazarse.",
+   "crowd_note": "En verano y en las vacaciones escolares hay ambiente, pero normalmente no se forman grandes colas",
+   "region": "Taupo, Isla Norte, acantilado sobre el río Waikato (202 Spa Road), a 5–10 min del centro",
+   "booking": "Reserva en bungy.co.nz; cancelación gratuita con 48 h de antelación. En otoño de 2026 la plataforma cerró por reformas: el bungee reabre el 12 de noviembre y el columpio, el 5 de noviembre. Horario: entre semana, de 9:30 a 16:00; fines de semana, hasta las 17:00 (en verano, hasta las 17:00); cerrado en Navidad",
+   "record": "El único bungee de Nueva Zelanda desde el borde de un acantilado: una plataforma en voladizo sobre el turquesa del Waikato",
+   "pros": [
+    "Se puede tocar el agua y saltar en tándem",
+    "Dentro de la ciudad, cerca del paracaidismo y el jet boat",
+    "Una bonita garganta turquesa"
+   ],
+   "cons": [
+    "Altura de plataforma urbana",
+    "No se garantiza tocar el agua",
+    "Tras las reformas de otoño de 2026, conviene confirmar el horario"
+   ],
+   "airport": "TUO — Taupo, ~15 min; AKL — Auckland, ~3,5 h en coche",
+   "price_note": "Un salto desde 275 NZD (niños desde 235 NZD), con fotos, vídeo y camiseta si se reserva directamente; columpio, 240 NZD; combos con jet boat, rafting o paracaidismo, 361–785 NZD",
+   "school_notes": [
+    null,
+    "Reserva oficial, combos con columpio y paracaidismo",
+    "Precios, horario, tarifa familiar de 785 NZD (2 adultos + 2 niños de 10–14 años)"
+   ]
+  },
+  "action-valley-cusco": {
+   "h": "42a3382006",
+   "description": "Parque de aventura en un valle junto a Poroy, a 20 minutos de Cusco: salto desde una plataforma con 122 m de caída libre, uno de los más altos de Sudamérica. Aquí también está la catapulta Slingshot, que en 4 segundos lanza hasta 130 m de altura, columpios y una «bicicleta aérea». Se combina bien con un viaje a Machu Picchu.",
+   "rating_basis": "Uno de los saltos más altos del continente, a 3600 m sobre el nivel del mar cerca de Cusco y Machu Picchu; 4,6 sobre 5 en las opiniones de Google (117 reseñas)",
+   "hazards": "Antes hay que aclimatarse 1–2 días en Cusco: la altitud de 3600 m aumenta la carga sobre el corazón. No se admite a embarazadas ni a personas con epilepsia; con osteoporosis, escoliosis o una conmoción reciente hace falta certificado médico; también está contraindicado con enfermedades cardíacas e hipertensión. En la temporada de lluvias puede haber tormentas y cancelaciones.",
+   "crowd_note": "Colas pequeñas; en la estación seca (junio–agosto) hay más grupos desde Cusco",
+   "region": "Cusco, distrito de Poroy, a 11 km (~20 min) del centro de Cusco",
+   "booking": "Reserva en la oficina de Action Valley en la calle Santa Teresa 325 de Cusco o a través de agencias; salida por la mañana (~9:00), todo lleva unas 3 horas",
+   "record": "El bungee más alto de Latinoamérica según el operador: 122 m de caída libre; el parque funciona desde 2001, con más de 500 000 saltos",
+   "pros": [
+    "Una caída libre altísima",
+    "A 20 minutos de Cusco",
+    "La catapulta Slingshot, una atracción poco común",
+    "Barato para su altura"
+   ],
+   "cons": [
+    "3600 m de altitud: hace falta aclimatarse",
+    "Lluvias de noviembre a marzo",
+    "Web propia sin precios online"
+   ],
+   "airport": "CUZ — Cusco, ~25 min",
+   "price_note": "Solo bungee, ~74 USD; bungee + catapulta, 105–120 USD (Civitatis, Nomades) o 600 PEN con Condor Xtreme; traslado desde Cusco, 40 PEN; fotos y vídeo, 20 USD",
+   "school_notes": [
+    "Web oficial del parque: bungee, catapulta Slingshot, «bicicleta aérea»",
+    "Agencia en Cusco: bungee + catapulta con traslado, 600 PEN",
+    "Reserva online de bungee con catapulta desde 105 USD, con traslado"
+   ]
+  },
+  "skypark-sochi-bungy-207": {
+   "h": "22620a04d2",
+   "description": "Salto desde una cápsula en el centro del puente colgante SkyBridge, a 207 m sobre la garganta de Ajshtyr: unos 7 segundos de caída libre. En el mismo parque están el Bungy 69 desde el inicio del puente (desde los 10 años, con tándem), el Bungy 207 PRO desde el techo de la cápsula, el columpio SochiSwing sobre el abismo, una tirolina y el MegaTroll, que alcanza los 120 km/h.",
+   "rating_basis": "Uno de los bungee más altos del mundo y el más alto de Rusia; vistas a la garganta de Ajshtyr, al valle del Mzymta y al mar; el lugar más conocido para saltar en Rusia (Lenta.ru)",
+   "hazards": "Contraindicaciones: tensión arterial, corazón, columna, lesiones y operaciones recientes, embarazo (lista completa en la web del parque). Con viento fuerte y tormenta se suspenden los saltos, y con mal tiempo pueden endurecer el límite de peso. En invierno las pasarelas resbalan: hace falta calzado con buena suela.",
+   "crowd_note": "El pico de visitantes es en julio–septiembre; el puente es estrecho, así que mejor llegar a la hora de apertura. La hora del salto la asigna el instructor; en temporada, la reserva online es obligatoria",
+   "region": "Krai de Krasnodar, Sochi, pueblo de Kazachi Brod, garganta de Ajshtyr (carretera a Krásnaya Poliana)",
+   "booking": "Entradas online, por teléfono o por e-mail (online, hasta la víspera); hay que llegar al menos 30 minutos antes. Las atracciones abren de miércoles a domingo de 10:30 a 17:00, con pausa para comer; con viento fuerte y tormenta se suspenden los saltos",
+   "record": "El salto bungee más alto de Rusia (207 m, según el operador); el puente SkyBridge, de 439 m, es uno de los puentes colgantes peatonales más largos del mundo",
+   "pros": [
+    "El bungee más alto de Rusia, ~7 s de caída libre",
+    "Todo en ruso, reserva online",
+    "Abierto todo el año, a 30–40 minutos del aeropuerto de Sochi",
+    "Muchas otras atracciones en el mismo parque"
+   ],
+   "cons": [
+    "Caro: 24 000 ₽ más la entrada y el vídeo",
+    "Solo a partir de 18 años",
+    "Cierra lunes y martes, con pausa a mediodía",
+    "En invierno, con nevadas y viento, cierran las atracciones"
+   ],
+   "airport": "AER — Sochi (Adler), ~30 min en coche",
+   "price_note": "Bungy 207, 24 000 ₽ (~250 € al cambio de ~95 ₽/€) + entrada obligatoria al parque; paquete multimedia, 3000 ₽ pagando por adelantado o 3500 ₽ después del salto. Bungy 207 PRO desde el techo de la cápsula (210 m, solo después del salto clásico), 15 000 ₽; Bungy 69 desde el inicio del puente, 12 000 ₽ (14–17 años, 8000 ₽; 10–13 años, 5000 ₽); SochiSwing, 9000 ₽",
+   "school_notes": [
+    null,
+    "Página oficial del salto, precios y normas en ruso",
+    "Salto de 69 m desde el inicio del puente, desde los 10 años, con opción de tándem"
+   ]
+  },
+  "sulak-canyon-nokhyo-tarzanka": {
+   "h": "3600d220f5",
+   "description": "Salto sobre el cañón del Sulak, uno de los más profundos de Europa, en el antiguo complejo de túneles de Nokhyo, donde las cuevas están unidas por un puente colgante de 70 m. Al lado hay un columpio gigante sobre el abismo y una tirolina de 500 m con 250 m de desnivel. El formato (cuerda elástica o cuerda con péndulo) y la altura hay que confirmarlos en el lugar.",
+   "rating_basis": "El cañón del Sulak es uno de los principales atractivos de Daguestán y el complejo de Nokhyo es muy popular entre los turistas; la altura del salto y el operador no están descritos públicamente",
+   "hazards": "No hay datos públicos sobre la certificación del equipo; en 2021, en Daguestán, dos turistas cayeron sobre un cañón desde un columpio defectuoso (sobrevivieron de milagro): hay que revisar el equipo y preguntar por el seguro. Contraindicaciones como para el bungee: tensión arterial, corazón, columna, embarazo. La actividad se suspende con lluvia y viento fuerte.",
+   "crowd_note": "Los fines de semana y a mediodía la cola para el salto pendular y el columpio es de varias horas; pagando el doble se puede pasar sin esperar",
+   "region": "Daguestán, cañón del Sulak junto al pueblo de Dubki, ~70 km de Majachkalá (coordenadas aproximadas)",
+   "booking": "Se paga en el lugar; mejor llegar a la hora de apertura o entre semana, porque los fines de semana y a mediodía hay colas de varias horas. Suele formar parte de las excursiones «Cañón del Sulak y cuevas de Nokhyo» desde Majachkalá, Kaspiisk, Izberbash y Derbent (la lancha por el cañón se paga aparte)",
+   "pros": [
+    "Vistas espectaculares del Sulak turquesa en un cañón profundo",
+    "Fácil de combinar con la lancha, la tirolina y los miradores de Dubki",
+    "Todo en ruso, a 1,5 horas de Majachkalá"
+   ],
+   "cons": [
+    "Colas de varias horas en temporada",
+    "Sin web oficial, sin normas de edad y peso ni datos de altura",
+    "En verano hace calor en el cañón: mejor abril–mayo y septiembre–octubre"
+   ],
+   "airport": "MCX — Majachkalá (Uytash), ~1,5 h en coche",
+   "price_note": "Salto pendular desde 7000 ₽ (~74 € al cambio de ~95 ₽/€), sin cola ~14 000 ₽; columpio gigante sobre el abismo desde 5000 ₽ (sin cola, 10 000 ₽); entrada al complejo de cuevas de Nokhyo, 500 ₽; seguro y casco obligatorios"
+  },
+  "tobot-waterfall-tarzanka": {
+   "h": "fb1b26ed81",
+   "description": "Rope jumping (salto con una cuerda normal y amortiguadores de escalada, no con cuerda elástica) desde el borde del cañón de Tsolotli, junto a la cascada de Tobot. Primero, unos 70 m de caída libre; después, un péndulo sobre el abismo. Al lado funciona un columpio sobre el precipicio.",
+   "rating_basis": "Un salto alto junto a una cascada de 70 m al borde de un enorme cañón; parada popular de los circuitos por el Daguestán montañoso; el operador y las normas no están descritos públicamente",
+   "hazards": "No hay información pública sobre la certificación del equipo: hay que elegir un organizador con buenas opiniones y preguntar por el seguro. Contraindicaciones como para el bungee: tensión arterial, corazón, columna, embarazo. No saltar con lluvia ni viento fuerte; la carretera de montaña es peligrosa tras las lluvias fuertes.",
+   "crowd_note": "El grueso de la gente son grupos de excursión en verano a mediodía; a primera hora de la mañana y entre semana hay menos",
+   "region": "Daguestán, distrito de Junzaj, borde del cañón de Tsolotli junto al pueblo de Arani, ~3 km de Junzaj, ~140 km de Majachkalá (coordenadas aproximadas)",
+   "booking": "Se salta en el lugar, normalmente dentro de una excursión desde Majachkalá, Kaspiisk o Izberbash a Junzaj y Matlas; la carretera es de montaña y con lluvia puede haber restricciones por corrimientos de tierra",
+   "record": "El salto pendular más alto de Daguestán: salto desde un precipicio de 100 m con unos 70–75 m de caída (según T—Zh)",
+   "pros": [
+    "Uno de los saltos más espectaculares del Cáucaso: cascada y cañón",
+    "Fácil de combinar con una excursión a Junzaj y a la meseta de Matlas",
+    "Todo en ruso"
+   ],
+   "cons": [
+    "Sin web oficial ni normas publicadas de edad y peso",
+    "Lejos de Majachkalá: ~3 horas por carretera de montaña",
+    "Temporada de funcionamiento sin confirmar: conviene consultarla antes del viaje"
+   ],
+   "airport": "MCX — Majachkalá (Uytash), ~3 h en coche",
+   "price_note": "Desde 10 000 ₽ (~105 € al cambio de ~95 ₽/€), según nashaplaneta.net; el precio y el operador hay que confirmarlos en el lugar. En la vecina meseta de Matlas hay otra plataforma similar de rope jumping (salto pendular desde 5000 ₽)"
+  },
+  "solkan-bridge": {
+   "h": "86fd5295f8",
+   "description": "Salto desde un puente de carretera de 55 m sobre las aguas esmeralda del Soča, justo al lado del puente de piedra de Solkan. Poca altura, pero barato y muy fotogénico. Se combina bien con kayak en el Soča y una escapada a la vecina Gorizia, en Italia.",
+   "rating_basis": "Un salto bajo, pero en un lugar muy pintoresco: el Soča esmeralda y el famoso puente de piedra",
+   "hazards": "Hace falta buena salud: contraindicaciones habituales (corazón, tensión arterial, espalda, embarazo). Los saltos se cancelan con tormenta y viento fuerte.",
+   "crowd_note": "Casi nunca hay colas, pero solo abre los fines de semana",
+   "region": "Goriška, valle del Soča, en las afueras de Nova Gorica",
+   "booking": "De mediados de mayo a mediados de octubre, solo sábados y domingos (según Yumping, de 10:00 a 15:30). Se necesita reserva previa; la fecha más próxima en la web del operador es mayo de 2027. Los menores necesitan la firma de uno de los padres.",
+   "record": "El único operador de bungee de Eslovenia, en activo desde 1993; al lado, el puente de Solkan, con el mayor arco ferroviario de piedra del mundo (85 m)",
+   "pros": [
+    "Barato: unos 70 €",
+    "El Soča esmeralda y vistas al puente de piedra",
+    "Kayak y parque de aventura cerca"
+   ],
+   "cons": [
+    "Solo 55 m",
+    "Solo fines de semana, de mayo a octubre",
+    "Poca información y sin precios online en la web"
+   ],
+   "airport": "TRS — Trieste, ~45 min; LJU — Liubliana, ~1 h 15 min",
+   "price_note": "70 € por salto según el portal turístico del valle de Vipava; tarjeta regalo en Yumping, desde 150 €",
+   "school_notes": [
+    null,
+    "Operador; web en esloveno, inglés e italiano"
+   ]
+  },
+  "chiang-mai-x-centre": {
+   "h": "e6b1d52320",
+   "description": "Salto desde una torre de 50 m sobre un estanque en el verde valle de Mae Rim, cerca de Chiang Mai. Se puede elegir si tocar el agua o no. La plataforma funciona desde 1992 y se considera la más «selvática» de Tailandia; se combina bien con una excursión a las cascadas y los parques de elefantes de la carretera a Samoeng.",
+   "rating_basis": "Plataforma cuidada y con buenas opiniones, pero de solo 50 m sobre un estanque; se valora por su seguridad y el verde que la rodea",
+   "hazards": "No se puede saltar con embarazo, hipertensión, enfermedades cardíacas, trastornos neurológicos, epilepsia, asma, antecedentes de luxación de hombro ni después de beber alcohol. En marzo–abril hay mucho humo (temporada de quema de campos); en la temporada de lluvias los saltos se interrumpen con tormenta.",
+   "crowd_note": "Casi nunca hay colas; más ambiente en diciembre–enero y en el Año Nuevo chino",
+   "region": "Chiang Mai, distrito de Mae Rim, carretera Mae Rim–Samoeng, ~30 min del centro",
+   "booking": "Online a través de agregadores (Pelago, Ticket2Attraction) o en agencias de Chiang Mai; a diario de 9:00 a 18:00, el salto con la sesión informativa lleva 20–30 minutos. El traslado desde la ciudad se paga aparte",
+   "record": "El único bungee de Chiang Mai; funciona desde 1992 con estándares neozelandeses",
+   "pros": [
+    "Un bonito valle verde",
+    "Se puede tocar el agua",
+    "Barato, a menudo con descuentos online",
+    "Cerca de las cascadas y los parques de Mae Rim"
+   ],
+   "cons": [
+    "Solo 50 m",
+    "Traslado con suplemento",
+    "Febrero–abril, calima por los incendios forestales; mayo–octubre, lluvias"
+   ],
+   "airport": "CNX — Chiang Mai, ~35 min",
+   "price_note": "2500 THB (≈66 €) según tarifa; con descuento en agencias online, desde 1990 THB: salto, seguro y certificado; traslado no incluido",
+   "school_notes": [
+    null,
+    "Reserva online; los instructores hablan inglés",
+    "Entradas con descuento, contacto por WhatsApp/Line"
+   ]
+  },
+  "pattaya-xbungy": {
+   "h": "257f778ca0",
+   "description": "Salto desde una plataforma de 60 m sobre un lago en las afueras de Pattaya: el bungee más alto de Tailandia. Se puede saltar en pareja, y al lado están el «tirachinas humano», el paintball y los karts del parque Sanook. Una opción cómoda para «saltar entre dos días de playa»: a 15–20 minutos en taxi del centro.",
+   "rating_basis": "El más alto de Tailandia, 4,5/5 con ~400 opiniones en Google; pero es un salto sobre un lago artificial en un parque de ocio urbano",
+   "hazards": "No se puede saltar con embarazo, hipertensión, enfermedades cardíacas, epilepsia, asma, lesiones de cuello, espalda u ojos ni en estado de embriaguez; mejor no comer mucho antes del salto. Los saltos se interrumpen con tormenta.",
+   "crowd_note": "Casi nunca hay colas; más gente los fines de semana y en diciembre–febrero",
+   "region": "Pattaya, Thepprasit Road, soi 9, Sanook Park",
+   "booking": "Se puede ir sin reserva o comprar online; a diario desde las 10:00, último salto a las 17:30. Para el seguro hace falta el pasaporte. Menores de 16 años, con un adulto",
+   "record": "El bungee más alto de Tailandia (60 m); la plataforma funciona desde 1989, según el operador",
+   "pros": [
+    "El bungee más alto de Tailandia",
+    "Vídeo y certificado incluidos en el precio",
+    "Se puede saltar en pareja",
+    "Cerca del centro de Pattaya"
+   ],
+   "cons": [
+    "Vistas urbanas al lago y a las obras",
+    "De mayo a octubre, chaparrones y tormentas",
+    "Traslado desde el hotel no incluido"
+   ],
+   "airport": "UTP — U-Tapao, ~40 min; BKK — Bangkok-Suvarnabhumi, ~1,5 h",
+   "price_note": "2500 THB (≈66 €): salto, vídeo, certificado y seguro; tirachinas humano (2 lanzamientos), 1400 THB. Traslado desde el hotel no incluido",
+   "school_notes": [
+    null,
+    "Web oficial, compra online",
+    "Página del agregador en ruso; en el momento de la comprobación, entradas temporalmente no disponibles"
+   ]
+  },
+  "phuket-jungle-bungy": {
+   "h": "bb008a0863",
+   "description": "Salto desde una plataforma de 50 m sobre la laguna verde de una antigua mina de estaño en la selva de Kathu, a 10 minutos de Patong. El operador trabaja desde 1992 con estándares neozelandeses; tras el salto bajan al saltador a una barca. Además del clásico hay tándem, salto de espaldas, «catapulta» y salto con toque de agua.",
+   "rating_basis": "El operador más antiguo y fiable, con buenas opiniones, pero la altura es modesta (50 m) y se salta sobre la laguna artificial de una antigua mina de estaño",
+   "hazards": "No se puede saltar con problemas de corazón, tensión arterial, espalda o cuello, embarazo o epilepsia. En la temporada de lluvias (mayo–octubre) los saltos se interrumpen por tormentas.",
+   "crowd_note": "Normalmente sin colas; en diciembre–febrero hay más grupos de agencias",
+   "region": "Phuket, distrito de Kathu, carretera Wichitsongkram, ~10 min de Patong",
+   "booking": "Se puede ir sin reserva o contratarlo en una agencia con traslado (no incluido en el precio). A diario de 9:00 a 18:00, últimos saltos hacia las 17:30. Menores de 18 años, con permiso de los padres",
+   "record": "El bungee más antiguo de Tailandia: desde 1992, equipo neozelandés, más de 25 años sin víctimas mortales",
+   "pros": [
+    "Cerca de Patong",
+    "El operador más antiguo y experimentado",
+    "Se puede tocar el agua, saltar en pareja o de espaldas",
+    "Abierto todo el año"
+   ],
+   "cons": [
+    "Poca altura para los estándares mundiales",
+    "Traslado y vídeo con suplemento",
+    "De mayo a octubre, monzón del suroeste y chaparrones"
+   ],
+   "airport": "HKT — Phuket, ~40 min",
+   "price_note": "Desde 2200 THB (≈58 €) por salto con certificado y seguro; paquetes con camiseta, fotos y vídeo, hasta ~3000 THB; según guías de 2026, el salto individual cuesta ~2800–3200 THB. El segundo salto el mismo día sale más barato",
+   "school_notes": [
+    null,
+    "Reserva online; no encontramos web oficial, teléfono +66 76 321 351"
+   ]
+  },
+  "jinja-nile-bungee": {
+   "h": "1a2a9b9637",
+   "description": "Torre de 44 m a orillas del Nilo Blanco junto a la cascada de Kalagala, cerca de Jinja, la ciudad donde el Nilo nace del lago Victoria. Se puede elegir salto con toque de agua o saltar en pareja. Lo habitual es combinar el bungee con uno de los mejores raftings de clase 5 del mundo.",
+   "rating_basis": "Una ubicación única sobre el Nilo Blanco, con toque de agua, popular entre viajeros overland y aficionados al rafting; altura modesta",
+   "hazards": "No se puede saltar con embarazo, enfermedades cardíacas, hipertensión, asma o problemas de espalda; sobriedad obligatoria. No hay saltos con tormenta ni viento fuerte. El arnés de tobillos puede rozar. Zona de malaria: hace falta profilaxis.",
+   "crowd_note": "Casi nunca hay colas; saltan sobre todo los participantes del rafting y los huéspedes del campamento",
+   "region": "Cascada de Kalagala, Kangulumira, ~30 km al norte de Jinja (orilla del Nilo Blanco)",
+   "booking": "Reserva previa a través de Adrift; hay que llegar 30 minutos antes del salto. Abre los 7 días de la semana todo el año, salvo con vientos huracanados y tormentas. Suele combinarse con rafting de clase 5 por el Nilo y una noche en el campamento Kalagala Falls",
+   "record": "La única torre de bungee construida expresamente en África Oriental: un salto hacia las fuentes del Nilo",
+   "pros": [
+    "Se puede tocar el agua del Nilo",
+    "Saltos en tándem",
+    "Barato para los estándares mundiales",
+    "Se combina perfectamente con rafting y una noche junto al río"
+   ],
+   "cons": [
+    "Altura modesta",
+    "Lejos de la capital: más de 3 horas desde el aeropuerto de Entebbe",
+    "Los datos sobre el punto de salto no coinciden (antes la torre estaba en Jinja): conviene confirmarlo al reservar"
+   ],
+   "airport": "EBB — Entebbe, ~3–3,5 h vía Kampala",
+   "price_note": "Un salto, 115 USD para extranjeros (más barato para residentes de África Oriental); hay combo «rafting + bungee»",
+   "school_notes": [
+    null,
+    "Reserva online; los tándems y el toque de agua son su especialidad",
+    "Turoperador con traslado desde Jinja/Kampala"
+   ]
+  },
+  "bridge-to-nowhere-bungee": {
+   "h": "57bcb942e4",
+   "description": "Puente de arco de hormigón de 1936 sobre la garganta del East Fork del río San Gabriel: la carretera que llevaba hasta él la arrasó una riada en 1938, y ahora se llega caminando unos 8 km por el cañón, con vados. Desde el puente se saltan 37 m hacia el río. Es más bien una excursión de un día con salto: se puede saltar varias veces, hay estilos difíciles (mortal hacia atrás, «leñador») y salidas con noche de acampada y saltos nocturnos.",
+   "rating_basis": "Un lugar de culto: un puente de arco abandonado en una garganta, al que solo se llega a pie; el salto no es alto, pero el viaje entero es una aventura",
+   "hazards": "Vados por la rodilla o más arriba: después de las lluvias y en primavera la corriente puede ser rápida y peligrosa (se han ahogado personas en el sendero). En verano, calor de hasta +35 °C: hacen falta 2–3 l de agua. El sendero se cerró tras el incendio Bridge Fire de 2024 y reabrió en verano de 2025; antes de ir, hay que comprobar su estado en el Angeles National Forest. Contraindicaciones habituales del bungee.",
+   "crowd_note": "Los grupos son grandes y en la cola del puente se pueden pasar varias horas: conviene llevar comida y agua",
+   "region": "California, Bosque Nacional Angeles, ~1,5 h de Los Ángeles + 8 km a pie",
+   "booking": "Solo con reserva previa en la web; salidas sábados y domingos todo el año, y entre semana para grupos desde 1000 USD; hasta el puente, ~8 km (unas 2 h) a pie con más de 6 vados",
+   "record": "Un puente abandonado de 1936 en plena naturaleza: la carretera que llevaba hasta él la arrasó la riada de 1938",
+   "pros": [
+    "Ambiente único: un puente en plena naturaleza",
+    "Saltos repetidos baratos",
+    "Una bonita caminata por el cañón",
+    "Cerca de Los Ángeles"
+   ],
+   "cons": [
+    "Solo fines de semana",
+    "8 km a pie por trayecto, con vados",
+    "En verano, calor intenso y riesgo de incendios forestales",
+    "Salto poco alto"
+   ],
+   "airport": "LAX — Los Ángeles, ~1,5 h hasta el aparcamiento de East Fork; ONT — Ontario, ~1 h",
+   "price_note": "Un salto, 150 USD; cada salto adicional, +50 USD; paquete de 4 saltos, 240 USD; espectadores, 20 USD; aparcamiento con Forest Adventure Pass, ~5 USD",
+   "school_notes": [
+    "Único operador; reservas en reservations.bungeeamerica.com"
+   ]
+  },
+  "bloukrans-bridge": {
+   "h": "b13965dff3",
+   "description": "Salto desde el centro del puente de arco sobre la garganta del río Bloukrans, en la carretera N2: 216 m hasta el fondo del valle, con bungee pendular. Hasta el punto de salto se llega por una tirolina y una pasarela de rejilla bajo la calzada, y tras el salto suben al saltador con un cabrestante. Alrededor, los bosques y cañones del parque nacional de Tsitsikamma; el puente es la principal atracción de adrenalina de la Ruta Jardín.",
+   "rating_basis": "Récord de altura en saltos desde puente (Wikipedia, TheTravel), parada obligada de la Ruta Jardín, montones de opiniones entusiastas",
+   "hazards": "Contraindicaciones: problemas de corazón, tensión arterial y espalda, embarazo, operaciones recientes. Los saltos se suspenden con viento huracanado y tormenta. La pasarela de rejilla bajo la calzada impresiona a quien tiene vértigo; conviene llevar una chaqueta de abrigo, porque en el puente hace fresco y viento.",
+   "crowd_note": "En diciembre–enero (vacaciones sudafricanas) y los fines de semana hay cola en el puente y en la tienda de vídeos; entre semana en invierno hay calma",
+   "region": "Ruta Jardín (Garden Route), provincia del Cabo Oriental, ~40 km al este de Plettenberg Bay",
+   "booking": "Reserva previa online o por WhatsApp; hay que llegar una hora antes de la franja (para el primer salto, a las 09:00, a las 08:30). Abre a diario todo el año; hay un paquete «todo en un día»: salto + tirolina + SkyWalk + Hangout",
+   "record": "El salto bungee comercial desde puente más alto del mundo, 216 m, en funcionamiento desde 1997",
+   "pros": [
+    "El salto desde puente más alto del mundo",
+    "Abierto todos los días del año",
+    "Fácil de combinar con un viaje por la Ruta Jardín",
+    "Se puede hacer el SkyWalk por el puente sin saltar"
+   ],
+   "cons": [
+    "Edad mínima de 14 años",
+    "Fotos y vídeo se pagan aparte",
+    "Los espectadores no pueden subir al puente sin entrada de SkyWalk"
+   ],
+   "airport": "GRJ — George, ~1 h 45 min (≈130 km); PLZ — Gqeberha (Port Elizabeth), ~2 h",
+   "price_note": "Un salto, ~1 899 ZAR (precio normal según el bono de FOMO; la web del operador no indica precio). Incluye la tirolina hasta el arco y la subida con cabrestante; fotos y vídeo aparte",
+   "school_notes": [
+    null,
+    "Web oficial; reserva online en bloukransbungy.activitar.com, tel. +27 42 281 1458",
+    "Paquete Full Adventure; SkyWalk por separado, 400 ZAR"
+   ]
+  },
+  "victoria-falls-bridge": {
+   "h": "1f2b67655b",
+   "description": "Salto de cabeza desde el centro del histórico puente sobre la garganta de Batoka, justo encima de la frontera entre Zimbabue y Zambia, a 111 m sobre el Zambeze embravecido y a un par de cientos de metros de las cataratas Victoria. Unos cuatro segundos de caída libre, y después suben al saltador de vuelta al puente. En el mismo sitio hay un columpio sobre la garganta y una tirolina desde el lado zambiano.",
+   "rating_basis": "Una ubicación legendaria junto a las cataratas Victoria (Patrimonio de la UNESCO), presente siempre en las listas de los bungee más pintorescos, con muchísimas opiniones",
+   "hazards": "Contraindicaciones: enfermedades cardíacas, de espalda, hipertensión, embarazo. Los saltos se suspenden con lluvia y viento fuerte; en la temporada de lluvias (diciembre–marzo) puede haber pausas por tormentas. En octubre–noviembre, calor de hasta +33 °C. Se conoce un caso de 2011 en el que, con el operador anterior, se rompió la cuerda.",
+   "crowd_note": "El pico de turistas es en julio–octubre; por la mañana la cola es pequeña, y hacia mediodía llegan los grupos de los lodges",
+   "region": "Frontera entre Zimbabue y Zambia, garganta de Batoka, ~3 km de la ciudad de Victoria Falls",
+   "booking": "Registro en la oficina de Shearwater junto al puente, en el lado de Zimbabue; hace falta el pasaporte: en el puesto fronterizo dan un pase para el puente (Bridge Pass), y para salir al puente no se necesita visado. El puente abre de 9:00 a 17:00, con pausa de 13:00 a 14:00",
+   "record": "Uno de los saltos más famosos del mundo: un puente de 1905 a 111 m sobre el Zambeze con vistas a las cataratas Victoria",
+   "pros": [
+    "Vistas a las cataratas Victoria y arcoíris en la espuma",
+    "Columpio, tirolina y visita guiada al puente en el mismo sitio",
+    "Fácil de combinar con un safari y rafting en el Zambeze"
+   ],
+   "cons": [
+    "Caro para 111 m",
+    "Solo individual, sin bungee en tándem (el tándem, solo en el columpio y la tirolina)",
+    "Hay que pasar el control fronterizo aunque no se entre en el país vecino",
+    "Pausa para comer de 13:00 a 14:00"
+   ],
+   "airport": "VFA — Victoria Falls (Zimbabue), ~25 min; LVI — Livingstone (Zambia), ~20 min",
+   "price_note": "Un salto, 194 USD según la tarifa de Shearwater (se ha visto una oferta de 160 USD); paquete Big Air (bungee + tirolina + columpio), 250 USD; columpio, 137 USD; tirolina, 58 USD",
+   "school_notes": [
+    null,
+    "Operador oficial del bungee, el columpio y la tirolina del puente",
+    "Reservas desde el lado de Zambia (Livingstone)"
+   ]
   }
  }
 }
