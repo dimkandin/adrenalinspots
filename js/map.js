@@ -309,8 +309,21 @@ export function initMap(appState, selectHandler) {
   map.setPadding(viewPadding());
   const attribution = new maplibregl.AttributionControl({ compact: true });
   map.addControl(attribution, 'bottom-left');
-  // MapLibre opens the compact attribution on load; keep it folded to the (i) button so it never hides under the month strip
-  map.once('load', () => document.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show'));
+  // OSMF attribution guidelines: the credit is visible at start and may fold to the (i) button after 5 s or on the
+  // first interaction with the map (it covers the corner of the month strip only for those first seconds)
+  map.once('load', () => {
+    const box = attribution._container || document.querySelector('.maplibregl-ctrl-attrib');
+    if (!box) return;
+    box.classList.add('maplibregl-compact-show');
+    const events = ['mousedown', 'touchstart', 'wheel'];
+    const fold = () => {
+      clearTimeout(timer);
+      events.forEach((e) => map.off(e, fold));
+      box.classList.remove('maplibregl-compact-show');
+    };
+    const timer = setTimeout(fold, 5000);
+    events.forEach((e) => map.on(e, fold));
+  });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
   map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
   let loaded = false;
