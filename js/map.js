@@ -315,14 +315,16 @@ export function initMap(appState, selectHandler) {
     const box = attribution._container || document.querySelector('.maplibregl-ctrl-attrib');
     if (!box) return;
     box.classList.add('maplibregl-compact-show');
-    const events = ['mousedown', 'touchstart', 'wheel'];
-    const fold = () => {
+    const fold = (e) => {
+      if (e && e.target instanceof Node && box.contains(e.target)) return;   // its own (i) button toggles it
       clearTimeout(timer);
-      events.forEach((e) => map.off(e, fold));
+      document.removeEventListener('pointerdown', fold, true);
+      map.off('wheel', fold);
       box.classList.remove('maplibregl-compact-show');
     };
     const timer = setTimeout(fold, 5000);
-    events.forEach((e) => map.on(e, fold));
+    document.addEventListener('pointerdown', fold, true);
+    map.on('wheel', fold);
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
   map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');

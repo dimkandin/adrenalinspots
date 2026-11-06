@@ -240,7 +240,7 @@ a:hover { color: var(--sea-2); }
 .tip-visa { padding: 1px 7px; border-radius: 999px; font-size: 12px; }
 
 .maplibregl-ctrl-bottom-right { bottom: 16px; right: var(--ri); transition: right 0.28s; }
-.maplibregl-ctrl-bottom-left { left: var(--li); }
+.maplibregl-ctrl-bottom-left { left: var(--li); z-index: 3; }   /* the opened credit stays readable above the month strip */
 .maplibregl-ctrl-group { border-radius: var(--r-m); box-shadow: var(--shadow); }
 
 /* -------------------------------------------------------------------- panel */
