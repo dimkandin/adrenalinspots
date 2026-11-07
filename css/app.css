@@ -72,10 +72,10 @@ a:hover { color: var(--sea-2); }
 .side-toggle { margin-left: auto; width: 28px; height: 28px; border: 0; border-radius: 8px; background: none; color: var(--ink-3); font-size: 18px; line-height: 1; }
 .side-toggle:hover { background: var(--mist); color: var(--ink); }
 
-.seasons { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 2px 8px 6px; }
-.sc { display: grid; grid-template-columns: 14px 1fr auto; align-items: center; gap: 7px; padding: 5px 8px; border: 0; border-radius: 9px; background: none; text-align: left; font-size: 13px; }
+.seasons { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2px; padding: 2px 8px 6px; }
+.sc { display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; align-items: center; gap: 5px; padding: 5px 5px; border: 0; border-radius: 9px; background: none; text-align: left; font-size: 13px; }
 .sc:hover { background: var(--mist); }
-.sc-label { font-weight: 500; white-space: nowrap; }
+.sc-label { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .sc-count { font-variant-numeric: tabular-nums; color: var(--ink-3); font-size: 12px; }
 .sc .flag-ico { width: 13px; height: 18px; }
 .sc:not(.is-on) { color: var(--ink-3); }
@@ -180,7 +180,9 @@ a:hover { color: var(--sea-2); }
 /* ------------------------------------------------------------- over the map */
 .month-head { position: absolute; top: 14px; left: calc(var(--li) + 22px); max-width: calc(100% - var(--li) - var(--ri) - 212px); pointer-events: none; z-index: 2; transition: left 0.28s cubic-bezier(.2, .8, .2, 1); }
 .app.cramped .month-head { visibility: hidden; }
-.app.cramped .tl-btn { display: none; }   /* the list and the card both open on a laptop: no room (see markCramped) */
+.app.cramped .tl-btn { display: none; }
+.app.cramped .maplibregl-ctrl-bottom-right { display: none; }
+@media (min-width: 901px) { .app.cramped .timeline { max-width: calc(100% - var(--li) - var(--ri) - 24px); } }   /* the list and the card both open on a laptop: no room (see markCramped) */
 .app.side-collapsed .month-head { left: 22px; top: 58px; }
 .month-title { margin: 0; font: 700 clamp(26px, min(4.2vw, calc((100vw - var(--li) - var(--ri) - 212px) / 7.2)), 56px)/0.95 var(--display); letter-spacing: -0.02em; color: var(--ink);
   text-shadow: 0 0 18px rgba(255, 255, 255, 0.95), 0 0 3px rgba(255, 255, 255, 0.9); }
@@ -361,7 +363,7 @@ a:hover { color: var(--sea-2); }
 .chart .cursor { stroke: var(--ink-3); stroke-width: 1; }
 .chart .hit { fill: transparent; cursor: pointer; }
 .chart .hit:hover { fill: rgba(20, 93, 120, 0.06); }
-.chart-tip { position: absolute; display: none; z-index: 5; padding: 8px 10px; border-radius: 8px; background: var(--ink); color: #fff; font-size: 12.5px; line-height: 1.45; pointer-events: none; white-space: nowrap; box-shadow: var(--shadow); }
+.chart-tip { position: absolute; display: none; z-index: 5; padding: 8px 10px; border-radius: 8px; background: var(--ink); color: #fff; font-size: 12.5px; line-height: 1.45; pointer-events: none; box-shadow: var(--shadow); }   /* width is set in charts.js: one line unless wider than the chart */
 .chart-tip .muted { color: #b9cad2; }
 .rose-host { display: grid; grid-template-columns: 200px 1fr; gap: 16px; align-items: center; }
 .rose { max-width: 200px; }
@@ -407,7 +409,8 @@ a:hover { color: var(--sea-2); }
 .sc-fix { margin: 10px 0 0; }
 .sc-fix button { border: 0; background: none; padding: 2px 0; font-size: 12.5px; color: var(--ink-3); text-decoration: underline dotted; text-underline-offset: 3px; cursor: pointer; }
 .sc-fix button:hover { color: var(--ink); }
-.proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.proscons { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+.proscons li { overflow-wrap: anywhere; hyphens: auto; }
 .proscons ul { margin: 0; padding-left: 18px; }
 .proscons li { margin-bottom: 4px; }
 .pros li::marker { content: '+  '; color: var(--good); font-weight: 700; }
@@ -426,7 +429,7 @@ a:hover { color: var(--sea-2); }
 .lb-prev { left: 20px; top: 50%; } .lb-next { right: 20px; top: 50%; } .lb-close { top: 18px; right: 18px; }
 
 /* ------------------------------------------------------------- narrow screens */
-@media (max-width: 1280px) { :root { --panel: 420px; --side: 276px; } }
+@media (max-width: 1280px) { :root { --panel: 420px; --side: 276px; } .sc { font-size: 12.5px; } }
 /* ------------------------------------------------------------ phones and small tablets
    Map first. At the bottom: the month strip and a bar that opens the list as a bottom sheet;
    filters fold away inside the sheet; the spot card is a tall sheet over everything. */
@@ -489,7 +492,9 @@ a:hover { color: var(--sea-2); }
   .filters-toggle { display: inline-flex; align-items: center; height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: none; font-size: 13.5px; font-weight: 500; white-space: nowrap; color: var(--ink); }
   .filters-toggle[aria-expanded='true'] { background: var(--sea-wash); border-color: #a9cad7; color: var(--sea-2); }
   .qf, .dd-btn { padding: 8px 12px; font-size: 13.5px; }
-  .dd-menu, .dd-host .dd-menu { position: fixed; left: 8px; right: 8px; top: auto; bottom: calc(8px + var(--safe-b)); min-width: 0; max-height: 70dvh; overflow-y: auto; z-index: 20; }
+  .dd-menu, .dd-host .dd-menu, .sport-row .dd-host .dd-menu { position: fixed; left: 8px; right: 8px; top: auto; bottom: calc(8px + var(--safe-b)); min-width: 0; max-height: 70dvh; overflow-y: auto; z-index: 20; }
+  .side.searching .side-foot { position: static; }   /* typing a search: the results get the footer's place */
+  .app.has-panel .basemaps { visibility: hidden; }   /* under the card: its menu would open behind the card */
   .dd-opt { padding: 12px; font-size: 15px; white-space: normal; }
   .search-row { padding: 6px 12px 4px; }
   .search input { height: 40px; font-size: 16px; }   /* 16px: iOS does not zoom into the field */
@@ -525,7 +530,6 @@ a:hover { color: var(--sea-2); }
   .rose-host { grid-template-columns: 1fr; }
   .fact { grid-template-columns: 120px 1fr; }
   .fc-row { grid-template-columns: 48px 16px 1fr 120px; }
-}
 }
 .tip-off { background: var(--bad-bg); color: var(--bad); }
 .tip-vibe { padding: 1px 7px; border-radius: 999px; font-size: 12px; background: var(--mist); color: var(--ink-2); }
@@ -570,10 +574,17 @@ a:hover { color: var(--sea-2); }
 @media (min-width: 1600px) { .app.has-panel .tl-btn { display: block; } }
 
 /* phones held sideways: keep the laptop layout, just tighter */
-@media (max-height: 520px) and (orientation: landscape) {
+@media (max-height: 760px) and (min-height: 521px) and (min-width: 561px) and (orientation: landscape) {
+  .filters { display: none; }
+  .side.filters-open .filters { display: flex; }
+  .filters-toggle { display: inline-flex; align-items: center; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: none; font-size: 12.5px; font-weight: 500; white-space: nowrap; }
+  .filters-toggle[aria-expanded='true'] { background: var(--sea-wash); border-color: #a9cad7; color: var(--sea-2); }
+}
+@media (max-height: 520px) and (orientation: landscape) and (pointer: coarse) { .maplibregl-ctrl-bottom-right { display: none; } }   /* phone on its side: pinch to zoom; desktop windows keep the buttons */
+@media (max-height: 520px) and (orientation: landscape) and (min-width: 561px) {
   :root { --side: 268px; --panel: min(420px, 54vw); }
   /* phone on its side: the panel is too short for a separate list scroll, so the whole panel scrolls (as on phones) */
-  .side { top: 8px; bottom: 8px; left: 8px; overflow-y: auto; overscroll-behavior-y: contain; background: #fff; }
+  .side { top: 8px; bottom: 8px; left: 8px; overflow-x: hidden; overflow-y: auto; overscroll-behavior-y: contain; background: #fff; }
   .side > * { flex-shrink: 0; }
   .spot-list { flex: 1 0 auto; overflow: visible; min-height: auto; }
   .side-foot { position: sticky; bottom: 0; z-index: 2; margin-top: auto; background: #fff; }
@@ -582,8 +593,9 @@ a:hover { color: var(--sea-2); }
   .side-open { left: calc(12px + env(safe-area-inset-left, 0px)); }
   .basemaps { right: calc(var(--ri) + 12px + env(safe-area-inset-right, 0px)); }
   .brand { position: sticky; top: 0; z-index: 2; background: #fff; padding: 8px 8px 4px 12px; }
-  .seasons { padding: 0 6px 4px; }
-  .sc { padding: 3px 8px; }
+  .seasons { padding: 0 6px 4px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .sc { padding: 3px 5px; gap: 5px; }
+  .sc-label { overflow: hidden; text-overflow: ellipsis; }   /* long German/French season names in a 268 px panel */
   .filters { display: none; padding: 2px 10px 6px; }
   .side.filters-open .filters { display: flex; }
   .filters-toggle { display: inline-flex; align-items: center; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: none; font-size: 12.5px; font-weight: 500; white-space: nowrap; }
@@ -592,12 +604,11 @@ a:hover { color: var(--sea-2); }
   .foot-label { display: none; }
   .month-head { top: 10px; }
   .app.side-collapsed .month-head { top: 54px; left: calc(22px + env(safe-area-inset-left, 0px)); }
-  .month-title { font-size: 28px; }
+  .month-title { font-size: clamp(20px, calc((100vw - var(--li) - var(--ri) - 212px) / 7.2), 28px); }
   .month-sub { margin-top: 3px; font-size: 12.5px; }
   .timeline { bottom: calc(8px + env(safe-area-inset-bottom, 0px)); padding: 3px; }
   .m { padding: 3px 0; gap: 2px; }
   .m-bars { height: 18px; }
-  .maplibregl-ctrl-bottom-right { display: none; }
 }
 
 /* static text for search engines (backend/seo.py): read by robots and screen readers before the app starts, then removed */
@@ -606,7 +617,9 @@ a:hover { color: var(--sea-2); }
 /* first visit: choose the sport */
 .picker { position: fixed; inset: 0; z-index: 40; display: grid; place-items: center; padding: 16px; background: rgba(9, 28, 38, 0.46); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); animation: picker-in 0.2s ease-out; }
 .picker-card { width: min(640px, 100%); max-height: calc(100dvh - 32px); overflow-y: auto; padding: 26px 26px 18px; border-radius: 20px; background: var(--paper); box-shadow: 0 24px 60px rgba(9, 28, 38, 0.32); }
-.picker-card h2 { margin: 0; font: 700 24px/1.15 var(--display); letter-spacing: -0.01em; }
+.picker-card h2 { margin: 0; padding-right: 40px; font: 700 24px/1.15 var(--display); letter-spacing: -0.01em; }
+.picker-x { position: sticky; top: 0; z-index: 2; display: block; margin: -12px -12px -34px auto; width: 34px; height: 34px; border: 0; border-radius: 50%; background: var(--mist); color: var(--ink-2); font-size: 20px; line-height: 1; cursor: pointer; }
+.picker-x:hover { color: var(--ink); }
 .picker-sub { margin: 8px 0 18px; color: var(--ink-2); font-size: 14.5px; max-width: 46ch; }
 .picker-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .picker-tile { display: grid; grid-template-rows: auto auto 1fr; justify-items: start; gap: 4px; min-height: 128px; padding: 14px 14px 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); text-align: left; transition: border-color 0.15s, background 0.15s, transform 0.15s; }

@@ -390,7 +390,7 @@ async function select(id, { focusCard = false, from = null } = {}) {
     markCramped();
     if (wasOpen) {
       const back = opener && document.querySelector(`[data-fk="${CSS.escape(opener)}"]`);
-      (back && back.offsetParent ? back : document.querySelector('#search')).focus({ preventScroll: true });
+      if (back && back.offsetParent) back.focus({ preventScroll: true }); else focusSearch();
     }
     return;
   }
@@ -479,6 +479,7 @@ function markCramped() {
   centreCurrentMonth();   // a narrow strip scrolls: keep the chosen month in view
 }
 window.addEventListener('resize', () => markCramped());
+requestAnimationFrame(() => markCramped());   // the list is open by default, without a setSide() call
 
 function setSide(open, { moveFocus = false, persist = false } = {}) {
   document.querySelector('.app').classList.toggle('side-collapsed', !open);
@@ -704,6 +705,7 @@ function closeMenus({ focusButton = false } = {}) {
   let closed = false;
   document.querySelectorAll('.dd-menu:not([hidden]), .bm-menu:not([hidden])').forEach((m) => {
     m.hidden = true; closed = true;
+    fitMenu(m);
     const btn = m.previousElementSibling;
     btn.setAttribute('aria-expanded', 'false');
     if (focusButton) btn.focus();
@@ -739,12 +741,25 @@ function closeOnFocusLeave(wrap, menu, btn) {
 // Phones show menus as bottom sheets (CSS) and are left alone.
 function fitMenu(menu) {
   menu.classList.remove('dd-up');
-  menu.style.maxHeight = '';
+  for (const k of ['maxHeight', 'position', 'left', 'right', 'top', 'bottom']) menu.style[k] = '';
   if (isPhone() || menu.hidden) return;
   const btn = menu.previousElementSibling;
   if (!btn) return;
-  const b = btn.getBoundingClientRect(); const r = menu.getBoundingClientRect();
+  const b = btn.getBoundingClientRect();
   const below = window.innerHeight - b.bottom - 14; const above = b.top - 14;
+  const upward = menu.classList.contains('pp-menu');     // the passport list opens upwards by design
+  // a phone on its side: the side panel scrolls and would cut the menu at its right edge — lift the menu out of it
+  const side = menu.closest('.side');
+  if (side && getComputedStyle(side).overflowY !== 'visible') {
+    menu.style.position = 'fixed';
+    menu.style.right = 'auto';
+    menu.style.left = `${Math.round(Math.max(8, Math.min(b.left, window.innerWidth - menu.offsetWidth - 8)))}px`;
+    const up = upward ? above > 160 || above >= below : below < 220 && above > below;
+    if (up) { menu.style.top = 'auto'; menu.style.bottom = `${Math.round(window.innerHeight - b.top + 6)}px`; menu.style.maxHeight = `${Math.round(above)}px`; }
+    else { menu.style.top = `${Math.round(b.bottom + 6)}px`; menu.style.bottom = 'auto'; menu.style.maxHeight = `${Math.round(below)}px`; }
+    return;
+  }
+  const r = menu.getBoundingClientRect();
   if (r.top >= b.top) {                                   // opens downwards
     if (r.bottom <= window.innerHeight - 8) return;
     if (below < 220 && above > below) { menu.classList.add('dd-up'); menu.style.maxHeight = `${Math.round(above)}px`; }
@@ -754,6 +769,10 @@ function fitMenu(menu) {
   }
 }
 
+// Touch screens: never focus the search field on our own — the on-screen keyboard would cover half the screen
+const COARSE = window.matchMedia('(pointer: coarse)');
+function focusSearch() { if (!COARSE.matches) document.querySelector('#search')?.focus({ preventScroll: true }); }
+
 // Focus an option and scroll only the menu to it (plain focus() could also scroll the page's own boxes and shift the layout)
 function focusIn(menu, opt) {
   if (!opt) return;
@@ -762,6 +781,9 @@ function focusIn(menu, opt) {
 }
 
 function initDropdowns() {
+  document.querySelector('.side')?.addEventListener('scroll', () => {
+    if (document.querySelector('.dd-menu:not([hidden])[style*="fixed"]')) closeMenus();
+  }, { passive: true });
   const host = document.querySelector('.dropdowns');
   for (const d of DROPDOWNS) {
     const id = `dd-${d.key}`;
@@ -923,6 +945,14 @@ function initControls() {
     document.querySelector('#search').focus();
   });
   const search = document.querySelector('#search');
+  search.addEventListener('focus', () => {
+    if (!isPhone()) return;
+    const side = document.querySelector('.side');
+    side.classList.add('searching');
+    const row = search.closest('.search-row') || search;
+    side.scrollTop = row.offsetTop - (side.querySelector('.brand')?.offsetHeight || 0) - 4;
+  });
+  search.addEventListener('blur', () => document.querySelector('.side').classList.remove('searching'));
   let searchTimer = null;
   search.addEventListener('input', () => {
     clearTimeout(searchTimer);
@@ -983,6 +1013,13 @@ function initControls() {
   });
 
   // month strip as a proper radio group: arrows / Home / End move the selection and the focus
+  // a narrow strip scrolls sideways: the mouse wheel scrolls it too (there is no scrollbar)
+  document.querySelector('.months').addEventListener('wheel', (e) => {
+    const m = e.currentTarget;
+    if (m.scrollWidth <= m.clientWidth + 1 || Math.abs(e.deltaX) >= Math.abs(e.deltaY)) return;
+    m.scrollLeft += e.deltaY;
+    e.preventDefault();
+  }, { passive: false });
   document.querySelector('.months').addEventListener('keydown', (e) => {
     const map = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 };
     if (e.key in map) { setMonth(state.month + map[e.key], { focusStrip: true }); e.preventDefault(); e.stopPropagation(); }
@@ -1132,6 +1169,7 @@ function showSportPicker({ change = false } = {}) {
   const dlg = h('div', { class: 'picker', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'picker-title', 'aria-describedby': 'picker-sub',
     onclick: (e) => { if (change && e.target === dlg) close(null); } },
     h('div', { class: 'picker-card' },
+      h('button', { type: 'button', class: 'picker-x', 'aria-label': t('about.close'), onclick: () => close(null) }, '×'),
       h('h2', { id: 'picker-title' }, t(change ? 'dd.activity.title' : 'pick.title')),
       h('p', { id: 'picker-sub', class: 'picker-sub' }, t(change ? 'pick.sub_change' : 'pick.sub')),
       h('div', { class: 'picker-grid' }, ...tiles),
@@ -1152,7 +1190,7 @@ function showSportPicker({ change = false } = {}) {
     if (a && a !== state.activity) switchActivity(a);
     else if (!change) { try { localStorage.setItem('activity', state.activity); } catch { /* ignore */ } writeHash(); }
     if (change && opener && opener.isConnected) opener.focus({ preventScroll: true });
-    else document.querySelector('#search')?.focus({ preventScroll: true });
+    else focusSearch();
   }
   document.addEventListener('keydown', onKey, true);
   document.querySelector('.app').setAttribute('inert', '');

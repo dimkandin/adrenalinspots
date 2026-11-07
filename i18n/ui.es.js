@@ -942,6 +942,7 @@ export default {
   'platform.bridge': "Puente",
   'platform.dam': "Presa",
   'platform.tower': "Torre",
+  'platform.other': "Otro",
   'platform.cable_car': "Teleférico",
   'platform.crane': "Grúa",
   'platform.cliff': "Acantilado",

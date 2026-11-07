@@ -942,6 +942,7 @@ export default {
   'platform.bridge': "Bridge",
   'platform.dam': "Dam",
   'platform.tower': "Tower",
+  'platform.other': "Other",
   'platform.cable_car': "Cable car",
   'platform.crane': "Crane",
   'platform.cliff': "Cliff",

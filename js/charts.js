@@ -52,8 +52,11 @@ function tooltip(host) {
   return {
     show(html, x, y) {
       t.innerHTML = html; t.style.display = 'block';
-      const hw = host.clientWidth; const tw = t.offsetWidth;
-      t.style.left = `${Math.min(Math.max(4, x - tw / 2), hw - tw - 4)}px`;
+      const hw = host.clientWidth;
+      t.style.width = ''; t.style.left = '0px'; t.style.maxWidth = `${hw - 8}px`;   // measured at the left edge: the full width is available
+      const tw = t.offsetWidth;
+      t.style.width = `${tw}px`;                              // keep that width wherever it ends up (no re-wrapping near the right edge)
+      t.style.left = `${Math.max(4, Math.min(x - tw / 2, hw - tw - 4))}px`;
       t.style.top = `${Math.max(0, y - t.offsetHeight - 10)}px`;
     },
     hide() { if (!touchMode) t.style.display = 'none'; },
