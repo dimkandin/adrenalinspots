@@ -336,7 +336,7 @@ function refresh({ fit = false } = {}) {
   document.querySelector('.so-sum').textContent = shortSummary || document.querySelector('.month-sub').textContent;
   const n = activeFilterCount();
   document.querySelector('.filters-toggle').textContent = n ? `${t('filters.toggle')} · ${n}` : t('filters.toggle');
-  if (isPhone()) centreCurrentMonth();
+  centreCurrentMonth();   // only when the strip scrolls (phones, or a narrow strip between the list and the card)
   const vibeBtn = document.querySelector('.dd[data-key="vibe"] .dd-btn');
   if (vibeBtn) {
     const hasVibe = state.spots.some((s) => s.vibe);
@@ -387,6 +387,7 @@ async function select(id, { focusCard = false, from = null } = {}) {
     state.selected = null; closePanel(); setSelected(null); renderList(); writeHash();
     updatePadding(true);
     if (state.sideAuto) { setSide(true); state.sideAuto = false; }
+    markCramped();
     if (wasOpen) {
       const back = opener && document.querySelector(`[data-fk="${CSS.escape(opener)}"]`);
       (back && back.offsetParent ? back : document.querySelector('#search')).focus({ preventScroll: true });
@@ -400,6 +401,9 @@ async function select(id, { focusCard = false, from = null } = {}) {
   writeHash();
   const panel = document.querySelector('.panel');
   panel.classList.add('is-open', 'is-loading');
+  // the timeline, the buttons and the map make room at once (they used to wait for the spot to load, under the card)
+  document.querySelector('.app').classList.add('has-panel');
+  markCramped();
   try {
     const spot = await loadSpot(id);
     if (state.selected !== id) return;
@@ -464,8 +468,21 @@ function updateTitle(spot = currentSpot()) {
 
 // ---------- sidebar --------------------------------------------------------------
 const isSideOpen = () => !document.querySelector('.app').classList.contains('side-collapsed');
+// Laptops with the list and the card both open leave a narrow strip of map: the big month heading would run into the
+// basemap button and the card, so it steps aside (the month strip still shows the month).
+function markCramped() {
+  const app = document.querySelector('.app');
+  if (isPhone()) { app.classList.remove('cramped'); return; }
+  const side = isSideOpen() ? document.querySelector('.side').offsetWidth + 16 : 0;
+  const card = app.classList.contains('has-panel') ? document.querySelector('.panel').offsetWidth + 16 : 0;
+  app.classList.toggle('cramped', window.innerWidth - side - card < 400);
+  centreCurrentMonth();   // a narrow strip scrolls: keep the chosen month in view
+}
+window.addEventListener('resize', () => markCramped());
+
 function setSide(open, { moveFocus = false, persist = false } = {}) {
   document.querySelector('.app').classList.toggle('side-collapsed', !open);
+  markCramped();
   document.querySelector('.side').inert = !open;
   if (moveFocus) (open ? document.querySelector('.side-toggle') : document.querySelector('.side-open')).focus();
   if (persist) { try { localStorage.setItem('side', open ? 'open' : 'closed'); } catch { /* ignore */ } }
@@ -717,6 +734,33 @@ function closeOnFocusLeave(wrap, menu, btn) {
   });
 }
 
+// A menu that doesn't fit below its button (a low window, a phone on its side) scrolls inside, or opens upwards when
+// there is more room above; the passport list opens upwards by design and gets the same treatment at the top.
+// Phones show menus as bottom sheets (CSS) and are left alone.
+function fitMenu(menu) {
+  menu.classList.remove('dd-up');
+  menu.style.maxHeight = '';
+  if (isPhone() || menu.hidden) return;
+  const btn = menu.previousElementSibling;
+  if (!btn) return;
+  const b = btn.getBoundingClientRect(); const r = menu.getBoundingClientRect();
+  const below = window.innerHeight - b.bottom - 14; const above = b.top - 14;
+  if (r.top >= b.top) {                                   // opens downwards
+    if (r.bottom <= window.innerHeight - 8) return;
+    if (below < 220 && above > below) { menu.classList.add('dd-up'); menu.style.maxHeight = `${Math.round(above)}px`; }
+    else menu.style.maxHeight = `${Math.round(Math.max(120, below))}px`;
+  } else if (r.top < 8) {                                 // opens upwards and runs off the top
+    menu.style.maxHeight = `${Math.round(Math.max(160, above))}px`;
+  }
+}
+
+// Focus an option and scroll only the menu to it (plain focus() could also scroll the page's own boxes and shift the layout)
+function focusIn(menu, opt) {
+  if (!opt) return;
+  opt.focus({ preventScroll: true });
+  if (menu.scrollHeight > menu.clientHeight) menu.scrollTop = opt.offsetTop - (menu.clientHeight - opt.offsetHeight) / 2;
+}
+
 function initDropdowns() {
   const host = document.querySelector('.dropdowns');
   for (const d of DROPDOWNS) {
@@ -739,7 +783,8 @@ function initDropdowns() {
       const open = menu.hidden;
       closeMenus();
       menu.hidden = !open; btn.setAttribute('aria-expanded', String(open));
-      if (open) (menu.querySelector('.dd-opt[aria-pressed="true"]') || menu.querySelector('.dd-opt:not(:disabled)'))?.focus();
+      fitMenu(menu);
+      if (open) focusIn(menu, menu.querySelector('.dd-opt[aria-pressed="true"]') || menu.querySelector('.dd-opt:not(:disabled)'));
     });
     const wrap = h('div', { class: 'dd', 'data-key': d.key }, btn, menu);
     closeOnFocusLeave(wrap, menu, btn);
@@ -925,7 +970,8 @@ function initControls() {
     const open = menu.hidden;
     closeMenus();
     menu.hidden = !open; toggle.setAttribute('aria-expanded', String(open));
-    if (open) menu.querySelector('[aria-pressed="true"]')?.focus();
+    fitMenu(menu);
+    if (open) focusIn(menu, menu.querySelector('[aria-pressed="true"]'));
   });
   closeOnFocusLeave(bm, menu, toggle);
   menuKeys(menu, 'button');
@@ -1037,7 +1083,8 @@ function initPassportPicker() {
     closeMenus();
     input.value = ''; render();
     menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
-    input.focus();
+    fitMenu(menu);
+    input.focus({ preventScroll: true });
     // scroll the list only (scrollIntoView would also scroll the phone sheet behind the menu)
     const cur = list.querySelector('[aria-pressed="true"]');
     if (cur) list.scrollTop = cur.offsetTop - list.offsetTop - (list.clientHeight - cur.offsetHeight) / 2;

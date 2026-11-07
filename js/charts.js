@@ -20,10 +20,35 @@ function el(name, attrs, text) {
 }
 function niceMax(v, step) { return Math.max(step, Math.ceil(v / step) * step); }
 
-// Tooltip shared by all charts in one container
+// Tooltip shared by all charts in one container.
+// Touch: the first tap on a month shows its tooltip, a second tap on the same month picks it (a tap used to pick the
+// month at once, the card redrew and the tooltip never showed); the tooltip stays until a tap elsewhere (browsers send
+// mouseleave right after a tap). Mouse: hover shows, click picks, as before.
+let touchMode = false;
+if (typeof document !== 'undefined') {
+  document.addEventListener('pointerdown', (ev) => {
+    touchMode = ev.pointerType === 'touch' || ev.pointerType === 'pen';
+    if (!touchMode) return;
+    const host = ev.target instanceof Element ? ev.target.closest('.hit') && ev.target.closest('svg')?.parentElement : null;
+    document.querySelectorAll('.chart-tip').forEach((t) => { if (t.parentElement !== host) t.style.display = 'none'; });
+  }, true);
+}
 function tooltip(host) {
   let t = host.querySelector('.chart-tip');
   if (!t) { t = document.createElement('div'); t.className = 'chart-tip'; host.append(t); }
+  if (!host.dataset.tapTips) {
+    host.dataset.tapTips = '1';
+    let shown = null;
+    host.addEventListener('click', (ev) => {
+      const hit = ev.target instanceof Element && ev.target.closest('.hit');
+      if (!touchMode || !hit) return;
+      const tip = host.querySelector('.chart-tip');
+      if (shown === hit && tip && tip.style.display === 'block') return;   // second tap: let the chart pick the month
+      ev.stopPropagation();
+      hit.dispatchEvent(new MouseEvent('mousemove', { clientX: ev.clientX, clientY: ev.clientY }));
+      shown = hit;
+    }, true);
+  }
   return {
     show(html, x, y) {
       t.innerHTML = html; t.style.display = 'block';
@@ -31,7 +56,7 @@ function tooltip(host) {
       t.style.left = `${Math.min(Math.max(4, x - tw / 2), hw - tw - 4)}px`;
       t.style.top = `${Math.max(0, y - t.offsetHeight - 10)}px`;
     },
-    hide() { t.style.display = 'none'; },
+    hide() { if (!touchMode) t.style.display = 'none'; },
   };
 }
 
