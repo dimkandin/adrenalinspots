@@ -770,7 +770,8 @@ function initSheetSwipe() {
     const ddy = tt.clientY - y0; const ddx = tt.clientX - x0;
     if (!drag) {
       if (Math.abs(ddy) < 8 && Math.abs(ddx) < 8) return;
-      if (ddy <= 0 || Math.abs(ddx) > Math.abs(ddy) || (inList && list.scrollTop > 0)) { armed = false; return; }
+      // a sheet scrolled down scrolls back up first (on phones the whole sheet is the scroller)
+      if (ddy <= 0 || Math.abs(ddx) > Math.abs(ddy) || side.scrollTop > 0 || (inList && list.scrollTop > 0)) { armed = false; return; }
       drag = true;
       side.style.transition = 'none';
       closeMenus();
@@ -1037,7 +1038,9 @@ function initPassportPicker() {
     input.value = ''; render();
     menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
     input.focus();
-    list.querySelector('[aria-pressed="true"]')?.scrollIntoView({ block: 'center' });
+    // scroll the list only (scrollIntoView would also scroll the phone sheet behind the menu)
+    const cur = list.querySelector('[aria-pressed="true"]');
+    if (cur) list.scrollTop = cur.offsetTop - list.offsetTop - (list.clientHeight - cur.offsetHeight) / 2;
   };
   btn.addEventListener('click', (e) => { e.stopPropagation(); if (menu.hidden) open(); else closeMenus({ focusButton: true }); });
   input.addEventListener('input', () => { render(); list.scrollTop = 0; });

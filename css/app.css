@@ -163,7 +163,7 @@ a:hover { color: var(--sea-2); }
 .pp-search { margin: 0 2px 4px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); font: inherit; font-size: 13px; color: var(--ink); }
 .pp-search:focus { outline: 2px solid var(--sea-2); outline-offset: -1px; border-color: transparent; }
 .pp-list { display: grid; grid-auto-rows: max-content; align-content: start; gap: 1px; flex: 1 1 auto; min-height: 0; max-height: 300px; overflow-y: auto; overscroll-behavior: contain; }
-.pp-opt { overflow: hidden; text-overflow: ellipsis; min-height: max-content; }   /* overflow:hidden lets a grid row shrink to 0 (iOS squashed the list) */
+.pp-opt { overflow: hidden; white-space: normal; overflow-wrap: anywhere; line-height: 1.3; min-height: max-content; }   /* long names wrap; min-height: a grid row could shrink to 0 (iOS squashed the list) */
 .pp-empty { margin: 6px 10px 8px; font-size: 13px; color: var(--ink-3); }
 .unit { display: inline-flex; background: var(--mist); border-radius: 999px; padding: 2px; }
 .unit button { border: 0; background: none; padding: 3px 9px; border-radius: 999px; font-size: 12px; color: var(--ink-2); }
@@ -465,13 +465,18 @@ a:hover { color: var(--sea-2); }
   .side-open .so-label-phone { display: block; flex: none; color: var(--sea); font-weight: 600; }
   .side-open .so-label-phone::after { content: ' ▴'; }
 
-  /* bottom sheet with the list */
-  .side { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: calc(var(--sheet) + var(--safe-b)); padding-bottom: var(--safe-b); border-radius: 18px 18px 0 0; }
+  /* bottom sheet with the list. The whole sheet scrolls as one (title and filters move up, the list gets the height):
+     with its own scroll the list was squeezed to one row once the filters were open. Title row and footer stay put. */
+  .side { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: calc(var(--sheet) + var(--safe-b)); padding-bottom: 0; border-radius: 18px 18px 0 0;
+    background: #fff; overflow-y: auto; overscroll-behavior-y: contain; }
+  .side > * { flex-shrink: 0; }
+  .spot-list { flex: 1 0 auto; overflow: visible; min-height: auto; }
+  .side-foot { position: sticky; bottom: 0; z-index: 2; margin-top: auto; background: #fff; }
   .app.side-collapsed .side { transform: translateY(calc(100% + 16px)); opacity: 1; }
-  .brand { position: relative; padding: 14px 6px 4px 16px; }
+  .brand { position: sticky; top: 0; z-index: 2; background: #fff; padding: 14px 6px 4px 16px; }
   .brand::before { content: ''; position: absolute; top: 6px; left: 50%; width: 36px; height: 4px; margin-left: -18px; border-radius: 2px; background: var(--line); }
   .side-toggle { width: 42px; height: 42px; font-size: 22px; transform: rotate(-90deg); }
-  .seasons { display: flex; gap: 6px; padding: 4px 12px 6px; overflow-x: auto; scrollbar-width: none; }
+  .seasons { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 12px 6px; }   /* wraps: a sideways strip hid «Не сезон» past the edge */
   .seasons::-webkit-scrollbar { display: none; }
   .sc { flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13.5px; }
   .filters { display: none; padding: 2px 12px 10px; gap: 6px; }
@@ -488,7 +493,7 @@ a:hover { color: var(--sea-2); }
   .row { padding: 10px 8px; }
   .row-name { font-size: 15px; }
   .row-place { font-size: 12.5px; }
-  .side-foot { padding: 8px 12px; }
+  .side-foot { padding: 8px 12px calc(8px + var(--safe-b)); }
   .lang select { padding: 8px 10px 8px 30px; font-size: 14px; max-width: 150px; }
   .lang-ico { left: 10px; width: 15px; height: 15px; }
   .pp-btn { padding: 8px 12px 8px 10px; font-size: 14px; max-width: 190px; }
@@ -562,9 +567,13 @@ a:hover { color: var(--sea-2); }
 /* phones held sideways: keep the laptop layout, just tighter */
 @media (max-height: 520px) and (orientation: landscape) {
   :root { --side: 268px; --panel: min(420px, 54vw); }
-  .side { top: 8px; bottom: 8px; left: 8px; }
+  /* phone on its side: the panel is too short for a separate list scroll, so the whole panel scrolls (as on phones) */
+  .side { top: 8px; bottom: 8px; left: 8px; overflow-y: auto; overscroll-behavior-y: contain; background: #fff; }
+  .side > * { flex-shrink: 0; }
+  .spot-list { flex: 1 0 auto; overflow: visible; min-height: auto; }
+  .side-foot { position: sticky; bottom: 0; z-index: 2; margin-top: auto; background: #fff; }
   .panel { top: 8px; bottom: 8px; right: 8px; }
-  .brand { padding: 8px 8px 4px 12px; }
+  .brand { position: sticky; top: 0; z-index: 2; background: #fff; padding: 8px 8px 4px 12px; }
   .seasons { padding: 0 6px 4px; }
   .sc { padding: 3px 8px; }
   .filters { display: none; padding: 2px 10px 6px; }
