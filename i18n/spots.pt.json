@@ -20030,6 +20030,467 @@
     "Agregador de charter em russo (site e atendimento em russo): ~60 barcos na Blue Lagoon e em Bequia",
     "Vagas em cabine num catamarã com skipper e cozinheiro: Bequia, Mayreau, Tobago Cays, Union"
    ]
+  },
+  "sylt-westerland-kite": {
+   "h": "2b99abffa0",
+   "description": "A ilha de kite mais famosa da Alemanha: uma praia aberta do mar do Norte em Westerland que recebe todo verão uma etapa de ondas do circuito mundial GKA. Do oeste vêm ondas e ventos fortes de outono, e no lado do mar de Wadden, a leste, há água lisa e rasa para aprender. A água é fria mesmo no verão: é preciso uma roupa de neoprene 4/3–5/4.",
+   "rating_basis": "Recebe todo verão uma etapa de ondas da GKA Kite World Cup; Sylt aparece no topo dos rankings de spots da Alemanha (surfertoday, Surf-Magazin)",
+   "waves_note": "Com tempestades de oeste, ondas de 1–3 m em várias séries; no lado do mar de Wadden, a leste, água lisa e rasa",
+   "hazards": "Fortes correntes ao longo da praia e correntes de retorno com ondas, espigões; no lado do Wadden, maré baixa e bancos de areia",
+   "gustiness_note": "O vento frontal do mar costuma ser constante, com rajadas na passagem de frentes",
+   "crowd_note": "Na praia Brandenburger Strand há uma zona para surfistas e kitesurfistas; cheia nos fins de semana de verão, nas ondas sobretudo riders avançados",
+   "region": "Ilhas Frísias Setentrionais, mar do Norte",
+   "pros": [
+    "Ondas de verdade e vento forte, sobretudo em setembro–outubro",
+    "Lado do Wadden com água lisa para iniciantes",
+    "Infraestrutura turística, trem do continente pela barragem"
+   ],
+   "cons": [
+    "Água fria: neoprene 5/4 quase a temporada toda",
+    "No verão há semanas sem vento",
+    "Hospedagem cara"
+   ],
+   "wind_dir": "W–SW–NW, onshore / side-onshore; no lado do Wadden (Rantum, Munkmarsch), o vento leste dá água lisa",
+   "airport": "GWT — Sylt (Westerland), ~10 min; HAM — Hamburgo, ~3 h de trem"
+  },
+  "romo-lakolk": {
+   "h": "eb43b746c5",
+   "description": "Uma das praias mais largas da Europa: em Lakolk dá para ir de carro até a beira da água, e há espaço para todos. Na maré baixa formam-se lagoas rasas de água lisa, ótimas para aprender, e com vento oeste há chop e ondas pequenas junto à margem. A temporada vai da primavera ao outono, de neoprene; Sylt e a costa alemã ficam ao lado.",
+   "rating_basis": "Conhecida entre os kitesurfistas do norte da Europa como uma praia enorme de águas rasas; listada entre os spots da Dinamarca ao lado de Hvide Sande e Klitmøller",
+   "waves_note": "Na maré baixa, lagoas rasas de água lisa; com vento oeste forte, chop e ondas pequenas",
+   "hazards": "Marés: bancos de areia e correntes nos canais na maré baixa; carros na praia",
+   "gustiness_note": "Vento do mar aberto, constante",
+   "crowd_note": "A praia tem 1–2 km de largura e dezenas de quilômetros de extensão: nunca fica cheia",
+   "region": "Ilha de Rømø, mar de Wadden, Jutlândia do Sul",
+   "pros": [
+    "Enorme praia de areia, estacionamento junto à água",
+    "Raso e seguro para iniciantes",
+    "Kite buggy e landkite na areia"
+   ],
+   "cons": [
+    "Água fria",
+    "As marés mudam o spot em poucas horas",
+    "Poucas escolas e serviços"
+   ],
+   "airport": "BLL — Billund, ~1,5 h; HAM — Hamburgo, ~2,5 h"
+  },
+  "hel-chalupy": {
+   "h": "522d4aa9fa",
+   "description": "A capital do kite da Polônia: dezenas de escolas e campings se enfileiram na estreita península de Hel, entre o mar aberto e a rasa baía de Puck. Na baía a água bate na cintura por centenas de metros a partir da margem, um ótimo lugar para aprender, e com vento norte os avançados vão para as ondas do lado do mar. No verão é um dos spots mais lotados da Europa.",
+   "rating_basis": "Guias poloneses e europeus apontam Chałupy e Jastarnia como o melhor lugar do Báltico para aprender; dezenas de escolas IKO e VDWS",
+   "waves_note": "Água lisa e chop leve na baía; ondas pequenas do lado do mar com vento norte",
+   "hazards": "Água cheia de gente; pedras e redes perto da margem em alguns pontos, algas no verão",
+   "gustiness_note": "Os ventos de oeste que cruzam a península têm mais rajadas; os de nordeste são constantes",
+   "crowd_note": "Em julho–agosto, centenas de kites na baía; as zonas são divididas entre as escolas",
+   "region": "Baía de Puck, mar Báltico",
+   "pros": [
+    "Baía rasa: dá pé longe da margem",
+    "Muitas escolas, aluguéis e campings",
+    "Vento dos dois lados da península — escolha a água"
+   ],
+   "cons": [
+    "No verão, muito cheio na água e na praia",
+    "Água morna só em julho–agosto",
+    "Engarrafamentos na única estrada da península"
+   ],
+   "wind_dir": "W–SW e N–NE; side-shore com água lisa na baía",
+   "airport": "GDN — Gdańsk, ~1,5 h"
+  },
+  "neusiedl-podersdorf": {
+   "h": "60e09acfa6",
+   "description": "O lugar com mais vento da Europa Central e o principal spot de kite da Áustria: um lago de estepe raso onde dá pé quase em toda parte. Podersdorf tem uma zona de kite junto à praia, escolas e camping, e recebe na primavera o Surf Worldcup. O melhor spot de água lisa para aprender e fazer freestyle perto de Viena, Bratislava e Budapeste.",
+   "rating_basis": "Sede anual do Surf Worldcup Podersdorf; guias austríacos e alemães o apontam como o principal spot do país",
+   "waves_note": "Lago raso (cerca de 1,5 m): água lisa e chop curto com vento forte",
+   "hazards": "Juncos e lama perto da margem, tempestades de verão repentinas com rajadas",
+   "gustiness_note": "O noroeste que atravessa a planície tem rajadas moderadas",
+   "crowd_note": "Nos fins de semana com vento a zona de kite enche; nos dias úteis é mais calma",
+   "region": "Burgenland, lago de estepe na fronteira com a Hungria",
+   "pros": [
+    "Raso e liso — ideal para aprender",
+    "A 45 minutos de Viena",
+    "Água quente no verão"
+   ],
+   "cons": [
+    "Não venta todo dia, calmarias no verão",
+    "Água turva e lama no fundo",
+    "O lago congela no inverno"
+   ],
+   "wind_dir": "NW (principal) e SE, side-onshore",
+   "airport": "VIE — Viena, ~45 min; BTS — Bratislava, ~50 min"
+  },
+  "gizzeria-hang-loose": {
+   "h": "aaba044839",
+   "description": "O spot de verão com mais vento da Itália: no ponto mais estreito da «ponta da bota» calabresa, o vento do mar Jônico se canaliza pelo istmo, e de junho a setembro a térmica sopra quase todo dia. O centro Hang Loose Beach e as escolas vizinhas ficam ao lado do aeroporto de Lamezia; junto à margem há chop e ondas pequenas.",
+   "rating_basis": "Guias italianos e a thekitemag consideram Gizzeria o spot de verão mais confiável da Itália; em Hang Loose Beach acontecem grandes competições",
+   "waves_note": "Chop e ondas pequenas de até 1 m com vento forte",
+   "hazards": "Fica fundo rápido perto da margem; shorebreak com vento forte",
+   "gustiness_note": "A térmica do istmo é constante e previsível e aumenta perto do meio-dia",
+   "crowd_note": "Em agosto, cheio perto dos centros; em junho e setembro, mais tranquilo",
+   "region": "Calábria, golfo de Sant'Eufemia, mar Tirreno",
+   "pros": [
+    "Térmica quase todo dia no verão",
+    "Aeroporto de Lamezia Terme a 5 minutos",
+    "Mar quente e comida italiana"
+   ],
+   "cons": [
+    "Quase sem vento no inverno",
+    "Lotado em agosto",
+    "Praia malcuidada em alguns trechos"
+   ],
+   "wind_dir": "Térmica de W–NW pelo istmo, side-onshore",
+   "airport": "SUF — Lamezia Terme, ~5 min"
+  },
+  "mar-menor-los-narejos": {
+   "h": "ffce84dbcb",
+   "description": "A maior lagoa de água salgada da Europa, separada do mar pela faixa de areia de La Manga: a água é quente, rasa e quase sempre lisa. Um dos melhores lugares da Espanha para aprender e fazer freestyle; venta boa parte do ano, e no inverno kitesurfistas de toda a Europa vêm treinar aqui. As escolas ficam em Los Narejos, Los Alcázares e na própria La Manga.",
+   "rating_basis": "Guias espanhóis consideram o Mar Menor a melhor lagoa do país para aprender; dezenas de escolas no yumping e em Los Alcázares",
+   "waves_note": "A lagoa é fechada por La Manga: água lisa, chop leve com vento forte",
+   "hazards": "Águas-vivas no verão, pedras junto aos píeres, boias das áreas de banho",
+   "gustiness_note": "A térmica e o levante são constantes, sem obstáculos sobre a lagoa",
+   "crowd_note": "Nos fins de semana há gente junto às escolas, mas a lagoa é grande",
+   "region": "Múrcia, lagoa salgada junto ao Mediterrâneo",
+   "pros": [
+    "Água lisa, quente e rasa",
+    "Vento quase o ano todo e 300 dias de sol",
+    "Muitas escolas e hospedagem barata"
+   ],
+   "cons": [
+    "Vento mais fraco que em Tarifa — muitas vezes é preciso uma pipa grande",
+    "Águas-vivas e algas no verão",
+    "Muita construção turística"
+   ],
+   "wind_dir": "NE «levante» e térmica de S–SW, side-shore",
+   "airport": "RMU — Múrcia-Corvera, ~25 min; ALC — Alicante, ~1 h"
+  },
+  "sant-pere-pescador": {
+   "h": "323fab58d6",
+   "description": "O principal spot de kite da Catalunha: uma longa praia no fundo da baía de Roses, onde no verão sopra uma brisa marinha quase todo dia e, no outono e no inverno, chega uma tramontana forte para experientes. Ao longo da margem há campings e grandes centros, como o ION Club. Barcelona fica a uma hora e meia e a França, a meia hora.",
+   "rating_basis": "O principal spot da Catalunha, com o centro IKO ION Club Golf de Roses; guias espanhóis colocam Sant Pere ao lado de Tarifa em dias de vento",
+   "waves_note": "Com tramontana, chop e ondas desordenadas; com a brisa de verão, chop leve",
+   "hazards": "A tramontana sopra da terra e leva para alto-mar; rajadas de até 40 nós",
+   "gustiness_note": "A brisa de verão é constante; a tramontana, forte e com rajadas",
+   "crowd_note": "Em julho–agosto a praia fica cheia de banhistas; as zonas de kite são sinalizadas",
+   "region": "Costa Brava, Catalunha",
+   "pros": [
+    "Brisa de verão confiável e tramontana forte",
+    "Praia grande, campings à beira da água",
+    "Girona e Barcelona perto"
+   ],
+   "cons": [
+    "A tramontana é um vento terral com rajadas, não é para iniciantes",
+    "No verão a praia fica lotada",
+    "Água fria no inverno"
+   ],
+   "wind_dir": "Tramontana de N–NW (side-offshore) e brisa de verão de ESE, o «garbí» (side-onshore)",
+   "airport": "GRO — Girona, ~40 min; BCN — Barcelona, ~1,5 h"
+  },
+  "dubai-kite-beach": {
+   "h": "593d259e06",
+   "description": "Uma praia urbana de kite com vista para o Burj Al Arab: no inverno, o shamal sopra do golfo Pérsico e uma grande comunidade local se reúne na Kite Beach. Não venta todo dia, mas a água é quente o ano todo e é fácil combinar com férias em Dubai. Só é permitido velejar nas zonas autorizadas.",
+   "rating_basis": "Spot urbano conhecido com uma grande comunidade; fica mais abaixo nos rankings mundiais por causa do vento fraco e irregular",
+   "waves_note": "Com shamal, chop e ondas pequenas de até 1 m",
+   "hazards": "Banhistas por perto, quebra-mares, sol forte; multas por velejar fora das zonas",
+   "gustiness_note": "O shamal é constante; a brisa, fraca e instável",
+   "crowd_note": "Nos fins de semana com vento há muitos kitesurfistas e praticantes de wingfoil na água",
+   "region": "Dubai, golfo Pérsico",
+   "pros": [
+    "Água quente o ano todo",
+    "Hotéis, cidade e voos diretos",
+    "Há instrutores que falam russo"
+   ],
+   "cons": [
+    "Vento irregular, muitas vezes 10–14 nós",
+    "Regras rígidas: só nas zonas permitidas",
+    "No verão, mais de 40 °C e pouco vento"
+   ],
+   "wind_dir": "NW «shamal», onshore / side-onshore",
+   "airport": "DXB — Dubai, ~25 min"
+  },
+  "walvis-bay-lagoon": {
+   "h": "b9fd8c7243",
+   "description": "O lendário spot de velocidade do Atlântico: na temporada, o vento sul sopra a 25–35 nós quase todo dia, e na lagoa rasa e num canal artificial os kitesurfistas batem recordes mundiais de velocidade. Ao redor estão o deserto do Namibe, flamingos e focas, e a água é fria por causa da corrente de Benguela. Um lugar para riders confiantes que gostam de vento forte.",
+   "rating_basis": "Centro mundial do speed kite (Walvis Speed Spot e Lüderitz); wannakitesurf e kitejungle o colocam entre os spots com mais vento do mundo",
+   "waves_note": "Na lagoa, água lisa e chop; ondas nos spots externos (Pelican Point, Guns)",
+   "hazards": "Vento de até 40 nós, água fria, neblina; bancos de ostras na lagoa",
+   "gustiness_note": "Alísio reforçado pela térmica, constante, enfraquece no fim da tarde",
+   "crowd_note": "Poucos kitesurfistas mesmo no auge da temporada",
+   "region": "Costa atlântica, região de Erongo",
+   "pros": [
+    "Vento muito forte e confiável na temporada",
+    "Água lisa na lagoa para velocidade e freestyle",
+    "Deserto, flamingos e Sossusvlei por perto"
+   ],
+   "cons": [
+    "Água fria, 14–17 °C, e neblina pela manhã",
+    "Muitas vezes vento demais para iniciantes",
+    "Longe e caro de chegar"
+   ],
+   "wind_dir": "S–SW, side-shore; aumenta à tarde",
+   "airport": "WVB — Walvis Bay, ~15 min"
+  },
+  "rodrigues-mourouk": {
+   "h": "c24e14c233",
+   "description": "Uma pequena ilha a 600 km de Maurício, procurada pela lagoa turquesa vazia e pelo alísio que sopra quase sem parar de maio a novembro. Em Anse Mourouk há uma enorme lagoa rasa de água lisa e, além do recife, ondas para experientes. Todo ano acontece aqui um festival de kite, e mesmo assim há só um punhado de kitesurfistas na água.",
+   "rating_basis": "Guias franceses e internacionais (tropicalement-votre, InMotion, Air Mauritius) consideram Rodrigues um dos melhores e mais vazios spots do oceano Índico",
+   "waves_note": "Enorme lagoa de água lisa; além do recife, ondas para experientes",
+   "hazards": "Cabeças de coral e água rasa na maré baixa, correntes nas passagens do recife",
+   "gustiness_note": "O alísio sobre o oceano aberto é constante",
+   "crowd_note": "Mesmo na alta temporada, poucos kites na lagoa",
+   "region": "Ilha Rodrigues, oceano Índico",
+   "pros": [
+    "Enorme lagoa vazia",
+    "Alísio forte e constante de maio a novembro",
+    "Ilha tranquila, sem turismo de massa"
+   ],
+   "cons": [
+    "Viagem longa, só via Maurício",
+    "Pouca hospedagem e poucas escolas",
+    "Coral e água rasa na maré baixa"
+   ],
+   "wind_dir": "Alísio de SE, side-onshore",
+   "airport": "RRG — Rodrigues (Plaine Corail), ~20 min; voos a partir de Maurício"
+  },
+  "vilanculos": {
+   "h": "ca83ecd767",
+   "description": "Uma cidade tranquila no litoral de Moçambique, de onde os kitesurfistas partem para downwinds e para os bancos de areia do arquipélago de Bazaruto, com dunas, água turquesa e dugongos. Na maré baixa surgem dezenas de quilômetros de baixios de água lisa. O vento é mais confiável de agosto a novembro.",
+   "rating_basis": "Kitejungle e centros IKO apontam Vilanculos como o principal spot de Moçambique; os fóruns elogiam os downwinds até as ilhas de Bazaruto",
+   "waves_note": "Na maré baixa, dezenas de quilômetros de baixios e bancos de areia com água lisa",
+   "hazards": "Marés de até 3–4 m, correntes nos canais, águas-vivas; longe de assistência médica",
+   "gustiness_note": "Vento do oceano, constante",
+   "crowd_note": "Pouquíssima gente na água, sobretudo hóspedes dos kite lodges",
+   "region": "Província de Inhambane, oceano Índico",
+   "pros": [
+    "Enormes bancos de areia com água lisa na maré baixa",
+    "Downwinds e kite safáris até as ilhas de Bazaruto",
+    "Quase nenhum outro kitesurfista"
+   ],
+   "cons": [
+    "Marés fortes: velejar pela tábua de marés",
+    "Infraestrutura simples e viagem longa",
+    "Malária: é preciso profilaxia"
+   ],
+   "wind_dir": "SE–S e NE conforme a temporada, side-shore",
+   "airport": "VNX — Vilanculos, ~10 min; voos de Maputo e Joanesburgo"
+  },
+  "watamu": {
+   "h": "ecce8da0a8",
+   "description": "Uma vila turística no litoral norte do Quênia com uma lagoa protegida pelo recife: na maré baixa, água lisa e rasa; na maré alta, chop e ondas pequenas. Duas monções — o kaskazi no inverno e o kusi no verão — garantem duas temporadas por ano. Perto ficam um parque marinho, as ruínas de Gede e Malindi.",
+   "rating_basis": "IKsurfmag e kitejungle apontam Watamu como um dos dois principais spots do Quênia, ao lado de Diani; várias escolas IKO",
+   "waves_note": "Lagoa atrás do recife: lisa e rasa na maré baixa, chop e ondas pequenas na maré alta",
+   "hazards": "Recife de coral e ouriços; na maré baixa o fundo fica exposto",
+   "gustiness_note": "Os ventos de monção vindos do oceano são constantes",
+   "crowd_note": "Poucos kitesurfistas, mais em dezembro–janeiro",
+   "region": "Litoral norte do Quênia, parque marinho de Watamu",
+   "pros": [
+    "Duas temporadas de vento por ano",
+    "Lagoa quente atrás do recife",
+    "Parque marinho e hospedagem barata"
+   ],
+   "cons": [
+    "As marés mudam muito as condições",
+    "Algas na temporada do kusi",
+    "Vento fraco em abril e novembro"
+   ],
+   "wind_dir": "Kaskazi de NE (dezembro–março) e kusi de SE (junho–setembro), side-onshore",
+   "airport": "MYD — Malindi, ~25 min; MBA — Mombaça, ~2 h"
+  },
+  "south-padre-island": {
+   "h": "e8924bb3b1",
+   "description": "O principal destino de kite do Texas: atrás da ilha fica a Laguna Madre, um imenso baixio com água na cintura e lisa, onde centenas de riders velejam ao mesmo tempo. A National Geographic incluiu South Padre entre os melhores destinos de kite do mundo. A temporada vai de março a junho, quando a brisa de sudeste sopra quase todo dia.",
+   "rating_basis": "A National Geographic incluiu South Padre entre os melhores spots de kite do mundo; MACkite e kitejungle o consideram um dos melhores dos EUA",
+   "waves_note": "Água lisa e rasa na Laguna Madre; ondas pequenas do lado do golfo",
+   "hazards": "Arraias e bancos de ostras na lagoa (arraste os pés), barcos no canal",
+   "gustiness_note": "A brisa do golfo é constante, sobretudo na primavera",
+   "crowd_note": "A lagoa é enorme; só fica cheia junto aos centros no auge da primavera",
+   "region": "Texas, golfo do México",
+   "pros": [
+    "Lagoa gigante e rasa de água lisa",
+    "Vento confiável na primavera",
+    "Água quente e infraestrutura turística"
+   ],
+   "cons": [
+    "Multidões no spring break",
+    "Calmarias e calor no verão",
+    "É preciso visto americano"
+   ],
+   "wind_dir": "SE, side-shore na lagoa",
+   "airport": "BRO — Brownsville, ~40 min; HRL — Harlingen, ~50 min"
+  },
+  "oahu-kailua": {
+   "h": "56d0d6078b",
+   "description": "Uma das praias mais bonitas do Havaí e o principal spot de kite de Oahu: o alísio sopra ao longo de uma baía turquesa, e no recife externo quebram ondas. Por causa dos banhistas, os kitesurfistas têm um trecho próprio da praia e há restrições de horário. O melhor período é de abril a setembro, quando o alísio é estável.",
+   "rating_basis": "Junto com Kanaha, em Maui, o spot de kite mais conhecido do Havaí (Fodor's, guias de Oahu)",
+   "waves_note": "Chop na baía, ondas no recife externo",
+   "hazards": "Recife e coral no raso, caravelas-portuguesas, banhistas",
+   "gustiness_note": "O alísio é estável, com algumas rajadas perto da margem por causa do relevo",
+   "crowd_note": "Nos fins de semana com vento, cheio junto à zona de kite",
+   "region": "Costa a barlavento de Oahu, Havaí",
+   "pros": [
+    "Alísio estável na maior parte do ano",
+    "Água quente e transparente, ondas no recife",
+    "Honolulu bem perto"
+   ],
+   "cons": [
+    "Restrições de zona e horário",
+    "Muita gente na praia",
+    "Caro"
+   ],
+   "wind_dir": "Alísio de NE–E, side-onshore",
+   "airport": "HNL — Honolulu, ~30 min"
+  },
+  "squamish-spit": {
+   "h": "19c2f7d184",
+   "description": "Um spot de kite entre montanhas e geleiras: no verão, o ar frio do fiorde e o vale quente criam uma térmica que chega a 20–30 nós quase todo dia. A saída é pelo Spit, um molhe artificial mantido pela associação local de esportes de vento (entrada paga). A água é gelada e é preciso um neoprene grosso, mas a vista do Chief e dos picos nevados é inesquecível.",
+   "rating_basis": "MACkite e 57hours consideram Squamish o melhor spot de kite do Canadá; o spot é administrado pela Squamish Windsports Society",
+   "waves_note": "Chop na foz do rio e no fiorde, sem ondas",
+   "hazards": "Água fria, correnteza do rio Squamish, troncos na água; o barco de resgate da associação opera nos fins de semana",
+   "gustiness_note": "A térmica é constante, mas perto do molhe e das montanhas há rajadas e buracos",
+   "crowd_note": "Nos fins de semana de sol há fila para sair do molhe",
+   "region": "Colúmbia Britânica, fiorde de Howe Sound",
+   "pros": [
+    "Térmica forte quase todo dia no verão",
+    "Paisagem de montanha",
+    "A uma hora de carro de Vancouver"
+   ],
+   "cons": [
+    "Água gelada, 10–12 °C",
+    "Correnteza do rio e marés",
+    "Só para riders confiantes"
+   ],
+   "wind_dir": "Térmica de S subindo o fiorde, side-shore",
+   "airport": "YVR — Vancouver, ~1 h 15 min"
+  },
+  "los-barriles-kite": {
+   "h": "5815b59d74",
+   "description": "Uma vila na costa leste da Baixa Califórnia onde, de novembro a março, kitesurfistas e windsurfistas se reúnem pelo «El Norte», o vento norte que sopra ao longo da costa. A famosa La Ventana fica perto, mas aqui o vento costuma ser mais forte, com chop e ondas pequenas junto à margem. Escolas e hotéis ficam direto na praia.",
+   "rating_basis": "Um dos spots clássicos da Baja, ao lado de La Ventana; guias do East Cape e centros IKO",
+   "waves_note": "Chop e pequenas ondas de vento com um norte forte",
+   "hazards": "Fundo perto da margem, shorebreak com vento forte; arraias e águas-vivas",
+   "gustiness_note": "O norte de inverno ao longo da costa é constante e estável",
+   "crowd_note": "No inverno chegam muitos kitesurfistas dos EUA e do Canadá, mas há espaço para todos",
+   "region": "Baixa Califórnia do Sul, golfo da Califórnia",
+   "pros": [
+    "Vento forte e constante no inverno",
+    "Mar de Cortez quente e baleias na temporada",
+    "Clima tranquilo de vila"
+   ],
+   "cons": [
+    "Sem vento no verão",
+    "É preciso carro",
+    "Pode ser puxado para iniciantes"
+   ],
+   "wind_dir": "N–NNW «El Norte», side-shore",
+   "airport": "SJD — Los Cabos, ~1 h 15 min"
+  },
+  "holbox": {
+   "h": "57db2afce4",
+   "description": "Uma ilha sem carros ao norte de Cancún: ruas de areia, carrinhos de golfe e um mar turquesa raso onde dá pé longe da margem. Os kitesurfistas velejam em frente à praia norte e na lagoa de Yalahau, de água lisa, e no verão tubarões-baleia passam por perto. O vento é mais confiável de novembro a maio.",
+   "rating_basis": "Várias escolas IKO; guias de Yucatán apontam Holbox como o principal spot da região depois de Isla Blanca",
+   "waves_note": "Mar raso com água lisa e chop; água lisa na lagoa de Yalahau",
+   "hazards": "Sargaço, baixios e bancos de areia, barcos junto ao píer",
+   "gustiness_note": "O alísio vindo do mar é constante",
+   "crowd_note": "Poucos kitesurfistas, praia longa",
+   "region": "Quintana Roo, península de Yucatán",
+   "pros": [
+    "Água quente e rasa, fácil de aprender",
+    "Clima de ilha sem carros",
+    "Tubarões-baleia e flamingos"
+   ],
+   "cons": [
+    "Sargaço em alguns anos",
+    "Menos vento e temporada de furacões no verão",
+    "Chegada: carro e balsa"
+   ],
+   "wind_dir": "Alísio de NE–E–SE, side-onshore",
+   "airport": "CUN — Cancún, ~2,5 h + balsa de Chiquilá"
+  },
+  "bonaire-atlantis": {
+   "h": "a2746ffabf",
+   "description": "Uma ilha holandesa na costa da Venezuela, famosa por um alísio que sopra quase o ano todo e pela água cristalina. Os kitesurfistas velejam na Atlantis Beach, no sudoeste: o vento vem da costa baixa e plana, por isso é constante e a água fica lisa; as escolas acompanham os alunos com um barco. Nos dias sem vento, o mergulho é excelente.",
+   "rating_basis": "No top 25 da kitesurfingofficial e em outras listas mundiais; famosa por um alísio constante quase o ano todo",
+   "waves_note": "O vento sopra da terra: água lisa perto da praia, chop leve mais adiante",
+   "hazards": "O vento terral leva para alto-mar; coral perto da margem",
+   "gustiness_note": "O alísio sobre a ilha baixa e plana é constante",
+   "crowd_note": "Poucos kitesurfistas na Atlantis Beach",
+   "region": "Ilha de Bonaire, mar do Caribe",
+   "pros": [
+    "Alísio quase o ano todo",
+    "Água lisa e mar transparente",
+    "Mergulho de nível mundial nos dias sem vento"
+   ],
+   "cons": [
+    "Vento terral: é preciso apoio de barco",
+    "Caro e longe",
+    "Praia estreita e pedregosa em alguns trechos"
+   ],
+   "wind_dir": "Alísio de E, side-offshore — as escolas acompanham os alunos com um barco",
+   "airport": "BON — Bonaire, ~15 min"
+  },
+  "union-island-clifton": {
+   "h": "647f26b9c9",
+   "description": "Uma pequena ilha das Granadinas onde, em frente à vila de Clifton, os kitesurfistas velejam numa lagoa turquesa atrás do recife, com vista para os Tobago Cays. O alísio é estável de dezembro a junho, e o centro local JT Pro Center e os cruzeiros de kite pelas Granadinas deixaram a ilha famosa. É uma boa base para passeios de catamarã às ilhas vizinhas.",
+   "rating_basis": "IKsurfmag, InMotion e Yachting Magazine apontam Union Island como o principal spot de kite das Granadinas",
+   "waves_note": "Lagoa de água lisa atrás do recife; ondas no recife",
+   "hazards": "Recife e coral, barcos no porto de Clifton",
+   "gustiness_note": "O alísio vindo do Atlântico é constante",
+   "crowd_note": "Comunidade pequena, muito espaço na água",
+   "region": "Granadinas, mar do Caribe",
+   "pros": [
+    "Alísio estável no inverno e na primavera",
+    "Lagoa linda com os Tobago Cays ao lado",
+    "Cruzeiros de kite entre as ilhas"
+   ],
+   "cons": [
+    "Difícil de chegar — via São Vicente ou Barbados",
+    "Pouca hospedagem",
+    "Temporada de furacões no outono"
+   ],
+   "wind_dir": "Alísio de E–ENE, side-onshore",
+   "airport": "UNI — Union Island, ~5 min; voos de São Vicente e Barbados"
+  },
+  "icarai-de-amontada": {
+   "h": "b017a04999",
+   "description": "Uma tranquila vila de pescadores na rota do kite do Ceará, entre Cumbuco e Jericoacoara: uma praia longa e vazia, alísio constante e boas ondas para wave riding. As pessoas vêm pela calma que Jeri já não tem e como parada nos downwinds pelo litoral. A temporada vai de julho a janeiro.",
+   "rating_basis": "Parada obrigatória dos downwinds do Ceará; guias brasileiros e franceses chamam Icaraí de «paraíso do kite»",
+   "waves_note": "Boas ondas para wave riding na ponta, chop perto da margem",
+   "hazards": "Shorebreak e correntes, pedras em alguns pontos",
+   "gustiness_note": "O alísio do oceano é constante e forte no segundo semestre",
+   "crowd_note": "Poucos kitesurfistas, mais movimento em setembro–novembro",
+   "region": "Ceará, Nordeste do Brasil",
+   "pros": [
+    "Alísio forte e constante",
+    "Ondas para wave riding",
+    "Praias vazias e sossego"
+   ],
+   "cons": [
+    "Sem água lisa para iniciantes",
+    "Infraestrutura simples",
+    "Cerca de 3 h de estrada desde Fortaleza"
+   ],
+   "wind_dir": "Alísio de E–ESE, side-onshore",
+   "airport": "FOR — Fortaleza, ~3 h"
+  },
+  "noumea-anse-vata": {
+   "h": "322ef6ab86",
+   "description": "A praia urbana da capital da Nova Caledônia, onde o alísio sopra boa parte do ano e quase todo dia de setembro a dezembro. Os kitesurfistas velejam na baía de Anse Vata e vão até a ilhota Maître, no meio de uma das maiores lagoas do mundo, Patrimônio Mundial da UNESCO. Cafés e toda a infraestrutura de Nouméa ficam ao lado.",
+   "rating_basis": "Kitejungle e guias franceses apontam Anse Vata como o principal spot de kite da Nova Caledônia",
+   "waves_note": "Chop na baía, água lisa de lagoa perto da ilhota Maître",
+   "hazards": "Baixios de coral, barcos e banhistas na baía",
+   "gustiness_note": "O alísio sobre a lagoa é constante",
+   "crowd_note": "Nos fins de semana com vento a baía se enche de kitesurfistas e praticantes de wingfoil locais",
+   "region": "Província Sul, lagoa da Nova Caledônia",
+   "pros": [
+    "Alísio confiável na primavera austral",
+    "Enorme lagoa Patrimônio da UNESCO",
+    "Cidade com comida francesa por perto"
+   ],
+   "cons": [
+    "Muito longe e caro",
+    "Preços franceses",
+    "Coral na maré baixa"
+   ],
+   "wind_dir": "Alísio de SE–ESE, side-onshore",
+   "airport": "NOU — Nouméa-La Tontouta, ~50 min"
   }
  }
 }

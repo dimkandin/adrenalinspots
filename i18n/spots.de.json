@@ -20030,6 +20030,467 @@
     "Russischsprachige Charterplattform (Website und Support auf Russisch): ~60 Boote in der Blue Lagoon und auf Bequia",
     "Kabinenplätze auf einem Katamaran mit Skipper und Koch: Bequia, Mayreau, Tobago Cays, Union Island"
    ]
+  },
+  "sylt-westerland-kite": {
+   "h": "2b99abffa0",
+   "description": "Deutschlands bekannteste Kite-Insel: ein offener Nordseestrand bei Westerland, an dem jeden Sommer ein Wave-Stopp der GKA-Weltserie stattfindet. Im Westen gibt es Brandung und kräftigen Herbstwind, auf der Wattseite im Osten flaches Stehrevier zum Lernen. Das Wasser ist selbst im Sommer kalt – ein 4/3- bis 5/4-Neopren ist Pflicht.",
+   "rating_basis": "Jeden Sommer Austragungsort eines Wave-Stopps des GKA Kite World Cup; Sylt steht in deutschen Kitespot-Rankings (surfertoday, Surf-Magazin) weit oben",
+   "waves_note": "Bei Weststurm 1–3 m Welle in mehreren Reihen; auf der Wattseite im Osten flaches Stehrevier",
+   "hazards": "Starke Strömungen entlang des Strandes und Rippströmungen bei Welle, Buhnen; im Watt Ebbe und Sandbänke",
+   "gustiness_note": "Frontwind von See meist gleichmäßig, böig beim Durchzug von Fronten",
+   "crowd_note": "Am Brandenburger Strand gibt es eine Zone für Surfer und Kiter; an Sommerwochenenden voll, in der Welle meist Fortgeschrittene",
+   "region": "Nordfriesische Inseln, Nordsee",
+   "pros": [
+    "Echte Welle und kräftiger Wind, besonders im September–Oktober",
+    "Flachwasser auf der Wattseite für Einsteiger",
+    "Urlaubsinfrastruktur, Zug vom Festland über den Damm"
+   ],
+   "cons": [
+    "Kaltes Wasser: fast die ganze Saison 5/4-Neopren",
+    "Im Sommer gibt es windstille Wochen",
+    "Teure Unterkünfte"
+   ],
+   "wind_dir": "W–SW–NW, auflandig / schräg auflandig; auf der Wattseite (Rantum, Munkmarsch) Ostwind mit Flachwasser",
+   "airport": "GWT — Sylt (Westerland), ~10 Min.; HAM — Hamburg, ~3 Std. mit dem Zug"
+  },
+  "romo-lakolk": {
+   "h": "eb43b746c5",
+   "description": "Einer der breitesten Strände Europas: In Lakolk fährt man mit dem Auto bis ans Wasser, und Platz gibt es für alle. Bei Ebbe entstehen flache Lagunen mit Flachwasser – ideal zum Lernen –, bei Westwind gibt es am Ufer Kabbelwasser und kleine Wellen. Saison ist von Frühling bis Herbst im Neopren; Sylt und die deutsche Küste liegen nebenan.",
+   "rating_basis": "Bei Kitern in Nordeuropa als riesiger Strand mit flachem Wasser bekannt; in Listen dänischer Spots neben Hvide Sande und Klitmøller",
+   "waves_note": "Bei Ebbe flache Lagunen mit glattem Wasser; bei starkem Westwind Kabbelwasser und kleine Wellen",
+   "hazards": "Gezeiten: bei Ebbe Sandbänke und Strömungen in den Prielen; Autos am Strand",
+   "gustiness_note": "Wind von der offenen See, gleichmäßig",
+   "crowd_note": "Der Strand ist 1–2 km breit und Dutzende Kilometer lang – voll wird es nie",
+   "region": "Insel Rømø, Wattenmeer, Südjütland",
+   "pros": [
+    "Riesiger Sandstrand, Parken am Wasser",
+    "Flach und sicher für Einsteiger",
+    "Buggy- und Landkiten auf dem Sand"
+   ],
+   "cons": [
+    "Kaltes Wasser",
+    "Die Gezeiten verändern den Spot binnen weniger Stunden",
+    "Wenige Schulen und wenig Service"
+   ],
+   "airport": "BLL — Billund, ~1,5 Std.; HAM — Hamburg, ~2,5 Std."
+  },
+  "hel-chalupy": {
+   "h": "522d4aa9fa",
+   "description": "Polens Kite-Hauptstadt: Auf der schmalen Halbinsel Hel zwischen offener See und der flachen Putziger Bucht reihen sich Dutzende Schulen und Campingplätze. In der Bucht ist das Wasser hunderte Meter weit hüfttief – ein ideales Lernrevier –, und bei Nordwind ziehen Fortgeschrittene auf die Seeseite in die Welle. Im Sommer gehört der Ort zu den vollsten Kitespots Europas.",
+   "rating_basis": "Polnische und europäische Guides nennen Chałupy und Jastarnia das beste Lernrevier der Ostsee; Dutzende IKO- und VDWS-Schulen",
+   "waves_note": "In der Bucht Flachwasser und leichtes Kabbelwasser; bei Nordwind kleine Wellen auf der Seeseite",
+   "hazards": "Volles Wasser; stellenweise Steine und Netze in Ufernähe, im Sommer Seegras",
+   "gustiness_note": "Westwind über die Halbinsel ist böiger, Nordostwind gleichmäßig",
+   "crowd_note": "Im Juli–August Hunderte Kites in der Bucht, die Zonen sind unter den Schulen aufgeteilt",
+   "region": "Putziger Bucht, Ostsee",
+   "pros": [
+    "Flache Bucht: weit draußen noch Stehrevier",
+    "Viele Schulen, Verleihe und Campingplätze",
+    "Wind von beiden Seiten der Halbinsel – Revier nach Wahl"
+   ],
+   "cons": [
+    "Im Sommer sehr voll auf dem Wasser und am Strand",
+    "Warmes Wasser nur im Juli–August",
+    "Staus auf der einzigen Straße auf die Halbinsel"
+   ],
+   "wind_dir": "W–SW und N–NE; in der Bucht sideshore mit Flachwasser",
+   "airport": "GDN — Danzig, ~1,5 Std."
+  },
+  "neusiedl-podersdorf": {
+   "h": "60e09acfa6",
+   "description": "Der windigste Ort Mitteleuropas und Österreichs wichtigster Kitespot: ein flacher Steppensee, in dem man fast überall stehen kann. Podersdorf hat eine Kitezone am Strand, Schulen und einen Campingplatz, im Frühjahr findet der Surf Worldcup statt. Das beste Flachwasserrevier zum Lernen und für Freestyle in der Nähe von Wien, Bratislava und Budapest.",
+   "rating_basis": "Austragungsort des jährlichen Surf Worldcup Podersdorf; österreichische und deutsche Guides nennen den Neusiedler See den wichtigsten Kitespot des Landes",
+   "waves_note": "Flacher See (etwa 1,5 m): Flachwasser und kurzes Kabbelwasser bei starkem Wind",
+   "hazards": "Schilf und Schlamm am Ufer, plötzliche Sommergewitter mit Sturmböen",
+   "gustiness_note": "Der Nordwestwind über die Ebene ist mäßig böig",
+   "crowd_note": "An windigen Wochenenden ist die Kitezone voll, unter der Woche ruhiger",
+   "region": "Burgenland, Steppensee an der Grenze zu Ungarn",
+   "pros": [
+    "Flach und glatt – ideal zum Lernen",
+    "45 Minuten von Wien",
+    "Warmes Wasser im Sommer"
+   ],
+   "cons": [
+    "Nicht jeden Tag Wind, im Sommer Flauten",
+    "Trübes Wasser und Schlamm am Grund",
+    "Im Winter friert der See zu"
+   ],
+   "wind_dir": "NW (Hauptwind) und SE, schräg auflandig",
+   "airport": "VIE — Wien, ~45 Min.; BTS — Bratislava, ~50 Min."
+  },
+  "gizzeria-hang-loose": {
+   "h": "aaba044839",
+   "description": "Italiens windigster Sommerspot: An der schmalsten Stelle des kalabrischen „Stiefelfußes“ wird der Wind vom Ionischen Meer über die Landenge gedüst, und von Juni bis September weht die Thermik fast täglich. Das Zentrum Hang Loose Beach und benachbarte Stationen liegen direkt am Flughafen Lamezia; am Ufer gibt es Kabbelwasser und kleine Wellen.",
+   "rating_basis": "Italienische Guides und thekitemag nennen Gizzeria den zuverlässigsten Sommerspot Italiens; am Hang Loose Beach finden große Wettbewerbe statt",
+   "waves_note": "Kabbelwasser und kleine Wellen bis 1 m bei starkem Wind",
+   "hazards": "In Ufernähe schnell tief; Shorebreak bei starkem Wind",
+   "gustiness_note": "Die Thermik über die Landenge ist gleichmäßig und berechenbar und nimmt bis Mittag zu",
+   "crowd_note": "Im August an den Stationen voll, im Juni und September ruhiger",
+   "region": "Kalabrien, Golf von Sant'Eufemia, Tyrrhenisches Meer",
+   "pros": [
+    "Im Sommer fast täglich Thermik",
+    "Flughafen Lamezia Terme 5 Minuten entfernt",
+    "Warmes Meer und italienische Küche"
+   ],
+   "cons": [
+    "Im Winter kaum Wind",
+    "Im August voll",
+    "Stellenweise ungepflegter Strand"
+   ],
+   "wind_dir": "W–NW Thermik über die Landenge, schräg auflandig",
+   "airport": "SUF — Lamezia Terme, ~5 Min."
+  },
+  "mar-menor-los-narejos": {
+   "h": "ffce84dbcb",
+   "description": "Europas größte Salzwasserlagune, durch die Sandnehrung La Manga vom Meer getrennt: Das Wasser ist warm, flach und fast immer glatt. Einer der besten Orte Spaniens zum Lernen und für Freestyle; Wind gibt es fast das ganze Jahr, und im Winter trainieren hier Kiter aus ganz Europa. Schulen gibt es in Los Narejos, Los Alcázares und auf La Manga selbst.",
+   "rating_basis": "Spanische Guides nennen das Mar Menor die beste Lagune des Landes zum Lernen; Dutzende Schulen auf yumping und in Los Alcázares",
+   "waves_note": "Die Lagune ist durch La Manga abgeschlossen: Flachwasser, bei starkem Wind leichtes Kabbelwasser",
+   "hazards": "Quallen im Sommer, Steine an den Stegen, Bojen der Badezonen",
+   "gustiness_note": "Thermik und Levante sind gleichmäßig, über der Lagune ohne Hindernisse",
+   "crowd_note": "An Wochenenden an den Schulen voll, aber die Lagune ist groß",
+   "region": "Murcia, Salzwasserlagune am Mittelmeer",
+   "pros": [
+    "Flaches, warmes, glattes Wasser",
+    "Fast ganzjährig Wind und 300 Sonnentage",
+    "Viele Schulen und günstige Unterkünfte"
+   ],
+   "cons": [
+    "Schwächerer Wind als in Tarifa – oft großer Kite nötig",
+    "Quallen und Seegras im Sommer",
+    "Dichte Hotelbebauung"
+   ],
+   "wind_dir": "NE „Levante“ und S–SW-Thermik, sideshore",
+   "airport": "RMU — Murcia-Corvera, ~25 Min.; ALC — Alicante, ~1 Std."
+  },
+  "sant-pere-pescador": {
+   "h": "323fab58d6",
+   "description": "Kataloniens wichtigster Kitespot: ein langer Strand im Inneren der Bucht von Roses, wo im Sommer fast täglich eine Seebrise weht und im Herbst und Winter die kräftige Tramontana für Erfahrene kommt. Am Ufer liegen Campingplätze und große Stationen, darunter der ION Club. Nach Barcelona sind es anderthalb Stunden, nach Frankreich eine halbe.",
+   "rating_basis": "Kataloniens wichtigster Kitespot mit dem IKO-Center ION Club Golf de Roses; spanische Guides stellen Sant Pere bei der Zahl der Windtage neben Tarifa",
+   "waves_note": "Bei Tramontana Kabbelwasser und unruhige Wellen, mit der Sommerbrise leichtes Kabbelwasser",
+   "hazards": "Die Tramontana weht ablandig und treibt aufs Meer hinaus; Böen bis 40 kn",
+   "gustiness_note": "Die Sommerbrise ist gleichmäßig, die Tramontana stark und böig",
+   "crowd_note": "Im Juli–August ist der Strand voller Badegäste, Kitezonen sind markiert",
+   "region": "Costa Brava, Katalonien",
+   "pros": [
+    "Zuverlässige Sommerbrise und kräftige Tramontana",
+    "Großer Strand, Campingplätze direkt am Wasser",
+    "Girona und Barcelona in der Nähe"
+   ],
+   "cons": [
+    "Die Tramontana ist ein böiger ablandiger Wind, nichts für Einsteiger",
+    "Im Sommer überfüllter Strand",
+    "Im Winter kaltes Wasser"
+   ],
+   "wind_dir": "N–NW Tramontana (schräg ablandig) und ESE-Sommerbrise „Garbí“ (schräg auflandig)",
+   "airport": "GRO — Girona, ~40 Min.; BCN — Barcelona, ~1,5 Std."
+  },
+  "dubai-kite-beach": {
+   "h": "593d259e06",
+   "description": "Ein Stadt-Kitestrand mit Blick auf den Burj al Arab: Im Winter weht der Shamal vom Persischen Golf, und am Kite Beach trifft sich eine große lokale Community. Der Wind weht nicht jeden Tag, dafür ist das Wasser das ganze Jahr warm, und die Reise lässt sich gut mit einem Dubai-Urlaub verbinden. Gekitet werden darf nur in ausgewiesenen Zonen.",
+   "rating_basis": "Bekannter Stadtspot mit großer Community; in weltweiten Rankings wegen schwachen und unregelmäßigen Windes weiter unten",
+   "waves_note": "Bei Shamal Kabbelwasser und kleine Wellen bis 1 m",
+   "hazards": "Badegäste in der Nähe, Wellenbrecher, starke Sonne; Bußgelder fürs Kiten außerhalb der Zonen",
+   "gustiness_note": "Der Shamal ist gleichmäßig, die Brise schwach und unbeständig",
+   "crowd_note": "An windigen Wochenenden viele Kiter und Wingfoiler auf dem Wasser",
+   "region": "Dubai, Persischer Golf",
+   "pros": [
+    "Ganzjährig warmes Wasser",
+    "Hotels, Stadt und Direktflüge",
+    "Russischsprachige Lehrer vorhanden"
+   ],
+   "cons": [
+    "Unregelmäßiger Wind, oft 10–14 kn",
+    "Strenge Regeln: Kiten nur in erlaubten Zonen",
+    "Im Sommer über 40 °C und wenig Wind"
+   ],
+   "airport": "DXB — Dubai, ~25 Min.",
+   "wind_dir": "NW „Shamal“, auflandig / schräg auflandig"
+  },
+  "walvis-bay-lagoon": {
+   "h": "b9fd8c7243",
+   "description": "Der legendäre Speedspot am Atlantik: In der Saison weht der Südwind fast täglich mit 25–35 kn, und auf der flachen Lagune und einem künstlichen Kanal stellen Kiter Geschwindigkeits-Weltrekorde auf. Ringsum liegen die Namib-Wüste, Flamingos und Robben, das Wasser ist wegen des Benguelastroms kalt. Ein Ort für sichere Rider, die starken Wind lieben.",
+   "rating_basis": "Weltzentrum des Speedkitens (Walvis Speed Spot und Lüderitz); wannakitesurf und kitejungle zählen ihn zu den windigsten Spots der Welt",
+   "waves_note": "In der Lagune Flachwasser und Kabbelwasser; Wellen an den äußeren Spots (Pelican Point, Guns)",
+   "hazards": "Wind bis 40 kn, kaltes Wasser, Nebel; Austernbänke in der Lagune",
+   "gustiness_note": "Thermisch verstärkter Passat, gleichmäßig, lässt am Abend nach",
+   "crowd_note": "Selbst in der Hochsaison wenige Kiter",
+   "region": "Atlantikküste, Region Erongo",
+   "pros": [
+    "Sehr starker, zuverlässiger Wind in der Saison",
+    "Flachwasser in der Lagune für Speed und Freestyle",
+    "Wüste, Flamingos und Sossusvlei in der Nähe"
+   ],
+   "cons": [
+    "Kaltes Wasser 14–17 °C und Morgennebel",
+    "Oft zu viel Wind für Einsteiger",
+    "Weit weg und teure Anreise"
+   ],
+   "airport": "WVB — Walvis Bay, ~15 Min.",
+   "wind_dir": "S–SW, sideshore; nimmt am Nachmittag zu"
+  },
+  "rodrigues-mourouk": {
+   "h": "c24e14c233",
+   "description": "Eine kleine Insel 600 km von Mauritius, wegen einer leeren türkisfarbenen Lagune und eines Passats, der von Mai bis November fast ohne Pause weht. In Anse Mourouk liegt eine riesige flache Lagune mit Flachwasser, hinter dem Riff gibt es Wellen für Erfahrene. Jedes Jahr findet hier ein Kitefestival statt, und trotzdem sind nur eine Handvoll Kiter auf dem Wasser.",
+   "rating_basis": "Französische und internationale Guides (tropicalement-votre, InMotion, Air Mauritius) nennen Rodrigues einen der besten und leersten Spots im Indischen Ozean",
+   "waves_note": "Riesige Lagune mit Flachwasser; hinter dem Riff Wellen für Erfahrene",
+   "hazards": "Korallenköpfe und flaches Wasser bei Ebbe, Strömungen an den Riffpassagen",
+   "gustiness_note": "Der Passat über dem offenen Ozean ist gleichmäßig",
+   "crowd_note": "Selbst in der Hochsaison nur wenige Kites in der Lagune",
+   "region": "Insel Rodrigues, Indischer Ozean",
+   "pros": [
+    "Riesige leere Lagune",
+    "Starker, stetiger Passat von Mai bis November",
+    "Ruhige Insel ohne Massentourismus"
+   ],
+   "cons": [
+    "Lange Anreise – nur über Mauritius",
+    "Wenige Unterkünfte und Schulen",
+    "Korallen und flaches Wasser bei Ebbe"
+   ],
+   "airport": "RRG — Rodrigues (Plaine Corail), ~20 Min.; Flüge ab Mauritius",
+   "wind_dir": "SE-Passat, schräg auflandig"
+  },
+  "vilanculos": {
+   "h": "ca83ecd767",
+   "description": "Ein ruhiges Städtchen an der Küste Mosambiks, von dem Kiter zu Downwindern und auf die Sandbänke des Bazaruto-Archipels mit Dünen, türkisfarbenem Wasser und Dugongs aufbrechen. Bei Ebbe tauchen Dutzende Kilometer Flachwasser auf. Am zuverlässigsten ist der Wind von August bis November.",
+   "rating_basis": "Kitejungle und IKO-Center nennen Vilanculos den wichtigsten Kitespot Mosambiks; in Foren werden die Downwinder zu den Bazaruto-Inseln gelobt",
+   "waves_note": "Bei Ebbe Dutzende Kilometer Flachwasser und Sandbänke mit glattem Wasser",
+   "hazards": "Tidenhub bis 3–4 m, Strömungen in den Kanälen, Quallen; weit bis zur medizinischen Versorgung",
+   "gustiness_note": "Wind vom Ozean, gleichmäßig",
+   "crowd_note": "Nur eine Handvoll auf dem Wasser, meist Gäste der Kite-Lodges",
+   "region": "Provinz Inhambane, Indischer Ozean",
+   "pros": [
+    "Riesige Sandbänke mit Flachwasser bei Ebbe",
+    "Downwinder und Kite-Safaris zu den Bazaruto-Inseln",
+    "Kaum andere Kiter"
+   ],
+   "cons": [
+    "Starke Gezeiten: nach Tidenkalender kiten",
+    "Einfache Infrastruktur und lange Anreise",
+    "Malaria – Prophylaxe nötig"
+   ],
+   "wind_dir": "SE–S und NE je nach Saison, sideshore",
+   "airport": "VNX — Vilanculos, ~10 Min.; Flüge ab Maputo und Johannesburg"
+  },
+  "watamu": {
+   "h": "ecce8da0a8",
+   "description": "Ein Urlaubsort an Kenias Nordküste mit einer vom Riff geschützten Lagune: bei Ebbe flaches, glattes Wasser, bei Flut Kabbelwasser und kleine Wellen. Zwei Monsune – Kaskazi im Winter und Kusi im Sommer – sorgen für zwei Saisons im Jahr. In der Nähe liegen ein Meeresnationalpark, die Ruinen von Gede und Malindi.",
+   "rating_basis": "IKsurfmag und kitejungle nennen Watamu neben Diani einen der zwei wichtigsten Kitespots Kenias; mehrere IKO-Schulen",
+   "waves_note": "Lagune hinter dem Riff: bei Ebbe flach und glatt, bei Flut Kabbelwasser und kleine Wellen",
+   "hazards": "Korallenriff und Seeigel; bei Ebbe liegt der Grund frei",
+   "gustiness_note": "Die Monsunwinde vom Ozean sind gleichmäßig",
+   "crowd_note": "Wenige Kiter, mehr im Dezember–Januar",
+   "region": "Nordküste Kenias, Meeresnationalpark Watamu",
+   "pros": [
+    "Zwei Windsaisons im Jahr",
+    "Warme Lagune hinter dem Riff",
+    "Meeresnationalpark und günstige Unterkünfte"
+   ],
+   "cons": [
+    "Die Gezeiten verändern die Bedingungen stark",
+    "Seegras in der Kusi-Saison",
+    "Im April und November wenig Wind"
+   ],
+   "wind_dir": "Kaskazi NE (Dezember–März) und Kusi SE (Juni–September), schräg auflandig",
+   "airport": "MYD — Malindi, ~25 Min.; MBA — Mombasa, ~2 Std."
+  },
+  "south-padre-island": {
+   "h": "e8924bb3b1",
+   "description": "Das wichtigste Kite-Resort in Texas: Hinter der Insel liegt die Laguna Madre, ein riesiges hüfttiefes Flachwasserrevier, in dem Hunderte Rider gleichzeitig fahren. National Geographic zählte South Padre zu den besten Kite-Destinationen der Welt. Saison ist von März bis Juni, wenn die Südostbrise fast täglich weht.",
+   "rating_basis": "National Geographic zählte South Padre zu den besten Kitespots der Welt; MACkite und kitejungle nennen ihn einen der besten Spots der USA",
+   "waves_note": "In der Laguna Madre flaches, glattes Wasser; auf der Golfseite kleine Wellen",
+   "hazards": "Stachelrochen und Austernbänke in der Lagune (Füße schlurfen), Boote im Kanal",
+   "gustiness_note": "Die Brise vom Golf ist gleichmäßig, besonders im Frühjahr",
+   "crowd_note": "Die Lagune ist riesig; voll wird es nur an den Stationen im Frühjahrs-Peak",
+   "region": "Texas, Golf von Mexiko",
+   "pros": [
+    "Riesige flache Lagune mit Flachwasser",
+    "Zuverlässiger Frühjahrswind",
+    "Warmes Wasser und Urlaubsinfrastruktur"
+   ],
+   "cons": [
+    "Menschenmassen in den Spring Breaks",
+    "Flauten und Hitze im Sommer",
+    "US-Visum erforderlich"
+   ],
+   "wind_dir": "SE, sideshore in der Lagune",
+   "airport": "BRO — Brownsville, ~40 Min.; HRL — Harlingen, ~50 Min."
+  },
+  "oahu-kailua": {
+   "h": "56d0d6078b",
+   "description": "Einer der schönsten Strände Hawaiis und der wichtigste Kitespot auf Oʻahu: Der Passat weht entlang einer türkisfarbenen Bucht, am Außenriff brechen Wellen. Wegen der Badegäste haben Kiter einen eigenen Strandabschnitt, und es gibt zeitliche Beschränkungen. Am besten von April bis September, wenn der Passat stabil ist.",
+   "rating_basis": "Zusammen mit Kanaha auf Maui der bekannteste Kitespot Hawaiis (Fodor's, Oʻahu-Guides)",
+   "waves_note": "In der Bucht Kabbelwasser, am Außenriff Wellen",
+   "hazards": "Riff und Korallen im Flachwasser, Portugiesische Galeeren, Badegäste",
+   "gustiness_note": "Der Passat ist stabil, in Ufernähe wegen des Geländes etwas böig",
+   "crowd_note": "An windigen Wochenenden an der Kitezone voll",
+   "region": "Luvküste von Oʻahu, Hawaii",
+   "pros": [
+    "Stabiler Passat den größten Teil des Jahres",
+    "Warmes klares Wasser und Riffwellen",
+    "Honolulu ganz in der Nähe"
+   ],
+   "cons": [
+    "Zonen- und Zeitbeschränkungen fürs Kiten",
+    "Viele Menschen am Strand",
+    "Teuer"
+   ],
+   "wind_dir": "NE–E-Passat, schräg auflandig",
+   "airport": "HNL — Honolulu, ~30 Min."
+  },
+  "squamish-spit": {
+   "h": "19c2f7d184",
+   "description": "Ein Kitespot zwischen Bergen und Gletschern: Im Sommer erzeugen die kalte Luft des Fjords und das warme Tal eine Thermik, die fast täglich auf 20–30 kn auffrischt. Gestartet wird vom Spit, einem künstlichen Damm, den der örtliche Windsportverein unterhält (Eintritt). Das Wasser ist eiskalt und ein dicker Neopren nötig, aber der Blick auf den Chief und die verschneiten Gipfel ist unvergesslich.",
+   "rating_basis": "MACkite und 57hours nennen Squamish den besten Kitespot Kanadas; der Spot wird von der Squamish Windsports Society betrieben",
+   "waves_note": "Kabbelwasser an der Flussmündung und im Fjord, keine Wellen",
+   "hazards": "Kaltes Wasser, Strömung des Squamish River, Treibholz; das Rettungsboot des Vereins fährt am Wochenende",
+   "gustiness_note": "Die Thermik ist gleichmäßig, am Damm und an den Bergen gibt es aber Böen und Löcher",
+   "crowd_note": "An sonnigen Wochenenden Warteschlange zum Starten am Damm",
+   "region": "British Columbia, Fjord Howe Sound",
+   "pros": [
+    "Im Sommer fast täglich starke Thermik",
+    "Berglandschaft",
+    "Eine Autostunde von Vancouver"
+   ],
+   "cons": [
+    "Eiskaltes Wasser 10–12 °C",
+    "Flussströmung und Gezeiten",
+    "Nur für sichere Rider"
+   ],
+   "wind_dir": "S-Thermik den Fjord hinauf, sideshore",
+   "airport": "YVR — Vancouver, ~1 Std. 15 Min."
+  },
+  "los-barriles-kite": {
+   "h": "5815b59d74",
+   "description": "Ein Dorf an der Ostküste der Baja California, in dem sich von November bis März Kiter und Windsurfer für „El Norte“ treffen, den Nordwind entlang der Küste. Das berühmte La Ventana liegt in der Nähe, doch hier ist der Wind meist stärker, mit Kabbelwasser und kleinen Wellen am Ufer. Schulen und Hotels liegen direkt am Strand.",
+   "rating_basis": "Neben La Ventana einer der klassischen Spots der Baja; East-Cape-Guides und IKO-Center",
+   "waves_note": "Kabbelwasser und kleine Windwellen bei starkem Norte",
+   "hazards": "In Ufernähe tief, Shorebreak bei starkem Wind; Stachelrochen und Quallen",
+   "gustiness_note": "Der Winter-Norte entlang der Küste ist gleichmäßig und stabil",
+   "crowd_note": "Im Winter viele Kiter aus den USA und Kanada, aber Platz für alle",
+   "region": "Baja California Sur, Golf von Kalifornien",
+   "pros": [
+    "Starker, stetiger Wind im Winter",
+    "Warmes Meer von Cortez und Wale in der Saison",
+    "Entspannte Dorfatmosphäre"
+   ],
+   "cons": [
+    "Im Sommer kein Wind",
+    "Ein Auto ist nötig",
+    "Für Einsteiger mitunter ruppig"
+   ],
+   "wind_dir": "N–NNW „El Norte“, sideshore",
+   "airport": "SJD — Los Cabos, ~1 Std. 15 Min."
+  },
+  "holbox": {
+   "h": "57db2afce4",
+   "description": "Eine autofreie Insel nördlich von Cancún: Sandstraßen, Golfcarts und ein flaches türkisfarbenes Meer, in dem man weit draußen noch stehen kann. Gekitet wird am Nordstrand und in der flachen Lagune Yalahau, im Sommer ziehen Walhaie vorbei. Am zuverlässigsten ist der Wind von November bis Mai.",
+   "rating_basis": "Mehrere IKO-Schulen; Yucatán-Guides nennen Holbox nach Isla Blanca den wichtigsten Kitespot der Region",
+   "waves_note": "Flaches Meer mit glattem Wasser und Kabbelwasser; in der Lagune Yalahau Flachwasser",
+   "hazards": "Sargassum, Untiefen und Sandbänke, Boote am Steg",
+   "gustiness_note": "Der Passat von See ist gleichmäßig",
+   "crowd_note": "Wenige Kiter, langer Strand",
+   "region": "Quintana Roo, Halbinsel Yucatán",
+   "pros": [
+    "Flaches warmes Wasser, leicht zu lernen",
+    "Atmosphäre einer autofreien Insel",
+    "Walhaie und Flamingos"
+   ],
+   "cons": [
+    "In manchen Jahren Sargassum",
+    "Im Sommer schwächerer Wind und Hurrikansaison",
+    "Anreise: Auto plus Fähre"
+   ],
+   "wind_dir": "NE–E–SE-Passat, schräg auflandig",
+   "airport": "CUN — Cancún, ~2,5 Std. + Fähre ab Chiquilá"
+  },
+  "bonaire-atlantis": {
+   "h": "a2746ffabf",
+   "description": "Eine niederländische Insel vor der Küste Venezuelas, bekannt für einen fast ganzjährigen Passat und glasklares Wasser. Gekitet wird am Atlantis Beach im Südwesten: Der Wind kommt vom flachen, niedrigen Ufer, ist daher gleichmäßig und das Wasser glatt; Schulen sichern Schüler mit einem Boot ab. An windstillen Tagen ist das Tauchen hervorragend.",
+   "rating_basis": "In den Top 25 von kitesurfingofficial und anderen weltweiten Listen; bekannt für einen fast ganzjährig stetigen Passat",
+   "waves_note": "Der Wind weht ablandig – glattes Wasser am Strand, weiter draußen leichtes Kabbelwasser",
+   "hazards": "Ablandiger Wind treibt aufs Meer hinaus; Korallen in Ufernähe",
+   "gustiness_note": "Der Passat über der flachen Insel ist gleichmäßig",
+   "crowd_note": "Wenige Kiter am Atlantis Beach",
+   "region": "Insel Bonaire, Karibisches Meer",
+   "pros": [
+    "Fast ganzjährig Passat",
+    "Glattes Wasser und klares Meer",
+    "Tauchen der Weltklasse an windstillen Tagen"
+   ],
+   "cons": [
+    "Ablandiger Wind – Bootssicherung nötig",
+    "Teuer und weit weg",
+    "Stellenweise schmaler, steiniger Strand"
+   ],
+   "wind_dir": "E-Passat, schräg ablandig – Schulen sichern Schüler mit einem Boot ab",
+   "airport": "BON — Bonaire, ~15 Min."
+  },
+  "union-island-clifton": {
+   "h": "647f26b9c9",
+   "description": "Eine kleine Grenadinen-Insel, auf der Kiter vor dem Ort Clifton in einer türkisfarbenen Lagune hinter dem Riff fahren, mit Blick auf die Tobago Cays. Der Passat ist von Dezember bis Juni stabil, und das örtliche JT Pro Center sowie Kite-Kreuzfahrten durch die Grenadinen haben die Insel bekannt gemacht. Ein guter Ausgangspunkt für Katamarantouren zu den Nachbarinseln.",
+   "rating_basis": "IKsurfmag, InMotion und Yachting Magazine nennen Union Island den wichtigsten Kitespot der Grenadinen",
+   "waves_note": "Flachwasserlagune hinter dem Riff; Wellen am Riff",
+   "hazards": "Riff und Korallen, Boote im Hafen von Clifton",
+   "gustiness_note": "Der Passat vom Atlantik ist gleichmäßig",
+   "crowd_note": "Kleine Community, viel Platz auf dem Wasser",
+   "region": "Grenadinen, Karibisches Meer",
+   "pros": [
+    "Stabiler Passat im Winter und Frühling",
+    "Schöne Lagune mit den Tobago Cays nebenan",
+    "Kite-Kreuzfahrten zwischen den Inseln"
+   ],
+   "cons": [
+    "Schwer erreichbar – über St. Vincent oder Barbados",
+    "Wenige Unterkünfte",
+    "Im Herbst Hurrikansaison"
+   ],
+   "wind_dir": "E–ENE-Passat, schräg auflandig",
+   "airport": "UNI — Union Island, ~5 Min.; Flüge ab St. Vincent und Barbados"
+  },
+  "icarai-de-amontada": {
+   "h": "b017a04999",
+   "description": "Ein ruhiges Fischerdorf auf der Kite-Route von Ceará zwischen Cumbuco und Jericoacoara: ein langer leerer Strand, stetiger Passat und gute Wellen zum Waveriden. Man kommt wegen der Ruhe, die Jeri nicht mehr hat, und als Etappe auf Downwind-Touren entlang der Küste. Saison ist von Juli bis Januar.",
+   "rating_basis": "Pflichtstopp der Downwinder in Ceará; brasilianische und französische Guides nennen Icaraí ein „Kiteparadies“",
+   "waves_note": "Gute Wellen zum Waveriden am Point, in Ufernähe Kabbelwasser",
+   "hazards": "Shorebreak und Strömungen, stellenweise Steine",
+   "gustiness_note": "Der Passat vom Ozean ist in der zweiten Jahreshälfte gleichmäßig und stark",
+   "crowd_note": "Wenige Kiter, mehr Betrieb im September–November",
+   "region": "Ceará, Nordostbrasilien",
+   "pros": [
+    "Starker, stetiger Passat",
+    "Wellen zum Waveriden",
+    "Leere Strände und Ruhe"
+   ],
+   "cons": [
+    "Kein Flachwasser für Einsteiger",
+    "Einfache Infrastruktur",
+    "Etwa 3 Std. Fahrt ab Fortaleza"
+   ],
+   "wind_dir": "E–ESE-Passat, schräg auflandig",
+   "airport": "FOR — Fortaleza, ~3 Std."
+  },
+  "noumea-anse-vata": {
+   "h": "322ef6ab86",
+   "description": "Der Stadtstrand der Hauptstadt Neukaledoniens, wo der Passat einen großen Teil des Jahres weht und von September bis Dezember fast täglich. Gekitet wird in der Bucht Anse Vata und hinaus zur Îlot Maître inmitten einer der größten Lagunen der Welt, die zum UNESCO-Welterbe gehört. Cafés und die ganze Infrastruktur von Nouméa liegen in der Nähe.",
+   "rating_basis": "Kitejungle und französische Guides nennen Anse Vata den wichtigsten Kitespot Neukaledoniens",
+   "waves_note": "In der Bucht Kabbelwasser, an der Îlot Maître flaches Lagunenwasser",
+   "hazards": "Korallenbänke, Boote und Badegäste in der Bucht",
+   "gustiness_note": "Der Passat über der Lagune ist gleichmäßig",
+   "crowd_note": "An windigen Wochenenden ist die Bucht voller einheimischer Kiter und Wingfoiler",
+   "region": "Südprovinz, Lagune Neukaledoniens",
+   "pros": [
+    "Zuverlässiger Passat im Frühling der Südhalbkugel",
+    "Riesige UNESCO-Lagune",
+    "Stadt mit französischer Küche in der Nähe"
+   ],
+   "cons": [
+    "Sehr weit und teuer",
+    "Französische Preise",
+    "Korallen bei Ebbe"
+   ],
+   "wind_dir": "SE–ESE-Passat, schräg auflandig",
+   "airport": "NOU — Nouméa La Tontouta, ~50 Min."
   }
  }
 }

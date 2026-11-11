@@ -254,6 +254,8 @@ export default {
 
   // basemaps
   'bm.aria': 'Estilo do mapa',
+  'bm.globe': 'Globo',
+  'bm.globe.hint': 'A Terra como uma esfera: veja onde ficam os spots no planeta e a que distância estão. Funciona com qualquer mapa',
   'bm.toggle': 'Mapa: {name}',
   'bm.failed': 'O mapa “{name}” não carregou — voltamos ao anterior.',
   'bm.sea': 'Náutico',

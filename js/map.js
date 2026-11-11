@@ -216,6 +216,49 @@ function bindEvents() {
 
 let currentBasemap = DEFAULT_BASEMAP;
 let bmToken = 0;
+
+// Globe view: any basemap can be drawn as a sphere. MapLibre's "globe" turns back into the flat map by itself
+// when zoomed in close (zoom 10–12). setStyle() resets the projection, so it is applied again after every style.
+const PROJ_KEY = 'projection';
+let globe = false;
+try { globe = localStorage.getItem(PROJ_KEY) === 'globe'; } catch { /* ignore */ }
+/** While the sphere is small, dark space shows around it: the month heading over it turns white (css .globe-space). */
+function markSpace() {
+  if (map) document.documentElement.classList.toggle('globe-space', globe && map.getZoom() < 3.2);
+}
+function applyProjection() {
+  if (!map) return;
+  document.documentElement.classList.toggle('is-globe', globe);
+  markSpace();
+  try {
+    map.setProjection({ type: globe ? 'globe' : 'mercator' });
+    // a soft blue halo around the sphere that fades out as you zoom in
+    if (globe) map.setSky({ 'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 0.8, 4, 0.8, 7, 0] });
+  } catch { /* the style is still loading: its style.load handler applies the projection */ }
+}
+export const isGlobe = () => globe;
+const FLAT_MIN_ZOOM = 1.2;
+/** Zoom at which the whole sphere fits the free part of the map (a phone needs a smaller one than a laptop). */
+function globeFitZoom(w, h) {
+  const d = Math.max(200, Math.min(w, h)) * 0.88;   // sphere diameter, px
+  return Math.max(0.4, Math.min(2.2, Math.log2((d * Math.PI) / 512)));
+}
+function freeSize() {
+  const c = map.getContainer(); const p = map.getPadding();
+  return [c.clientWidth - p.left - p.right, c.clientHeight - p.top - p.bottom];
+}
+export function setGlobe(on) {
+  globe = !!on;
+  try { localStorage.setItem(PROJ_KEY, globe ? 'globe' : 'flat'); } catch { /* ignore */ }
+  if (map) map.setMinZoom(globe ? 0.4 : FLAT_MIN_ZOOM);
+  applyProjection();
+  // turning the globe on close to the ground would look like nothing happened: pull back to see the sphere
+  if (globe && map) {
+    const fit = globeFitZoom(...freeSize());
+    if (map.getZoom() > fit + 0.6) map.easeTo({ zoom: fit, duration: 900 });
+  }
+  document.dispatchEvent(new CustomEvent('projection-changed', { detail: globe }));
+}
 let notify = () => {};
 export function onMapNotice(fn) { notify = fn; }
 
@@ -280,7 +323,7 @@ export function setBasemap(id, { revertTo = null, remember = true } = {}) {
     if (remember) { try { localStorage.setItem('basemap', cfg.id); } catch { /* ignore */ } }
     if (cfg.id !== FALLBACK_BASEMAP && remember) { try { localStorage.removeItem(FAIL_KEY); } catch { /* ignore */ } }
     watchTiles(cfg, token);
-    russify(); tint(cfg); addSpotLayers(cfg);
+    russify(); tint(cfg); addSpotLayers(cfg); applyProjection();
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
     document.dispatchEvent(new CustomEvent('basemap-changed', { detail: cfg.id }));
   });
@@ -296,16 +339,20 @@ export function initMap(appState, selectHandler) {
   const cfg = BASEMAPS.find((b) => b.id === saved) || BASEMAPS[0];
   currentBasemap = cfg.id;
   const token = ++bmToken;
+  const box = document.getElementById('map');
+  const pad0 = viewPadding();
+  const startZoom = globe ? Math.min(1.9, globeFitZoom(box.clientWidth - pad0.left - pad0.right, box.clientHeight - 200)) : 1.9;
   map = new maplibregl.Map({
     container: 'map',
     style: typeof cfg.style === 'function' ? cfg.style() : cfg.style,
-    center: [20, 28], zoom: 1.9, minZoom: 1.2, maxZoom: 16,
+    center: [20, 28], zoom: startZoom, minZoom: globe ? 0.4 : FLAT_MIN_ZOOM, maxZoom: 16,
     attributionControl: false,
     renderWorldCopies: true,
     dragRotate: false, pitchWithRotate: false,
     locale: t('maplibre'),
   });
   map.touchZoomRotate.disableRotation();
+  map.on('zoom', markSpace);
   map.setPadding(viewPadding());
   const attribution = new maplibregl.AttributionControl({ compact: true });
   map.addControl(attribution, 'bottom-left');
@@ -332,7 +379,7 @@ export function initMap(appState, selectHandler) {
   map.once('style.load', () => {
     loaded = true;
     if (token === bmToken) watchTiles(cfg, token);
-    russify(); tint(cfg); addSpotLayers(cfg);
+    russify(); tint(cfg); addSpotLayers(cfg); applyProjection();
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
   });
   // the style itself unreachable -> the default one, and if that is the one failing, the simple map from this site

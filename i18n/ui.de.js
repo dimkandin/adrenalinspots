@@ -254,6 +254,8 @@ export default {
 
   // basemaps
   'bm.aria': 'Kartenstil',
+  'bm.globe': 'Globus',
+  'bm.globe.hint': 'Die Erde als Kugel: sieh, wo die Spots auf dem Planeten liegen und wie weit sie entfernt sind. Funktioniert mit jeder Karte',
   'bm.toggle': 'Karte: {name}',
   'bm.failed': 'Die Karte „{name}“ wurde nicht geladen — zurückgeschaltet.',
   'bm.sea': 'Maritim',

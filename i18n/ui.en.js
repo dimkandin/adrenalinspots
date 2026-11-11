@@ -254,6 +254,8 @@ export default {
 
   // basemaps
   'bm.aria': 'Map style',
+  'bm.globe': 'Globe',
+  'bm.globe.hint': 'The Earth as a sphere: see where the spots are on the planet and how far away they are. Works with any map',
   'bm.toggle': 'Map: {name}',
   'bm.failed': 'The “{name}” map did not load — switched back.',
   'bm.sea': 'Marine',

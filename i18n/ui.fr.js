@@ -254,6 +254,8 @@ export default {
 
   // basemaps
   'bm.aria': 'Style de carte',
+  'bm.globe': 'Globe',
+  'bm.globe.hint': 'La Terre en sphère : voyez où se trouvent les spots sur la planète et à quelle distance. Fonctionne avec toutes les cartes',
   'bm.toggle': 'Carte : {name}',
   'bm.failed': 'La carte « {name} » ne s’est pas chargée — retour à la précédente.',
   'bm.sea': 'Marine',

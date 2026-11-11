@@ -3,7 +3,7 @@ import { aboutTeaser, openAbout } from './about.js';
 import { initAnalytics, track, trackView } from './analytics.js';
 import { BASEMAPS } from './basemaps.js';
 import { injectFlagCSS } from './flags.js';
-import { applyFilter, clearHover, getBasemap, initMap, onMapNotice, setBasemap, setData, setSelected, updatePadding } from './map.js';
+import { applyFilter, clearHover, getBasemap, initMap, isGlobe, onMapNotice, setBasemap, setData, setGlobe, setSelected, updatePadding } from './map.js';
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
 import { LANGS, PREFIX, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
 import { applyPassport, fold, hasPassport, loadVisaTable, passport, passportList, setPassport } from './visa.js';
@@ -986,11 +986,19 @@ function initControls() {
     toggle.innerHTML = '';
     toggle.append(h('span', { class: `bm-swatch bm-${c.id}`, 'aria-hidden': 'true' }), t('bm.toggle', { name: c.name }), h('span', { class: 'caret', 'aria-hidden': 'true' }, '▾'));
   };
+  // globe on/off: works with every basemap, so it is a switch above the list of maps
+  const globeBtn = h('button', { type: 'button', class: 'bm-globe', role: 'switch', 'aria-checked': isGlobe() ? 'true' : 'false',
+    onclick: () => { setGlobe(!isGlobe()); closeMenus({ focusButton: true }); } },
+  h('span', { class: 'bm-swatch bm-globe-ico', 'aria-hidden': 'true' }),
+  h('span', { class: 'bm-text' }, h('b', {}, t('bm.globe')), h('small', {}, t('bm.globe.hint'))),
+  h('span', { class: 'bm-switch', 'aria-hidden': 'true' }));
+  menu.append(globeBtn, h('div', { class: 'bm-sep', 'aria-hidden': 'true' }));
+  document.addEventListener('projection-changed', () => globeBtn.setAttribute('aria-checked', isGlobe() ? 'true' : 'false'));
   for (const b of BASEMAPS) {
     menu.append(h('button', { type: 'button', 'data-id': b.id, 'aria-pressed': b.id === getBasemap() ? 'true' : 'false',
       onclick: () => {
         setBasemap(b.id); paintToggle(); closeMenus({ focusButton: true });
-        menu.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x.dataset.id === b.id ? 'true' : 'false'));
+        menu.querySelectorAll('button[data-id]').forEach((x) => x.setAttribute('aria-pressed', x.dataset.id === b.id ? 'true' : 'false'));
       } },
     h('span', { class: `bm-swatch bm-${b.id}`, 'aria-hidden': 'true' }),
     h('span', { class: 'bm-text' }, h('b', {}, b.name), h('small', {}, b.hint))));
@@ -1009,7 +1017,7 @@ function initControls() {
   bm.append(toggle, menu);
   document.addEventListener('basemap-changed', () => {
     paintToggle();
-    menu.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x.dataset.id === getBasemap() ? 'true' : 'false'));
+    menu.querySelectorAll('button[data-id]').forEach((x) => x.setAttribute('aria-pressed', x.dataset.id === getBasemap() ? 'true' : 'false'));
   });
 
   // month strip as a proper radio group: arrows / Home / End move the selection and the focus
