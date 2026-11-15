@@ -437,6 +437,8 @@ export default {
   'card.air_in': 'Luft {in_month}',
   'card.rose_note': 'Woher der Tageswind ab {v} kommt. Solcher Wind weht in {p} % der Tagesstunden. ERA5, {period}.',
   'card.schools_unknown': 'Keine Daten zu Schulen',
+  'card.schools_none_month': 'Die uns bekannten Schulen arbeiten hier {in_month} nicht.',
+  'card.schools_away': { one: 'Noch {n} Schule ist in anderen Monaten hier', other: 'Noch {n} Schulen sind in anderen Monaten hier' },
   'card.schools_ru_yes': ', einige mit russischsprachigen Kitelehrern.',
   'card.schools_ru_no': ', keine russischsprachigen gefunden.',
   'card.school_ru': 'Russischsprachig',

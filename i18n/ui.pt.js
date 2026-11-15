@@ -437,6 +437,8 @@ export default {
   'card.air_in': 'Ar {in_month}',
   'card.rose_note': 'De onde vem o vento diurno a partir de {v}. Esse vento sopra em {p}% das horas do dia. ERA5, {period}.',
   'card.schools_unknown': 'Sem dados sobre escolas',
+  'card.schools_none_month': 'As escolas que conhecemos não funcionam aqui {in_month}.',
+  'card.schools_away': { one: 'Mais {n} escola funciona aqui em outros meses', other: 'Mais {n} escolas funcionam aqui em outros meses' },
   'card.schools_ru_yes': ', algumas com instrutores que falam russo.',
   'card.schools_ru_no': ', nenhuma com instrutores que falam russo.',
   'card.school_ru': 'Fala russo',

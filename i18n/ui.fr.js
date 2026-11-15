@@ -437,6 +437,8 @@ export default {
   'card.air_in': 'Air {in_month}',
   'card.rose_note': 'D’où vient le vent de jour à partir de {v}. Ce vent souffle {p} % des heures de jour. ERA5, {period}.',
   'card.schools_unknown': 'Pas de données sur les écoles',
+  'card.schools_none_month': 'Les écoles que nous connaissons ne travaillent pas ici {in_month}.',
+  'card.schools_away': { one: 'Une autre école est ici à d’autres mois de l’année', many: '{n} autres écoles sont ici à d’autres mois de l’année', other: '{n} autres écoles sont ici à d’autres mois de l’année' },
   'card.schools_ru_yes': ', dont certaines avec des moniteurs russophones.',
   'card.schools_ru_no': ', aucune école russophone trouvée.',
   'card.school_ru': 'Russophone',

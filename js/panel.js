@@ -947,6 +947,16 @@ function utm(url, spot) {
     return u.toString();
   } catch { return url; }
 }
+// A school is listed only in the months it is actually there: its own `months` (checked by hand), otherwise —
+// for sports where outdoor schools stop in the cold — not in an off-season month with a cold day (air under 10°)
+const COLD_PAUSE = new Set(['climbing']);
+function schoolHere(sc, spot, month) {
+  if (sc.months && sc.months.length) return sc.months.includes(month);
+  if (!COLD_PAUSE.has(spot.activity) || (spot.seasons || [])[month - 1] !== 'off') return true;
+  const cl = spot.climate || {};
+  const air = ((cl.era5 || [])[month - 1] || {}).air_c ?? ((cl.guide || [])[month - 1] || {}).air_c;
+  return !(air != null && air < 10);
+}
 function tripsBlock(spot, month, c) {
   if (!c || !c.trips) return null;
   const host = h('div', { class: 'trips', hidden: true });
@@ -1115,17 +1125,21 @@ export function renderPanel(spot, context) {
 
   body.append(section(t('sec.video'), oldVideos || renderVideos(spot)));  // keep a playing video alive
 
+  const here = spot.school_list.filter((sc) => schoolHere(sc, spot, month));
+  const away = spot.school_list.length - here.length;
   const schools = h('div', {},
     isJump ? h('p', {}, spot.schools ? t(`jump_ops.${spot.schools}`) : t('card.jump_ops_unknown'),
       !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.jump_ru_yes') : spot.ru_schools === 'no' ? t('card.jump_ru_no') : '.')
+      : spot.school_list.length && !here.length ? h('p', {}, t('card.schools_none_month', { in_month: MONTHS_IN[month - 1] }))
       : h('p', {}, SCHOOLS[spot.schools] || t('card.schools_unknown'),
         !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.schools_ru_yes') : spot.ru_schools === 'no' ? t('card.schools_ru_no') : '.'));
-  if (spot.school_list.length) {
+  if (here.length) {
     // schools that confirmed their listing first, then Russian-speaking ones (the list itself stays in seed order:
     // translated notes are matched to it by position)
-    const list = [...spot.school_list].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
+    const list = [...here].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
     schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc))));
   }
+  if (away) schools.append(h('p', { class: 'muted sc-away' }, tn('card.schools_away', away)));
   const trips = tripsBlock(spot, month, ctx);
   if (trips) schools.append(trips);
   schools.append(h('p', { class: 'sc-fix' },
