@@ -948,16 +948,24 @@ function utm(url, spot) {
   } catch { return url; }
 }
 // A school is listed only in the months it is actually there: its own `months` (checked by hand; all 12 = all year),
-// otherwise by the sport's rule for off-season months: climbing schools pause only when it is also cold (air under 10°),
-// kite and windsurf stations — for the whole off season (no wind, cold water: most close or leave)
-const OFF_SEASON_RULE = { climbing: 'cold', kite: 'off', windsurf: 'off' };
+// otherwise by the sport's rule for off-season months:
+//   off   — gone for the whole off season (kite / windsurf stations, charter bases, ski schools when the lifts stop);
+//   cold  — only when it is also cold (air under 10°): climbing, paragliding, via ferrata, bungee work in warm off months;
+//   water — only when the water is cold (under 17°; air under 15° if the water is unknown): surf and dive centres
+const OFF_SEASON_RULE = { kite: 'off', windsurf: 'off', sailing: 'off', snowboard: 'off', climbing: 'cold', paragliding: 'cold',
+  viaferrata: 'cold', bungee: 'cold', surf: 'water', diving: 'water' };
 function schoolHere(sc, spot, month) {
   if (sc.months && sc.months.length) return sc.months.includes(month);
   const rule = OFF_SEASON_RULE[spot.activity];
   if (!rule || (spot.seasons || [])[month - 1] !== 'off') return true;
   if (rule === 'off') return false;
   const cl = spot.climate || {};
-  const air = ((cl.era5 || [])[month - 1] || {}).air_c ?? ((cl.guide || [])[month - 1] || {}).air_c;
+  const at = (k) => ((cl.era5 || [])[month - 1] || {})[k] ?? ((cl.guide || [])[month - 1] || {})[k];
+  const air = at('air_c');
+  if (rule === 'water') {
+    const water = at('water_c');
+    return water != null ? water >= 17 : !(air != null && air < 15);
+  }
   return !(air != null && air < 10);
 }
 function tripsBlock(spot, month, c) {
