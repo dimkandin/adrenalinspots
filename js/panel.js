@@ -997,7 +997,8 @@ function tripsBlock(spot, month, c) {
           note ? h('p', { class: 'trip-note' }, note) : null,
           h('p', { class: 'trip-org' }, `${t('card.trip_org')}: `,
             org.url ? h('a', { href: utm(org.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_org', { org: tr.org }) }, org.name || tr.org) : (org.name || tr.org),
-            (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : ''));
+            (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : '',
+            /^https:\/\/t\.me\/\w+$/.test(org.telegram || '') ? [' · ', h('a', { href: org.telegram, target: '_blank', rel: 'noopener', onclick: () => track('trip_tg', { org: tr.org }) }, 'Telegram')] : null));
       })));
     host.hidden = false;
   }).catch(() => {});
