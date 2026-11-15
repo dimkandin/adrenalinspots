@@ -976,14 +976,16 @@ function tripsBlock(spot, month, c) {
     const list = (data.trips || []).filter((tr) => (tr.spot === spot.id || (tr.spots || []).includes(spot.id)) && (!tr.activity || tr.activity === spot.activity));
     if (!list.length) return;
     const now = (tr) => tripMonths(tr).has(month);
+    // organizers we are in touch with (`partner: true` in trips.json) go first and are highlighted; the rest stay plain
+    const partner = (tr) => !!(orgs[tr.org] || {}).partner;
     const start = (tr) => tr.from || tr.month || '9999';
-    list.sort((a, b) => (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
+    list.sort((a, b) => partner(b) - partner(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
     host.append(h('h4', { class: 'sub' }, t('card.trips')),
       h('ul', { class: 'trip-list' }, ...list.map((tr) => {
         const org = orgs[tr.org] || {};
         const title = tr[`title_${lang}`] || tr[`title_${tripLang()}`] || tr.title_ru || '';
         const note = tr[`note_${lang}`] || tr[`note_${tripLang()}`] || '';
-        return h('li', { class: `trip ${now(tr) ? 'is-now' : ''}` },
+        return h('li', { class: `trip${partner(tr) ? ' is-partner' : ''}${now(tr) ? ' is-now' : ''}` },
           h('div', { class: 'trip-head' },
             tr.url ? h('a', { class: 'trip-title', href: utm(tr.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_open', { trip: tr.id, org: tr.org }) }, title) : h('span', { class: 'trip-title' }, title),
             now(tr) ? h('span', { class: 'trip-now' }, t('card.trip_now', { in_month: MONTHS_IN[month - 1] })) : null),

@@ -771,11 +771,12 @@ a:hover { color: var(--sea-2); }
 .trips[hidden] { display: none; }
 .trip-list { list-style: none; margin: 6px 0 0; padding: 0; }
 .trip { padding: 9px 10px; margin-top: 6px; border: 1px solid var(--line); border-radius: var(--r-m); }
-.trip.is-now { border-color: #9fd2b4; background: var(--good-bg); }
+.trip.is-partner { border-color: #9fd2b4; background: var(--good-bg); }   /* organizers we are in touch with */
 .trip-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
 .trip-title { font-weight: 600; font-size: 14px; color: var(--sea-2); }
 a.trip-title:hover { text-decoration: underline; }
-.trip-now { font-size: 11.5px; font-weight: 600; color: var(--good); }
+.trip-now { font-size: 11.5px; font-weight: 600; color: var(--ink-2); }
+.trip.is-partner .trip-now { color: var(--good); }
 .trip-meta { display: flex; flex-wrap: wrap; gap: 3px 10px; margin-top: 3px; font-size: 12.5px; color: var(--ink-2); }
 .trip-price { font-weight: 600; color: var(--ink); }
 .trip-note { margin: 5px 0 0; font-size: 13px; }
