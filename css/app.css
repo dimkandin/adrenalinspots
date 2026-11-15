@@ -54,7 +54,7 @@ a:hover { color: var(--sea-2); }
 .app { position: relative; height: 100vh; height: 100dvh; overflow: hidden; overflow: clip; --li: calc(var(--side) + 16px); --ri: 0px; }
 .app.side-collapsed { --li: 0px; }
 .app.has-panel { --ri: calc(var(--panel) + 16px); }
-#map { position: absolute; inset: 0; background: #dfe9ec; }
+#map { position: absolute; inset: 0; background: #dfe9ec; z-index: 0; isolation: isolate; }   /* map markers (clusters) stay under the floating heading and panels */
 
 /* floating surfaces share one look with the month strip */
 .side, .timeline, .panel, .bm-toggle, .side-open { background: rgba(255, 255, 255, 0.96); box-shadow: var(--shadow); border-radius: 16px; }
@@ -243,6 +243,7 @@ a:hover { color: var(--sea-2); }
 /* map tooltip */
 .spot-tip .maplibregl-popup-content { padding: 10px 12px; border-radius: var(--r-m); box-shadow: var(--shadow); font: 13px/1.4 var(--text); color: var(--ink); }
 .spot-tip .maplibregl-popup-tip { display: none; }
+.spot-tip { pointer-events: none; }   /* a hover tip must never catch the click meant for the pin or cluster under it */
 .tip-name { font: 600 14.5px/1.25 var(--text); }
 .tip-place { color: var(--ink-2); margin-bottom: 6px; }
 .tip-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
@@ -493,7 +494,8 @@ a:hover { color: var(--sea-2); }
   .brand { position: sticky; top: 0; z-index: 2; background: #fff; padding: 14px 6px 4px 16px; }
   .brand::before { content: ''; position: absolute; top: 6px; left: 50%; width: 36px; height: 4px; margin-left: -18px; border-radius: 2px; background: var(--line); }
   .side-toggle { width: 42px; height: 42px; font-size: 22px; transform: rotate(-90deg); }
-  .seasons { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 12px 6px; }   /* wraps: a sideways strip hid «Не сезон» past the edge */
+  .seasons { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 12px 6px; }
+  .sport-chips { padding: 0 12px 6px; gap: 6px; }   /* wraps: a sideways strip hid «Не сезон» past the edge */
   .seasons::-webkit-scrollbar { display: none; }
   .sc { flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13.5px; }
   .filters { display: none; padding: 2px 12px 10px; gap: 6px; }
@@ -731,3 +733,50 @@ a:hover { color: var(--sea-2); }
 .nb-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
 .nb-meta { flex: none; font-size: 12.5px; color: var(--ink-2); }
 .jump-h { font-weight: 700; font-size: 1.06em; }
+
+/* ---------- «All sports» mode -------------------------------------------------------------------------------------
+   Every sport keeps one colour (web/js/sports.js): the pins, the rings of the clusters, the badges in the list and the
+   chips that hide or show a sport (they are the map legend too). */
+.sport-badge { --sc: var(--sea); display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: var(--sc); color: #fff; flex: none; box-shadow: 0 0 0 1.5px #fff, 0 1px 2px rgba(18, 48, 63, 0.25); }
+.sport-badge svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.sport-badge-sm { width: 18px; height: 18px; }
+.sport-badge-sm svg { width: 11px; height: 11px; }
+.sport-chips { display: flex; flex-wrap: wrap; gap: 5px; padding: 0 12px 8px 14px; }
+.sport-chips[hidden] { display: none; }
+.sport-chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 7px 3px 3px; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); font: 500 12px/1 var(--text); color: var(--ink); cursor: pointer; font-variant-numeric: tabular-nums; }
+.sport-chip:hover { border-color: #a9cad7; }
+.sport-chip:not(.is-on) { color: var(--ink-3); background: var(--mist); }
+.sport-chip:not(.is-on) .sport-badge { background: #b9c6cc; box-shadow: none; }
+.sport-chip-all { padding: 4px 10px; color: var(--sea-2); font-weight: 600; background: var(--sea-wash); border-color: #a9cad7; }
+.row-sport { display: grid; place-items: center; width: 20px; }
+.row-sport-shoulder .sport-badge, .row-sport-snow .sport-badge { opacity: 0.72; }
+.row-sport-off .sport-badge { opacity: 0.42; }
+.app[data-activity='all'] .row { grid-template-columns: 20px 1fr auto; }
+.row-kind { color: var(--ink-3); }
+.mix-cluster { display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; filter: drop-shadow(0 2px 4px rgba(18, 48, 63, 0.28)); }
+.mix-cluster svg { position: absolute; inset: 0; }
+.mix-cluster span { position: relative; font: 700 13px/1 var(--text); color: var(--ink); font-variant-numeric: tabular-nums; }
+.mix-cluster:hover { filter: drop-shadow(0 3px 6px rgba(18, 48, 63, 0.4)); }
+.mix-cluster:focus-visible { outline: 3px solid var(--sea); outline-offset: 2px; }
+.tip-sport { display: grid; grid-template-columns: 10px 1fr auto; gap: 7px; align-items: center; font-size: 12.5px; margin-top: 3px; }
+.tip-sport i { width: 10px; height: 10px; border-radius: 50%; }
+.tip-sport b { font-variant-numeric: tabular-nums; }
+.tip-kind { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 500; }
+.tip-kind::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--sc); }
+.picker-tile-all .picker-icon { background: linear-gradient(135deg, #1f77b4, #1f9d6a 50%, #d99a12); color: #fff; }
+.nb-other .nb-meta { display: inline-flex; align-items: center; gap: 6px; }
+
+/* ---------- organizers' trips (in the «Schools» section of a spot) ---------------------------------------------- */
+.trips { margin-top: 12px; }
+.trips[hidden] { display: none; }
+.trip-list { list-style: none; margin: 6px 0 0; padding: 0; }
+.trip { padding: 9px 10px; margin-top: 6px; border: 1px solid var(--line); border-radius: var(--r-m); }
+.trip.is-now { border-color: #9fd2b4; background: var(--good-bg); }
+.trip-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
+.trip-title { font-weight: 600; font-size: 14px; color: var(--sea-2); }
+a.trip-title:hover { text-decoration: underline; }
+.trip-now { font-size: 11.5px; font-weight: 600; color: var(--good); }
+.trip-meta { display: flex; flex-wrap: wrap; gap: 3px 10px; margin-top: 3px; font-size: 12.5px; color: var(--ink-2); }
+.trip-price { font-weight: 600; color: var(--ink); }
+.trip-note { margin: 5px 0 0; font-size: 13px; }
+.trip-org { margin: 5px 0 0; font-size: 12.5px; color: var(--ink-2); }

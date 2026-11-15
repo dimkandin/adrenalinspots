@@ -4,8 +4,9 @@ import { initAnalytics, track, trackView } from './analytics.js';
 import { BASEMAPS } from './basemaps.js';
 import { injectFlagCSS } from './flags.js';
 import { applyFilter, clearHover, getBasemap, initMap, isGlobe, onMapNotice, setBasemap, setData, setGlobe, setSelected, updatePadding } from './map.js';
+import { PICK_ICONS, SPORTS, SPORT_COLOR } from './sports.js';
 import { closePanel, currentSpot, renderPanel, showPanelError } from './panel.js';
-import { LANGS, PREFIX, applyStatic, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
+import { LANGS, PREFIX, applyStatic, countryName, isRu, lang, loadSpotTexts, localizeSpot, logicalPath, num, setLang, t, tn } from './i18n.js';
 import { applyPassport, fold, hasPassport, loadVisaTable, passport, passportList, setPassport } from './visa.js';
 import {
   MONTHS, MONTHS_IN, MONTHS_SHORT, PHONE_QUERY, SEASON, VISA, cm, deg, esc, flagEmoji, getUnit, h, metres, rating, setUnit, spots as spotsText, windText,
@@ -33,7 +34,12 @@ const ACT = {
     value: (s) => (s.difficulty ? VF_GRADE[s.difficulty - 1] : ''), valueTitle: () => t('row.vf_title') },
   paragliding: { qf: ['novisa', 'ru', 'tandem', 'courses', 'beginner', 'xc'], dd: ['minRating', 'pop', 'flytype', 'maxTandem', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.fly && s.fly[m - 1] != null ? `${s.fly[m - 1]}%` : ''), valueTitle: () => t('row.fly_title') },
+  // every sport at once: the map clusters the places, the list carries each place's sport; only the shared filters
+  all: { qf: ['novisa', 'ru'], dd: ['minRating', 'pop', 'minAir', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
+    value: (s, m) => (s.air && s.air[m - 1] != null ? deg(s.air[m - 1]) : ''), valueTitle: () => t('row.air_title') },
 };
+const isAll = () => state.activity === 'all';
+const savedPicked = (() => { try { return JSON.parse(localStorage.getItem('mixSports') || 'null'); } catch { return null; } })();
 const DEFAULT_FILTERS = {
   novisa: false, ru: false, flat: false, wave: false, beginner: false, brk: null, dir: null, park: false, freeride: false, glacier: false,
   minRating: null, minAir: null, minWater: null, vibe: null, pop: null, maxPass: null, minVert: null, minKm: null,
@@ -59,6 +65,8 @@ const state = {
   sideAuto: false,
   query: '',
   selected: null,
+  spotAct: null,        // «All sports»: the section of the open spot (a place can be in several)
+  picked: new Set(Array.isArray(savedPicked) && savedPicked.length ? savedPicked.filter((a) => SPORTS.includes(a)) : SPORTS),
   spots: [],
   seasonsOn() { return Object.keys(this.seasons).filter((k) => this.seasons[k]); },
 };
@@ -92,19 +100,48 @@ async function getJSON(apiUrl, staticUrl) {
   return r2.json();
 }
 const loadMeta = () => getJSON('/api/meta', '/data/meta.json');
-const loadSpots = () => getJSON(`/api/spots?activity=${state.activity}`, `/data/spots-${state.activity}.json`);
-const loadSpot = async (id) => {
-  const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${state.activity}`, `/data/spot/${encodeURIComponent(id)}.json`);
+// snowkite season counts as prime here: across all sports a separate «snowkite» filter is noise (Dim, 15.11)
+const SEASON_CODE = { p: 'peak', s: 'shoulder', o: 'off', n: 'peak' };
+// «All sports» list (data/spots-all.json): a few fields per spot and section, the season of each month as one letter
+let allIndex = null;
+function loadAllIndex() {
+  if (!allIndex) {
+    let en = null;
+    try { en = new Intl.DisplayNames(['en'], { type: 'region' }); } catch { /* old browser: Russian or local names only */ }
+    allIndex = getJSON('/api/spots-all', '/data/spots-all.json').then((data) => ({
+      // short keys in the file (see backend/api.py all_index) -> the field names the list, filters and map use
+      spots: data.spots.map((x) => ({
+        id: x.id, a: x.a, key: `${x.a}:${x.id}`, name: x.n, name_ru: x.nr || x.n, cc: x.cc,
+        country: countryName(x.cc, x.cc), country_en: en && x.cc ? en.of(x.cc) : null, region: x.rg || '',
+        lat: x.la, lng: x.lo, rating: x.r, popularity: x.p, air: x.t || null,
+        seasons: [...(x.s || 'oooooooooooo')].map((c) => SEASON_CODE[c] || 'off'),
+        ru_schools: x.ru ? 'yes' : 'unknown', visa: x.v ? { status: x.v } : null, vibe: x.vb ? { score: x.vb } : null,
+      })),
+    }));
+    allIndex.catch(() => { allIndex = null; });
+  }
+  return allIndex;
+}
+const loadSpots = () => (isAll() ? loadAllIndex().then((d) => ({ spots: d.spots.map((x) => ({ ...x, seasons: [...x.seasons] })) }))
+  : getJSON(`/api/spots?activity=${state.activity}`, `/data/spots-${state.activity}.json`));
+const loadSpot = async (id, act = state.activity) => {
+  const spot = await getJSON(`/api/spots/${encodeURIComponent(id)}?activity=${act}`, `/data/spot/${encodeURIComponent(id)}.json`);
   // a spot can belong to several sections: show the seasons of the one being browsed
-  if (spot.seasons_by && spot.seasons_by[state.activity]) { spot.seasons = spot.seasons_by[state.activity]; spot.activity = state.activity; }
+  if (spot.seasons_by && spot.seasons_by[act]) { spot.seasons = spot.seasons_by[act]; spot.activity = act; }
   await visaReady;
   return applyPassport(localizeSpot(spot));
 };
-const visaReady = loadVisaTable();   // rules for non-Russian passports and the list of passports
+const visaReady = loadVisaTable();
+let tripsData = null;   // organizers' trips: one small file, loaded with the first card
+const loadTrips = () => {
+  if (!tripsData) { tripsData = getJSON('/api/trips', '/data/trips.json'); tripsData.catch(() => { tripsData = null; }); }
+  return tripsData;
+};   // rules for non-Russian passports and the list of passports
 
 // ---------- filtering -----------------------------------------------------------
 function passesFilters(s, m = state.month) {
   const f = state.filters;
+  if (s.a && isAll() && !state.picked.has(s.a)) return false;
   if (f.novisa && state.spots.some((x) => x.visa) && !(s.visa && ['home', 'no_visa', 'visa_on_arrival', 'evisa', 'eta'].includes(s.visa.status))) return false;
   if (f.ru && s.ru_schools !== 'yes') return false;
   if (f.flat && !(s.water || []).includes('flat')) return false;
@@ -179,9 +216,22 @@ const seasonOf = (s, m = state.month) => s.seasons[m - 1] || 'off';
 const inSeason = (s, m = state.month) => seasonOf(s, m) !== 'off';
 const seasonsChanged = () => ACT[state.activity].seasons.some((k) => state.seasons[k] !== (k !== 'off'));
 const filtersOn = () => Object.keys(DEFAULT_FILTERS).filter((k) => state.filters[k] !== DEFAULT_FILTERS[k]);
-const anyFilter = () => seasonsChanged() || filtersOn().length > 0 || !!state.query;
+const pickedChanged = () => isAll() && SPORTS.some((x) => !state.picked.has(x) && state.activities.some((y) => y.id === x && y.enabled));
+const anyFilter = () => seasonsChanged() || filtersOn().length > 0 || !!state.query || pickedChanged();
 
+const isOpen = (s) => s.id === state.selected && (!isAll() || s.a === state.spotAct);
 function features() {
+  if (isAll()) {
+    // the clusters count what is in the data, so the seasons switched off are left out here (not by a layer filter)
+    return state.spots.filter((s) => isOpen(s) || (passesFilters(s) && (state.seasons[seasonOf(s)] || state.query))).map((s) => ({
+      type: 'Feature', id: s.key,
+      geometry: { type: 'Point', coordinates: [s.lng, s.lat] },
+      properties: {
+        key: s.key, id: s.id, a: s.a, name_ru: s.name_ru, cc: s.cc, country: s.country, rating: s.rating, season: seasonOf(s),
+        air: s.air ? s.air[state.month - 1] : null, visa_status: s.visa ? s.visa.status : null, vibe: s.vibe ? s.vibe.score : null,
+      },
+    }));
+  }
   return state.spots.filter((s) => passesFilters(s) || s.id === state.selected).map((s) => ({
     type: 'Feature',
     id: s.id,
@@ -276,18 +326,23 @@ function renderSeasons() {
   }
 }
 
+/** A sport's round badge: its colour and line icon (the «All sports» list, chips and map pins look the same). */
+const sportBadge = (a, cls = 'sport-badge') => h('span', { class: cls, style: `--sc:${SPORT_COLOR[a] || '#145d78'}`, 'aria-hidden': 'true', html: `<svg viewBox="0 0 32 32">${PICK_ICONS[a] || ''}</svg>` });
 function listRow(s) {
   const k = seasonOf(s);
   const visa = s.visa ? VISA[s.visa.status] : null;
   const value = ACT[state.activity].value(s, state.month);
+  const all = isAll() && s.a;
+  const key = all ? s.key : s.id;
   return h('li', {}, h('button', {
-    type: 'button', class: `row row-${k} ${state.selected === s.id ? 'is-selected' : ''}`, 'data-fk': `row-${s.id}`,
-    'aria-current': state.selected === s.id ? 'true' : null, onclick: (e) => select(s.id, { focusCard: true, from: e.currentTarget.dataset.fk }),
-    onmouseenter: () => document.dispatchEvent(new CustomEvent('hover-spot', { detail: s.id })),
+    type: 'button', class: `row row-${k} ${isOpen(s) ? 'is-selected' : ''}`, 'data-fk': `row-${all ? `${s.a}-` : ''}${s.id}`,
+    'aria-current': isOpen(s) ? 'true' : null, onclick: (e) => select(s.id, { focusCard: true, from: e.currentTarget.dataset.fk, act: s.a }),
+    onmouseenter: () => document.dispatchEvent(new CustomEvent('hover-spot', { detail: key })),
     onmouseleave: () => document.dispatchEvent(new CustomEvent('hover-spot', { detail: null })),
   },
-  h('span', { class: `flag-ico flag-${k}`, 'aria-hidden': 'true' }),
-  h('span', { class: 'row-main', title: `${s.name_ru}, ${s.country || ''}` }, h('span', { class: 'row-name' }, s.name_ru), h('span', { class: 'row-place' }, `${flagEmoji(s.cc)} ${s.country || ''}`)),
+  all ? h('span', { class: `row-sport row-sport-${k}` }, sportBadge(s.a)) : h('span', { class: `flag-ico flag-${k}`, 'aria-hidden': 'true' }),
+  h('span', { class: 'row-main', title: `${s.name_ru}, ${s.country || ''}${all ? ` · ${sportName(s.a)}` : ''}` }, h('span', { class: 'row-name' }, s.name_ru),
+    h('span', { class: 'row-place' }, `${flagEmoji(s.cc)} ${s.country || ''}`, all ? h('span', { class: 'row-kind' }, ` · ${t(`dd.activity.${s.a}_short`)}`) : null)),
   h('span', { class: 'row-side' },
     h('span', { class: 'row-rating' }, `★ ${rating(s.rating)}`),
     h('span', { class: 'row-wind', title: ACT[state.activity].valueTitle ? ACT[state.activity].valueTitle() : null }, value),
@@ -318,14 +373,53 @@ function renderList() {
   list.append(aboutTeaser());
 }
 
+// «All sports»: one chip per sport — its colour and icon (the legend of the map) and how many of its places are in season;
+// a tap hides or shows that sport, «Все» brings every sport back
+function renderSportChips() {
+  let host = document.querySelector('.sport-chips');
+  if (!host) {   // a page cached from before this mode existed
+    host = h('div', { class: 'sport-chips', role: 'group', 'aria-label': t('mix.chips_aria'), hidden: true });
+    document.querySelector('.sport-row')?.after(host);
+  }
+  host.hidden = !isAll();
+  if (!isAll()) { host.innerHTML = ''; return; }
+  const enabled = new Set(state.activities.filter((a) => a.enabled && ACT[a.id]).map((a) => a.id));
+  const counts = {};
+  state.spots.forEach((s) => {
+    if (!state.seasons[seasonOf(s)] || !inSeason(s)) return;
+    const was = state.picked.has(s.a);
+    if (!was) state.picked.add(s.a);   // count the hidden sports too, so their chips say what they would bring back
+    if (passesFilters(s)) counts[s.a] = (counts[s.a] || 0) + 1;
+    if (!was) state.picked.delete(s.a);
+  });
+  host.innerHTML = '';
+  for (const a of SPORTS.filter((x) => enabled.has(x))) {
+    const on = state.picked.has(a);
+    host.append(h('button', {
+      type: 'button', class: `sport-chip ${on ? 'is-on' : ''}`, 'aria-pressed': String(on), 'data-fk': `chip-${a}`,
+      title: `${sportName(a)}: ${tn('n.spots', counts[a] || 0)}`, 'aria-label': `${sportName(a)}, ${tn('n.spots', counts[a] || 0)}`,
+      onclick: () => { if (on) state.picked.delete(a); else state.picked.add(a); savePicked(); refresh(); },
+    }, sportBadge(a), h('span', { class: 'sport-chip-n' }, String(counts[a] || 0))));
+  }
+  const allOn = SPORTS.filter((x) => enabled.has(x)).every((x) => state.picked.has(x));
+  if (!allOn) {
+    host.append(h('button', { type: 'button', class: 'sport-chip sport-chip-all', 'data-fk': 'chip-all',
+      onclick: () => { SPORTS.forEach((x) => state.picked.add(x)); savePicked(); refresh(); } }, t('mix.all_on')));
+  }
+}
+function savePicked() {
+  try { localStorage.setItem('mixSports', JSON.stringify([...state.picked])); } catch { /* ignore */ }
+}
+
 let opener = null;          // data-fk of the control that opened the card (focus returns there)
 let lastAnnounced = null;
 function refresh({ fit = false } = {}) {
   const active = document.activeElement;
   const fk = active && active.dataset ? active.dataset.fk : null;
   const f = features();
-  setData(f);
+  setData(f, isAll());
   applyFilter();
+  renderSportChips();
   renderMonthHeading();
   renderStrip();
   renderSeasons();
@@ -379,12 +473,27 @@ function setMonth(m, { focusStrip = false } = {}) {
     else if (inCard && cur) document.querySelector('#panel-title')?.focus({ preventScroll: true });
   });
 }
-const panelCtx = () => ({ month: state.month, setMonth, activity: state.activity, spots: state.spots, open: (id) => select(id, { focusCard: true }) });
+const panelCtx = () => {
+  const act = isAll() ? state.spotAct : state.activity;
+  return {
+    month: state.month, setMonth, activity: act,
+    spots: isAll() ? state.spots.filter((s) => s.a === act) : state.spots,
+    open: (id) => select(id, { focusCard: true, act }),
+    // «Other sports nearby»: the every-sport list, and how to open one of its places
+    others: loadAllIndex,
+    trips: loadTrips,
+    openOther: (id, a) => {
+      track('open_other_sport', { from: state.selected, to: id, activity: a });
+      if (isAll()) { select(id, { focusCard: true, act: a }); return; }
+      switchActivity(a).then(() => select(id, { focusCard: true }));
+    },
+  };
+};
 
-async function select(id, { focusCard = false, from = null } = {}) {
+async function select(id, { focusCard = false, from = null, act = null } = {}) {
   if (!id) {
     const wasOpen = !!state.selected;
-    state.selected = null; closePanel(); setSelected(null); renderList(); writeHash();
+    state.selected = null; state.spotAct = null; closePanel(); setSelected(null); renderList(); writeHash();
     updatePadding(true);
     if (state.sideAuto) { setSide(true); state.sideAuto = false; }
     markCramped();
@@ -397,6 +506,8 @@ async function select(id, { focusCard = false, from = null } = {}) {
   if (!state.selected && isSideOpen() && window.innerWidth < 1700) { setSide(false); state.sideAuto = true; }
   opener = from;
   state.selected = id;
+  if (isAll()) state.spotAct = act || (state.spots.find((s) => s.id === id) || {}).a || state.spotAct || 'kite';
+  const spotAct = isAll() ? state.spotAct : state.activity;
   renderList();
   writeHash();
   const panel = document.querySelector('.panel');
@@ -405,13 +516,13 @@ async function select(id, { focusCard = false, from = null } = {}) {
   document.querySelector('.app').classList.add('has-panel');
   markCramped();
   try {
-    const spot = await loadSpot(id);
-    if (state.selected !== id) return;
+    const spot = await loadSpot(id, spotAct);
+    if (state.selected !== id || (isAll() && state.spotAct !== spotAct)) return;
     renderPanel(spot, panelCtx());
-    setSelected(id, true);
+    setSelected(isAll() ? `${spotAct}:${id}` : id, true);
     updateTitle(spot);
-    trackView(`${spot.name} — ${state.activity}`);
-    track('open_spot', { spot: id, activity: state.activity });
+    trackView(`${spot.name} — ${spotAct}`);
+    track('open_spot', { spot: id, activity: spotAct, mode: isAll() ? 'all' : 'one' });
     if (focusCard) document.querySelector('#panel-title')?.focus({ preventScroll: true });
   } catch (e) {
     if (state.selected === id) { setSelected(null); showPanelError(t('err.spot', { msg: e.message })); }
@@ -433,12 +544,18 @@ function writeHash() {
   if (state.selected) {
     path = `/spot/${encodeURIComponent(state.selected)}`;
     p.set('m', String(state.month));
-    if (state.activity !== 'kite') p.set('a', state.activity);
+    const a = isAll() ? state.spotAct : state.activity;
+    if (a && a !== 'kite') p.set('a', a);
+    if (isAll()) p.set('all', '1');
+  }
+  if (isAll()) {   // a chosen subset of sports travels with the link
+    const enabled = SPORTS.filter((x) => state.activities.some((y) => y.id === x && y.enabled));
+    if (enabled.some((x) => !state.picked.has(x))) p.set('s', [...state.picked].join(','));
   }
   const search = new URLSearchParams(location.search);
   search.delete('lang');                       // the language is in the path now
   const q = search.toString();
-  const hash = p.toString();
+  const hash = p.toString().replace(/%2C/g, ',');   // «s=kite,surf» reads better in a shared link
   const next = `${PREFIX}${path}${q ? `?${q}` : ''}${hash ? `#${hash}` : ''}`;
   if (`${location.pathname}${location.search}${location.hash}` !== next) history.replaceState(null, '', next);
   updateTitle();
@@ -454,13 +571,19 @@ function readHash() {
   const sectionPath = path.match(/^\/([a-z]+)$/) || (monthPath && ACT[monthPath[1]] ? monthPath : null);
   const a = p.get('a') || (sectionPath && ACT[sectionPath[1]] ? sectionPath[1] : null) || pageActivity;
   if (a && ACT[a]) { state.activity = a; state.activityFromUrl = true; }
+  if (p.get('all') === '1') { state.spotAct = a && a !== 'all' ? a : 'kite'; state.activity = 'all'; state.activityFromUrl = true; }
+  if (p.has('s')) {
+    const picked = p.get('s').split(',').filter((x) => SPORTS.includes(x));
+    if (picked.length) state.picked = new Set(picked);
+  }
   else if (p.has('m') && !spotPath) { state.activity = 'kite'; state.activityFromUrl = true; }   // an old shared link without a= is a kite link
   return spotPath ? decodeURIComponent(spotPath[1]) : p.get('spot');   // #spot= in links shared before November 2026
 }
 const sportName = (a = state.activity) => t(`sport.${a}`);
 function updateTitle(spot = currentSpot()) {
   if (spot && state.selected === spot.id) {
-    const key = `meta.spot_title.${state.activity}`, vars = { name: spot.name_ru, sport: sportName() };
+    const a = isAll() ? state.spotAct : state.activity;
+    const key = `meta.spot_title.${a}`, vars = { name: spot.name_ru, sport: sportName(a) };
     const title = t(key, vars);   // a search-friendly title per sport; the plain one if a language lacks it
     document.title = title === key ? t('meta.spot_title', vars) : title;
   } else document.title = t('meta.month_title', { sport: sportName(), in_month: MONTHS_IN[state.month - 1] });
@@ -494,7 +617,7 @@ function setSide(open, { moveFocus = false, persist = false } = {}) {
 const DROPDOWNS = [
   {
     key: 'activity', label: () => t(`sport.${state.activity}`), title: t('dd.activity.title'),
-    options: ['kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing', 'bungee', 'viaferrata'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
+    options: ['all', 'kite', 'surf', 'windsurf', 'snowboard', 'climbing', 'paragliding', 'diving', 'sailing', 'bungee', 'viaferrata'].map((v) => ({ value: v, text: t(`dd.activity.${v}`) })),
     get: () => state.activity, set: (v) => switchActivity(v), active: () => false,
   },
   {
@@ -638,6 +761,7 @@ function applyActivityUI() {
     o.textContent = t(own) !== own ? t(own) : t(`dd.water.${o.dataset.v}`);
   });
   const enabled = new Set(state.activities.filter((a) => a.enabled && ACT[a.id]).map((a) => a.id));
+  if (enabled.size > 1) enabled.add('all');
   document.querySelectorAll('.dd[data-key="activity"] .dd-opt').forEach((o) => {
     const on = enabled.has(o.dataset.v);
     o.disabled = !on;
@@ -938,6 +1062,7 @@ function initControls() {
   document.querySelector('.sport-pill')?.addEventListener('click', () => showSportPicker({ change: true }));
   document.querySelector('.reset').addEventListener('click', () => {
     Object.assign(state.filters, DEFAULT_FILTERS);
+    if (isAll()) { SPORTS.forEach((x) => state.picked.add(x)); savePicked(); }
     Object.assign(state.seasons, { peak: true, shoulder: true, snow: true, off: false });
     state.query = ''; document.querySelector('#search').value = '';
     document.querySelectorAll('.qf').forEach((b) => b.setAttribute('aria-pressed', 'false'));
@@ -1152,27 +1277,17 @@ function initPassportPicker() {
 }
 
 // ---------- first visit: choose the sport ---------------------------------------------
-const PICK_ICONS = {
-  kite: '<path d="M8 15c2-7 9-11 16-10-4 3-6 7-6 12" /><path d="M8 15c3 0 7 1 10 2" /><path d="M8 15l6 12M18 17l-4 10" /><path d="M11 27h6" />',
-  surf: '<path d="M4 22c4 0 6-3 8-7s5-7 10-7c3 0 6 2 6 5-3-2-7 0-7 4 0 3 3 5 7 5" /><path d="M4 27c3 0 4-1.5 6-1.5S13 27 16 27s4-1.5 6-1.5 3 1.5 6 1.5" />',
-  windsurf: '<path d="M15 4c5 5 8 12 7 19H12z" /><path d="M15 4v19" /><path d="M7 26h20" /><path d="M4 29c3 0 4-1 6-1s3 1 6 1 4-1 6-1 3 1 6 1" />',
-  snowboard: '<path d="M3 26l9-14 5 7 4-5 8 12z" /><path d="M9.5 16l2.5 2 2-1.5" /><path d="M21 14l2 3" />',
-  climbing: '<rect x="8" y="5" width="12" height="22" rx="6" /><path d="M14 9v14" /><path d="M14 13l4-2" />',
-  diving: '<path d="M4 11h20v6a4 4 0 0 1-4 4h-2.5l-2-3h-3l-2 3H8a4 4 0 0 1-4-4z" /><path d="M14 11v4" /><path d="M28 7v13a6 6 0 0 1-6 6h-3" />',
-  sailing: '<path d="M15 4v19" /><path d="M15 5c4 4 7 10 7 16h-7z" /><path d="M13 8c-3 4-5 8-6 13h6z" /><path d="M5 23h20l-3 4H8z" />',
-  viaferrata: '<path d="M4 28h6v-6h6v-6h6v-6h6" /><path d="M4 20L26 4" /><circle cx="10" cy="15.6" r="1.4" /><circle cx="19" cy="9.1" r="1.4" />',
-  bungee: '<path d="M6 5h20" /><path d="M10 5v4M22 5v4" /><path d="M16 5c-3 4 3 6 0 10s3 6 0 8" /><circle cx="16" cy="26" r="2.2" />',
-  paragliding: '<path d="M4 11c3-5 21-5 24 0" /><path d="M4 11c4-1.5 20-1.5 24 0" /><path d="M5 11l9 13M27 11l-9 13M12 11l2 13M20 11l-2 13" /><circle cx="16" cy="26" r="2" />',
-};
 function showSportPicker({ change = false } = {}) {
-  const acts = state.activities.filter((a) => a.enabled && ACT[a.id]);
-  if (acts.length < 2 || document.querySelector('.picker')) return false;
+  const real = state.activities.filter((a) => a.enabled && ACT[a.id]);
+  if (real.length < 2 || document.querySelector('.picker')) return false;
+  const acts = [{ id: 'all', enabled: true, spots: real.reduce((n, a) => n + (a.spots || 0), 0) }, ...real];
   const opener = document.activeElement;
   const tiles = acts.map((a) => h('button', { type: 'button', class: `picker-tile${change && a.id === state.activity ? ' is-current' : ''}`, 'data-a': a.id,
     'aria-pressed': change ? String(a.id === state.activity) : null, onclick: () => close(a.id) },
     h('span', { class: 'picker-icon', 'aria-hidden': 'true', html: `<svg viewBox="0 0 32 32">${PICK_ICONS[a.id] || PICK_ICONS.kite}</svg>` }),
     h('span', { class: 'picker-name' }, sportName(a.id)),
     h('span', { class: 'picker-meta' }, [a.spots ? spotsWord(a.spots) : null, t(`pick.tag.${a.id}`)].filter(Boolean).join(' · '))));
+  tiles[0].classList.add('picker-tile-all');
   const skip = h('button', { type: 'button', class: 'picker-skip', onclick: () => close(null) }, t(change ? 'pick.cancel' : 'pick.skip'));
   const dlg = h('div', { class: 'picker', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'picker-title', 'aria-describedby': 'picker-sub',
     onclick: (e) => { if (change && e.target === dlg) close(null); } },
@@ -1223,7 +1338,7 @@ async function boot() {
     const meta = await loadMeta();
     if (meta && Array.isArray(meta.activities)) state.activities = meta.activities;
   } catch { /* old server or no meta: kite only */ }
-  if (!state.activities.some((a) => a.id === state.activity && a.enabled)) state.activity = 'kite';
+  if (!isAll() && !state.activities.some((a) => a.id === state.activity && a.enabled)) state.activity = 'kite';
   applyActivityUI();
   const picking = !spotFromHash && !state.activityFromUrl && !savedActivity && showSportPicker();
   if (!spotFromHash && !picking) writeHash();   // the picker writes the address once a sport is chosen

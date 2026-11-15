@@ -5,6 +5,7 @@ import { track } from './analytics.js';
 import { climbForecast, flyForecast, forecast, kitePhotos, placeNames, snowForecast, surfForecast } from './live.js';
 import { PREFIX, countryName, isRu, lang, num, t, tn, weekdayShort } from './i18n.js';
 import { hasPassport, isRuPassport, passport, visaTableDate } from './visa.js';
+import { PICK_ICONS, SPORT_COLOR } from './sports.js';
 import {
   ACCESS, BOLTING, BOTTOM, BREAK, DIVETYPE, FLYING, LEVEL, MONTHS, MONTHS_IN, MONTHS_SHORT, PARK, PG_LEVEL, ROCK, SCHOOLS, SEASON, SNOWMAKING, SPOT_TYPE, STYLE, TIDE, VISA, WATER, WIND_TYPE, WSTYLE,
   climbFeel, cm, compassText, deg, diveSuit, kmh, esc, flagEmoji, getUnit, h, metres, rating, sailSize, vibeLabel, wetsuit, windRangeText, windText, youtubeId,
@@ -875,6 +876,111 @@ function nearbyBlock(spot, month, c) {
     like.length ? h('ul', { class: 'nb-list' }, ...like.map((s) => item(s, null))) : null);
 }
 
+/** «Other sports nearby»: places of the other sections within 60 km, those in season this month first.
+ *  The every-sport list is small and loaded once, when the first card opens. */
+const OTHER_KM = 60;
+function otherSportsBlock(spot, month, c) {
+  if (!c || !c.others || !c.openOther || spot.lat == null) return null;
+  const host = h('div', { class: 'others' });
+  const sec = section(t('sec.other_sports'), host);
+  sec.hidden = true;
+  c.others().then(({ spots: all }) => {
+    if (!host.isConnected && !sec.isConnected) return;
+    const order = { peak: 0, snow: 1, shoulder: 1, off: 2 };
+    const rows = all.filter((s) => s.a !== spot.activity && s.lat != null)
+      .map((s) => ({ s, d: distKm(spot, s), k: s.seasons[month - 1] || 'off' }))
+      .filter((x) => x.d <= OTHER_KM)
+      .sort((x, y) => order[x.k] - order[y.k] || x.d - y.d)
+      .slice(0, 8);
+    if (!rows.length) return;
+    host.append(h('ul', { class: 'nb-list' }, ...rows.map(({ s, d, k }) => h('li', {}, h('button', {
+      type: 'button', class: 'nb-item nb-other', onclick: () => c.openOther(s.id, s.a),
+    },
+    h('span', { class: 'sport-badge sport-badge-sm', style: `--sc:${SPORT_COLOR[s.a] || '#145d78'}`, 'aria-hidden': 'true', html: `<svg viewBox="0 0 32 32">${PICK_ICONS[s.a] || ''}</svg>` }),
+    h('span', { class: 'nb-name' }, isRu ? (s.name_ru || s.name) : (s.name || s.name_ru)),
+    h('span', { class: 'nb-meta' }, [t(`dd.activity.${s.a}_short`), t('card.km', { v: num(d < 1 ? 1 : Math.round(d)) })].join(' · '),
+      h('i', { class: `nb-dot nb-${k}`, title: `${(SEASON[k] || SEASON.off).label} ${MONTHS_IN[month - 1]}` })))))));
+    host.append(h('p', { class: 'source' }, t('card.other_sports_note', { km: OTHER_KM, in_month: MONTHS_IN[month - 1] })));
+    sec.hidden = false;
+  }).catch(() => {});
+  return sec;
+}
+
+// --- trips run by organizers (data/seed/trips.json): shown in the «Schools» section of their spot ---------------------------
+const tripLang = () => (lang === 'ru' ? 'ru' : 'en');
+const ym = (v) => { const m = /^(\d{4})-(\d{2})/.exec(v || ''); return m ? [Number(m[1]), Number(m[2])] : null; };
+/** The months (1–12) a trip runs in: from its dates, its month, or its season. */
+function tripMonths(tr) {
+  if (tr.from && tr.to) {
+    const a = ym(tr.from), b = ym(tr.to), out = new Set();
+    if (a && b) { let [y, m] = a; for (let i = 0; i < 24 && (y < b[0] || (y === b[0] && m <= b[1])); i += 1) { out.add(m); m += 1; if (m > 12) { m = 1; y += 1; } } }
+    return out;
+  }
+  if (tr.month) { const a = ym(tr.month); return new Set(a ? [a[1]] : []); }
+  if (tr.months) return new Set(tr.months);
+  return new Set();
+}
+function tripWhen(tr) {
+  const own = tr[`when_${lang}`] || tr[`when_${tripLang()}`];
+  if (own) return own;
+  if (tr.from && tr.to) {
+    const f = new Date(`${tr.from}T12:00:00`), to = new Date(`${tr.to}T12:00:00`);
+    try {
+      const fmt = new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'long', year: 'numeric' });
+      return fmt.formatRange ? fmt.formatRange(f, to) : `${fmt.format(f)} – ${fmt.format(to)}`;
+    } catch { return `${tr.from} – ${tr.to}`; }
+  }
+  if (tr.month) {
+    try { return new Date(`${tr.month}-15T12:00:00`).toLocaleDateString(lang, { month: 'long', year: 'numeric' }) + (tr.dates_tbc ? ` · ${t('card.trip_tbc')}` : ''); } catch { return tr.month; }
+  }
+  return tr.kind === 'private' ? t('card.trip_by_arrangement') : '';
+}
+/** Links to organizers carry UTM tags, so they see in their own analytics how many people came from the map. */
+function utm(url, spot) {
+  try {
+    const u = new URL(url);
+    if (!u.searchParams.has('utm_source')) {
+      u.searchParams.set('utm_source', 'adrenalinspots');
+      u.searchParams.set('utm_medium', 'referral');
+      u.searchParams.set('utm_campaign', spot.id);
+    }
+    return u.toString();
+  } catch { return url; }
+}
+function tripsBlock(spot, month, c) {
+  if (!c || !c.trips) return null;
+  const host = h('div', { class: 'trips', hidden: true });
+  c.trips().then((data) => {
+    const orgs = data.organizers || {};
+    const list = (data.trips || []).filter((tr) => tr.spot === spot.id && (!tr.activity || tr.activity === spot.activity));
+    if (!list.length) return;
+    const now = (tr) => tripMonths(tr).has(month);
+    const start = (tr) => tr.from || tr.month || '9999';
+    list.sort((a, b) => (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
+    host.append(h('h4', { class: 'sub' }, t('card.trips')),
+      h('ul', { class: 'trip-list' }, ...list.map((tr) => {
+        const org = orgs[tr.org] || {};
+        const title = tr[`title_${lang}`] || tr[`title_${tripLang()}`] || tr.title_ru || '';
+        const note = tr[`note_${lang}`] || tr[`note_${tripLang()}`] || '';
+        return h('li', { class: `trip ${now(tr) ? 'is-now' : ''}` },
+          h('div', { class: 'trip-head' },
+            tr.url ? h('a', { class: 'trip-title', href: utm(tr.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_open', { trip: tr.id, org: tr.org }) }, title) : h('span', { class: 'trip-title' }, title),
+            now(tr) ? h('span', { class: 'trip-now' }, t('card.trip_now', { in_month: MONTHS_IN[month - 1] })) : null),
+          h('div', { class: 'trip-meta' },
+            h('span', {}, tripWhen(tr)),
+            h('span', { class: 'sc-kind' }, t(tr.kind === 'private' ? 'card.trip_private' : 'card.trip_group')),
+            (tr.langs || org.langs || []).length ? h('span', { class: 'sc-langs', title: t('card.school_langs') }, (tr.langs || org.langs).map((x) => x.toUpperCase()).join(' · ')) : null,
+            tr.price ? h('span', { class: 'trip-price', title: t('card.trip_price_title') }, tr.price) : null),
+          note ? h('p', { class: 'trip-note' }, note) : null,
+          h('p', { class: 'trip-org' }, `${t('card.trip_org')}: `,
+            org.url ? h('a', { href: utm(org.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_org', { org: tr.org }) }, org.name || tr.org) : (org.name || tr.org),
+            (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : ''));
+      })));
+    host.hidden = false;
+  }).catch(() => {});
+  return host;
+}
+
 const SHARE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" /></svg>';
 
 function miniToast(text) {
@@ -1020,6 +1126,8 @@ export function renderPanel(spot, context) {
     const list = [...spot.school_list].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
     schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc))));
   }
+  const trips = tripsBlock(spot, month, ctx);
+  if (trips) schools.append(trips);
   schools.append(h('p', { class: 'sc-fix' },
     h('button', { type: 'button', onclick: (e) => { track('school_fix'); openAbout(e.currentTarget, 'school'); } }, t(isJump ? 'card.operator_fix' : 'card.school_fix'))));
   body.append(section(t(isJump ? 'sec.operators' : isVF ? 'sec.guides' : 'sec.schools'), schools));
@@ -1055,6 +1163,8 @@ export function renderPanel(spot, context) {
     body.append(section(t('sec.airport'), h('dl', { class: 'facts' }, fact(t('card.airport'), spot.airport))));
   }
 
+  const others = otherSportsBlock(spot, month, ctx);
+  if (others) body.append(others);
   const related = nearbyBlock(spot, month, ctx);
   if (related) body.append(section(t('sec.nearby'), related));
 

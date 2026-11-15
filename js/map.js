@@ -2,10 +2,17 @@
 import { BASEMAPS, DEFAULT_BASEMAP, FALLBACK_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
 import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, metres, rating, windText, vibeLabel } from './util.js';
-import { lang, t } from './i18n.js';
+import { lang, t, tn } from './i18n.js';
+import { PICK_ICONS, SPORTS, SPORT_COLOR } from './sports.js';
 
 const INK = '#12303f';
 const SRC = 'spots';
+const MIX = 'mix';            // «All sports»: every sport at once, clustered
+let mixMode = false;
+let mixGeojson = { type: 'FeatureCollection', features: [] };
+const SPOT_LAYERS = ['spot-halo', 'spot-flags', 'spot-labels'];
+const MIX_LAYERS = ['mix-halo', 'mix-pins', 'mix-labels'];
+const curSrc = () => (mixMode ? MIX : SRC);
 let map;
 let state;           // shared app state (month, filters, selected)
 let onSelect = () => {};
@@ -24,7 +31,7 @@ function addIcons() {
 function russify() {
   const style = map.getStyle();
   for (const layer of style.layers) {
-    if (layer.type !== 'symbol' || layer.source === SRC) continue;
+    if (layer.type !== 'symbol' || layer.source === SRC || layer.source === MIX) continue;
     const tf = map.getLayoutProperty(layer.id, 'text-field');
     if (!tf) continue;
     const s = JSON.stringify(tf);
@@ -58,9 +65,10 @@ const sizeExpr = () => {
 
 function addSpotLayers(cfg) {
   addIcons();
+  addMixLayers(cfg);
   if (!map.getSource(SRC)) map.addSource(SRC, { type: 'geojson', data: geojson, promoteId: 'id' });
 
-  if (map.getLayer('spot-flags')) { applyFilter(); return; }
+  if (map.getLayer('spot-flags')) { applyFilter(); applyMode(); return; }
   map.addLayer({        // halo under the pole base: hover + selection
     id: 'spot-halo', type: 'circle', source: SRC,
     paint: {
@@ -105,7 +113,156 @@ function addSpotLayers(cfg) {
     },
   });
   applyFilter();
-  if (state.selected) { selectedId = null; setSelected(state.selected, false); }
+  applyMode();
+  if (state.selected) {
+    selectedId = null;
+    setSelected(mixMode && state.spotAct ? `${state.spotAct}:${state.selected}` : state.selected, false);
+  }
+}
+
+// --- «All sports»: round pins in the sport's colour, and clusters that fall apart as you zoom in -----------------
+const pinImages = {};
+function pinSvg(a) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20.5" fill="${SPORT_COLOR[a]}" stroke="#fff" stroke-width="3"/>`
+    + `<g transform="translate(10.5 10.5) scale(0.84)" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">${PICK_ICONS[a]}</g></svg>`;
+}
+function pinImage(a) {
+  if (!pinImages[a]) {
+    const img = new Image(48, 48);
+    img.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(pinSvg(a))}`;
+    pinImages[a] = img.decode().then(() => img);
+  }
+  return pinImages[a];
+}
+function addPins() {
+  for (const a of SPORTS) {
+    pinImage(a).then((img) => { if (map && !map.hasImage(`pin-${a}`)) map.addImage(`pin-${a}`, img, { pixelRatio: 2 }); }).catch(() => {});
+  }
+}
+
+function addMixLayers(cfg) {
+  addPins();
+  if (!map.getSource(MIX)) {
+    map.addSource(MIX, {
+      type: 'geojson', data: mixGeojson, promoteId: 'key', cluster: true, clusterMaxZoom: 6, clusterRadius: 52,
+      clusterProperties: Object.fromEntries(SPORTS.map((a) => [a, ['+', ['case', ['==', ['get', 'a'], a], 1, 0]]])),
+    });
+  }
+  if (map.getLayer('mix-pins')) return;
+  const single = ['!', ['has', 'point_count']];
+  const vis = mixMode ? 'visible' : 'none';
+  map.addLayer({
+    id: 'mix-halo', type: 'circle', source: MIX, filter: single, layout: { visibility: vis },
+    paint: {
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 13, 10, 17],
+      'circle-color': '#145d78',
+      'circle-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 0.35, ['boolean', ['feature-state', 'hover'], false], 0.25, 0],
+      'circle-stroke-color': '#145d78',
+      'circle-stroke-width': ['case', ['boolean', ['feature-state', 'selected'], false], 2, 0],
+      'circle-pitch-alignment': 'map',
+    },
+  });
+  map.addLayer({
+    id: 'mix-pins', type: 'symbol', source: MIX, filter: single,
+    layout: {
+      visibility: vis,
+      'icon-image': ['concat', 'pin-', ['get', 'a']],
+      'icon-size': ['interpolate', ['linear'], ['zoom'], 3, 0.75, 7, 0.95, 11, 1.15],
+      'icon-allow-overlap': true, 'icon-ignore-placement': true,
+      'symbol-sort-key': ['case', ['==', ['get', 'season'], 'peak'], ['+', 10, ['coalesce', ['get', 'rating'], 0]], ['coalesce', ['get', 'rating'], 0]],
+      'symbol-z-order': 'source',
+    },
+    // a prime season is drawn solid, a shoulder one paler, an off-season place (only while «Не сезон» is on) faint
+    paint: { 'icon-opacity': ['match', ['get', 'season'], 'peak', 1, 'off', 0.42, 0.7] },
+  });
+  if (map.getStyle().glyphs) {
+    map.addLayer({
+      id: 'mix-labels', type: 'symbol', source: MIX, filter: single, minzoom: 7,
+      layout: {
+        visibility: vis,
+        'text-field': ['get', 'name_ru'], 'text-font': cfg.labelFont || ['Noto Sans Regular'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 7, 11, 11, 13.5],
+        'text-anchor': 'left', 'text-offset': [1.15, 0], 'text-optional': true, 'text-max-width': 9,
+      },
+      paint: { 'text-color': cfg.dark ? '#ffffff' : INK, 'text-halo-color': cfg.dark ? 'rgba(10,30,40,0.85)' : 'rgba(255,255,255,0.92)', 'text-halo-width': 1.6 },
+    });
+  }
+}
+
+function applyMode() {
+  if (!map || !map.getLayer('spot-flags')) return;
+  for (const id of SPOT_LAYERS) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', mixMode ? 'none' : 'visible');
+  for (const id of MIX_LAYERS) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', mixMode ? 'visible' : 'none');
+  if (!mixMode) clearClusters();
+  else scheduleClusters();
+}
+
+// cluster badges: HTML markers with a ring split by sport (the chips in the list are the legend) and the total inside
+const clusterMarkers = new Map();
+let clusterFrame = null;
+function scheduleClusters() {
+  if (clusterFrame) return;
+  clusterFrame = requestAnimationFrame(() => { clusterFrame = null; updateClusters(); });
+}
+function clearClusters() {
+  for (const m of clusterMarkers.values()) m.remove();
+  clusterMarkers.clear();
+  if (ctip) ctip.remove();
+}
+let ctip = null;   // the cluster tip (its own popup: a different offset from the pin tip)
+function ringSvg(props, size) {
+  const parts = SPORTS.map((a) => [a, props[a] || 0]).filter((x) => x[1] > 0);
+  const total = parts.reduce((n, x) => n + x[1], 0) || 1;
+  const w = Math.max(5, Math.round(size * 0.17));
+  const r = size / 2 - w / 2 - 1;
+  const c = 2 * Math.PI * r;
+  let at = 0;
+  const arcs = parts.map(([a, n]) => {
+    const len = (n / total) * c;
+    const arc = `<circle r="${r}" cx="${size / 2}" cy="${size / 2}" fill="none" stroke="${SPORT_COLOR[a]}" stroke-width="${w}" stroke-dasharray="${len.toFixed(2)} ${(c - len).toFixed(2)}" stroke-dashoffset="${(-at).toFixed(2)}"/>`;
+    at += len;
+    return arc;
+  }).join('');
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true"><circle r="${size / 2 - 1}" cx="${size / 2}" cy="${size / 2}" fill="#fff"/>`
+    + `<g transform="rotate(-90 ${size / 2} ${size / 2})">${arcs}</g></svg>`;
+}
+function clusterTip(props) {
+  const rows = SPORTS.map((a) => [a, props[a] || 0]).filter((x) => x[1] > 0).sort((x, y) => y[1] - x[1])
+    .map(([a, n]) => `<div class="tip-sport"><i style="background:${SPORT_COLOR[a]}"></i>${esc(t(`sport.${a}`))}<b>${n}</b></div>`).join('');
+  return `<div class="tip-name">${esc(tn('n.spots', props.point_count))}</div>${rows}<div class="tip-row tip-muted">${esc(t('mix.cluster_hint'))}</div>`;
+}
+function updateClusters() {
+  if (!mixMode || !map.getSource(MIX) || !map.isSourceLoaded(MIX)) return;
+  const seen = new Set();
+  for (const f of map.querySourceFeatures(MIX)) {
+    const p = f.properties;
+    if (!p.cluster) continue;
+    const id = p.cluster_id;
+    if (seen.has(id)) continue;
+    seen.add(id);
+    if (clusterMarkers.has(id)) continue;
+    const n = p.point_count;
+    const size = n >= 100 ? 54 : n >= 40 ? 48 : n >= 12 ? 42 : 36;
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'mix-cluster';
+    el.style.width = el.style.height = `${size}px`;
+    el.innerHTML = `${ringSvg(p, size)}<span>${n}</span>`;
+    el.setAttribute('aria-label', `${tn('n.spots', n)}: ${SPORTS.filter((a) => p[a]).map((a) => `${t(`sport.${a}`)} ${p[a]}`).join(', ')}`);
+    const at = f.geometry.coordinates;
+    // the tip opens beside the ring, never over it (it would catch the click meant for the cluster)
+    el.addEventListener('mouseenter', () => { if (!matchMedia('(pointer: coarse)').matches) ctip.setOffset(size / 2 + 6).setLngLat(at).setHTML(clusterTip(p)).addTo(map); });
+    el.addEventListener('mouseleave', () => ctip.remove());
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      ctip.remove();
+      map.getSource(MIX).getClusterExpansionZoom(id).then((z) => {
+        map.easeTo({ center: at, zoom: Math.min(z + 0.3, 12), duration: 600 });
+      }).catch(() => map.easeTo({ center: at, zoom: map.getZoom() + 2, duration: 600 }));
+    });
+    clusterMarkers.set(id, new maplibregl.Marker({ element: el, anchor: 'center' }).setLngLat(at).addTo(map));
+  }
+  for (const [id, m] of clusterMarkers) if (!seen.has(id)) { m.remove(); clusterMarkers.delete(id); }
 }
 
 export function applyFilter() {
@@ -119,26 +276,42 @@ export function applyFilter() {
 }
 
 export function clearHover() {
-  if (map && map.getSource(SRC) && hoverId) map.setFeatureState({ source: SRC, id: hoverId }, { hover: false });
+  if (map && map.getSource(curSrc()) && hoverId) map.setFeatureState({ source: curSrc(), id: hoverId }, { hover: false });
   hoverId = null;
   if (tip) tip.remove();
 }
 
-export function setData(features) {
-  geojson = { type: 'FeatureCollection', features };
-  const src = map && map.getSource(SRC);
-  if (src) src.setData(geojson);
+export function setData(features, mix = false) {
+  if (mix !== mixMode) {
+    clearHover();
+    if (selectedId && map && map.getSource(curSrc())) map.setFeatureState({ source: curSrc(), id: selectedId }, { selected: false });
+    selectedId = null;
+    mixMode = mix;
+    applyMode();
+  }
+  if (mix) {
+    mixGeojson = { type: 'FeatureCollection', features };
+    const src = map && map.getSource(MIX);
+    if (src) src.setData(mixGeojson);
+    clearClusters();   // cluster ids change with the data
+    scheduleClusters();
+  } else {
+    geojson = { type: 'FeatureCollection', features };
+    const src = map && map.getSource(SRC);
+    if (src) src.setData(geojson);
+  }
 }
 
 let selectedId = null;
 export function setSelected(id, fly = true) {
-  if (!map || !map.getSource(SRC)) { selectedId = id; return; }
-  if (selectedId && selectedId !== id) map.setFeatureState({ source: SRC, id: selectedId }, { selected: false });
+  const S = curSrc();
+  if (!map || !map.getSource(S)) { selectedId = id; return; }
+  if (selectedId && selectedId !== id) map.setFeatureState({ source: S, id: selectedId }, { selected: false });
   selectedId = id || null;
   applyFilter();
   if (!id) return;
-  map.setFeatureState({ source: SRC, id }, { selected: true });
-  const f = geojson.features.find((x) => x.properties.id === id);
+  map.setFeatureState({ source: S, id }, { selected: true });
+  const f = (mixMode ? mixGeojson : geojson).features.find((x) => (mixMode ? x.properties.key : x.properties.id) === id);
   if (fly && f) {
     const z = Math.max(map.getZoom(), 6.5);
     map.easeTo({ center: f.geometry.coordinates, zoom: z, padding: viewPadding(), duration: 900 });
@@ -184,8 +357,21 @@ function tipHtml(p) {
     ${visa || p.vibe ? `<div class="tip-row">${visa ? `<span class="tip-visa tone-${visa.tone}">${esc(visa.label)}</span>` : ''}${p.vibe ? `<span class="tip-vibe">${esc(t('tip.vibe', { v: vibeLabel(p.vibe) }))}</span>` : ''}</div>` : ''}`;
 }
 
+function tipHtmlMix(p) {
+  const season = SEASON[p.season] || SEASON.off;
+  const visa = p.visa_status ? VISA[p.visa_status] : null;
+  return `<div class="tip-name">${esc(p.name_ru)}</div>
+    <div class="tip-place">${flagEmoji(p.cc)} ${esc(p.country || '')}</div>
+    <div class="tip-row"><span class="tip-kind" style="--sc:${SPORT_COLOR[p.a]}">${esc(t(`sport.${p.a}`))}</span></div>
+    <div class="tip-row"><span class="tip-rating">★ ${rating(p.rating)}</span>
+      <span class="tip-season tip-${p.season}">${season.phrase || season.short} ${MONTHS_IN[state.month - 1]}</span></div>
+    ${p.air != null || visa ? `<div class="tip-row tip-muted">${p.air != null ? esc(t('tip.air', { v: Math.round(p.air) })) : ''}</div>` : ''}
+    ${visa ? `<div class="tip-row"><span class="tip-visa tone-${visa.tone}">${esc(visa.label)}</span></div>` : ''}`;
+}
+
 function bindEvents() {
   tip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: [6, -34], className: 'spot-tip', maxWidth: '260px' });
+  ctip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 24, className: 'spot-tip', maxWidth: '240px' });
   map.on('mousemove', 'spot-flags', (e) => {
     const f = e.features[0];
     map.getCanvas().style.cursor = 'pointer';
@@ -203,15 +389,37 @@ function bindEvents() {
     tip.remove();
   });
   document.addEventListener('hover-spot', (e) => {
-    if (!map.getSource(SRC)) return;
-    if (hoverId) map.setFeatureState({ source: SRC, id: hoverId }, { hover: false });
+    const S = curSrc();
+    if (!map.getSource(S)) return;
+    if (hoverId) map.setFeatureState({ source: S, id: hoverId }, { hover: false });
     hoverId = e.detail;
-    if (hoverId) map.setFeatureState({ source: SRC, id: hoverId }, { hover: true });
+    if (hoverId) map.setFeatureState({ source: S, id: hoverId }, { hover: true });
   });
   map.on('click', 'spot-flags', (e) => {
     tip.remove();
     onSelect(e.features[0].properties.id);
   });
+  map.on('mousemove', 'mix-pins', (e) => {
+    const f = e.features[0];
+    map.getCanvas().style.cursor = 'pointer';
+    if (hoverId !== f.id) {
+      if (hoverId) map.setFeatureState({ source: MIX, id: hoverId }, { hover: false });
+      hoverId = f.id;
+      map.setFeatureState({ source: MIX, id: hoverId }, { hover: true });
+      tip.setLngLat(f.geometry.coordinates).setHTML(tipHtmlMix(f.properties)).addTo(map);
+    }
+  });
+  map.on('mouseleave', 'mix-pins', () => {
+    map.getCanvas().style.cursor = '';
+    if (hoverId) map.setFeatureState({ source: MIX, id: hoverId }, { hover: false });
+    hoverId = null;
+    tip.remove();
+  });
+  map.on('click', 'mix-pins', (e) => {
+    tip.remove();
+    onSelect(e.features[0].properties.id, { act: e.features[0].properties.a });
+  });
+  map.on('render', () => { if (mixMode) scheduleClusters(); });
 }
 
 let currentBasemap = DEFAULT_BASEMAP;
@@ -291,7 +499,7 @@ function afterVisible(ms, fn) {
 }
 function watchTiles(cfg, token) {
   if (cfg.id === FALLBACK_BASEMAP || cfg.id === 'offline') return;
-  const own = new Set(Object.keys(map.getStyle().sources || {}).filter((id) => id !== SRC));
+  const own = new Set(Object.keys(map.getStyle().sources || {}).filter((id) => id !== SRC && id !== MIX));
   if (!own.size) return;
   let ok = false;
   const onData = (e) => { if (e.dataType === 'source' && e.tile && own.has(e.sourceId)) ok = true; };
