@@ -20545,6 +20545,32 @@
     "Pouca infraestrutura: aluguer de crash pads limitado"
    ],
    "airport": "RAK — Marraquexe, ~1,5 h"
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskovy é uma aldeia no sopé do Kuznetsk Alatau, no norte da Cacássia, e uma das principais zonas de cat skiing da Rússia: não há teleféricos, sobe-se às encostas em máquinas de neve. Cerca de dez cumes até ~1700 m, umas 200 linhas de descida com 300–400 m de desnível e neve em pó leve e seca. A época vai de novembro quase até junho; o melhor pó, em novembro e março.",
+   "rating_basis": "Uma das principais zonas de cat skiing da Rússia: neve seca e leve, cerca de 200 linhas, subidas em máquina de neve baratas; contras: isolamento e infraestrutura mínima",
+   "hazards": "Perigo de avalanche (sobretudo no circo Sekretka com queda de neve: placas de vento e cornijas), gelo até −35…−37 °C, ~100 km até ao hospital mais próximo; descer só com guia e equipamento de avalanche",
+   "crowd_note": "Sem filas: cada operador tem 2–3 máquinas de neve, a SnowLab leva até 28 riders por dia",
+   "region": "Distrito de Ordjonikidzevski, Cacássia, sopé do Kuznetsk Alatau (na fronteira com o Kuzbass e o krai de Krasnoiarsk)",
+   "season": "novembro a maio (neve em alguns pontos até junho); o melhor pó em novembro e março",
+   "transfer": "Cerca de 4 h de carro desde Abakan, ~435 km (6–7 h) desde Krasnoiarsk: asfalto até Kopiovo e depois ~70 km de estrada de terra; ou comboio até à estação de Kopiovo e depois táxi (~1,5 h)",
+   "pros": [
+    "Pó seco e profundo, época desde novembro",
+    "Sem filas: grupos pequenos nas máquinas de neve",
+    "Subidas em máquina de neve mais baratas do que em muitos cat skiing do mundo",
+    "Encostas de fáceis a íngremes — dá para experimentar freeride com guia pela primeira vez"
+   ],
+   "cons": [
+    "Longe: ~4 h desde Abakan, o último troço é estrada de terra",
+    "Sem teleféricos nem pistas preparadas",
+    "Frio intenso no inverno",
+    "Hospital a ~100 km, os socorros demoram"
+   ],
+   "airport": "ABA — Abakan, ~4 h; KJA — Krasnoiarsk, ~6–7 h",
+   "school_notes": [
+    "Cat skiing em duas máquinas Prinoth Everest com guias, escola de freeride e hotel Snowlab House no sopé do monte Semeinaia"
+   ]
   }
  }
 }

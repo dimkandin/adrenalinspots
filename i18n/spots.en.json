@@ -20545,6 +20545,32 @@
     "Little infrastructure: limited pad rental"
    ],
    "airport": "RAK — Marrakech, ~1.5 h"
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskovy is a village in the foothills of the Kuznetsk Alatau in northern Khakassia and one of Russia's main cat-skiing areas: there are no lifts, snowcats take riders up. About ten peaks up to ~1,700 m, roughly 200 lines with 300–400 m of vertical and light, dry powder. The season runs from November almost to June; the best powder is in November and March.",
+   "rating_basis": "One of Russia's main cat-skiing areas: light dry snow, about 200 lines, inexpensive snowcat rides; downsides — remoteness and minimal infrastructure",
+   "hazards": "Avalanche danger (especially the Sekretka cirque during snowfall: wind slabs and cornices), frosts down to −35…−37 °C, ~100 km to the nearest hospital; ride only with a guide and avalanche gear",
+   "crowd_note": "No queues: each operator has 2–3 snowcats, SnowLab takes up to 28 riders a day",
+   "region": "Ordzhonikidzevsky district, Khakassia, foothills of the Kuznetsk Alatau (on the border with Kuzbass and Krasnoyarsk Krai)",
+   "season": "November to May (snow in places until June); best powder in November and March",
+   "transfer": "About 4 h by car from Abakan, ~435 km (6–7 h) from Krasnoyarsk: paved road to Kopyovo, then ~70 km of gravel; or train to Kopyovo station and a taxi from there (~1.5 h)",
+   "pros": [
+    "Deep dry powder, season from November",
+    "No queues: small groups on the snowcats",
+    "Snowcat rides cheaper than many cat-ski operations worldwide",
+    "Slopes from easy to steep — you can try freeride with a guide for the first time"
+   ],
+   "cons": [
+    "Long way to get there: ~4 h from Abakan, the last stretch is gravel",
+    "No lifts or groomed runs",
+    "Severe frosts in winter",
+    "Hospital ~100 km away, rescuers take long to arrive"
+   ],
+   "airport": "ABA — Abakan, ~4 h; KJA — Krasnoyarsk, ~6–7 h",
+   "school_notes": [
+    "Cat skiing on two Prinoth Everest snowcats with guides, a freeride school and the Snowlab House hotel at the foot of Mount Semeynaya"
+   ]
   }
  }
 }

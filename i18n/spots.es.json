@@ -20545,6 +20545,32 @@
     "Poca infraestructura: alquiler de crash pads limitado"
    ],
    "airport": "RAK — Marrakech, ~1,5 h"
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskovi es un pueblo en las estribaciones del Kuznetsk Alatau, en el norte de Jakasia, y una de las principales zonas de cat skiing de Rusia: no hay remontes, a las laderas se sube en máquinas pisanieves. Una decena de cimas de hasta ~1700 m, unas 200 líneas de descenso con 300–400 m de desnivel y nieve polvo ligera y seca. La temporada va de noviembre casi hasta junio; la mejor polvo, en noviembre y marzo.",
+   "rating_basis": "Una de las principales zonas de cat skiing de Rusia: nieve seca y ligera, unas 200 líneas, subidas en pisanieves baratas; contras: lejanía e infraestructura mínima",
+   "hazards": "Peligro de aludes (sobre todo en el circo Sekretka con nevadas: placas de viento y cornisas), heladas de hasta −35…−37 °C, ~100 km al hospital más cercano; esquiar solo con guía y material de aludes",
+   "crowd_note": "Sin colas: cada operador tiene 2–3 pisanieves; SnowLab lleva hasta 28 riders al día",
+   "region": "Distrito de Ordzhonikidzevski, Jakasia, estribaciones del Kuznetsk Alatau (en el límite con Kuzbás y el krai de Krasnoyarsk)",
+   "season": "de noviembre a mayo (nieve en algunos puntos hasta junio); la mejor polvo, en noviembre y marzo",
+   "transfer": "Desde Abakán, unas 4 h en coche; desde Krasnoyarsk, ~435 km (6–7 h): asfalto hasta Kopyovo y luego ~70 km de pista; o en tren hasta la estación de Kopyovo y de ahí en taxi (~1,5 h)",
+   "pros": [
+    "Nieve polvo seca y profunda, temporada desde noviembre",
+    "Sin colas: grupos pequeños en los pisanieves",
+    "Subidas en pisanieves más baratas que en muchos cat skiing del mundo",
+    "Laderas de fáciles a empinadas: se puede probar el freeride con guía por primera vez"
+   ],
+   "cons": [
+    "Se tarda en llegar: ~4 h desde Abakán, el último tramo es pista",
+    "Sin remontes ni pistas preparadas",
+    "Heladas fuertes en invierno",
+    "Hospital a ~100 km, los rescatadores tardan en llegar"
+   ],
+   "airport": "ABA — Abakán, ~4 h; KJA — Krasnoyarsk, ~6–7 h",
+   "school_notes": [
+    "Cat skiing con dos pisanieves Prinoth Everest y guías, escuela de freeride y hotel Snowlab House al pie del monte Semeinaya"
+   ]
   }
  }
 }

@@ -20545,6 +20545,32 @@
     "Peu d’infrastructures : location de crash pads limitée"
    ],
    "airport": "RAK — Marrakech, ~1 h 30"
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskovy est un village au pied du Kouznetsk Alatau, dans le nord de la Khakassie, et l’un des principaux sites de cat-ski de Russie : pas de remontées, ce sont des dameuses qui montent les riders. Une dizaine de sommets jusqu’à ~1 700 m, environ 200 lignes de 300 à 400 m de dénivelé et une poudreuse légère et sèche. La saison va de novembre presque jusqu’en juin ; la meilleure poudreuse, en novembre et en mars.",
+   "rating_basis": "L’un des principaux sites de cat-ski de Russie : neige légère et sèche, environ 200 lignes, montées en dameuse bon marché ; inconvénients : isolement et infrastructures minimales",
+   "hazards": "Risque d’avalanche (surtout dans le cirque Sekretka par chute de neige : plaques et corniches), gel jusqu’à −35…−37 °C, ~100 km de l’hôpital le plus proche ; rider uniquement avec un guide et du matériel avalanche",
+   "crowd_note": "Pas de queue : chaque opérateur a 2–3 dameuses, SnowLab prend jusqu’à 28 riders par jour",
+   "region": "District d’Ordjonikidzevski, Khakassie, contreforts du Kouznetsk Alatau (à la limite du Kouzbass et du kraï de Krasnoïarsk)",
+   "season": "de novembre à mai (neige par endroits jusqu’en juin) ; meilleure poudreuse en novembre et en mars",
+   "transfer": "Environ 4 h de voiture depuis Abakan, ~435 km (6–7 h) depuis Krasnoïarsk : route goudronnée jusqu’à Kopiovo puis ~70 km de piste ; ou train jusqu’à la gare de Kopiovo puis taxi (~1 h 30)",
+   "pros": [
+    "Poudreuse sèche et profonde, saison dès novembre",
+    "Pas de queue : petits groupes dans les dameuses",
+    "Montées en dameuse moins chères que dans beaucoup de cat-skis du monde",
+    "Pentes faciles à raides : on peut découvrir le freeride avec un guide"
+   ],
+   "cons": [
+    "Long trajet : ~4 h depuis Abakan, dernier tronçon en piste",
+    "Pas de remontées ni de pistes damées",
+    "Grand froid en hiver",
+    "Hôpital à ~100 km, les secours mettent longtemps à arriver"
+   ],
+   "airport": "ABA — Abakan, ~4 h ; KJA — Krasnoïarsk, ~6–7 h",
+   "school_notes": [
+    "Cat-ski sur deux dameuses Prinoth Everest avec guides, école de freeride et hôtel Snowlab House au pied du mont Semeïnaïa"
+   ]
   }
  }
 }

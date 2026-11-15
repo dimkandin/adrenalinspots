@@ -20545,6 +20545,32 @@
     "Wenig Infrastruktur: begrenzter Crashpad-Verleih"
    ],
    "airport": "RAK — Marrakesch, ~1,5 Std."
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskowy ist ein Dorf in den Ausläufern des Kusnezker Alatau im Norden Chakassiens und eines der wichtigsten Cat-Skiing-Gebiete Russlands: Lifte gibt es nicht, Pistenraupen bringen die Fahrer hinauf. Etwa zehn Gipfel bis ~1700 m, rund 200 Abfahrtslinien mit 300–400 m Höhenunterschied und leichter, trockener Pulverschnee. Die Saison dauert von November fast bis Juni, der beste Pulver liegt im November und März.",
+   "rating_basis": "Eines der wichtigsten Cat-Skiing-Gebiete Russlands: leichter trockener Schnee, etwa 200 Linien, günstige Fahrten mit der Pistenraupe; Nachteile — Abgeschiedenheit und kaum Infrastruktur",
+   "hazards": "Lawinengefahr (besonders im Kar Sekretka bei Schneefall: Schneebretter und Wechten), Frost bis −35…−37 °C, ~100 km bis zum nächsten Krankenhaus; nur mit Guide und Lawinenausrüstung fahren",
+   "crowd_note": "Keine Schlangen: jeder Anbieter hat 2–3 Pistenraupen, SnowLab nimmt bis zu 28 Fahrer pro Tag",
+   "region": "Bezirk Ordschonikidsewski, Chakassien, Ausläufer des Kusnezker Alatau (an der Grenze zu Kusbass und der Region Krasnojarsk)",
+   "season": "November bis Mai (stellenweise Schnee bis Juni); bester Pulver im November und März",
+   "transfer": "Von Abakan etwa 4 Std. mit dem Auto, von Krasnojarsk ~435 km (6–7 Std.): Asphalt bis Kopjowo, dann ~70 km Schotter; oder mit dem Zug bis zum Bahnhof Kopjowo und weiter per Taxi (~1,5 Std.)",
+   "pros": [
+    "Tiefer trockener Pulver, Saison ab November",
+    "Keine Schlangen: kleine Gruppen auf den Pistenraupen",
+    "Fahrten mit der Pistenraupe günstiger als bei vielen Cat-Ski-Anbietern weltweit",
+    "Hänge von leicht bis steil — Freeride mit Guide auch zum ersten Mal möglich"
+   ],
+   "cons": [
+    "Lange Anreise: ~4 Std. von Abakan, das letzte Stück Schotter",
+    "Keine Lifte und keine präparierten Pisten",
+    "Strenger Frost im Winter",
+    "Krankenhaus ~100 km entfernt, Rettungskräfte brauchen lange"
+   ],
+   "airport": "ABA — Abakan, ~4 Std.; KJA — Krasnojarsk, ~6–7 Std.",
+   "school_notes": [
+    "Cat-Skiing mit zwei Prinoth-Everest-Pistenraupen und Guides, Freeride-Schule und Hotel Snowlab House am Fuß des Bergs Semejnaja"
+   ]
   }
  }
 }

@@ -20545,6 +20545,32 @@
     "Poche infrastrutture: noleggio crash pad limitato"
    ],
    "airport": "RAK — Marrakech, ~1,5 h"
+  },
+  "priiskovyi": {
+   "h": "ac121aa1aa",
+   "description": "Priiskovy è un villaggio ai piedi del Kuzneck Alatau, nel nord della Chakassia, e una delle principali zone di cat skiing della Russia: non ci sono impianti, sui pendii si sale in gatto delle nevi. Una decina di cime fino a ~1700 m, circa 200 linee di discesa con 300–400 m di dislivello e neve polverosa leggera e asciutta. La stagione va da novembre quasi a giugno; la polvere migliore a novembre e marzo.",
+   "rating_basis": "Una delle principali zone di cat skiing della Russia: neve asciutta e leggera, circa 200 linee, risalite in gatto economiche; contro: isolamento e infrastrutture minime",
+   "hazards": "Pericolo valanghe (soprattutto nel circo Sekretka durante le nevicate: lastroni e cornici), gelo fino a −35…−37 °C, ~100 km dall’ospedale più vicino; sciare solo con guida e attrezzatura da valanga",
+   "crowd_note": "Niente code: ogni operatore ha 2–3 gatti delle nevi, SnowLab porta fino a 28 rider al giorno",
+   "region": "Distretto di Ordžonikidzevskij, Chakassia, pendici del Kuzneck Alatau (al confine con il Kuzbass e il territorio di Krasnojarsk)",
+   "season": "da novembre a maggio (neve in alcuni punti fino a giugno); la polvere migliore a novembre e marzo",
+   "transfer": "Circa 4 h d’auto da Abakan, ~435 km (6–7 h) da Krasnojarsk: asfalto fino a Kopëvo, poi ~70 km di sterrato; oppure treno fino alla stazione di Kopëvo e poi taxi (~1,5 h)",
+   "pros": [
+    "Polvere asciutta e profonda, stagione da novembre",
+    "Niente code: piccoli gruppi sui gatti",
+    "Risalite in gatto più economiche di molti cat skiing nel mondo",
+    "Pendii da facili a ripidi: si può provare il freeride con una guida per la prima volta"
+   ],
+   "cons": [
+    "Lungo viaggio: ~4 h da Abakan, l’ultimo tratto sterrato",
+    "Niente impianti né piste battute",
+    "Gelo intenso d’inverno",
+    "Ospedale a ~100 km, i soccorsi arrivano tardi"
+   ],
+   "airport": "ABA — Abakan, ~4 h; KJA — Krasnojarsk, ~6–7 h",
+   "school_notes": [
+    "Cat skiing con due gatti delle nevi Prinoth Everest e guide, scuola di freeride e hotel Snowlab House ai piedi del monte Semejnaja"
+   ]
   }
  }
 }

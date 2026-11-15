@@ -962,7 +962,7 @@ function tripsBlock(spot, month, c) {
   const host = h('div', { class: 'trips', hidden: true });
   c.trips().then((data) => {
     const orgs = data.organizers || {};
-    const list = (data.trips || []).filter((tr) => tr.spot === spot.id && (!tr.activity || tr.activity === spot.activity));
+    const list = (data.trips || []).filter((tr) => (tr.spot === spot.id || (tr.spots || []).includes(spot.id)) && (!tr.activity || tr.activity === spot.activity));
     if (!list.length) return;
     const now = (tr) => tripMonths(tr).has(month);
     const start = (tr) => tr.from || tr.month || '9999';
