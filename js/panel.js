@@ -947,12 +947,15 @@ function utm(url, spot) {
     return u.toString();
   } catch { return url; }
 }
-// A school is listed only in the months it is actually there: its own `months` (checked by hand), otherwise —
-// for sports where outdoor schools stop in the cold — not in an off-season month with a cold day (air under 10°)
-const COLD_PAUSE = new Set(['climbing']);
+// A school is listed only in the months it is actually there: its own `months` (checked by hand; all 12 = all year),
+// otherwise by the sport's rule for off-season months: climbing schools pause only when it is also cold (air under 10°),
+// kite and windsurf stations — for the whole off season (no wind, cold water: most close or leave)
+const OFF_SEASON_RULE = { climbing: 'cold', kite: 'off', windsurf: 'off' };
 function schoolHere(sc, spot, month) {
   if (sc.months && sc.months.length) return sc.months.includes(month);
-  if (!COLD_PAUSE.has(spot.activity) || (spot.seasons || [])[month - 1] !== 'off') return true;
+  const rule = OFF_SEASON_RULE[spot.activity];
+  if (!rule || (spot.seasons || [])[month - 1] !== 'off') return true;
+  if (rule === 'off') return false;
   const cl = spot.climate || {};
   const air = ((cl.era5 || [])[month - 1] || {}).air_c ?? ((cl.guide || [])[month - 1] || {}).air_c;
   return !(air != null && air < 10);
