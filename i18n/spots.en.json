@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "SE–ESE trade wind, side-onshore",
    "airport": "NOU — Nouméa La Tontouta, ~50 min"
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa is a field of granite and gneiss boulders on the shore of Lake Bafa by the village of Kapıkırı, among the ruins of ancient Herakleia under Latmos. Huge blocks that rolled down from the Latmos mountains run from the water up the slopes; in 2014 it hosted a stage of the Petzl RocTrip. Climbing season is autumn to spring — summer is too hot.",
+   "rating_basis": "Petzl RocTrip 2014 stage (an “ocean of boulder problems” by the lake); little known, topo databases incomplete",
+   "hazards": "Sharp rock, crystals that snap off (especially after rain), heat and snakes in the warm months",
+   "crowd_note": "Little-known area: hardly anyone on the boulders",
+   "region": "Muğla, Milas district: Lake Bafa, Kapıkırı village (ancient Herakleia under Latmos)",
+   "season": "October to May; best in March–April and late October–November; too hot from June to September",
+   "transfer": "About an hour by car from Bodrum airport, about two from İzmir; a car is advisable — Kapıkırı is ~10 km from the lakeside highway",
+   "rock_note": "coarse granite and gneiss: huge boulders that rolled down from the Latmos mountains — cracks, protruding crystals, water-worn pockets; sharp and in places brittle",
+   "approach": "First boulders a few minutes' walk from Kapıkırı village; more further up the Latmos slopes",
+   "restrictions": "Latmos archaeological zone: ancient rock paintings occur under overhangs and in caves — check the rock before brushing or chalking; take your rubbish with you",
+   "guidebook": "Topos are scattered: madboulder.org, thetopo.com (Çörlenasarı Castle) and theCrag",
+   "stay": "Guesthouses in Kapıkırı with breakfast and dinner; limited choice, book ahead",
+   "pros": [
+    "Warm autumn and spring when Europe is already cold",
+    "Boulders right by the village, views of the lake and ruins",
+    "Almost no people",
+    "Bodrum airport nearby"
+   ],
+   "cons": [
+    "Sharp, in places brittle rock — hard on the skin",
+    "Incomplete topos, a lot to find yourself",
+    "Hot in summer"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 h; ADB — İzmir, ~2 h"
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden is a ski village at about 2,600 m in the High Atlas, an hour and a half from Marrakech, and the first bouldering area in the Atlas. Around a thousand problems on dense, rough sandstone, many easy and moderate, up to the 8th grade. Climb in spring and autumn, in summer in the cool hours; in winter there is snow.",
+   "rating_basis": "The first bouldering area of the High Atlas: about 1,000 problems in the guidebook, the annual Oukaimeden Boulderfest in May; a young, still little-known area",
+   "hazards": "Altitude of about 2,600 m and strong sun, cold nights, summer thunderstorms in the mountains",
+   "crowd_note": "Nearly empty; busy only during the festival in early May",
+   "region": "High Atlas, Al Haouz province, ~75 km from Marrakech",
+   "season": "March–May and September–November; in summer climb in the morning and evening (altitude ~2,600 m); December to February brings snow — it's a ski resort",
+   "transfer": "About 1.5 h by car from Marrakech via Ourika on the P2017 (navigation sometimes routes onto a dirt road); or bus 25 / shared taxi to Ourika and a taxi from there",
+   "rock_note": "dense, rough sandstone with small features, more solid than most sandstone; dries quickly after rain and snow",
+   "approach": "Sectors right by the village: 2–15 minutes' walk from parking",
+   "restrictions": "The Oukaïmeden plateau has prehistoric rock engravings: do not climb or chalk boulders with carvings",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — digital guidebook in the Rakkup app, about 1,000 problems in 21 sectors",
+   "stay": "Chalet Mostapha, the Club Alpin Français refuge, Hotel Aurocher, Chez Rachid",
+   "pros": [
+    "Lots of easy and moderate problems",
+    "Boulders right by the village",
+    "Cool in summer thanks to the altitude",
+    "Marrakech with cheap flights an hour and a half away"
+   ],
+   "cons": [
+    "Snow and ski season in winter",
+    "Altitude ~2,600 m — the first days are harder",
+    "Little infrastructure: limited pad rental"
+   ],
+   "airport": "RAK — Marrakech, ~1.5 h"
   }
  }
 }

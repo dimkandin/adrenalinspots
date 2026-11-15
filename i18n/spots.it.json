@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "Aliseo da SE–ESE, side-onshore",
    "airport": "NOU — Nouméa-La Tontouta, ~50 min"
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa è un campo di massi di granito e gneiss sulla riva del lago Bafa, vicino al villaggio di Kapıkırı, tra le rovine dell’antica Eraclea al Latmo. Enormi blocchi rotolati giù dai monti Latmo scendono dalle pendici fino all’acqua; nel 2014 vi ha fatto tappa il Petzl RocTrip. Si arrampica dall’autunno alla primavera, d’estate fa troppo caldo.",
+   "rating_basis": "Tappa del Petzl RocTrip 2014 («un oceano di problemi» sul lago); zona poco conosciuta, topo incompleti",
+   "hazards": "Roccia tagliente, cristalli che si staccano (soprattutto dopo la pioggia), caldo e serpenti nei mesi caldi",
+   "crowd_note": "Zona poco conosciuta: quasi nessuno sui massi",
+   "region": "Muğla, distretto di Milas: lago Bafa, villaggio di Kapıkırı (antica Eraclea al Latmo)",
+   "season": "da ottobre a maggio; il meglio a marzo–aprile e da fine ottobre a novembre; da giugno a settembre troppo caldo",
+   "transfer": "Circa un’ora d’auto dall’aeroporto di Bodrum, due da Smirne; consigliata l’auto — Kapıkırı è a ~10 km dalla strada del lago",
+   "rock_note": "granito e gneiss a grana grossa: enormi massi rotolati dai monti Latmo — fessure, cristalli sporgenti, buchi scavati dall’acqua; roccia tagliente, a tratti fragile",
+   "approach": "I primi massi a pochi minuti a piedi dal villaggio di Kapıkırı; altri più in alto sulle pendici del Latmo",
+   "restrictions": "Zona archeologica del Latmo: sotto i tetti e nelle grotte ci sono antiche pitture rupestri — controllare la roccia prima di spazzolare o usare magnesite; portare via i rifiuti",
+   "guidebook": "Topo sparsi: madboulder.org, thetopo.com (Çörlenasarı Castle) e theCrag",
+   "stay": "Pensioni a Kapıkırı con colazione e cena; scelta limitata, prenotare in anticipo",
+   "pros": [
+    "Autunno e primavera miti quando in Europa fa già freddo",
+    "Massi a ridosso del villaggio, vista sul lago e sulle rovine",
+    "Quasi nessuno",
+    "Aeroporto di Bodrum vicino"
+   ],
+   "cons": [
+    "Roccia tagliente, a tratti fragile — dura per la pelle",
+    "Topo incompleti, molto da cercare da soli",
+    "Caldo d’estate"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 h; ADB — Smirne, ~2 h"
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden è un villaggio sciistico a circa 2600 m nell’Alto Atlante, a un’ora e mezza da Marrakech, e la prima zona boulder dell’Atlante. Circa mille problemi su arenaria compatta e ruvida, molti facili e medi, fino all’8° grado. Si arrampica in primavera e autunno, d’estate nelle ore fresche; d’inverno c’è neve.",
+   "rating_basis": "La prima zona boulder dell’Alto Atlante: circa 1000 problemi nella guida e l’Oukaimeden Boulderfest ogni maggio; zona giovane e ancora poco conosciuta",
+   "hazards": "Quota di circa 2600 m e sole forte, notti fredde, temporali estivi in montagna",
+   "crowd_note": "Quasi deserto; c’è gente solo durante il festival di inizio maggio",
+   "region": "Alto Atlante, provincia di Al Haouz, ~75 km da Marrakech",
+   "season": "marzo–maggio e settembre–novembre; d’estate si arrampica la mattina e la sera (quota ~2600 m); da dicembre a febbraio c’è neve — è una stazione sciistica",
+   "transfer": "Circa 1,5 h d’auto da Marrakech passando per Ourika sulla P2017 (il navigatore a volte porta su uno sterrato); oppure autobus 25 o taxi collettivo fino a Ourika e poi taxi",
+   "rock_note": "arenaria compatta e ruvida con piccoli appigli, più solida di molte arenarie; asciuga in fretta dopo pioggia e neve",
+   "approach": "Settori a ridosso del villaggio: 2–15 minuti a piedi dal parcheggio",
+   "restrictions": "Sull’altopiano di Oukaïmeden ci sono incisioni rupestri preistoriche: non arrampicare né usare magnesite sui massi incisi",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — guida digitale nell’app Rakkup, circa 1000 problemi in 21 settori",
+   "stay": "Chalet Mostapha, rifugio del Club Alpin Français, Hotel Aurocher, Chez Rachid",
+   "pros": [
+    "Tanti problemi facili e medi",
+    "Massi a ridosso del villaggio",
+    "Fresco d’estate grazie alla quota",
+    "Marrakech con voli economici a un’ora e mezza"
+   ],
+   "cons": [
+    "Neve e stagione sciistica d’inverno",
+    "Quota ~2600 m — i primi giorni sono più duri",
+    "Poche infrastrutture: noleggio crash pad limitato"
+   ],
+   "airport": "RAK — Marrakech, ~1,5 h"
   }
  }
 }

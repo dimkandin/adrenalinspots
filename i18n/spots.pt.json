@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "Alísio de SE–ESE, side-onshore",
    "airport": "NOU — Nouméa-La Tontouta, ~50 min"
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa é um campo de blocos de granito e gnaisse à beira do lago Bafa, junto à aldeia de Kapıkırı, entre as ruínas da antiga Heracleia do Latmos. Enormes blocos que rolaram dos montes Latmos estendem-se da água até às encostas; em 2014 recebeu uma etapa do Petzl RocTrip. Escala-se do outono à primavera — no verão faz calor demais.",
+   "rating_basis": "Etapa do Petzl RocTrip 2014 («um oceano de problemas» à beira do lago); zona pouco conhecida, croquis incompletos",
+   "hazards": "Rocha cortante, cristais que partem (sobretudo depois da chuva), calor e cobras nos meses quentes",
+   "crowd_note": "Zona pouco conhecida: quase ninguém nos blocos",
+   "region": "Muğla, distrito de Milas: lago Bafa, aldeia de Kapıkırı (antiga Heracleia do Latmos)",
+   "season": "outubro a maio; melhor em março–abril e de fim de outubro a novembro; de junho a setembro faz calor demais",
+   "transfer": "Cerca de uma hora de carro do aeroporto de Bodrum, duas de Esmirna; convém ter carro — Kapıkırı fica a ~10 km da estrada do lago",
+   "rock_note": "granito e gnaisse de grão grosso: enormes blocos que rolaram dos montes Latmos — fendas, cristais salientes, buracos escavados pela água; rocha cortante e por vezes frágil",
+   "approach": "Os primeiros blocos ficam a poucos minutos a pé da aldeia de Kapıkırı; outros mais acima nas encostas do Latmos",
+   "restrictions": "Zona arqueológica do Latmos: debaixo dos tetos e nas grutas há pinturas rupestres antigas — verificar a rocha antes de escovar ou pôr magnésio; levar o lixo",
+   "guidebook": "Croquis dispersos: madboulder.org, thetopo.com (Çörlenasarı Castle) e theCrag",
+   "stay": "Pensões em Kapıkırı com pequeno-almoço e jantar; pouca escolha, reservar com antecedência",
+   "pros": [
+    "Outono e primavera amenos quando na Europa já faz frio",
+    "Blocos junto à aldeia, vista para o lago e as ruínas",
+    "Quase ninguém",
+    "Aeroporto de Bodrum perto"
+   ],
+   "cons": [
+    "Rocha cortante e por vezes frágil — dura para a pele",
+    "Croquis incompletos, muito para descobrir sozinho",
+    "Calor no verão"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 h; ADB — Esmirna, ~2 h"
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden é uma aldeia de esqui a cerca de 2600 m no Alto Atlas, a hora e meia de Marraquexe, e a primeira zona de bouldering do Atlas. Cerca de mil problemas em arenito denso e rugoso, muitos fáceis e médios, até ao 8.º grau. Escala-se na primavera e no outono, no verão nas horas frescas; no inverno há neve.",
+   "rating_basis": "A primeira zona de bouldering do Alto Atlas: cerca de 1000 problemas no guia e o Oukaimeden Boulderfest todos os anos em maio; zona jovem e ainda pouco conhecida",
+   "hazards": "Altitude de cerca de 2600 m e sol forte, noites frias, trovoadas de verão na montanha",
+   "crowd_note": "Quase vazio; só há gente durante o festival no início de maio",
+   "region": "Alto Atlas, província de Al Haouz, ~75 km de Marraquexe",
+   "season": "março–maio e setembro–novembro; no verão escala-se de manhã e ao fim da tarde (altitude ~2600 m); de dezembro a fevereiro há neve — é uma estância de esqui",
+   "transfer": "Cerca de 1,5 h de carro desde Marraquexe por Ourika, pela P2017 (o GPS por vezes manda por uma estrada de terra); ou autocarro 25 / táxi coletivo até Ourika e depois táxi",
+   "rock_note": "arenito denso e rugoso com pequenos relevos, mais sólido do que muitos arenitos; seca depressa depois da chuva e da neve",
+   "approach": "Setores junto à aldeia: 2–15 minutos a pé do estacionamento",
+   "restrictions": "No planalto de Oukaïmeden há gravuras rupestres pré-históricas: não escalar nem pôr magnésio em blocos gravados",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — guia digital na app Rakkup, cerca de 1000 problemas em 21 setores",
+   "stay": "Chalet Mostapha, refúgio do Club Alpin Français, Hotel Aurocher, Chez Rachid",
+   "pros": [
+    "Muitos problemas fáceis e médios",
+    "Blocos junto à aldeia",
+    "Fresco no verão graças à altitude",
+    "Marraquexe, com voos baratos, a hora e meia"
+   ],
+   "cons": [
+    "Neve e época de esqui no inverno",
+    "Altitude ~2600 m — os primeiros dias custam mais",
+    "Pouca infraestrutura: aluguer de crash pads limitado"
+   ],
+   "airport": "RAK — Marraquexe, ~1,5 h"
   }
  }
 }

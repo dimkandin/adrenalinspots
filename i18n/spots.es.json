@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "Alisio del SE–ESE, side-onshore",
    "airport": "NOU — Numea-La Tontouta, ~50 min"
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa es un campo de bloques de granito y gneis a orillas del lago Bafa, junto al pueblo de Kapıkırı, entre las ruinas de la antigua Heraclea del Latmos. Enormes bloques caídos de los montes Latmos se extienden desde el agua hasta las laderas; en 2014 acogió una etapa del Petzl RocTrip. Se escala de otoño a primavera; en verano hace demasiado calor.",
+   "rating_basis": "Etapa del Petzl RocTrip 2014 («un océano de problemas» junto al lago); zona poco conocida, reseñas incompletas",
+   "hazards": "Roca cortante, cristales que se rompen (sobre todo tras la lluvia), calor y serpientes en los meses cálidos",
+   "crowd_note": "Zona poco conocida: casi nadie en los bloques",
+   "region": "Muğla, distrito de Milas: lago Bafa, pueblo de Kapıkırı (antigua Heraclea del Latmos)",
+   "season": "octubre a mayo; lo mejor, marzo–abril y finales de octubre–noviembre; de junio a septiembre hace demasiado calor",
+   "transfer": "Desde el aeropuerto de Bodrum, una hora en coche; desde Esmirna, unas dos; conviene coche: de la carretera del lago a Kapıkırı hay ~10 km",
+   "rock_note": "granito y gneis de grano grueso: enormes bloques caídos de los montes Latmos — fisuras, cristales salientes, agujeros erosionados por el agua; roca cortante y a ratos frágil",
+   "approach": "Los primeros bloques, a pocos minutos a pie del pueblo de Kapıkırı; otros, más arriba en las laderas del Latmos",
+   "restrictions": "Zona arqueológica del Latmos: bajo los techos y en las cuevas hay pinturas rupestres antiguas — revisar la roca antes de cepillar o poner magnesio; llevarse la basura",
+   "guidebook": "Reseñas dispersas: madboulder.org, thetopo.com (Çörlenasarı Castle) y theCrag",
+   "stay": "Pensiones en Kapıkırı con desayuno y cena; poca oferta, reservar con antelación",
+   "pros": [
+    "Otoño y primavera templados cuando en Europa ya hace frío",
+    "Bloques junto al pueblo, vistas al lago y a las ruinas",
+    "Casi nadie",
+    "Aeropuerto de Bodrum cerca"
+   ],
+   "cons": [
+    "Roca cortante y a ratos frágil — dura para la piel",
+    "Reseñas incompletas, hay que buscar mucho uno mismo",
+    "Calor en verano"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 h; ADB — Esmirna, ~2 h"
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden es un pueblo de esquí a unos 2600 m en el Alto Atlas, a hora y media de Marrakech, y la primera zona de búlder del Atlas. Cerca de mil problemas en arenisca densa y rugosa, muchos fáciles y medios, hasta el 8.º grado. Se escala en primavera y otoño, en verano en las horas frescas; en invierno hay nieve.",
+   "rating_basis": "La primera zona de búlder del Alto Atlas: unos 1000 problemas en la guía y el Oukaimeden Boulderfest cada mayo; zona joven y aún poco conocida",
+   "hazards": "Altitud de unos 2600 m y sol fuerte, noches frías, tormentas de verano en la montaña",
+   "crowd_note": "Casi vacío; solo hay gente durante el festival de principios de mayo",
+   "region": "Alto Atlas, provincia de Al Haouz, ~75 km de Marrakech",
+   "season": "marzo–mayo y septiembre–noviembre; en verano se escala por la mañana y por la tarde (altitud ~2600 m); de diciembre a febrero hay nieve — es una estación de esquí",
+   "transfer": "Desde Marrakech, unas 1,5 h en coche por Ourika y la P2017 (el navegador a veces lleva por una pista de tierra); o en el autobús 25 o taxi colectivo hasta Ourika y de ahí en taxi",
+   "rock_note": "arenisca densa y rugosa con microrrelieve, más sólida que muchas areniscas; seca rápido tras la lluvia y la nieve",
+   "approach": "Sectores junto al pueblo: 2–15 minutos a pie desde el aparcamiento",
+   "restrictions": "En la meseta de Oukaïmeden hay grabados rupestres prehistóricos: no escalar ni poner magnesio en bloques con grabados",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — guía digital en la app Rakkup, unos 1000 problemas en 21 sectores",
+   "stay": "Chalet Mostapha, refugio del Club Alpin Français, Hotel Aurocher, Chez Rachid",
+   "pros": [
+    "Muchos problemas fáciles y medios",
+    "Bloques junto al pueblo",
+    "Fresco en verano gracias a la altitud",
+    "Marrakech, con vuelos baratos, a hora y media"
+   ],
+   "cons": [
+    "Nieve y temporada de esquí en invierno",
+    "Altitud ~2600 m — los primeros días cuestan más",
+    "Poca infraestructura: alquiler de crash pads limitado"
+   ],
+   "airport": "RAK — Marrakech, ~1,5 h"
   }
  }
 }

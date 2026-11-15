@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "SE–ESE-Passat, schräg auflandig",
    "airport": "NOU — Nouméa La Tontouta, ~50 Min."
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa ist ein Feld aus Granit- und Gneisblöcken am Ufer des Bafa-Sees beim Dorf Kapıkırı, zwischen den Ruinen des antiken Herakleia am Latmos. Riesige Blöcke, die vom Latmos-Gebirge herabgerollt sind, reichen vom Wasser bis an die Hänge; 2014 machte hier der Petzl RocTrip Station. Geklettert wird von Herbst bis Frühjahr, im Sommer ist es zu heiß.",
+   "rating_basis": "Station des Petzl RocTrip 2014 („ein Ozean von Boulderproblemen“ am See); wenig bekannt, Topo-Datenbanken lückenhaft",
+   "hazards": "Scharfer Fels, abbrechende Kristalle (besonders nach Regen), Hitze und Schlangen in den warmen Monaten",
+   "crowd_note": "Wenig bekanntes Gebiet: kaum jemand an den Blöcken",
+   "region": "Muğla, Bezirk Milas: Bafa-See, Dorf Kapıkırı (antikes Herakleia am Latmos)",
+   "season": "Oktober bis Mai; am besten März–April und Ende Oktober–November; von Juni bis September zu heiß",
+   "transfer": "Vom Flughafen Bodrum etwa eine Stunde mit dem Auto, von İzmir etwa zwei; ein Auto ist ratsam — von der Seestraße bis Kapıkırı ~10 km",
+   "rock_note": "grobkörniger Granit und Gneis: riesige Blöcke, vom Latmos herabgerollt — Risse, vorstehende Kristalle, ausgewaschene Löcher; scharf und stellenweise brüchig",
+   "approach": "Die ersten Blöcke wenige Gehminuten vom Dorf Kapıkırı; weitere höher an den Hängen des Latmos",
+   "restrictions": "Archäologische Zone des Latmos: unter Überhängen und in Höhlen gibt es antike Felsmalereien — vor dem Bürsten und Chalken den Fels prüfen; Müll mitnehmen",
+   "guidebook": "Topos verstreut: madboulder.org, thetopo.com (Çörlenasarı Castle) und theCrag",
+   "stay": "Pensionen im Dorf Kapıkırı mit Frühstück und Abendessen; kleine Auswahl, früh buchen",
+   "pros": [
+    "Warmer Herbst und Frühling, wenn es in Europa schon kalt ist",
+    "Blöcke direkt am Dorf, Blick auf See und Ruinen",
+    "Fast keine Leute",
+    "Flughafen Bodrum in der Nähe"
+   ],
+   "cons": [
+    "Scharfer, stellenweise brüchiger Fels — hart für die Haut",
+    "Lückenhafte Topos, vieles muss man selbst suchen",
+    "Im Sommer heiß"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 Std.; ADB — İzmir, ~2 Std."
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden ist ein Skidorf auf etwa 2600 m im Hohen Atlas, anderthalb Stunden von Marrakesch, und das erste Bouldergebiet des Atlas. Rund tausend Probleme auf dichtem, rauem Sandstein, viele leichte und mittlere, bis in den 8. Grad. Geklettert wird im Frühjahr und Herbst, im Sommer in den kühlen Stunden; im Winter liegt Schnee.",
+   "rating_basis": "Erstes Bouldergebiet des Hohen Atlas: etwa 1000 Probleme im Führer, jährliches Oukaimeden Boulderfest im Mai; junges, noch wenig bekanntes Gebiet",
+   "hazards": "Höhe von etwa 2600 m und starke Sonne, kalte Nächte, Sommergewitter in den Bergen",
+   "crowd_note": "Fast leer; voll nur während des Festivals Anfang Mai",
+   "region": "Hoher Atlas, Provinz Al Haouz, ~75 km von Marrakesch",
+   "season": "März–Mai und September–November; im Sommer morgens und abends klettern (Höhe ~2600 m); von Dezember bis Februar Schnee — hier ist ein Skigebiet",
+   "transfer": "Von Marrakesch etwa 1,5 Std. mit dem Auto über Ourika auf der P2017 (die Navigation führt manchmal auf eine Schotterpiste); oder mit Bus 25 bzw. Sammeltaxi bis Ourika und weiter per Taxi",
+   "rock_note": "dichter, rauer Sandstein mit kleinen Strukturen, fester als viele Sandsteine; trocknet nach Regen und Schnee schnell",
+   "approach": "Sektoren direkt am Dorf: 2–15 Gehminuten vom Parkplatz",
+   "restrictions": "Auf dem Plateau von Oukaïmeden gibt es prähistorische Felsgravuren: Blöcke mit Gravuren nicht beklettern und nicht chalken",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — digitaler Führer in der App Rakkup, etwa 1000 Probleme in 21 Sektoren",
+   "stay": "Chalet Mostapha, Hütte des Club Alpin Français, Hotel Aurocher, Chez Rachid",
+   "pros": [
+    "Viele leichte und mittlere Probleme",
+    "Blöcke direkt am Dorf",
+    "Im Sommer dank der Höhe kühl",
+    "Marrakesch mit günstigen Flügen anderthalb Stunden entfernt"
+   ],
+   "cons": [
+    "Im Winter Schnee und Skisaison",
+    "Höhe ~2600 m — die ersten Tage sind härter",
+    "Wenig Infrastruktur: begrenzter Crashpad-Verleih"
+   ],
+   "airport": "RAK — Marrakesch, ~1,5 Std."
   }
  }
 }

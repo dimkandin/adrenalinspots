@@ -20491,6 +20491,60 @@
    ],
    "wind_dir": "Alizé de SE–ESE, side-onshore",
    "airport": "NOU — Nouméa-La Tontouta, ~50 min"
+  },
+  "bafa": {
+   "h": "5994b19cb8",
+   "description": "Bafa est un champ de blocs de granite et de gneiss au bord du lac Bafa, près du village de Kapıkırı, parmi les ruines de l’antique Héraclée du Latmos. D’énormes blocs dévalés des monts Latmos s’étendent de l’eau jusqu’aux pentes ; en 2014, le site a accueilli une étape du Petzl RocTrip. On grimpe de l’automne au printemps, l’été est trop chaud.",
+   "rating_basis": "Étape du Petzl RocTrip 2014 (« un océan de blocs » au bord du lac) ; site peu connu, topos incomplets",
+   "hazards": "Rocher coupant, cristaux qui cassent (surtout après la pluie), chaleur et serpents pendant les mois chauds",
+   "crowd_note": "Site peu connu : presque personne sur les blocs",
+   "region": "Muğla, district de Milas : lac Bafa, village de Kapıkırı (antique Héraclée du Latmos)",
+   "season": "d’octobre à mai ; idéal en mars–avril et de fin octobre à novembre ; trop chaud de juin à septembre",
+   "transfer": "Environ une heure en voiture depuis l’aéroport de Bodrum, deux depuis Izmir ; une voiture est conseillée — Kapıkırı est à ~10 km de la route du lac",
+   "rock_note": "granite et gneiss à gros grain : énormes blocs dévalés des monts Latmos — fissures, cristaux saillants, trous creusés par l’eau ; rocher coupant, par endroits fragile",
+   "approach": "Premiers blocs à quelques minutes à pied du village de Kapıkırı ; d’autres plus haut sur les pentes du Latmos",
+   "restrictions": "Zone archéologique du Latmos : sous les surplombs et dans les grottes se trouvent des peintures rupestres anciennes — vérifier le rocher avant de brosser ou de mettre de la magnésie ; remporter ses déchets",
+   "guidebook": "Topos dispersés : madboulder.org, thetopo.com (Çörlenasarı Castle) et theCrag",
+   "stay": "Pensions à Kapıkırı avec petit-déjeuner et dîner ; choix limité, réserver à l’avance",
+   "pros": [
+    "Automne et printemps doux quand il fait déjà froid en Europe",
+    "Blocs au pied du village, vue sur le lac et les ruines",
+    "Presque personne",
+    "Aéroport de Bodrum à proximité"
+   ],
+   "cons": [
+    "Rocher coupant, par endroits fragile — dur pour la peau",
+    "Topos incomplets, beaucoup à chercher soi-même",
+    "Chaleur en été"
+   ],
+   "airport": "BJV — Bodrum (Milas), ~1 h ; ADB — Izmir, ~2 h"
+  },
+  "oukaimeden": {
+   "h": "9cbfab067b",
+   "description": "Oukaïmeden est une station de ski à environ 2 600 m dans le Haut Atlas, à une heure et demie de Marrakech, et le premier site de bloc de l’Atlas. Près d’un millier de blocs sur un grès dense et rugueux, beaucoup de faciles et de moyens, jusqu’au 8e degré. On grimpe au printemps et à l’automne, l’été aux heures fraîches ; l’hiver, il y a de la neige.",
+   "rating_basis": "Premier site de bloc du Haut Atlas : environ 1 000 blocs dans le topo, l’Oukaimeden Boulderfest chaque année en mai ; site jeune et encore peu connu",
+   "hazards": "Altitude d’environ 2 600 m et soleil fort, nuits froides, orages d’été en montagne",
+   "crowd_note": "Presque vide ; du monde seulement pendant le festival début mai",
+   "region": "Haut Atlas, province d’Al Haouz, ~75 km de Marrakech",
+   "season": "mars–mai et septembre–novembre ; l’été, grimper le matin et le soir (altitude ~2 600 m) ; de décembre à février, neige — c’est une station de ski",
+   "transfer": "Environ 1 h 30 en voiture depuis Marrakech par Ourika et la P2017 (le GPS propose parfois une piste) ; ou bus 25 / grand taxi jusqu’à Ourika puis taxi",
+   "rock_note": "grès dense et rugueux à petites prises, plus solide que beaucoup de grès ; sèche vite après la pluie et la neige",
+   "approach": "Secteurs au pied du village : 2 à 15 minutes à pied du parking",
+   "restrictions": "Le plateau d’Oukaïmeden abrite des gravures rupestres préhistoriques : ne pas grimper ni mettre de magnésie sur les blocs gravés",
+   "guidebook": "Oukaimeden Bouldering (Keoma Jacobs-Moed, imik’simik) — topo numérique dans l’appli Rakkup, environ 1 000 blocs dans 21 secteurs",
+   "stay": "Chalet Mostapha, refuge du Club Alpin Français, Hôtel Aurocher, Chez Rachid",
+   "pros": [
+    "Beaucoup de blocs faciles et moyens",
+    "Blocs au pied du village",
+    "Frais en été grâce à l’altitude",
+    "Marrakech et ses vols bon marché à une heure et demie"
+   ],
+   "cons": [
+    "Neige et saison de ski en hiver",
+    "Altitude ~2 600 m — les premiers jours sont plus durs",
+    "Peu d’infrastructures : location de crash pads limitée"
+   ],
+   "airport": "RAK — Marrakech, ~1 h 30"
   }
  }
 }
