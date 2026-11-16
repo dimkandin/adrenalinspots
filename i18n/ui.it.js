@@ -890,7 +890,7 @@ export default {
   'share.text_off': "{name}: quando andare",
   'sec.nearby': "Vicini e simili",
   'card.nearby': "Vicini, entro 500 km",
-  'card.also_peak': "Anche in stagione ottima {in_month}",
+  'card.also_peak': "Simili, in stagione ottima {in_month}",
   'card.km': "{v} km",
   'seo.nearby': "Nelle vicinanze",
   'divesuit.35': "3–5 mm",

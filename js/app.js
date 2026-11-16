@@ -122,6 +122,15 @@ function loadAllIndex() {
   }
   return allIndex;
 }
+const sportLists = new Map();
+function loadSportSpots(act) {
+  if (!sportLists.has(act)) {
+    const p = getJSON(`/api/spots?activity=${act}`, `/data/spots-${act}.json`);
+    p.catch(() => sportLists.delete(act));
+    sportLists.set(act, p);
+  }
+  return sportLists.get(act);
+}
 const loadSpots = () => (isAll() ? loadAllIndex().then((d) => ({ spots: d.spots.map((x) => ({ ...x, seasons: [...x.seasons] })) }))
   : getJSON(`/api/spots?activity=${state.activity}`, `/data/spots-${state.activity}.json`));
 const loadSpot = async (id, act = state.activity) => {
@@ -478,6 +487,9 @@ const panelCtx = () => {
   return {
     month: state.month, setMonth, activity: act,
     spots: isAll() ? state.spots.filter((s) => s.a === act) : state.spots,
+    // «Nearby and similar» needs the full list of the card's sport; in «All sports» it is loaded once per sport
+    sportSpots: isAll() ? null : state.spots,
+    loadSportSpots,
     open: (id) => select(id, { focusCard: true, act }),
     // «Other sports nearby»: the every-sport list, and how to open one of its places
     others: loadAllIndex,

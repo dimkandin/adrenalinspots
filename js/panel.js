@@ -851,15 +851,61 @@ function distKm(a, b) {
   return 2 * 6371 * Math.asin(Math.sqrt(x));
 }
 
-/** «Nearby and similar»: spots of the same sport within 500 km, and other places with a great season this month. */
-function nearbyBlock(spot, month, c) {
-  if (!c || !c.open || spot.activity !== c.activity || spot.lat == null) return null;
-  const all = (c.spots || []).filter((s) => s.id !== spot.id && s.lat != null);
+/** What makes two spots of one sport alike, for «Similar spots» (fields of the spot list). */
+const LIKE_TRAITS = {
+  kite: ['water', 'level', 'wave_riding'], windsurf: ['water', 'styles', 'main_style', 'level'], surf: ['break_type', 'level', 'wave_direction'],
+  snowboard: ['freeride', 'beginner', 'glacier', 'snowpark', 'vertical_m', 'pistes_km'], climbing: ['styles', 'main_style', 'rock', 'hard', 'beginner'],
+  paragliding: ['flying_type', 'xc', 'beginner', 'level'], diving: ['dive_types', 'access', 'level', 'current'],
+  sailing: ['waters', 'charter', 'difficulty', 'boats'], bungee: ['platform', 'water_touch', 'height_m', 'extras'], viaferrata: ['difficulty', 'features', 'kids'],
+};
+const ICE = new Set(['snow', 'ice']);
+/** Snowkite spots ride on snow or ice, the rest on water; a frozen lake in winter does both. */
+function surfaces(s) {
+  const w = s.water || [];
+  return { snow: w.some((x) => ICE.has(x)), water: !w.length || w.some((x) => !ICE.has(x)) };
+}
+/** 0–1: how alike two spots are on the sport's traits (sets — share of common values, numbers — closeness, the rest — equality). */
+function likeness(a, b, keys, ranges, onSnow) {
+  let sum = 0, n = 0;
+  for (const k of keys) {
+    if (onSnow && (k === 'water' || k === 'wave_riding')) continue;
+    let x = a[k], y = b[k];
+    if (k === 'water') { x = (x || []).filter((v) => !ICE.has(v)); y = (y || []).filter((v) => !ICE.has(v)); }
+    if (x == null || y == null) continue;
+    let v;
+    if (Array.isArray(x)) {
+      const u = new Set([...x, ...(Array.isArray(y) ? y : [y])]);
+      if (!u.size) continue;
+      v = x.filter((e) => (Array.isArray(y) ? y : [y]).includes(e)).length / u.size;
+    } else if (typeof x === 'number' && typeof y === 'number') v = 1 - Math.min(1, Math.abs(x - y) / (ranges[k] || 1));
+    else v = x === y ? 1 : 0;
+    sum += v; n += 1;
+  }
+  return n ? sum / n : 0.5;
+}
+
+/** «Nearby and similar»: spots of the same sport within 500 km, and similar places with a great season this month
+ *  (same surface — snow or water, alike on the sport's traits, better rated, a little closer; one per country). */
+function nearbyBlock(spot, month, c, list) {
+  const me = list.find((s) => s.id === spot.id) || spot;   // the list entry has the traits as plain fields, like the others
+  const own = surfaces(me);
+  const onSnow = (spot.seasons || [])[month - 1] === 'snow' || (own.snow && !own.water);
+  const fits = (s) => (onSnow ? surfaces(s).snow : surfaces(s).water);
+  const all = list.filter((s) => s.id !== spot.id && s.lat != null && fits(s));
   const near = all.map((s) => ({ s, d: distKm(spot, s) })).filter((x) => x.d <= 500).sort((a, b) => a.d - b.d).slice(0, 5);
   const nearIds = new Set(near.map((x) => x.s.id));
-  const countries = new Set([spot.cc]);   // one place per country, so the list shows other directions
-  const like = all.filter((s) => !nearIds.has(s.id) && (s.seasons || [])[month - 1] === 'peak')
-    .sort((a, b) => (b.rating || 0) - (a.rating || 0) || (b.popularity || 0) - (a.popularity || 0))
+  const keys = LIKE_TRAITS[spot.activity] || [];
+  const ranges = {};
+  for (const k of keys) {
+    const nums = list.map((s) => s[k]).filter((v) => typeof v === 'number');
+    if (nums.length) ranges[k] = (Math.max(...nums) - Math.min(...nums)) || 1;
+  }
+  const good = onSnow ? 'snow' : 'peak';
+  const countries = new Set();   // one place per country, so the list shows different directions
+  const like = all.filter((s) => !nearIds.has(s.id) && (s.seasons || [])[month - 1] === good)
+    .map((s) => ({ s, score: 2 * likeness(me, s, keys, ranges, onSnow) + 0.4 * (s.rating || 0) - (0.6 * distKm(spot, s)) / 20000 }))
+    .sort((a, b) => b.score - a.score || (b.s.popularity || 0) - (a.s.popularity || 0))
+    .map((x) => x.s)
     .filter((s) => !countries.has(s.cc) && countries.add(s.cc)).slice(0, 4);
   if (!near.length && !like.length) return null;
   const item = (s, d) => h('li', {}, h('button', {
@@ -874,6 +920,26 @@ function nearbyBlock(spot, month, c) {
     near.length ? h('ul', { class: 'nb-list' }, ...near.map((x) => item(x.s, x.d))) : null,
     like.length ? h('h4', { class: 'sub' }, t('card.also_peak', { in_month: MONTHS_IN[month - 1] })) : null,
     like.length ? h('ul', { class: 'nb-list' }, ...like.map((s) => item(s, null))) : null);
+}
+
+/** The «Nearby and similar» section. It needs the full list of the card's sport (surface, traits, snowkite season):
+ *  in a sport section that is the loaded list, in «All sports» the short every-sport list lacks them, so it is loaded. */
+function nearbySection(spot, month, c) {
+  if (!c || !c.open || spot.activity !== c.activity || spot.lat == null) return null;
+  if (c.sportSpots) {
+    const block = nearbyBlock(spot, month, c, c.sportSpots);
+    return block ? section(t('sec.nearby'), block) : null;
+  }
+  if (!c.loadSportSpots) return null;
+  const host = h('div', {});
+  const sec = section(t('sec.nearby'), host);
+  sec.hidden = true;
+  c.loadSportSpots(spot.activity).then((d) => {
+    if (!current || current.id !== spot.id) return;
+    const block = nearbyBlock(spot, month, c, (d && d.spots) || []);
+    if (block) { host.append(block); sec.hidden = false; }
+  }).catch(() => {});
+  return sec;
 }
 
 /** «Other sports nearby»: places of the other sections within 60 km, those in season this month first.
@@ -1196,8 +1262,8 @@ export function renderPanel(spot, context) {
 
   const others = otherSportsBlock(spot, month, ctx);
   if (others) body.append(others);
-  const related = nearbyBlock(spot, month, ctx);
-  if (related) body.append(section(t('sec.nearby'), related));
+  const related = nearbySection(spot, month, ctx);
+  if (related) body.append(related);
 
   const links = spot.links || {};
   const linkList = h('ul', { class: 'links' },

@@ -891,7 +891,7 @@ export default {
   'share.text_off': "{name}: когда ехать",
   'sec.nearby': "Рядом и похожие",
   'card.nearby': "Рядом, до 500 км",
-  'card.also_peak': "Ещё отличный сезон {in_month}",
+  'card.also_peak': "Похожие места с отличным сезоном {in_month}",
   'card.km': "{v} км",
   'seo.nearby': "Рядом",
   'divesuit.35': "3–5 мм",

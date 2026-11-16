@@ -890,7 +890,7 @@ export default {
   'share.text_off': "{name}: when to go",
   'sec.nearby': "Nearby and similar",
   'card.nearby': "Nearby, within 500 km",
-  'card.also_peak': "Also great {in_month}",
+  'card.also_peak': "Similar spots, also great {in_month}",
   'card.km': "{v} km",
   'seo.nearby': "Nearby",
   'divesuit.35': "3–5 mm",

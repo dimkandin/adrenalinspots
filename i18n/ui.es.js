@@ -890,7 +890,7 @@ export default {
   'share.text_off': "{name}: cuándo ir",
   'sec.nearby': "Cerca y similares",
   'card.nearby': "Cerca, a menos de 500 km",
-  'card.also_peak': "También en temporada excelente {in_month}",
+  'card.also_peak': "Similares, con temporada excelente {in_month}",
   'card.km': "{v} km",
   'seo.nearby': "Cerca",
   'divesuit.35': "3–5 mm",

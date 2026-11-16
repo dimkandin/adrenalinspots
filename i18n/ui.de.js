@@ -890,7 +890,7 @@ export default {
   'share.text_off': "{name}: wann hinfahren",
   'sec.nearby': "In der Nähe und ähnlich",
   'card.nearby': "In der Nähe, bis 500 km",
-  'card.also_peak': "Ebenfalls beste Saison {in_month}",
+  'card.also_peak': "Ähnliche Spots mit bester Saison {in_month}",
   'card.km': "{v} km",
   'seo.nearby': "In der Nähe",
   'divesuit.35': "3–5 mm",
