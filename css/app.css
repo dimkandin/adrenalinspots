@@ -782,3 +782,5 @@ a.trip-title:hover { text-decoration: underline; }
 .trip-note { margin: 5px 0 0; font-size: 13px; }
 .trip-org { margin: 5px 0 0; font-size: 12.5px; color: var(--ink-2); }
 .sc-away { font-size: 13px; margin: 6px 0 0; }
+.p-unique { margin: 10px 0 2px; padding: 8px 12px; border-radius: 10px; background: #fff6e0; border: 1px solid #f3dca4; font-size: 14px; line-height: 1.45; }
+.p-unique b { color: #8a5a00; }

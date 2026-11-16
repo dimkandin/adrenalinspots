@@ -147,7 +147,7 @@ export function localizeSpot(s) {
     }
     if (s.attrs) {   // surf and other activity-specific texts
       const map = { area_breaks: 'area_breaks_ru', beginner_months: 'beginner_months_ru', best_wind_dir: 'best_wind_dir', best_swell_dir: 'best_swell_dir', wave_size_m: 'wave_size_m',
-        season: 'season_ru', transfer: 'transfer_ru',
+        season: 'season_ru', transfer: 'transfer_ru', unique: 'unique_ru',
         rock_note: 'rock_note_ru', approach: 'approach_ru', restrictions: 'restrictions_ru', guidebook: 'guidebook_ru', stay: 'stay_ru', famous_lines: 'famous_lines_ru',
         takeoffs: 'takeoffs_ru', wind_note: 'wind_ru', best_time: 'best_time_ru', access: 'access_ru', xc_note: 'xc_note_ru', rules: 'rules_ru', landing: 'landing_ru', events: 'events_ru',
         launch: 'launch_ru', sail_note: 'sail_note_ru',

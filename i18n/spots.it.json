@@ -2150,28 +2150,31 @@
    "airport": "LED — Pulkovo, ~1 h"
   },
   "teriberka-kola": {
-   "h": "f61450bbd9",
-   "description": "Teriberka è un villaggio sulla costa del Mare di Barents, a 2–2,5 h da Murmansk, diventato una delle principali mete di snowkite della Russia. Si naviga sulla lingua di sabbia alla foce del fiume, sui laghi ghiacciati e nella tundra collinare intorno al monte Eriveiv e al bacino di Verkhne-Teriberka. La stagione va da fine novembre ad aprile, il periodo migliore è marzo–inizio aprile: giornate lunghe, neve compatta e il vento più forte.",
-   "rating_basis": "Una delle principali zone di snowkite della Russia: enorme tundra aperta, vento forte e frequente e paesaggi artici; i camp sono organizzati da grandi scuole (Riders of the Storm, SnowKiteWorld e altre); contro: meteo rigido e notte polare",
-   "waves_note": "Tundra innevata con colline fino a ~300 m, laghi ghiacciati e il bacino di Verkhne-Teriberka; sulla lingua di sabbia alla foce del fiume è comodo partire",
+   "h": "bc63a55f6c",
    "hazards": "Tormente e whiteout, congelamento, sassi sui pendii spazzati dal vento, nessuna copertura telefonica nelle zone lontane; negli spot lontani solo con guida",
    "gustiness_note": "Il vento dal mare è forte e frequente, vicino alle colline e sul rilievo rafficato; a marzo soffia ~9 giorni su 10 (secondo gli organizzatori)",
-   "crowd_note": "Si esce soprattutto con gruppi di kite tour, la tundra è praticamente vuota",
    "region": "Oblast' di Murmansk, costa del Mare di Barents",
+   "wind_dir": "Qualsiasi direzione: tundra aperta; spesso vento forte dal Mare di Barents",
+   "airport": "MMK — Murmansk, ~2–2,5 h in auto",
+   "description": "Teriberka è un villaggio sulla costa del Mare di Barents, a 2–2,5 h da Murmansk, e uno dei posti più insoliti al mondo per lo snowkite. Tutto intorno ci sono enormi colline innevate vuote e tundra senza alberi né persone: si può partire per downwind di decine di chilometri, saltare dalle colline e arrivare fino ai laghi ghiacciati e all'oceano. I principianti imparano sulla lingua di terra alla foce del fiume e sui laghi ghiacciati pianeggianti. La stagione va da dicembre ad aprile, il meglio a marzo e inizio aprile: giornate lunghe, neve compatta e vento costante, e nelle notti serene l'aurora boreale.",
+   "rating_basis": "Snowkite unico: enormi colline vuote e tundra per downwind di decine di chilometri, vento forte e frequente, aurora boreale e paesaggi artici. Diverse scuole organizzano campi (KITEBOOM, Kiteclass, Riders of the Storm e altre). Contro: freddo, giornate corte a dicembre–gennaio e tormente che fanno chiudere la strada.",
+   "waves_note": "Colline innevate fino a ~300 m e tundra senza alberi, laghi ghiacciati e il bacino di Verchneteriberskoe; i principianti partono dalla lingua di terra alla foce del fiume",
+   "crowd_note": "Ci sono soprattutto gruppi dei kite camp; la tundra è quasi vuota",
+   "vibe_note": "Niente vita notturna, ma nel villaggio ci sono ristoranti di cucina del nord — granchio reale, ricci di mare, merluzzo — e nelle notti serene sopra la tundra c'è l'aurora boreale.",
+   "unique": "Downwind di decine di chilometri tra le colline innevate e deserte della penisola di Kola fino al Mare di Barents: uno snowkite così non esiste quasi da nessun'altra parte. E la sera l'aurora boreale e granchio reale con ricci di mare a cena.",
    "pros": [
-    "Vento forte e frequente",
-    "Tundra sconfinata e vuota, percorsi lunghi",
-    "Paesaggi artici e aurora boreale",
-    "Kite camp organizzati con transfer da Murmansk"
+    "Downwind di decine di chilometri su colline e tundra deserte",
+    "Vento forte frequente e tanto spazio",
+    "Aurora boreale nelle notti serene",
+    "Granchio reale, ricci di mare e merluzzo nei ristoranti locali",
+    "Campi con transfer da Murmansk e supporto in motoslitta"
    ],
    "cons": [
-    "Notte polare da dicembre a inizio gennaio",
-    "Le tormente chiudono la strada Murmansk–Teriberka",
-    "Freddo e vento forte: serve una buona attrezzatura",
-    "Spot remoti senza copertura"
-   ],
-   "wind_dir": "Qualsiasi direzione: tundra aperta; spesso vento forte dal Mare di Barents",
-   "airport": "MMK — Murmansk, ~2–2,5 h in auto"
+    "Notte polare a dicembre e nella prima metà di gennaio",
+    "Con la tormenta chiudono la strada Murmansk — Teriberka",
+    "Gelo e vento: serve abbigliamento caldo",
+    "Niente copertura sui percorsi lunghi"
+   ]
   },
   "long-bay-providenciales": {
    "h": "08e4263ec6",

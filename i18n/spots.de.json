@@ -2150,28 +2150,31 @@
    "airport": "LED — Pulkowo, ~1 Std."
   },
   "teriberka-kola": {
-   "h": "f61450bbd9",
-   "description": "Teriberka ist ein Ort an der Barentsseeküste, 2–2,5 Std. von Murmansk entfernt, der zu einem der wichtigsten Snowkite-Ziele Russlands geworden ist. Gefahren wird auf der Landzunge an der Flussmündung, auf zugefrorenen Seen und in der hügeligen Tundra am Berg Eriwejw und am Werchneteriberskoje-Stausee. Saison ist von Ende November bis April, die beste Zeit ist März bis Anfang April: lange Tage, fester Schnee und der stärkste Wind.",
-   "rating_basis": "Eine der wichtigsten Snowkite-Regionen Russlands: riesige offene Tundra, häufig starker Wind und arktische Landschaften; Camps veranstalten große Schulen (Riders of the Storm, SnowKiteWorld u. a.); Minus: raues Wetter und Polarnacht",
-   "waves_note": "Verschneite Tundra mit Hügeln bis ~300 m, zugefrorene Seen und der Werchneteriberskoje-Stausee; auf der Landzunge an der Flussmündung lässt sich gut starten",
+   "h": "bc63a55f6c",
    "hazards": "Schneestürme und Whiteout, Erfrierungen, Steine an abgewehten Hängen, kein Netz in entlegenen Gebieten; zu entfernten Spots nur mit Guide",
    "gustiness_note": "Der Wind vom Meer ist stark und häufig, an Hügeln und im Gelände böig; im März weht er an ~9 von 10 Tagen (laut den Veranstaltern)",
-   "crowd_note": "Gefahren wird meist in Gruppen von Kitetouren, die Tundra ist praktisch leer",
    "region": "Oblast Murmansk, Barentsseeküste",
+   "wind_dir": "Alle Richtungen – offene Tundra; oft starker Wind von der Barentssee",
+   "airport": "MMK — Murmansk, ~2–2,5 Std. mit dem Auto",
+   "description": "Teriberka ist ein Dorf an der Barentssee, 2–2,5 Std. von Murmansk, und einer der ungewöhnlichsten Snowkite-Orte der Welt. Ringsum liegen riesige, leere Schneehügel und baumlose Tundra ohne Menschen: Downwinder über Dutzende Kilometer, Sprünge von den Hügeln und Fahrten bis zu gefrorenen Seen und zum Ozean. Anfänger lernen auf der Landzunge an der Flussmündung und auf flachen gefrorenen Seen. Saison ist von Dezember bis April, am besten im März und Anfang April: lange Tage, fester Schnee und stetiger Wind, und in klaren Nächten Polarlichter.",
+   "rating_basis": "Einzigartiges Snowkiten: riesige leere Hügel und Tundra für Downwinder über Dutzende Kilometer, häufiger starker Wind, Polarlichter und arktische Landschaft. Mehrere Schulen veranstalten Camps (KITEBOOM, Kiteclass, Riders of the Storm und andere). Nachteile: Kälte, kurze Tage im Dezember–Januar und Schneestürme, bei denen die Straße gesperrt wird.",
+   "waves_note": "Schneehügel bis ~300 m und baumlose Tundra, gefrorene Seen und der Stausee Werchneteriberskoje; Anfänger starten auf der Landzunge an der Flussmündung",
+   "crowd_note": "Hier fahren vor allem Gruppen von Kite-Camps; die Tundra ist fast leer",
+   "vibe_note": "Kein Nachtleben, aber im Dorf gibt es Restaurants mit nordischer Küche – Königskrabbe, Seeigel, Kabeljau –, und in klaren Nächten tanzen Polarlichter über der Tundra.",
+   "unique": "Downwinder über Dutzende Kilometer durch die leeren Schneehügel der Halbinsel Kola bis zur Barentssee – so ein Snowkiten gibt es kaum anderswo. Und abends Polarlichter und Königskrabbe mit Seeigeln zum Essen.",
    "pros": [
-    "Häufiger starker Wind",
-    "Endlose leere Tundra, lange Routen",
-    "Arktische Landschaften und Polarlichter",
-    "Organisierte Kitecamps mit Transfer ab Murmansk"
+    "Downwinder über Dutzende Kilometer durch leere Hügel und Tundra",
+    "Häufig starker Wind und viel Platz",
+    "Polarlichter in klaren Nächten",
+    "Königskrabbe, Seeigel und Kabeljau in den Restaurants vor Ort",
+    "Camps mit Transfer ab Murmansk und Schneemobil-Begleitung"
    ],
    "cons": [
-    "Polarnacht im Dezember–Anfang Januar",
-    "Schneestürme sperren die Straße Murmansk–Teriberka",
-    "Kälte und starker Wind – gute Ausrüstung nötig",
-    "Entlegene Spots ohne Netz"
-   ],
-   "wind_dir": "Alle Richtungen – offene Tundra; oft starker Wind von der Barentssee",
-   "airport": "MMK — Murmansk, ~2–2,5 Std. mit dem Auto"
+    "Polarnacht im Dezember und in der ersten Januarhälfte",
+    "Bei Schneesturm wird die Straße Murmansk – Teriberka gesperrt",
+    "Frost und Wind – warme Ausrüstung nötig",
+    "Auf langen Routen kein Netz"
+   ]
   },
   "long-bay-providenciales": {
    "h": "08e4263ec6",

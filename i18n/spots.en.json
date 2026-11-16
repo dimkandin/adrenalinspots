@@ -2150,28 +2150,31 @@
    "airport": "LED — Pulkovo, ~1 h"
   },
   "teriberka-kola": {
-   "h": "f61450bbd9",
-   "description": "Teriberka is a village on the Barents Sea coast, 2–2.5 h from Murmansk, that has become one of Russia's main snowkiting destinations. People ride on the spit at the river mouth, on frozen lakes and in the hilly tundra around Mount Eriveiv and the Verkhne-Teriberka Reservoir. The season runs from late November to April; the best time is March to early April: long days, firm snow and the strongest wind.",
-   "rating_basis": "One of Russia's main snowkiting regions: vast open tundra, frequent strong wind and Arctic scenery; camps are run by big schools (Riders of the Storm, SnowKiteWorld and others); downsides — harsh weather and the polar night",
-   "waves_note": "Snow-covered tundra with hills up to ~300 m, frozen lakes and the Verkhne-Teriberka Reservoir; the spit at the river mouth is a convenient launch",
+   "h": "bc63a55f6c",
    "hazards": "Blizzards and whiteout, frostbite, rocks on wind-scoured slopes, no phone signal in remote areas; distant spots only with a guide",
    "gustiness_note": "The wind off the sea is strong and frequent, gusty near hills and over terrain; in March it blows ~9 days out of 10 (according to the organisers)",
-   "crowd_note": "Mostly kite-tour groups ride here; the tundra is practically empty",
    "region": "Murmansk Oblast, Barents Sea coast",
+   "wind_dir": "Any direction — open tundra; often strong wind off the Barents Sea",
+   "airport": "MMK — Murmansk, ~2–2.5 h by car",
+   "description": "Teriberka is a village on the Barents Sea coast, 2–2.5 h from Murmansk, and one of the most unusual snowkite places in the world. All around are huge empty snowy hills and tundra with no trees and no people: you can head off on downwinders of dozens of kilometres, jump off the hills and ride out to frozen lakes and to the ocean. Beginners learn on the spit at the river mouth and on flat frozen lakes. The season runs from December to April, best in March and early April: long days, firm snow and steady wind, and on clear nights the northern lights.",
+   "rating_basis": "Unique snowkiting: huge empty hills and tundra for downwinders of dozens of kilometres, frequent strong wind, the northern lights and Arctic scenery. Several schools run camps (KITEBOOM, Kiteclass, Riders of the Storm and others). Downsides: cold, short days in December–January and blizzards that close the road.",
+   "waves_note": "Snowy hills up to ~300 m and treeless tundra, frozen lakes and the Verkhneteriberskoye reservoir; beginners start on the spit at the river mouth",
+   "crowd_note": "Mostly kite camp groups ride here; the tundra is almost empty",
+   "vibe_note": "No nightlife, but the village has restaurants serving northern food — red king crab, sea urchins, cod — and on clear nights the northern lights dance over the tundra.",
+   "unique": "Downwinders of dozens of kilometres across the empty snowy hills of the Kola Peninsula to the Barents Sea — snowkiting like this hardly exists anywhere else. And in the evening: the northern lights and king crab with sea urchins for dinner.",
    "pros": [
-    "Frequent strong wind",
-    "Endless empty tundra, long routes",
-    "Arctic scenery and the northern lights",
-    "Organised kite camps with transfers from Murmansk"
+    "Downwinders of dozens of kilometres over empty hills and tundra",
+    "Frequent strong wind and plenty of space",
+    "Northern lights on clear nights",
+    "Red king crab, sea urchins and cod in local restaurants",
+    "Camps with Murmansk transfers and snowmobile support"
    ],
    "cons": [
-    "Polar night in December–early January",
-    "Blizzards close the Murmansk–Teriberka road",
-    "Cold and strong wind — good gear is essential",
-    "Remote spots with no signal"
-   ],
-   "wind_dir": "Any direction — open tundra; often strong wind off the Barents Sea",
-   "airport": "MMK — Murmansk, ~2–2.5 h by car"
+    "Polar night in December and the first half of January",
+    "The Murmansk — Teriberka road closes in blizzards",
+    "Frost and wind — you need warm gear",
+    "No phone signal on long routes"
+   ]
   },
   "long-bay-providenciales": {
    "h": "08e4263ec6",

@@ -133,7 +133,7 @@ function vibeBlock(spot) {
   const list = (c) => ['bars', 'clubs', 'restaurants', 'cafes', 'hotels'].map((k) => tn(`n.${k}`, c[k] || 0)).join(', ');
   const wrap = h('div', { class: 'vibe' },
     h('div', { class: 'vibe-head' }, meter(v.score, 5, t('card.vibe')), h('b', {}, t('card.vibe_score', { s: v.score, label: vibeLabel(v.score) }))));
-  if (v.manual && v.note) wrap.append(h('p', { class: 'vibe-note' }, v.note));
+  if (v.note) wrap.append(h('p', { class: 'vibe-note' }, v.note));
   if (v.bars != null) {
     wrap.append(h('p', { class: 'vibe-counts' }, t('card.vibe_near', { km: v.radius_km, list: list(v) })));
     if (v.ring) wrap.append(h('p', { class: 'vibe-counts' }, t('card.vibe_ring', { km: v.ring.km, list: list(v.ring) })));
@@ -1060,6 +1060,8 @@ export function renderPanel(spot, context) {
         spot.vibe ? h('span', { class: 'stars' }, h('b', {}, String(spot.vibe.score)), t('card.vibe_short', { label: vibeLabel(spot.vibe.score) })) : h('span', { class: 'muted' }, t('card.vibe_none')))),
     // why this rating: folded away, because it often retells the description below
     spot.rating_basis ? h('details', { class: 'p-basis' }, h('summary', {}, t('card.rating_why', { r: rating(spot.rating) })), h('p', { class: 'muted' }, spot.rating_basis)) : null,
+    // a one-of-a-kind experience (attrs.unique_ru) is part of the rating and worth saying up front
+    spot.attrs && spot.attrs.unique_ru ? h('p', { class: 'p-unique' }, h('b', {}, t('card.unique')), ' ', spot.attrs.unique_ru) : null,
     h('div', { class: 'chips' }, seasonChip(season, month), hasPassport() ? visaChip(spot.visa) : null,
       isRu && spot.ru_schools === 'yes' ? h('span', { class: 'chip tone-easy' }, t(spot.activity === 'bungee' ? 'card.jump_ru_chip' : 'card.ru_schools_chip')) : null,
       shareButton(spot, month, season)));
@@ -1075,15 +1077,16 @@ export function renderPanel(spot, context) {
   const isVF = spot.activity === 'viaferrata';
   const vfH = (() => { const a = spot.attrs || {}; const lo = a.elevation_m; const hi = a.top_m; return lo && hi ? Math.round((lo + hi) / 2) : (lo || hi || null); })();
   const water = (spot.water || []).map((w) => h('span', { class: `tag water-${w}` }, WATER[w] || w));
+  const onSnow = (spot.water || []).length > 0 && (spot.water || []).every((w) => w === 'snow' || w === 'ice');   // snowkite: no water, waves or depth
   const era = spot.climate.era5 ? spot.climate.era5[month - 1] : null;
   const facts = isVF ? viaferrataFacts(spot) : isJump ? bungeeFacts(spot) : isSail ? sailingFacts(spot, month) : isDive ? divingFacts(spot, month) : isWind ? windsurfFacts(spot, month) : isFly ? paraFacts(spot) : isClimb ? climbFacts(spot) : isMtn ? mountainFacts(spot) : isSurf ? surfFacts(spot) : h('dl', { class: 'facts' },
     fact(t('card.wind_range'), windRangeText(spot.wind_range) || '—'),
     fact(t('card.direction'), spot.wind_dir || '—', spot.wind_type ? h('small', {}, ` ${WIND_TYPE[spot.wind_type] || spot.wind_type}`) : null),
     fact(t('card.gustiness'), meter(spot.gustiness, 5, t('card.gustiness')), h('small', {}, ` ${gustText(spot.gustiness)}`), spot.gustiness_note ? h('small', { class: 'block' }, spot.gustiness_note) : null),
-    fact(t('card.water'), h('span', { class: 'tags' }, ...water)),
-    fact(t('card.waves'), spot.waves_note || '—', era && era.wave_m != null ? h('small', { class: 'block' }, t('card.waves_avg', { m: num(era.wave_m, 1), in_month: MONTHS_IN[month - 1] })) : null),
+    fact(t(onSnow ? 'card.surface' : 'card.water'), h('span', { class: 'tags' }, ...water)),
+    fact(t(onSnow ? 'card.terrain' : 'card.waves'), spot.waves_note || '—', era && era.wave_m != null ? h('small', { class: 'block' }, t('card.waves_avg', { m: num(era.wave_m, 1), in_month: MONTHS_IN[month - 1] })) : null),
     spot.wave_riding ? fact(t('card.wave_riding'), meter(spot.wave_riding, 3, t('card.wave_riding')), h('small', {}, ` ${t(`wave_riding.${spot.wave_riding}`)}`)) : null,
-    fact(t('card.depth'), spot.depth ? t(`depth.${spot.depth}`) : '—'),
+    onSnow ? null : fact(t('card.depth'), spot.depth ? t(`depth.${spot.depth}`) : '—'),
     fact(t('card.spot_type'), SPOT_TYPE[spot.spot_type] || spot.spot_type || '—'),
     fact(t('card.level'), (spot.level || []).map((l) => LEVEL[l]).join(', ') || '—'),
     fact(t('card.popularity'), meter(spot.popularity, 5, t('card.popularity'))),

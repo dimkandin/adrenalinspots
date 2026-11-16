@@ -2150,28 +2150,31 @@
    "airport": "LED — Poulkovo, ~1 h"
   },
   "teriberka-kola": {
-   "h": "f61450bbd9",
-   "description": "Teriberka est un village de la côte de la mer de Barents, à 2–2,5 h de Mourmansk, devenu l'une des principales destinations de snowkite de Russie. On navigue sur la flèche à l'embouchure de la rivière, sur les lacs gelés et dans la toundra vallonnée près du mont Eriveïv et du réservoir de Verkhnetériberka. Saison de fin novembre à avril ; la meilleure période est mars–début avril : longues journées, neige compacte et vent le plus fort.",
-   "rating_basis": "L'une des principales régions de snowkite de Russie : immense toundra ouverte, vent fort et fréquent, paysages arctiques ; de grandes écoles y organisent des camps (Riders of the Storm, SnowKiteWorld, etc.) ; points faibles : météo rude et nuit polaire",
-   "waves_note": "Toundra enneigée avec des collines jusqu'à ~300 m, lacs gelés et réservoir de Verkhnetériberka ; la flèche à l'embouchure de la rivière est pratique pour décoller",
+   "h": "bc63a55f6c",
    "hazards": "Tempêtes de neige et jour blanc, gelures, rochers sur les pentes balayées par le vent, absence de réseau dans les zones éloignées ; spots éloignés uniquement avec un guide",
    "gustiness_note": "Le vent de mer est fort et fréquent, rafaleux près des collines et sur le relief ; en mars, il souffle ~9 jours sur 10 (selon les organisateurs)",
-   "crowd_note": "On navigue surtout en groupes de kite tours, la toundra est pratiquement vide",
    "region": "Oblast de Mourmansk, côte de la mer de Barents",
+   "wind_dir": "Toutes directions — toundra ouverte ; souvent un vent fort venant de la mer de Barents",
+   "airport": "MMK — Mourmansk, ~2–2,5 h en voiture",
+   "description": "Teriberka est un village au bord de la mer de Barents, à 2–2,5 h de Mourmansk, et l'un des lieux de snowkite les plus insolites au monde. Tout autour, d'immenses collines enneigées et une toundra sans arbres ni personne : on part en downwind sur des dizaines de kilomètres, on saute depuis les collines et on file jusqu'aux lacs gelés et jusqu'à l'océan. Les débutants apprennent sur la flèche à l'embouchure de la rivière et sur des lacs gelés bien plats. La saison va de décembre à avril, idéalement en mars et début avril : longues journées, neige ferme et vent régulier, et par nuit claire, des aurores boréales.",
+   "rating_basis": "Snowkite unique : d'immenses collines vides et la toundra pour des downwinds de dizaines de kilomètres, un vent fort et fréquent, les aurores boréales et des paysages arctiques. Plusieurs écoles organisent des camps (KITEBOOM, Kiteclass, Riders of the Storm et d'autres). Points faibles : le froid, les jours courts en décembre–janvier et les tempêtes de neige qui ferment la route.",
+   "waves_note": "Collines enneigées jusqu'à ~300 m et toundra sans arbres, lacs gelés et réservoir de Verkhneteriberskoïe ; les débutants partent de la flèche à l'embouchure de la rivière",
+   "crowd_note": "Surtout des groupes de camps de kite ; la toundra est presque vide",
+   "vibe_note": "Pas de vie nocturne, mais le village a des restaurants de cuisine du Nord — crabe royal, oursins, cabillaud — et par nuit claire, des aurores boréales au-dessus de la toundra.",
+   "unique": "Des downwinds de dizaines de kilomètres à travers les collines enneigées et désertes de la péninsule de Kola jusqu'à la mer de Barents : un tel snowkite n'existe presque nulle part ailleurs. Et le soir, les aurores boréales et du crabe royal aux oursins pour le dîner.",
    "pros": [
-    "Vent fort et fréquent",
-    "Toundra infinie et déserte, longs itinéraires",
-    "Paysages arctiques et aurores boréales",
-    "Kite camps organisés avec transfert depuis Mourmansk"
+    "Downwinds de dizaines de kilomètres sur des collines et une toundra désertes",
+    "Vent fort fréquent et beaucoup d'espace",
+    "Aurores boréales par nuit claire",
+    "Crabe royal, oursins et cabillaud dans les restaurants du coin",
+    "Camps avec transfert depuis Mourmansk et assistance en motoneige"
    ],
    "cons": [
-    "Nuit polaire en décembre–début janvier",
-    "Les tempêtes de neige ferment la route Mourmansk–Teriberka",
-    "Froid et vent fort — bon équipement nécessaire",
-    "Spots éloignés sans réseau"
-   ],
-   "wind_dir": "Toutes directions — toundra ouverte ; souvent un vent fort venant de la mer de Barents",
-   "airport": "MMK — Mourmansk, ~2–2,5 h en voiture"
+    "Nuit polaire en décembre et dans la première moitié de janvier",
+    "La route Mourmansk — Teriberka ferme pendant les tempêtes de neige",
+    "Gel et vent : il faut un équipement chaud",
+    "Pas de réseau sur les longs parcours"
+   ]
   },
   "long-bay-providenciales": {
    "h": "08e4263ec6",
