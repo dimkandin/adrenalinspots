@@ -1,5 +1,5 @@
 // Map: basemap styles, flag markers, hover tooltip, selection.
-import { BASEMAPS, DEFAULT_BASEMAP, FALLBACK_BASEMAP } from './basemaps.js';
+import { BASEMAPS, DEFAULT_BASEMAP, FALLBACK_BASEMAP, LAST_RESORT_BASEMAP } from './basemaps.js';
 import { flagImage } from './flags.js';
 import { MONTHS_IN, PHONE_QUERY, SEASON, VISA, cm, esc, flagEmoji, metres, rating, windText, vibeLabel } from './util.js';
 import { lang, t, tn } from './i18n.js';
@@ -470,18 +470,26 @@ export function setGlobe(on) {
 let notify = () => {};
 export function onMapNotice(fn) { notify = fn; }
 
-// Where a tile server is blocked or throttled (OpenFreeMap from Russia), its style may still load while the tiles
-// never arrive, leaving flags on an empty background. If no basemap tile has loaded 10 s after the style, switch to
-// the simple map served by this site and remember that for 12 hours.
+// Where a tile server is blocked or throttled (OpenFreeMap over Russian mobile internet doesn't answer at all), the
+// map would stay empty. If the style or the first tile hasn't arrived within WAIT_MS, switch to the spare light map
+// (VersaTiles), and if that fails too, to the simple map served by this site; remember the choice for FAIL_HOURS.
 const FAIL_KEY = 'basemapFail';
-const FAIL_HOURS = 12;
+const FAIL_HOURS = 24;
+const WAIT_MS = 6000;   // OpenFreeMap normally answers in 0.1–0.3 s, even from Russia over Wi‑Fi
+/** The map to start with after a recent failure ('reserve' or 'lite'), or null. */
 function recentlyFailed() {
-  try { const v = Number(localStorage.getItem(FAIL_KEY)); return !!v && Date.now() - v < FAIL_HOURS * 3600e3; } catch { return false; }
+  try {
+    const [ts, to] = String(localStorage.getItem(FAIL_KEY) || '').split('|');
+    if (!Number(ts) || Date.now() - Number(ts) > FAIL_HOURS * 3600e3) return null;
+    return to === LAST_RESORT_BASEMAP ? LAST_RESORT_BASEMAP : FALLBACK_BASEMAP;   // older entries had no target
+  } catch { return null; }
 }
 function fallBack(cfg) {
-  try { localStorage.setItem(FAIL_KEY, String(Date.now())); } catch { /* ignore */ }
-  notify(t('bm.fallback', { name: cfg.name }));
-  setBasemap(FALLBACK_BASEMAP, { revertTo: FALLBACK_BASEMAP, remember: false });
+  const to = cfg.id === FALLBACK_BASEMAP ? LAST_RESORT_BASEMAP : FALLBACK_BASEMAP;
+  try { localStorage.setItem(FAIL_KEY, `${Date.now()}|${to}`); } catch { /* ignore */ }
+  const target = BASEMAPS.find((b) => b.id === to);
+  notify(t('bm.fallback', { name: cfg.name, to: target ? target.name : to }));
+  setBasemap(to, { revertTo: to, remember: false });
 }
 /** fn() after `ms` of the page being visible: a background tab doesn't render, so the map requests no tiles there. */
 function afterVisible(ms, fn) {
@@ -498,13 +506,13 @@ function afterVisible(ms, fn) {
   onVis();
 }
 function watchTiles(cfg, token) {
-  if (cfg.id === FALLBACK_BASEMAP || cfg.id === 'offline') return;
+  if (cfg.id === LAST_RESORT_BASEMAP || cfg.id === 'offline') return;
   const own = new Set(Object.keys(map.getStyle().sources || {}).filter((id) => id !== SRC && id !== MIX));
   if (!own.size) return;
   let ok = false;
   const onData = (e) => { if (e.dataType === 'source' && e.tile && own.has(e.sourceId)) ok = true; };
   map.on('data', onData);
-  afterVisible(10000, () => {
+  afterVisible(WAIT_MS + 1000, () => {
     map.off('data', onData);
     if (ok || token !== bmToken) return;
     fallBack(cfg);
@@ -517,19 +525,19 @@ export function setBasemap(id, { revertTo = null, remember = true } = {}) {
   const token = ++bmToken;
   currentBasemap = cfg.id;
   map.setStyle(typeof cfg.style === 'function' ? cfg.style() : cfg.style, { diff: false });
-  // If the style can't be fetched (no internet, server down) go back to the previous one, or to the simple map.
+  // If the style can't be fetched (no internet, server down) go back to the previous one, or to the spare map.
   const timer = setTimeout(() => {
     if (token !== bmToken) return;
-    if (cfg.id === FALLBACK_BASEMAP) { notify(t('bm.failed', { name: cfg.name })); return; }
+    if (cfg.id === LAST_RESORT_BASEMAP) { notify(t('bm.failed', { name: cfg.name })); return; }
     if (revertTo) { fallBack(cfg); return; }
     notify(t('bm.failed', { name: cfg.name }));
     setBasemap(previous, { revertTo: previous });
-  }, 10000);
+  }, WAIT_MS);
   map.once('style.load', () => {
     if (token !== bmToken) return;   // a newer switch already happened
     clearTimeout(timer);
     if (remember) { try { localStorage.setItem('basemap', cfg.id); } catch { /* ignore */ } }
-    if (cfg.id !== FALLBACK_BASEMAP && remember) { try { localStorage.removeItem(FAIL_KEY); } catch { /* ignore */ } }
+    if (cfg.id !== FALLBACK_BASEMAP && cfg.id !== LAST_RESORT_BASEMAP && remember) { try { localStorage.removeItem(FAIL_KEY); } catch { /* ignore */ } }
     watchTiles(cfg, token);
     russify(); tint(cfg); addSpotLayers(cfg); applyProjection();
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
@@ -543,7 +551,7 @@ export function initMap(appState, selectHandler) {
   onSelect = selectHandler;
   let saved = DEFAULT_BASEMAP;
   try { if (DEFAULT_BASEMAP !== 'offline') saved = localStorage.getItem('basemap') || DEFAULT_BASEMAP; } catch { /* ignore */ }
-  if (DEFAULT_BASEMAP !== 'offline' && recentlyFailed()) saved = FALLBACK_BASEMAP;   // tiles were unreachable a few hours ago
+  if (DEFAULT_BASEMAP !== 'offline' && recentlyFailed()) saved = recentlyFailed();   // tiles were unreachable lately
   const cfg = BASEMAPS.find((b) => b.id === saved) || BASEMAPS[0];
   currentBasemap = cfg.id;
   const token = ++bmToken;
@@ -590,11 +598,10 @@ export function initMap(appState, selectHandler) {
     russify(); tint(cfg); addSpotLayers(cfg); applyProjection();
     document.documentElement.dataset.basemap = cfg.dark ? 'dark' : 'light';
   });
-  // the style itself unreachable -> the default one, and if that is the one failing, the simple map from this site
-  afterVisible(10000, () => {
+  // the style itself unreachable -> the spare map (then the simple one from this site)
+  afterVisible(WAIT_MS, () => {
     if (loaded || token !== bmToken) return;
-    if (cfg.id !== DEFAULT_BASEMAP && cfg.id !== FALLBACK_BASEMAP) setBasemap(DEFAULT_BASEMAP, { revertTo: DEFAULT_BASEMAP });
-    else if (cfg.id !== FALLBACK_BASEMAP) fallBack(cfg);
+    if (cfg.id !== LAST_RESORT_BASEMAP) fallBack(cfg);
   });
   bindEvents();
   window.__map = map;

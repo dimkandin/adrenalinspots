@@ -2,6 +2,7 @@
 // tint: [regex on layer id, {paint-property: value}] — applied after the style loads.
 
 import { t } from './i18n.js';
+import RESERVE from '../basemap/reserve.js';
 
 // Fonts for the spot names come from this site (web/basemap/fonts, Noto Sans), so labels work even where
 // OpenFreeMap is unreachable (Russia throttles it since 2025).
@@ -79,6 +80,15 @@ export const BASEMAPS = [
     dark: true,
   },
   {
+    // a light map like «Marine» from another tile server: over Russian mobile internet OpenFreeMap doesn't answer,
+    // VersaTiles does (tiles-test 18.11). The style and the font come from this site, only the tiles from VersaTiles.
+    id: 'reserve',
+    name: t('bm.reserve'),
+    hint: t('bm.reserve.hint'),
+    style: () => ({ ...RESERVE, glyphs: OWN_GLYPHS }),
+    labelFont: ['Noto Sans Regular'],
+  },
+  {
     id: 'lite',
     name: t('bm.lite'),
     hint: t('bm.lite.hint'),
@@ -86,7 +96,9 @@ export const BASEMAPS = [
     labelFont: ['Noto Sans Regular'],
   },
 ];
-export const FALLBACK_BASEMAP = 'lite';
+/** If a map's tiles don't arrive, the spare light map is switched on; if that fails too, the simple one from this site. */
+export const FALLBACK_BASEMAP = 'reserve';
+export const LAST_RESORT_BASEMAP = 'lite';
 
 // Developer mode: ?offline uses a local world outline (no network tiles) for testing.
 if (typeof location !== 'undefined' && new URLSearchParams(location.search).has('offline')) {
