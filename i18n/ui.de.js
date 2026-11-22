@@ -267,7 +267,7 @@ export default {
   'card.trips': 'Reisen mit Veranstaltern',
   'card.trip_group': 'Gruppenreise',
   'card.trip_private': 'Individuelle Reise',
-  'card.trip_by_arrangement': 'Termine nach Absprache',
+  'card.trip_by_arrangement': 'Termine nach Absprache — beim Veranstalter erfragen',
   'card.trip_tbc': 'genaue Termine folgen',
   'card.trip_now': 'Reise {in_month}',
   'card.trip_price_title': 'Preis laut Veranstalter',

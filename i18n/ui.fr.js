@@ -267,7 +267,7 @@ export default {
   'card.trips': 'Séjours avec des organisateurs',
   'card.trip_group': 'Séjour en groupe',
   'card.trip_private': 'Séjour privé',
-  'card.trip_by_arrangement': 'Dates à convenir',
+  'card.trip_by_arrangement': 'Dates à convenir : renseignez-vous auprès de l\'organisateur',
   'card.trip_tbc': 'dates exactes à confirmer',
   'card.trip_now': 'Séjour {in_month}',
   'card.trip_price_title': 'Prix indiqué par l’organisateur',

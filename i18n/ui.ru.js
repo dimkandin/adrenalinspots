@@ -268,7 +268,7 @@ export default {
   'card.trips': 'Выезды с организаторами',
   'card.trip_group': 'Групповой выезд',
   'card.trip_private': 'Индивидуальный выезд',
-  'card.trip_by_arrangement': 'Даты по договорённости',
+  'card.trip_by_arrangement': 'Даты по договорённости — уточняйте у организатора',
   'card.trip_tbc': 'точные даты уточняются',
   'card.trip_now': 'Выезд {in_month}',
   'card.trip_price_title': 'Цена по данным организатора',

@@ -267,7 +267,7 @@ export default {
   'card.trips': 'Trips with organizers',
   'card.trip_group': 'Group trip',
   'card.trip_private': 'Private trip',
-  'card.trip_by_arrangement': 'Dates by arrangement',
+  'card.trip_by_arrangement': 'Dates by arrangement — ask the organizer',
   'card.trip_tbc': 'exact dates to be confirmed',
   'card.trip_now': 'Trip {in_month}',
   'card.trip_price_title': 'Price as stated by the organizer',

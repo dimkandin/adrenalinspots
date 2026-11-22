@@ -1039,11 +1039,14 @@ function tripsBlock(spot, month, c) {
   const host = h('div', { class: 'trips', hidden: true });
   c.trips().then((data) => {
     const orgs = data.organizers || {};
-    const list = (data.trips || []).filter((tr) => (tr.spot === spot.id || (tr.spots || []).includes(spot.id)) && (!tr.activity || tr.activity === spot.activity));
+    // private trips without dates (kind private + months of the season) are listed only in those months, without highlight
+    const dateless = (tr) => tr.kind === 'private' && !tr.from && !tr.month;
+    const list = (data.trips || []).filter((tr) => (tr.spot === spot.id || (tr.spots || []).includes(spot.id)) && (!tr.activity || tr.activity === spot.activity)
+      && (!dateless(tr) || tripMonths(tr).has(month)));
     if (!list.length) return;
-    const now = (tr) => tripMonths(tr).has(month);
+    const now = (tr) => !dateless(tr) && tripMonths(tr).has(month);
     // organizers we are in touch with (`partner: true` in trips.json) go first and are highlighted; the rest stay plain
-    const partner = (tr) => !!(orgs[tr.org] || {}).partner;
+    const partner = (tr) => !dateless(tr) && !!(orgs[tr.org] || {}).partner;
     const start = (tr) => tr.from || tr.month || '9999';
     list.sort((a, b) => partner(b) - partner(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
     host.append(h('h4', { class: 'sub' }, t('card.trips')),
