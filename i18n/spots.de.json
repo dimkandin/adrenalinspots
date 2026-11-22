@@ -20598,6 +20598,233 @@
    ],
    "airport": "KUT — Kutaissi, ~5–6 Std.",
    "lift_pass_note": "1 Tag, Erwachsene — 50 GEL (≈17 €), gültig in Tetnuldi und Hatsvali"
+  },
+  "prilep": {
+   "h": "3a7710ed53",
+   "description": "Prilep ist eine Granithügellandschaft in der Pelagonien-Ebene im Zentrum Nordmazedoniens, übersät mit skulpturalen Blöcken. Über 400 Boulder in drei Gebieten zehn Minuten von der Stadt: Kamena Baba bei den mittelalterlichen Marko-Türmen, Dabinca und das höher gelegene Treskavec beim Kloster; 2014 machte hier der Petzl RocTrip Station. Gebouldert wird im Frühling und Herbst: Im Sommer ist es heiß, im Winter kalt.",
+   "rating_basis": "Eines der wichtigsten Bouldergebiete Osteuropas: 400+ Boulder in drei Hauptgebieten, Station des Petzl RocTrip 2014; grober Fels, Führer von 2015",
+   "hazards": "Scharfer Fels, steile Zustiege, Hitze und Schlangen in den warmen Monaten; im Winter ist Treskavec mit dem Auto nicht erreichbar",
+   "crowd_note": "Selbst in der Saison ist an den Blöcken wenig los; am meisten Betrieb in Kamena Baba",
+   "region": "Pelagonien: Granithügel um Prilep — Kamena Baba bei den Marko-Türmen, Dabinca, Treskavec",
+   "season": "März bis Mai und September bis November; am besten März–April und Oktober–November; im Sommer zu heiß, im Winter kalt und manchmal Schnee",
+   "transfer": "Etwa 1,5 Std. mit dem Auto vom Flughafen Skopje, von Ohrid ebenfalls etwa 1,5 Std.",
+   "rock_note": "grobkörniger Granit: skulpturale Blöcke, kleine Leisten und runde Formen; der raue Fels hat super Reibung, ist aber hart zur Haut",
+   "approach": "Alle Gebiete höchstens 10 Autominuten vom Zentrum Prilep; nach Kamena Baba 25 Minuten steil bergauf, nach Dabinca 3 km schlechte Piste plus 15 Minuten zu Fuß; die Straße nach Treskavec ist im Winter oft eingeschneit",
+   "guidebook": "Prilep Bouldering (2015) — fünf Gebiete; Topos auch auf 27crags und theCrag",
+   "stay": "Hotels und Apartments in Prilep — 10 Autominuten zu den Blöcken; ein Auto ist fast unverzichtbar",
+   "pros": [
+    "400+ Boulder auf grobkörnigem Granit 10 Minuten von der Stadt",
+    "Flache Graslandungen — ein bis zwei Crashpads reichen",
+    "Wenig Leute und niedrige Preise",
+    "Treskavec liegt höher als die anderen Gebiete — ideal an warmen Tagen"
+   ],
+   "cons": [
+    "Grober Fels und kleine Leisten — hart zur Haut",
+    "Für russische Pässe ist ein Visum nötig (national oder Mehrfach-Schengen)",
+    "Im Sommer heiß, im Winter manchmal Schnee",
+    "Ohne Auto umständlich"
+   ],
+   "airport": "SKP — Skopje, ~1,5 Std.; OHD — Ohrid, ~1,5 Std.",
+   "famous_lines": [
+    "Excalibur 7C (Kamena Baba)",
+    "Ni-Mus 7B (Kamena Baba)",
+    "Waves 7C (Dabinca)",
+    "Terrormeer 8A (Treskavec)"
+   ]
+  },
+  "tafraout": {
+   "h": "fbc1088c47",
+   "description": "Tafraout ist ein Städtchen im Antiatlas zwischen rosa Granithügeln und Blöcken. Rund um das Dorf Aguerd Oudad sind 14 farbig markierte Boulder-Circuits von ganz leicht bis mittelschwer angelegt, und an den Felsen und Kuppeln ringsum gibt es Hunderte weitere Routen und Risse. Saison ist vom Herbst bis zum Frühling, wenn es in Europa kalt ist: Tagsüber hat es hier um die 20 °C.",
+   "rating_basis": "Riesiges Granitgebiet: 14 markierte Circuits für jedes Niveau und ein warmer, trockener Winter; der Fels ist stellenweise brüchig, schwere Boulder gibt es wenige",
+   "hazards": "Brüchiger Fels, Hitze und Sonne, kalte Nächte im Winter; Schlangen und Skorpione in den warmen Monaten",
+   "crowd_note": "Mehr Blöcke als Menschen: selbst im Winter sind die Circuits fast leer",
+   "region": "Antiatlas, Provinz Tiznit: rosa Granithügel um Tafraout und das Dorf Aguerd Oudad",
+   "season": "Oktober bis April; am besten November bis März; von Mai bis September zu heiß",
+   "transfer": "Etwa 3 Std. mit dem Auto vom Flughafen Agadir (~165 km); am einfachsten mit Mietwagen",
+   "rock_note": "rosa grobkörniger Granit: runde Blöcke, Kuppeln und Risse; stellenweise brüchig",
+   "approach": "2 bis 15 Minuten zu Fuß von der Straße; einige Circuits sind von Tafraout aus zu Fuß erreichbar, die übrigen ein paar Autominuten entfernt",
+   "guidebook": "Tafraout Granite (Oxford Alpine Club, 3. Aufl., 2024): 800+ Routen und Boulder an 75 Felsen im Umkreis von 10 km um Tafraout, mit Circuit-Plänen; eine kostenlose Circuit-Karte gibt es auf climb-tafraout.com",
+   "stay": "Hotels und Riads in Tafraout (Les Amis, Les Amandiers, Riad Nour, Ksar Rock Guesthouse)",
+   "pros": [
+    "Warmer, trockener Winter, wenn es in Europa kalt ist",
+    "Markierte Circuits — praktisch für Einsteiger und Gruppen",
+    "Fast keine Leute",
+    "Visumfrei für russische Pässe"
+   ],
+   "cons": [
+    "Stellenweise brüchiger Fels",
+    "Wenige schwere Boulder",
+    "Rund 3 Stunden vom Flughafen",
+    "Im Sommer sehr heiß"
+   ],
+   "airport": "AGA — Agadir, ~3 Std."
+  },
+  "pecka": {
+   "h": "64d4d8d3ba",
+   "description": "Pecka ist ein kleiner Kalkfels in den grünen Hügeln Westbosniens, beim Dorf Gornja Pecka nahe Mrkonjić Grad. Über 120 Einseillängenrouten von 20–30 m an stark löchrigem Fels, überwiegend im 6. Grad; übernachten kann man direkt am Fels im Besucherzentrum. Am besten im Frühling und Herbst.",
+   "rating_basis": "Kleines junges Gebiet: 120+ Routen von 20–30 m an gutem löchrigem Kalk, Unterkunft direkt am Fels; bisher wenig Infos und Bewertungen",
+   "hazards": "Sonne und Hitze an der Südwand im Sommer, vereinzelt loses Gestein an neuen Routen",
+   "crowd_note": "Wenig bekannter Fels, kaum Leute",
+   "region": "Republika Srpska, Gemeinde Mrkonjić Grad: Dorf Gornja Pecka",
+   "season": "April bis Juni und September bis Oktober; am besten im Frühling und Herbst; im Sommer morgens und am späten Nachmittag klettern (die Wand ist südseitig), im Winter nur an sonnigen Tagen",
+   "transfer": "Etwa 1,5 Std. mit dem Auto von Banja Luka, etwa 4 Std. von Zagreb",
+   "rock_note": "kompakter Kalk mit vielen Löchern, Leisten und vereinzelten Sintern: Platten, senkrechte Wände und Überhänge",
+   "approach": "Wenige Gehminuten vom Besucherzentrum Pecka",
+   "guidebook": "Das offizielle Topo gibt es im Besucherzentrum Pecka (pecka.ba)",
+   "stay": "Besucherzentrum Pecka direkt am Fels: Schlafsaal in der alten Schule (30 KM), Hütten (ab 100 KM), Campingplatz (ab 10 KM), Hausmannskost auf Anfrage",
+   "pros": [
+    "Unterkunft und Camping direkt am Fels",
+    "Löchriger Kalk, viele Routen im 6. Grad",
+    "Visumfrei für russische Pässe",
+    "Ruhig und günstig"
+   ],
+   "cons": [
+    "Kleines Gebiet — für ein paar Tage",
+    "Südwand: im Sommer tagsüber heiß",
+    "Im Winter kalt",
+    "Nur mit dem Auto erreichbar"
+   ],
+   "airport": "BNX — Banja Luka, ~1,5 Std.; ZAG — Zagreb, ~4 Std.",
+   "school_notes": [
+    "Unterkunft am Fels; für Gruppen auf Anfrage ein Basislager mit Verpflegung und Begleitung"
+   ]
+  },
+  "domusnovas": {
+   "h": "9ac1cf84db",
+   "description": "Domusnovas ist ein Kalkgebiet im Südwesten Sardiniens rund um die Grotte San Giovanni, durch die einst eine Straße führte. Über 700 Routen in 36 Sektoren — von Platten und senkrechten Wänden bis zu steilen, versinterten Überhängen, vom 5. Grad bis 9a; die Grotte rettet Regentage. Am besten im Frühling und Herbst, aber auch im Winter möglich.",
+   "rating_basis": "Eines der wichtigsten Gebiete Sardiniens: 700+ Routen vom 5. Grad bis 9a, in der Durchgangshöhle San Giovanni kann man auch bei Regen klettern; weniger bekannt als die Ostküste",
+   "hazards": "Hitze und Sonne im Sommer, rutschige Sinter in der Grotte bei feuchtem Wetter, vereinzelt loses Gestein",
+   "crowd_note": "Ruhiger als an der Ostküste Sardiniens",
+   "region": "Südwest-Sardinien, Iglesiente: die Grotte San Giovanni bei Domusnovas",
+   "season": "Oktober bis Mai; am besten Oktober–November und März–Mai; im Sommer heiß, dann helfen Schatten und die Grotte",
+   "transfer": "Etwa 45 Minuten mit dem Auto vom Flughafen Cagliari (~60 km)",
+   "rock_note": "grauer und orangefarbener Kalk: Platten, senkrechte Wände und steile, versinterte Überhänge rund um die Durchgangshöhle San Giovanni",
+   "approach": "Die Sektoren liegen rund um die Grotte San Giovanni, kurze Zustiege; ein Auto ist nötig",
+   "guidebook": "Domusnovas Sport Climbing — 750 Routen in Domusnovas und Ombre Rosse, 36 Sektoren",
+   "stay": "Agriturismi und Apartments in Domusnovas und Iglesias; ein Auto ist nötig",
+   "pros": [
+    "700+ Routen aller Grade in einem Gebiet",
+    "Eine riesige Grotte — Klettern auch bei Regen",
+    "Milder Winter und das Meer in der Nähe",
+    "Flughafen Cagliari in 45 Minuten"
+   ],
+   "cons": [
+    "Für russische Pässe ist ein Schengen-Visum nötig",
+    "Im Sommer heiß",
+    "Ohne Auto geht es nicht"
+   ],
+   "airport": "CAG — Cagliari, ~45 Min."
+  },
+  "olympos-cirali": {
+   "h": "928939843d",
+   "description": "Olympos und Çıralı sind zwei Nachbardörfer an der Küste südwestlich von Antalya, in einem Tal mit den Ruinen des antiken Olympos. Über 350 Routen in einem Dutzend Sektoren: senkrechte Wände mit Leisten und Löchern und versinterte Überhänge, von leicht bis 8c+, 5–20 Minuten von Pensionen und Strand; im Sommer Deep-Water-Solo. Am besten im Herbst und Frühling.",
+   "rating_basis": "350+ Routen in 12 Sektoren am Meer, vom 3. Grad bis 8c+; entspannte Basis mit Strand und antiken Ruinen, Kurse und Verleih vor Ort",
+   "hazards": "Hitze und Sonne, Steinschlag unter Überhängen, Schlangen und Skorpione in den warmen Monaten",
+   "crowd_note": "Ruhiger als Geyikbayırı; am vollsten während des Festivals Ende Oktober",
+   "region": "Antalya: das Tal des antiken Olympos und die Bucht von Çıralı, südwestlich von Antalya",
+   "season": "September bis Juni; am besten Oktober–November und März–Mai; im Winter häufig Regen, im Sommer heiß — nur morgens, im Schatten oder Deep-Water-Solo",
+   "transfer": "Etwa 1,5 Std. mit dem Auto vom Flughafen Antalya (~80 km); mit dem Bus bis zur Abzweigung Olympos, dann mit dem Minibus",
+   "rock_note": "Kalk mit Leisten, Löchern, Kieseln, Sintern und Stalaktiten: senkrechte Wände und Überhänge",
+   "approach": "5–20 Gehminuten von den Pensionen in Olympos und Çıralı",
+   "restrictions": "Olympos ist Nationalpark und antike Stätte; der Eintritt zu den Ruinen ist kostenpflichtig",
+   "guidebook": "A Rock Climbing Guide to Antalya (Öztürk Kayıkçı) — Olympos, Geyikbayırı und andere Felsen um Antalya; 10 € pro Exemplar gehen in die Pflege des Gebiets",
+   "stay": "Pensionen und Baumhäuser in Olympos, Gästehäuser in Çıralı; zu den Felsen geht man zu Fuß",
+   "pros": [
+    "Felsen, Strand und antike Ruinen an einem Ort",
+    "Routen für jedes Niveau, Kurse und Verleih vor Ort",
+    "Visumfrei für russische Pässe",
+    "Ruhiger als Geyikbayırı"
+   ],
+   "cons": [
+    "Im Winter häufig Regen",
+    "Im Sommer heiß — nur morgens und im Schatten klettern",
+    "Ohne Auto lange Anreise vom Flughafen"
+   ],
+   "airport": "AYT — Antalya, ~1,5 Std.",
+   "school_notes": [
+    "Seit 2015: Einsteigerkurse, Vorstiegskurse, Führungen 5a–7c, Deep-Water-Solo, Ausrüstungsverleih"
+   ]
+  },
+  "datca": {
+   "h": "ac65075264",
+   "description": "Datça ist eine lange Halbinsel zwischen Ägäis und Mittelmeer, unweit von Bodrum und Marmaris. Rund 320 Routen an versintertem Kalk: Platten, senkrechte Wände, Überhänge und die riesige Höhle Can Baba mit Routen von 7b bis 9b, dazu Mehrseillängen bis 220 m; die meisten Felsen liegen 15–20 Minuten vom Ort. Saison ist von Mitte Herbst bis zum Frühling.",
+   "rating_basis": "Rund 320 Routen an unpoliertem Kalk und die riesige Höhle Can Baba mit 7b–9b — eine der besten der Türkei; nicht viele leichte Routen",
+   "hazards": "Loses Gestein und Wespennester an abgelegenen Felsen, Hitze in den warmen Monaten",
+   "crowd_note": "Auch in der Saison ruhig",
+   "region": "Muğla, die Halbinsel Datça zwischen Ägäis und Mittelmeer",
+   "season": "Mitte Oktober bis Mai; am besten November bis April; im Herbst und späten Frühling muss man dem Schatten folgen, im Winter kann ein kalter Nordwind wehen",
+   "transfer": "2–3 Std. mit dem Auto von Dalaman; von Bodrum mit der Fähre nach Datça etwa 1,5 Std. (im Winter nicht täglich); 4–5 Std. von İzmir",
+   "rock_note": "versinterter Kalk: Platten, senkrechte Wände mit Leisten und Löchern, Überhänge und riesige Höhlen; der Fels ist nicht poliert",
+   "approach": "Die meisten Felsen 15–20 Autominuten von Datça; zur Höhle Can Baba bergauf vom Parkplatz Indian Man; ein Auto ist fast unverzichtbar",
+   "guidebook": "Der offizielle Datça-Führer — kostenloses PDF (Link auf theCrag)",
+   "stay": "Datça Base Camp nahe den Felsen (Camping, Bungalows, Stellplätze), Pensionen und Boutiquehotels in Datça; Auto oder Roller nötig",
+   "pros": [
+    "Die Höhle Can Baba — eine der besten der Türkei für Starke",
+    "Unpolierter Fels und wenig Leute",
+    "Visumfrei für russische Pässe",
+    "Milder Winter am Meer"
+   ],
+   "cons": [
+    "Nicht viele leichte Routen",
+    "Ein Auto ist nötig",
+    "Weit von den Flughäfen",
+    "Im Sommer heiß"
+   ],
+   "airport": "DLM — Dalaman, ~2,5 Std.; BJV — Bodrum + Fähre ~1,5 Std."
+  },
+  "san-vito-lo-capo": {
+   "h": "14a957aa4f",
+   "description": "San Vito Lo Capo ist ein Badeort im Nordwesten Siziliens am Fuß des Monte Monaco. Über 1200 Routen an Meereskalk — senkrechte Wände, Überhänge und Höhlen wenige Meter vom Wasser, vom 3. Grad bis 8c, dazu Mehrseillängen und Deep-Water-Solo. Hauptsaison ist vom Herbst bis zum Frühling: Viele Wände sind südseitig, und die Strände sind leer.",
+   "rating_basis": "Italiens wichtigstes Wintergebiet: über 1200 Routen am Meer vom 3. Grad bis 8c, Mehrseillängen am Monte Monaco, warme Südwände",
+   "hazards": "Meersalz und Feuchtigkeit machen den Fels rutschig, Hitze und Sonne in den warmen Monaten, Steinschlag unter Überhängen",
+   "crowd_note": "In der Hochsaison beim Campingplatz voll, an den entfernten Sektoren ruhig",
+   "region": "Nordwest-Sizilien, Provinz Trapani: Capo San Vito und Monte Monaco",
+   "season": "Oktober bis Mai; am besten November bis März — viele Sektoren sind nach Süden und Westen ausgerichtet; im Sommer zu heiß",
+   "transfer": "Etwa 1 Std. mit dem Auto vom Flughafen Trapani, etwa 1,5 Std. von Palermo; es fahren auch Busse",
+   "rock_note": "Meereskalk: senkrechte Wände und Überhänge mit Blumenkohlstrukturen, Sintern und Höhlen wenige Meter vom Wasser",
+   "approach": "Die Hauptsektoren liegen an der Küste südlich des Ortes, 5–15 Minuten vom Campingplatz El Bahira; zu den entfernten über eine Piste durch Weiden",
+   "restrictions": "Zu einigen Sektoren geht es durch Weidezäune — nicht beschädigen und hinter sich schließen",
+   "guidebook": "Sicily Rock (2024): 1280 Sportkletterrouten; Sportclimbing in Sicily: San Vito Lo Capo (Vertical-Life)",
+   "stay": "Campingplatz El Bahira direkt unter der Hauptwand (in der Saison Rabatt für Kletterer), Apartments in San Vito Lo Capo",
+   "pros": [
+    "1200+ Routen für jedes Niveau — vom 3. Grad bis 8c",
+    "Warmer Winter, Südwände, das Meer zwei Schritte entfernt",
+    "Campingplatz direkt unter der Wand",
+    "Viele leichte Routen — gut für Einsteiger"
+   ],
+   "cons": [
+    "Für russische Pässe ist ein Schengen-Visum nötig",
+    "Im Sommer zu heiß",
+    "Bei feuchtem Wetter ist der Fels salzig und rutschig"
+   ],
+   "airport": "TPS — Trapani, ~1 Std.; PMO — Palermo, ~1,5 Std."
+  },
+  "sarikaya-izmir": {
+   "h": "fdbc3af9f6",
+   "description": "Sarıkaya sind Kalkfelsen beim gleichnamigen Dorf zwischen İzmir und Manisa, zwanzig Minuten von der Stadt. Rund 170 Routen vom 4. Grad bis 8c: die sonnigen, windigen Sektoren Arat und Anabant und ein schattiger, windgeschützter Canyon — so kann man fast das ganze Jahr klettern, je nach Seite. Praktisch für ein paar Tage in der Nähe des Flughafens İzmir.",
+   "rating_basis": "Hausgebiet von İzmir: rund 170 Routen, sonnige Sektoren und ein schattiger Canyon — fast ganzjährig kletterbar; wenige Bewertungen und Infos",
+   "hazards": "Loses Gestein, Hitze an den Sonnensektoren im Sommer, Wind an den offenen Wänden",
+   "crowd_note": "Außerhalb der Türkei kaum bekannt",
+   "region": "Zwischen İzmir und Manisa: Dorf Sarıkaya, etwa 20 Minuten von İzmir",
+   "season": "ganzjährig mit der richtigen Sektorwahl: im Winter die sonnigen Arat und Anabant, im Sommer der schattige, windgeschützte Canyon; am besten im Frühling und Herbst",
+   "transfer": "Etwa 40 Minuten mit dem Auto vom Flughafen İzmir; 20 Minuten von İzmir, 15 von Manisa",
+   "rock_note": "guter, überwiegend fester Kalk; stellenweise loses Gestein",
+   "approach": "Die Felsen liegen neben der Schnellstraße, kurzer Zustieg; am Fels kaum Handyempfang",
+   "guidebook": "Ein gedruckter Führer ist im Laden Mekanik Climbing in İzmir erhältlich; Topos auf 27crags und thetopo.com",
+   "stay": "Übernachten in İzmir oder Manisa — 15–20 Autominuten",
+   "pros": [
+    "Flughafen İzmir in der Nähe — praktisch für ein paar Tage",
+    "Sonnige Sektoren im Winter, schattiger Canyon im Sommer",
+    "Visumfrei für russische Pässe",
+    "Wenig Leute"
+   ],
+   "cons": [
+    "Kleines Gebiet",
+    "Stellenweise loses Gestein",
+    "Am Fels kaum Handyempfang",
+    "Ein Auto ist nötig"
+   ],
+   "airport": "ADB — İzmir, ~40 Min."
   }
  }
 }

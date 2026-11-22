@@ -20598,6 +20598,233 @@
    ],
    "airport": "KUT — Kutaisi, ~5–6 h",
    "lift_pass_note": "1 day, adult — 50 GEL (≈€17), valid at both Tetnuldi and Hatsvali"
+  },
+  "prilep": {
+   "h": "3a7710ed53",
+   "description": "Prilep is a range of granite hills on the Pelagonia plain in central North Macedonia, strewn with sculpted boulders. More than 400 problems in three areas ten minutes from town: Kamena Baba by the medieval Towers of Marko, Dabinca, and the higher Treskavec by the monastery; the Petzl RocTrip came here in 2014. Climbing is in spring and autumn: summer is hot, winter is cold.",
+   "rating_basis": "One of Eastern Europe's main bouldering areas: 400+ problems in three main areas, a Petzl RocTrip 2014 stage; coarse rock, guidebook from 2015",
+   "hazards": "Sharp rock, steep approaches, heat and snakes in the warm months; in winter Treskavec can't be reached by car",
+   "crowd_note": "Even in season the boulders are quiet; Kamena Baba is the busiest",
+   "region": "Pelagonia: granite hills around Prilep — Kamena Baba by the Towers of Marko, Dabinca, Treskavec",
+   "season": "March to May and September to November; best in March–April and October–November; too hot in summer, cold with some snow in winter",
+   "transfer": "About 1.5 h by car from Skopje airport, also about 1.5 h from Ohrid",
+   "rock_note": "coarse-grained granite: sculpted blocks, tiny crimps and rounded features; the rough rock gives great friction but is hard on the skin",
+   "approach": "All areas are within 10 minutes' drive of central Prilep; Kamena Baba is a steep 25-minute walk, Dabinca 3 km of rough track plus 15 minutes on foot; the road to Treskavec gets snowed in in winter",
+   "guidebook": "Prilep Bouldering (2015) — five areas; topos also on 27crags and theCrag",
+   "stay": "Hotels and apartments in Prilep — 10 minutes' drive to the boulders; a car is almost essential",
+   "pros": [
+    "400+ problems on coarse granite 10 minutes from town",
+    "Flat grassy landings — one or two crash pads are enough",
+    "Few people and low prices",
+    "Treskavec is higher than the other areas — a refuge on warm days"
+   ],
+   "cons": [
+    "Coarse rock and small crimps — hard on the skin",
+    "A visa is required for Russian passports (national or multi-entry Schengen)",
+    "Hot in summer, snow possible in winter",
+    "Awkward without a car"
+   ],
+   "airport": "SKP — Skopje, ~1.5 h; OHD — Ohrid, ~1.5 h",
+   "famous_lines": [
+    "Excalibur 7C (Kamena Baba)",
+    "Ni-Mus 7B (Kamena Baba)",
+    "Waves 7C (Dabinca)",
+    "Terrormeer 8A (Treskavec)"
+   ]
+  },
+  "tafraout": {
+   "h": "fbc1088c47",
+   "description": "Tafraout is a small town in the Anti-Atlas among pink granite hills and boulders. Around the village of Aguerd Oudad there are 14 colour-marked bouldering circuits, from very easy to intermediate, and the crags and domes around hold hundreds more routes and cracks. The season runs from autumn to spring, when Europe is cold: daytime temperatures here are around 20 °C.",
+   "rating_basis": "A huge granite area: 14 marked circuits for every level and a warm, dry winter; the rock is crumbly in places and there are few hard problems",
+   "hazards": "Crumbly rock, heat and sun, cold nights in winter; snakes and scorpions in the warm months",
+   "crowd_note": "More boulders than people: even in winter the circuits are nearly empty",
+   "region": "Anti-Atlas, Tiznit province: pink granite hills around Tafraout and the village of Aguerd Oudad",
+   "season": "October to April; best November to March; too hot from May to September",
+   "transfer": "About 3 h by car from Agadir airport (~165 km); renting a car is the easiest option",
+   "rock_note": "pink coarse-grained granite: rounded blocks, domes and cracks; crumbly in places",
+   "approach": "2 to 15 minutes' walk from the road; some circuits are walkable from Tafraout, the rest a few minutes' drive away",
+   "guidebook": "Tafraout Granite (Oxford Alpine Club, 3rd ed., 2024): 800+ routes and problems on 75 crags within 10 km of Tafraout, with circuit maps; a free circuit map is on climb-tafraout.com",
+   "stay": "Hotels and riads in Tafraout (Les Amis, Les Amandiers, Riad Nour, Ksar Rock Guesthouse)",
+   "pros": [
+    "Warm, dry winter while Europe is cold",
+    "Marked circuits — convenient for beginners and groups",
+    "Almost no people",
+    "Visa-free for Russian passports"
+   ],
+   "cons": [
+    "Crumbly rock in places",
+    "Few hard problems",
+    "About 3 hours from the airport",
+    "Very hot in summer"
+   ],
+   "airport": "AGA — Agadir, ~3 h"
+  },
+  "pecka": {
+   "h": "64d4d8d3ba",
+   "description": "Pecka is a small limestone crag among the green hills of western Bosnia, by the village of Gornja Pecka near Mrkonjić Grad. More than 120 single-pitch routes of 20–30 m on heavily pocketed rock, mostly in the 6th grade; you can stay right at the crag in the visitor centre. Best in spring and autumn.",
+   "rating_basis": "A small young area: 120+ routes of 20–30 m on good pocketed limestone, accommodation right at the crag; little information and few reviews so far",
+   "hazards": "Sun and heat on the south-facing wall in summer, occasional loose rock on new routes",
+   "crowd_note": "A little-known crag with few people",
+   "region": "Republika Srpska, Mrkonjić Grad municipality: the village of Gornja Pecka",
+   "season": "April to June and September to October; best in spring and autumn; in summer climb in the morning and late afternoon (the wall faces south), in winter only on sunny days",
+   "transfer": "About 1.5 h by car from Banja Luka, about 4 h from Zagreb",
+   "rock_note": "compact limestone with lots of pockets, crimps and occasional tufas: slabs, vertical walls and overhangs",
+   "approach": "A few minutes' walk from the Pecka visitor centre",
+   "guidebook": "The official topo is available at the Pecka visitor centre (pecka.ba)",
+   "stay": "The Pecka visitor centre right by the crag: a dormitory in the old school (30 BAM), cabins (from 100 BAM), a campsite (from 10 BAM), home-cooked food on request",
+   "pros": [
+    "Accommodation and camping right at the crag",
+    "Pocketed limestone with lots of 6th-grade routes",
+    "Visa-free for Russian passports",
+    "Quiet and inexpensive"
+   ],
+   "cons": [
+    "A small area — enough for a few days",
+    "South-facing wall: hot in the middle of summer days",
+    "Cold in winter",
+    "Only reachable by car"
+   ],
+   "airport": "BNX — Banja Luka, ~1.5 h; ZAG — Zagreb, ~4 h",
+   "school_notes": [
+    "Accommodation at the crag; for groups, a base camp with meals and guiding on request"
+   ]
+  },
+  "domusnovas": {
+   "h": "9ac1cf84db",
+   "description": "Domusnovas is a limestone area in south-west Sardinia around the San Giovanni cave, which a road once ran through. More than 700 routes in 36 sectors — from slabs and vertical walls to steep tufa-covered overhangs, from 5th grade to 9a; the cave is a lifesaver in the rain. Spring and autumn are best, and winter works too.",
+   "rating_basis": "One of Sardinia's main areas: 700+ routes from 5th grade to 9a, and the San Giovanni through-cave lets you climb in the rain; less known than the east coast",
+   "hazards": "Heat and sun in summer, slippery tufa in the cave in damp weather, occasional loose rock",
+   "crowd_note": "Quieter than Sardinia's east coast",
+   "region": "South-west Sardinia, Iglesiente: the San Giovanni cave by the town of Domusnovas",
+   "season": "October to May; best October–November and March–May; hot in summer, when shade and the cave help",
+   "transfer": "About 45 minutes by car from Cagliari airport (~60 km)",
+   "rock_note": "grey and orange limestone: slabs, vertical walls and steep tufa-covered overhangs around the San Giovanni through-cave",
+   "approach": "The sectors are around the San Giovanni cave, with short approaches; you need a car",
+   "guidebook": "Domusnovas Sport Climbing — 750 routes at Domusnovas and Ombre Rosse, 36 sectors",
+   "stay": "Agriturismi and apartments in Domusnovas and Iglesias; you need a car",
+   "pros": [
+    "700+ routes of every grade in one area",
+    "A huge cave — climbing in the rain",
+    "Mild winter and the sea nearby",
+    "Cagliari airport 45 minutes away"
+   ],
+   "cons": [
+    "Russian passports need a Schengen visa",
+    "Hot in summer",
+    "You can't do without a car"
+   ],
+   "airport": "CAG — Cagliari, ~45 min"
+  },
+  "olympos-cirali": {
+   "h": "928939843d",
+   "description": "Olympos and Çıralı are two neighbouring villages on the coast south-west of Antalya, in a valley with the ruins of ancient Olympos. More than 350 routes in a dozen sectors: vertical walls with crimps and pockets and tufa-covered overhangs, from easy to 8c+, 5–20 minutes from the guesthouses and the beach; deep-water solo in summer. Autumn and spring are best.",
+   "rating_basis": "350+ routes in 12 sectors by the sea, from 3rd grade to 8c+; a relaxed base with a beach and ancient ruins, courses and gear rental on site",
+   "hazards": "Heat and sun, rockfall under overhangs, snakes and scorpions in the warm months",
+   "crowd_note": "Calmer than Geyikbayırı; busiest during the festival at the end of October",
+   "region": "Antalya: the valley of ancient Olympos and Çıralı bay, south-west of Antalya",
+   "season": "September to June; best October–November and March–May; frequent rain in winter, hot in summer — climb only in the morning, in the shade, or deep-water solo",
+   "transfer": "About 1.5 h by car from Antalya airport (~80 km); by bus to the Olympos junction, then by minibus",
+   "rock_note": "limestone with crimps, pockets, cobbles, tufas and stalactites: vertical walls and overhangs",
+   "approach": "5–20 minutes' walk from the guesthouses in Olympos and Çıralı",
+   "restrictions": "Olympos is a national park and an ancient city; there is an entrance fee to the ruins",
+   "guidebook": "A Rock Climbing Guide to Antalya (Öztürk Kayıkçı) — Olympos, Geyikbayırı and other crags around Antalya; €10 from each copy goes to maintaining the area",
+   "stay": "Guesthouses and tree houses in Olympos, guesthouses in Çıralı; walk to the crags",
+   "pros": [
+    "Crags, beach and ancient ruins in one place",
+    "Routes for every level, courses and gear rental on site",
+    "Visa-free for Russian passports",
+    "Quieter than Geyikbayırı"
+   ],
+   "cons": [
+    "Frequent rain in winter",
+    "Hot in summer — climb only in the morning and in the shade",
+    "A long trip from the airport without a car"
+   ],
+   "airport": "AYT — Antalya, ~1.5 h",
+   "school_notes": [
+    "Since 2015: beginner courses, learn-to-lead, guiding 5a–7c, deep-water solo, gear rental"
+   ]
+  },
+  "datca": {
+   "h": "ac65075264",
+   "description": "Datça is a long peninsula between the Aegean and the Mediterranean, not far from Bodrum and Marmaris. About 320 routes on tufa limestone: slabs, vertical walls, overhangs and the giant Can Baba cave with routes from 7b to 9b, plus multi-pitches up to 220 m; most crags are 15–20 minutes from town. The season runs from mid-autumn to spring.",
+   "rating_basis": "About 320 routes on unpolished limestone and the huge Can Baba cave with 7b–9b routes — one of the best in Turkey; not many easy routes",
+   "hazards": "Loose rock and wasp nests at the remote crags, heat in the warm months",
+   "crowd_note": "Quiet even in season",
+   "region": "Muğla, the Datça peninsula between the Aegean and the Mediterranean",
+   "season": "mid-October to May; best November to April; in autumn and late spring you have to chase the shade, in winter a cold north wind can blow",
+   "transfer": "2–3 h by car from Dalaman; from Bodrum a ferry to Datça takes about 1.5 h (not daily in winter); 4–5 h from İzmir",
+   "rock_note": "tufa limestone: slabs, vertical walls with crimps and pockets, overhangs and huge caves; the rock is not polished",
+   "approach": "Most crags are 15–20 minutes' drive from Datça; the Can Baba cave is an uphill walk from the Indian Man parking; a car is almost essential",
+   "guidebook": "The official Datça guidebook — a free PDF (linked from theCrag)",
+   "stay": "Datça Base Camp near the crags (camping, bungalows, camper spots), guesthouses and boutique hotels in Datça; you need a car or scooter",
+   "pros": [
+    "The Can Baba cave — one of Turkey's best for strong climbers",
+    "Unpolished rock and few people",
+    "Visa-free for Russian passports",
+    "Mild winter by the sea"
+   ],
+   "cons": [
+    "Not many easy routes",
+    "You need a car",
+    "Far from the airports",
+    "Hot in summer"
+   ],
+   "airport": "DLM — Dalaman, ~2.5 h; BJV — Bodrum + ferry ~1.5 h"
+  },
+  "san-vito-lo-capo": {
+   "h": "14a957aa4f",
+   "description": "San Vito Lo Capo is a resort town in north-west Sicily at the foot of Monte Monaco. More than 1,200 routes on sea limestone — vertical walls, overhangs and caves a few metres from the water, from 3rd grade to 8c, plus multi-pitches and deep-water solo. The main season is autumn to spring: many walls face south and the beaches are empty.",
+   "rating_basis": "Italy's main winter area: more than 1,200 routes by the sea from 3rd grade to 8c, multi-pitches on Monte Monaco, warm south-facing walls",
+   "hazards": "Sea salt and humidity make the rock slippery, heat and sun in the warm months, rockfall under overhangs",
+   "crowd_note": "Busy near the campsite in high season, quiet at the far sectors",
+   "region": "North-west Sicily, province of Trapani: Capo San Vito and Monte Monaco",
+   "season": "October to May; best November to March — many sectors face south and west; too hot in summer",
+   "transfer": "About 1 h by car from Trapani airport, about 1.5 h from Palermo; there are buses too",
+   "rock_note": "sea limestone: vertical walls and overhangs with cauliflower features, tufas and caves a few metres from the water",
+   "approach": "The main sectors are along the coast south of town, 5–15 minutes from El Bahira campsite; the far ones are reached by a dirt track across pastures",
+   "restrictions": "Some sectors are reached through pasture fences — don't damage them and close them behind you",
+   "guidebook": "Sicily Rock (2024): 1,280 sport routes; Sportclimbing in Sicily: San Vito Lo Capo (Vertical-Life)",
+   "stay": "El Bahira campsite right below the main wall (discount for climbers in season), apartments in San Vito Lo Capo",
+   "pros": [
+    "1,200+ routes for every level — from 3rd grade to 8c",
+    "Warm winter, south-facing walls, the sea two steps away",
+    "A campsite right below the wall",
+    "Lots of easy routes — good for beginners"
+   ],
+   "cons": [
+    "Russian passports need a Schengen visa",
+    "Too hot in summer",
+    "In humid weather the rock is slippery with salt"
+   ],
+   "airport": "TPS — Trapani, ~1 h; PMO — Palermo, ~1.5 h"
+  },
+  "sarikaya-izmir": {
+   "h": "fdbc3af9f6",
+   "description": "Sarıkaya is a set of limestone crags by the village of the same name between İzmir and Manisa, twenty minutes from the city. About 170 routes from 4th grade to 8c: the sunny, windy Arat and Anabant sectors and a shady, sheltered canyon, so you can climb almost any time of year by picking the side. A handy option for a few days near İzmir airport.",
+   "rating_basis": "İzmir's local area: about 170 routes, sunny sectors and a shady canyon — climbable almost all year; few reviews and little information",
+   "hazards": "Loose rock, heat on the sunny sectors in summer, wind on the exposed walls",
+   "crowd_note": "Almost unknown outside Turkey",
+   "region": "Between İzmir and Manisa: the village of Sarıkaya, about 20 minutes from İzmir",
+   "season": "all year if you pick the sectors: in winter the sunny Arat and Anabant, in summer the shady, sheltered canyon; best in spring and autumn",
+   "transfer": "About 40 minutes by car from İzmir airport; 20 minutes from İzmir, 15 from Manisa",
+   "rock_note": "good, mostly solid limestone; some loose rock",
+   "approach": "The crags are next to the highway, with a short approach; almost no phone signal at the crag",
+   "guidebook": "A paper guidebook is sold at the Mekanik Climbing shop in İzmir; topos on 27crags and thetopo.com",
+   "stay": "Stay in İzmir or Manisa — 15–20 minutes' drive",
+   "pros": [
+    "İzmir airport nearby — handy for a few days",
+    "Sunny sectors in winter, a shady canyon in summer",
+    "Visa-free for Russian passports",
+    "Few people"
+   ],
+   "cons": [
+    "A small area",
+    "Some loose rock",
+    "Almost no phone signal at the crag",
+    "You need a car"
+   ],
+   "airport": "ADB — İzmir, ~40 min"
   }
  }
 }

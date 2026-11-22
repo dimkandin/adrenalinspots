@@ -20598,6 +20598,233 @@
    ],
    "airport": "KUT — Kutaisi, ~5–6 h",
    "lift_pass_note": "1 giorno, adulto — 50 GEL (≈17 €), valido a Tetnuldi e a Hatsvali"
+  },
+  "prilep": {
+   "h": "3a7710ed53",
+   "description": "Prilep è un insieme di colline granitiche nella piana della Pelagonia, nel centro della Macedonia del Nord, disseminate di massi scolpiti. Oltre 400 blocchi in tre zone a dieci minuti dalla città: Kamena Baba presso le torri medievali di Marko, Dabinca e la più alta Treskavec vicino al monastero; nel 2014 vi è passato il Petzl RocTrip. Si arrampica in primavera e in autunno: d'estate fa caldo, d'inverno freddo.",
+   "rating_basis": "Una delle principali zone boulder dell'Europa orientale: 400+ blocchi in tre zone principali, tappa del Petzl RocTrip 2014; roccia ruvida, guida del 2015",
+   "hazards": "Roccia tagliente, avvicinamenti ripidi, caldo e serpenti nei mesi caldi; d'inverno Treskavec non si raggiunge in auto",
+   "crowd_note": "Anche in stagione sui massi c'è poca gente; la zona più frequentata è Kamena Baba",
+   "region": "Pelagonia: colline granitiche intorno a Prilep — Kamena Baba presso le torri di Marko, Dabinca, Treskavec",
+   "season": "da marzo a maggio e da settembre a novembre; meglio marzo–aprile e ottobre–novembre; troppo caldo d'estate, freddo e a volte neve d'inverno",
+   "transfer": "Circa 1,5 h d'auto dall'aeroporto di Skopje, circa 1,5 h anche da Ocrida",
+   "rock_note": "granito a grana grossa: massi scolpiti, piccole tacche e forme arrotondate; la roccia ruvida ha un'ottima aderenza ma rovina la pelle",
+   "approach": "Tutte le zone a meno di 10 minuti d'auto dal centro di Prilep; per Kamena Baba 25 minuti di salita ripida, per Dabinca 3 km di sterrato dissestato più 15 minuti a piedi; d'inverno la strada per Treskavec è spesso innevata",
+   "guidebook": "Prilep Bouldering (2015) — cinque zone; topo anche su 27crags e theCrag",
+   "stay": "Hotel e appartamenti a Prilep — a 10 minuti d'auto dai massi; l'auto è quasi indispensabile",
+   "pros": [
+    "400+ blocchi su granito a grana grossa a 10 minuti dalla città",
+    "Atterraggi piani sull'erba — bastano uno o due crash pad",
+    "Poca gente e prezzi bassi",
+    "Treskavec è più in alto delle altre zone — utile nelle giornate calde"
+   ],
+   "cons": [
+    "Roccia ruvida e tacche piccole — dura per la pelle",
+    "Con passaporto russo serve un visto (nazionale o Schengen multiplo)",
+    "Caldo d'estate, possibile neve d'inverno",
+    "Scomodo senz'auto"
+   ],
+   "airport": "SKP — Skopje, ~1,5 h; OHD — Ocrida, ~1,5 h",
+   "famous_lines": [
+    "Excalibur 7C (Kamena Baba)",
+    "Ni-Mus 7B (Kamena Baba)",
+    "Waves 7C (Dabinca)",
+    "Terrormeer 8A (Treskavec)"
+   ]
+  },
+  "tafraout": {
+   "h": "fbc1088c47",
+   "description": "Tafraout è una cittadina dell'Anti-Atlante tra colline e massi di granito rosa. Intorno al villaggio di Aguerd Oudad ci sono 14 circuiti boulder segnati a colori, da facilissimi a intermedi, e sulle pareti e le cupole circostanti centinaia di altre vie e fessure. La stagione va dall'autunno alla primavera, quando in Europa fa freddo: di giorno qui ci sono circa 20 °C.",
+   "rating_basis": "Un'enorme zona granitica: 14 circuiti segnati per ogni livello e un inverno caldo e secco; roccia friabile in alcuni punti, pochi blocchi difficili",
+   "hazards": "Roccia friabile, caldo e sole, notti fredde d'inverno; serpenti e scorpioni nei mesi caldi",
+   "crowd_note": "Più massi che persone: anche d'inverno i circuiti sono quasi deserti",
+   "region": "Anti-Atlante, provincia di Tiznit: colline di granito rosa intorno a Tafraout e al villaggio di Aguerd Oudad",
+   "season": "da ottobre ad aprile; meglio da novembre a marzo; da maggio a settembre fa troppo caldo",
+   "transfer": "Circa 3 h d'auto dall'aeroporto di Agadir (~165 km); la soluzione più comoda è noleggiare un'auto",
+   "rock_note": "granito rosa a grana grossa: massi arrotondati, cupole e fessure; friabile in alcuni punti",
+   "approach": "Da 2 a 15 minuti a piedi dalla strada; alcuni circuiti si raggiungono a piedi da Tafraout, gli altri a pochi minuti d'auto",
+   "guidebook": "Tafraout Granite (Oxford Alpine Club, 3ª ed., 2024): 800+ vie e blocchi su 75 pareti entro 10 km da Tafraout, con le mappe dei circuiti; mappa gratuita dei circuiti su climb-tafraout.com",
+   "stay": "Hotel e riad a Tafraout (Les Amis, Les Amandiers, Riad Nour, Ksar Rock Guesthouse)",
+   "pros": [
+    "Inverno caldo e secco quando in Europa fa freddo",
+    "Circuiti segnati — comodi per principianti e gruppi",
+    "Quasi nessuno",
+    "Senza visto per i passaporti russi"
+   ],
+   "cons": [
+    "Roccia friabile in alcuni punti",
+    "Pochi blocchi difficili",
+    "Circa 3 ore dall'aeroporto",
+    "D'estate molto caldo"
+   ],
+   "airport": "AGA — Agadir, ~3 h"
+  },
+  "pecka": {
+   "h": "64d4d8d3ba",
+   "description": "Pecka è una piccola falesia calcarea tra le verdi colline della Bosnia occidentale, presso il villaggio di Gornja Pecka vicino a Mrkonjić Grad. Oltre 120 monotiri di 20–30 m su roccia piena di buchi, soprattutto di 6° grado; si può dormire proprio sotto la parete, nel centro visitatori. Meglio in primavera e in autunno.",
+   "rating_basis": "Una zona piccola e giovane: 120+ vie di 20–30 m su buon calcare a buchi, alloggio proprio sotto la parete; per ora poche informazioni e recensioni",
+   "hazards": "Sole e caldo sulla parete sud d'estate, qualche sasso instabile sulle vie nuove",
+   "crowd_note": "Falesia poco conosciuta, poca gente",
+   "region": "Repubblica Serba, comune di Mrkonjić Grad: villaggio di Gornja Pecka",
+   "season": "da aprile a giugno e da settembre a ottobre; meglio in primavera e in autunno; d'estate la mattina e nel tardo pomeriggio (la parete è esposta a sud), d'inverno solo nelle giornate di sole",
+   "transfer": "Circa 1,5 h d'auto da Banja Luka, circa 4 h da Zagabria",
+   "rock_note": "calcare compatto con molti buchi, tacche e qualche canna: placche, pareti verticali e strapiombi",
+   "approach": "Pochi minuti a piedi dal centro visitatori di Pecka",
+   "guidebook": "Il topo ufficiale è disponibile al centro visitatori di Pecka (pecka.ba)",
+   "stay": "Il centro visitatori di Pecka proprio sotto la parete: dormitorio nella vecchia scuola (30 KM), casette (da 100 KM), campeggio (da 10 KM), cucina casalinga su richiesta",
+   "pros": [
+    "Alloggio e campeggio proprio sotto la parete",
+    "Calcare a buchi, molte vie di 6° grado",
+    "Senza visto per i passaporti russi",
+    "Tranquillo ed economico"
+   ],
+   "cons": [
+    "Zona piccola — per pochi giorni",
+    "Parete sud: d'estate fa caldo di giorno",
+    "Freddo d'inverno",
+    "Si arriva solo in auto"
+   ],
+   "airport": "BNX — Banja Luka, ~1,5 h; ZAG — Zagabria, ~4 h",
+   "school_notes": [
+    "Alloggio sotto la parete; per i gruppi, su richiesta, campo base con pasti e accompagnamento"
+   ]
+  },
+  "domusnovas": {
+   "h": "9ac1cf84db",
+   "description": "Domusnovas è una zona calcarea della Sardegna sud-occidentale intorno alla grotta di San Giovanni, attraverso cui un tempo passava una strada. Oltre 700 vie in 36 settori — da placche e pareti verticali a strapiombi ripidi con canne, dal 5° grado al 9a; la grotta salva le giornate di pioggia. Il periodo migliore è primavera e autunno, ma si arrampica anche d'inverno.",
+   "rating_basis": "Una delle principali zone della Sardegna: 700+ vie dal 5° grado al 9a, e la grotta passante di San Giovanni permette di arrampicare con la pioggia; meno nota della costa est",
+   "hazards": "Caldo e sole d'estate, concrezioni scivolose in grotta con l'umidità, qualche sasso instabile",
+   "crowd_note": "Più tranquilla della costa orientale della Sardegna",
+   "region": "Sardegna sud-occidentale, Iglesiente: la grotta di San Giovanni presso Domusnovas",
+   "season": "da ottobre a maggio; meglio ottobre–novembre e marzo–maggio; d'estate fa caldo, aiutano l'ombra e la grotta",
+   "transfer": "Circa 45 minuti d'auto dall'aeroporto di Cagliari (~60 km)",
+   "rock_note": "calcare grigio e arancione: placche, pareti verticali e strapiombi ripidi con canne intorno alla grotta passante di San Giovanni",
+   "approach": "I settori sono intorno alla grotta di San Giovanni, avvicinamenti brevi; serve l'auto",
+   "guidebook": "Domusnovas Sport Climbing — 750 vie di Domusnovas e Ombre Rosse, 36 settori",
+   "stay": "Agriturismi e appartamenti a Domusnovas e Iglesias; serve l'auto",
+   "pros": [
+    "700+ vie di ogni grado in un'unica zona",
+    "Un'enorme grotta — si arrampica anche con la pioggia",
+    "Inverno mite e mare vicino",
+    "L'aeroporto di Cagliari a 45 minuti"
+   ],
+   "cons": [
+    "Con passaporto russo serve il visto Schengen",
+    "Caldo d'estate",
+    "Senz'auto non si fa"
+   ],
+   "airport": "CAG — Cagliari, ~45 min"
+  },
+  "olympos-cirali": {
+   "h": "928939843d",
+   "description": "Olympos e Çıralı sono due villaggi vicini sulla costa a sud-ovest di Antalya, in una valle con le rovine dell'antica Olympos. Oltre 350 vie in una dozzina di settori: pareti verticali con tacche e buchi e strapiombi con canne, dal facile all'8c+, a 5–20 minuti dalle pensioni e dalla spiaggia; d'estate deep water solo. Il periodo migliore è autunno e primavera.",
+   "rating_basis": "350+ vie in 12 settori sul mare, dal 3° grado all'8c+; una base tranquilla con spiaggia e rovine antiche, corsi e noleggio sul posto",
+   "hazards": "Caldo e sole, caduta sassi sotto gli strapiombi, serpenti e scorpioni nei mesi caldi",
+   "crowd_note": "Più tranquillo di Geyikbayırı; più gente durante il festival di fine ottobre",
+   "region": "Antalya: la valle dell'antica Olympos e la baia di Çıralı, a sud-ovest di Antalya",
+   "season": "da settembre a giugno; meglio ottobre–novembre e marzo–maggio; d'inverno piove spesso, d'estate fa caldo — solo la mattina, all'ombra o deep water solo",
+   "transfer": "Circa 1,5 h d'auto dall'aeroporto di Antalya (~80 km); in autobus fino al bivio per Olympos, poi in minibus",
+   "rock_note": "calcare con tacche, buchi, ciottoli, canne e stalattiti: pareti verticali e strapiombi",
+   "approach": "Da 5 a 20 minuti a piedi dalle pensioni di Olympos e Çıralı",
+   "restrictions": "Olympos è parco nazionale e città antica; l'ingresso alle rovine è a pagamento",
+   "guidebook": "A Rock Climbing Guide to Antalya (Öztürk Kayıkçı) — Olympos, Geyikbayırı e altre falesie di Antalya; 10 € per copia vanno alla manutenzione della zona",
+   "stay": "Pensioni e case sugli alberi a Olympos, guesthouse a Çıralı; alle falesie si va a piedi",
+   "pros": [
+    "Falesie, spiaggia e rovine antiche in un unico posto",
+    "Vie per ogni livello, corsi e noleggio sul posto",
+    "Senza visto per i passaporti russi",
+    "Più tranquillo di Geyikbayırı"
+   ],
+   "cons": [
+    "D'inverno piove spesso",
+    "Caldo d'estate — arrampicare solo la mattina e all'ombra",
+    "Senz'auto il viaggio dall'aeroporto è lungo"
+   ],
+   "airport": "AYT — Antalya, ~1,5 h",
+   "school_notes": [
+    "Dal 2015: corsi per principianti, corsi da primo di cordata, guida 5a–7c, deep water solo, noleggio attrezzatura"
+   ]
+  },
+  "datca": {
+   "h": "ac65075264",
+   "description": "Datça è una lunga penisola tra l'Egeo e il Mediterraneo, non lontano da Bodrum e Marmaris. Circa 320 vie su calcare a canne: placche, pareti verticali, strapiombi e la gigantesca grotta di Can Baba con vie dal 7b al 9b, più vie lunghe fino a 220 m; la maggior parte delle falesie è a 15–20 minuti dal paese. La stagione va da metà autunno alla primavera.",
+   "rating_basis": "Circa 320 vie su calcare non unto e l'enorme grotta di Can Baba con vie 7b–9b — una delle migliori della Turchia; poche vie facili",
+   "hazards": "Sassi instabili e nidi di vespe nelle falesie isolate, caldo nei mesi caldi",
+   "crowd_note": "Tranquillo anche in stagione",
+   "region": "Muğla, la penisola di Datça tra l'Egeo e il Mediterraneo",
+   "season": "da metà ottobre a maggio; meglio da novembre ad aprile; in autunno e a fine primavera bisogna cercare l'ombra, d'inverno può soffiare un vento freddo da nord",
+   "transfer": "2–3 h d'auto da Dalaman; da Bodrum traghetto per Datça di circa 1,5 h (d'inverno non tutti i giorni); 4–5 h da Smirne",
+   "rock_note": "calcare a canne: placche, pareti verticali con tacche e buchi, strapiombi e grotte enormi; la roccia non è unta",
+   "approach": "La maggior parte delle falesie a 15–20 minuti d'auto da Datça; alla grotta di Can Baba si sale a piedi dal parcheggio di Indian Man; l'auto è quasi indispensabile",
+   "guidebook": "La guida ufficiale di Datça — PDF gratuito (link su theCrag)",
+   "stay": "Datça Base Camp vicino alle falesie (campeggio, bungalow, piazzole per camper), pensioni e boutique hotel a Datça; serve auto o scooter",
+   "pros": [
+    "La grotta di Can Baba — una delle migliori della Turchia per chi è forte",
+    "Roccia non unta e poca gente",
+    "Senza visto per i passaporti russi",
+    "Inverno mite sul mare"
+   ],
+   "cons": [
+    "Poche vie facili",
+    "Serve l'auto",
+    "Lontano dagli aeroporti",
+    "Caldo d'estate"
+   ],
+   "airport": "DLM — Dalaman, ~2,5 h; BJV — Bodrum + traghetto ~1,5 h"
+  },
+  "san-vito-lo-capo": {
+   "h": "14a957aa4f",
+   "description": "San Vito Lo Capo è una località balneare della Sicilia nord-occidentale ai piedi del Monte Monaco. Oltre 1200 vie su calcare marino — pareti verticali, strapiombi e grotte a pochi metri dall'acqua, dal 3° grado all'8c, più vie lunghe e deep water solo. La stagione principale va dall'autunno alla primavera: molte pareti sono esposte a sud e le spiagge sono vuote.",
+   "rating_basis": "La principale zona invernale d'Italia: oltre 1200 vie sul mare dal 3° grado all'8c, vie lunghe sul Monte Monaco, pareti calde esposte a sud",
+   "hazards": "Il sale e l'umidità del mare rendono la roccia scivolosa, caldo e sole nei mesi caldi, caduta sassi sotto gli strapiombi",
+   "crowd_note": "In alta stagione c'è molta gente vicino al campeggio, i settori lontani sono tranquilli",
+   "region": "Sicilia nord-occidentale, provincia di Trapani: Capo San Vito e Monte Monaco",
+   "season": "da ottobre a maggio; meglio da novembre a marzo — molti settori sono esposti a sud e a ovest; d'estate fa troppo caldo",
+   "transfer": "Circa 1 h d'auto dall'aeroporto di Trapani, circa 1,5 h da Palermo; ci sono anche autobus",
+   "rock_note": "calcare marino: pareti verticali e strapiombi con «cavolfiori», canne e grotte a pochi metri dall'acqua",
+   "approach": "I settori principali sono lungo la costa a sud del paese, a 5–15 minuti dal campeggio El Bahira; a quelli lontani si arriva per uno sterrato tra i pascoli",
+   "restrictions": "Ad alcuni settori si accede attraversando recinzioni dei pascoli — non danneggiarle e richiuderle",
+   "guidebook": "Sicily Rock (2024): 1280 vie sportive; Sportclimbing in Sicily: San Vito Lo Capo (Vertical-Life)",
+   "stay": "Campeggio El Bahira proprio sotto la parete principale (sconto per arrampicatori in stagione), appartamenti a San Vito Lo Capo",
+   "pros": [
+    "1200+ vie per ogni livello — dal 3° grado all'8c",
+    "Inverno caldo, pareti a sud, il mare a due passi",
+    "Campeggio proprio sotto la parete",
+    "Molte vie facili — ottimo per i principianti"
+   ],
+   "cons": [
+    "Con passaporto russo serve il visto Schengen",
+    "D'estate fa troppo caldo",
+    "Con l'umidità la roccia è scivolosa per il sale"
+   ],
+   "airport": "TPS — Trapani, ~1 h; PMO — Palermo, ~1,5 h"
+  },
+  "sarikaya-izmir": {
+   "h": "fdbc3af9f6",
+   "description": "Sarıkaya sono falesie calcaree presso l'omonimo villaggio tra Smirne e Manisa, a venti minuti dalla città. Circa 170 vie dal 4° grado all'8c: i settori soleggiati e ventosi di Arat e Anabant e un canyon ombroso e riparato, così si può arrampicare quasi tutto l'anno scegliendo il versante. Una buona opzione per qualche giorno vicino all'aeroporto di Smirne.",
+   "rating_basis": "La falesia locale di Smirne: circa 170 vie, settori soleggiati e un canyon ombroso — si arrampica quasi tutto l'anno; poche recensioni e informazioni",
+   "hazards": "Sassi instabili, caldo sui settori soleggiati d'estate, vento sulle pareti esposte",
+   "crowd_note": "Quasi sconosciuta fuori dalla Turchia",
+   "region": "Tra Smirne e Manisa: villaggio di Sarıkaya, a circa 20 minuti da Smirne",
+   "season": "tutto l'anno scegliendo i settori: d'inverno i soleggiati Arat e Anabant, d'estate il canyon ombroso e riparato; meglio in primavera e in autunno",
+   "transfer": "Circa 40 minuti d'auto dall'aeroporto di Smirne; 20 minuti da Smirne, 15 da Manisa",
+   "rock_note": "calcare buono, per lo più compatto; qualche sasso instabile",
+   "approach": "Le falesie sono accanto alla superstrada, avvicinamento breve; sotto le pareti quasi non c'è campo",
+   "guidebook": "Una guida cartacea è in vendita nel negozio Mekanik Climbing di Smirne; topo su 27crags e thetopo.com",
+   "stay": "Dormire a Smirne o a Manisa — a 15–20 minuti d'auto",
+   "pros": [
+    "L'aeroporto di Smirne vicino — comodo per qualche giorno",
+    "Settori soleggiati d'inverno, canyon ombroso d'estate",
+    "Senza visto per i passaporti russi",
+    "Poca gente"
+   ],
+   "cons": [
+    "Zona piccola",
+    "Qualche sasso instabile",
+    "Sotto le pareti quasi non c'è campo",
+    "Serve l'auto"
+   ],
+   "airport": "ADB — Smirne, ~40 min"
   }
  }
 }
