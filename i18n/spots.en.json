@@ -1912,24 +1912,25 @@
    "airport": "LIM — Lima, ~3.5–4 h by car"
   },
   "boracay-bulabog": {
-   "h": "0ea0f93f35",
-   "description": "Bulabog is Boracay's east beach: a reef-sheltered lagoon reserved exclusively for kiting and windsurfing. From late October to April the northeast Amihan monsoon blows; more than a dozen schools line the beach, and the famous White Beach with its restaurants and bars is a 5-minute walk away.",
+   "h": "a0cca38fed",
+   "description": "Bulabog is Boracay's east beach: a reef-sheltered lagoon reserved exclusively for kiting and windsurfing. From late October to April the northeast Amihan monsoon blows; more than a dozen schools line the beach, and the famous White Beach with its restaurants and bars is a 5-minute walk away. The lagoon also works well for wing foiling: beginners learn inside the reef, experienced riders head outside. In summer, from July to October, the southwest Habagat blows and riders move to White Beach on the opposite, western side.",
    "rating_basis": "The Philippines' main kite hub (Kitejungle); IKSURFMAG describes a reliable 15–25 kn Amihan and a flat lagoon behind the reef with no shorebreak; downside — crowding in peak season",
    "waves_note": "A flat-water lagoon inside the reef, with chop in strong wind; waves on the outer reef. No shorebreak; the water is smoother in the morning and at certain stages of the tide",
    "hazards": "Coral reef and shallows at low tide, crowding in the lagoon, waves on the outer reef; chop in strong wind",
    "gustiness_note": "The northeast Amihan monsoon blows almost constantly from late October to April, averaging 18–20 kn; often stronger in the morning",
-   "crowd_note": "Very crowded in the narrow lagoon in peak season — dozens of kites and students at once",
+   "crowd_note": "Since the island's closure for rehabilitation the spot has become noticeably less busy: it gets crowded only at peak times — Christmas, New Year and Chinese New Year — and even then not packed (according to the local school Isla Kitesurfing, 2026)",
    "region": "Aklan Province, Boracay Island, east coast",
    "pros": [
-    "Steady Amihan November–March",
+    "Steady Amihan from November to April",
     "Flat water behind the reef, no shorebreak",
     "Lagoon reserved for kiting/windsurfing",
+    "Good for wing foiling: learn in the lagoon, experienced riders outside the reef",
+    "Summer Habagat (July–October) — riding on White Beach",
     "Excellent resort infrastructure and nightlife nearby"
    ],
    "cons": [
-    "Very crowded in peak season",
+    "Crowded in peak season — Christmas, New Year, Chinese New Year",
     "Reef and shallows at low tide",
-    "Nowhere to ride out of season (May–September)",
     "Expensive by Philippine standards"
    ],
    "wind_dir": "NE–ENE (Amihan), side-onshore",
@@ -11602,25 +11603,25 @@
    "airport": "LIM — Lima, ~250 km, 3–4 hours by car or bus"
   },
   "boracay-bulabog-windsurf": {
-   "h": "7eb7a3d4aa",
+   "h": "4bba771049",
    "description": "Bulabog is Boracay's windward east-facing beach, sheltered by a reef: from November to April the north-easterly Amihan monsoon blows almost every day, and the waist-deep, warm lagoon makes it easy to learn and freeride. At high tide chop builds inside, and there are waves on the outer reef. From the late 1980s the Boracay International Funboard Cup was held here every year, and in 2012 the RS:One World Championship.",
    "rating_basis": "Windsurf Magazine (micro guide, 2017), Boards and Langyaw: a reliable Amihan from November to April (~75% of days at Force 4+), a warm, shallow lagoon — a great place for learning and freeriding, and a long history of regattas. Downsides — crowded with kiters, coral at low tide, few windsurf centres",
    "waves_note": "Inside the reef lagoon (about 2.5 km along the shore), at low and mid tide — waist-deep flat water; at high tide the water rises to 1.2–1.8 m, swell rolls in and there's bump & jump. On the outer reef (~500 m from shore) — waves, up to 2 m in storms, for experienced sailors only",
    "hazards": "Coral and rocks in the lagoon at low tide (shoes, risk of breaking a fin); waves and current on the outer reef; collisions with kiters and their lines; a narrow beach at high tide; typhoons from June to November",
    "gustiness_note": "The north-easterly Amihan monsoon blows steadily and almost daily; in December–February it can reach 25 knots and more. The summer south-westerly Habagat is gusty and comes with downpours and typhoons",
-   "crowd_note": "Bulabog is the Philippines' main kite beach: in season the lagoon is packed with kites, especially at low tide; windsurfers tend to go out closer to high tide",
+   "crowd_note": "Bulabog is the Philippines' main kite beach: at peak times (Christmas, New Year, Chinese New Year) the lagoon gets crowded, especially at low tide; windsurfers tend to go out closer to high tide",
    "region": "Boracay Island, Aklan Province, Western Visayas",
    "events": "Boracay International Funboard Cup — an annual regatta in January since the late 1980s (it drew about a hundred Asian windsurfers and was a stop on the Asian Windsurfing Tour); 10–15 December 2012 — the first RS:One class World Championship",
    "launch": "Sandy beach on the island's east (windward) coast; centres line Bulabog Road, with the Funboard Center windsurf centre in the northern, upwind part of the beach. At high tide the beach becomes narrow and crowded; at low tide there's coral and rocks in parts of the lagoon — protect your fins and feet, shoes needed",
    "sail_note": "Usually 5.0–6.5 m², 4.2–5.0 on strong days in December–February; big 7+ sails or a foil in the shoulder seasons",
    "pros": [
-    "Steady Amihan from December to March",
+    "Steady Amihan from November to April",
     "Warm, shallow lagoon — ideal for learning",
     "Resort infrastructure nearby (White Beach is a 10-minute walk away)",
     "Outer reef with waves for experienced sailors"
    ],
    "cons": [
-    "The beach and lagoon are overrun with kiters",
+    "Crowded with kiters in the lagoon in peak season",
     "Shallow at low tide, with coral and rocks",
     "Few windsurf centres, limited rental fleet",
     "May to October is Habagat and typhoon season, with unreliable wind"

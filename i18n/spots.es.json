@@ -1912,24 +1912,25 @@
    "airport": "LIM — Lima, ~3,5–4 h en coche"
   },
   "boracay-bulabog": {
-   "h": "0ea0f93f35",
-   "description": "Bulabog es la playa este, a sotavento, de Boracay: una laguna protegida por un arrecife y reservada exclusivamente para kite y windsurf. De finales de octubre a abril sopla el monzón del noreste Amihan; a lo largo de la playa hay más de una decena de escuelas, y la famosa White Beach, con sus restaurantes y bares, está a 5 minutos a pie.",
+   "h": "a0cca38fed",
+   "description": "Bulabog es la playa este, a sotavento, de Boracay: una laguna protegida por un arrecife y reservada exclusivamente para kite y windsurf. De finales de octubre a abril sopla el monzón del noreste Amihan; a lo largo de la playa hay más de una decena de escuelas, y la famosa White Beach, con sus restaurantes y bares, está a 5 minutos a pie. La laguna también va muy bien para el wingfoil: dentro del arrecife se aprende y fuera navegan los avanzados. En verano, de julio a octubre, sopla el Habagat del suroeste y se navega en White Beach, en el lado oeste.",
    "rating_basis": "El principal centro de kite de Filipinas (Kitejungle); IKSURFMAG describe un Amihan fiable de 15–25 nudos y una laguna plana tras el arrecife sin shorebreak; en contra: aglomeraciones en plena temporada",
    "waves_note": "Dentro del arrecife, laguna de agua plana, con chop si el viento es fuerte; en el arrecife exterior, olas. Sin shorebreak; por la mañana y en cierta fase de la marea el agua está más lisa",
    "hazards": "Arrecife de coral y poca profundidad en bajamar, aglomeración en la laguna, olas en el arrecife exterior; con viento fuerte, chop",
    "gustiness_note": "El monzón del noreste Amihan sopla casi sin parar de finales de octubre a abril, con una media de 18–20 nudos; por la mañana suele ser más fuerte",
-   "crowd_note": "En plena temporada la estrecha laguna se llena muchísimo: decenas de kites y alumnos a la vez",
+   "crowd_note": "Desde el cierre de la isla para su rehabilitación el spot está bastante más tranquilo: solo hay gente en las fechas punta —Navidad, Año Nuevo y Año Nuevo chino— y aun así no se llena (según la escuela local Isla Kitesurfing, 2026)",
    "region": "Provincia de Aklan, isla de Boracay, costa este",
    "pros": [
-    "Amihan estable de noviembre a marzo",
+    "Amihan constante de noviembre a abril",
     "Agua plana tras el arrecife, sin shorebreak",
     "Laguna reservada para kite/windsurf",
+    "Buena para wingfoil: se aprende en la laguna, los avanzados fuera del arrecife",
+    "En verano (julio–octubre), Habagat: se navega en White Beach",
     "Excelente infraestructura turística y vida nocturna cerca"
    ],
    "cons": [
-    "Mucha gente en plena temporada",
+    "Hay gente en temporada alta: Navidad, Año Nuevo, Año Nuevo chino",
     "Arrecife y poca profundidad en bajamar",
-    "Fuera de temporada (mayo–septiembre) no hay dónde navegar",
     "Caro para lo que es Filipinas"
    ],
    "wind_dir": "NE–ENE (Amihan), side-onshore",
@@ -11602,25 +11603,25 @@
    "airport": "LIM — Lima, ~250 km, 3–4 horas en coche o autobús"
   },
   "boracay-bulabog-windsurf": {
-   "h": "7eb7a3d4aa",
+   "h": "4bba771049",
    "description": "Bulabog es la playa este de Boracay, a barlovento y protegida por un arrecife: de noviembre a abril el monzón del noreste, el Amihan, sopla casi a diario, y en la laguna, con agua cálida a la altura de la cintura, es fácil aprender y hacer freeride. Con marea alta aparece chop dentro, y en el arrecife exterior, olas. Desde finales de los años 80 se celebraba aquí cada año la Boracay International Funboard Cup, y en 2012, el campeonato del mundo de RS:One.",
    "rating_basis": "Windsurf Magazine (micro guide de 2017), Boards y Langyaw: Amihan fiable de noviembre a abril (~75 % de los días con fuerza 4+), laguna cálida y poco profunda, excelente para aprender y hacer freeride, y una larga historia de regatas. En contra: masificación por los kiters, coral con marea baja y pocas estaciones de windsurf",
    "waves_note": "Dentro de la laguna de arrecife (unos 2,5 km a lo largo de la costa), con marea baja y media, agua plana a la altura de la cintura; con marea alta el agua sube a 1,2–1,8 m, entra swell y hay bump & jump. En el arrecife exterior (~500 m de la orilla), olas de hasta 2 m con temporal, solo para expertos",
    "hazards": "Coral y rocas en la laguna con marea baja (escarpines, riesgo de romper la aleta); olas y corriente en el arrecife exterior; choques con kiters y sus líneas; playa estrecha con marea alta; tifones de junio a noviembre",
    "gustiness_note": "El monzón del noreste, el Amihan, sopla regular y casi a diario; en diciembre–febrero puede llegar a 25 nudos o más. El Habagat de verano, del suroeste, es racheado y va asociado a aguaceros y tifones",
-   "crowd_note": "Bulabog es la principal playa de kite de Filipinas: en temporada hay muchísimos kites en la laguna, sobre todo con marea baja; los windsurfistas suelen salir más cerca de la pleamar",
+   "crowd_note": "Bulabog es la principal playa de kite de Filipinas: en temporada alta (Navidad, Año Nuevo, Año Nuevo chino) la laguna se llena, sobre todo con marea baja; los windsurfistas suelen salir más cerca de la pleamar",
    "region": "Isla de Boracay, provincia de Aklan, Bisayas Occidentales",
    "events": "Boracay International Funboard Cup, regata anual en enero desde finales de los años 80 (reunía a un centenar de windsurfistas de Asia, prueba del Asian Windsurfing Tour); del 10 al 15 de diciembre de 2012, primer campeonato del mundo de la clase RS:One",
    "launch": "Playa de arena en la costa este (barlovento) de la isla; las estaciones están a lo largo de la Bulabog Road, y el centro de windsurf Funboard Center, en la parte norte de la playa, a barlovento. Con marea alta la playa se vuelve estrecha y abarrotada; con marea baja hay coral y rocas en algunos puntos de la laguna: cuida aletas y pies, hacen falta escarpines",
    "sail_note": "Normalmente 5,0–6,5 m², los días fuertes de diciembre–febrero 4,2–5,0; en temporada baja, velas grandes de 7+ o foil",
    "pros": [
-    "Amihan estable de diciembre a marzo",
+    "Amihan constante de noviembre a abril",
     "Laguna cálida y poco profunda: ideal para aprender",
     "Infraestructura turística al lado (White Beach a 10 minutos a pie)",
     "Arrecife exterior con olas para expertos"
    ],
    "cons": [
-    "La playa y la laguna están abarrotadas de kiters",
+    "En temporada alta la laguna se llena de kiters",
     "Con marea baja, poca profundidad, coral y rocas",
     "Pocas estaciones de windsurf, material de alquiler limitado",
     "De mayo a octubre, temporada del Habagat y de tifones, viento poco fiable"
