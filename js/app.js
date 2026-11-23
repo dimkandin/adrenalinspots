@@ -14,7 +14,7 @@ import {
 
 // What each section (activity) shows: quick filters, dropdowns, season kinds, and the number in the list
 const ACT = {
-  kite: { qf: ['novisa', 'ru', 'flat', 'wave'], dd: ['minRating', 'pop', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'snow', 'off'], unit: true,
+  kite: { qf: ['novisa', 'ru', 'flat', 'wave', 'wing'], dd: ['minRating', 'pop', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'snow', 'off'], unit: true,
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
   surf: { qf: ['novisa', 'ru', 'beginner'], dd: ['minRating', 'pop', 'brk', 'dir', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.swell && s.swell[m - 1] != null ? metres(s.swell[m - 1]) : '') },
@@ -22,7 +22,7 @@ const ACT = {
     value: (s, m) => (s.snow && s.snow[m - 1] != null ? cm(s.snow[m - 1]) : '') },
   climbing: { qf: ['novisa', 'ru', 'beginner', 'hard', 'rain', 'shade'], dd: ['minRating', 'pop', 'style', 'rock', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.air && s.air[m - 1] != null ? deg(s.air[m - 1]) : '') },
-  windsurf: { qf: ['novisa', 'ru', 'beginner', 'flat', 'wave', 'rental'], dd: ['minRating', 'pop', 'wstyle', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: true,
+  windsurf: { qf: ['novisa', 'ru', 'beginner', 'flat', 'wave', 'rental', 'wing'], dd: ['minRating', 'pop', 'wstyle', 'minAir', 'vibe', 'minWater'], seasons: ['peak', 'shoulder', 'off'], unit: true,
     value: (s, m) => (s.wind && s.wind[m - 1] != null ? windText(s.wind[m - 1]) : '') },
   diving: { qf: ['novisa', 'ru', 'beginner', 'shore', 'snorkel'], dd: ['minRating', 'pop', 'divetype', 'minWater', 'maxDive', 'vibe'], seasons: ['peak', 'shoulder', 'off'], unit: false,
     value: (s, m) => (s.sea && s.sea[m - 1] != null ? deg(s.sea[m - 1]) : ''), valueTitle: () => t('row.water_title') },
@@ -45,7 +45,7 @@ const DEFAULT_FILTERS = {
   minRating: null, minAir: null, minWater: null, vibe: null, pop: null, maxPass: null, minVert: null, minKm: null,
   hard: false, rain: false, shade: false, style: null, rock: null,
   tandem: false, courses: false, xc: false, flytype: null, maxTandem: null,
-  rental: false, wstyle: null,
+  rental: false, wstyle: null, wing: false,
   shore: false, snorkel: false, divetype: null, maxDive: null,
   bareboat: false, flotilla: false, catamaran: false, sdiff: null, maxCharter: null,
   high: false, dip: false, swing: false, platform: null, minHeight: null, maxJump: null,
@@ -162,6 +162,7 @@ function passesFilters(s, m = state.month) {
   if (f.style && !(s.styles || []).includes(f.style)) return false;
   if (f.wstyle && !(s.styles || []).includes(f.wstyle)) return false;
   if (f.rental && !s.rental) return false;
+  if (f.wing && !s.wing) return false;
   if (f.shore && !(s.access || []).includes('shore')) return false;
   if (f.snorkel && !s.snorkeling) return false;
   if (f.divetype && !(s.dive_types || []).includes(f.divetype)) return false;
