@@ -401,6 +401,7 @@ export default {
   'card.era5_line': ' Line: ERA5 model for {period}, daytime 10:00–18:00 (on thermal spots the model usually underestimates the wind).',
   'card.era5_pending': ' ERA5 statistics will appear once the server has calculated them.',
   'card.bars_source': 'Bars: long-term statistics from guides and weather sites (kitejungle, IKSURFMAG, Weatherspark); colour shows season quality.',
+  'card.bars_era5': 'Guides have no reliable statistics for {months}, so those bars come from ERA5 as well.',
   'card.rating': 'Spot rating',
   'card.rating_aria': 'Rating {r} of 5',
   'card.rating_why': 'Why {r}?',

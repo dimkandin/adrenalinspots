@@ -401,6 +401,7 @@ export default {
   'card.era5_line': ' Linea: modello ERA5 per {period}, di giorno 10:00–18:00 (sugli spot termici il modello di solito sottostima il vento).',
   'card.era5_pending': ' Le statistiche ERA5 compariranno quando il server le avrà calcolate.',
   'card.bars_source': 'Barre: statistiche di lungo periodo da guide e siti meteo (kitejungle, IKSURFMAG, Weatherspark); il colore indica la qualità della stagione.',
+  'card.bars_era5': 'Le guide non hanno statistiche affidabili per {months}, quindi anche queste barre vengono da ERA5.',
   'card.rating': 'Valutazione dello spot',
   'card.rating_aria': 'Valutazione {r} su 5',
   'card.rating_why': 'Perché {r}?',

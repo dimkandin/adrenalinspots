@@ -258,7 +258,9 @@ function climateBlock(spot, month) {
     ? t('card.era5_local')
     : era5 ? t('card.era5_line', { period: spot.climate_periods.era5 })
       : t('card.era5_pending');
-  wrap.append(h('p', { class: 'source' }, `${t('card.bars_source')}${modelNote}`));
+  const eraMonths = spot.attrs && spot.attrs.era5_months;   // off-season months with no guide statistics: bars from ERA5 too
+  const eraNote = eraMonths && eraMonths.length ? ` ${t('card.bars_era5', { months: eraMonths.map((m) => (lang === 'en' || lang === 'de' ? MONTHS_SHORT[m - 1] : MONTHS_SHORT[m - 1].toLowerCase())).join(', ') })}` : '';
+  wrap.append(h('p', { class: 'source' }, `${t('card.bars_source')}${eraNote}${modelNote}`));
   return wrap;
 }
 

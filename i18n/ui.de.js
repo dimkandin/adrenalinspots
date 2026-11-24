@@ -401,6 +401,7 @@ export default {
   'card.era5_line': ' Linie: ERA5-Modell für {period}, tagsüber 10:00–18:00 (an Thermik-Spots unterschätzt das Modell den Wind meist).',
   'card.era5_pending': ' ERA5-Statistiken erscheinen, sobald der Server sie berechnet hat.',
   'card.bars_source': 'Balken: Langzeitstatistik aus Guides und Wetterseiten (kitejungle, IKSURFMAG, Weatherspark); die Farbe zeigt die Qualität der Saison.',
+  'card.bars_era5': 'Für {months} haben Guides keine verlässliche Statistik, daher stammen diese Balken ebenfalls aus ERA5.',
   'card.rating': 'Spot-Bewertung',
   'card.rating_aria': 'Bewertung {r} von 5',
   'card.rating_why': 'Warum {r}?',
