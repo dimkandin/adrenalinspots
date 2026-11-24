@@ -405,6 +405,9 @@ a:hover { color: var(--sea-2); }
 
 .schools { list-style: none; padding: 0; margin: 8px 0 0; }
 .schools li { padding: 7px 0; border-bottom: 1px solid #edf2f3; }
+.schools li.is-partner { padding: 8px 10px; margin: 4px 0; border: 1px solid #9fd2b4; border-radius: var(--r-m); background: var(--good-bg); }   /* schools that answered us */
+.schools li.is-compact { padding: 4px 0; font-size: 13px; }
+.schools li.is-compact .sc-name { font-weight: 400; }
 .sc-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; }
 .sc-name { font-weight: 500; }
 .sc-ok { font-size: 11.5px; font-weight: 600; color: var(--good); white-space: nowrap; }
@@ -782,6 +785,15 @@ a.trip-title:hover { text-decoration: underline; }
 .trip-price { font-weight: 600; color: var(--ink); }
 .trip-note { margin: 5px 0 0; font-size: 13px; }
 .trip-org { margin: 5px 0 0; font-size: 12.5px; color: var(--ink-2); }
+.trip.is-compact { padding: 3px 11px; margin-top: 2px; border: 0; font-size: 13px; color: var(--ink-2); }   /* organizers we have not written to: one line */
+.trip.is-compact .trip-title { font-size: 13px; font-weight: 500; }
+.trip.is-compact.is-now .trip-when { color: var(--ink); }
+.trips-more { margin-top: 6px; padding: 2px 11px; border: 0; background: none; font: inherit; font-size: 13px; color: var(--sea-2); cursor: pointer; }
+.trips-more:hover { text-decoration: underline; }
+.trips-more.is-open { color: var(--ink-3); text-decoration: none; cursor: default; }
+.other-langs { margin: 6px 0 0; padding-left: 11px; font-size: 13px; color: var(--ink-3); }
+.other-langs .trips-more { margin: 0; padding: 0; }
+.schools + .trips-more, .schools + .other-langs, .schools ~ .other-langs { padding-left: 0; }
 .sc-away { font-size: 13px; margin: 6px 0 0; }
 .p-unique { margin: 10px 0 2px; padding: 8px 12px; border-radius: 10px; background: #fff6e0; border: 1px solid #f3dca4; font-size: 14px; line-height: 1.45; }
 .p-unique b { color: #8a5a00; }

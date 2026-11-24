@@ -47,15 +47,23 @@ function schoolName(name) {
   return n && /[A-Za-z]/.test(n) && !CYR.test(n) ? n : name;
 }
 
-/** One school in the «Schools» section: name → its site, lesson languages, contacts, «confirmed by the school». */
-function schoolItem(sc) {
+/** One school in the «Schools» section: name → its site, lesson languages, contacts, «confirmed by the school».
+ *  lv 2 — the school answered us: full card, highlighted; 1 — we wrote to it: no note; 0 — the rest: one line. */
+function schoolItem(sc, lv = 2) {
+  if (lv === 0) {
+    const ls = sc.langs && sc.langs.length ? sc.langs : sc.ru ? ['ru'] : [];
+    return h('li', { class: 'school is-compact' },
+      sc.url ? h('a', { class: 'sc-name', href: sc.url, target: '_blank', rel: 'noopener', onclick: () => track('school_site') }, schoolName(sc.name))
+        : h('span', { class: 'sc-name' }, schoolName(sc.name)),
+      ls.length ? h('span', { class: 'sc-kind' }, ` · ${ls.map((x) => x.toUpperCase()).join(' · ')}`) : null);
+  }
   const links = [
     sc.telegram ? contactLink('telegram', `https://t.me/${sc.telegram}`, 'Telegram') : null,
     sc.whatsapp ? contactLink('whatsapp', `https://wa.me/${sc.whatsapp.replace(/\D/g, '')}`, 'WhatsApp') : null,
     sc.vk && isRu ? contactLink('vk', `https://vk.com/${sc.vk}`, 'VK') : null,
   ].filter(Boolean);
   const langs = sc.langs && sc.langs.length ? sc.langs : sc.ru ? ['ru'] : [];
-  return h('li', { class: 'school' },
+  return h('li', { class: `school${lv === 2 ? ' is-partner' : ''}` },
     h('div', { class: 'sc-head' },
       sc.url ? h('a', { class: 'sc-name', href: sc.url, target: '_blank', rel: 'noopener', onclick: () => track('school_site') }, schoolName(sc.name))
         : h('span', { class: 'sc-name' }, schoolName(sc.name)),
@@ -66,7 +74,27 @@ function schoolItem(sc) {
       langs.length ? h('span', { class: 'sc-langs', title: t('card.school_langs') },
         langs.map((l) => h('span', { class: `chip chip-sm ${l === 'ru' ? 'tone-easy' : 'tone-neutral'}` }, l.toUpperCase()))) : null,
       links.length ? h('span', { class: 'sc-links' }, links) : null) : null,
-    sc.note_ru ? h('small', { class: 'muted sc-note' }, sc.note_ru) : null);
+    lv === 2 && sc.note_ru ? h('small', { class: 'muted sc-note' }, sc.note_ru) : null);
+}
+
+/** «Also in other languages: EN (3) · FR (2)» — items hidden by the interface-language filter, revealed by language.
+ *  `groups` is a Map lang → items; `add(items)` appends them to the list as one-line items. */
+function otherLangs(groups, add, kind) {
+  if (!groups.size) return null;
+  const row = h('p', { class: 'other-langs' }, `${t('card.other_langs')} `);
+  [...groups.entries()].sort((a, b) => b[1].length - a[1].length).forEach(([lg, items], i) => {
+    const btn = h('button', { type: 'button', class: 'trips-more', title: t('card.other_langs_title') }, `${lg === '?' ? t('card.lang_unknown') : lg.toUpperCase()} (${items.length})`);
+    btn.onclick = () => { add(items); btn.disabled = true; btn.classList.add('is-open'); track('other_langs', { kind, lang: lg }); };
+    if (i) row.append(' · ');
+    row.append(btn);
+  });
+  return row;
+}
+/** Groups items left out by the language filter by their first language ('?' when unknown). */
+function byLang(items, langsOf) {
+  const g = new Map();
+  items.forEach((x) => { const ls = langsOf(x); const k = ls.includes('en') ? 'en' : (ls[0] || '?'); if (!g.has(k)) g.set(k, []); g.get(k).push(x); });
+  return g;
 }
 
 function visaChip(v, long = false) {
@@ -1039,6 +1067,8 @@ function schoolHere(sc, spot, month) {
   }
   return !(air != null && air < 10);
 }
+const TRIPS_SHOWN = 5;   // trips visible in a card before «N more»
+const SCHOOLS_SHOWN = 3; // schools visible in a card before «N more»
 function tripsBlock(spot, month, c) {
   if (!c || !c.trips) return null;
   const host = h('div', { class: 'trips', hidden: true });
@@ -1048,32 +1078,52 @@ function tripsBlock(spot, month, c) {
     const dateless = (tr) => tr.kind === 'private' && !tr.from && !tr.month;
     const list = (data.trips || []).filter((tr) => (tr.spot === spot.id || (tr.spots || []).includes(spot.id)) && (!tr.activity || tr.activity === spot.activity)
       && (!dateless(tr) || tripMonths(tr).has(month)));
+    // only trips in the interface language (organizer's or trip's `langs`); if there are fewer than TRIPS_SHOWN of those,
+    // English-language trips are added (a French agency is of no use to a Russian-speaking visitor, and vice versa)
+    const tl = (tr) => tr.langs || (orgs[tr.org] || {}).langs || [];
+    const own = list.filter((tr) => tl(tr).includes(lang));
+    const pool = own.length >= TRIPS_SHOWN || lang === 'en' ? own : own.concat(list.filter((tr) => !tl(tr).includes(lang) && tl(tr).includes('en')));
     if (!list.length) return;
+    const others = list.filter((tr) => !pool.includes(tr));   // other languages: behind «Also in other languages»
     const now = (tr) => !dateless(tr) && tripMonths(tr).has(month);
-    // organizers we are in touch with (`partner: true` in trips.json) go first and are highlighted; the rest stay plain
-    const partner = (tr) => !dateless(tr) && !!(orgs[tr.org] || {}).partner;
+    // three levels: 2 — organizers who answered us (`partner: true`): full green card; 1 — we wrote to them (`contacted: true`):
+    // short card without the description; 0 — the rest: one line «title — when»
+    const level = (tr) => { const o = orgs[tr.org] || {}; return o.partner && !dateless(tr) ? 2 : (o.partner || o.contacted ? 1 : 0); };
     const start = (tr) => tr.from || tr.month || '9999';
-    list.sort((a, b) => partner(b) - partner(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
-    host.append(h('h4', { class: 'sub' }, t('card.trips')),
-      h('ul', { class: 'trip-list' }, ...list.map((tr) => {
-        const org = orgs[tr.org] || {};
-        const title = tr[`title_${lang}`] || tr[`title_${tripLang()}`] || tr.title_ru || '';
-        const note = tr[`note_${lang}`] || tr[`note_${tripLang()}`] || '';
-        return h('li', { class: `trip${partner(tr) ? ' is-partner' : ''}${now(tr) ? ' is-now' : ''}` },
-          h('div', { class: 'trip-head' },
-            tr.url ? h('a', { class: 'trip-title', href: utm(tr.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_open', { trip: tr.id, org: tr.org }) }, title) : h('span', { class: 'trip-title' }, title),
-            now(tr) ? h('span', { class: 'trip-now' }, t('card.trip_now', { in_month: MONTHS_IN[month - 1] })) : null),
-          h('div', { class: 'trip-meta' },
-            h('span', {}, tripWhen(tr)),
-            h('span', { class: 'sc-kind' }, t(tr.kind === 'private' ? 'card.trip_private' : 'card.trip_group')),
-            (tr.langs || org.langs || []).length ? h('span', { class: 'sc-langs', title: t('card.school_langs') }, (tr.langs || org.langs).map((x) => x.toUpperCase()).join(' · ')) : null,
-            tr.price ? h('span', { class: 'trip-price', title: t('card.trip_price_title') }, tr.price) : null),
-          note ? h('p', { class: 'trip-note' }, note) : null,
-          h('p', { class: 'trip-org' }, `${t('card.trip_org')}: `,
-            org.url ? h('a', { href: utm(org.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_org', { org: tr.org }) }, org.name || tr.org) : (org.name || tr.org),
-            (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : '',
-            /^https:\/\/t\.me\/\w+$/.test(org.telegram || '') ? [' · ', h('a', { href: org.telegram, target: '_blank', rel: 'noopener', onclick: () => track('trip_tg', { org: tr.org }) }, 'Telegram')] : null));
-      })));
+    pool.sort((a, b) => level(b) - level(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
+    const item = (tr, lv) => {
+      const org = orgs[tr.org] || {};
+      const title = tr[`title_${lang}`] || tr[`title_${tripLang()}`] || tr.title_ru || '';
+      const note = tr[`note_${lang}`] || tr[`note_${tripLang()}`] || '';
+      const titleEl = tr.url ? h('a', { class: 'trip-title', href: utm(tr.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_open', { trip: tr.id, org: tr.org }) }, title) : h('span', { class: 'trip-title' }, title);
+      const orgEl = org.url ? h('a', { href: utm(org.url, spot), target: '_blank', rel: 'noopener', onclick: () => track('trip_org', { org: tr.org }) }, org.name || tr.org) : (org.name || tr.org);
+      if (lv === 0) {
+        return h('li', { class: `trip is-compact${now(tr) ? ' is-now' : ''}` }, titleEl, h('span', { class: 'trip-when' }, ` — ${tripWhen(tr)}`));
+      }
+      return h('li', { class: `trip${lv === 2 ? ' is-partner' : ' is-brief'}${now(tr) ? ' is-now' : ''}` },
+        h('div', { class: 'trip-head' }, titleEl,
+          now(tr) ? h('span', { class: 'trip-now' }, t('card.trip_now', { in_month: MONTHS_IN[month - 1] })) : null),
+        h('div', { class: 'trip-meta' },
+          h('span', {}, tripWhen(tr)),
+          lv === 2 ? h('span', { class: 'sc-kind' }, t(tr.kind === 'private' ? 'card.trip_private' : 'card.trip_group')) : null,
+          lv === 2 && tl(tr).length ? h('span', { class: 'sc-langs', title: t('card.school_langs') }, tl(tr).map((x) => x.toUpperCase()).join(' · ')) : null,
+          tr.price ? h('span', { class: 'trip-price', title: t('card.trip_price_title') }, tr.price) : null),
+        lv === 2 && note ? h('p', { class: 'trip-note' }, note) : null,
+        h('p', { class: 'trip-org' }, `${t('card.trip_org')}: `, orgEl,
+          lv === 2 && (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : '',
+          lv === 2 && /^https:\/\/t\.me\/\w+$/.test(org.telegram || '') ? [' · ', h('a', { href: org.telegram, target: '_blank', rel: 'noopener', onclick: () => track('trip_tg', { org: tr.org }) }, 'Telegram')] : null));
+    };
+    // at most TRIPS_SHOWN trips are visible; the rest are folded into one line «N more» (as one-line items when opened)
+    const shown = pool.slice(0, TRIPS_SHOWN), rest = pool.slice(TRIPS_SHOWN);
+    const ul = h('ul', { class: 'trip-list' }, ...shown.map((tr) => item(tr, level(tr))));
+    host.append(h('h4', { class: 'sub' }, t('card.trips')), ul);
+    if (rest.length) {
+      const more = h('button', { type: 'button', class: 'trips-more', onclick: () => { more.remove(); rest.forEach((tr) => ul.append(item(tr, 0))); track('trips_more', { spot: spot.id }); } },
+        t('card.trips_more', { n: rest.length }));
+      host.append(more);
+    }
+    const ol = otherLangs(byLang(others, tl), (items) => items.forEach((tr) => ul.append(item(tr, 0))), 'trips');
+    if (ol) host.append(ol);
     host.hidden = false;
   }).catch(() => {});
   return host;
@@ -1227,10 +1277,27 @@ export function renderPanel(spot, context) {
       : h('p', {}, SCHOOLS[spot.schools] || t('card.schools_unknown'),
         !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.schools_ru_yes') : spot.ru_schools === 'no' ? t('card.schools_ru_no') : '.'));
   if (here.length) {
-    // schools that confirmed their listing first, then Russian-speaking ones (the list itself stays in seed order:
-    // translated notes are matched to it by position)
-    const list = [...here].sort((a, b) => (b.verified ? 1 : 0) - (a.verified ? 1 : 0) || (b.ru || 0) - (a.ru || 0));
-    schools.append(h('ul', { class: 'schools' }, ...list.map((sc) => schoolItem(sc))));
+    // same rules as the trips below: schools teaching in the interface language (if fewer than SCHOOLS_SHOWN of those,
+    // plus English-speaking ones and ones whose languages we don't know); those that answered us — a full green card,
+    // those we wrote to — briefly, the rest — one line; at most SCHOOLS_SHOWN visible, other languages behind a button.
+    // (The list itself stays in seed order: translated notes are matched to it by position.)
+    const sl = (sc) => (sc.langs && sc.langs.length ? sc.langs : sc.ru ? ['ru'] : []);
+    const ownS = here.filter((sc) => sl(sc).includes(lang) || (lang === 'en' && !sl(sc).length));
+    const poolS = ownS.length >= SCHOOLS_SHOWN || lang === 'en' ? ownS
+      : ownS.concat(here.filter((sc) => !sl(sc).includes(lang) && (sl(sc).includes('en') || !sl(sc).length)));
+    const othersS = here.filter((sc) => !poolS.includes(sc));
+    const lvS = (sc) => (sc.verified || sc.outreach === 'replied' ? 2 : sc.outreach === 'contacted' ? 1 : 0);
+    const list = [...poolS].sort((a, b) => lvS(b) - lvS(a) || sl(b).includes(lang) - sl(a).includes(lang));
+    const ulS = h('ul', { class: 'schools' }, ...list.slice(0, SCHOOLS_SHOWN).map((sc) => schoolItem(sc, lvS(sc))));
+    schools.append(ulS);
+    const restS = list.slice(SCHOOLS_SHOWN);
+    if (restS.length) {
+      const more = h('button', { type: 'button', class: 'trips-more', onclick: () => { more.remove(); restS.forEach((sc) => ulS.append(schoolItem(sc, 0))); track('schools_more', { spot: spot.id }); } },
+        tn('card.schools_more', restS.length));
+      schools.append(more);
+    }
+    const ol = otherLangs(byLang(othersS, sl), (items) => items.forEach((sc) => ulS.append(schoolItem(sc, 0))), 'schools');
+    if (ol) schools.append(ol);
   }
   if (away) schools.append(h('p', { class: 'muted sc-away' }, tn('card.schools_away', away)));
   const trips = tripsBlock(spot, month, ctx);
