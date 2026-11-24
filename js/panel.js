@@ -37,6 +37,8 @@ const dayMonthYear = (d) => {
 // Research notes sometimes ride along in a school's name («Laserer Alpin (Гозау)», «12 Knots — Хорватия», «X-Centre через Pelago»):
 // outside the Russian interface show the name without them, unless the name itself is Russian.
 const CYR = /[А-яЁё]/;
+// Russian-language excursions booked via Tripster are only useful to Russian speakers: show them in the Russian interface only
+const RU_ONLY = /tripster/i;
 function schoolName(name) {
   if (isRu || !name || !CYR.test(name)) return name;
   let n = name.replace(/\s*\([^)]*[А-яЁё][^)]*\)/g, '').replace(/\s+(через|на)\s+.*$/i, '');
@@ -1213,12 +1215,13 @@ export function renderPanel(spot, context) {
 
   body.append(section(t('sec.video'), oldVideos || renderVideos(spot)));  // keep a playing video alive
 
-  const here = spot.school_list.filter((sc) => schoolHere(sc, spot, month));
-  const away = spot.school_list.length - here.length;
+  const shown = isRu ? spot.school_list : spot.school_list.filter((sc) => !RU_ONLY.test(`${sc.name} ${sc.url || ''}`));
+  const here = shown.filter((sc) => schoolHere(sc, spot, month));
+  const away = shown.length - here.length;
   const schools = h('div', {},
     isJump ? h('p', {}, spot.schools ? t(`jump_ops.${spot.schools}`) : t('card.jump_ops_unknown'),
       !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.jump_ru_yes') : spot.ru_schools === 'no' ? t('card.jump_ru_no') : '.')
-      : spot.school_list.length && !here.length ? h('p', {}, t('card.schools_none_month', { in_month: MONTHS_IN[month - 1] }))
+      : shown.length && !here.length ? h('p', {}, t('card.schools_none_month', { in_month: MONTHS_IN[month - 1] }))
       : h('p', {}, SCHOOLS[spot.schools] || t('card.schools_unknown'),
         !isRu ? '.' : spot.ru_schools === 'yes' ? t('card.schools_ru_yes') : spot.ru_schools === 'no' ? t('card.schools_ru_no') : '.'));
   if (here.length) {
