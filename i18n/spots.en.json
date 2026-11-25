@@ -20874,6 +20874,87 @@
     "Frequent blizzards and wind"
    ],
    "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~10 min to Moroznaya"
+  },
+  "puerto-galera-verde-island": {
+   "h": "0c1781a2fa",
+   "description": "Puerto Galera on the north coast of Mindoro is one of the Philippines' main dive areas, 140 km south of Manila. About 50 sites for every taste: coral gardens, walls, pinnacles, caves, wrecks and muck around Sabang and La Laguna. The day trip to go for is Verde Island in the passage (about 30–45 minutes by boat): sheer walls, the best corals in the area and visibility up to 30 m. Currents here are strong and unpredictable — that is why people love it: they bring plankton, and fish with it. The water is 26–29° all year; the best season is the dry one, November to May.",
+   "rating_basis": "The Verde Island Passage is called the 'center of the center of marine biodiversity' (DAN: over 1000 reef fish species); about 50 dive sites for every level and a big training hub, tech diving included. The downsides are unpredictable currents and the resort bustle of Sabang.",
+   "hazards": "Strong, unpredictable currents (Verde, Blackfish Corner, the Washing Machine), downcurrents, boat traffic off Sabang; typhoons are possible (rarely) in the rainy season.",
+   "crowd_note": "Sabang is a busy dive village and the nearby sites can get crowded with boats; Verde Island is done as a day trip",
+   "region": "North coast of Mindoro (Oriental Mindoro), Verde Island Passage",
+   "marine_life": "An estimated 1000+ reef fish species — more than the whole Caribbean. Macro (frogfish, nudibranchs, seahorses, mantis shrimp, cuttlefish), turtles, sea snakes, whitetip reef sharks in caves, schools of batfish and pelagics on the current.",
+   "signature_sites": "Verde Island (Pinnacles / Drop-off, Blackfish Corner), the Sabang wrecks, the reefs of Sabang, La Laguna and Sinandigan, Secret Bay (muck)",
+   "pros": [
+    "Huge biodiversity: over 1000 reef fish species",
+    "Verde Island: walls, corals and up to 30 m visibility",
+    "Only ~4 hours from Manila",
+    "Sites for beginners and tech divers, lots of dive centres"
+   ],
+   "cons": [
+    "Strong, unpredictable currents at Verde",
+    "Visibility drops in the rainy season (June–October)",
+    "Noisy resort village of Sabang",
+    "Ferries from Batangas run in daylight only"
+   ],
+   "airport": "MNL — Manila, ~4 h (car to Batangas + ferry to Sabang)",
+   "highlights": [
+    "Verde Island: sheer walls, the best corals in the area, visibility up to 30 m",
+    "Macro: frogfish, nudibranchs, seahorses, mantis shrimp, cuttlefish",
+    "Drift dives in the passage, turtles, reef sharks in caves, schools of batfish"
+   ]
+  },
+  "barents-sea-liinakhamari": {
+   "h": "2fb2767e65",
+   "description": "Liinakhamari is an Arctic village on Pechenga Bay, 150 km (about two hours) from Murmansk. Diving is from boats, two dives a day: kelp forests, sheer walls with soft corals and anemones, king crabs on almost every dive, wolffish and cod, and WWII wrecks in Pechenga Bay and off the Nemetsky and Rybachy peninsulas. The water is +8…+12° in summer and never below +3…+4° in winter (the Gulf Stream), visibility 15–40 m. The season runs from May to September, most comfortable in August. It is a border zone: the permit is arranged in advance.",
+   "rating_basis": "Arctic cold-water diving: king crabs are all but guaranteed, there are WWII wrecks and 20–40 m visibility; but the water is only +8…+12° in summer, you need a drysuit, and the area is a border zone with permits (m24.ru, divingplace.ru, RuDIVE).",
+   "hazards": "Cold water and hypothermia risk, freezing regulators, tidal currents off exposed capes, rough seas with onshore wind; silt on the wrecks cuts visibility sharply. A drysuit and experience diving in one are required.",
+   "crowd_note": "Hardly any divers: trips go from one boat in small groups",
+   "region": "Murmansk Oblast, Pechengsky District: Pechenga Bay, the Nemetsky (Sredny) and Rybachy peninsulas; border zone",
+   "marine_life": "King crabs, wolffish, cod, haddock, halibut, redfish; kelp several metres tall, anemones, soft corals, sea stars and urchins, sea cucumbers. Seals, belugas and whales are seen at sea, lion's mane jellyfish in summer.",
+   "signature_sites": "Wrecks off Liinakhamari and the Nemetsky and Rybachy peninsulas, the Pechora in Pechenga Bay (to 47 m), Ambarnaya inlet (32–40 m), Numerolassa island (a stepped wall to 60 m), Paltusovo Pero (to 20 m)",
+   "pros": [
+    "King crabs on almost every dive",
+    "WWII wrecks",
+    "Clear water and Arctic nature without tourists",
+    "Try dives possible without a certificate"
+   ],
+   "cons": [
+    "Cold: +8…+12° in summer, a drysuit and experience needed (AOW + Dry Suit)",
+    "Border zone — the permit is arranged in advance",
+    "Short season (May–September)",
+    "Reached via Murmansk, ~2 h by road"
+   ],
+   "airport": "MMK — Murmansk, ~2 h by car (150 km)",
+   "highlights": [
+    "King crabs — on almost every dive",
+    "WWII wrecks (including the Pechora in Pechenga Bay)",
+    "Kelp forests, sheer walls, soft corals and anemones"
+   ]
+  },
+  "mirleft": {
+   "h": "4580cec269",
+   "description": "Mirleft is a small town in southern Morocco, two hours' drive from Agadir, a quiet alternative to Taghazout. There are several spots around it: the main beach, Imin Turga, with a beach break; the soft right of Rasta Point where the schools teach; sheltered El Wafi for beginners; and the right-hand point of Tamhrouchte, the best wave in the area, which needs a big north-west swell. Legzira and Sidi Ifni are a short drive away. The best season is November to March: steady swell and lighter wind. In summer (May–August) it is often blown out.",
+   "rating_basis": "A quiet alternative to Taghazout: reliable north-west swell and several spots for different levels around the town, the best being the Tamhrouchte right-hand point; the waves are simpler and less famous than Anchor Point (thesurfatlas, wannasurf).",
+   "hazards": "Strong rips (especially in Tibougraychin cove — don't surf alone), rocks and reefs near the shore, sea urchins, close-outs at Imin Turga on big winter swells",
+   "crowd_note": "Almost empty, except the Tamhrouchte right-hand point when it is working",
+   "region": "Southern Morocco, Sidi Ifni province, between Agadir and Sidi Ifni",
+   "vibe_note": "A quiet town with no bars or clubs: cafés, surf camps and sunsets on the cliffs",
+   "area_breaks": "Imin Turga (the main beach, beach break), Rasta Point (a soft right-hand point for schools), Tibougraychin (a cove with a reef), Tamhrouchte (the best right-hand point in the area), El Wafi (for beginners); further south by car — Legzira and Sidi Ifni",
+   "beginner_months": "All year on the soft waves of El Wafi and Rasta Point; in winter on a big swell beginners should stick to the sheltered spots",
+   "pros": [
+    "Empty and calm compared with Taghazout",
+    "Several spots for different levels in one place",
+    "Steady north-west swell in winter",
+    "Legzira and Sidi Ifni nearby"
+   ],
+   "cons": [
+    "Often blown out in summer",
+    "The best wave (Tamhrouchte) only works on a big swell",
+    "Rocks, reefs and strong currents",
+    "Little infrastructure and nightlife"
+   ],
+   "airport": "AGA — Agadir, ~2 h 15 min (about 150 km)",
+   "best_wind_dir": "E, SE (offshore)"
   }
  }
 }

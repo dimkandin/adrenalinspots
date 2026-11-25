@@ -20874,6 +20874,87 @@
     "Ventiscas y viento frecuentes"
    ],
    "airport": "PKC — Petropávlovsk-Kamchatski (Yelizovo), ~10 min hasta Moroznaya"
+  },
+  "puerto-galera-verde-island": {
+   "h": "0c1781a2fa",
+   "description": "Puerto Galera, en la costa norte de Mindoro, es una de las principales zonas de buceo de Filipinas, a 140 km al sur de Manila. Unos 50 puntos para todos los gustos: jardines de coral, paredes, pináculos, cuevas, pecios y muck en Sabang y La Laguna. La excursión del día es la isla Verde, en el paso (unos 30–45 minutos en barco): paredes verticales, los mejores corales de la zona y visibilidad de hasta 30 m. Las corrientes son fuertes e impredecibles, y por eso gusta tanto: traen plancton y, con él, peces. El agua está a 26–29° todo el año; la mejor temporada es la seca, de noviembre a mayo.",
+   "rating_basis": "Al paso de la isla Verde lo llaman «el centro del centro de la biodiversidad marina» (DAN: más de 1000 especies de peces de arrecife); unos 50 puntos de buceo para todos los niveles y un gran centro de formación, también de buceo técnico. Lo malo: corrientes impredecibles y el bullicio turístico de Sabang.",
+   "hazards": "Corrientes fuertes e impredecibles (Verde, Blackfish Corner, la Lavadora), corrientes descendentes, tráfico de barcos frente a Sabang; en la estación de lluvias puede haber tifones (raramente).",
+   "crowd_note": "Sabang es un pueblo de buceo animado y en los puntos cercanos se juntan muchos barcos; a la isla Verde se va en excursión de un día",
+   "region": "Costa norte de Mindoro (Mindoro Oriental), paso de la isla Verde",
+   "marine_life": "Se calcula que hay más de 1000 especies de peces de arrecife, más que en todo el Caribe. Macro (peces sapo, nudibranquios, caballitos de mar, galeras, sepias), tortugas, serpientes marinas, tiburones de puntas blancas en grutas, bancos de peces murciélago y pelágicos en la corriente.",
+   "signature_sites": "Isla Verde (Pinnacles / Drop-off, Blackfish Corner), los pecios de Sabang, los arrecifes de Sabang, La Laguna y Sinandigan, Secret Bay (muck)",
+   "pros": [
+    "Enorme biodiversidad: más de 1000 especies de peces de arrecife",
+    "Isla Verde: paredes, corales y hasta 30 m de visibilidad",
+    "Solo ~4 horas desde Manila",
+    "Puntos para principiantes y buzos técnicos, muchos centros de buceo"
+   ],
+   "cons": [
+    "Corrientes fuertes e impredecibles en Verde",
+    "La visibilidad baja en la estación de lluvias (junio–octubre)",
+    "Sabang es un pueblo turístico ruidoso",
+    "Los ferris desde Batangas solo navegan de día"
+   ],
+   "airport": "MNL — Manila, ~4 h (coche hasta Batangas + ferri a Sabang)",
+   "highlights": [
+    "Isla Verde: paredes verticales, los mejores corales de la zona, visibilidad de hasta 30 m",
+    "Macro: peces sapo, nudibranquios, caballitos de mar, galeras, sepias",
+    "Derivas con corriente en el paso, tortugas, tiburones de arrecife en grutas, bancos de peces murciélago"
+   ]
+  },
+  "barents-sea-liinakhamari": {
+   "h": "2fb2767e65",
+   "description": "Liinajamari es un pueblo ártico a orillas de la bahía de Pechenga, a 150 km (unas dos horas) de Múrmansk. Se bucea desde barco, dos inmersiones al día: bosques de laminarias, paredes con corales blandos y anémonas, cangrejos reales casi en cada inmersión, peces lobo y bacalaos, y pecios de la Segunda Guerra Mundial en la bahía de Pechenga y frente a las penínsulas Németski y Rybachi. El agua está a +8…+12° en verano y en invierno no baja de +3…+4° (corriente del Golfo); visibilidad de 15–40 m. La temporada va de mayo a septiembre; lo más cómodo es agosto. Es zona fronteriza: el permiso se tramita con antelación.",
+   "rating_basis": "Buceo ártico en agua fría: los cangrejos reales están casi garantizados, hay pecios de la Segunda Guerra Mundial y visibilidad de 20–40 m; pero en verano el agua solo está a +8…+12°, hace falta traje seco y la zona es fronteriza, con permisos (m24.ru, divingplace.ru, RuDIVE).",
+   "hazards": "Agua fría y riesgo de hipotermia, congelación de reguladores, corrientes de marea en los cabos expuestos, mar agitado con viento del mar; el limo en los pecios reduce mucho la visibilidad. Hace falta traje seco y experiencia con él.",
+   "crowd_note": "Casi no hay buzos: se sale desde un solo barco en grupos pequeños",
+   "region": "Óblast de Múrmansk, distrito de Pechenga: bahía de Pechenga, penínsulas Németski (Sredni) y Rybachi; zona fronteriza",
+   "marine_life": "Cangrejos reales, peces lobo, bacalao, eglefino, fletán, gallineta; laminarias de varios metros, anémonas, corales blandos, estrellas y erizos de mar, holoturias. En el mar se ven focas, belugas y ballenas; en verano, medusas melena de león.",
+   "signature_sites": "Pecios frente a Liinajamari y las penínsulas Németski y Rybachi, el Pechora en la bahía de Pechenga (hasta 47 m), la ensenada Ambárnaya (32–40 m), la isla Numerolassa (pared escalonada hasta 60 m), Páltusovo Peró (hasta 20 m)",
+   "pros": [
+    "Cangrejos reales casi en cada inmersión",
+    "Pecios de la Segunda Guerra Mundial",
+    "Agua clara y naturaleza ártica sin turistas",
+    "Se pueden hacer bautismos sin certificado"
+   ],
+   "cons": [
+    "Frío: +8…+12° en verano, hace falta traje seco y experiencia (AOW + Dry Suit)",
+    "Zona fronteriza: el permiso se tramita con antelación",
+    "Temporada corta (mayo–septiembre)",
+    "Se llega por Múrmansk, ~2 h por carretera"
+   ],
+   "airport": "MMK — Múrmansk, ~2 h en coche (150 km)",
+   "highlights": [
+    "Cangrejos reales, casi en cada inmersión",
+    "Pecios de la Segunda Guerra Mundial (entre ellos el Pechora, en la bahía de Pechenga)",
+    "Bosques de laminarias, paredes verticales, corales blandos y anémonas"
+   ]
+  },
+  "mirleft": {
+   "h": "4580cec269",
+   "description": "Mirleft es un pueblo pequeño del sur de Marruecos, a dos horas en coche de Agadir: una alternativa tranquila a Taghazout. Alrededor hay varios spots: la playa principal, Imin Turga, con beach break; la derecha suave de Rasta Point, donde enseñan las escuelas; El Wafi, protegida, para principiantes; y el point de derechas de Tamhrouchte, la mejor ola de la zona, que necesita un swell grande del noroeste. Legzira y Sidi Ifni están a poca distancia en coche. La mejor temporada es de noviembre a marzo: swell constante y menos viento. En verano (mayo–agosto) el viento lo estropea a menudo.",
+   "rating_basis": "Una alternativa tranquila a Taghazout: swell fiable del noroeste y varios spots para distintos niveles alrededor del pueblo, el mejor, el point de derechas de Tamhrouchte; las olas son más sencillas y menos famosas que Anchor Point (thesurfatlas, wannasurf).",
+   "hazards": "Corrientes de resaca fuertes (sobre todo en la cala de Tibougraychin: no surfees solo), rocas y arrecifes cerca de la orilla, erizos de mar, cierres en Imin Turga con swells grandes de invierno",
+   "crowd_note": "Casi vacío, salvo el point de derechas de Tamhrouchte cuando funciona",
+   "region": "Sur de Marruecos, provincia de Sidi Ifni, entre Agadir y Sidi Ifni",
+   "vibe_note": "Un pueblo tranquilo sin bares ni discotecas: cafés, surf camps y atardeceres en los acantilados",
+   "area_breaks": "Imin Turga (playa principal, beach break), Rasta Point (point de derechas suave para escuelas), Tibougraychin (cala con arrecife), Tamhrouchte (el mejor point de derechas de la zona), El Wafi (para principiantes); más al sur, en coche: Legzira y Sidi Ifni",
+   "beginner_months": "Todo el año en las olas suaves de El Wafi y Rasta Point; en invierno, con swell grande, los principiantes mejor en los spots protegidos",
+   "pros": [
+    "Vacío y tranquilo comparado con Taghazout",
+    "Varios spots para distintos niveles en un mismo lugar",
+    "Swell constante del noroeste en invierno",
+    "Legzira y Sidi Ifni cerca"
+   ],
+   "cons": [
+    "En verano el viento lo estropea a menudo",
+    "La mejor ola (Tamhrouchte) solo funciona con swell grande",
+    "Rocas, arrecifes y corrientes fuertes",
+    "Poca infraestructura y vida nocturna"
+   ],
+   "airport": "AGA — Agadir, ~2 h 15 min (unos 150 km)",
+   "best_wind_dir": "E, SE (offshore)"
   }
  }
 }

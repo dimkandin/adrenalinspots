@@ -20874,6 +20874,87 @@
     "Tempêtes de neige et vent fréquents"
    ],
    "airport": "PKC — Petropavlovsk-Kamtchatski (Ielizovo), ~10 min jusqu'à Moroznaïa"
+  },
+  "puerto-galera-verde-island": {
+   "h": "0c1781a2fa",
+   "description": "Puerto Galera, sur la côte nord de Mindoro, est l'une des principales zones de plongée des Philippines, à 140 km au sud de Manille. Une cinquantaine de sites pour tous les goûts : jardins de corail, tombants, pinacles, grottes, épaves et muck autour de Sabang et La Laguna. La sortie à ne pas manquer, c'est l'île Verde dans le détroit (30–45 minutes de bateau environ) : tombants verticaux, les plus beaux coraux du coin et jusqu'à 30 m de visibilité. Les courants y sont forts et imprévisibles — c'est justement ce qu'on aime : ils apportent le plancton, et avec lui les poissons. L'eau est à 26–29° toute l'année ; la meilleure saison est la saison sèche, de novembre à mai.",
+   "rating_basis": "Le détroit de l'île Verde est surnommé « le centre du centre de la biodiversité marine » (DAN : plus de 1000 espèces de poissons de récif) ; une cinquantaine de sites pour tous les niveaux et un grand centre de formation, plongée tech comprise. Les bémols : des courants imprévisibles et l'agitation touristique de Sabang.",
+   "hazards": "Courants forts et imprévisibles (Verde, Blackfish Corner, la Machine à laver), courants descendants, trafic de bateaux devant Sabang ; typhons possibles (rarement) à la saison des pluies.",
+   "crowd_note": "Sabang est un village de plongée animé et les sites proches peuvent être encombrés de bateaux ; l'île Verde se fait à la journée",
+   "region": "Côte nord de Mindoro (Mindoro oriental), détroit de l'île Verde",
+   "marine_life": "On estime qu'il y a plus de 1000 espèces de poissons de récif — plus que dans toute la Caraïbe. Macro (poissons-grenouilles, nudibranches, hippocampes, squilles, seiches), tortues, serpents marins, requins à pointe blanche dans les grottes, bancs de poissons-chauves-souris et pélagiques dans le courant.",
+   "signature_sites": "Île Verde (Pinnacles / Drop-off, Blackfish Corner), les épaves de Sabang, les récifs de Sabang, La Laguna et Sinandigan, Secret Bay (muck)",
+   "pros": [
+    "Biodiversité énorme : plus de 1000 espèces de poissons de récif",
+    "Île Verde : tombants, coraux et jusqu'à 30 m de visibilité",
+    "Seulement ~4 heures de Manille",
+    "Des sites pour débutants et plongeurs tech, beaucoup de centres"
+   ],
+   "cons": [
+    "Courants forts et imprévisibles à Verde",
+    "La visibilité baisse à la saison des pluies (juin–octobre)",
+    "Village touristique bruyant de Sabang",
+    "Les ferries depuis Batangas ne naviguent que de jour"
+   ],
+   "airport": "MNL — Manille, ~4 h (voiture jusqu'à Batangas + ferry jusqu'à Sabang)",
+   "highlights": [
+    "Île Verde : tombants verticaux, les plus beaux coraux du coin, visibilité jusqu'à 30 m",
+    "Macro : poissons-grenouilles, nudibranches, hippocampes, squilles, seiches",
+    "Dérivantes dans le détroit, tortues, requins de récif dans les grottes, bancs de poissons-chauves-souris"
+   ]
+  },
+  "barents-sea-liinakhamari": {
+   "h": "2fb2767e65",
+   "description": "Liinakhamari est un village arctique au bord de la baie de Petchenga, à 150 km (environ deux heures) de Mourmansk. On plonge depuis un bateau, deux plongées par jour : forêts de laminaires, tombants couverts de coraux mous et d'anémones, crabes royaux presque à chaque plongée, loups de mer et morues, et épaves de la Seconde Guerre mondiale dans la baie de Petchenga et au large des péninsules Nemetski et Rybatchi. L'eau est à +8…+12° en été et ne descend pas sous +3…+4° en hiver (Gulf Stream) ; visibilité de 15–40 m. La saison va de mai à septembre, le plus agréable en août. C'est une zone frontalière : le laissez-passer se demande à l'avance.",
+   "rating_basis": "Plongée arctique en eau froide : les crabes royaux sont quasi garantis, il y a des épaves de la Seconde Guerre mondiale et 20–40 m de visibilité ; mais l'eau ne dépasse pas +8…+12° en été, il faut une étanche, et la zone est frontalière avec laissez-passer (m24.ru, divingplace.ru, RuDIVE).",
+   "hazards": "Eau froide et risque d'hypothermie, givrage des détendeurs, courants de marée au large des caps exposés, mer agitée par vent de mer ; le limon sur les épaves réduit fortement la visibilité. Combinaison étanche et expérience en étanche obligatoires.",
+   "crowd_note": "Presque pas de plongeurs : les sorties se font depuis un seul bateau, en petits groupes",
+   "region": "Oblast de Mourmansk, district de Petchenga : baie de Petchenga, péninsules Nemetski (Sredni) et Rybatchi ; zone frontalière",
+   "marine_life": "Crabes royaux, loups de mer, morue, églefin, flétan, sébaste ; laminaires de plusieurs mètres, anémones, coraux mous, étoiles et oursins, holothuries. En mer, phoques, bélougas et baleines ; en été, méduses à crinière de lion.",
+   "signature_sites": "Épaves au large de Liinakhamari et des péninsules Nemetski et Rybatchi, le Petchora dans la baie de Petchenga (jusqu'à 47 m), l'anse Ambarnaïa (32–40 m), l'île Numerolassa (tombant en gradins jusqu'à 60 m), Paltoussovo Pero (jusqu'à 20 m)",
+   "pros": [
+    "Des crabes royaux presque à chaque plongée",
+    "Épaves de la Seconde Guerre mondiale",
+    "Eau claire et nature arctique sans touristes",
+    "Baptêmes possibles sans brevet"
+   ],
+   "cons": [
+    "Froid : +8…+12° en été, étanche et expérience nécessaires (AOW + Dry Suit)",
+    "Zone frontalière — laissez-passer à demander à l'avance",
+    "Saison courte (mai–septembre)",
+    "Accès via Mourmansk, ~2 h de route"
+   ],
+   "airport": "MMK — Mourmansk, ~2 h en voiture (150 km)",
+   "highlights": [
+    "Crabes royaux — presque à chaque plongée",
+    "Épaves de la Seconde Guerre mondiale (dont le Petchora dans la baie de Petchenga)",
+    "Forêts de laminaires, tombants, coraux mous et anémones"
+   ]
+  },
+  "mirleft": {
+   "h": "4580cec269",
+   "description": "Mirleft est une petite ville du sud du Maroc, à deux heures de route d'Agadir — une alternative tranquille à Taghazout. Plusieurs spots alentour : la plage principale, Imin Turga, avec son beach break ; la droite douce de Rasta Point, où enseignent les écoles ; El Wafi, abritée, pour les débutants ; et le point break de droite de Tamhrouchte, la meilleure vague du coin, qui demande une grosse houle de nord-ouest. Legzira et Sidi Ifni sont à quelques minutes de voiture. La meilleure saison va de novembre à mars : houle régulière et vent plus faible. En été (mai–août), c'est souvent ventée.",
+   "rating_basis": "Une alternative tranquille à Taghazout : houle de nord-ouest fiable et plusieurs spots pour différents niveaux autour de la ville, le meilleur étant la droite de Tamhrouchte ; des vagues plus simples et moins connues qu'Anchor Point (thesurfatlas, wannasurf).",
+   "hazards": "Forts courants de baïne (surtout dans la crique de Tibougraychin — ne pas surfer seul), rochers et récifs près du bord, oursins, close-outs à Imin Turga par grosse houle d'hiver",
+   "crowd_note": "Presque vide, sauf la droite de Tamhrouchte quand elle marche",
+   "region": "Sud du Maroc, province de Sidi Ifni, entre Agadir et Sidi Ifni",
+   "vibe_note": "Petite ville calme, sans bars ni boîtes : cafés, surf camps et couchers de soleil sur les falaises",
+   "area_breaks": "Imin Turga (plage principale, beach break), Rasta Point (droite douce pour les écoles), Tibougraychin (crique avec récif), Tamhrouchte (meilleur point break de droite du coin), El Wafi (pour débutants) ; plus au sud en voiture — Legzira et Sidi Ifni",
+   "beginner_months": "Toute l'année sur les vagues douces d'El Wafi et de Rasta Point ; en hiver par grosse houle, les débutants restent sur les spots abrités",
+   "pros": [
+    "Vide et calme comparé à Taghazout",
+    "Plusieurs spots pour différents niveaux au même endroit",
+    "Houle de nord-ouest régulière en hiver",
+    "Legzira et Sidi Ifni à proximité"
+   ],
+   "cons": [
+    "Souvent venté en été",
+    "La meilleure vague (Tamhrouchte) ne marche que par grosse houle",
+    "Rochers, récifs et forts courants",
+    "Peu d'infrastructures et de vie nocturne"
+   ],
+   "airport": "AGA — Agadir, ~2 h 15 (environ 150 km)",
+   "best_wind_dir": "E, SE (offshore)"
   }
  }
 }

@@ -20874,6 +20874,87 @@
     "Häufig Schneesturm und Wind"
    ],
    "airport": "PKC — Petropawlowsk-Kamtschatski (Jelisowo), ~10 Min. bis Morosnaja"
+  },
+  "puerto-galera-verde-island": {
+   "h": "0c1781a2fa",
+   "description": "Puerto Galera an der Nordküste von Mindoro ist eines der wichtigsten Tauchgebiete der Philippinen, 140 km südlich von Manila. Rund 50 Plätze für jeden Geschmack: Korallengärten, Steilwände, Pinnacles, Höhlen, Wracks und Muck rund um Sabang und La Laguna. Der Tagesausflug schlechthin ist Verde Island in der Passage (etwa 30–45 Minuten mit dem Boot): senkrechte Wände, die schönsten Korallen der Gegend und bis zu 30 m Sicht. Die Strömungen sind stark und unberechenbar — genau dafür liebt man den Ort: Sie bringen Plankton und mit ihm Fisch. Das Wasser hat das ganze Jahr 26–29°, die beste Zeit ist die Trockenzeit von November bis Mai.",
+   "rating_basis": "Die Verde-Island-Passage gilt als „Zentrum des Zentrums der marinen Artenvielfalt“ (DAN: über 1000 Rifffischarten); rund 50 Tauchplätze für jedes Niveau und ein großes Ausbildungszentrum, auch für Tech-Tauchen. Minuspunkte: unberechenbare Strömungen und der Ferientrubel in Sabang.",
+   "hazards": "Starke, unberechenbare Strömungen (Verde, Blackfish Corner, Washing Machine), Abwärtsströmungen, Bootsverkehr vor Sabang; in der Regenzeit sind Taifune möglich (selten).",
+   "crowd_note": "Sabang ist ein belebtes Tauchdorf, an den nahen Plätzen sind oft viele Boote; Verde Island wird als Tagestour angefahren",
+   "region": "Nordküste von Mindoro (Oriental Mindoro), Verde-Island-Passage",
+   "marine_life": "Schätzungsweise über 1000 Rifffischarten — mehr als in der ganzen Karibik. Makro (Anglerfische, Nacktschnecken, Seepferdchen, Fangschreckenkrebse, Sepien), Schildkröten, Seeschlangen, Weißspitzen-Riffhaie in Höhlen, Schwärme von Fledermausfischen und Pelagische in der Strömung.",
+   "signature_sites": "Verde Island (Pinnacles / Drop-off, Blackfish Corner), die Wracks vor Sabang, die Riffe von Sabang, La Laguna und Sinandigan, Secret Bay (Muck)",
+   "pros": [
+    "Enorme Artenvielfalt: über 1000 Rifffischarten",
+    "Verde Island: Wände, Korallen und bis zu 30 m Sicht",
+    "Nur ~4 Stunden von Manila",
+    "Plätze für Anfänger und Tech-Taucher, viele Tauchbasen"
+   ],
+   "cons": [
+    "Starke, unberechenbare Strömungen bei Verde",
+    "In der Regenzeit (Juni–Oktober) schlechtere Sicht",
+    "Lautes Ferienörtchen Sabang",
+    "Die Fähren ab Batangas fahren nur tagsüber"
+   ],
+   "airport": "MNL — Manila, ~4 h (Auto bis Batangas + Fähre nach Sabang)",
+   "highlights": [
+    "Verde Island: senkrechte Wände, die schönsten Korallen der Gegend, bis zu 30 m Sicht",
+    "Makro: Anglerfische, Nacktschnecken, Seepferdchen, Fangschreckenkrebse, Sepien",
+    "Strömungstauchgänge in der Passage, Schildkröten, Riffhaie in Höhlen, Schwärme von Fledermausfischen"
+   ]
+  },
+  "barents-sea-liinakhamari": {
+   "h": "2fb2767e65",
+   "description": "Liinachamari ist ein arktisches Dorf an der Petschenga-Bucht, 150 km (etwa zwei Stunden) von Murmansk. Getaucht wird vom Boot, zwei Tauchgänge am Tag: Kelpwälder, Steilwände mit Weichkorallen und Anemonen, Königskrabben bei fast jedem Tauchgang, Seewölfe und Dorsche sowie Wracks aus dem Zweiten Weltkrieg in der Petschenga-Bucht und vor den Halbinseln Nemezki und Rybatschi. Das Wasser hat im Sommer +8…+12° und fällt im Winter nicht unter +3…+4° (Golfstrom), Sicht 15–40 m. Die Saison dauert von Mai bis September, am angenehmsten ist der August. Es ist Grenzgebiet: Die Genehmigung wird vorab beantragt.",
+   "rating_basis": "Arktisches Kaltwassertauchen: Königskrabben sind so gut wie garantiert, es gibt Wracks aus dem Zweiten Weltkrieg und 20–40 m Sicht; aber das Wasser hat im Sommer nur +8…+12°, man braucht einen Trockenanzug, und die Gegend ist Grenzgebiet mit Genehmigungen (m24.ru, divingplace.ru, RuDIVE).",
+   "hazards": "Kaltes Wasser und Unterkühlungsgefahr, vereisende Atemregler, Gezeitenströmungen an exponierten Kaps, raue See bei auflandigem Wind; Schlick auf den Wracks verschlechtert die Sicht stark. Trockenanzug und Erfahrung damit sind Pflicht.",
+   "crowd_note": "Kaum Taucher: Ausfahrten von einem einzigen Boot in kleinen Gruppen",
+   "region": "Oblast Murmansk, Bezirk Petschenga: Petschenga-Bucht, Halbinseln Nemezki (Sredni) und Rybatschi; Grenzgebiet",
+   "marine_life": "Königskrabben, Seewölfe, Dorsch, Schellfisch, Heilbutt, Rotbarsch; meterhoher Kelp, Anemonen, Weichkorallen, Seesterne und Seeigel, Seegurken. Auf See Robben, Belugas und Wale, im Sommer Feuerquallen.",
+   "signature_sites": "Wracks vor Liinachamari und den Halbinseln Nemezki und Rybatschi, die Petschora in der Petschenga-Bucht (bis 47 m), Bucht Ambarnaja (32–40 m), Insel Numerolassa (gestufte Wand bis 60 m), Paltussowo Pero (bis 20 m)",
+   "pros": [
+    "Königskrabben bei fast jedem Tauchgang",
+    "Wracks aus dem Zweiten Weltkrieg",
+    "Klares Wasser und arktische Natur ohne Touristen",
+    "Schnuppertauchen ohne Brevet möglich"
+   ],
+   "cons": [
+    "Kalt: im Sommer +8…+12°, Trockenanzug und Erfahrung nötig (AOW + Dry Suit)",
+    "Grenzgebiet — Genehmigung vorab beantragen",
+    "Kurze Saison (Mai–September)",
+    "Anreise über Murmansk, ~2 h auf der Straße"
+   ],
+   "airport": "MMK — Murmansk, ~2 h mit dem Auto (150 km)",
+   "highlights": [
+    "Königskrabben — bei fast jedem Tauchgang",
+    "Wracks aus dem Zweiten Weltkrieg (darunter die Petschora in der Petschenga-Bucht)",
+    "Kelpwälder, Steilwände, Weichkorallen und Anemonen"
+   ]
+  },
+  "mirleft": {
+   "h": "4580cec269",
+   "description": "Mirleft ist ein kleiner Ort im Süden Marokkos, zwei Autostunden von Agadir — eine ruhige Alternative zu Taghazout. Rundherum gibt es mehrere Spots: den Hauptstrand Imin Turga mit Beachbreak, den sanften Rechtshänder Rasta Point, an dem die Schulen unterrichten, das geschützte El Wafi für Anfänger und den Rechts-Pointbreak Tamhrouchte, die beste Welle der Gegend, die einen großen Nordwestswell braucht. Legzira und Sidi Ifni sind mit dem Auto schnell erreicht. Die beste Zeit ist November bis März: konstanter Swell und weniger Wind. Im Sommer (Mai–August) ist es oft verblasen.",
+   "rating_basis": "Eine ruhige Alternative zu Taghazout: verlässlicher Nordwestswell und mehrere Spots für verschiedene Niveaus rund um den Ort, der beste ist der Rechtshänder Tamhrouchte; die Wellen sind einfacher und weniger bekannt als Anchor Point (thesurfatlas, wannasurf).",
+   "hazards": "Starke Brandungsrückströmungen (vor allem in der Bucht Tibougraychin — nicht allein surfen), Felsen und Riffe in Ufernähe, Seeigel, Close-outs an der Imin Turga bei großem Winterswell",
+   "crowd_note": "Fast leer, außer am Rechtshänder Tamhrouchte, wenn er läuft",
+   "region": "Südmarokko, Provinz Sidi Ifni, zwischen Agadir und Sidi Ifni",
+   "vibe_note": "Ein ruhiger Ort ohne Bars und Clubs: Cafés, Surfcamps und Sonnenuntergänge auf den Klippen",
+   "area_breaks": "Imin Turga (Hauptstrand, Beachbreak), Rasta Point (sanfter Rechts-Point für Schulen), Tibougraychin (Bucht mit Riff), Tamhrouchte (bester Rechts-Pointbreak der Gegend), El Wafi (für Anfänger); weiter südlich mit dem Auto — Legzira und Sidi Ifni",
+   "beginner_months": "Das ganze Jahr auf den sanften Wellen von El Wafi und Rasta Point; im Winter bei großem Swell bleiben Anfänger an den geschützten Spots",
+   "pros": [
+    "Leer und ruhig im Vergleich zu Taghazout",
+    "Mehrere Spots für verschiedene Niveaus an einem Ort",
+    "Konstanter Nordwestswell im Winter",
+    "Legzira und Sidi Ifni in der Nähe"
+   ],
+   "cons": [
+    "Im Sommer oft verblasen",
+    "Die beste Welle (Tamhrouchte) läuft nur bei großem Swell",
+    "Felsen, Riffe und starke Strömungen",
+    "Wenig Infrastruktur und Nachtleben"
+   ],
+   "airport": "AGA — Agadir, ~2 h 15 min (etwa 150 km)",
+   "best_wind_dir": "O, SO (ablandig)"
   }
  }
 }
