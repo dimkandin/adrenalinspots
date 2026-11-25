@@ -5476,27 +5476,28 @@
    "lift_pass_note": "Gli skipass giornalieri quasi non sono in vendita libera: 2 giorni da 8500 ₽ (≈4250 ₽/giorno), 3 giorni da 9700 ₽; in passato il giornaliero costava 4100 ₽; skipass unico con Rosa Khutor e Krasnaya Polyana da 4800 ₽"
   },
   "kamchatka-moroznaya-heliski": {
-   "h": "ae8503641e",
-   "description": "La Kamčatka è uno dei posti migliori al mondo per l'heliski: discese dai vulcani Avachinsky, Koryaksky, Vilyuchinsky e Mutnovsky fino all'oceano, dislivelli enormi e neve fino all'estate. Lo sci con impianti è modesto: Moroznaya a Yelizovo (una seggiovia e uno skilift, dislivello ~500 m, innevamento programmato e illuminazione), Edelweiss, Krasnaya Sopka e Kirpichiki a Petropavlovsk.",
-   "rating_basis": "Valutazione come meta di heliski: discese sui pendii di vulcani attivi fino a 2000 m di dislivello, 7–10 mila m al giorno, neve fino a giugno (Powderhounds, tour Explore-Share); le basi sciistiche in sé sono piccole: test di skiresort.info 2,9 (Moroznaya) e 2,3 (Edelweiss)",
-   "hazards": "Vulcani attivi (emissioni di gas e cenere), forti cicloni, bufere e meteo che impedisce il volo, alto pericolo valanghe e lastroni da vento, crepacci sui ghiacciai; orsi in primavera; a febbraio–marzo abbondanti nevicate e bufere chiudono i pendii",
-   "crowd_note": "Code praticamente assenti, tranne nei weekend sulle piste cittadine; heliski in piccoli gruppi",
-   "region": "Yelizovo e Petropavlovsk-Kamchatsky, Territorio della Kamčatka, Estremo Oriente russo",
-   "season": "piste: da dicembre ad aprile; heliski sui vulcani: da marzo a maggio (in alcuni punti fino a giugno)",
-   "transfer": "Aeroporto di Petropavlovsk-Kamchatsky (Yelizovo): Moroznaya a pochi minuti di taxi; fino a Petropavlovsk ~37 km, 40–50 min; l'heliski parte dalle elisuperfici vicino a Yelizovo/Paratunka",
+   "h": "6705946b93",
+   "description": "La Kamčatka è uno dei posti migliori al mondo per il freeride: discese su vulcani attivi (Avačinskij, Korjakskij, Viljučinskij, Mutnovskij) e colline a picco sul Pacifico, dislivelli fino a 2000 m e neve fino a maggio–giugno. Le formule sono diverse: eliski con un Mi-8 o un Eurocopter (5–10 discese al giorno), risalite in motoslitta al passo Avačinskij e a capo Majačnyj, scialpinismo con salita su un vulcano e, in primavera, viaggi Ski&Sail vivendo su un catamarano nella baia Russkaja, accanto a una colonia di leoni marini. Si dorme in guesthouse e chalet intorno a Petropavlovsk, Elizovo e Paratunka con le sue terme. Prezzi indicativi 2026/27: una giornata di eliski da 130 000 RUB, una settimana da 590 000 RUB, una giornata di freeride in motoslitta da 25 000 RUB, una giornata di scialpinismo con guida da 15 000 RUB. Nei giorni senza volo si scia sulle piste cittadine, che hanno una scheda a parte: «Kamčatka: Moroznaja, Edelweiss e Krasnaja Sopka».",
+   "rating_basis": "Valutato come meta di eliski e fuoripista: discese su vulcani attivi fino a 2000 m di dislivello, 5–10 discese in elicottero al giorno, neve fino a maggio–giugno e discese fino all'oceano (Powderhounds, programmi degli operatori locali 2026/27)",
+   "hazards": "Vulcani attivi (emissioni di gas e cenere), cicloni frequenti con bufere e giorni senza volo — i programmi prevedono giorni di riserva; alto pericolo valanghe e lastroni da vento, crepacci sui ghiacciai; in primavera orsi. Solo con guida e attrezzatura da valanga",
+   "crowd_note": "Niente folla: elicottero, motoslitte e scialpinismo in piccoli gruppi con guida",
+   "region": "Dintorni di Petropavlovsk-Kamčatskij: passo Avačinskij, Paratunka, capo Majačnyj, baia Russkaja; Territorio della Kamčatka, Estremo Oriente russo",
+   "unique": "Discese da vulcani attivi fino al Pacifico e scialpinismo vivendo su un catamarano a vela nella baia Russkaja, accanto a una colonia di leoni marini.",
+   "season": "Dicembre – maggio: motoslitte e scialpinismo da dicembre, eliski da febbraio; il periodo migliore è marzo – aprile (giornate più lunghe e più giorni di volo), discese fino all'oceano fino a maggio, neve sui vulcani in alcuni punti fino a giugno",
+   "transfer": "Aeroporto di Petropavlovsk-Kamčatskij (Elizovo); guesthouse e chalet degli operatori a Petropavlovsk, Elizovo e Paratunka; gli elicotteri decollano da piazzole vicino a Elizovo e Paratunka, capo Majačnyj è a 1,5–2 ore, la baia Russkaja si raggiunge in elicottero o in barca",
    "pros": [
-    "Heliski di livello mondiale sui pendii di vulcani attivi",
-    "Dislivelli fino a 2000 m e 7–10 mila m al giorno",
-    "Stagione della neve lunghissima, fino a maggio–giugno",
-    "Niente folla, natura selvaggia, sorgenti termali di Paratunka"
+    "Eliski di livello mondiale su vulcani attivi",
+    "Discese fino al Pacifico e viaggi Ski&Sail in catamarano",
+    "Dislivelli fino a 2000 m e neve fino a maggio–giugno",
+    "Ogni tipo di fuoripista: elicottero, motoslitte, scialpinismo; terme di Paratunka"
    ],
    "cons": [
-    "Basi con impianti piccole e datate",
-    "Heliski e volo molto cari (~9 h da Mosca)",
-    "Frequenti giorni senza voli per il meteo",
-    "Infrastrutture scarse e pochi servizi"
+    "Molto caro: una settimana di eliski da 590 000 RUB, più il volo (~9 h da Mosca)",
+    "Frequenti giorni senza volo per i cicloni",
+    "Solo con guida e attrezzatura da valanga",
+    "Le piste servite da impianti sono piccole (hanno una scheda a parte)"
    ],
-   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~10 min"
+   "airport": "PKC — Petropavlovsk-Kamčatskij (Elizovo)"
   },
   "kirovsk-bolshoy-vudyavr": {
    "h": "76fc2a268e",
@@ -20850,6 +20851,29 @@
    ],
    "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 h in autostrada; HRI — Mattala, ~1,5 h",
    "best_wind_dir": "N–NE (monsone di nord-est, offshore)"
+  },
+  "kamchatka-moroznaya-edelweiss": {
+   "h": "4feeed8505",
+   "description": "Piccole stazioni sciistiche intorno a Petropavlovsk-Kamčatskij: Moroznaja a Elizovo (seggiovia e skilift, ~500 m di dislivello, innevamento artificiale e illuminazione serale), più Edelweiss, Krasnaja Sopka e Kirpičiki in città, con vista sulla baia di Avača e sui vulcani. Ci si viene per sciogliere le gambe prima del freeride e per sciare nei giorni senza volo; per i principianti ci sono programmi di una settimana con maestro. Eliski, motoslitte e scialpinismo sono nella scheda «Kamčatka: eliski, scialpinismo e freeride sui vulcani».",
+   "rating_basis": "Piccole stazioni cittadine: test di skiresort.info 2,9 (Moroznaja) e 2,3 (Edelweiss); il punto forte è la vista sui vulcani e sulla baia di Avača direttamente dalla pista",
+   "hazards": "Vento forte e bufere durante i cicloni, ghiaccio sulle piste dopo il disgelo; fuoripista pericolo valanghe",
+   "crowd_note": "Quasi niente code, tranne nel fine settimana sulle piste cittadine",
+   "region": "Elizovo e Petropavlovsk-Kamčatskij, Territorio della Kamčatka, Estremo Oriente russo",
+   "season": "Dicembre – aprile (il periodo migliore è gennaio – marzo)",
+   "transfer": "Moroznaja è a pochi minuti di taxi dall'aeroporto di Elizovo; Edelweiss, Krasnaja Sopka e Kirpičiki sono a Petropavlovsk, a 40–50 minuti dall'aeroporto (~37 km)",
+   "pros": [
+    "Vista sui vulcani e sulla baia di Avača direttamente dalla pista",
+    "Vicino all'aeroporto e alla città",
+    "Sci serale e innevamento a Moroznaja",
+    "La neve tiene fino ad aprile"
+   ],
+   "cons": [
+    "Stazioni piccole e datate, fino a ~500 m di dislivello",
+    "Niente skipass giornaliero — salite singole e abbonamenti orari",
+    "Volo caro (~9 h da Mosca)",
+    "Bufere e vento frequenti"
+   ],
+   "airport": "PKC — Petropavlovsk-Kamčatskij (Elizovo), ~10 min da Moroznaja"
   }
  }
 }

@@ -5476,27 +5476,28 @@
    "lift_pass_note": "Les forfaits journée ne sont presque jamais en vente libre : 2 jours — dès 8500 ₽ (≈4250 ₽/jour), 3 jours — dès 9700 ₽ ; auparavant, la journée coûtait 4100 ₽ ; forfait commun avec Rosa Khutor et Krasnaya Polyana — dès 4800 ₽"
   },
   "kamchatka-moroznaya-heliski": {
-   "h": "ae8503641e",
-   "description": "Le Kamtchatka est l'un des meilleurs endroits au monde pour l'héliski : descentes depuis les volcans Avatchinski, Koriakski, Vilioutchinski et Moutnovski jusqu'à l'océan, dénivelés énormes et neige jusqu'à l'été. Le ski sur remontées est modeste : Moroznaya à Ielizovo (télésiège et téléski, dénivelé ~500 m, enneigement artificiel et éclairage), Edelweiss, Krasnaya Sopka et Kirpichiki à Petropavlovsk.",
-   "rating_basis": "Évaluation en tant que destination héliski : descentes sur les pentes de volcans actifs jusqu'à 2000 m de dénivelé, 7 000–10 000 m par jour, neige jusqu'en juin (Powderhounds, séjours Explore-Share) ; les stations elles-mêmes sont petites — test de skiresort.info 2,9 (Moroznaya) et 2,3 (Edelweiss)",
-   "hazards": "Volcans actifs (émissions de gaz et de cendres), cyclones violents, tempêtes de neige et météo empêchant les vols, risque d'avalanche élevé et plaques à vent, crevasses sur les glaciers ; ours au printemps ; en février — mars, d'abondantes chutes de neige et des tempêtes ferment les pentes",
-   "crowd_note": "Quasiment pas de files d'attente, sauf le week-end sur les pentes urbaines ; héliski en petits groupes",
-   "region": "Ielizovo et Petropavlovsk-Kamtchatski, kraï du Kamtchatka, Extrême-Orient",
-   "season": "pistes — décembre — avril ; héliski sur les volcans — mars — mai (par endroits jusqu'en juin)",
-   "transfer": "Aéroport de Petropavlovsk-Kamtchatski (Ielizovo) — Moroznaya à quelques minutes en taxi ; jusqu'à Petropavlovsk ~37 km, 40–50 min ; l'héliski part d'héliports près d'Ielizovo/Paratounka",
+   "h": "6705946b93",
+   "description": "Le Kamtchatka est l'un des meilleurs endroits au monde pour le freeride : descentes sur des volcans actifs (Avatchinski, Koriakski, Viliouchinski, Moutnovski) et des collines au bord même du Pacifique, jusqu'à 2000 m de dénivelé et de la neige jusqu'en mai–juin. Plusieurs formules : héliski en Mi-8 ou en Eurocopter (5 à 10 descentes par jour), déposes en motoneige au col d'Avatchinski et au cap Maïatchny, ski de randonnée avec ascension d'un volcan, et au printemps des voyages Ski&Sail en vivant sur un catamaran dans la baie Rousskaïa, près d'une colonie d'otaries. On loge en maisons d'hôtes et chalets autour de Petropavlovsk, Ielizovo et Paratounka et ses sources chaudes. Prix indicatifs 2026/27 : une journée d'héliski dès 130 000 RUB, une semaine dès 590 000 RUB, une journée de freeride en motoneige dès 25 000 RUB, une journée de randonnée guidée dès 15 000 RUB. Les jours sans vol, on skie sur les pistes de la ville, qui ont leur propre fiche : « Kamtchatka : Moroznaïa, Edelweiss et Krasnaïa Sopka ».",
+   "rating_basis": "Noté comme destination d'héliski et de hors-piste : descentes sur des volcans actifs jusqu'à 2000 m de dénivelé, 5 à 10 rotations d'hélico par jour, neige jusqu'en mai–juin et descentes jusqu'à l'océan (Powderhounds, programmes des opérateurs locaux 2026/27)",
+   "hazards": "Volcans actifs (émissions de gaz et de cendres), cyclones fréquents avec tempêtes de neige et jours sans vol — les programmes prévoient des jours de réserve ; fort risque d'avalanche et plaques à vent, crevasses glaciaires ; ours au printemps. Uniquement avec un guide et du matériel d'avalanche",
+   "crowd_note": "Pas de foule : hélico, motoneiges et randonnée en petits groupes guidés",
+   "region": "Environs de Petropavlovsk-Kamtchatski : col d'Avatchinski, Paratounka, cap Maïatchny, baie Rousskaïa ; kraï du Kamtchatka, Extrême-Orient russe",
+   "unique": "Des descentes depuis des volcans actifs jusqu'au Pacifique, et du ski de randonnée en vivant sur un catamaran à voile dans la baie Rousskaïa, près d'une colonie d'otaries.",
+   "season": "Décembre – mai : motoneige et randonnée dès décembre, héliski dès février ; idéal en mars – avril (journées plus longues et plus de jours de vol), descentes vers l'océan jusqu'en mai, neige sur les volcans par endroits jusqu'en juin",
+   "transfer": "Aéroport de Petropavlovsk-Kamtchatski (Ielizovo) ; maisons d'hôtes et chalets des opérateurs à Petropavlovsk, Ielizovo et Paratounka ; les hélicoptères décollent d'héliports près d'Ielizovo et de Paratounka, le cap Maïatchny est à 1 h 30–2 h, la baie Rousskaïa se rejoint en hélicoptère ou en bateau",
    "pros": [
-    "Héliski de classe mondiale sur les pentes de volcans actifs",
-    "Dénivelés jusqu'à 2000 m et 7 000–10 000 m par jour",
-    "Très longue saison de neige — jusqu'en mai–juin",
-    "Pas de foule, nature sauvage, sources chaudes de Paratounka"
+    "Héliski de classe mondiale sur des volcans actifs",
+    "Descentes jusqu'au Pacifique et voyages Ski&Sail en catamaran",
+    "Jusqu'à 2000 m de dénivelé et de la neige jusqu'en mai–juin",
+    "Toutes les formes de hors-piste : hélico, motoneige, randonnée ; sources chaudes de Paratounka"
    ],
    "cons": [
-    "Stations avec remontées petites et vétustes",
-    "Héliski et vol très chers (~9 h depuis Moscou)",
-    "Jours sans vol fréquents à cause de la météo",
-    "Infrastructures limitées et peu de services"
+    "Très cher : une semaine d'héliski dès 590 000 RUB, plus le vol (~9 h depuis Moscou)",
+    "Jours sans vol fréquents à cause des cyclones",
+    "Uniquement avec un guide et du matériel d'avalanche",
+    "Les pistes équipées sont petites (elles ont leur propre fiche)"
    ],
-   "airport": "PKC — Petropavlovsk-Kamtchatski (Ielizovo), ~10 min"
+   "airport": "PKC — Petropavlovsk-Kamtchatski (Ielizovo)"
   },
   "kirovsk-bolshoy-vudyavr": {
    "h": "76fc2a268e",
@@ -20850,6 +20851,29 @@
    ],
    "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 h par l'autoroute ; HRI — Mattala, ~1,5 h",
    "best_wind_dir": "N–NE (mousson de nord-est, offshore)"
+  },
+  "kamchatka-moroznaya-edelweiss": {
+   "h": "4feeed8505",
+   "description": "Petites stations de ski autour de Petropavlovsk-Kamtchatski : Moroznaïa à Ielizovo (télésiège et téléski, ~500 m de dénivelé, neige de culture et éclairage nocturne), ainsi qu'Edelweiss, Krasnaïa Sopka et Kirpitchiki en ville, avec vue sur la baie d'Avatcha et les volcans. On y vient pour se remettre en jambes avant le freeride et skier les jours sans vol ; pour les débutants, il existe des programmes d'une semaine avec moniteur. L'héliski, la motoneige et la randonnée sont sur la fiche « Kamtchatka : héliski, ski de randonnée et freeride sur les volcans ».",
+   "rating_basis": "Petites stations urbaines : test skiresort.info 2,9 (Moroznaïa) et 2,3 (Edelweiss) ; le principal atout est la vue sur les volcans et la baie d'Avatcha depuis la piste",
+   "hazards": "Vent fort et tempêtes de neige lors des cyclones, glace sur les pistes après les redoux ; risque d'avalanche hors-piste",
+   "crowd_note": "Presque pas d'attente, sauf le week-end sur les pistes de la ville",
+   "region": "Ielizovo et Petropavlovsk-Kamtchatski, kraï du Kamtchatka, Extrême-Orient russe",
+   "season": "Décembre – avril (idéal de janvier à mars)",
+   "transfer": "Moroznaïa est à quelques minutes en taxi de l'aéroport d'Ielizovo ; Edelweiss, Krasnaïa Sopka et Kirpitchiki sont à Petropavlovsk, à 40–50 minutes de l'aéroport (~37 km)",
+   "pros": [
+    "Vue sur les volcans et la baie d'Avatcha depuis la piste",
+    "Près de l'aéroport et de la ville",
+    "Ski nocturne et neige de culture à Moroznaïa",
+    "La neige tient jusqu'en avril"
+   ],
+   "cons": [
+    "Petites stations vieillissantes, jusqu'à ~500 m de dénivelé",
+    "Pas de forfait journée — montées à l'unité et forfaits horaires",
+    "Vol cher (~9 h depuis Moscou)",
+    "Tempêtes de neige et vent fréquents"
+   ],
+   "airport": "PKC — Petropavlovsk-Kamtchatski (Ielizovo), ~10 min jusqu'à Moroznaïa"
   }
  }
 }

@@ -5476,27 +5476,28 @@
    "lift_pass_note": "Ski passes de um dia quase nunca estão à venda: 2 dias — a partir de 8500 ₽ (≈4250 ₽/dia), 3 dias — a partir de 9700 ₽; antes, o diário custava 4100 ₽; ski pass conjunto com Rosa Khutor e Krasnaya Polyana — a partir de 4800 ₽"
   },
   "kamchatka-moroznaya-heliski": {
-   "h": "ae8503641e",
-   "description": "Kamchatka é um dos melhores lugares do mundo para heliski: descidas dos vulcões Avachinsky, Koryaksky, Vilyuchinsky e Mutnovsky até o oceano, desníveis enormes e neve até o verão. O esqui com teleférico é modesto: Moroznaya, em Yelizovo (cadeirinha e T-bar, desnível de ~500 m, neve artificial e iluminação), Edelweiss, Krasnaya Sopka e Kirpichiki, em Petropavlovsk.",
-   "rating_basis": "Avaliação como destino de heliski: descidas pelas encostas de vulcões ativos com até 2000 m de desnível, 7–10 mil m por dia, neve até junho (Powderhounds, tours da Explore-Share); as bases de esqui em si são pequenas — teste do skiresort.info 2,9 (Moroznaya) e 2,3 (Edelweiss)",
-   "hazards": "Vulcões ativos (emissões de gás e cinzas), ciclones fortes, nevascas e tempo sem condições de voo, alto risco de avalanche e placas de vento, fendas nas geleiras; ursos na primavera; em fevereiro–março, nevadas abundantes e tempestades de neve fecham as encostas",
-   "crowd_note": "Praticamente não há filas, exceto nos fins de semana nas pistas urbanas; heliski em grupos pequenos",
-   "region": "Yelizovo e Petropavlovsk-Kamchatsky, Krai de Kamchatka, Extremo Oriente russo",
-   "season": "pistas — dezembro – abril; heliski nos vulcões — março – maio (em alguns lugares até junho)",
-   "transfer": "Aeroporto de Petropavlovsk-Kamchatsky (Yelizovo) — Moroznaya fica a poucos minutos de táxi; até Petropavlovsk ~37 km, 40–50 min; o heliski parte de helipontos perto de Yelizovo/Paratunka",
+   "h": "6705946b93",
+   "description": "Kamchatka é um dos melhores lugares do mundo para freeride: descidas por vulcões ativos (Avachinsky, Koryaksky, Vilyuchinsky, Mutnovsky) e morros junto ao próprio Pacífico, desníveis de até 2000 m e neve até maio–junho. Há várias formas de esquiar: heliski num Mi-8 ou num Eurocopter (5–10 descidas por dia), subidas de snowmobile ao passo de Avachinsky e ao cabo Mayachny, esqui de travessia com subida a um vulcão e, na primavera, viagens Ski&Sail morando num catamarã na baía Russkaya, ao lado de uma colônia de leões-marinhos. A hospedagem é em pousadas e chalés perto de Petropavlovsk, Yelizovo e Paratunka, com suas fontes termais. Preços de referência 2026/27: um dia de heliski a partir de 130 000 RUB, uma semana a partir de 590 000 RUB, um dia de freeride com snowmobile a partir de 25 000 RUB, um dia de travessia com guia a partir de 15 000 RUB. Nos dias sem voo esquia-se nas pistas da cidade, que têm uma ficha própria: «Kamchatka: Moroznaya, Edelweiss e Krasnaya Sopka».",
+   "rating_basis": "Avaliado como destino de heliski e fora de pista: descidas por vulcões ativos com até 2000 m de desnível, 5–10 descidas de helicóptero por dia, neve até maio–junho e descidas até o próprio oceano (Powderhounds, programas de operadores locais 2026/27)",
+   "hazards": "Vulcões ativos (emissões de gás e cinzas), ciclones frequentes com nevascas e dias sem voo — os programas incluem dias de reserva; alto risco de avalanches e placas de vento, fendas em geleiras; ursos na primavera. Só com guia e equipamento de avalanche",
+   "crowd_note": "Sem multidões: helicóptero, snowmobiles e travessia em grupos pequenos com guia",
+   "region": "Arredores de Petropavlovsk-Kamchatsky: passo de Avachinsky, Paratunka, cabo Mayachny, baía Russkaya; Krai de Kamchatka, Extremo Oriente russo",
+   "unique": "Descidas de vulcões ativos direto até o Pacífico e esqui de travessia morando num catamarã a vela na baía Russkaya, ao lado de uma colônia de leões-marinhos.",
+   "season": "Dezembro – maio: snowmobiles e travessia desde dezembro, heliski desde fevereiro; melhor em março – abril (dias mais longos e mais dias de voo), descidas ao oceano até maio, neve nos vulcões em alguns pontos até junho",
+   "transfer": "Aeroporto de Petropavlovsk-Kamchatsky (Yelizovo); as pousadas e chalés dos operadores ficam em Petropavlovsk, Yelizovo e Paratunka; os helicópteros decolam de helipontos perto de Yelizovo e Paratunka, o cabo Mayachny fica a 1,5–2 horas e a baía Russkaya é alcançada de helicóptero ou barco",
    "pros": [
-    "Heliski de nível mundial nas encostas de vulcões ativos",
-    "Desníveis de até 2000 m e 7–10 mil m por dia",
-    "Temporada de neve muito longa — até maio–junho",
-    "Sem multidões, natureza selvagem, fontes termais de Paratunka"
+    "Heliski de nível mundial em vulcões ativos",
+    "Descidas até o Pacífico e viagens Ski&Sail de catamarã",
+    "Desníveis de até 2000 m e neve até maio–junho",
+    "Todo tipo de fora de pista: helicóptero, snowmobiles, travessia; fontes termais de Paratunka"
    ],
    "cons": [
-    "As bases com teleférico são pequenas e antiquadas",
-    "Heliski e voo muito caros (~9 h a partir de Moscou)",
-    "Dias frequentes sem condições de voo por causa do tempo",
-    "Infraestrutura fraca e pouco serviço"
+    "Muito caro: uma semana de heliski a partir de 590 000 RUB, mais o voo (~9 h de Moscou)",
+    "Dias sem voo frequentes por causa dos ciclones",
+    "Só com guia e equipamento de avalanche",
+    "As pistas com teleféricos são pequenas (têm uma ficha própria)"
    ],
-   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~10 min"
+   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo)"
   },
   "kirovsk-bolshoy-vudyavr": {
    "h": "76fc2a268e",
@@ -20850,6 +20851,29 @@
    ],
    "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 h pela rodovia expressa; HRI — Mattala, ~1,5 h",
    "best_wind_dir": "N–NE (monção de nordeste, offshore)"
+  },
+  "kamchatka-moroznaya-edelweiss": {
+   "h": "4feeed8505",
+   "description": "Pequenas estações de esqui perto de Petropavlovsk-Kamchatsky: Moroznaya em Yelizovo (teleférico de cadeira e T-bar, ~500 m de desnível, neve artificial e iluminação noturna), além de Edelweiss, Krasnaya Sopka e Kirpichiki dentro da cidade, com vista para a baía de Avacha e os vulcões. Vem-se aqui para aquecer antes do freeride e para esquiar nos dias sem voo; para iniciantes há programas de uma semana com instrutor. Heliski, snowmobiles e travessia estão na ficha «Kamchatka: heliski, travessia e freeride em vulcões».",
+   "rating_basis": "Pequenas estações urbanas: teste do skiresort.info 2,9 (Moroznaya) e 2,3 (Edelweiss); o ponto forte é a vista dos vulcões e da baía de Avacha da própria pista",
+   "hazards": "Vento forte e nevascas durante os ciclones, gelo nas pistas depois do degelo; risco de avalanches fora de pista",
+   "crowd_note": "Quase sem filas, exceto nos fins de semana nas pistas da cidade",
+   "region": "Yelizovo e Petropavlovsk-Kamchatsky, Krai de Kamchatka, Extremo Oriente russo",
+   "season": "Dezembro – abril (melhor de janeiro a março)",
+   "transfer": "Moroznaya fica a poucos minutos de táxi do aeroporto de Yelizovo; Edelweiss, Krasnaya Sopka e Kirpichiki ficam em Petropavlovsk, a 40–50 minutos do aeroporto (~37 km)",
+   "pros": [
+    "Vista dos vulcões e da baía de Avacha da própria pista",
+    "Perto do aeroporto e da cidade",
+    "Esqui noturno e neve artificial em Moroznaya",
+    "A neve dura até abril"
+   ],
+   "cons": [
+    "Estações pequenas e antiquadas, até ~500 m de desnível",
+    "Não há passe diário — subidas avulsas e passes por hora",
+    "Voo caro (~9 h de Moscou)",
+    "Nevascas e vento frequentes"
+   ],
+   "airport": "PKC — Petropavlovsk-Kamchatsky (Yelizovo), ~10 min até Moroznaya"
   }
  }
 }

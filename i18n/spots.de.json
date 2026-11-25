@@ -5476,27 +5476,28 @@
    "lift_pass_note": "Tagesskipässe gibt es im freien Verkauf kaum: 2 Tage – ab 8500 ₽ (≈4250 ₽/Tag), 3 Tage – ab 9700 ₽; früher kostete die Tageskarte 4100 ₽; gemeinsamer Skipass mit Rosa Chutor und Krasnaja Poljana – ab 4800 ₽"
   },
   "kamchatka-moroznaya-heliski": {
-   "h": "ae8503641e",
-   "description": "Kamtschatka ist einer der besten Orte der Welt für Heliskiing: Abfahrten von den Vulkanen Awatschinski, Korjakski, Wiljutschinski und Mutnowski bis zum Ozean, riesige Höhenunterschiede und Schnee bis in den Sommer. Liftgestütztes Skifahren ist bescheiden: Morosnaja in Jelisowo (Sessellift und Schlepplift, ~500 m Höhenunterschied, Beschneiung und Flutlicht), Edelweiss, Krasnaja Sopka und Kirpitschiki in Petropawlowsk.",
-   "rating_basis": "Bewertung als Heliskiing-Ziel: Abfahrten an aktiven Vulkanen mit bis zu 2000 m Höhenunterschied, 7.000–10.000 Höhenmeter pro Tag, Schnee bis Juni (Powderhounds, Touren von Explore-Share); die Skibasen selbst sind klein – Test von skiresort.info 2,9 (Morosnaja) und 2,3 (Edelweiss)",
-   "hazards": "Aktive Vulkane (Gas- und Ascheausstöße), starke Zyklone, Schneestürme und Flugausfälle, hohe Lawinengefahr und Triebschneebretter, Gletscherspalten; Bären im Frühjahr; im Februar – März sperren heftige Schneefälle und Schneestürme die Hänge",
-   "crowd_note": "Praktisch keine Schlangen außer an Wochenenden an den Stadthängen; Heliskiing in kleinen Gruppen",
-   "region": "Jelisowo und Petropawlowsk-Kamtschatski, Region Kamtschatka, Ferner Osten",
-   "season": "Pisten – Dezember – April; Heliskiing an den Vulkanen – März – Mai (stellenweise bis Juni)",
-   "transfer": "Flughafen Petropawlowsk-Kamtschatski (Jelisowo) – Morosnaja wenige Taximinuten entfernt; bis Petropawlowsk ~37 km, 40–50 Min.; Heliskiing startet von Hubschrauberlandeplätzen bei Jelisowo/Paratunka",
+   "h": "6705946b93",
+   "description": "Kamtschatka gehört zu den besten Freeride-Revieren der Welt: Abfahrten über aktive Vulkane (Awatschinski, Korjakski, Wiljutschinski, Mutnowski) und Hügel direkt am Pazifik, bis zu 2000 Höhenmeter und Schnee bis Mai–Juni. Es gibt mehrere Varianten: Heliskiing mit einer Mi-8 oder einem Eurocopter (5–10 Abfahrten am Tag), Snowmobil-Shuttles zum Awatschinski-Pass und zum Kap Majatschny, Skitouren mit Vulkanbesteigung und im Frühling Ski&Sail-Reisen mit Unterkunft auf einem Katamaran in der Russkaja-Bucht neben einer Seelöwenkolonie. Man wohnt in Gästehäusern und Chalets rund um Petropawlowsk, Jelisowo und Paratunka mit seinen heißen Quellen. Richtpreise 2026/27: ein Heliski-Tag ab 130.000 RUB, eine Woche ab 590.000 RUB, ein Freeride-Tag mit Snowmobil ab 25.000 RUB, ein geführter Skitourentag ab 15.000 RUB. An Tagen ohne Flugwetter fährt man auf den Stadtpisten, die eine eigene Karte haben: „Kamtschatka: Morosnaja, Edelweiss und Krasnaja Sopka“.",
+   "rating_basis": "Bewertet als Ziel für Heliskiing und Backcountry: Abfahrten über aktive Vulkane mit bis zu 2000 Höhenmetern, 5–10 Heli-Abfahrten am Tag, Schnee bis Mai–Juni und Abfahrten bis ans Meer (Powderhounds, Programme lokaler Anbieter 2026/27)",
+   "hazards": "Aktive Vulkane (Gas- und Ascheausstoß), häufige Zyklone mit Schneestürmen und Flugausfällen — die Programme haben Reservetage; hohe Lawinengefahr und Triebschnee, Gletscherspalten; im Frühling Bären. Nur mit Guide und Lawinenausrüstung",
+   "crowd_note": "Keine Massen: Heli, Snowmobil und Skitouren in kleinen geführten Gruppen",
+   "region": "Umgebung von Petropawlowsk-Kamtschatski: Awatschinski-Pass, Paratunka, Kap Majatschny, Russkaja-Bucht; Region Kamtschatka, Russisch-Fernost",
+   "unique": "Abfahrten von aktiven Vulkanen bis direkt an den Pazifik und Skitouren mit Unterkunft auf einem Segelkatamaran in der Russkaja-Bucht, neben einer Seelöwenkolonie.",
+   "season": "Dezember – Mai: Snowmobil und Skitouren ab Dezember, Heliskiing ab Februar; am besten März – April (längere Tage und mehr Flugtage), Abfahrten bis ans Meer bis Mai, Schnee auf den Vulkanen stellenweise bis Juni",
+   "transfer": "Flughafen Petropawlowsk-Kamtschatski (Jelisowo); Gästehäuser und Chalets der Anbieter in Petropawlowsk, Jelisowo und Paratunka; die Hubschrauber starten von Landeplätzen bei Jelisowo und Paratunka, zum Kap Majatschny sind es 1,5–2 Stunden, in die Russkaja-Bucht geht es per Hubschrauber oder Boot",
    "pros": [
-    "Heliskiing von Weltklasse an aktiven Vulkanen",
-    "Bis zu 2000 m Höhenunterschied und 7.000–10.000 Höhenmeter pro Tag",
-    "Sehr lange Schneesaison – bis Mai–Juni",
-    "Keine Massen, wilde Natur, heiße Quellen von Paratunka"
+    "Heliskiing der Weltklasse auf aktiven Vulkanen",
+    "Abfahrten bis an den Pazifik und Ski&Sail-Reisen auf dem Katamaran",
+    "Bis zu 2000 Höhenmeter und Schnee bis Mai–Juni",
+    "Alle Arten von Backcountry: Heli, Snowmobil, Skitour; heiße Quellen von Paratunka"
    ],
    "cons": [
-    "Kleine, veraltete Liftbasen",
-    "Sehr teures Heliskiing und teurer Flug (~9 Std. von Moskau)",
-    "Häufige Flugausfälle wegen des Wetters",
-    "Schwache Infrastruktur und wenig Service"
+    "Sehr teuer: eine Heliski-Woche ab 590.000 RUB, plus Flug (~9 h ab Moskau)",
+    "Häufige Flugausfälle wegen Zyklonen",
+    "Nur mit Guide und Lawinenausrüstung",
+    "Die Liftpisten sind klein (sie haben eine eigene Karte)"
    ],
-   "airport": "PKC — Petropawlowsk-Kamtschatski (Jelisowo), ~10 Min."
+   "airport": "PKC — Petropawlowsk-Kamtschatski (Jelisowo)"
   },
   "kirovsk-bolshoy-vudyavr": {
    "h": "76fc2a268e",
@@ -20850,6 +20851,29 @@
    ],
    "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 Std. über die Schnellstraße; HRI — Mattala, ~1,5 Std.",
    "best_wind_dir": "N–NE (Nordostmonsun, offshore)"
+  },
+  "kamchatka-moroznaya-edelweiss": {
+   "h": "4feeed8505",
+   "description": "Kleine Skigebiete um Petropawlowsk-Kamtschatski: Morosnaja in Jelisowo (Sessel- und Schlepplift, ~500 Höhenmeter, Beschneiung und Flutlicht) sowie Edelweiss, Krasnaja Sopka und Kirpitschiki im Stadtgebiet, mit Blick auf die Awatscha-Bucht und die Vulkane. Hierher kommt man zum Einfahren vor dem Freeriden und an Tagen ohne Flugwetter; für Anfänger gibt es Wochenprogramme mit Skilehrer. Heliskiing, Snowmobil und Skitouren stehen auf der Karte „Kamtschatka: Heliskiing, Skitouren und Freeride auf Vulkanen“.",
+   "rating_basis": "Kleine Stadtskigebiete: skiresort.info-Test 2,9 (Morosnaja) und 2,3 (Edelweiss); größter Pluspunkt ist der Blick auf die Vulkane und die Awatscha-Bucht direkt von der Piste",
+   "hazards": "Starker Wind und Schneestürme bei Zyklonen, Eis auf den Pisten nach Tauwetter; abseits der Pisten Lawinengefahr",
+   "crowd_note": "Kaum Wartezeiten, außer am Wochenende auf den Stadtpisten",
+   "region": "Jelisowo und Petropawlowsk-Kamtschatski, Region Kamtschatka, Russisch-Fernost",
+   "season": "Dezember – April (am besten Januar – März)",
+   "transfer": "Morosnaja liegt wenige Taximinuten vom Flughafen Jelisowo entfernt; Edelweiss, Krasnaja Sopka und Kirpitschiki liegen in Petropawlowsk, 40–50 Minuten vom Flughafen (~37 km)",
+   "pros": [
+    "Blick auf die Vulkane und die Awatscha-Bucht direkt von der Piste",
+    "Nah am Flughafen und an der Stadt",
+    "Nachtskifahren und Beschneiung in Morosnaja",
+    "Schnee bis April"
+   ],
+   "cons": [
+    "Kleine, veraltete Skigebiete mit bis zu ~500 Höhenmetern",
+    "Kein Tagesskipass — Einzelfahrten und Stundenkarten",
+    "Teurer Flug (~9 h ab Moskau)",
+    "Häufig Schneesturm und Wind"
+   ],
+   "airport": "PKC — Petropawlowsk-Kamtschatski (Jelisowo), ~10 Min. bis Morosnaja"
   }
  }
 }
