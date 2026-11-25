@@ -20827,6 +20827,29 @@
     "You need a car"
    ],
    "airport": "ADB — İzmir, ~40 min"
+  },
+  "sri-lanka-habaraduwa": {
+   "h": "54eef833d9",
+   "description": "Habaraduwa is a quiet village on Sri Lanka's south coast between Galle and Ahangama, by Koggala beach and lagoon. It has no big-name spot of its own: people surf the reefs of The Peak and Koggala, and beginners are taken to the soft Kabalana beach break 5–10 minutes away. The season runs from November to April, when the NE monsoon blows offshore; from May to mid-October the SW monsoon brings onshore wind and stormy swell.",
+   "rating_basis": "Habaraduwa itself is a quiet village without a famous spot: nearby are The Peak reef (lefts and rights, intermediate, 3/5 on surfing-waves.com) and the Koggala reef left. The main plus is Kabalana 5–15 minutes away by tuk-tuk, with The Rock, one of the island's most consistent reefs, and a beach break for beginners (thesurfatlas), and further on Midigama and Weligama",
+   "hazards": "Shallow reef and rocks at The Peak and Koggala (especially at low tide), sea urchins; at Koggala beach — shorebreak and currents in a big swell",
+   "crowd_note": "Uncrowded in Habaraduwa and Koggala; The Rock and the Kabalana beach break get busy in season, quieter early in the morning",
+   "region": "South coast (Galle district), between Galle and Ahangama, Indian Ocean",
+   "area_breaks": "Nearby: The Peak (reef, lefts and rights, intermediate), the Koggala reef (left) and Koggala beach (beach break, on small days); 5–10 minutes away — Kabalana: The Rock (powerful reef A-frame, for experienced surfers) and a soft beach break for beginners; further east — Ahangama, Midigama (Lazy Left, Lazy Right, Coconuts) and Weligama (20–25 minutes); to the west — Dalawella (right-hander on the reef, in a big swell) and Dewata near Galle (for beginners)",
+   "beginner_months": "November–April: beginners are taken to the soft Kabalana beach break (5–10 minutes by tuk-tuk), and on small days they also learn at Koggala beach. From May to mid-October the SW monsoon blows onshore and the waves are messy and stormy — not the season for learning",
+   "pros": [
+    "Quiet and less crowded than Weligama and Ahangama",
+    "Spots for every level nearby: from the Kabalana beach break to The Rock reef",
+    "Galle, Unawatuna and Ahangama 15–25 minutes away",
+    "Warm water all year round"
+   ],
+   "cons": [
+    "No strong spot of its own — for good waves you take a tuk-tuk",
+    "Koggala beach often dumps right on the shore (shorebreak)",
+    "May to mid-October — SW monsoon: onshore wind and messy waves — off-season"
+   ],
+   "airport": "CMB — Colombo (Bandaranaike), ~2–2.5 h via the expressway; HRI — Mattala, ~1.5 h",
+   "best_wind_dir": "N–NE (NE monsoon, offshore)"
   }
  }
 }

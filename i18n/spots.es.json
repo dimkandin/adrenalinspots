@@ -20827,6 +20827,29 @@
     "Hace falta coche"
    ],
    "airport": "ADB — Esmirna, ~40 min"
+  },
+  "sri-lanka-habaraduwa": {
+   "h": "54eef833d9",
+   "description": "Habaraduwa es un pueblo tranquilo en la costa sur de Sri Lanka, entre Galle y Ahangama, junto a la playa y la laguna de Koggala. No tiene un spot famoso propio: se surfea en los arrecifes de The Peak y Koggala, y a los principiantes los llevan al suave beach break de Kabalana, a 5–10 minutos. La temporada va de noviembre a abril, cuando sopla el monzón del noreste (offshore); de mayo a mediados de octubre el monzón del suroeste trae viento de mar y mar de fondo de temporal.",
+   "rating_basis": "Habaraduwa en sí es un pueblo tranquilo sin un spot conocido: cerca están el arrecife The Peak (izquierdas y derechas, nivel intermedio, 3/5 en surfing-waves.com) y la izquierda del arrecife de Koggala. La gran ventaja es Kabalana, a 5–15 minutos en tuk-tuk, con The Rock, uno de los arrecifes más constantes de la isla, y un beach break para principiantes (thesurfatlas); más allá, Midigama y Weligama",
+   "hazards": "Arrecife poco profundo y rocas en The Peak y Koggala (sobre todo con marea baja), erizos; en la playa de Koggala, shorebreak y corrientes con mar grande",
+   "crowd_note": "En Habaraduwa y Koggala hay poca gente; The Rock y el beach break de Kabalana se llenan en temporada, más tranquilos temprano por la mañana",
+   "region": "Costa sur (distrito de Galle), entre Galle y Ahangama, océano Índico",
+   "area_breaks": "Cerca: The Peak (arrecife, izquierdas y derechas, nivel intermedio), el arrecife de Koggala (izquierda) y la playa de Koggala (beach break, en días pequeños); a 5–10 minutos, Kabalana: The Rock (potente pico de arrecife, para surfistas con experiencia) y un suave beach break para principiantes; más al este, Ahangama, Midigama (Lazy Left, Lazy Right, Coconuts) y Weligama (20–25 minutos); al oeste, Dalawella (derecha de arrecife, con mar grande) y Dewata, junto a Galle (para principiantes)",
+   "beginner_months": "Noviembre–abril: a los principiantes los llevan al suave beach break de Kabalana (5–10 minutos en tuk-tuk), y en días pequeños también aprenden en la playa de Koggala. De mayo a mediados de octubre sopla el monzón del suroeste desde el mar y las olas son desordenadas y de temporal: no es temporada para aprender",
+   "pros": [
+    "Tranquilo y con menos gente que Weligama y Ahangama",
+    "Spots para todos los niveles cerca: del beach break de Kabalana al arrecife The Rock",
+    "Galle, Unawatuna y Ahangama a 15–25 minutos",
+    "Agua cálida todo el año"
+   ],
+   "cons": [
+    "No tiene un spot potente propio: para buenas olas hay que ir en tuk-tuk",
+    "La playa de Koggala suele romper en la orilla (shorebreak)",
+    "De mayo a mediados de octubre, monzón del suroeste: viento de mar y olas desordenadas; no es temporada"
+   ],
+   "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 h por autopista; HRI — Mattala, ~1,5 h",
+   "best_wind_dir": "N–NE (monzón del noreste, offshore)"
   }
  }
 }

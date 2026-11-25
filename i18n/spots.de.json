@@ -20827,6 +20827,29 @@
     "Ein Auto ist nötig"
    ],
    "airport": "ADB — İzmir, ~40 Min."
+  },
+  "sri-lanka-habaraduwa": {
+   "h": "54eef833d9",
+   "description": "Habaraduwa ist ein ruhiger Ort an der Südküste Sri Lankas zwischen Galle und Ahangama, am Strand und an der Lagune von Koggala. Einen bekannten eigenen Spot gibt es nicht: Gesurft wird an den Riffen The Peak und Koggala, Anfänger fahren zum sanften Beachbreak von Kabalana, 5–10 Minuten entfernt. Saison ist von November bis April, wenn der Nordostmonsun ablandig weht; von Mai bis Mitte Oktober bringt der Südwestmonsun auflandigen Wind und Sturmswell.",
+   "rating_basis": "Habaraduwa selbst ist ein ruhiger Ort ohne bekannten Spot: In der Nähe liegen das Riff The Peak (Lefts und Rights, Mittelstufe, 3/5 auf surfing-waves.com) und die Left am Riff von Koggala. Der große Vorteil ist Kabalana, 5–15 Minuten mit dem Tuk-Tuk, mit The Rock, einem der beständigsten Riffe der Insel, und einem Beachbreak für Anfänger (thesurfatlas); weiter östlich Midigama und Weligama",
+   "hazards": "Flaches Riff und Felsen an The Peak und in Koggala (vor allem bei Ebbe), Seeigel; am Strand von Koggala Shorebreak und Strömungen bei großem Swell",
+   "crowd_note": "In Habaraduwa und Koggala ist wenig los; an The Rock und am Beachbreak von Kabalana ist es in der Saison voll, früh morgens ruhiger",
+   "region": "Südküste (Distrikt Galle), zwischen Galle und Ahangama, Indischer Ozean",
+   "area_breaks": "In der Nähe: The Peak (Riff, Lefts und Rights, Mittelstufe), das Riff von Koggala (Left) und der Strand von Koggala (Beachbreak, an kleinen Tagen); 5–10 Minuten entfernt Kabalana: The Rock (kraftvoller Riff-A-Frame, für Erfahrene) und ein sanfter Beachbreak für Anfänger; weiter östlich Ahangama, Midigama (Lazy Left, Lazy Right, Coconuts) und Weligama (20–25 Minuten); im Westen Dalawella (Right am Riff, bei großem Swell) und Dewata bei Galle (für Anfänger)",
+   "beginner_months": "November–April: Anfänger fahren zum sanften Beachbreak von Kabalana (5–10 Minuten mit dem Tuk-Tuk), an kleinen Tagen lernen sie auch am Strand von Koggala. Von Mai bis Mitte Oktober weht der Südwestmonsun vom Meer, die Wellen sind unruhig und stürmisch – keine Lernsaison",
+   "pros": [
+    "Ruhig und weniger voll als Weligama und Ahangama",
+    "Spots für jedes Level in der Nähe: vom Beachbreak in Kabalana bis zum Riff The Rock",
+    "Galle, Unawatuna und Ahangama in 15–25 Minuten",
+    "Ganzjährig warmes Wasser"
+   ],
+   "cons": [
+    "Kein starker eigener Spot – für gute Wellen fährt man mit dem Tuk-Tuk",
+    "Der Strand von Koggala bricht oft direkt am Ufer (Shorebreak)",
+    "Mai bis Mitte Oktober Südwestmonsun: auflandiger Wind und unruhige Wellen – keine Saison"
+   ],
+   "airport": "CMB — Colombo (Bandaranaike), ~2–2,5 Std. über die Schnellstraße; HRI — Mattala, ~1,5 Std.",
+   "best_wind_dir": "N–NE (Nordostmonsun, offshore)"
   }
  }
 }
