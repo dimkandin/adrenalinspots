@@ -381,6 +381,7 @@ a:hover { color: var(--sea-2); }
 .rose .petal { fill: var(--sea); fill-opacity: 0.85; stroke: #fff; stroke-width: 1; }
 .rose .center { fill: var(--ink); }
 .source { margin: 8px 0 0; font-size: 12px; color: var(--ink-3); line-height: 1.45; }
+.source.surf-off { color: var(--warn); background: var(--warn-bg); border-radius: var(--r-s); padding: 6px 9px; }
 
 .fc { display: grid; gap: 2px; }
 .fc-row { display: grid; grid-template-columns: 54px 18px 1fr 150px; gap: 10px; align-items: center; padding: 5px 0; }

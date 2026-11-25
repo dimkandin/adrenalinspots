@@ -342,6 +342,10 @@ function swellBlock(spot, month) {
     fact(t('card.surf_days'), pct(e.surf_prob)),
     fact(t('card.tide_range'), e.tide_m != null ? metres(e.tide_m) : '—'),
     fact(t('card.clean_mornings'), pct(e.clean_prob))));
+  // the model sees swell offshore, not how the spot handles it: in an off-season month say so, or «98% days with swell» misleads
+  if ((spot.seasons || [])[month - 1] === 'off' && e.surf_prob != null && e.surf_prob >= 50) {
+    wrap.append(h('p', { class: 'source surf-off' }, t('card.surf_off_note')));
+  }
   wrap.append(h('p', { class: 'source' }, era5 ? t('card.swell_source', { period: spot.climate_periods.era5 || '' }) : t('card.swell_pending')));
   return wrap;
 }
@@ -1034,6 +1038,23 @@ function tripWhen(tr) {
   }
   return tr.kind === 'private' ? t('card.trip_by_arrangement') : '';
 }
+/** Trip prices are stored as the organizer gives them, with a few Russian words («от €999 за неделю»): other languages get them translated. */
+const PRICE_WORDS = {
+  en: ['cabin from', 'from', 'deposit', 'per place', 'for two', 'per day per group', 'per day', 'for pilots', 'per week', 'incl. flights', 'excl. flights', '+ fees', 'per person'],
+  de: ['Kabine ab', 'ab', 'Anzahlung', 'pro Platz', 'für zwei', 'pro Tag und Gruppe', 'pro Tag', 'für Piloten', 'pro Woche', 'inkl. Flug', 'ohne Flug', '+ Gebühren', 'pro Person'],
+  es: ['camarote desde', 'desde', 'depósito', 'por plaza', 'para dos', 'por día y grupo', 'por día', 'para pilotos', 'por semana', 'con vuelo', 'sin vuelo', '+ tasas', 'por persona'],
+  fr: ['cabine dès', 'dès', 'acompte', 'par place', 'pour deux', 'par jour et par groupe', 'par jour', 'pour les pilotes', 'par semaine', 'vol inclus', 'hors vol', '+ taxes', 'par personne'],
+  it: ['cabina da', 'da', 'acconto', 'a posto', 'in due', 'al giorno per gruppo', 'al giorno', 'per piloti', 'a settimana', 'volo incluso', 'volo escluso', '+ tasse', 'a persona'],
+  pt: ['cabine a partir de', 'a partir de', 'sinal', 'por vaga', 'para dois', 'por dia por grupo', 'por dia', 'para pilotos', 'por semana', 'com voo', 'sem voo', '+ taxas', 'por pessoa'],
+};
+const PRICE_RU = [/^каюта от /, /^от /, /^депозит /, / за место$/, / за двоих$/, / в день за группу$/, / в день$/, / для пилотов$/, / (?:за неделю|в неделю)$/, / с перелётом$/, / без перелёта$/, / \+ сборы$/, / с человека$/];
+function tripPrice(p) {
+  const words = PRICE_WORDS[lang];
+  if (!words || !CYR.test(p)) return p;
+  let out = p;
+  PRICE_RU.forEach((re, i) => { out = out.replace(re, (m) => (m.startsWith(' ') ? ` ${words[i]}` : `${words[i]} `)); });
+  return CYR.test(out) ? p : out;     // a phrase we can't translate (rouble trips are for Russian speakers anyway): keep it as is
+}
 /** Links to organizers carry UTM tags, so they see in their own analytics how many people came from the map. */
 function utm(url, spot) {
   try {
@@ -1107,7 +1128,7 @@ function tripsBlock(spot, month, c) {
           h('span', {}, tripWhen(tr)),
           lv === 2 ? h('span', { class: 'sc-kind' }, t(tr.kind === 'private' ? 'card.trip_private' : 'card.trip_group')) : null,
           lv === 2 && tl(tr).length ? h('span', { class: 'sc-langs', title: t('card.school_langs') }, tl(tr).map((x) => x.toUpperCase()).join(' · ')) : null,
-          tr.price ? h('span', { class: 'trip-price', title: t('card.trip_price_title') }, tr.price) : null),
+          tr.price ? h('span', { class: 'trip-price', title: t('card.trip_price_title') }, tripPrice(tr.price)) : null),
         lv === 2 && note ? h('p', { class: 'trip-note' }, note) : null,
         h('p', { class: 'trip-org' }, `${t('card.trip_org')}: `, orgEl,
           lv === 2 && (org[`person_${lang}`] || org[`person_${tripLang()}`]) ? ` — ${org[`person_${lang}`] || org[`person_${tripLang()}`]}` : '',

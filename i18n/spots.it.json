@@ -3299,14 +3299,14 @@
    "best_wind_dir": "W–SW (monsone di sud-ovest, offshore)"
   },
   "sri-lanka-weligama": {
-   "h": "79456154ec",
-   "description": "Weligama è una lunga baia sabbiosa nel sud dello Sri Lanka e il principale punto dell'isola per imparare a surfare. Da novembre ad aprile soffia il monsone di nord-est (offshore) e i piccoli swell da sud-ovest danno onde morbide e dolci, su cui i principianti si alzano in piedi. Tutt'intorno decine di scuole e surf camp, molti con istruttori di lingua russa, e a 10–30 minuti i reef di Midigama e Mirissa e la baia di Hiriketiya per gli intermedi.",
+   "h": "e0dcfe076c",
+   "description": "Weligama è una lunga baia sabbiosa nel sud dello Sri Lanka e il principale punto dell'isola per imparare a surfare. Da novembre ad aprile soffia il monsone di nord-est (offshore) e i piccoli swell da sud-ovest danno onde morbide e dolci, su cui i principianti si alzano in piedi. La baia funziona solo con swell piccolo: da circa 2 m l'onda chiude su tutta la linea, quindi da maggio a metà ottobre (monsone di sud-ovest) qui è fuori stagione. Tutt'intorno decine di scuole e surf camp, molti con istruttori di lingua russa, e a 10–30 minuti i reef di Midigama e Mirissa e la baia di Hiriketiya per gli intermedi.",
    "rating_basis": "Il posto più popolare per imparare in Sri Lanka e la «capitale russa del surf» dell'isola: decine di scuole e surf camp (anche in lingua russa). La qualità dell'onda in sé è modesta (surf-forecast ~2/5), ma nei dintorni ci sono reef per intermedi: Mirissa, Midigama, Rams",
-   "hazards": "Folla di principianti e tavole volanti, acqua inquinata in parte della baia, correnti con onde grandi d'estate; sui reef vicini (Midigama, Mirissa) reef basso, coralli e ricci di mare",
+   "hazards": "Folla di principianti e tavole volanti, acqua inquinata in parte della baia, chiusure e correnti forti con swell da ~2 m (monsone, maggio–ottobre); sui reef vicini (Midigama, Mirissa) reef basso, coralli e ricci di mare",
    "crowd_note": "Nella baia ci sono contemporaneamente decine di allievi e scuole, soprattutto a dicembre–marzo; anche sui reef di Midigama e a Hiriketiya c'è gente in alta stagione, più spazio al mattino presto",
    "region": "Costa sud (distretto di Matara), Oceano Indiano",
    "area_breaks": "Nei dintorni: Mirissa (sinistra su reef e Mirissa Right, intermedi), Madiha e Rams (reef per esperti), Midigama (Lazy Left/Lazy Right, Coconut Point, Plantation), Ahangama e Kabalana (spiaggia e reef); ~30 km a est Hiriketiya (baia a ferro di cavallo: sinistra su reef e beach break morbido, tutti i livelli)",
-   "beginner_months": "Novembre–aprile è la stagione migliore per imparare: onde morbide nella baia sabbiosa quasi ogni giorno, e le maree contano poco. D'estate le scuole lavorano comunque, ma le onde sono più grandi e il vento soffia dal mare",
+   "beginner_months": "Novembre–aprile è la stagione per imparare: onde morbide nella baia sabbiosa quasi ogni giorno, la marea conta poco. Da maggio a metà ottobre soffia dal mare il monsone di sud-ovest e lo swell grande chiude nella baia: allora si surfa sulla costa est dell'isola, ad Arugam Bay",
    "pros": [
     "Posto ideale per le prime lezioni: sabbia e onde morbide",
     "Tantissime scuole e surf camp in lingua russa",
@@ -3316,11 +3316,12 @@
    "cons": [
     "Ressa in acqua in alta stagione",
     "L'onda della baia offre poco agli esperti",
-    "Da giugno a settembre onshore e mareggiate del monsone di sud-ovest",
+    "Da maggio a metà ottobre monsone di sud-ovest: vento dal mare, e lo swell da ~2 m chiude in tutta la baia — fuori stagione",
     "In alcuni punti l'acqua della baia è sporca (porto peschereccio, scarichi)"
    ],
    "airport": "CMB — Colombo (Bandaranaike), ~2,5–3 h in autostrada; HRI — Mattala, ~1,5 h",
-   "best_wind_dir": "N–NE (monsone di nord-est, offshore)"
+   "best_wind_dir": "N–NE (monsone di nord-est, offshore)",
+   "vibe_note": "Niente discoteche, ma tanti bar e locali per far festa, a Weligama stessa e nelle vicine Mirissa e Ahangama."
   },
   "imsouane-the-bay": {
    "h": "4e44745c5a",
@@ -3707,8 +3708,8 @@
    "best_wind_dir": "E–SE (offshore)"
   },
   "ericeira-ribeira-d-ilhas": {
-   "h": "cda277937d",
-   "description": "Una lunga destra lungo una baia rocciosa 3 km a nord di Ericeira, il simbolo della capitale del surf del Portogallo. Ribeira d'Ilhas regge swell da 0,5 a 3+ m, funziona con qualsiasi marea ed è più indulgente dei reef vicini. Tutt'intorno una vera collezione di onde per ogni livello, scuole, surf camp e ostelli, e Lisbona è a 50 km.",
+   "h": "8862b4a911",
+   "description": "Una lunga destra lungo una baia rocciosa 3 km a nord di Ericeira, il simbolo della capitale del surf del Portogallo. Ribeira d'Ilhas regge swell da 0,5 a 3+ m, funziona con quasi qualsiasi marea (meglio a mezza marea) ed è più indulgente dei reef vicini. Tutt'intorno una vera collezione di onde per ogni livello, scuole, surf camp e ostelli, e Lisbona è a 50 km.",
    "rating_basis": "Uno dei migliori point break destri d'Europa (Surfertoday), ex sede di tappe WSL; Ericeira è la prima World Surfing Reserve d'Europa (2011), con una decina di ottimi reef nel raggio di 10 km",
    "hazards": "Rocce e reef in line-up (soprattutto con marea molto bassa), correnti di risacca con swell grande, ricci di mare",
    "crowd_note": "Nei giorni buoni e nel weekend il line-up è fitto e competitivo, con molte scuole; nei giorni feriali al mattino e sui reef vicini c'è più spazio",
@@ -3754,9 +3755,9 @@
    "best_swell_dir": "W–NW (periodo lungo, 13+ s)"
   },
   "peniche-supertubos": {
-   "h": "895a8b21a5",
-   "description": "Peniche è una penisola-isola con spiagge rivolte a nord, a sud e a ovest, per cui c'è quasi sempre un posto dove surfare. Supertubos è un'onda veloce e tubolare su sabbia (meglio le sinistre), sede di una tappa del campionato mondiale; accanto, a Baleal, c'è una delle principali baie «scuola» d'Europa. Una buona scelta sia per il primo viaggio sia per chi sta progredendo.",
-   "rating_basis": "Supertubos è la «Pipeline europea», tappa del campionato mondiale WSL (MEO Rip Curl Pro Portugal) ogni ottobre; Surfertoday lo definisce il miglior tubo d'Europa. La penisola, con coste di orientamento diverso, offre uno spot che funziona con quasi qualsiasi vento",
+   "h": "dc7cddcf8f",
+   "description": "Peniche è una penisola-isola con spiagge rivolte a nord, a sud e a ovest, per cui c'è quasi sempre un posto dove surfare. Supertubos è un'onda veloce e tubolare su sabbia (sinistre e destre), sede di una tappa del campionato mondiale; accanto, a Baleal, c'è una delle principali baie «scuola» d'Europa. Una buona scelta sia per il primo viaggio sia per chi sta progredendo.",
+   "rating_basis": "Supertubos è la «Pipeline europea», tappa del campionato mondiale WSL (MEO Rip Curl Pro Portugal) (nel 2022–2025 a marzo, nel 2026 dal 22 ottobre al 1º novembre); Surfertoday lo definisce il miglior tubo d'Europa. La penisola, con coste di orientamento diverso, offre uno spot che funziona con quasi qualsiasi vento",
    "hazards": "Tubi potenti e close-out su un banco di sabbia basso a Supertubos, correnti di risacca, rocce a Consolação e Gigi, folla in line-up",
    "crowd_note": "Supertubos è sempre pieno quando funziona; d'estate a Baleal ci sono code per le lezioni e folle di scuole. A Areia Branca e Pico da Mota c'è molto più spazio",
    "region": "Costa d'Argento (Silver Coast), Atlantico",
