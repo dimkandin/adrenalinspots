@@ -1111,7 +1111,10 @@ function tripsBlock(spot, month, c) {
     // short card without the description; 0 — the rest: one line «title — when»
     const level = (tr) => { const o = orgs[tr.org] || {}; return o.partner && !dateless(tr) ? 2 : (o.partner || o.contacted ? 1 : 0); };
     const start = (tr) => tr.from || tr.month || '9999';
-    pool.sort((a, b) => level(b) - level(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
+    // trips in the interface language go first, the English ones only fill the remaining places; then by level
+    // (otherwise English filler we wrote to pushed an Italian organizer behind «N more» on Niseko, 27.11)
+    const mine = (tr) => (tl(tr).includes(lang) ? 1 : 0);
+    pool.sort((a, b) => mine(b) - mine(a) || level(b) - level(a) || (now(b) ? 1 : 0) - (now(a) ? 1 : 0) || (a.kind === 'private') - (b.kind === 'private') || start(a).localeCompare(start(b)));
     const item = (tr, lv) => {
       const org = orgs[tr.org] || {};
       const title = tr[`title_${lang}`] || tr[`title_${tripLang()}`] || tr.title_ru || '';
@@ -1308,7 +1311,8 @@ export function renderPanel(spot, context) {
       : ownS.concat(here.filter((sc) => !sl(sc).includes(lang) && (sl(sc).includes('en') || !sl(sc).length)));
     const othersS = here.filter((sc) => !poolS.includes(sc));
     const lvS = (sc) => (sc.verified || sc.outreach === 'replied' ? 2 : sc.outreach === 'contacted' ? 1 : 0);
-    const list = [...poolS].sort((a, b) => lvS(b) - lvS(a) || sl(b).includes(lang) - sl(a).includes(lang));
+    const mineS = (sc) => (sl(sc).includes(lang) || (lang === 'en' && !sl(sc).length) ? 1 : 0);   // interface language first, as in trips
+    const list = [...poolS].sort((a, b) => mineS(b) - mineS(a) || lvS(b) - lvS(a));
     const ulS = h('ul', { class: 'schools' }, ...list.slice(0, SCHOOLS_SHOWN).map((sc) => schoolItem(sc, lvS(sc))));
     schools.append(ulS);
     const restS = list.slice(SCHOOLS_SHOWN);
